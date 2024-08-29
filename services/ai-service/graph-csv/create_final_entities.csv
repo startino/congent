@@ -1,0 +1,564 @@
+"id","name","type","description","human_readable_id","graph_embedding","text_unit_ids","description_embedding"
+"b45241d70f0e43fca764df95b2b81f77","PROJECT GUTENBERG","ORGANIZATION","""Project Gutenberg is a digital library that offers free access to a large collection of electronic works, primarily consisting of public domain texts. It aims to promote free access to these works and is synonymous with the free distribution of electronic works in formats readable by a wide variety of computers, including obsolete, old, middle-aged, and new computers. The collection includes notable works such as A Christmas Carol. Project Gutenberg exists because of the efforts of hundreds of volunteers and donations from people in all walks of life, and it distributes these electronic works without copyright restrictions in the United States.""",0,"","['1be1132bc37156f3c13686fb1aba8d65' '2a1c4af9f9c41823c64e689c2b4b45e9'
+ '38853a19a9f53b37c6dec725d881647b' 'd32b4992f5d1dcf627250d5809f6d78e'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[-0.03290227  0.03446197  0.04659297 ... -0.0106889   0.00432322
+ -0.02059796]"
+"4119fd06010c494caa07f439b333f4c5","CHARLES DICKENS","PERSON","Charles Dickens is the author of A Christmas Carol",1,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.05116824  0.01183844  0.00672354 ... -0.01625016  0.05590747
+  0.00983004]"
+"d3835bf3dda84ead99deadbeac5d0d7d","ARTHUR RACKHAM","PERSON","Arthur Rackham is the illustrator of A Christmas Carol",2,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.00505831  0.01903535 -0.04634694 ... -0.02735515  0.05640911
+  0.00827624]"
+"077d2820ae1845bcbb1803379a3d1eae","PHILADELPHIA","GEO","Philadelphia is one of the cities where the original publication of A Christmas Carol was released",3,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.02231822  0.02052208  0.01474532 ... -0.01951479  0.06160266
+ -0.00236046]"
+"3671ea0dd4e84c1a9b02c5ab2c8f4bac","NEW YORK","GEO","New York is one of the cities where the original publication of A Christmas Carol was released",4,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.00380516  0.00294238  0.01900495 ... -0.02477665  0.02518127
+ -0.0013916 ]"
+"19a7f254a5d64566ab5cc15472df02de","J. B. LIPPINCOTT COMPANY","ORGANIZATION","J. B. Lippincott Company is the publisher of the original 1915 edition of A Christmas Carol",5,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.01615524 -0.00681267 -0.01268566 ... -0.02376905  0.06717497
+  0.02025128]"
+"e7ffaee9d31d4d3c96e04f911d0a8f9e","A CHRISTMAS CAROL","EVENT","""A Christmas Carol is a novella by Charles Dickens, first published in 1843, and has been reprinted multiple times.""",6,"",['d32b4992f5d1dcf627250d5809f6d78e' 'f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.01211532 -0.00975062  0.00038552 ... -0.0126587   0.05482081
+  0.02388851]"
+"f7e11b0e297a44a896dc67928368f600","BOB CRATCHIT","PERSON","""Bob Cratchit is a character in A Christmas Carol by Charles Dickens. He is the humble and obedient clerk of Ebenezer Scrooge, working hard to support his family despite earning a modest income of fifteen 'Bob' a week. Bob lives in a modest four-roomed house and is the loving and caring father of the Cratchit family, which includes his son, Tiny Tim. Despite his employer's harsh attitude, Bob enjoys Christmas and maintains a positive spirit. He is depicted as a poor man who, despite his struggles, remains devoted to his family. Bob is known for his kindness, as seen when he takes Tiny Tim beside him at the table and proposes a toast. Throughout the story, Bob's dedication and hard work are recognized by Scrooge, who eventually promises him a raise and assistance for his struggling family, even planning to send a large turkey to the Cratchit household.""",7,"","['2c2dc4d6383dc21e5c198e42cbb99426' '31162003185eeb0ce0f4b4f2031e01c7'
+ '49d69adfdaf6f3f17e1e03fc4c6f561f' '5c23d6ea344fb1e7d1da42af94e77372'
+ '6241708a162f42e9a6df0486b17dfc40' 'aacc244b408aedd1b59271b08a207bf8'
+ 'd1ffbd0a1d292732b8530b80890ce309' 'd32b4992f5d1dcf627250d5809f6d78e'
+ 'd4e73f42abc059b1a9108741c4d88216' 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.0113205   0.01557104 -0.03813865 ... -0.03593693  0.03079959
+  0.03774723]"
+"1fd3fa8bb5a2408790042ab9573779ee","PETER CRATCHIT","PERSON","""Peter Cratchit is a character in A Christmas Carol and the eldest son of Bob and Mrs. Cratchit. He is described as wearing a monstrous shirt-collar and is eager to show off his attire. Peter is one of Bob Cratchit's children who is considering a job opportunity. Additionally, he helps with household tasks like mashing potatoes.""",8,"","['5c23d6ea344fb1e7d1da42af94e77372' 'd4e73f42abc059b1a9108741c4d88216'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.01779218  0.03648887 -0.05674085 ... -0.03629032  0.0412761
+  0.0362462 ]"
+"27f9fbe6ad8c4a8b9acee0d3596ed57c","TIM CRATCHIT","PERSON","""Tim Cratchit, also known as Tiny Tim, is a character in A Christmas Carol, and the youngest son of Bob Cratchit""",9,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.003084    0.02921801 -0.07662016 ... -0.03177658  0.05839032
+  0.04920687]"
+"e1fd0e904a53409aada44442f23a51cb","MR. FEZZIWIG","PERSON","""Mr. Fezziwig is a character in A Christmas Carol, known for being a kind-hearted, jovial old merchant""",10,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.02058691  0.00535149 -0.07982408 ... -0.03696789  0.03504202
+  0.01437763]"
+"de988724cfdf45cebfba3b13c43ceede","FRED","PERSON","""Fred is a character in A Christmas Carol, and the nephew of Ebenezer Scrooge. He welcomes Scrooge warmly to dinner and hosts a game, expressing admiration and merriment towards his uncle. Fred laughs heartily and discusses Scrooge's attitude towards Christmas and his wealth, showcasing his cheerful and kind-hearted nature.""",11,"","['82c0a321727c344d224f3b8eecb7414f' '830dc983cda4e0f65be2cd7bda53af2d'
+ 'aacc244b408aedd1b59271b08a207bf8' 'c5d03b00e276c74a61703fc395d9986e'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[-0.02446696 -0.01167402 -0.0527631  ... -0.040828    0.04965501
+  0.03438802]"
+"96aad7cb4b7d40e9b7e13b94a67af206","GHOST OF CHRISTMAS PAST","PERSON","""The Ghost of Christmas Past is a character in A Christmas Carol. This supernatural entity is one of the spirits that visits Ebenezer Scrooge, showing him scenes from his own past. The Ghost of Christmas Past reveals various moments from Scrooge's earlier life, including his interactions with a young girl, to help him reflect on his actions and choices.""",12,"","['049179e7a263fe875bc7d96cb467d2df' 'a5542daff1f84544382712afa48d5013'
+ 'c71d3978e7161b729eb972b930f85473' 'e1c29aeda4d9b63f6e9026ca40c75eef'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.01097824  0.01086225 -0.0169922  ... -0.01925396  0.05265842
+  0.01848844]"
+"c9632a35146940c2a86167c7726d35e9","GHOST OF CHRISTMAS PRESENT","PERSON","""The Ghost of Christmas Present is a character in A Christmas Carol, known for being kind, generous, and hearty. This jolly giant is one of the spirits that visits Scrooge, showing him the current state of the world and the impact of his actions. As a specific manifestation of the Spirit, the Ghost of Christmas Present reveals the current joys and hardships of Christmas, including scenes of people celebrating the holiday. Notably, the spirit visits Bob Cratchit's home and blesses it, further emphasizing its kind and benevolent nature. Through these supernatural encounters, the Ghost of Christmas Present aims to enlighten Scrooge about the present realities and the consequences of his behavior.""",13,"","['166b41d31c21bdff77c782c019c33814' '2c2dc4d6383dc21e5c198e42cbb99426'
+ '5c23d6ea344fb1e7d1da42af94e77372' 'c71d3978e7161b729eb972b930f85473'
+ 'd1ffbd0a1d292732b8530b80890ce309' 'e1c29aeda4d9b63f6e9026ca40c75eef'
+ 'e92f3fa91714308781a63c896cfeb313' 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.00012467  0.00969467 -0.03184144 ... -0.01937686  0.04314565
+  0.03755593]"
+"9646481f66ce4fd2b08c2eddda42fc82","GHOST OF CHRISTMAS YET TO COME","PERSON","""The Ghost of Christmas Yet to Come is a solemn Phantom and a character in A Christmas Carol. This spirit is one of the entities that visits Scrooge, showing him a grim and foreboding future if he does not change his ways. The Ghost of Christmas Yet to Come reveals shadows of things which may happen, presenting Scrooge with visions of the future to encourage him to alter his current path.""",14,"","['45b24611b322e5db19f24f40131624e6' 'c71d3978e7161b729eb972b930f85473'
+ 'db82f001863c7ecf263a682718181aba' 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[-0.00799186  0.00273494 -0.0404986  ...  0.00862311  0.05378567
+  0.01495408]"
+"d91a266f766b4737a06b0fda588ba40b","GHOST OF JACOB MARLEY","PERSON","""The Ghost of Jacob Marley is a character in A Christmas Carol, and the spectre of Scrooge's former business partner""",15,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[-0.01538542  0.01974845 -0.01003278 ... -0.02744663  0.02899939
+  0.05270628]"
+"bc0e3f075a4c4ebbb7c7b152b65a5625","JOE","PERSON","""Joe is a character in A Christmas Carol, known as a marine-store dealer and receiver of stolen goods. He is an old man who appraises and buys items from others. Additionally, Joe is involved in conversations about bed-curtains, further highlighting his role in the story.""",16,"","['830dc983cda4e0f65be2cd7bda53af2d' 'a50b8481d67f48139b84139edc701a3c'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.00690479  0.02661118 -0.06279834 ... -0.03704397  0.01769038
+  0.02252878]"
+"254770028d7a4fa9877da4ba0ad5ad21","EBENEZER SCROOGE","PERSON","""Ebenezer Scrooge is a character in A Christmas Carol, known for being a grasping, covetous old man and the surviving partner of the firm of Scrooge and Marley. He is deeply troubled by the apparition of the Ghost, with whom he interacts during the story. Scrooge is also mentioned in a financial context, highlighting his association with money and business. Additionally, his name appears on a neglected grave that he sees in a vision, symbolizing the lonely and unfulfilled life he leads.""",17,"","['a5a36092f82dc70e6af7cc096f793c31' 'b9bf87a171faa989022625f59a0d6cab'
+ 'bfd1f26b372f645db46a2f726cc2145a' 'db82f001863c7ecf263a682718181aba'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.00589025  0.02014024  0.01974364 ... -0.0414951   0.04199086
+  0.03906588]"
+"4a67211867e5464ba45126315a122a8a","MR. TOPPER","PERSON","""Mr. Topper is a character in A Christmas Carol, known as a bachelor""",18,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.01886252  0.01409065 -0.04589525 ... -0.03547528  0.04137203
+  0.03618573]"
+"04dbbb2283b845baaeac0eaf0c34c9da","DICK WILKINS","PERSON","Dick Wilkins is a character in A Christmas Carol. He is a fellow apprentice of Ebenezer Scrooge and was very much attached to him.",19,"",['913ae1c38936586e72223ab050f55270' 'f80de7a23de0088b7dbc1aa1a09e2d6e'],"[-0.00065238  0.03374498 -0.02000629 ... -0.05371552  0.02695309
+  0.02095954]"
+"1943f245ee4243bdbfbd2fd619ae824a","BELLE","PERSON","""BELLE is a character in A Christmas Carol, known as a comely matron and an old sweetheart of Scrooge's. She is also the wife of a man who knows Scrooge and mentions him in conversation.""",20,"",['ae4387f9ec8ef5335c4fbf6fd3f7d9b4' 'f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.02026889 -0.00971581 -0.0171175  ... -0.01455918  0.03881673
+ -0.00288538]"
+"273daeec8cad41e6b3e450447db58ee7","CAROLINE","PERSON","""Caroline is a character in A Christmas Carol, and the wife of one of Scrooge's debtors. She is a woman who feels a mix of hope and relief upon hearing about the death of a merciless creditor.""",21,"","['31162003185eeb0ce0f4b4f2031e01c7' '5e7ec9ebf31abc571127892d260fbe42'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.04329731  0.02548276  0.00252051 ... -0.00547061  0.05026416
+ -0.00018374]"
+"e69dc259edb944ea9ea41264b9fcfe59","MRS. CRATCHIT","PERSON","""Mrs. Cratchit is a character in A Christmas Carol and the wife of Bob Cratchit. She holds a negative opinion of Scrooge and is engaged in sewing and caring for her family. Despite their limited means, she is resourceful and makes the best of what they have. She is described as being dressed out but poorly, often wearing a twice-turned gown. Mrs. Cratchit is actively involved in preparing the family meal, including making the gravy and pudding for the family dinner. She also speaks about her children, Peter and Tiny Tim, highlighting her role as a dedicated and loving mother within the Cratchit family.""",22,"","['2c2dc4d6383dc21e5c198e42cbb99426' '31162003185eeb0ce0f4b4f2031e01c7'
+ '49d69adfdaf6f3f17e1e03fc4c6f561f' '5c23d6ea344fb1e7d1da42af94e77372'
+ 'd4e73f42abc059b1a9108741c4d88216' 'db82f001863c7ecf263a682718181aba'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.02582596  0.03107788 -0.01044361 ... -0.02630779  0.00799834
+  0.02606687]"
+"e2f5735c7d714423a2c4f61ca2644626","BELINDA CRATCHIT","PERSON","Belinda Cratchit is a character in A Christmas Carol and the second daughter of Bob and Mrs. Cratchit. She assists her mother with household chores and is described as being brave in ribbons.",23,"",['5c23d6ea344fb1e7d1da42af94e77372' 'f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.02888395  0.02607362 -0.00790684 ... -0.02402163  0.01963886
+  0.02370937]"
+"deece7e64b2a4628850d4bb6e394a9c3","MARTHA CRATCHIT","PERSON","""Martha Cratchit is a character in A Christmas Carol and the eldest daughter of Bob and Mrs. Cratchit. She works as an apprentice at a milliner's, which often causes her to arrive late to family gatherings. Despite her busy schedule, she is warmly welcomed by her family, reflecting the close-knit and loving nature of the Cratchit household.""",24,"","['5c23d6ea344fb1e7d1da42af94e77372' 'd4e73f42abc059b1a9108741c4d88216'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.02904247  0.05182401 -0.02600341 ... -0.01758315  0.02554641
+  0.03964491]"
+"e657b5121ff8456b9a610cfaead8e0cb","MRS. DILBER","PERSON","""Mrs. Dilber is a character in A Christmas Carol, known as a laundress. She is a woman who brought items to Joe for appraisal and sale, and she enters Old Joe's shop with a heavy bundle.""",25,"","['41d84d1d139c9c96c200cd2e537dcd0e' 'a50b8481d67f48139b84139edc701a3c'
+ 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.04120196  0.02680671 -0.06399021 ... -0.03759043  0.01227157
+ -0.00702595]"
+"bf4e255cdac94ccc83a56435a5e4b075","FAN","PERSON","""Fan is a character in A Christmas Carol, and the younger sister of Scrooge. She is known for bringing Scrooge home from school.""",26,"",['94a3a88e86bbbaa5704fa5cbcc1dd498' 'f80de7a23de0088b7dbc1aa1a09e2d6e'],"[-0.0086114  -0.00700548 -0.02227693 ... -0.01947716  0.06210391
+  0.03483346]"
+"3b040bcc19f14e04880ae52881a89c1c","MRS. FEZZIWIG","PERSON","""Mrs. Fezziwig is a character in A Christmas Carol, known for being the worthy partner and wife of Old Fezziwig. She is equally enthusiastic and skilled at dancing, often participating in the festivities with a substantial smile. Mrs. Fezziwig is celebrated for her joyful spirit and her role in dancing alongside Old Fezziwig, contributing to the lively and cheerful atmosphere.""",27,"","['830dc983cda4e0f65be2cd7bda53af2d' '913ae1c38936586e72223ab050f55270'
+ 'a5542daff1f84544382712afa48d5013' 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[ 0.06232003  0.01369887 -0.0455167  ... -0.02899035  0.03039833
+  0.00175275]"
+"3d6b216c14354332b1bf1927ba168986","JANET BLENKINSHIP","PERSON","Janet Blenkinship is one of the producers of the Project Gutenberg eBook of A Christmas Carol",28,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.0087276  -0.01719416  0.02378809 ... -0.04803016  0.04324076
+  0.00484047]"
+"1c109cfdc370463eb6d537e5b7b382fb","ONLINE DISTRIBUTED PROOFREADING TEAM","ORGANIZATION","The Online Distributed Proofreading Team is an organization that helped produce the Project Gutenberg eBook of A Christmas Carol",29,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.02973833  0.01301976 -0.01064021 ... -0.03067536  0.04024291
+ -0.00803872]"
+"3d0dcbc8971b415ea18065edc4d8c8ef","UNITED STATES","GEO","""The United States is a country where the Project Gutenberg eBook of A Christmas Carol is available for use without restrictions. It is also mentioned in the context of a financial security. Additionally, the United States is the country where the Project Gutenberg Literary Archive Foundation operates and complies with laws regulating charities and charitable donations in all 50 states.""",30,"","['2a1c4af9f9c41823c64e689c2b4b45e9' '38853a19a9f53b37c6dec725d881647b'
+ 'bfd1f26b372f645db46a2f726cc2145a' 'f80de7a23de0088b7dbc1aa1a09e2d6e']","[-0.00784449  0.00476567  0.02312127 ... -0.01480116  0.01240406
+  0.01721095]"
+"68105770b523412388424d984e711917","GHOST OF AN IDEA","EVENT","The Ghost of an Idea is a concept mentioned by Charles Dickens in the preface of A Christmas Carol",31,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.02403348  0.01578459 -0.02088464 ... -0.01944478  0.0251773
+ -0.00581661]"
+"85c79fd84f5e4f918471c386852204c5","SUZANNE SHELL","","",32,"",['f80de7a23de0088b7dbc1aa1a09e2d6e'],"[ 0.00833782  0.00920605 -0.02418655 ... -0.01863261  0.00305605
+ -0.01216218]"
+"eae4259b19a741ab9f9f6af18c4a0470","FEZZIWIG","PERSON","""FEZZIWIG is an old gentleman who was Scrooge's employer during his apprenticeship. He is an older man who is enthusiastic and skilled at dancing, often hosting domestic balls and spreading cheer. Old Fezziwig is a character who danced with Mrs. Fezziwig and is known for his jovial and benevolent nature. He runs a business and is particularly recognized for his lively and generous spirit, especially during Christmas Eve celebrations.""",33,"","['830dc983cda4e0f65be2cd7bda53af2d' '913ae1c38936586e72223ab050f55270'
+ '94a3a88e86bbbaa5704fa5cbcc1dd498' 'a5542daff1f84544382712afa48d5013']","[ 0.01624296  0.00639914 -0.03558612 ... -0.03412876  0.02190017
+ -0.00166272]"
+"3138f39f2bcd43a69e0697cd3b05bc4d","SCROOGE","PERSON","""Scrooge is the central character and protagonist of the narrative, known for his miserly, solitary, and cynical nature, particularly his disdain for Christmas and his unsympathetic attitude towards the poor and destitute. He is described as a tight-fisted, grasping, covetous old sinner, hard and sharp as flint, with a cold demeanor and a disdain for human sympathy. Scrooge is the surviving partner of Marley and is approached by gentlemen asking for charity during the festive season, to which he responds with his characteristic grumpiness and strictness.
+
+Throughout the story, Scrooge experiences a series of supernatural events and ghostly visitations that lead him to reflect on his past, present, and future. He is guided by various spirits, including the Ghost of Christmas Past, the Ghost of Christmas Yet to Come, and a Phantom, who show him scenes from his life and the lives of others, such as the Cratchit household and the impact of Fezziwig's kindness. These experiences cause Scrooge to question the actions and intentions of the spirits and reflect on his own life choices, particularly his pursuit of wealth and its impact on his relationships.
+
+Scrooge's journey includes interactions with the spirits where he learns valuable lessons, feels anxious and powerless, and shows concern for Tiny Tim's future. He is deeply affected by the scenes he witnesses, including a dark room with a dead man's body and the actions of Joe and others. These reflections and supernatural encounters lead to a significant transformation in Scrooge's character. He becomes generous and kind-hearted, especially towards Bob Cratchit and Tiny Tim, and experiences a change of heart, ultimately becoming a man who embraces the spirit of Christmas and human sympathy.
+
+In summary, Scrooge's character arc takes him from a miserly, solitary old man to a generous and kind-hearted individual, profoundly changed by the ghostly visitations and the reflections they provoke.""",34,"","['049179e7a263fe875bc7d96cb467d2df' '166b41d31c21bdff77c782c019c33814'
+ '2c2dc4d6383dc21e5c198e42cbb99426' '30833fc310ef3fbce4288ad1e15e9193'
+ '31162003185eeb0ce0f4b4f2031e01c7' '38cde9f8e64c2069b4b5b319dbf349e9'
+ '40faadc22320d6ac6e106fb8d904394c' '4148da19c3e2b758b5e76aaf8a87d55f'
+ '41d84d1d139c9c96c200cd2e537dcd0e' '45b24611b322e5db19f24f40131624e6'
+ '49d69adfdaf6f3f17e1e03fc4c6f561f' '5e7ec9ebf31abc571127892d260fbe42'
+ '6241708a162f42e9a6df0486b17dfc40' '82c0a321727c344d224f3b8eecb7414f'
+ '830dc983cda4e0f65be2cd7bda53af2d' '83efb547e8ff9bcf56847063451bcf45'
+ '94a3a88e86bbbaa5704fa5cbcc1dd498' 'a50b8481d67f48139b84139edc701a3c'
+ 'a5542daff1f84544382712afa48d5013' 'a5a36092f82dc70e6af7cc096f793c31'
+ 'a83e26f5f58a85755eed5289ff000057' 'ae4387f9ec8ef5335c4fbf6fd3f7d9b4'
+ 'b9bf87a171faa989022625f59a0d6cab' 'bfd1f26b372f645db46a2f726cc2145a'
+ 'c5d03b00e276c74a61703fc395d9986e' 'c71d3978e7161b729eb972b930f85473'
+ 'cfc969724972c8e235a12683cada1e5e' 'd1ffbd0a1d292732b8530b80890ce309'
+ 'd32b4992f5d1dcf627250d5809f6d78e' 'd4e73f42abc059b1a9108741c4d88216'
+ 'db82f001863c7ecf263a682718181aba' 'dc9abd3c09252239677d8ac5dbbc455d'
+ 'e1c29aeda4d9b63f6e9026ca40c75eef' 'e92f3fa91714308781a63c896cfeb313'
+ 'f1ddf18dc8103b0c139acec85361f1c5']","[-0.00651999  0.02595554 -0.02186188 ... -0.03088286  0.03329675
+  0.03374469]"
+"dde131ab575d44dbb55289a6972be18f","MARLEY","PERSON","""Marley is Scrooge's deceased business partner, who has been dead for seven years. In life, Marley was Scrooge's partner, and his face appears vividly in Scrooge's memory, even manifesting on the knocker of Scrooge's door. As a ghost, Marley appears to Scrooge, bound by a chain made of cash-boxes, keys, padlocks, ledgers, deeds, and heavy purses, symbolizing the burdens he carries from his earthly life.""",35,"","['166b41d31c21bdff77c782c019c33814' '38cde9f8e64c2069b4b5b319dbf349e9'
+ '6241708a162f42e9a6df0486b17dfc40' '830dc983cda4e0f65be2cd7bda53af2d'
+ 'a5a36092f82dc70e6af7cc096f793c31' 'a83e26f5f58a85755eed5289ff000057']","[-0.00927544  0.03037214 -0.04210453 ... -0.03392741 -0.00227918
+  0.03717794]"
+"de9e343f2e334d88a8ac7f8813a915e5","ST. PAUL'S CHURCHYARD","GEO","St. Paul's Churchyard is a location mentioned as a breezy spot",36,"",['830dc983cda4e0f65be2cd7bda53af2d'],"[ 0.01091465  0.00879011 -0.01033692 ... -0.03322227  0.04793251
+  0.01519478]"
+"e2bf260115514fb3b252fd879fb3e7be","TIM","PERSON","Tim is a character mentioned in relation to a blood-horse",37,"",['830dc983cda4e0f65be2cd7bda53af2d'],"[-0.01239427  0.01797025 -0.03646054 ...  0.00646438  0.02029598
+  0.03868515]"
+"b462b94ce47a4b8c8fffa33f7242acec","MARLEY'S GHOST","EVENT","""Marley's Ghost is a supernatural entity and the apparition of Jacob Marley. This ghostly figure appears to Ebenezer Scrooge, causing him great fear and disbelief. Marley's Ghost serves a crucial role by warning Scrooge about his impending fate and the forthcoming visits from three spirits. The event of Marley's Ghost appearing occurs when the bell tolls one, marking the beginning of Scrooge's transformative journey.""",38,"","['830dc983cda4e0f65be2cd7bda53af2d' '83efb547e8ff9bcf56847063451bcf45'
+ 'a83e26f5f58a85755eed5289ff000057' 'bfd1f26b372f645db46a2f726cc2145a']","[ 0.00627775  0.01171807 -0.03925705 ... -0.02396632 -0.00891055
+  0.0467036 ]"
+"17ed1d92075643579a712cc6c29e8ddb","SCROOGE'S NEPHEW","PERSON","""Scrooge's Nephew is a cheerful and warm-hearted character who visits Scrooge on Christmas Eve. He is known for his good-natured demeanor and his efforts to include Scrooge in Christmas celebrations. Scrooge's Nephew often laughs heartily and speaks about Scrooge's attitude towards Christmas, highlighting his own contrasting positive outlook on the holiday.""",39,"","['82c0a321727c344d224f3b8eecb7414f' 'dc9abd3c09252239677d8ac5dbbc455d'
+ 'e1c29aeda4d9b63f6e9026ca40c75eef']","[-0.00449103  0.02109898 -0.03112805 ... -0.05334137  0.04616551
+  0.01803761]"
+"3ce7c210a21b4deebad7cc9308148d86","COUNTING-HOUSE","ORGANIZATION","""The COUNTING-HOUSE is the office where Scrooge and Bob Cratchit work. It is characterized by its cold and bleak environment, reflecting the austere and frugal nature of its primary occupant, Scrooge.""",40,"",['6241708a162f42e9a6df0486b17dfc40' 'dc9abd3c09252239677d8ac5dbbc455d'],"[-0.00019913  0.01711504  0.05011081 ... -0.06520259  0.00886928
+  0.04237404]"
+"d64ed762ea924caa95c8d06f072a9a96","CHRISTMAS EVE","EVENT","""Christmas Eve is the day before Christmas, marked by various significant events and celebrations. It is celebrated by Bob Cratchit and the boys on Cornhill. Additionally, it is the occasion during which Fezziwig hosts a grand celebration filled with dancing, food, and merriment. On this day, Scrooge's nephew visits him at his counting-house. Christmas Eve is also the night on which the events in the text take place, making it a pivotal moment in the narrative.""",41,"","['6241708a162f42e9a6df0486b17dfc40' '913ae1c38936586e72223ab050f55270'
+ 'a5a36092f82dc70e6af7cc096f793c31' 'dc9abd3c09252239677d8ac5dbbc455d']","[ 0.02123631  0.01525111 -0.00522971 ... -0.02549298  0.04491844
+  0.01141187]"
+"adf4ee3fbe9b4d0381044838c4f889c8","CLERK","PERSON","""The CLERK is an employee of Scrooge, earning fifteen shillings a week and supporting a wife and family. He works in a dismal little cell beyond Scrooge's office, often trying to warm himself at a candle. After reflecting on Fezziwig's positive impact, Scrooge wishes to speak kindly to his clerk.""",42,"","['38cde9f8e64c2069b4b5b319dbf349e9' 'a5542daff1f84544382712afa48d5013'
+ 'dc9abd3c09252239677d8ac5dbbc455d']","[-0.00364938  0.04403401 -0.01537568 ... -0.06279073  0.01972273
+  0.02577372]"
+"32ee140946e5461f9275db664dc541a5","CITY","GEO","""The City is a bustling area characterized by its busy streets and shops, especially during Christmas-time. It is a central hub where merchants and business people gather, and it is also the location of Scrooge's counting-house, which is known for its foggy and cold weather. This city is not only where Scrooge's business friends are located but also where he lives and eventually becomes known as a good man. Additionally, it is the place where Scrooge and the Phantom find themselves surrounded by merchants.""",43,"","['30833fc310ef3fbce4288ad1e15e9193' '4148da19c3e2b758b5e76aaf8a87d55f'
+ '45b24611b322e5db19f24f40131624e6' '94a3a88e86bbbaa5704fa5cbcc1dd498'
+ 'd32b4992f5d1dcf627250d5809f6d78e' 'dc9abd3c09252239677d8ac5dbbc455d']","[-0.00612921 -0.01651236  0.018224   ... -0.05265831  0.02507059
+  0.03589424]"
+"c160b9cb27d6408ba6ab20214a2f3f81","CHRISTMAS","EVENT","""CHRISTMAS is a festive season that is central to the story and the characters' interactions. It is the holiday being celebrated by various characters in the text, including Scrooge's nephew and others, despite Scrooge himself despising it and considering it a humbug. The events and reflections of Scrooge take place during this holiday, which is marked by festive activities and decorations. Significant events, such as the domestic ball hosted by Fezziwig and Mrs. Fezziwig, who wished everyone a Merry Christmas, also occur during this time. Additionally, the Cratchit household's activities and celebrations are set against the backdrop of the Christmas season. Overall, Christmas is the holiday during which many of the key events in the story unfold.""",44,"","['166b41d31c21bdff77c782c019c33814' '31162003185eeb0ce0f4b4f2031e01c7'
+ '38cde9f8e64c2069b4b5b319dbf349e9' '94a3a88e86bbbaa5704fa5cbcc1dd498'
+ 'a5542daff1f84544382712afa48d5013' 'ae4387f9ec8ef5335c4fbf6fd3f7d9b4'
+ 'cfc969724972c8e235a12683cada1e5e' 'd32b4992f5d1dcf627250d5809f6d78e'
+ 'dc9abd3c09252239677d8ac5dbbc455d' 'e1c29aeda4d9b63f6e9026ca40c75eef'
+ 'e92f3fa91714308781a63c896cfeb313' 'f1ddf18dc8103b0c139acec85361f1c5']","[-0.00151164  0.0306236   0.01272535 ... -0.00771912  0.03947501
+  0.04037165]"
+"23527cd679ff4d5a988d52e7cd056078","NEPHEW","PERSON","NEPHEW is Scrooge's nephew who believes in the goodness of Christmas and tries to invite Scrooge to dine with him.",45,"",['38cde9f8e64c2069b4b5b319dbf349e9' '94a3a88e86bbbaa5704fa5cbcc1dd498'],"[-0.04765676 -0.00836884 -0.0087542  ... -0.0390246   0.04236442
+ -0.02203001]"
+"f1c6eed066f24cbdb376b910fce29ed4","PORTLY GENTLEMEN","PERSON","Two gentlemen who visit Scrooge's office to seek donations for charity",46,"",['38cde9f8e64c2069b4b5b319dbf349e9'],"[-0.01131367  0.00969956 -0.04241505 ... -0.04668943  0.04755626
+  0.04920026]"
+"83a6cb03df6b41d8ad6ee5f6fef5f024","SCROOGE AND MARLEY","ORGANIZATION","Scrooge and Marley is the name of the counting-house where Scrooge works. It represents the business partnership between Scrooge and Marley.",47,"",['38cde9f8e64c2069b4b5b319dbf349e9' 'd1ffbd0a1d292732b8530b80890ce309'],"[ 0.01640308  0.01242803 -0.00042392 ... -0.04609626  0.00334946
+  0.0719341 ]"
+"147c038aef3e4422acbbc5f7938c4ab8","PARLIAMENT","ORGANIZATION","The legislative body that Scrooge's nephew is suggested to join due to his powerful speaking",48,"",['38cde9f8e64c2069b4b5b319dbf349e9'],"[-0.00373309  0.0368106   0.01706747 ... -0.03627006  0.03999977
+  0.00383782]"
+"b7702b90c7f24190b864e8c6e64612a5","BEDLAM","ORGANIZATION","A mental institution that Scrooge mentions in a derogatory manner",49,"",['38cde9f8e64c2069b4b5b319dbf349e9'],"[-0.02172719  0.02663066  0.00466865 ... -0.01729335  0.01958624
+  0.00968953]"
+"de6fa24480894518ab3cbcb66f739266","GENTLEMAN","PERSON","The gentleman is one of the individuals who approaches Scrooge to ask for charity for the poor and destitute during the festive season.",50,"",['aacc244b408aedd1b59271b08a207bf8' 'f1ddf18dc8103b0c139acec85361f1c5'],"[-0.02023851  0.00177994 -0.02697605 ... -0.0160146   0.04493416
+  0.03962187]"
+"6fae5ee1a831468aa585a1ea09095998","UNION WORKHOUSES","ORGANIZATION","""Union workhouses are institutions mentioned by Scrooge that provide shelter and work for the poor, often under harsh conditions.""",51,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[-0.05076507  0.00926462  0.01253414 ... -0.01909734  0.01446804
+  0.00754828]"
+"ef32c4b208d041cc856f6837915dc1b0","TREADMILL","ORGANIZATION","""The Treadmill is an institution mentioned by Scrooge that is part of the Poor Law system, used to punish and reform the poor through hard labor.""",52,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[-0.01818975  0.04962753  0.04318751 ... -0.01253831  0.00958773
+  0.01096774]"
+"07b2425216bd4f0aa4e079827cb48ef5","POOR LAW","ORGANIZATION","""The Poor Law is a system mentioned by Scrooge that provides assistance to the poor, often through institutions like workhouses and the Treadmill.""",53,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[-0.02640446  0.02185281  0.03834642 ... -0.01430343  0.02192622
+  0.00947648]"
+"2670deebfa3f4d69bb82c28ab250a209","LORD MAYOR","PERSON","""The Lord Mayor is a figure who orders his household to keep Christmas in a grand manner, reflecting the festive spirit of the season.""",54,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[ 0.04302076  0.01466213  0.00604146 ... -0.03265309 -0.00390058
+  0.00501866]"
+"404309e89a5241d6bff42c05a45df206","MANSION HOUSE","GEO","""The Mansion House is the residence of the Lord Mayor, where he orders his household to celebrate Christmas.""",55,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[ 0.03780827  0.02407602  0.03838788 ... -0.03261409 -0.0188707
+ -0.00791388]"
+"b785a9025069417f94950ad231bb1441","ST. DUNSTAN","PERSON","""St. Dunstan is a historical figure mentioned in the context of the cold weather, known for his legendary battle with the Evil Spirit.""",56,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[-0.02650567 -0.02774244  0.03739409 ... -0.02973097  0.03693333
+  0.02534165]"
+"3b6cd96a27304614850709aba1c9598b","EVIL SPIRIT","PERSON","""The Evil Spirit is a mythical figure mentioned in the context of the cold weather, who would have been affected by the intense cold.""",57,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[-0.00348686  0.01612995 -0.01313383 ... -0.01682732  0.01571669
+  0.00104041]"
+"d54956b79dd147f894b67a8b97dcbef0","POOR","PERSON","The poor are the individuals who suffer greatly during the festive season and are in need of common necessaries and comforts.",58,"",['f1ddf18dc8103b0c139acec85361f1c5'],[0.03627445 0.00320159 0.02949342 ... 0.01881805 0.00294628 0.01296975]
+"958beecdb5bb4060948415ffd75d2b03","LONDON","GEO","""London is the city where the animal, which turns out to be Scrooge, lives and walks about. It is also the city where the events take place, characterized by fog, darkness, and cold during the festive season. Additionally, it is the location of Scrooge's house.""",59,"","['a5a36092f82dc70e6af7cc096f793c31' 'c5d03b00e276c74a61703fc395d9986e'
+ 'f1ddf18dc8103b0c139acec85361f1c5']","[-0.00418269 -0.00493819  0.02359677 ... -0.01610555  0.03475834
+  0.0487682 ]"
+"b999ed77e19e4f85b7f1ae79af5c002a","CHURCH","GEO","""The CHURCH is an ancient building located in the market-town that Scrooge recognizes from his past. It features a gruff old bell that becomes invisible in the fog and darkness, striking the hours and quarters.""",60,"","['049179e7a263fe875bc7d96cb467d2df' 'bfd1f26b372f645db46a2f726cc2145a'
+ 'f1ddf18dc8103b0c139acec85361f1c5']","[-0.01396079 -0.00672564  0.03136083 ... -0.03925836  0.01319652
+  0.03143726]"
+"48c0c4d72da74ff5bb926fa0c856d1a7","LORD MAYOR'S HOUSEHOLD","ORGANIZATION","The Lord Mayor's household is responsible for keeping Christmas in a grand manner as ordered by the Lord Mayor.",61,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[ 0.05395195  0.02557799  0.02427061 ... -0.02232896 -0.00404187
+ -0.01325499]"
+"4f3c97517f794ebfb49c4c6315f9cf23","TAILOR","PERSON","""The tailor is a character who was fined by the Lord Mayor for being drunk and bloodthirsty in the streets, and who prepares for Christmas with his family.""",62,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[ 0.01318315  0.06495467 -0.01431654 ...  0.00370507 -0.00053977
+ -0.03324619]"
+"1745a2485a9443bab76587ad650e9be0","TAILOR'S WIFE","PERSON","""The tailor's wife is a character who, along with her baby, goes out to buy beef for Christmas.""",63,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[-0.00709012  0.04728467 -0.04120006 ...  0.02284309  0.00910759
+ -0.00970702]"
+"32e6ccab20d94029811127dbbe424c64","TAILOR'S BABY","PERSON","The tailor's baby is a character who accompanies the tailor's wife to buy beef for Christmas.",64,"",['f1ddf18dc8103b0c139acec85361f1c5'],"[-0.00045852  0.04641239 -0.03252943 ...  0.02766402  0.01450706
+ -0.00756558]"
+"94a964c6992945ebb3833dfdfdc8d655","CITY OF LONDON","GEO","The City of London is the location where Scrooge lives and works",65,"",['6241708a162f42e9a6df0486b17dfc40'],"[-0.009271   -0.01468751  0.04074745 ... -0.04218585  0.03739865
+  0.01711483]"
+"1eb829d0ace042089f0746f78729696c","CAMDEN TOWN","GEO","Camden Town is the location to which Scrooge plans to send the turkey and is also the place where Bob Cratchit lives and runs home to after work.",66,"",['6241708a162f42e9a6df0486b17dfc40' 'd1ffbd0a1d292732b8530b80890ce309'],"[ 0.01076402  0.02128524  0.03940256 ... -0.00904131  0.02327387
+  0.01801326]"
+"015e7b58d1a14b44beab3bbc9f912c18","CHRISTMAS CAROL","EVENT","""A Christmas carol is a song traditionally sung during the Christmas season. In the context of the story involving Scrooge, a boy sang a Christmas carol at Scrooge's door, and it was also sung by a singer at Scrooge's keyhole.""",67,"",['30833fc310ef3fbce4288ad1e15e9193' '6241708a162f42e9a6df0486b17dfc40'],"[ 0.03897052  0.02302615 -0.01256913 ...  0.01132671  0.05648862
+  0.01287974]"
+"26f88ab3e2e04c33a459ad6270ade565","GREATCOAT","ORGANIZATION","""The greatcoat is a piece of clothing that Scrooge wears, symbolizing his stern and cold personality""",68,"",['6241708a162f42e9a6df0486b17dfc40'],"[ 0.03743779 -0.00504787 -0.04797131 ... -0.01007583  0.0466712
+  0.00056921]"
+"babe97e1d9784cffa1c85abc1e588126","BANKER'S BOOK","ORGANIZATION","The banker's book is a book that Scrooge reads to pass the time",69,"",['6241708a162f42e9a6df0486b17dfc40'],"[-0.01057063  0.00773152  0.00433155 ... -0.01702201  0.02628716
+  0.02211721]"
+"1033a18c45aa4584b2aef6ab96890351","ALDERMEN","PERSON","""Aldermen are officials in the City of London, mentioned in comparison to Scrooge's lack of fancy""",70,"",['6241708a162f42e9a6df0486b17dfc40'],"[ 0.01219721  0.0015008   0.00836173 ... -0.05842029  0.016434
+  0.00608874]"
+"c9b8ce91fc2945b4907fe35519339cac","LIVERY","PERSON","""Livery are members of the City of London, mentioned in comparison to Scrooge's lack of fancy""",71,"",['6241708a162f42e9a6df0486b17dfc40'],"[-0.00400276 -0.01687649 -0.00797567 ... -0.01356387  0.01165388
+  0.0126238 ]"
+"fa3c4204421c48609e52c8de2da4c654","CORN HILL","","",72,"",['6241708a162f42e9a6df0486b17dfc40'],"[-0.02535754 -0.01417255  0.03270137 ... -0.02656434  0.00016971
+ -0.01652729]"
+"53af055f068244d0ac861b2e89376495","DUTCH MERCHANT","PERSON","The Dutch merchant is the person who built the old fireplace in Scrooge's house",73,"",['a5a36092f82dc70e6af7cc096f793c31'],"[-0.01221135 -0.0199069  -0.0236478  ... -0.09197256  0.00796276
+  0.01796965]"
+"c03ab3ce8cb74ad2a03b94723bfab3c7","PHARAOH'S DAUGHTER","PERSON","Pharaoh's daughter is a biblical figure depicted on the Dutch tiles in Scrooge's fireplace",74,"",['a5a36092f82dc70e6af7cc096f793c31'],"[ 0.01706932  0.00251934 -0.02745169 ... -0.05720275  0.04941304
+ -0.00984272]"
+"ed6d2eee9d7b4f5db466b1f6404d31cc","QUEEN OF SHEBA","PERSON","Queen of Sheba is a biblical figure depicted on the Dutch tiles in Scrooge's fireplace",75,"",['a5a36092f82dc70e6af7cc096f793c31'],"[ 0.01013729 -0.01382414  0.01053121 ... -0.04879687  0.02737745
+  0.02077929]"
+"fc01e9baa80e417c9206f941bb279407","ABRAHAM","PERSON","Abraham is a biblical figure depicted on the Dutch tiles in Scrooge's fireplace",76,"",['a5a36092f82dc70e6af7cc096f793c31'],"[-0.01405966  0.04215405  0.00379848 ... -0.04205433  0.00634118
+  0.01240815]"
+"56d0e5ebe79e4814bd1463cf6ca21394","BELSHAZZAR","PERSON","Belshazzar is a biblical figure depicted on the Dutch tiles in Scrooge's fireplace",77,"",['a5a36092f82dc70e6af7cc096f793c31'],"[-0.03981366  0.01245699 -0.00860013 ... -0.06246767  0.03245179
+ -0.00872869]"
+"7c49f2710e8b4d3b8dc9310834406ea5","ANGELIC MESSENGER","PERSON","Angelic messengers are biblical figures depicted on the Dutch tiles in Scrooge's fireplace",78,"",['a5a36092f82dc70e6af7cc096f793c31'],"[-0.01385291  0.01409016 -0.00150589 ... -0.0634255   0.02723132
+  0.0162518 ]"
+"c6d1e4f56c2843e89cf0b91c10bb6de2","APOSTLE","PERSON","Apostles are biblical figures depicted on the Dutch tiles in Scrooge's fireplace",79,"",['a5a36092f82dc70e6af7cc096f793c31'],"[ 0.00774135  0.00492661 -0.011842   ... -0.04931144  0.01641555
+  0.01326071]"
+"0adb2d9941f34ef7b2f7743cc6225844","WINE-MERCHANT'S CELLAR","GEO","The wine-merchant's cellar is a location in Scrooge's house where he hears strange noises",80,"",['a5a36092f82dc70e6af7cc096f793c31'],"[-0.04603667  0.0229671  -0.01441048 ... -0.05426025  0.02000815
+  0.01984162]"
+"6b02373137fd438ba96af28f735cdbdb","JACOB MARLEY","PERSON","""Jacob Marley is a ghostly apparition who was once the business partner of Ebenezer Scrooge. Now deceased, Marley is condemned to wander the earth. His memory haunts Scrooge, vividly reminding him of his past. Marley plays a crucial role in the story by predicting the arrival of the Phantom and warning Scrooge of the impending visits from other spirits.""",81,"","['45b24611b322e5db19f24f40131624e6' 'a5a36092f82dc70e6af7cc096f793c31'
+ 'a83e26f5f58a85755eed5289ff000057' 'ae4387f9ec8ef5335c4fbf6fd3f7d9b4'
+ 'b9bf87a171faa989022625f59a0d6cab' 'c71d3978e7161b729eb972b930f85473'
+ 'e1c29aeda4d9b63f6e9026ca40c75eef']","[-0.00027264 -0.00631937 -0.01147287 ... -0.04003396  0.01777535
+  0.06492845]"
+"36a4fcd8efc144e6b8af9a1c7ab8b2ce","GHOST","PERSON","""GHOST is a supernatural being that interacts with Scrooge, guiding him through various scenes from his past, present, and future to prompt reflection on his life and actions. This spirit shows Scrooge visions of his memories and potential future, including the fate of Tiny Tim, to teach him valuable lessons and warn him about his own fate. Described as a strange figure resembling both a child and an old man, the Ghost's appearances cause Scrooge to question his senses and reality. Through these supernatural visits, the Ghost aims to make Scrooge aware of the impact of his actions and encourage him to change his ways.""",82,"","['166b41d31c21bdff77c782c019c33814' '30833fc310ef3fbce4288ad1e15e9193'
+ '31162003185eeb0ce0f4b4f2031e01c7' '40faadc22320d6ac6e106fb8d904394c'
+ '45b24611b322e5db19f24f40131624e6' '49d69adfdaf6f3f17e1e03fc4c6f561f'
+ '83efb547e8ff9bcf56847063451bcf45' '913ae1c38936586e72223ab050f55270'
+ '94a3a88e86bbbaa5704fa5cbcc1dd498' 'a5542daff1f84544382712afa48d5013'
+ 'a83e26f5f58a85755eed5289ff000057' 'ae4387f9ec8ef5335c4fbf6fd3f7d9b4'
+ 'bfd1f26b372f645db46a2f726cc2145a' 'c5d03b00e276c74a61703fc395d9986e'
+ 'd4e73f42abc059b1a9108741c4d88216']","[-0.03779624  0.01869721 -0.01751686 ... -0.02495054  0.01660021
+  0.02629413]"
+"fbeef791d19b413a9c93c6608286ab63","THE GHOST","PERSON","""The Ghost is the spirit of Jacob Marley, who is visiting Scrooge to warn him about the consequences of his actionsThe Ghost is the spirit of Jacob Marley, who is visiting Ebenezer Scrooge to warn him about the consequences of his actions""",83,"",['b9bf87a171faa989022625f59a0d6cab'],"[-0.01686244  0.02349722 -0.00071528 ... -0.02669982  0.0287201
+  0.03801797]"
+"d2b629c0396f4180a03e16ddf3818589","THE WARD","PERSON","The Ward is mentioned as a figure who would have been justified in indicting the Ghost for a nuisance",84,"",['b9bf87a171faa989022625f59a0d6cab'],"[ 0.00909964  0.02816305 -0.03432466 ... -0.00494056  0.01877036
+ -0.02323377]"
+"6102fc6619ed422ebc42588bfa97355d","JACOB","PERSON","Jacob is Scrooge's old partner whose death is being discussed. He is now a ghost who was once a friend of Scrooge and warns him about the visits from three spirits.",85,"",['4148da19c3e2b758b5e76aaf8a87d55f' '83efb547e8ff9bcf56847063451bcf45'],"[-0.04728474 -0.02056547  0.01460397 ... -0.03898163  0.04477345
+  0.05131186]"
+"8d141c0b80f74b79a05eed7fe161fe49","THE THREE SPIRITS","EVENT","The three spirits are supernatural entities that will visit Scrooge to show him the consequences of his actions",86,"",['83efb547e8ff9bcf56847063451bcf45'],"[-0.02261785  0.02877909 -0.00017451 ... -0.02803227  0.01630993
+  0.02699206]"
+"e22d1d1cd8d14f12b81828d940f40d70","EBENEZER","PERSON","""Ebenezer, also known as Scrooge, is a young man who was formerly an apprentice under Fezziwig. He is now reminiscing about his past. As the main character, he is visited by ghosts, which plays a significant role in his story.""",87,"",['83efb547e8ff9bcf56847063451bcf45' '913ae1c38936586e72223ab050f55270'],"[ 0.01540916 -0.00178505 -0.0008269  ... -0.04725127  0.04370742
+  0.02210309]"
+"9ab48505fb1b487babd0d1f6d3a3f980","PHANTOMS","PERSON","""Phantoms are supernatural entities wandering in the air, wearing chains like Marley's Ghost""",88,"",['83efb547e8ff9bcf56847063451bcf45'],"[ 0.01947561  0.06708267 -0.03942286 ... -0.04533213 -0.00071438
+  0.01379523]"
+"148fffeb994541b2b4b6dcefda7001a8","NEIGHBOURING CHURCH","ORGANIZATION","The neighbouring church is a place of worship whose chimes Scrooge hears",89,"",['83efb547e8ff9bcf56847063451bcf45'],"[-0.03486413  0.00404142  0.02335044 ... -0.0440389   0.01172691
+  0.03781039]"
+"89c08e793298442686292454a1abff31","INFANT","PERSON","The infant is a wretched child seen by a ghost who is unable to assist it",90,"",['83efb547e8ff9bcf56847063451bcf45'],"[-0.00588158  0.05709929 -0.01582726 ...  0.01226802  0.0265807
+  0.02562147]"
+"0467928aa65e4a4fba62bdb1467e3a54","WRETCHED WOMAN","PERSON","The wretched woman is seen by a ghost who is unable to assist her and her infant",91,"",['83efb547e8ff9bcf56847063451bcf45'],"[-0.00056742  0.04593929 -0.01382028 ...  0.0068524   0.03223449
+ -0.00122548]"
+"43c3390303c6476cb65f584e37c3e81c","BED","EVENT","""The bed is where the dead man's body is placed. Additionally, it is the setting for the event where Scrooge wakes up and is unable to distinguish the window from the walls.""",92,"",['5e7ec9ebf31abc571127892d260fbe42' 'bfd1f26b372f645db46a2f726cc2145a'],"[-0.0236209   0.02032496  0.0030244  ... -0.01863953  0.03023775
+  0.01650467]"
+"fa14b16c17e3417dba5a4b473ea5b18d","WINDOW","EVENT","The event of Scrooge groping his way to the window and rubbing the frost off to see outside",93,"",['bfd1f26b372f645db46a2f726cc2145a'],"[-0.04124669  0.00928327 -0.05626556 ... -0.05159977  0.02234886
+  0.02965123]"
+"7cc3356d38de4328a51a5cbcb187dac3","VISITATION","EVENT","""The event Marley’s Ghost warned Scrooge about, which would occur when the bell tolled one""",94,"",['bfd1f26b372f645db46a2f726cc2145a'],"[-0.01554394  0.01305892 -0.02398578 ... -0.00928458  0.03100144
+  0.02899902]"
+"bef16fb5fd7344cca5e295b13ef3e0cd","DRESSING-GOWN","EVENT","The event of Scrooge using his dressing-gown sleeve to rub the frost off the window",95,"",['bfd1f26b372f645db46a2f726cc2145a'],"[-0.00266243  0.03643626 -0.05270905 ... -0.03973058  0.02947844
+  0.02558774]"
+"bb9e01bc171d4326a29afda59ece8d17","HOLLY","EVENT","""HOLLY is a type of plant with crisp leaves that is part of the decorations in Scrooge's room. Additionally, it is notable for being held by the Ghost, who carries a branch of fresh green holly in its hand.""",96,"",['166b41d31c21bdff77c782c019c33814' 'bfd1f26b372f645db46a2f726cc2145a'],"[ 0.00651491  0.01563332  0.00485087 ... -0.03288769  0.00486315
+  0.00803157]"
+"3c063eea52e94164b70c99431ea30bae","SUMMER FLOWERS","EVENT","The event of the Ghost's dress being trimmed with summer flowers",97,"",['bfd1f26b372f645db46a2f726cc2145a'],"[ 0.05472235  0.0608287  -0.02680338 ... -0.01717413  0.02739053
+ -0.04383072]"
+"252cc8452bfc4c2aa58cab68d8b61879","LIGHT","EVENT","The event of a bright clear jet of light springing from the crown of the Ghost's head",98,"",['bfd1f26b372f645db46a2f726cc2145a'],"[ 0.01189417  0.03045607 -0.01011078 ...  0.00353768  0.03296011
+ -0.00541571]"
+"7e2c84548fb94ee395ba8588d8f2a006","CHRISTMAS PAST","EVENT","Christmas Past refers to the time period in Scrooge's life that the Ghost of Christmas Past is showing him",99,"",['049179e7a263fe875bc7d96cb467d2df'],"[-0.01042936  0.01139909  0.00139986 ... -0.01890673  0.06376486
+ -0.00608119]"
+"f034618dde7948beb6dab30176d0fc87","COUNTRY ROAD","GEO","An open country road with fields on either side where Scrooge and the Ghost of Christmas Past stand",100,"",['049179e7a263fe875bc7d96cb467d2df'],"[ 0.0309431   0.00607901 -0.00939254 ... -0.02484519  0.02330812
+  0.01042566]"
+"5c41f96be13e49dba649454297834546","RIVER","GEO","A winding river in the market-town that Scrooge recognizes from his past",101,"",['049179e7a263fe875bc7d96cb467d2df'],"[-0.00137759  0.00275693 -0.02365973 ... -0.02713336  0.05730788
+  0.02607313]"
+"7ea4afbf8a264f29af29950ce98105ba","MARKET-TOWN","","",102,"",['049179e7a263fe875bc7d96cb467d2df'],"[ 0.0390117  -0.00246482  0.01418728 ...  0.01197343  0.01501166
+ -0.00849641]"
+"91ff849d12b24574b0691dbddf44968b","ALI BABA","PERSON","Ali Baba is a character from a story that Scrooge recalls from his childhood",103,"",['30833fc310ef3fbce4288ad1e15e9193'],"[-0.01735869 -0.02574853 -0.00966705 ... -0.05235989  0.02956313
+  0.03757832]"
+"d73c1f2fb3094d8dace42ad2a76e9a52","VALENTINE","PERSON","Valentine is a character from a story that Scrooge recalls from his childhood",104,"",['30833fc310ef3fbce4288ad1e15e9193'],"[-0.00137888 -0.00244121 -0.04014648 ... -0.02318613  0.03241365
+  0.0317466 ]"
+"cdc8901e668749889bd49bebdc4ff1f6","ORSON","PERSON","""Orson is the wild brother of Valentine, characters from a story that Scrooge recalls from his childhood""",105,"",['30833fc310ef3fbce4288ad1e15e9193'],"[ 1.70170441e-02 -5.54360195e-05 -3.05506904e-02 ... -2.44224910e-02
+  4.06718953e-03  2.30549332e-02]"
+"36084a9fab53433493f079e97e68bf65","DAMASCUS","GEO","Damascus is a city mentioned in a story that Scrooge recalls from his childhood",106,"",['30833fc310ef3fbce4288ad1e15e9193'],"[ 0.0220573   0.01237038  0.01380236 ... -0.04247805  0.03034834
+  0.00150268]"
+"eebcc7ec8e3e4df7aea83659bbdc2199","SULTAN'S GROOM","PERSON","The Sultan's Groom is a character from a story that Scrooge recalls from his childhood",107,"",['30833fc310ef3fbce4288ad1e15e9193'],"[-0.03300809  0.00402054 -0.02692294 ... -0.029582    0.02476246
+  0.00828398]"
+"ceadf262ef834e9ab146b20650912cae","GENII","PERSON","The Genii is a supernatural being from a story that Scrooge recalls from his childhood",108,"",['30833fc310ef3fbce4288ad1e15e9193'],"[-0.00543     0.00405275  0.01204147 ... -0.04879785  0.04888028
+  0.03316385]"
+"7f65feab75424b53b24470d305ba331a","PRINCESS","PERSON","The Princess is a character from a story that Scrooge recalls from his childhood",109,"",['30833fc310ef3fbce4288ad1e15e9193'],"[ 0.01865782  0.0035685  -0.01302148 ... -0.02937513  0.05752138
+  0.00797004]"
+"fd9cb733b28d420cb5cef01e545a132c","PARROT","PERSON","""The Parrot is a character from a story that Scrooge recalls from his childhood, associated with Robin Crusoe""",110,"",['30833fc310ef3fbce4288ad1e15e9193'],"[ 0.04433997  0.01382846  0.01381676 ... -0.01149447  0.05503304
+  0.03891154]"
+"0fbcca3f17c649a08aea64b5a7d9ef36","ROBIN CRUSOE","PERSON","Robin Crusoe is a character from a story that Scrooge recalls from his childhood",111,"",['30833fc310ef3fbce4288ad1e15e9193'],"[-0.01768125  0.02526883 -0.00361767 ... -0.024599    0.06642884
+  0.03219812]"
+"482027a59f32484c9c44fd700615c1b6","FRIDAY","PERSON","""Friday is a character from a story that Scrooge recalls from his childhood, associated with Robin Crusoe""",112,"",['30833fc310ef3fbce4288ad1e15e9193'],"[-0.00531307  0.00736225 -0.01365448 ... -0.02074082  0.03502116
+  0.04775368]"
+"de837ff3d626451282ff6ac77a82216d","SCHOOL","ORGANIZATION","The school is a place where Scrooge was left alone as a child",113,"",['30833fc310ef3fbce4288ad1e15e9193'],"[ 0.01176655 -0.00924739  0.0147506  ... -0.0426938   0.0320392
+  0.00540269]"
+"460295fed3ae4cd39f9f274cec9c2506","MANSION","GEO","""The mansion is a large, dilapidated house that Scrooge and the Ghost visit""",114,"",['30833fc310ef3fbce4288ad1e15e9193'],"[ 0.01743416  0.04487929  0.01385013 ... -0.02808904  0.02160135
+  0.00136071]"
+"553b285bba60460ab1ed8341ae61282b","MERRY CHRISTMAS","","",115,"",['30833fc310ef3fbce4288ad1e15e9193'],"[ 0.02805795 -0.00868218 -0.02905092 ... -0.0229403   0.00772103
+  0.01312511]"
+"cec95bf17e7e4c939b56c9c6f402a29f","SCHOOLMASTER","PERSON","The schoolmaster is the authority figure at Scrooge's school who interacts with him and his sister",116,"",['94a3a88e86bbbaa5704fa5cbcc1dd498'],"[-0.01247872  0.00735436 -0.03052664 ... -0.03806009  0.01848699
+  0.01238628]"
+"599164aead034bc19446efacc77554d2","WAREHOUSE","ORGANIZATION","""The WAREHOUSE is the place where Scrooge was apprenticed and where Fezziwig worked. It is also the location where Fezziwig's Christmas Eve celebration takes place, transformed into a ballroom for the event.""",117,"",['913ae1c38936586e72223ab050f55270' '94a3a88e86bbbaa5704fa5cbcc1dd498'],"[-0.01049685  0.00056949 -0.00099015 ... -0.03203575  0.00370366
+  0.01683255]"
+"bbf148ae4d48422f8fdef754cfa2b9e4","MISS FEZZIWIGS","PERSON","""The three Miss Fezziwigs are the daughters of Old Fezziwig, known for their beaming and lovable nature""",118,"",['913ae1c38936586e72223ab050f55270'],"[ 0.07290099  0.00933828 -0.03631775 ... -0.02803476  0.02265877
+  0.01489346]"
+"de61b2670999433f807a6a1dc2b81e43","FIDDLER","PERSON","""The fiddler is a musician who plays at Fezziwig's Christmas Eve celebration, providing music for the dances""",119,"",['913ae1c38936586e72223ab050f55270'],"[ 0.02180262 -0.0032566  -0.025614   ... -0.05260713  0.01431776
+  0.00692694]"
+"3e95dacfe57b4d57b5da4310ef2e157f","BAKER","PERSON","The baker is a cousin of the housemaid who attends Fezziwig's Christmas Eve celebration",120,"",['913ae1c38936586e72223ab050f55270'],"[ 0.01242625 -0.01651419 -0.01051764 ... -0.01935679 -0.00623343
+ -0.00098307]"
+"1f1545308e9347af91fd03b94aadc21f","COOK","PERSON","""The cook is an attendee of Fezziwig's Christmas Eve celebration, accompanied by her brother's particular friend, the milkman""",121,"",['913ae1c38936586e72223ab050f55270'],"[ 0.0152389  -0.02787891 -0.07245368 ... -0.02143421  0.02243176
+ -0.00062634]"
+"6ea81acaf232485e94fff638e03336e1","MILKMAN","PERSON","The milkman is a friend of the cook's brother who attends Fezziwig's Christmas Eve celebration",122,"",['913ae1c38936586e72223ab050f55270'],"[ 0.00161882  0.0017654  -0.07064157 ... -0.02051835  0.00676042
+  0.00185831]"
+"d136b08d586d488f9e4188b524c85a29","BOY FROM OVER THE WAY","PERSON","""The boy from over the way is an attendee of Fezziwig's Christmas Eve celebration, suspected of not having enough food from his master""",123,"",['913ae1c38936586e72223ab050f55270'],"[-0.02005312 -0.00503527 -0.07728074 ... -0.00409711  0.0371745
+ -0.01374987]"
+"cccfa151fedc4b218a8d96adc7dceabe","GIRL FROM NEXT DOOR BUT ONE","PERSON","""The girl from next door but one is an attendee of Fezziwig's Christmas Eve celebration, known for having her ears pulled by her mistress""",124,"",['913ae1c38936586e72223ab050f55270'],"[ 0.0038983   0.01127453 -0.04765629 ... -0.02670247  0.01087932
+ -0.03156007]"
+"ce54725672a74ebcabe6127577dacb2b","HOUSEMAID","","",125,"",['913ae1c38936586e72223ab050f55270'],"[ 0.03428912  0.01249803 -0.02482812 ... -0.02638163 -0.00669687
+ -0.01069261]"
+"ea2b28ca1a974ffab4517811dc1d1e5c","DICK","PERSON","Dick is one of the apprentices who praises Fezziwig for his kindness and generosity",126,"",['a5542daff1f84544382712afa48d5013'],"[ 0.03799678 -0.00367503 -0.03716578 ... -0.04341261  0.02077501
+  0.00754348]"
+"aff21f1da1654e7babdcf3fb0e4a75fc","YOUNG GIRL","PERSON","The young girl is a fair girl in a mourning dress who speaks to Scrooge about how his pursuit of wealth has displaced her in his affections",127,"",['a5542daff1f84544382712afa48d5013'],"[ 0.02327776  0.01248625 -0.00702819 ... -0.0126794   0.05682365
+  0.0111965 ]"
+"dc2cc9016e3f49dbac7232f05cce794d","DOMESTIC BALL","EVENT","""The domestic ball is a festive event hosted by Fezziwig, where people dance and celebrate""",128,"",['a5542daff1f84544382712afa48d5013'],"[ 0.03761963  0.05707806  0.0193233  ...  0.0011317  -0.01860712
+  0.01490462]"
+"6ea0cef05f694dcea455478f40674e45","APPRENTICES","PERSON","""The apprentices are young individuals working under Fezziwig, who praised him for his kindness and generosity""",129,"",['a5542daff1f84544382712afa48d5013'],"[ 0.00470668  0.02080553 -0.0181059  ... -0.06676991  0.02609171
+  0.02302459]"
+"7ab5d53a872f4dfc98f3d386879f3c75","GOLDEN IDOL","EVENT","""The golden idol represents Scrooge's pursuit of wealth, which displaced the young girl in his affections""",130,"",['a5542daff1f84544382712afa48d5013'],"[ 0.03257132  0.00224475 -0.02478021 ... -0.02342639  0.0588248
+ -0.01095001]"
+"af1d0fec22114a3398b8016f5225f9ed","ROGER DE COVERLEY","","",131,"",['a5542daff1f84544382712afa48d5013'],"[ 0.03423317  0.02325998 -0.05217241 ... -0.02414898  0.03991216
+ -0.01764733]"
+"b07a7f088364459098cd8511ff27a4c8","GIRL","PERSON","""The girl is a character who was once in a relationship with Scrooge, discussing how his pursuit of wealth has changed him. Additionally, she is the girl who answers the door at Fred's house and shows Mr. Scrooge upstairs.""",132,"",['40faadc22320d6ac6e106fb8d904394c' 'aacc244b408aedd1b59271b08a207bf8'],"[-0.00838691 -0.01151036 -0.01676145 ... -0.02346604  0.05091524
+  0.02595242]"
+"8870cf2b5df64d2cab5820f67e29b9f1","MATERN","PERSON","""The matron is the same girl from Scrooge's past, now grown up and a mother, representing a life Scrooge could have had""",133,"",['40faadc22320d6ac6e106fb8d904394c'],"[ 0.01135338  0.01840644 -0.0117276  ... -0.02205982  0.04470316
+  0.00040236]"
+"cd130938a2844050be991af70baf5ee0","WINTER FIRE","EVENT","The winter fire is a comforting scene in the room where the matron and her children are gathered",134,"",['40faadc22320d6ac6e106fb8d904394c'],"[ 0.02352972  0.01574772 -0.04062912 ... -0.01222417 -0.00825443
+ -0.01901537]"
+"43544b99c3b04b059546198a0ae6366d","CHILDREN","PERSON","""The children are part of Bob Cratchit's family, who are affected by Tiny Tim's death. They are also the offspring of the matron, creating a lively and tumultuous atmosphere in the room. Additionally, the children are the offspring of the mother, playing and causing her anxiety as she waits for someone.""",135,"","['31162003185eeb0ce0f4b4f2031e01c7' '40faadc22320d6ac6e106fb8d904394c'
+ '5e7ec9ebf31abc571127892d260fbe42']","[ 0.03445927  0.03259862 -0.02602432 ... -0.02666934  0.02669415
+  0.03636954]"
+"a671bf7fea2f4514b6e96ba99127fafd","SPIRIT","","""The SPIRIT is a supernatural being that interacts with the protagonist, Scrooge, showing him visions and causing him to reflect on his life. This ghostly figure guides Scrooge through different locations and events, warning him about Ignorance and Want. The Spirit has the ability to sprinkle incense from its torch to restore good humor. As a supernatural entity, the Spirit teaches Scrooge important lessons and is also referred to as the Ghost guiding him.""",136,"","['166b41d31c21bdff77c782c019c33814' '2c2dc4d6383dc21e5c198e42cbb99426'
+ '31162003185eeb0ce0f4b4f2031e01c7' '40faadc22320d6ac6e106fb8d904394c'
+ '45b24611b322e5db19f24f40131624e6' '5e7ec9ebf31abc571127892d260fbe42'
+ '82c0a321727c344d224f3b8eecb7414f' 'c5d03b00e276c74a61703fc395d9986e'
+ 'c71d3978e7161b729eb972b930f85473' 'cfc969724972c8e235a12683cada1e5e'
+ 'e92f3fa91714308781a63c896cfeb313']","[ 5.11537328e-05  8.70987680e-03 -3.68673354e-02 ... -2.89026219e-02
+ -2.48133764e-03  3.53037082e-02]"
+"525f41ea20274a05af4e52b625b473f3","MAN LADEN WITH CHRISTMAS TOYS AND PRESENTS","PERSON","A man who accompanies the father and is laden with Christmas toys and presents",137,"",['ae4387f9ec8ef5335c4fbf6fd3f7d9b4'],"[ 0.03683554  0.03497322 -0.03784886 ... -0.00288933  0.00309644
+ -0.00214132]"
+"071a416efbec4f0886c19ac68f6d43cb","SECOND OF THE THREE SPIRITS","PERSON","The second spirit that visits Scrooge as part of Jacob Marley's intervention",138,"",['ae4387f9ec8ef5335c4fbf6fd3f7d9b4'],"[-0.023555    0.01667587 -0.01505646 ... -0.02714179  0.02524133
+  0.05524719]"
+"6d8473ef3b1042bf87178a611e3dbcc6","FATHER","","",139,"",['ae4387f9ec8ef5335c4fbf6fd3f7d9b4'],"[ 0.06865583  0.0159307  -0.01231355 ... -0.01890578  0.03135283
+ -0.00869641]"
+"30c9641543c24773938bd8ec57ea98ab","MISTLETOE","GEO","A type of plant with crisp leaves that is part of the decorations in Scrooge's room",140,"",['166b41d31c21bdff77c782c019c33814'],"[-0.01439223  0.01035981 -0.03412645 ... -0.03039224 -0.01170828
+  0.02164021]"
+"18b839da898e4026b81727d759d95c6a","IVY","GEO","A type of plant with crisp leaves that is part of the decorations in Scrooge's room",141,"",['166b41d31c21bdff77c782c019c33814'],"[-0.00937747  0.00408418 -0.0270401  ... -0.03929608 -0.00052255
+  0.01812291]"
+"eeef6ae5c464400c8755900b4f1ac37a","PLENTY'S HORN","GEO","A symbolic horn of abundance that the Ghost of Christmas Present's torch resembles",142,"",['166b41d31c21bdff77c782c019c33814'],"[ 0.04346331  0.00176652 -0.01727425 ... -0.01264148  0.01790267
+  0.02363153]"
+"422433aa45804c7ebb973b2fafce5da6","GREAT BRITAIN","GEO","""Great Britain is the country where the events are taking place, characterized by its gloomy climate and misty streets""",143,"",['e92f3fa91714308781a63c896cfeb313'],"[ 0.0285849   0.0134316   0.02356131 ... -0.0420047   0.01777122
+  0.00951061]"
+"86505bca739d4bccaaa1a8e0f3baffdc","POULTERERS' SHOPS","ORGANIZATION","""The poulterers' shops are places where poultry and other meats are sold, and they are half open on Christmas morning""",144,"",['e92f3fa91714308781a63c896cfeb313'],"[ 0.02525787  0.03240344  0.01027255 ... -0.01459683 -0.01770471
+  0.01724617]"
+"1af9faf341e14a5bbf4ddc9080e8dc0b","FRUITERERS' SHOPS","ORGANIZATION","""The fruiterers' shops are places where fruits are sold, and they are radiant with various fruits on Christmas morning""",145,"",['e92f3fa91714308781a63c896cfeb313'],"[-0.01160819  0.01887824 -0.02714327 ... -0.01455336 -0.00190872
+  0.02947818]"
+"353d91abc68648639d65a549e59b5cf3","GROCERS' SHOPS","ORGANIZATION","""The grocers' shops are nearly closed but still offer glimpses of their goods, including tea, coffee, raisins, almonds, and spices""",146,"",['e92f3fa91714308781a63c896cfeb313'],"[-0.01403658  0.00896636  0.02754843 ...  0.00019093  0.00553592
+  0.00092074]"
+"7ce637e4f35b42e3a9f8272cab69cd22","CITY STREETS","","",147,"",['e92f3fa91714308781a63c896cfeb313'],"[ 0.03346539 -0.0192263   0.0034358  ... -0.04290143  0.00258393
+ -0.01880126]"
+"4d999d7744b04a998475f8f8531589f0","CHRISTMAS DAY","EVENT","""Christmas Day is a significant event mentioned in the text, associated with homeward hopes and festivities. It is the holiday being celebrated in the text and the occasion on which the events described take place, including people carrying their dinners to the bakers' shops and the Spirit's actions. Christmas Day is also the occasion being celebrated by the Cratchit family, marked by their gathering and festive meal. Additionally, it is the day that Scrooge wakes up to after his transformative experience with the spirits.""",148,"","['2c2dc4d6383dc21e5c198e42cbb99426' '5c23d6ea344fb1e7d1da42af94e77372'
+ '82c0a321727c344d224f3b8eecb7414f' 'c71d3978e7161b729eb972b930f85473'
+ 'd1ffbd0a1d292732b8530b80890ce309' 'd4e73f42abc059b1a9108741c4d88216']","[ 0.01563844  0.03164741  0.03312951 ... -0.02083672  0.023474
+  0.04673005]"
+"9a6f414210e14841a5b0e661aedc898d","BOB CRATCHIT'S DWELLING","GEO","Bob Cratchit's modest four-roomed house that the Spirit blesses with the sprinklings of its torch",149,"",['2c2dc4d6383dc21e5c198e42cbb99426'],"[ 0.02229608  0.00820078  0.00501563 ... -0.04498866  0.00891447
+  0.02446358]"
+"db541b7260974db8bac94e953009f60e","BAKER'S SHOPS","GEO","Shops where people carry their dinners to be cooked on Christmas Day",150,"",['2c2dc4d6383dc21e5c198e42cbb99426'],"[ 0.02538473  0.00239307 -0.00060868 ... -0.02835335  0.00069056
+  0.0013887 ]"
+"f2ff8044718648e18acef16dd9a65436","SUBURBS OF THE TOWN","GEO","The outskirts of the town where Scrooge and the Spirit travel to observe the lives of the poor",151,"",['2c2dc4d6383dc21e5c198e42cbb99426'],"[-0.00732484  0.0310712   0.04098317 ... -0.02213502  0.01452129
+  0.01526597]"
+"00d785e7d76b47ec81b508e768d40584","TINY TIM","PERSON","""Tiny Tim is the youngest son of Bob and Mrs. Cratchit, a character in the story who is physically disabled and uses a crutch. Despite his frail condition, Tiny Tim is depicted as thoughtful and hopeful, wishing to inspire others by his presence in church. He is remembered fondly by his family and is a central figure in their lives. Tiny Tim's future is initially uncertain due to his illness, but he is ultimately saved from death by Scrooge's newfound generosity. His character serves as a poignant symbol of the impact of kindness and compassion.""",152,"","['31162003185eeb0ce0f4b4f2031e01c7' '49d69adfdaf6f3f17e1e03fc4c6f561f'
+ '5c23d6ea344fb1e7d1da42af94e77372' 'd1ffbd0a1d292732b8530b80890ce309'
+ 'd32b4992f5d1dcf627250d5809f6d78e' 'd4e73f42abc059b1a9108741c4d88216'
+ 'db82f001863c7ecf263a682718181aba']","[ 0.02219012 -0.00670259 -0.04029362 ... -0.02722682  0.03982509
+  0.06247072]"
+"87915637da3e474c9349bd0ae604bd95","CRATCHIT'S DWELLING","GEO","""The home of the Cratchit family, described as a four-roomed house that is modest but filled with love and warmth.""",153,"",['5c23d6ea344fb1e7d1da42af94e77372'],"[ 0.0207138   0.03240612 -0.01260634 ... -0.04456138  0.01128873
+  0.0246429 ]"
+"8f1eba29f39e411188200bf0d14628ec","MASTER PETER","PERSON","Master Peter is a member of the Cratchit family who mashed the potatoes with incredible vigor",154,"",['49d69adfdaf6f3f17e1e03fc4c6f561f'],"[-0.00406729  0.0176674  -0.03645862 ... -0.04978757  0.01239462
+ -0.00103561]"
+"7282c73622b8408e97289d959faff483","MISS BELINDA","PERSON","Miss Belinda is a member of the Cratchit family who sweetened the apple sauce and changed the plates",155,"",['49d69adfdaf6f3f17e1e03fc4c6f561f'],"[-0.00977621  0.00014305 -0.04989146 ... -0.01448682  0.0284821
+  0.01657587]"
+"3deb220d31f74103aa44870a36a63220","MARTHA","PERSON","Martha is a member of the Cratchit family who dusted the hot plates",156,"",['49d69adfdaf6f3f17e1e03fc4c6f561f'],"[ 0.00751108  0.0127447  -0.05090049 ... -0.02941787  0.02007306
+  0.02952228]"
+"af7a1584dd15492cb9a4940e285f57fc","CRATCHIT FAMILY","","",157,"",['49d69adfdaf6f3f17e1e03fc4c6f561f'],"[ 0.03261768  0.01347961 -0.00935986 ... -0.03119952 -0.00217865
+  0.01891825]"
+"6e8d9029ce4e4ea182367173ab2c7bbf","FUTURE","EVENT","The Future is a time period referenced by the Ghost when discussing Tiny Tim's fate",158,"",['d4e73f42abc059b1a9108741c4d88216'],"[-0.03404265 -0.02043109  0.00222391 ...  0.00017659  0.06132077
+  0.01439526]"
+"cbf232211e7d4eb6abdbe182f71c2cf0","MOOR","GEO","A bleak and desert moor where miners live and labor",159,"",['cfc969724972c8e235a12683cada1e5e'],"[-0.03419526  0.02395965 -0.00779514 ... -0.01913613 -0.01142713
+  0.02077268]"
+"bb0cff774a4440b289cc6f3b929fe13c","LIGHTHOUSE","GEO","""A solitary lighthouse built on a dismal reef of sunken rocks, some league or so from shore""",160,"",['cfc969724972c8e235a12683cada1e5e'],"[-0.00095341 -0.05251226  0.03879159 ...  0.00379619 -0.03430169
+ -0.00710435]"
+"ce55841ebfdd47008bab8c258f10372e","SHIP","GEO","A ship far away from any shore where the crew is celebrating Christmas",161,"",['cfc969724972c8e235a12683cada1e5e'],"[ 0.00045688  0.00934664  0.00902104 ... -0.01362413 -0.00289369
+ -0.00258724]"
+"6090e736374d45fd84f0e4610a314f8f","MINERS","PERSON","Miners who live and labor in the bowels of the earth on the moor",162,"",['cfc969724972c8e235a12683cada1e5e'],"[-0.03063588  0.03500821  0.0496319  ... -0.03695804 -0.00137559
+  0.02837586]"
+"0e8d921ccd8d4a8594b65b7fd19f7120","OLD MAN","PERSON","An old man singing a Christmas song to his family on the moor",163,"",['cfc969724972c8e235a12683cada1e5e'],"[ 0.02882849  0.02279435 -0.01322376 ... -0.01621165  0.01012499
+ -0.03048584]"
+"59c726a8792d443e84ab052cb7942b4a","OLD WOMAN","PERSON","An old woman who is part of the cheerful company assembled around the fire on the moor",164,"",['cfc969724972c8e235a12683cada1e5e'],"[ 0.06100113 -0.03021604 -0.02280429 ... -0.03630478  0.00539877
+ -0.00524584]"
+"4f2c665decf242b0bfcaf7350b0e02ed","LAMPLIGHTER","PERSON","A lamplighter who is dressed to spend the evening somewhere and laughs as the Spirit passes",165,"",['cfc969724972c8e235a12683cada1e5e'],"[ 0.02222425 -0.0127432  -0.026827   ... -0.02967206  0.01802369
+  0.00488204]"
+"66cdf168f36d4a57a505028c97dc06e0","TWO MEN","PERSON","Two men who watch the light in the lighthouse and celebrate Christmas together",166,"",['cfc969724972c8e235a12683cada1e5e'],"[ 0.01320312  0.00793263 -0.03132716 ... -0.02877259 -0.00112267
+  0.02746841]"
+"38f51478f41f48db9bee570859b6f43e","HELMAN","PERSON","The helmsman at the wheel of the ship celebrating Christmas",167,"",['cfc969724972c8e235a12683cada1e5e'],"[-0.00152288  0.04383235  0.05900815 ... -0.02815335 -0.00431702
+ -0.01350063]"
+"896d2a51e8de47de85ba8ced108c3d53","LOOK-OUT","PERSON","The look-out in the bow of the ship celebrating Christmas",168,"",['cfc969724972c8e235a12683cada1e5e'],"[ 0.02446016  0.05201267  0.01399912 ... -0.01731434 -0.00098812
+ -0.00554393]"
+"14555b518e954637b83aa762dc03164e","OFFICERS","PERSON","The officers who had the watch on the ship celebrating Christmas",169,"",['cfc969724972c8e235a12683cada1e5e'],"[ 0.01024378  0.05520033 -0.00150232 ... -0.04996372  0.02654744
+  0.00209869]"
+"b1f6164116d44fe8b8f135d7f65b9e58","SCROOGE'S NIECE","PERSON","""Scrooge's niece is a musical character who plays the harp and participates in the games. She is described as very pretty and earnest, and she expresses her opinions about Scrooge's wealth and behavior.""",170,"",['82c0a321727c344d224f3b8eecb7414f' 'e1c29aeda4d9b63f6e9026ca40c75eef'],"[ 0.00255519 -0.0032683  -0.03703867 ... -0.05037061  0.0558414
+  0.00594208]"
+"c8b2408617804483b620e1a6691ac90d","TOPPER","PERSON","""Topper is a character who plays a notable role in the social gatherings depicted in the story. He is a guest at Fred's dinner party, where he actively participates in the festivities. Topper is particularly involved in the games, such as blind man's-buff, showcasing his playful and engaging nature. Additionally, he is part of the musical family, contributing to the lively atmosphere of the event. Topper also comments on the situation and has his eye on one of Scrooge's niece's sisters, indicating his keen interest in the people around him. Furthermore, he is mentioned as someone who could attest to the sharpness of the girls present, highlighting his perceptive and observant character.""",171,"","['82c0a321727c344d224f3b8eecb7414f' 'aacc244b408aedd1b59271b08a207bf8'
+ 'c5d03b00e276c74a61703fc395d9986e' 'e1c29aeda4d9b63f6e9026ca40c75eef']","[ 0.00574938  0.01939116 -0.05853413 ... -0.02511974  0.06208501
+  0.01934955]"
+"a5e0d1644eb547ba9a5c3211aac4631a","SCROOGE'S NIECE'S SISTER","PERSON","Scrooge's niece's sister is the plump one with the lace tucker who blushes when Topper comments",172,"",['82c0a321727c344d224f3b8eecb7414f'],"[-0.00268972 -0.00613825 -0.06829894 ... -0.04288058  0.05894787
+  0.01437533]"
+"5a28b94bc63b44edb30c54748fd14f15","SCROOGE'S NIECE'S SISTERS","PERSON","Scrooge's niece's sisters are mentioned as expressing the same opinion about Scrooge and participating in the conversation",173,"",['82c0a321727c344d224f3b8eecb7414f'],"[ 0.01508222  0.02341579 -0.04031299 ... -0.02755701  0.05368249
+  0.01311386]"
+"f97011b2a99d44648e18d517e1eae15c","SCROOGE'S NIECE'S SISTER WITH THE ROSES","PERSON","""One of Scrooge's niece's sisters, distinguished by wearing roses, who is part of the conversation""",174,"",['82c0a321727c344d224f3b8eecb7414f'],"[ 0.00595572 -0.0030947  -0.03144359 ... -0.03871378  0.05488997
+  0.00488791]"
+"35489ca6a63b47d6a8913cf333818bc1","PLUMP SISTER","PERSON","""PLUMP SISTER is a character who participates in the games and is often pursued by Topper during blind man's-buff. Additionally, she is another guest at Fred's dinner party.""",175,"",['aacc244b408aedd1b59271b08a207bf8' 'e1c29aeda4d9b63f6e9026ca40c75eef'],"[ 0.00384077 -0.00211325 -0.04552218 ... -0.01541583  0.01525758
+ -0.00544631]"
+"5d3344f45e654d2c808481672f2f08dd","WHITECHAPEL","GEO","Whitechapel is mentioned in a metaphorical context to describe the sharpness of a needle",176,"",['c5d03b00e276c74a61703fc395d9986e'],"[ 0.01174382  0.01083279 -0.02545206 ... -0.00295731  0.01099649
+ -0.00052847]"
+"6fb57f83baec45c9b30490ee991f433f","CHRISTMAS HOLIDAYS","EVENT","The Christmas holidays are a period during which Scrooge and the Ghost travel and observe various scenes of joy and hardship",177,"",['c5d03b00e276c74a61703fc395d9986e'],"[ 0.01013796  0.02850365  0.02051063 ... -0.02310543  0.02954678
+  0.01848956]"
+"68762e6f0d1c41cd857c6b964a8e76c3","TWELFTH-NIGHT PARTY","EVENT","""A children's party that Scrooge and the Ghost visit, marking a moment when Scrooge notices the Ghost aging""",178,"",['c5d03b00e276c74a61703fc395d9986e'],"[-0.00953794  0.0288117  -0.01672767 ... -0.02255861  0.03210974
+  0.00988753]"
+"70634e10a5e845aa8c6a32fe7e8eb2b2","ALMSHOUSE","GEO","""An almshouse is one of the places the Spirit and Scrooge visit, where they observe scenes of poverty and hope""",179,"",['c5d03b00e276c74a61703fc395d9986e'],"[-0.00255003  0.00710884  0.03972149 ... -0.02712929  0.0060796
+  0.01451581]"
+"04085f7cf46544b79597fc49286ff84d","HOSPITAL","GEO","""A hospital is another place the Spirit and Scrooge visit, where they observe scenes of illness and cheerfulness""",180,"",['c5d03b00e276c74a61703fc395d9986e'],"[-0.00667233  0.00034113  0.00472166 ... -0.01033469  0.01191073
+  0.04345737]"
+"d203efdbfb2f4b2a899abfb31cf72e82","GAOL","GEO","""A gaol (jail) is another place the Spirit and Scrooge visit, where they observe scenes of misery and hope""",181,"",['c5d03b00e276c74a61703fc395d9986e'],"[-0.01466865  0.04286017  0.03556122 ... -0.00394653  0.02703162
+  0.01984582]"
+"6731a665561840c2898ce8c9788e4c88","IGNORANCE","PERSON","""A boy representing the concept of ignorance, shown to Scrooge by the Spirit""",182,"",['45b24611b322e5db19f24f40131624e6'],"[ 0.03657698  0.03788026 -0.06295434 ... -0.01381907  0.03711529
+  0.04476501]"
+"4026806fa92f4e849a59a7f5c9a45c79","WANT","PERSON","""A girl representing the concept of want, shown to Scrooge by the Spirit""",183,"",['45b24611b322e5db19f24f40131624e6'],"[-0.00193866  0.01301169 -0.04686757 ...  0.00303889  0.0490751
+  0.02932053]"
+"68e0c60d2e8845d89d9d0ad397833648","PHANTOM","PERSON","""PHANTOM is a solemn and ghostly figure that represents the Ghost of Christmas Yet to Come. This spectral entity guides Scrooge through various scenes, showing him the future. The Phantom points towards the head of a dead man, providing a grim vision that Scrooge glances towards. Throughout these encounters, the Phantom serves as a crucial guide, leading Scrooge to confront the consequences of his actions.""",184,"","['4148da19c3e2b758b5e76aaf8a87d55f' '41d84d1d139c9c96c200cd2e537dcd0e'
+ '45b24611b322e5db19f24f40131624e6' '5e7ec9ebf31abc571127892d260fbe42'
+ 'a50b8481d67f48139b84139edc701a3c']","[ 0.0024404   0.02136329 -0.02787538 ... -0.00827387  0.04069074
+  0.01367668]"
+"101572f552b54e529fe7765c05168981","CHRISTMAS YET TO COME","EVENT","The future event that the Ghost of Christmas Yet to Come represents and shows to Scrooge",185,"",['45b24611b322e5db19f24f40131624e6'],"[-0.02013637  0.01421235 -0.02691048 ...  0.00289394  0.05865581
+  0.01503586]"
+"60c58026b2764b40adffca6eaa31d6d9","BUSINESS MEN","PERSON","Business men are wealthy and important individuals in the City who Scrooge recognizes",186,"",['4148da19c3e2b758b5e76aaf8a87d55f'],"[ 0.00577377  0.00916557 -0.0110309  ... -0.04632439  0.02834215
+  0.03073084]"
+"ad1595a78935472999444c9330e7730e","CHANGE","GEO","Change is a location in the City where merchants gather and conduct business",187,"",['4148da19c3e2b758b5e76aaf8a87d55f'],"[-0.01618903 -0.0050046   0.03134928 ... -0.03797921 -0.03232091
+  0.00208436]"
+"735d19aea0744b2295556841c5c4c3fd","STREET","GEO","The street is where the Phantom leads Scrooge to observe more conversations",188,"",['4148da19c3e2b758b5e76aaf8a87d55f'],"[ 0.01923667 -0.02250407  0.00311889 ... -0.04698839  0.03510692
+  0.01985903]"
+"c725babdb14a485582f8fbdf95429030","OBSCURE PART OF THE TOWN","GEO","An obscure part of the town where Scrooge and the Phantom go after leaving the busy scene",189,"",['4148da19c3e2b758b5e76aaf8a87d55f'],"[-0.00721644  0.00609922 -0.02205326 ... -0.03490675  0.02790502
+  0.03275237]"
+"a0047221896d418d849847d422fa4bb8","MERCHANTS","","",190,"",['4148da19c3e2b758b5e76aaf8a87d55f'],"[-0.00525133  0.00889038  0.00934668 ... -0.06044544 -0.01781118
+  0.00528175]"
+"98fc2ee593184c5a839454db4eec7013","OLD JOE","PERSON","Old Joe is a grey-haired rascal who deals in second-hand goods and lives in a den of infamous resort. He is a man who appraises and buys items from others.",191,"",['41d84d1d139c9c96c200cd2e537dcd0e' 'a50b8481d67f48139b84139edc701a3c'],"[-0.00707191 -0.00441257 -0.02001104 ... -0.03963325 -0.0084363
+  0.00074425]"
+"80020a1da63042459e00266b2a605452","LAUNDRESS","PERSON","The laundress is a woman who enters Old Joe's shop with a heavy bundle",192,"",['41d84d1d139c9c96c200cd2e537dcd0e'],"[ 0.0315877   0.01855247 -0.03564984 ... -0.02823795  0.01205759
+ -0.02050775]"
+"31a7e680c4d54101afe4c8d52d246913","UNDERTAKER'S MAN","PERSON","The undertaker's man is a man in faded black who enters Old Joe's shop",193,"",['41d84d1d139c9c96c200cd2e537dcd0e'],"[-0.00842129  0.05558708 -0.04681574 ... -0.01622171  0.00199139
+ -0.00600388]"
+"351abba16e5c448994c6daf48121b14d","SHOP","GEO","""A low-browed, beetling shop where Old Joe deals in second-hand goods""",194,"",['41d84d1d139c9c96c200cd2e537dcd0e'],"[-0.00920867  0.00038557 -0.03887105 ...  0.00486262 -0.02729658
+  0.01246539]"
+"50ea7d3b69614bcdbfbff7ddbfbf3d34","PARLOUR","GEO","The space behind the screen of rags in Old Joe's shop",195,"",['41d84d1d139c9c96c200cd2e537dcd0e'],"[ 0.02068806  0.02448375 -0.00921473 ... -0.05317098  0.00545434
+ -0.01830399]"
+"004f40a5aeca48a1879db728eb12bcba","INFAMOUS RESORT","GEO","""The den where Old Joe's shop is located, known for its crime, filth, and misery""",196,"",['41d84d1d139c9c96c200cd2e537dcd0e'],"[ 0.00017553  0.00631169 -0.01805883 ... -0.02416516 -0.00933063
+  0.00697914]"
+"4465efb7f6ed4dedad72a658184addd2","TOWN","","The town is the setting where Scrooge asks the Phantom to show him someone who feels emotion caused by the dead man's death.",197,"",['41d84d1d139c9c96c200cd2e537dcd0e' '5e7ec9ebf31abc571127892d260fbe42'],"[ 0.01372863  0.02608046 -0.0049073  ... -0.01780657  0.06503724
+  0.00446475]"
+"b0dd60e11dad4ff782623acf039b3948","UNHAPPY MAN","PERSON","The deceased man whose belongings are being appraised and sold",198,"",['a50b8481d67f48139b84139edc701a3c'],"[ 0.02494419  0.03528281 -0.01776731 ...  0.01537502  0.02669294
+ -0.00053031]"
+"db8c43fa4df947b09e5754d3b1393ead","WOMAN","","",199,"",['a50b8481d67f48139b84139edc701a3c'],"[ 0.04527206 -0.01535922 -0.0453513  ...  0.00356247  0.0491812
+  0.00062318]"
+"5dabc4cd05da425cb194a04482bf0c29","CAROLINE'S HUSBAND","PERSON","""Caroline's husband is a young man with a careworn and depressed face, who brings the news of the creditor's death""",200,"",['5e7ec9ebf31abc571127892d260fbe42'],"[ 0.0220483   0.03256907 -0.01406964 ... -0.01722838  0.04014502
+ -0.02952358]"
+"9d08f285a7be4c79b8f359c51d51db37","DEAD MAN","PERSON","""The dead man is a character whose death brings mixed emotions to those who knew him, including relief to Caroline and her husband""",201,"",['5e7ec9ebf31abc571127892d260fbe42'],"[ 0.04477888  0.07245122 -0.02880439 ...  0.03813752  0.0286283
+ -0.0090564 ]"
+"adffed660d154b519c1817e514e83096","MOTHER","PERSON","The mother is a woman who is anxiously waiting for someone and is revealed by the Phantom to Scrooge",202,"",['5e7ec9ebf31abc571127892d260fbe42'],"[ 0.04179601  0.01077684 -0.02896871 ... -0.03149603  0.02667983
+ -0.00638981]"
+"b7e9c9ef572c445a9574ca571e41fb96","DEATH","EVENT","""Death is the event being observed by Scrooge, specifically the death of the man in the bed""",203,"",['5e7ec9ebf31abc571127892d260fbe42'],"[-0.01374356  0.05870987 -0.0011169  ... -0.00209498  0.05275306
+  0.03811346]"
+"dcb9f281cd6248c699e0ebb285a42a5e","HOUSE","GEO","The house is the location where the dead man lies and where Scrooge and the Phantom are present",204,"",['5e7ec9ebf31abc571127892d260fbe42'],"[-0.0032151   0.03537214  0.03496196 ... -0.03667507  0.05317886
+  0.00217155]"
+"072cdee531b74513984f49d99a8d64a0","ROOM","GEO","The room is the specific part of the house where the dead man lies and where Scrooge and the Phantom are present",205,"",['5e7ec9ebf31abc571127892d260fbe42'],"[ 0.01017653  0.04985899  0.01252496 ... -0.04039301  0.06546702
+  0.01678827]"
+"5ae335d9210a45fda3f92a9a028d6d9b","PETER","PERSON","Peter is a character who interacts with Bob and is mentioned as potentially getting a better situation. He is also one of Bob Cratchit's children and is seen reading a book.",206,"",['31162003185eeb0ce0f4b4f2031e01c7' 'db82f001863c7ecf263a682718181aba'],"[-0.0004359   0.01969757 -0.04792625 ... -0.04192015  0.03098659
+  0.04571993]"
+"5ac60a941a5b4934bdc43d2f87de601c","MR. SCROOGE'S NEPHEW","PERSON","Mr. Scrooge's nephew is a kind gentleman who offers help to Bob Cratchit",207,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[-0.04142439  0.00440134 -0.05489979 ... -0.04182366  0.03927831
+  0.01589599]"
+"d405c3154d0e48ce96fad4c28fe20590","BOB CRATCHIT'S HOUSE","GEO","The house where Bob Cratchit and his family live and where Scrooge visits",208,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[ 0.01174002  0.0116648  -0.01703431 ... -0.03497124  0.03071267
+  0.01428012]"
+"7923d8521c744bd9aab131c1aea91ffd","BOB CRATCHIT'S WIFE","PERSON","Bob Cratchit's wife is another term used to refer to Mrs. Cratchit",209,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[ 0.03092758  0.01328531 -0.04763298 ... -0.01134952  0.01247262
+  0.01105605]"
+"5bd156c87ec44e19ae6f8f62e6e50b9d","ROBERT","PERSON","""Robert is another name for Bob Cratchit, used by his wife""",210,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[ 0.00280323  0.0140959  -0.05179919 ... -0.01754603  0.0255215
+  0.04137791]"
+"c1a146d7fb16429ea6d0aa2a55ee597f","FIRE","GEO","The fire is the place around which the Cratchit family gathers and talks",211,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[ 0.00942888  0.02278534 -0.00280782 ... -0.03863017  0.01870981
+  0.02560997]"
+"ede9350632084da5b0b577ff799ab14b","STREETS","GEO","The streets are the familiar paths Scrooge and the Ghost walk through",212,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[ 0.02784471  0.02605401 -0.00517048 ... -0.05123317  0.03373625
+  0.00392656]"
+"ed559fb4ebde45518849ec803b350fa3","BOOK","GEO","The book is what Peter is reading when Scrooge and the Ghost visit the Cratchit household",213,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[-0.0310973   0.05884421 -0.03239499 ... -0.04631563  0.02857271
+  0.02477403]"
+"f422035f8b78417f98e4d116971cf9f3","SUNDAY","EVENT","Sunday is the day Bob Cratchit promises to visit Tiny Tim's grave",214,"",['31162003185eeb0ce0f4b4f2031e01c7'],"[ 0.01527007  0.00946996 -0.00676785 ... -0.0056493   0.03177181
+  0.01788421]"
+"c79d686eba044c5586c706cdc096817d","BOB","PERSON","Bob is a character who speaks about his good wife and Tiny Tim",215,"",['db82f001863c7ecf263a682718181aba'],"[ 0.03788986 -0.01221658 -0.04696655 ... -0.00946587  0.0352513
+  0.00727586]"
+"0f70db1e598d463fbbcdd1e288bd9490","CHURCHYARD","GEO","A churchyard where Scrooge sees his own grave",216,"",['db82f001863c7ecf263a682718181aba'],"[ 0.00617415  0.00411273 -0.00333128 ... -0.01724586  0.0433841
+ -0.00540617]"
+"b35c3d1a7daa4924b6bdb58bc69c354d","PORTLY GENTLEMAN","PERSON","The portly gentleman is a character who had previously visited Scrooge's counting-house to ask for donations",217,"",['d1ffbd0a1d292732b8530b80890ce309'],"[ 0.00428402  0.00106289 -0.04661937 ... -0.03095457  0.06144757
+  0.04131123]"
+"a97e2ecd870944cfbe71c79bc0fcc752","BOY","PERSON","The boy is a character who interacts with Scrooge and helps him buy the turkey",218,"",['d1ffbd0a1d292732b8530b80890ce309'],"[-0.02251292  0.03415305 -0.05207495 ... -0.00637931  0.05165876
+  0.04250273]"
+"3e1b063bbfa9423d84e50311296d2f3c","JOE MILLER","PERSON","Joe Miller is mentioned by Scrooge as a reference for a joke",219,"",['d1ffbd0a1d292732b8530b80890ce309'],"[-0.03035378  0.02484908 -0.03282052 ... -0.04408959  0.05091854
+  0.03985719]"
+"9a8ce816ee954bdabd01ea2081538009","POULTERER'S","","",220,"",['d1ffbd0a1d292732b8530b80890ce309'],"[ 0.00941785 -0.01188479 -0.00937286 ... -0.0293633   0.03467208
+ -0.02381456]"
+"09f18f81442d4d6d93a90f0fac683f9b","MR. SCROOGE","PERSON","Mr. Scrooge is a central character who undergoes a transformation and becomes generous and kind",221,"",['aacc244b408aedd1b59271b08a207bf8'],"[-0.00060882  0.01540329 -0.0365307  ... -0.06044129  0.05282415
+  0.02654729]"
+"e02be3e37ca0454883a4c1fd859c24bb","NIECE BY MARRIAGE","PERSON","""Fred's wife, who is surprised by Mr. Scrooge's arrival at the dinner party""",222,"",['aacc244b408aedd1b59271b08a207bf8'],"[-0.01388479  0.01013489 -0.08234595 ... -0.02407035  0.02327223
+  0.0037024 ]"
+"6e0c81bef5364c988b21bf9b709d9861","SPIRITS","PERSON","The Spirits are supernatural beings that visit Scrooge and play a crucial role in his transformation",223,"",['d32b4992f5d1dcf627250d5809f6d78e'],"[ 0.00947753  0.02915591 -0.03143102 ... -0.04651592  0.01360115
+  0.0248901 ]"
+"1dbc51475cb04dafa4a8833a8378635e","PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION","ORGANIZATION","""The Project Gutenberg Literary Archive Foundation (PGLAF) is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax-exempt status by the Internal Revenue Service. Established in 2001, the foundation was created to ensure a secure and permanent future for Project Gutenberg and future generations. PGLAF owns a compilation copyright in the collection of Project Gutenberg™ electronic works and promotes free access to these electronic works. Additionally, the foundation manages the Project Gutenberg trademark and handles royalty payments and permissions.""",224,"","['1be1132bc37156f3c13686fb1aba8d65' '2a1c4af9f9c41823c64e689c2b4b45e9'
+ '38853a19a9f53b37c6dec725d881647b']","[-0.0372809   0.01999234  0.05004584 ... -0.02257912  0.01118557
+ -0.00065035]"
+"c12b9ebd8b4e42b7896822a32e3fa6eb","PROJECT GUTENBERG LICENSE","EVENT","The Project Gutenberg License is a set of terms and conditions that must be followed when using Project Gutenberg works",225,"",['38853a19a9f53b37c6dec725d881647b'],"[-0.01216362  0.04779292  0.04169411 ... -0.01766162  0.01053689
+ -0.01944138]"
+"27505f6ade4b4e5f9316ffe9c34821f7","WWW.GUTENBERG.ORG","ORGANIZATION","The official website of Project Gutenberg where the official versions of the works are posted",226,"",['38853a19a9f53b37c6dec725d881647b'],"[-0.03723362  0.00849008  0.03627892 ... -0.01345684  0.00839348
+ -0.0450986 ]"
+"0ee7db2c6bea4630ba9f0c25e8a967ad","U.S.","GEO","""The United States, where Project Gutenberg volunteers and employees conduct copyright research and other activities""",227,"",['1be1132bc37156f3c13686fb1aba8d65'],"[-0.01152343  0.0254457   0.04335957 ... -0.01505075 -0.02318873
+ -0.01376105]"
+"5a6c1d15424149f69052cd8d91fbff75","PROJECT GUTENBERG™ TRADEMARK OWNER","PERSON","The individual who owns the Project Gutenberg trademark and has agreed to donate royalties to the Project Gutenberg Literary Archive Foundation",228,"",['1be1132bc37156f3c13686fb1aba8d65'],"[-0.00531953  0.01699162  0.01486767 ... -0.01161737  0.01459734
+ -0.0411918 ]"
+"d005bf75c31d4848ad7041f39651e59c","PROJECT GUTENBERG VOLUNTEERS","PERSON","""Individuals who contribute to the Project Gutenberg initiative by identifying, transcribing, and proofreading works""",229,"",['1be1132bc37156f3c13686fb1aba8d65'],"[-0.03580601  0.05530234  0.02324756 ... -0.01306028 -0.00783492
+ -0.03485252]"
+"9b3eef8f3a3a45e6873838db95295b8a","PROJECT GUTENBERG EMPLOYEES","PERSON","Employees who work for Project Gutenberg and contribute to various activities such as copyright research and proofreading",230,"",['1be1132bc37156f3c13686fb1aba8d65'],"[-0.01401687  0.03936923  0.03560768 ... -0.0172574  -0.00210475
+ -0.01371188]"
+"fdc954b454744820804d7798f3e0b5de","MICHAEL S. HART","PERSON","""Professor Michael S. Hart was the originator of the Project Gutenberg concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg eBooks with only a loose network of volunteer support.""",231,"",['2a1c4af9f9c41823c64e689c2b4b45e9'],"[-0.02232472 -0.02081518  0.0181381  ... -0.03474307 -0.01095008
+ -0.02373992]"
+"49c1383836934ec495c3b35769100a73","SALT LAKE CITY","GEO","""Salt Lake City is the location of the business office of the Project Gutenberg Literary Archive Foundation, located at 809 North 1500 West, Salt Lake City, UT 84116.""",232,"",['2a1c4af9f9c41823c64e689c2b4b45e9'],"[-0.03586314 -0.0147875   0.05707698 ... -0.01701023 -0.00520845
+ -0.02427729]"
+"859dedcc3736439a8a563419f16cb3d8","MISSISSIPPI","GEO","Mississippi is the state under whose laws the Project Gutenberg Literary Archive Foundation is organized as a non-profit educational corporation.",233,"",['2a1c4af9f9c41823c64e689c2b4b45e9'],"[-0.00478008 -0.02750196  0.04191979 ... -0.02708805  0.00964063
+  0.03118115]"
+"6078b9980a6c4dcd9198d151b833ead7","INTERNAL REVENUE SERVICE","ORGANIZATION","The Internal Revenue Service (IRS) is the U.S. federal agency that granted tax-exempt status to the Project Gutenberg Literary Archive Foundation.",234,"",['2a1c4af9f9c41823c64e689c2b4b45e9'],"[-0.03340987 -0.01649317  0.03525352 ... -0.02573632 -0.03034543
+  0.0306444 ]"
+"f93cd6b8213e46dda67af7e5382e1bd2","PROFESSOR MICHAEL S. HART","PERSON","""Professor Michael S. Hart was the originator of the Project Gutenberg™ concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg™ eBooks with only a loose network of volunteer support.""",235,"",['2a1c4af9f9c41823c64e689c2b4b45e9'],"[-0.02412437 -0.02427818  0.01908417 ... -0.03064352 -0.01820864
+ -0.02853751]"
+"496f17c2f74244c681db1b23c7a39c0c","FOUNDATION","","",236,"",['2a1c4af9f9c41823c64e689c2b4b45e9'],"[-0.02102242 -0.01959448  0.0498509  ... -0.01143144 -0.00644952
+ -0.00425208]"

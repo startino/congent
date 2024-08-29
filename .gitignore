@@ -1,3 +1,14 @@
+# Should always be applied
+.env
+build/
+public/
+
+# Python
+.venv/
+
+# GraphRAG
+cache/
+
 #########
 # Linux #
 #########
@@ -74,5 +85,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-.venv
