@@ -99,7 +99,7 @@ async def main(query: str):
         query
     )
 
-query = "where does jonas live"
+query = "what countries are mentioned in the data?"
 
 # Call the async function
 result = asyncio.run(main(query))

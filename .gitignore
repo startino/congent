@@ -10,6 +10,8 @@ public/
 settings-with-secrets.yml
 neo4j_db/
 cache/
+lancedb/
+.lance
 
 #########
 # Linux #

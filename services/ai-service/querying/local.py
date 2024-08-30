@@ -85,16 +85,11 @@ text_units = read_indexer_text_units(text_unit_df)
 print(f"Text unit records: {len(text_unit_df)}")
 text_unit_df.head()
 
-api_key = os.environ["GRAPHRAG_API_KEY"]
-llm_model = os.environ["GRAPHRAG_LLM_MODEL"]
-embedding_model = os.environ["GRAPHRAG_EMBEDDING_MODEL"]
-
-
-
-api_key = os.getenv("SWEDEN_AZURE_API_KEY")
+AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 llm = ChatOpenAI(
-    api_key=api_key,
+    api_key=AZURE_API_KEY,
     model="gpt-4o",
     api_base="https://startino.openai.azure.com/",
     api_version="2023-03-15-preview",
@@ -105,11 +100,9 @@ llm = ChatOpenAI(
 token_encoder = tiktoken.get_encoding("cl100k_base")
 
 text_embedder = OpenAIEmbedding(
-    api_key=api_key,
-    api_base=None,
+    api_key=OPENAI_API_KEY,
     api_type=OpenaiApiType.OpenAI,
-    model=embedding_model,
-    deployment_name=embedding_model,
+    model="text-embedding-3-large",
     max_retries=20,
 )
 
@@ -119,7 +112,7 @@ context_builder = LocalSearchMixedContext(
     entities=entities,
     relationships=relationships,
     # if you did not run covariates during indexing, set this to None
-    covariates=covariates,
+    covariates=None,
     entity_text_embeddings=description_embedding_store,
     embedding_vectorstore_key=EntityVectorStoreKey.ID,  # if the vectorstore uses entity title as ids, set this to EntityVectorStoreKey.TITLE
     text_embedder=text_embedder,
@@ -159,7 +152,7 @@ async def main(query: str):
     return await search_engine.asearch(query)
 
 
-query = "Tell me about Jorge"
+query = "what countries are mentioned in the data?"
 result = asyncio.run(main(query))
 
 print(result.response)
