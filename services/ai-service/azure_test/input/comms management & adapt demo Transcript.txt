@@ -1,0 +1,292 @@
+comms management & adapt demo 
+Tue, Jun 11, 2024
+
+0:00 - Jorge Lewis Can you hear me?
+
+0:01 - Unidentified Speaker Cool.
+
+0:01 - Cuan Mulligan Yeah.
+
+0:03 - Cuan Mulligan Cool. So let's tease apart what's going on. So where are we? Obviously, there's the self-inflicted pressure in terms of we had expectations and hitting that. Is that where you or is there something in how I am or we're engaging with you that's putting more pressure on you guys or?
+
+0:21 - Jorge Lewis So there's definitely the self-inflicting part, which is we want to impress. That's on us. The solution to that one is just start sharing our dev chats to you. And that way, we have no pressure. It's just you're getting the full behind the scenes. But then there's also, I mean, if that solution solves the other issue, which is that you're constantly asking for updates, then that's a perfect solution. But if it still doesn't, you require more like daily explanations in terms of what's going on. And then it does feel like, it feels like you're expecting deliverables every day.
+
+0:58 - Cuan Mulligan So definitely not expecting deliverables every day.
+
+1:04 - Cuan Mulligan I've been doing product delivery for 25 years, so I know that's unrealistic and it's not useful.
+
+1:11 - Cuan Mulligan I think when, for example, if I said to you, I'm going to give you 10 pounds on Friday, And then on Wednesday, I know that that's not going to happen. Me telling you straight away and saying, listen, sorry, that's not going to happen. Here's why. Here's what we're going to do about it. And here's when you're going to get it. That's what I mean by managing expectations. So as soon as you understand that something can't be done, it's setting those expectations of, hey, And let's be candid about it. This isn't going to happen. Here's why. I get software changes. But this is when you are going to get it. And this is what our confidence is. Yes, obviously, things can slip again. We get that. But at the moment, from my point of view, there's a huge amount of trust on my side that I'm assuming you guys are working. I'm not seeing stuff that I can play with. I feel from my side, I've tried to lean in and say, OK, Let's get this sort of visual contract of saying, I want to be able to do this. When can I get this thing? And that was supposed to be last Friday. And listen, I get stuff happens, and it's technology. It's never 100%.
+
+2:28 - Jorge Lewis I think you're hitting on a really big point that's a part of this, where we don't acknowledge that you understand that software has delays. And we're trying to probably make up for it or compensate for it with just delays. So knowing that you truly do understand how software development is, then it does give us a lot more freedom to just say, yeah, this is what went wrong.
+
+2:59 - Cuan Mulligan I think that's more real. I'm not saying it's particularly any more pleasant, but it's more real. And I think it understands, you know, hey, we thought this plugin was going to work. It doesn't work at all. And we've lost a day. It's not great, but shit happens. And we get that.
+
+3:18 - Jorge Lewis And it's better that you know that rather than us just saying, oh, sorry, it's going to be a day later.
+
+3:23 - Cuan Mulligan Yeah, because it's just like, Were you on the beach? Did you get hung over? Like, there's no, there's like, we don't know. Right. And obviously I'm speaking with JP and ARIF every day. And they're like going, Hey, cause when you tell me there's a demo on Friday, I'm obviously relaying that boat to the other ADAPT founders, but also to ARIF and JP, because they want to know how it's going and what my point of view is and what you guys are doing before they put their money into it. And, You know, I mean, listen, I think we both recognize that you guys are not a 400 person company. And that's one of the reasons why we like you guys, because we like your personality, we like your drive. And that's why we'd be interested in sort of partnering with you, because I think we can significantly add value to you guys and help you elevate your game. I think there's a three-year window to do something really, really interesting together before AI changes the landscape altogether and scares the shit out of everybody. But I think there's a short-term window to do something really interesting and impactful in the world with this tech. I just think we're fighting a tide of expectations. I was just on a webinar earlier on with ServiceNow, and they're unhelpfully putting out narratives that, you know, you can improve productivity by 70% with AI. Yes, if you want to use builder.ai and you say, give me a clone of Instagram or give me a clone of Facebook, yeah, it's an established pattern. As soon as you want to do something innovative, I'm sorry, you can't just go to software, hey, make this thing. It might come one day. I was watching an article last night saying that there's a multi-agent coding solution which has a test bot, a reviewer bot, coder bot, and they're giving each other's feedback. And it keeps on getting, the coder will keep on getting it wrong and keeps on getting feedback until it gets it right. And so that's quite clever.
+
+5:34 - Jorge Lewis Was it called Devon?
+
+5:36 - Cuan Mulligan Could have been, yeah.
+
+5:38 - Cuan Mulligan Devon's very impressive.
+
+5:40 - Cuan Mulligan But again, a lot of these things are happy path, right? So that's why I was asking you guys, what are you seeing? And yes, obviously you don't have the inefficiencies of large organizations, But I do wonder whether there is a conversation to say, like, how do we manage expectations? Like, could we use AI to manage expectations saying, hey, you know, not that it's of any value whatsoever if you know what you're talking about, but to say, hey, there was 7,000 lines of code written today. There was 15 check-ins. There was five issues. There's even something similar to that. We know something's happening. I don't put in particular, that doesn't mean the needle has shifted, but it does mean activity has happened. So that would be hygiene. I think the evolution beyond that is to say, I was reading a good article about the difference between a roadmap, a product roadmap, and a flight plan. Flight plan has to change the dynamics in the weather and stuff like this. And you have the ultimate goal, but your path there is evolutionary, and it responds to dynamic changes and stuff. So I built myself an hour if we did our first startup years ago, about 15 ago, which was building an AI project manager. We got gazumped by JIRA and Azure DevOps and stuff like that because we just couldn't because we had to use our underlying database and people wouldn't let go of Jira and DevOps because they were so integral to the solution. But people said, well, can you give us the bot? We really like that. So there's a lot of thinking that we've done. And again, another experiment to figure out is after we built this is, could we build an AI project manager to lighten your load from an account management point of view? I think there's some really interesting stuff we could do there. But that's another phase. So on this in particular, you asked some really interesting questions yesterday. And some of them makes total sense. And some of them felt that we weren't aligned, or I don't understand how the coding requires that sort of information. I think I had a preconceived idea of it working a different way. So can you sort of give me an update of where we are with stuff and how close we are to getting it in the next release so I can play with stuff?
+
+7:57 - Jorge Lewis Yeah, how about I run you down and where the architectures are right now so you get an idea of what it's doing behind the scenes.
+
+8:07 - Cuan Mulligan Just give me two seconds. I want to see if Arif and JP are around. They might like to hear this.
+
+8:34 - Cuan Mulligan I'll just give them this meeting link. If they can join, they can join. Um, okay, cool.
+
+8:44 - Jorge Lewis I'm trying to try to post the, I had a drawing. Let me find it there.
+
+9:11 - Jorge Lewis Or I think of, yeah. Okay, so can you open up that PDF you sent? It should have been an image, but yeah.
+
+9:27 - Jorge Lewis Let me just screenshot and send it. Where did you put it?
+
+9:32 - Cuan Mulligan Because I just got read...
+
+9:38 - Cuan Mulligan I'm hearing beeps but I'm not entirely sure where this is.
+
+9:41 - Jorge Lewis It's in the dap channel.
+
+9:45 - Cuan Mulligan In this? Or in... No, it's in adapt. Sorry, it's in that. Okay, fine.
+
+9:54 - Cuan Mulligan Is it?
+
+9:57 - Cuan Mulligan Yes, supervisor, entry coach, entity, supervisor, select next, speaker, tool, coach. What's that drawing platform that you use?
+
+10:08 - Jorge Lewis The one that you share?
+
+10:10 - Unidentified Speaker Excalibur.
+
+10:13 - Cuan Mulligan Yeah, that would probably be better in there because it's typing some of the text.
+
+10:18 - Jorge Lewis Yeah, sometimes when I'm really in the brain, like the whiteboard, I need the drawing.
+
+10:23 - Cuan Mulligan Yeah, I get that. But okay, let's not start with the architecture because that's an implied thing that you need. Hey, JP.
+
+10:33 - Cuan Mulligan Good morning.
+
+10:34 - Cuan Mulligan Hey, so where are we with the actual feature set going backwards from the customer, from us? When do you think I'll be able to play with it? We talked about a potential demo today. Is that feasible?
+
+10:48 - Jorge Lewis So what I'm doing currently right now is trying to, so from Friday when we had the demo, what we had was the check-in bot specifically. So behind the scenes, they're split up into different modules. They all have the same persona, so they act like the same person. But behind the scenes, they're each specialized to do one thing. And in our case, I was working on the check-in bot. The check-in bot is comprised of the coach, data analyst, and the supervisor.
+
+11:20 - Jorge Lewis So the supervisor, his job is to gather the data, then he sends it to the coach to provide coaching on the data that's given from the user, and then he can get further analysis from the data analyst if he wants or not. And then it goes back to the supervisor to repeat the loop. So that's the check-in thing, and that's what I was working on.
+
+11:38 - Cuan Mulligan So this is a multi-agent system?
+
+11:41 - Jorge Lewis Yeah, it's evolved into that. I don't know if we're going to call it... It is a multi-agent system, but I don't know if we're going to call that because an agent is often, it can be defined as someone like with a persona. So we don't know yet. Behind the scene, it is very similar.
+
+11:58 - Unidentified Speaker Okay.
+
+12:00 - Cuan Mulligan So a multi-agent system to the customer or the user would have an experience of working with three different people. But under the hood, what we're saying is it's one unified person experience, but there will be sub bots, sub agents, let's say, call them sub agents that are working together to achieve a particular outcome. And so you're niching up the capability into really thin slices so they can become experts in that one thing.
+
+12:25 - Jorge Lewis Exactly. Yeah. And the reason so by Friday, what I had was I had one bot that had the capabilities to retrieve data from the database, get data from the database, and then provide some some coaching. But the performance wasn't that good. The one guy couldn't do it all. So we went into this route of delegating.
+
+12:44 - Cuan Mulligan When you say performance, that's got multiple interpretations in terms of speed, in terms of accuracy, in terms of experience.
+
+12:53 - Jorge Lewis Okay, so speed is actually a very annoying thing because right now it's currently quite slow, but for the performance I was referring to was just the quality of Alpine didn't think it would be able to become I feel like if we modified the prompt, it wouldn't be able to, it's not flexible because we tell it to change one aspect. Let's say for your coaching, do this, do more of this. Then having it integrated within the entire bot, it's not a good idea because by separating them, we get to independently improve one of the modules. It would mess up the function calling quite a bit because function calling is surprisingly pretty difficult for language models. So separating that is usually the best idea. It gives us the most scalability in terms of capabilities and quality.
+
+13:43 - Cuan Mulligan Okay. So for me, there's a milestone I'm looking for, which is to have a version of the bot that we can interact with, pull in data from a profile, and then changing the foundational prompt so that that bot can change its responses to certain scenarios. Because that, I think, is going to give us more learning in terms of all the different types of edge cases of how people engage with it. So that was what I thought we'd have on Friday, and then it was talked about potentially today. So when do you think we can actually play with that?
+
+14:25 - Jorge Lewis Let me keep going into the progress we've made so far, and then we can wrap that. So from Friday, that's what we had, the single bot trying to do everything. And then over the weekend, I worked on it. And by that point, we had the UI completed, but the reactivity was terrible. You'd have to refresh the page every new message just because of the way the backend was connected. Over the weekend, we fixed the reactivity, and I implemented the multi-agent architecture.
+
+14:50 - Cuan Mulligan So just some feedback, by the way, especially to myself and Arif, because we are quite technical, giving us that level of granularity, saying, hey, listen, we've got this bit done, but the reactivity was really, really shit. That's fine. We would then understand that that's a realistic issue and a glass ceiling you've hit, and then say, hey, while functionally it hasn't improved, we've re-architected it to sort out the reactivity blocker. That's huge progress for us. Even though it's not getting us to the ultimate goal that we thought we'd get on the Friday, but we can understand that level of reality with dealing with software. It goes backwards and forwards and left and right. So having that transparency, I think, is really, really useful. JP, what about you? I know you're a clever guy, but I don't know whether that level of feedback is something that you'd want or not.
+
+15:38 - Jonathan Phillips I pick up little bits, and I learn as I go.
+
+15:47 - Jorge Lewis Over the weekend, we improved the reactivity and then I improved the bot system. By yesterday, I had finished what I was happy with in terms of architecture. Today, my plan was to fix the prompts to make them more aware of their environment. So pretty much tell them, hey, you're part of the system. You shouldn't have your own persona. You're part of this guy, right? All these things, and just improving the prompts here and there.
+
+16:12 - Jorge Lewis By the way, to kind of give you some more context regarding prompting, there's one type of prompt, which is for the persona. And then there's another one that's for functionality. The functionality one is behind the scenes. The persona one is going to be editable by you guys. But I'm trying to figure out a way if we can make even the ones behind the scenes editable for you guys so you can iterate those ones as well.
+
+16:34 - Cuan Mulligan I think that would be certainly from an Intelli agent one for JP. I feel that's probably where you're going to need to go because we can't specify the functionality to the end degree. So having an interface that we can modify the functionality while also the style of the personality, I think having those two levers would be super useful.
+
+16:58 - Unidentified Speaker Yeah.
+
+16:59 - Cuan Mulligan On the sort of the agents and having sub-agents, is there a sense that If the supervisor buzz goes left, even if you want to go right, you must listen to them. Is there a hierarchy of opinion, for want of a better word, in the bus? Otherwise, how are they going to stop? I think you called it a circle jerk. How do they not just get into a really nasty cycle of saying nice things to each other?
+
+17:27 - Jorge Lewis So in the one for Adapt, there's not much hierarchy. The flow is usually very simple. So it's going to be gather the data, coach on the data. To coach on the data, he can pull more insights from a data analyst or not. But for something like for JP's one where it's sometimes have a circle jerk, just you have to allocate who has priority and who doesn't. But on top of that, the supervisor in Adapt's case is also the check-in manager, but his main role isn't to manage the conversation. His main role is to get data and then pass it on to the coach to provide coaching. So we could further add another layer on top, which is just a pure supervisor just saying, this is how the conversation should look like, If it looks like there's a power struggle, do this or this.
+
+18:20 - Jorge Lewis So if we go into the graph.
+
+18:28 - Jorge Lewis I shall send it. Can I send images here?
+
+18:32 - Cuan Mulligan I should.
+
+18:39 - Jorge Lewis How do I?
+
+18:43 - Jorge Lewis Oh, let me let me screen show you this.
+
+18:51 - Jorge Lewis Can you guys see it? Yep. So at the top here, we have the supervisor, but this is also- Can AI rewrite the writing?
+
+19:07 - Jorge Lewis We can. Let's see. Thank you. Thank you. See, I did try doing it in Excalibur, but sometimes I need the drawing of the whiteboard. Let's see. I know there's AI features.
+
+19:26 - Jorge Lewis No. Oh, wireframe to code.
+
+19:30 - Jorge Lewis Anyways, supervisor is going to start us off. So if the user says, let's check in, the supervisor starts off. The supervisor and the coach both have a tool to select the next speaker. This is to pass the baton to the next person.
+
+19:50 - Cuan Mulligan Is that the next sub-agent?
+
+19:54 - Cuan Mulligan The this one or we say speaker is that the person that the sub agent bot that's engaging with the customer person.
+
+20:01 - Jorge Lewis This, this, this is a tool. So tools are, are just for the language models to call and for us to manage behind the scenes, like to allocate who should speak next. Right. So the blue ones are tools. They're not real people. This one's also supposedly a tool, the entry. So let's just go step by step. So the first one is he can select, all right, we've got some user data. Let's select the coach to speak next. So we'll start the coach off. This node here is just to introduce the coach to the scenario, saying, hey, we have this new data. Let's coach on it. And then we start into it. The coach can then select the next speaker, which could be the data guy or go back to the supervisor.
+
+20:44 - Jorge Lewis So this entry node is also just telling the data guy the context of the conversation so far. The solid lines, by the way, are non-conditional. So anytime the conversation is at the data guy for one message, he gives a response, and it'll go directly back to the coach. The dotted lines are conditionals, depending on some factors. And then after the coach maybe makes some coaching, he hands it back to the supervisor, and we usually repeat.
+
+21:15 - Cuan Mulligan I'm just going to hide my camera because I'm going to start eating and I don't think any of you need to see it.
+
+21:20 - Jorge Lewis I mean, I wouldn't mind.
+
+21:23 - Jorge Lewis Yes. So that does that make sense? Albeit the beautiful handwriting.
+
+21:29 - Cuan Mulligan Yeah. I mean, it does. But I suppose the real challenge is in the nuance of testing it.
+
+21:38 - Cuan Mulligan Because it all looks fine on paper.
+
+21:42 - Jorge Lewis When do you think we can actually start to like So let's so Jonas has been working on the front end side of things So this so this is you guys can still see my screen, right? Yeah. Yeah. So for example, I could select my chat and See, we had an issue this morning. I was working. I spent way too long trying to fix this issue. We're sending to the same messages, but, um, so yeah, we have the conversation going now, but I need to push the changes that I made today.
+
+22:13 - Cuan Mulligan Could you, could you explain this? I think it's really useful context for us. So that we can understand, for example, if you're doing normal software engineering and you say you pass in two variables, like two numbers, and the addition of the number is the function of the module, 1 plus should be equal to 2. It always will be. Obviously, LLMs and this sort of work is a bit more fragile in that way. It's not as canonical or categorical. Can you explain to us why it started producing double responses and how did you fix it? I think this will just go a long way for us to start understanding the realities of software engineering in this way, that it's not quite the same as building a website.
+
+22:55 - Jorge Lewis This was actually not the language model. It was something related to the code, our code.
+
+23:02 - Cuan Mulligan OK. So the language model was giving you a single response, but for some reason you were displaying it twice?
+
+23:08 - Jorge Lewis Uh, yeah, no, well, this, this is my, our side. So the right side is us. So this is me saying I'm 24 years old.
+
+23:17 - Cuan Mulligan Okay. So the UI is doubling what you said.
+
+23:22 - Jorge Lewis Not even the UI. Behind the scenes as well, it was making two of the same messages. So for some reason, the bot would respond with one nice message. Perfect. But then the R side would keep putting two. And I finally fixed it. If this doesn't duplicate, I've done it. And it didn't duplicate.
+
+23:42 - Jorge Lewis Yes, so I think as soon as I push, I need to ask Jonas, because as soon as I push or merge my changes into the alpha branch, it'll be deployed. But I don't know if it'll work as is. So I need to check with Jonas on that one. But there's also, I don't know how good it looks at the moment, but let's take a look.
+
+24:01 - Jorge Lewis There's the admin link somewhere. Let me find it.
+
+24:08 - Jorge Lewis We've separated the chat interface, or we've made them into two separate projects so that, I mean, it doesn't make a difference on the user side, but for us, it makes it a lot easier to work with.
+
+24:20 - Cuan Mulligan Next task.
+
+24:26 - Jorge Lewis What should we do?
+
+24:44 - Cuan Mulligan Eggs and bacon, Kevin? Eggs, bacon, avocado, six eggs. Six pieces of bacon and half an avocado.
+
+24:54 - Jorge Lewis Sounds like...
+
+24:57 - Cuan Mulligan I can't find the link.
+
+25:02 - Cuan Mulligan It is interesting, though, that compared to using chocolate-covered, cream-filled eclairs or profiteroles, You can't quite eat the same number of eggs.
+
+25:17 - Unidentified Speaker It's amazing.
+
+25:23 - Jorge Lewis So yes, the admin page looks like this now. So you can review the responses. So this is the top dropdown is for you to select which user you want to go through. So let's just say mine.
+
+25:35 - Jorge Lewis Let's say this response wasn't that good. You can click on it and you can select if it was a good or a bad response. If it was good, it takes us to this page where it's just the form. So this was the response we deemed as impressive. What was good about it? Where should the conversation... I think this part, I think we were supposed to ask you, but we didn't. Should a good, impressive response have a following field here?
+
+26:01 - Cuan Mulligan Let me ask JP and Ira from this, actually. So the reason why I came up with this idea was not just the response, but where do you want the conversation to go after that response? Is there a particular direction you need to take it away from where you think you're going at the moment?
+
+26:18 - Cuan Mulligan For example, let's say someone says, oh, I didn't do my walk because my kid went to hospital. And they said, oh, I'm really concerned to hear about that. That's a good response. But where do you actually go next? Do you go back to the previous point? Or would you say, actually, given this is a highly sensitive topic, do you actually now want to say, shall we pause this check-in and come back to you tomorrow?
+
+26:46 - Cuan Mulligan It's that sort of stuff. That was the point of the follow-on. So you've got the immediate response, which is good, which could include a follow-on. But if it doesn't explicitly have one, the follow-on was, as a person, this is where I would go next.
+
+27:01 - Arif Harbott Yeah, OK. That makes sense.
+
+27:03 - Arif Harbott Yeah, it's probably.
+
+27:07 - Cuan Mulligan Up to the user you pose the question. Yeah, I think you're right. Are you okay to carry on today? Or do you want to just pick this up again tomorrow with the clear ahead? Yeah Because I'd imagine doing a marketing thing there's particular Sort of non-logical next steps that jp goes. Uh, if I saw that I'd want to go left or I'm like, oh fuck I would have gone, right?
+
+27:29 - Jonathan Phillips Yeah, that's the communication of your expertise completely that that's it's imperative that we direct them so that they don't decide what to do themselves, so to speak.
+
+27:47 - Jorge Lewis Language models are very, what they do is predict the next set of text. They're very bad at skipping a step and going from the results to Like, if they're given the endpoint, it's very hard for them to try to reach it through messages. They usually just go straight to that point. So we'd have to, we should gather the data right here, we should gather the data, and we'd later end up finding a way to make it in a way that the language model would enjoy using.
+
+28:19 - Cuan Mulligan Is it possible, for example, let's say you're running a workshop, And that workshop could be broken down into, have you ever heard of a business model canvas workshop?
+
+28:31 - Jorge Lewis Canvas workshop for the business model.
+
+28:34 - Cuan Mulligan Yes, a business model canvas is like a 12 box diagram of different steps. And there's a particular, there's an effective way that you travel through those steps. And so is there a way that we can create those steps that they must be finished. And then the steps must happen in that order, but the journey to go from step one to two is what's organic, but you have to get to two before you can start talking about three. Yeah.
+
+29:05 - Jorge Lewis Yeah. That's actually something similar to what we're doing for, for these sub modules. Cool.
+
+29:16 - Jorge Lewis So this function here is to select the next speaker within the check-in cycle. So I've given it the standard check-in cycle looks like, The supervisor, he requests user tracking data, the coach gets it from the supervisor, the data analyst gets user from the tracking data, and then tries to provide useful insights. The coach uses this to create some coaching, and it's back to the supervisor. So giving it an example of the orders that we want is usually enough for it to understand how things go. And then sometimes, depending on how well we prompt and the examples we give it, it'll be able to do it pretty well, in between, I mean. Going from one to another, it does a good job.
+
+29:56 - Cuan Mulligan Those sort of five points, I'm sorry, I think from an IntelliAsian point of view, being able to see those and add to them or change the order of them, I think is going to be imperative.
+
+30:07 - Jonathan Phillips Sorry, excuse my ignorance, where are they sitting, those five points, as far as, it's in the code, obviously, at the moment, but where, as far as a user interface, is it part of a hard-coded prompt or is it something that's modifiable?
+
+30:25 - Jorge Lewis So it's modifiable. We can bring it to the front end and bring it here. But this is a simple one where there's no variables. But something more complicated like this one where we have variables like a profile ID. Or actually, let me go. Yeah.
+
+30:53 - Cuan Mulligan I want all of these aspects of a prompt to be in an admin screen that we can tweak and modify.
+
+30:59 - Jorge Lewis Yeah, so we need to figure out the best way to do that because it's obviously possible. Just what's the best way? I'm thinking the best way is just to use So you can see here, we give it a variable. This is a variable here, userInfo. And at the bottom, we give it as the actual value.
+
+31:22 - Cuan Mulligan Sorry, I can't see your screen anymore. Is it just me? No, I've lost it as well.
+
+31:27 - Jorge Lewis Oh, for just now or the whole time?
+
+31:30 - Cuan Mulligan No, just now. Just now.
+
+31:34 - Jorge Lewis Let me know.
+
+31:38 - Jonathan Phillips Yeah, we're back.
+
+31:42 - Jorge Lewis OK, so this part here, so this is a prompt for creating an agent. So we're passing it the user info, which is things like name, those things, right? It's given as a variable using the curly brackets. And then we set the value down here in the code. So we could, on the front end for that, make the curly brackets as a keyword for variable. And we need to tell you guys to not change those. That's the simplest way I can think of as of now. Later down the line, to make it more intuitive, we can make a drop, like an insert variable type of thing. But I don't think there's a need. We can use double curly braces if that's more intuitive and obvious.
+
+32:20 - Cuan Mulligan I would just create a CRUD screen with those fields in it that we can edit. And then at runtime, you pull that down.
+
+32:39 - Cuan Mulligan I think the risk of going into code and changing something accidental is way bigger. So anything that's changing stuff, I would want to control the experience just to be safe.
+
+32:55 - Jorge Lewis Yes, the only one of the problem for the crud table you'd be so we would assign the variables, right? On the UI. But the value would have to be assigned later down the road.
+
+33:11 - Cuan Mulligan Once you spin it up, that will pull down the latest value, and then we'd have to have some form of... If you changed it, it would have to refresh. Let's say you changed the personality variable. It would have to then take that new personality, so maybe there's a restart, a reboot, refresh, whatever. There has to be a way of pushing that change into the bot context so that it takes that new context into consideration going forward.
+
+33:43 - Jorge Lewis Yeah, the concern is that so user, so let's say if we were to just drag this into a front end, we have the left side of the screen can be the prompts with the right side just being the variables. We can't assign the value in the admin page. It has to be done behind the scenes. So it has to follow a certain key. For example, the key would be user info.
+
+34:12 - Cuan Mulligan I don't think we need to fix it now, anyway.
+
+34:14 - Cuan Mulligan Yeah, we can go into that.
+
+34:16 - Cuan Mulligan So when will this be deployed? Because it looks, you know, it's great to see this. It looks like it's actually, there's a whole load of stuff that's happened. When can we start to play?
+
+34:26 - Jorge Lewis I mean, I could try pushing right now, if you guys want to see if that will work or not. Actually, never mind, we have a problem with Vercel. They've changed their pricing or their integration with GitHub. Only Jonas, oh, wait, no. Let me give it a go. Only one person from the accounts can now merge into Alpha. Let's find out.
+
+35:07 - Jorge Lewis But I mean, yeah, I think Jonas is off for today. But if he's able to respond to my message, I can get it done myself.
+
+35:18 - Jorge Lewis Yeah, it doesn't let me.
+
+35:22 - Cuan Mulligan How come he's away today? Sorry, I didn't know.
+
+35:25 - Jorge Lewis Sorry. Jonas, I think he's just off for dinner with his girlfriend's family.
+
+35:36 - Cuan Mulligan Okay, so if you can get a copy of it and let us know when you can push so we can test it because...
+
+35:42 - Jorge Lewis He's off for my day. His day starts at the normal time. I start late.
+
+35:49 - Jorge Lewis I can get him back on.
+
+35:54 - Jorge Lewis But if this doesn't have any issues, like with the actual connecting with the front end when it's merged, then it should be...
+
+36:03 - Jorge Lewis 10 but it takes as long as Jonas can respond.
+
+36:12 - Jorge Lewis So we've looked at the good response. Let's take a look at the bad one. Similar thing.
+
+36:18 - Jorge Lewis The system prompts.
+
+36:23 - Jorge Lewis So now we've separated the prompts into different aspects to give you guys some more room to work with. And this will later be the whole list of prompts that we're seeing that aren't added, like the system prompt for agents and things like this. So we'll add that later down the road. As of now, you can start playing with these. Yeah.
+
+36:51 - Jorge Lewis So does that include everything you guys were wondering, or have we missed anything?
+
+36:59 - Cuan Mulligan I mean, yeah, we need to figure out what we can do. And yeah, if you can send over the latest URLs that we need to play with, and then we can start playing with stuff and giving feedback, that'd be great.
+
+37:13 - Jorge Lewis Okay, sounds good. And then just to solve the issue of the daily progress is we'll start moving a lot of our tech chats into your guys' chats, or maybe we'll make a separate channel for us to put the tech-specific stuff, and we'll start just chatting there. Sound good?
+
+37:30 - Jorge Lewis Yeah.
+
+37:32 - Jorge Lewis Cool. I'll send the links right now, and then I'll let you know when they're playable.
+
+37:41 - Jonathan Phillips Just just let you know as well the payment went through today so it should be in your account now Sounds good.
+
+37:48 - Jorge Lewis Thanks so much I hope you could I've hope you've been able to see how we're able to apply some of the coins a lot of cool and stuff to To the most yeah that we're using well behind the scenes. We're using line graph. It's a pretty pretty new framework for for just LLMs. It uses a graph structure, which makes it super modular and flexible. I love it so far. It was different to what we were previously using, which was another framework by Microsoft Autogen, which was a lot more abstracted and less easy to work with. So this one hopefully gives us a lot more just grit and speed. Excellent.
+
+38:26 - Cuan Mulligan Cool you.
+
+38:27 - Cuan Mulligan Thanks guys so much for your time. Thanks a lot. Bye-bye.
