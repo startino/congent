@@ -7,6 +7,7 @@ public/
 .venv/
 
 # GraphRAG
+settings-with-secrets.yml
 neo4j_db/
 cache/
 

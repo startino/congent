@@ -12,7 +12,9 @@ cd congent/services/ai-service/knowledge_graphs
 cp -r project_template project-name-test
 
 # Init the GraphRAG project.
-python -m graphrag.index --init --root ./project-name-test
+# "settings-with-secrets.yml" is a file that contains the secrets for the project
+# because .env file was not working lol
+python -m graphrag.index --init --root ./project-name-test --config settings-with-secrets.yml
 ```
 
 
