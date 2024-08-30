@@ -1,3 +1,16 @@
+# Should always be applied
+.env
+build/
+public/
+
+# Python
+.venv/
+
+# GraphRAG
+settings-with-secrets.yml
+neo4j_db/
+cache/
+
 #########
 # Linux #
 #########
@@ -74,5 +87,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-.venv

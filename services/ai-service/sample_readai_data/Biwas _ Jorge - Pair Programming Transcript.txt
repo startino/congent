@@ -1,0 +1,586 @@
+Biwas / Jorge - Pair Programming 
+Tue, Aug 6, 2024
+
+0:01 - Biwas bhandari I want to be able to see your web environment on the screen.
+
+0:30 - Biwas bhandari Can you see everything? I think I can see now. Yeah, yeah, yeah. Okay, so...
+
+0:44 - Jorge Lewis Yeah, I think that's it.
+
+0:59 - Jorge Lewis So let me just run the app at first.
+
+1:46 - Biwas bhandari Yeah.
+
+2:03 - Biwas bhandari Nice, nice.
+
+2:05 - Biwas bhandari So these are the posts that I've made, yeah, that I've faced. And this probably is not in this.
+
+2:18 - Jorge Lewis All right, so I'm following you now.
+
+2:25 - Jorge Lewis OK.
+
+2:34 - Biwas bhandari ok yeah this is pretty much so let me first explain the code to you and this one is for authentication and the red is for recreating server field and password and this one is for fetching code which inputs plus and filtering it. For example, if the same Read.AI ID and title is in the repository, then it will not pass it to the evaluator of the relevant data.
+
+3:16 - Jorge Lewis Yes. Can you try improving your mic? It's very tough to hear you. Do you not have any other headset at home?
+
+3:22 - Biwas bhandari Let me change it.
+
+3:28 - Jorge Lewis Maybe if you hold it to your mouse, it'll be better. I don't know.
+
+3:37 - Jorge Lewis Can you hear me now better?
+
+3:38 - Jorge Lewis Yeah, now it's much better. I can hear you clearly.
+
+3:41 - Biwas bhandari Oh.
+
+3:44 - Biwas bhandari Yeah, that's it. And for the prompts, I'm just passing the context from here.
+
+3:54 - Jorge Lewis You can see.
+
+3:55 - Jorge Lewis Yeah, OK.
+
+4:00 - Biwas bhandari This one I just copied from the Python code.
+
+4:09 - Biwas bhandari So...
+
+4:22 - Jorge Lewis Okay, so what you were working on was trying to add a button, right?
+
+4:27 - Biwas bhandari Yeah. So I want to call, this one is the function that calls all the, at first it calls the, it fetches the post and it evaluates it and then tests it in the database. So this is the main function.
+
+4:44 - Jorge Lewis So, okay, I see. So that function, by the way, should be called, it should be more than process posts. It's also fetching them. That name could be pretty misleading. If I see that function when I'm calling it, it's not very clear that it's processing. I would imagine since the file that it's in, for example, is in evaluation, I would think that it's not very, it's not fetching the post, but it is.
+
+5:30 - Jorge Lewis Okay, so there's one concept of a spell kit and that's the server files which is, so okay, So we're not going to be able to do a lot of, it's not going to be very helpful if we do SvelteKit stuff right now because the most efficient way to do this is for you to go through the tutorials, the SvelteKit tutorials, which are great. And then once you do those tutorials, then we can do some programming because There's a very basic, well sorry not basic, but there's just an introductory concept where you have server files and then you have page files.
+
+6:33 - Biwas bhandari Yeah, I know, I have read about it, I cannot import the server function in the content, so I think I basically need to create a route.
+
+6:45 - Jorge Lewis Yeah, yeah, exactly. But this is actually not a server function. Server functions should be inside the server folder there in lib slash server. Yeah. So you can, you can just move your file folders.
+
+7:02 - Biwas bhandari I had to do that. First of all, I need to move all my folders inside.
+
+7:14 - Jorge Lewis All right.
+
+7:16 - Jorge Lewis Yeah, I mean, if they run on the server, you probably want them, well, yeah, they need to be in the folder.
+
+7:25 - Biwas bhandari Okay.
+
+8:19 - Jorge Lewis Bye.
+
+8:42 - Biwas bhandari I should have found one.
+
+9:13 - Biwas bhandari the Okay.
+
+11:06 - Biwas bhandari Now that insight is over.
+
+11:33 - Jorge Lewis Have you done the tutorial?
+
+11:37 - Biwas bhandari Was it failed yet?
+
+11:40 - Unidentified Speaker Yeah.
+
+11:42 - Biwas bhandari No. No.
+
+11:50 - Biwas bhandari Hmm.
+
+12:08 - Biwas bhandari Okay.
+
+12:32 - Jorge Lewis Bye.
+
+12:55 - Biwas bhandari Okay Your your gather characters out of the office just sitting but just standing there okay yeah so So there are a couple of things I need to include here in the content.
+
+13:59 - Biwas bhandari People.
+
+14:32 - Jorge Lewis Oh, you haven't pulled. Oh no, bro, you gotta be pulling. I don't think you've pulled yet.
+
+14:39 - Biwas bhandari No, I haven't pulled yet.
+
+14:42 - Jorge Lewis Yeah, yeah. You gotta always be pulling from alpha.
+
+14:48 - Jorge Lewis Obviously, it depends on the project. If no one else is working on the project, it's obviously gonna be less likely, but it should be a habit that every day you're pulling, it should be on the back of your head always.
+
+15:08 - Biwas bhandari Issues of... No, I think that won't work.
+
+15:14 - Jorge Lewis Yeah, no. Alright, so right now, we need to make a button that calls the function, right?
+
+15:21 - Biwas bhandari Yeah, also, since I'm calling it, it's only showing post and this one, but it's not showing here. Why is it relevant or not? Why do we need to show that?
+
+15:40 - Jorge Lewis I don't need that. I don't need why it's relevant or not.
+
+15:47 - Biwas bhandari Okay. And that's good.
+
+15:53 - Jorge Lewis Like for something like that, it's the same thing when you were working on the prompts, improving the prompts. You have to understand. So this is not specific for this project. I'm trying to teach you this so that when you're working on the client's projects, it's going to be a big issue. If you're working on something that doesn't align with them, it's going to be a very big issue because for them, to them, that means that they're paying you money to work on something they don't need, they don't care about. And they're going to question your competence and your character. Why did you not ask me before? Is this important? Stuff like this, right?
+
+16:31 - Biwas bhandari The relevance reason is not important to you, you are just fetching the data and putting it in the frontend.
+
+16:45 - Jorge Lewis Yeah, right now, like for example, right now the current version, it doesn't have it. I don't need it right now. Because, yeah, just what I need right now is not that. And that's exactly the process it should be. You ask me in a chat, hey, I was thinking it would be useful if I had the reason why it was relevant or not, or the reason why it was relevant, then I would say yes or no. And we'd be able to move from there rather than potentially spending time on that, right?
+
+17:14 - Biwas bhandari Yeah. Okay.
+
+17:17 - Jorge Lewis Cool. Oh yeah. So let's get this button in.
+
+17:24 - Unidentified Speaker Yeah.
+
+17:24 - Jorge Lewis Okay. So open up the code and we'll go to... We'll figure it out. So which part were you struggling with? What have you tried so far and kind of where are you at?
+
+17:34 - Biwas bhandari So yeah, for the bottom I have an alternative, right? If I just go to the search route, then it will automatically fetch it. I just told the sensitivity to make it.
+
+17:53 - Biwas bhandari Let me just show you.
+
+17:59 - Jorge Lewis So there's a search route?
+
+18:02 - Biwas bhandari Yeah. In the route, there is... Sorry. These two codes are written by XAPT.
+
+18:10 - Jorge Lewis If I enter, then you can see here.
+
+18:24 - Biwas bhandari Okay, because if it's fetching the duplicate post, it's not saving in the database.
+
+18:30 - Jorge Lewis Yeah. Okay, so...
+
+18:36 - Biwas bhandari Yeah, if I go into the solver, it will automatically fetch all the functions.
+
+18:42 - Jorge Lewis Yeah, so there's two ways we can do this. We can do it the really simple way and have it fetch on the load. So, what you're doing is fetching on load, right? Yeah. You've added the functions on load. The alternative is adding it to an action. Are you familiar with actions?
+
+18:58 - Unidentified Speaker No.
+
+18:59 - Jorge Lewis So an action is a spelt kind of thing that allows us to call a server function in the front end. So I could show an example. If you go into, I don't know. I mean, yeah, so I guess there's this, there's nothing inside it, but for example, it might look like this. We have, What is it, search or just do, what should we call the end point that we're trying to...
+
+19:33 - Jorge Lewis Okay, fetch post and evaluate. So this is what it looks like,
+
+19:53 - Jorge Lewis Hold up.
+
+20:05 - Jorge Lewis All right, where's my GIF co-pilot?
+
+20:20 - Jorge Lewis Oh, OK.
+
+20:36 - Jorge Lewis Okay, so it takes in this, and inside here, so what we're doing is we're fetching. We don't return anything since the server function is calling on Superbase. So all we need to do is exactly what you did in the other function, which was calling this, the function, and let's just import it.
+
+21:02 - Jorge Lewis It should be good. We don't need to return anything. In fact, since this is going to be a POST request... Oh no, this is a GET request. But we're not going to return anything. I guess we could. What does the fetch... Does it potentially return an F? The return is void.
+
+21:31 - Jorge Lewis So it's not returning anything? Okay. So it's not returning anything.
+
+21:38 - Jorge Lewis Yeah, so instead of, usually I don't wrap things and try and catch. That's kind of a terrible practice to be using. There's of course the right place and right time to use it, but that's what I did before and it's great when you want something to work, but when you're trying to, now that we're integrating it into the app, If it errors, we don't want nothing to happen. We need to know it erred so that we can fix it if it's needed. So instead of logging error, we do... Because the console log error would be... It's one way to do it. So we're fetching the subreddit post and this returns...
+
+22:19 - Jorge Lewis What if the Fetch subreddit, so okay, one thing I've noticed already so far is you're missing to add the potentials. Like if, for example, let's go into Fetch subreddit posts. This here. By the way, you can follow me, by the way. If you go into live share, you can click follow.
+
+22:46 - Jorge Lewis Okay.
+
+22:47 - Jorge Lewis So this function here returns a promise of a post, right? So you're returning here. The filtered post gets taken by this and filterExisting. So none of these actually have the ability to return null, meaning if there is an error, it will return undefined. We're not considering that at all. We don't give it the option to return none. This is exactly where we want to be checking if there's an error, so Okay, so if there's fetch error, then we're going to log it But then what happens okay, so you're using another try catch okay, but yeah, especially for so what I would recommend is Taking a look at some of the other code probably on adapt would be good, but taking a look at adapt and and seeing how we handle things like this. I'll go through now. I'm no expert, so if I write something that isn't the most optimal, oh well. But at least it's not a try-catch function.
+
+23:52 - Jorge Lewis So, okay, so we're getting the data from evaluator's mission, select.
+
+24:02 - Biwas bhandari Okay.
+
+24:03 - Biwas bhandari I'm just fetching it from the superweb to see if the page post from Reddit ID is already there in the superweb. If it's there, it'll filter it out.
+
+24:23 - Jorge Lewis So why are we selecting title here as well?
+
+24:26 - Biwas bhandari Yeah, both are the same. I mean, I want to check if the Read.AI ID and title are there on my page. And sometimes there will be same title, and the reddit ID might be different. For example, if you post with a title, I need advice, and I will post with a title, I need advice. Both of our titles will be the same.
+
+24:48 - Jorge Lewis Yeah, how did I do it?
+
+25:00 - Jorge Lewis So, why are we not using the UUID?
+
+25:15 - Biwas bhandari because uuid is generated by superweb but what we are trying to compare is the post we face from Read.AI for example if you post from Read.AI it will give us reddit id title something like that it will not give
+
+25:33 - Jorge Lewis us uuid So the issue that I can see here, and I think it's good that you didn't actually do what I'm about to suggest, is that the title and the Reddit ID, the Reddit ID isn't actually too unique. It's a five character long, I believe, ID, right?
+
+25:56 - Jorge Lewis So by no means is that supposed to be unique. That's not the unique identifier in the program. So the case, so right here, can you explain? I actually don't know. We're checking that ID doesn't match. Oh, wait, no.
+
+26:11 - Biwas bhandari No, it was just map before. Oh, yeah, this thing, yeah, yeah.
+
+26:16 - Jorge Lewis Okay, and then if there's a fetch error, but this can just always be, if there's only one function, like one super base call, we can call them exactly what they are.
+
+26:27 - Unidentified Speaker Okay.
+
+26:30 - Jorge Lewis But yeah, so we can just.
+
+26:39 - Jorge Lewis Okay, I can't rename, I guess.
+
+26:47 - Jorge Lewis So, okay, so we're checking, we're fetching the existing submissions, and then if there's an error, we can get them, throw a new error. We don't want to be throwing, I don't think we want to throw errors here.
+
+27:03 - Jorge Lewis I think this is a question I should ask Nazif, because error handling with, well, web dev in general, but especially stock kit, is something pretty hard to get right. So figuring out, asking Nazif how to do that properly might be a good idea. So actually, I'm going to leave it here, and you can ask Nazif later.
+
+27:26 - Jorge Lewis Did you make the set function?
+
+27:32 - Jorge Lewis Is this built in or?
+
+27:34 - Biwas bhandari No. Yeah, the third one is built in.
+
+27:39 - Jorge Lewis Oh, what does it do?
+
+27:42 - Biwas bhandari It will just set it like a cassette.
+
+27:47 - Jorge Lewis Like a what? Store it.
+
+27:51 - Jorge Lewis Your mic's pretty muffled again.
+
+27:58 - Biwas bhandari Can you hear now?
+
+27:59 - Biwas bhandari Yeah, yeah.
+
+28:02 - Biwas bhandari Yeah, this set will just store it like a cache.
+
+28:06 - Jorge Lewis Sorry, your mic's again gone, it's too quiet.
+
+28:10 - Jorge Lewis Hello?
+
+28:11 - Biwas bhandari There we go, yeah, that's good.
+
+28:13 - Biwas bhandari Yeah, the set, what this set does is it stores this in a cache.
+
+28:22 - Jorge Lewis In a what?
+
+28:24 - Biwas bhandari Cache, C-A-C-H-E, what do you call it? Oh, cache.
+
+28:28 - Unidentified Speaker Yeah.
+
+28:29 - Jorge Lewis Oh, I see. The big problem with that is that this is a server function, so we can't be using a cache on the server.
+
+28:47 - Jorge Lewis Do you understand how the architecture of a server client works?
+
+28:52 - Biwas bhandari Yeah, mostly.
+
+28:57 - Jorge Lewis Okay, so using that, do you understand why we can't cache on the server?
+
+29:03 - Biwas bhandari Let me think.
+
+29:20 - Biwas bhandari No, no idea.
+
+29:23 - Jorge Lewis So the clients is the users. The server is not the users. The server belongs to all of the users. And in that way, it belongs to none of the users by themselves. So when we try to cache an individual user's or an individual client's results, that's a bad practice because we could technically... So the server is considered like a machine. It's just like a computer, right? We can store the user's results on there. But if we have 10,000 users storing the results on there, number one, is it going to have problems with scalability? Because caching is very expensive. But number two is it's a terrible practice because a server is made not to be used to store user stuff. You never want to store anything on the server. All you want to do on the server is call a function, produce an output, and return that output. That's always what a server is used for.
+
+30:22 - Jorge Lewis Usually when you want to do caching, you add a layer of caching. So for example, so you have these, you have the clients and then you have, let me just, you have a client, you have a server sometimes, and then you have the database in between. Oftentimes you have a, so for example, before when we were using, when we were using Python, we were using Reads. Reads is a tool that allows you to cache things. So your server calls on Reads for its cache and then uses that instead of, you know, this is kind of the structure that you want to be using if you want to use caches. There's obviously other solutions. You can cache it on the clients on using local storage or something, or you can cache it using database, but probably the most, the simplest option is usually the clients using local storage is my guess. But yeah, so usually we don't want to, we don't want to, store, cache things on the server. You don't want to save any user data on the server especially. That's kind of a... Because if I save anything on the server, it's very likely that it's not safe. That's first of all. And just a whole bunch of reasons why not to.
+
+31:34 - Biwas bhandari Got it. You can just add your command not to use it.
+
+31:38 - Jorge Lewis Yeah, so what is this actually doing here? Getting the IDs?
+
+31:43 - Biwas bhandari Yeah. Mapping the IDs.
+
+31:48 - Jorge Lewis So we can just do that, right?
+
+32:08 - Jorge Lewis What's the function? Is it includes?
+
+32:14 - Jorge Lewis So we're checking the existing Read.AI IDs. Yeah, okay. So the problem with this, by the way, is like I said, the Read.AI ID isn't unique. So the issue with that is that maybe there's a post with the same ID. It's very rare since they're pretty, like, they're not impossible to get the same, but they're also very, like, they look very different. So it's something that we need to consider for the longterm, but for now it's fine, right?
+
+32:44 - Jorge Lewis So we'll leave that for now. Obviously, we shouldn't be fetching every time is the first thing, but yeah, so we can figure it out later.
+
+32:55 - Jorge Lewis So existing, I guess we're getting the IDs. We're checking if...
+
+33:12 - Jorge Lewis Okay.
+
+33:19 - Jorge Lewis Okay, you're checking both.
+
+33:21 - Jorge Lewis Yeah.
+
+33:22 - Jorge Lewis Okay. Yeah, I mean, fair enough.
+
+33:25 - Jorge Lewis Although, yeah, I mean, I wonder if there's ever a time where, because like, the Read.AI ID, that was random, the title, people make them themselves. So I'm wondering if, like, if I'm a person with an idea, On the subreddits, often I see that people posting very similar titles. So I wonder if we might lose something.
+
+33:48 - Biwas bhandari Yeah, I encountered one. It was fetching two with the same ID.
+
+33:59 - Jorge Lewis But like different posts or like different people?
+
+34:03 - Biwas bhandari No, I didn't check that, but I just console logged the title and two of them were the same.
+
+34:11 - Jorge Lewis Yeah, so people cross post, they post on different subreddits, so that would make sense. So what we could do is do check for title and user.
+
+34:25 - Biwas bhandari Or even, I think.
+
+34:26 - Biwas bhandari We can filter it with username.
+
+34:29 - Jorge Lewis Yeah, yeah, if you check for username, we don't need the same, we don't need one user twice. That's a good point, so. So we can do.
+
+34:40 - Biwas bhandari Yeah, I should have done that before.
+
+34:45 - Jorge Lewis Yeah, no, it's fine. That's what we learned. So that's why it's good that we're doing this like super fast because then you learn this. If you made this system perfectly, you wouldn't, like it's impossible to kind of predict that you would make this mistake. So it's just great to make things fast. Okay, so we return new posts. If there's no new posts, so this could just be empty. Okay.
+
+35:10 - Jorge Lewis Yeah, it'll just be empty if there's no. Oh, yeah.
+
+35:17 - Biwas bhandari If all the posts are duplicated, it will not pass anything.
+
+35:21 - Jorge Lewis So I mean, if it errors, if this superbase call errors, we'll be console logging, and then we'll throw this error. But I want to just not throw that error for now.
+
+35:32 - Jorge Lewis So now we're getting an error saying that this might be null, data submissions. So one common thing that we do when we're, directly after we call a super base call, we do if error to check if the error is right, but also and if the data is not null. So this way. We know that there is some data that we return. Because if it's empty, well... Yeah, because it shouldn't be... It's possibly null. Why is it saying... Is this...
+
+36:31 - Jorge Lewis Is your IDE commenting that out as well? Like, erroring this?
+
+36:36 - Jorge Lewis Yeah.
+
+36:36 - Jorge Lewis Yeah, but I'm checking right here, no?
+
+36:40 - Biwas bhandari I think we just need to...
+
+36:43 - Jorge Lewis If error... Oh wait, no, sorry, whoops, this should be or.
+
+36:47 - Biwas bhandari No, we can just... I had a question mark here.
+
+36:49 - Jorge Lewis I don't know, we try not to use question marks. That's... Question marks... What question mark does is it just... That it's not null, but if this was saying it can be null, that's a totally different thing. What's the or operator in TypeScript?
+
+37:09 - Biwas bhandari Is it just or?
+
+37:13 - Jorge Lewis It's right?
+
+37:14 - Unidentified Speaker Yeah.
+
+37:17 - Jorge Lewis For me, it's like different colors, these two. It looks really annoying.
+
+37:25 - Jorge Lewis Okay, but now it's still airing. I don't know. Look, if I do this, that should stop airing. Well, no, without your thing.
+
+37:32 - Biwas bhandari I want to learn this. Why is it... Okay, let's try...
+
+37:37 - Jorge Lewis Okay, so...
+
+37:53 - Jorge Lewis Bro, I see exactly why so we're checking if it's not if it's null if it's null Then we're going to do nothing. We still go through with this. So Right here. We should be doing We should be returning an empty list. Oh That way we stop going through this function Okay Okay, so yes, that was why. See, if I said, okay, let me just do this here, I would have forgotten that we should be doing this proper error checking.
+
+38:31 - Jorge Lewis Oh, yeah.
+
+38:33 - Jorge Lewis And sometimes you want to move fast, but sometimes it's better to write good code. There's a balance.
+
+38:45 - Jorge Lewis I do the same. Sometimes I will add a question mark even though I should be error checking.
+
+38:52 - Jorge Lewis Okay, so this is returning the new post, so we'll go back to where it's been called, which was, where was it being called?
+
+39:00 - Jorge Lewis Yeah, here.
+
+39:02 - Biwas bhandari Here?
+
+39:05 - Jorge Lewis Here.
+
+39:08 - Jorge Lewis Let me just close all the tabs, because I'm lost. Do we have the, I start always from the page.spelt, and then the server file that's calling it. Then we can go down here. So this is the main function that we're running. We're fetching this. If anything happens and it errors, it's just going to return an empty list. So I think, actually, this one, we fixed the other function, not this one. So yeah, there's a lot of try-catch. Oh, man. No, no, no. No more try-catches. I hereby ban you to try and catch.
+
+39:44 - Jorge Lewis Yeah, okay. So, okay. You're, you're doing it.
+
+39:46 - Biwas bhandari Oh, what is it? Bad practice. Yeah.
+
+39:51 - Jorge Lewis So, so what was the, okay. So for the try and catch, what do you, what do you think you're going to catch? Like, uh, what's the thought process? What are you worried that my error that we're trying to catch?
+
+40:02 - Biwas bhandari Um, sometimes we can just, uh, uh, I mean, uh, wrong username and password. So it will just generate another.
+
+40:15 - Jorge Lewis Let's go step by step. So over time, at the very start, if you're a very beginner, try and catch this faster. But at my level, when you understand how to do error checking, it's very fast. I'm not good. Nazif can do this probably in a second. It's going to take me at least a minute or two.
+
+40:35 - Jorge Lewis So for fetch functions, if there's no response, it'll be a null, right? I think. Or no, it'll be an empty response. It'll give this as something. So if there's, if it's not okay, is this correct by the way? I don't know the best practice, like for, if we're checking if it's okay. I know there's.
+
+41:04 - Jorge Lewis Cause I think there's, there's a lot of ways to check if the response did well. Let me, I'm asking co-pilot. Let's see. Yeah, it should be fine. Okay, so we're just checking if it's not okay. Error. Parse the...
+
+41:25 - Jorge Lewis Yep.
+
+41:28 - Jorge Lewis New... Whoa. This is data, data, data.
+
+41:34 - Biwas bhandari Is there...
+
+41:36 - Biwas bhandari No, we can just change this.
+
+41:46 - Jorge Lewis So I think an easier way of doing this, or a cleaner way of doing this is, now don't throw any heat, but that. Nope, not that.
+
+42:00 - Unidentified Speaker Okay.
+
+42:02 - Jorge Lewis Wait, it's saying not okay.
+
+42:07 - Jorge Lewis What is this post data object that I'm, this one here? Where is it? Sorry?
+
+42:15 - Biwas bhandari That's the type for post.
+
+42:17 - Biwas bhandari Yep. Did you make it yourself?
+
+42:19 - Jorge Lewis Yeah.
+
+42:20 - Jorge Lewis Is it exactly the same as when you return?
+
+42:25 - Biwas bhandari Yeah. I first check the response and make it. Okay.
+
+42:30 - Jorge Lewis So, so if it, like if it's, if it's exactly the same, then we can do, we can return this data as posts as a list of posts, I believe. Um, Oh, wait, no, this is JSON, so we can do it. So I'm trying to, so the benefit of TypeScript is typing, getting the types. So that's what I'm trying to do here because, I mean, in the end here, you are getting the type as a list of posts. But I'm trying to figure out if there's a better way to do it. Usually, this is something that we should be learning in general, kind of learning how to do types.
+
+43:24 - Jorge Lewis For example, Nazif, he's the most experienced web developer on our team. If he can look at our code and say, ew, then we need to improve it. That's always what I think of Of course, if I'm working on a project that's not going to exist tomorrow, then it doesn't matter, but the idea is that you learn it so that when you make a very fast project, it should be natural.
+
+43:50 - Jorge Lewis So if, should this actually be, if it's exactly the same, we can cast this here. Can we not, or?
+
+43:59 - Jorge Lewis I wanna see, actually, let's, I just wanna see. So I wanna, I want to see what is actually, what that looks like, Can I, can you run that?
+
+44:29 - Jorge Lewis Oh, wait, I don't think we've set up the, I don't know if it'll actually run yet. Let's, let's, okay, let's, let's come back here. Okay, we'll come back here to fix all the types and make this code cleaner, but for now we'll finish connecting it up. Okay, so we're, we're calling, fetch, although we don't need a return fetch since fetch is a void, so we're not returning anything here actually. We actually don't even need to store it as a variable. Why are we storing void, right? Okay, so let's continue down this chain. So actually, I think this should work. We need to call it now. So we go into a page file and Here, let's find a button to attach. Let me run it locally as well, so I don't have to. Actually, I can see your screen. So I'm going to ask you to just swap to the web view every now and then.
+
+45:24 - Jorge Lewis So we're here. Where can I add the button? Let's add the button inside Data Table. Because if you look at the web view right now, on Chrome.
+
+45:42 - Jorge Lewis like if you look at the web on like the web the front end yeah like like on your browser okay well now you can't see it anymore but what how it is is okay let me oh I didn't finish cleaning up the code previously I left a try-catch somewhere Okay, let's fix the try-catches.
+
+46:14 - Biwas bhandari Come back to me.
+
+46:42 - Jorge Lewis You there?
+
+46:50 - Biwas bhandari You there?
+
+47:01 - Jorge Lewis Hello, hello?
+
+47:04 - Biwas bhandari Yeah, hello?
+
+47:06 - Biwas bhandari You there?
+
+47:08 - Biwas bhandari Yeah.
+
+47:09 - Biwas bhandari Okay, cool.
+
+47:16 - Jorge Lewis So, oh yeah, so what I was doing, I just finished removing the try catch, because I forgot to remove the catch part. So now I should an error, I don't think so.
+
+47:54 - Biwas bhandari Did it call it?
+
+48:00 - Jorge Lewis Okay, nice. Okay, so if you see the filter using ID or something, we wanna add the button on the right of that.
+
+48:10 - Jorge Lewis Yeah, I wanna add it on the right of that. So inside the code, what is that? Okay, here, I found the component. So this is the component that is Oh, you stopped following me.
+
+48:26 - Unidentified Speaker Okay.
+
+48:26 - Jorge Lewis Yeah. So this here is the input component. So this is a flex. Let's make it a flex row and then add it here. So we can add a button, Shadestand button with an on click.
+
+48:39 - Biwas bhandari Oh, you are using Shadestand.
+
+48:43 - Biwas bhandari I'm using what?
+
+48:45 - Jorge Lewis Shadestand.
+
+48:47 - Jorge Lewis Yeah, yeah, yeah. This is all Shadestand here.
+
+48:53 - Jorge Lewis And then inside here, what do we call it?
+
+49:01 - Unidentified Speaker Don't spam.
+
+49:06 - Jorge Lewis I don't want to get my Read.AI account banned for spam. So here we're going to call the function for fetchPostAndEvaluate. So we create that up here. We'll do, yeah, okay, thank you very much. Ha ha, Copilot.
+
+49:31 - Jorge Lewis But this is actually wrong, so see, that's why Copilot can't save you. It maybe saves you a lot of time, but this should actually, like, if you don't understand any of the code, then you'll be totally lost. This should be fetch, post, and evaluate. So this is the endpoint that we're trying to access through the page server file right here, so this one. And you do that by doing question mark slash to reach this end point here. Post, sure. I mean, we're not returning anything, so post works. I think it makes it more simple, actually.
+
+50:05 - Jorge Lewis And then string of filter value, we don't need to pass it anything. So what if we don't pass it anything? Can I just not pass it? All right. I think that works.
+
+50:18 - Jorge Lewis We can just log the data, sure. I added a console log for me. Thank you. Okay, so now it should work, I think. Let's try it.
+
+50:26 - Biwas bhandari Let's give it a go.
+
+50:43 - Jorge Lewis Okay, so it did call it properly. So let's check out the object.
+
+50:49 - Biwas bhandari I think we need to remove that. Sorry? Giving us this error. It's OK.
+
+51:19 - Jorge Lewis form actions expects form encoded data okay so what do we do is we're going to google it go ahead all right this is all you I'll guide you with my experience but I want to see how you solve this this bug so we have a bug that we've never seen before pretend pretend like i've never seen it and now you're going to tackle it I think I just need to now if it will But you have hot reload on, you don't have to refresh the page.
+
+52:08 - Biwas bhandari Okay.
+
+52:09 - Jorge Lewis All right, so my tip here is you have no clue what this is saying, what the error is saying. The error tells you the problem, but you have no clue what it's telling you. So what do you do? You Google. Or you try GPT? I would use probably Google.
+
+52:30 - Jorge Lewis The annoying thing with Spellkit is that there's not a lot of resources on it, and it's a really new framework, so try GPT isn't as good with Spellkit as it is something like React.
+
+52:44 - Jorge Lewis You're using Tmux or?
+
+52:50 - Jorge Lewis Are you able to copy and paste from the terminal?
+
+52:52 - Biwas bhandari Okay, yeah.
+
+53:07 - Jorge Lewis Oh, I see the issue. I think.
+
+53:10 - Biwas bhandari Yeah.
+
+53:13 - Jorge Lewis Wait, but... Yeah, I mean...
+
+53:20 - Jorge Lewis Okay, I'm gonna fix the issue to check if I understand it. Okay, can you run it again? I think I fixed it.
+
+53:29 - Biwas bhandari Don't look at the code.
+
+53:40 - Jorge Lewis Did it not work?
+
+53:44 - Jorge Lewis It shouldn't even be, why is it erroring now?
+
+53:50 - Jorge Lewis Have you refreshed the page?
+
+53:56 - Biwas bhandari No.
+
+54:21 - Jorge Lewis Oh, is it saying? Yeah, what the heck?
+
+54:36 - Biwas bhandari Yeah, it's lagging.
+
+54:43 - Biwas bhandari Alright, I'm gonna go get a coffee, I'll be right back.
+
+54:48 - Jorge Lewis You can continue working on this for now.
+
+54:54 - Jorge Lewis By the way, I can see, I know the error now, but I'll leave you to solve it, you got this. If you want a hint, it's related to how the...
+
+55:07 - Jorge Lewis It's related to, it's not SpokeKit specific, it's post versus get requests. Like what's the difference and how do they work? So that's their tip.
+
+55:36 - Biwas bhandari laptop is lagging what? What?
+
+56:05 - Biwas bhandari Yeah, hello?
+
+57:20 - Biwas bhandari Yeah.
+
+58:11 - Jorge Lewis Have you found it?
+
+58:14 - Biwas bhandari No idea.
+
+58:15 - Jorge Lewis All right, so it's not actually, it's a very expected bug, like it's not unexpected. So how I would go about this problem is I would read the error. So let's go back to the error.
+
+58:33 - Jorge Lewis Okay.
+
+58:36 - Jorge Lewis So the error says, Svelte kit form actions Okay, yeah. I think I got it. But...
+
+59:32 - Jorge Lewis So it's going to be very hard for you to solve this.
+
+59:44 - Jorge Lewis if you don't understand to a basic how, the basics of how posts and get requests work, and kind of how those work. So what we're saying is a header is kind of to define how the, kind of defines the rest of the function, I guess you could say.
+
+1:00:13 - Jorge Lewis provides additional, like it tells the server or whatever we're interacting with about the request that we're making. So in this case, the content type we're telling it is we're passing you this type of content.
+
+1:00:30 - Jorge Lewis But we're in a post request, so we're telling it, so beforehand, by the way, so this is actually supposed to be JSON. We're usually passing it JSON, but the reason So we're telling it, OK, the content type we're going to pass you is JSON. But we're not passing it at anything, because I deleted the body request, the body of it. We told it, hey, we're going to pass you JSON, but we're not returning any JSON.
+
+1:00:59 - Jorge Lewis So there's either we can just give it empty data, and that works. Or I believe there's a content type that's kind of empty.
+
+1:01:10 - Jorge Lewis Let me see. So the option is, we don't need to pass it any data. We don't need to pass the function anything. So either we can pass it something empty, or we could figure out if there's a content type that says empty. But I don't think there is. So what we'll do is we'll pass it an empty JSON.
+
+1:01:38 - Jorge Lewis Um, and now it should work. Oh yeah.
+
+1:01:44 - Jorge Lewis Actually, there might be an error, but not with the actual, uh, request.
+
+1:01:53 - Unidentified Speaker Okay.
+
+1:01:56 - Jorge Lewis Have you, have you clicked it again?
+
+1:02:00 - Biwas bhandari Yeah.
+
+1:02:00 - Jorge Lewis I was from the error was like 26 minutes, three 26.
+
+1:02:08 - Biwas bhandari Yeah, now it's 27 already.
+
+1:02:14 - Jorge Lewis So click the fetch post, yeah?
+
+1:02:18 - Jorge Lewis Is that the error? That's the old error.
+
+1:02:21 - Biwas bhandari Is it being clicked or not?
+
+1:02:27 - Biwas bhandari Why isn't it not being clicked?
+
+1:02:30 - Jorge Lewis That maybe means there's no error.
+
+1:02:36 - Jorge Lewis Or nothing's happening, or what?
+
+1:02:43 - Jorge Lewis Oh my, your laptop is just...
+
+1:02:50 - Jorge Lewis Okay, but yeah, the get request is... The post request is getting sent. Let's retry.
+
+1:03:00 - Unidentified Speaker You there?
+
+1:03:26 - Jorge Lewis Sorry, what's it doing?
+
+1:03:35 - Jorge Lewis It sounds like your laptop's having a heart attack.
+
+1:03:49 - Biwas bhandari You alive?
+
+1:03:50 - Jorge Lewis Yeah, your laptop sounds like it's dying.
+
+1:04:29 - Jorge Lewis You alive?
+
+1:04:39 - Jorge Lewis Bro, your microphone sounds like it's dead.
+
+1:04:45 - Jorge Lewis Hello?
+
+1:04:47 - Biwas bhandari Yeah?
+
+1:04:58 - Jorge Lewis It's also frozen or? 99.
+
+1:04:59 - Biwas bhandari Restart your laptop. Yeah, the laptop is.
+
+1:06:53 - Jorge Lewis I get the skirt when I want I get the skirt when I want Don't tell your mother you're wrong, mother.
+
+1:07:11 - Jorge Lewis Mother, she's got it all wrong. She got my threatened all over. She got my threatened all over. When I'm in your town, press down, hit me up. When I'm in your town, press down, hit me up. Only if you down, then you slurp the deer. At the work, girl, I'll be back for the rear. Hate when I creep, and your song will wake me up. Fake like I'm sleepin' on down while I be up. Monkey on my back, and I'll walk a hundred miles. Get with the nigga, feel safe when he smile. Love the confusion, the vibe, and the Back in my mouth, back in my mouth, yo.
+
+1:07:58 - Jorge Lewis Yo.
