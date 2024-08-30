@@ -38,10 +38,14 @@ python -m graphrag.query \
 "Who is Scrooge, and what are his main relationships?"
 ```
 
-## Running Neo4j
-Make sure docker is running.
-Run the follwing command from the root of the project: "congent"
+## Neo4j
 
+- Make sure docker is running.
+- Place the 7 CSV files with "final" into the `neo4j_db/import` folder.
+- Username is `neo4j`, password is `hot-potatoes-124`.
+
+Run the follwing command from the root of the project: "congent"
 ```bash
 docker compose up
 ```
+
