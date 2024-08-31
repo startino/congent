@@ -1,0 +1,58 @@
+root:
+  input_dir: "./knowledge_graphs/pair_programming_old/artifacts"
+  lancedb_uri: "./knowledge_graphs/pair_programming_old/artifacts/lancedb"
+  community_report_table: "create_final_community_reports"
+  entity_table: "create_final_nodes"
+  entity_embedding_table: "create_final_entities"
+  relationship_table: "create_final_relationships"
+  covariate_table: "create_final_covariates"
+  text_unit_table: "create_final_text_units"
+  
+  # community level in the Leiden community hierarchy from which we will load the community reports
+  # higher value means we use reports from more fine-grained communities (at the cost of higher computation cost)  
+  community_level: 2
+
+global_search:
+  context_builder_params:
+    use_community_summary: false
+    shuffle_data: true
+    include_community_rank: true
+    min_community_rank: 0
+    community_rank_name: "rank"
+    include_community_weight: true
+    community_weight_name: "occurrence weight"
+    normalize_community_weight: true
+    max_tokens: 12000
+    context_name: "Reports"
+
+  map_llm_params:
+    max_tokens: 1000
+    temperature: 0.0
+    response_format:
+      type: "json_object"
+
+  reduce_llm_params:
+    max_tokens: 2000
+    temperature: 0.0
+
+local_search:
+  response_type: multiple paragraphs
+  embedding_model: "text-embedding-3-large"
+
+  llm_params:
+    max_tokens: 2000  # change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 1000-1500)
+    temperature: 0.0
+
+  local_context_params:
+    text_unit_prop: 0.5
+    community_prop: 0.1
+    conversation_history_max_turns: 5
+    conversation_history_user_turns_only: true
+    top_k_mapped_entities: 10
+    top_k_relationships: 10
+    include_entity_rank: true
+    include_relationship_weight: true
+    include_community_rank: false
+    return_candidate_context: false
+    embedding_vectorstore_key: "ID"  # set this to "TITLE" if the vectorstore uses entity title as ids
+    max_tokens: 12000  # change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 5000)

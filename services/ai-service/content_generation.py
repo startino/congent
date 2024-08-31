@@ -22,14 +22,17 @@ AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 @tool
-def search_graph(query: str) -> GlobalSearchResult:
+def search_graph(query) -> GlobalSearchResult:
     """
     Search a knowlege graph for a given query.
     It uses an agent to search the graph and return the results.
     
-    It is using a brute force technique to search the graph, using both global
-    and local search to get results to get the best results.
+    Args:
+        query (str): The query to search the graph. Should provide as much
+        context as possible.
+    
     """
+    
     global_result: GlobalSearchResult = asyncio.run(global_search(query))
     local_result: LocalSearchResult = asyncio.run(local_search(query))
     
@@ -46,7 +49,7 @@ def search_graph(query: str) -> GlobalSearchResult:
     return final_result
 
 
-tools = [invoke_global_search, invoke_local_search]
+tools = [search_graph]
 
 tool_node = ToolNode(tools)
 
@@ -69,11 +72,11 @@ llm = openai_llm.bind_tools(tools)
 
 graph = create_react_agent(llm, tools=tools)
 
-while True:
-    user_input = input("User: ")
-    if user_input.lower() in ["quit", "exit", "q"]:
-        print("Goodbye!")
-        break
-    for event in graph.stream({"messages": ("user", user_input)}):
-        for value in event.values():
-            print("Assistant:", value["messages"][-1].content)
+inputs = {"messages": [("user", "what OS does jorge use")]}
+
+for s in graph.stream(inputs, stream_mode="values"):
+    message = s["messages"][-1]
+    if isinstance(message, tuple):
+        print(message)
+    else:
+        message.pretty_print()
