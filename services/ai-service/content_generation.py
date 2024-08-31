@@ -80,7 +80,7 @@ openai_llm = ChatOpenAI(
 
 llm = openai_llm.bind_tools(tools)
 
-inputs = {"messages": [("user", "where is chinmay, jorge, and jonas from?")]}
+inputs = {"messages": [("user", "who is biwas?")]}
 
 config = {"configurable": {"thread_id": "41"}}
 

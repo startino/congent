@@ -6,7 +6,7 @@
 
 	export let profileId: string;
 
-	const resetCheckpoins = async () => {
+	const resetCheckpoints = async () => {
 		const { error } = await supabase.from('checkpoints').delete().eq('', profileId);
 
 		if (error) {
@@ -19,6 +19,6 @@
 	};
 </script>
 
-<Button on:click={resetCheckpoins} variant="destructive" class="aspect-1 p-1">
+<Button on:click={resetCheckpoints} variant="destructive" class="aspect-1 p-1">
 	<Trash2 class="h-6 w-6" />
 </Button>

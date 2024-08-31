@@ -7,23 +7,11 @@
 	import { messageSchema } from '$lib/schema';
 	import { getContext } from '$lib/context';
 	import { toast } from 'svelte-sonner';
-	import { onMount } from 'svelte';
-	import DeleteHistory from './DeleteHistory.svelte';
+	import { onMount } from 'svelte';	
+	import ResetChatHistory from './ResetChatHistory.svelte';
 	import Textbubble from '$lib/components/ui/textbubble/textbubble.svelte';
 
-	let debug = false;
-	onMount(() => {
-		const urlParams = new URLSearchParams(window.location.search);
-		debug = urlParams.has('debug');
-	});
-
-	let useExamplePrompts = false;
-	onMount(() => {
-		const urlParams = new URLSearchParams(window.location.search);
-		useExamplePrompts = urlParams.has('uep');
-	});
-
-	export let events: Tables['events']['Row'][];
+	export let checkpoints: Tables['checkpoints']['Row'][];
 	export let profile: Tables['profiles']['Row'];
 	export let isTyping: boolean;
 
@@ -40,13 +28,8 @@
 
 			$formData.profile_id = profile.id;
 			$formData.content = reply;
-			$formData.useExamplePrompts = useExamplePrompts;
 
-			if ($formData.useExamplePrompts) {
-				console.log('using example prompts');
-			}
-
-			const newEventPlaceholder: Tables['events']['Row'] = {
+			const newCheckpointPlaceholder: Tables['checkpoints']['Row'] = {
 				id: crypto.randomUUID(),
 				profile_id: $formData.profile_id,
 				created_at: Date.now.toString(),
@@ -57,7 +40,7 @@
 				name: 'user'
 			};
 
-			events = [...events, newEventPlaceholder];
+			checkpoints = [...checkpoints, newCheckpointPlaceholder];
 
 			replyBackup = reply;
 			reply = '<p></p>';
@@ -74,6 +57,15 @@
 	});
 
 	const { form: formData, enhance } = form;
+
+	let debug = false;
+	
+	onMount(() => {
+		const urlParams = new URLSearchParams(window.location.search);
+		debug = urlParams.has('debug');
+	});
+
+
 </script>
 
 {#if debug}
@@ -84,13 +76,6 @@
 		</p>
 	</div>
 {/if}
-{#if useExamplePrompts}
-	<div class="fixed bottom-5 right-5 opacity-30">
-		<p class="rounded-lg bg-primary-container/10 p-2 text-primary-container-on">
-			Using Example Prompts
-		</p>
-	</div>
-{/if}
 
 <div class="flex w-full flex-row">
 	<form class="m-2 w-full items-center" method="POST" action="?/send" use:enhance>
@@ -98,7 +83,7 @@
 			<small class="text-md animate-pulse self-start p-2">Agent is Typing...</small>
 		{/if}
 		<div class="flex w-full items-end justify-center gap-2">
-			<DeleteHistory profileId={profile.id} />
+			<ResetChatHistory profileId={profile.id} />
 			<Form.Field {form} name="content" class="flex-1 space-y-0">
 				<Form.Control let:attrs>
 					<Form.FieldErrors />

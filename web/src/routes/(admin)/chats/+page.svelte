@@ -1,32 +1,24 @@
 <script lang="ts">
   import Chat from "./Chat.svelte"
   import { Skeleton } from "$lib/components/ui/skeleton"
-  import ActionButtons from "$lib/components/action-buttons/action-buttons.svelte"
   import { BaseMessage, AIMessage } from "@langchain/core/messages"
-  import type { Tables } from "supabaseTypes"
+  import type { Tables } from "$lib/supabase/database.types"
   export let data
 
   let {
-    events,
     profile,
     checkpoints,
-  }: { events: any; profile: any; checkpoints: Tables["checkpoints"] } = data
+  }: { profile: any; checkpoints: Tables["checkpoints"] } = data
 
-  let messages: BaseMessage[] = []
-  for (const checkpoint in checkpoints) {
-    messages += checkpoint.metadata["messages"]
-  }
+  
 </script>
 
 <main class="flex h-full w-full flex-col items-center justify-center">
   <div
     class="items-between flex h-screen w-full max-w-2xl flex-col justify-between"
   >
-    <ActionButtons
-      status="profile"
-      profileLink={`/chat/${data.profile.id}/profile`}
-    />
-    {#await events}
+
+    {#await checkpoints}
       <div class="flex w-full flex-col items-center justify-start gap-4 p-8">
         {#each Array.from({ length: 4 }) as _}
           <div class="flex h-12 w-full gap-2 pl-16">
@@ -41,10 +33,10 @@
       </div>
       <Skeleton class="m-4 h-12 w-full" />
     {:then events}
-      {#if events}
-        <Chat {profile} {events} />
+      {#if checkpoints}
+        <Chat {profile} {checkpoints} />
       {:else}
-        <p>Error getting events, check console.</p>
+        <p>Error getting checkpoints, check console.</p>
       {/if}
     {:catch error}
       <p>Error: {error.event}</p>

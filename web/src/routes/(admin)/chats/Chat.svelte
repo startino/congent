@@ -1,20 +1,24 @@
 <script lang="ts">
 	import ChatBox from './ChatBox.svelte';
-	import supabase from '$lib/supabase';
-	import type { Tables } from '$lib/supabase';
+	import type { Tables } from '$supabaseTypes';
 	import SvelteMarkdown from 'svelte-markdown';
 	import { onMount } from 'svelte';
 
-	export let events: Tables['events']['Row'][];
+	export let checkpoints: Tables['checkpoints']['Row'][];
 	export let profile: Tables['profiles']['Row'];
 
 	let isTyping = false;
+
+	let messages: BaseMessage[] = []
+  for (const checkpoint in checkpoints) {
+    messages += checkpoint.metadata["messages"]
+  }
 
 	onMount(() => {});
 </script>
 
 <div class="items-between flex flex-col justify-start gap-2 overflow-y-scroll pt-2">
-	{#each [shownEvents] as msg, i (i)}
+	{#each [messages] as msg, i (i)}
 		<div class={`flex ${msg.name === 'user' ? 'ml-16 justify-end' : 'mr-16 justify-start'}`}>
 			<p
 				class="prose prose-main rounded-lg border border-primary/30 bg-primary-container/10 px-2 py-1 text-primary-container-on marker:text-primary"
@@ -39,5 +43,5 @@
 </div>
 <div class="items-between flex flex-col justify-end gap-2">
 	<hr class="mt-2 border-primary/10" />
-	<ChatBox bind:isTyping bind:events {profile} />
+	<ChatBox bind:isTyping bind:checkpoints {profile} />
 </div>
