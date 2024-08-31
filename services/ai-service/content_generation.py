@@ -1,7 +1,10 @@
+from langchain_core.tools import tool
+from langchain_openai import ChatOpenAI
+from langgraph.prebuilt import create_react_agent
+from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
 import asyncio
 import os
 from typing import Annotated, Literal, TypedDict
-
 import dotenv
 from langchain_core.messages import HumanMessage
 from langchain_openai import AzureChatOpenAI, ChatOpenAI
@@ -10,16 +13,23 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, START, StateGraph, MessagesState
 from langgraph.prebuilt import ToolNode
 from langgraph.prebuilt import create_react_agent
-
 from querying.global_search import global_search
 from querying.local_search import local_search
-
 from models import GlobalSearchResult, LocalSearchResult
+from psycopg.rows import dict_row
+from psycopg_pool import ConnectionPool
+from typing import Literal
+from langchain_core.tools import tool
+from langchain_openai import ChatOpenAI
+from langgraph.prebuilt import create_react_agent
+from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
+from langgraph.checkpoint.postgres import PostgresSaver
 
 dotenv.load_dotenv()
 
 AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+DB_URI = os.getenv("DB_URI")
 
 @tool
 def search_graph(query) -> GlobalSearchResult:
@@ -33,14 +43,13 @@ def search_graph(query) -> GlobalSearchResult:
     
     """
     
-    global_result: GlobalSearchResult = asyncio.run(global_search(query))
-    local_result: LocalSearchResult = asyncio.run(local_search(query))
+    global_result: GlobalSearchResult = global_search(query)
+    local_result: LocalSearchResult = local_search(query)
     
     final_result = f"""
     The RAG Agent has returned the following results:
     
     -Global Search Result-
-    
     {global_result.response}
     
     -Local Search Result-
@@ -70,13 +79,40 @@ openai_llm = ChatOpenAI(
 
 llm = openai_llm.bind_tools(tools)
 
-graph = create_react_agent(llm, tools=tools)
-
 inputs = {"messages": [("user", "what OS does jorge use")]}
 
-for s in graph.stream(inputs, stream_mode="values"):
-    message = s["messages"][-1]
-    if isinstance(message, tuple):
-        print(message)
-    else:
-        message.pretty_print()
+config = {"configurable": {"thread_id": "1"}}
+
+connection_kwargs = {
+    "autocommit": True,
+    "prepare_threshold": 0,
+}
+
+pool = ConnectionPool(
+    conninfo=DB_URI,
+    max_size=20,
+    kwargs=connection_kwargs,
+)
+
+print(f"dburi: {DB_URI}")
+
+with PostgresSaver.from_conn_string(DB_URI) as checkpointer:
+    graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
+    config = {"configurable": {"thread_id": "3"}}
+    res = graph.invoke({"messages": [("human", "what's the weather in sf")]}, config)
+
+    checkpoint_tuples = list(checkpointer.list(config))
+
+# with pool.connection() as conn:
+#     checkpointer = PostgresSaver(conn)
+
+#     # NOTE: you need to call .setup() the first time you're using your checkpointer
+#     checkpointer.setup()
+#     graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
+    
+#     res = graph.invoke(inputs, config)
+#     checkpoint = checkpointer.get(config)
+
+
+def invoke_agent(query):
+    graph.invoke(inputs={"messages": [("user", query)]})
