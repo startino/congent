@@ -35,12 +35,13 @@ DB_URI = os.getenv("DB_URI")
 def search_graph(query: str) -> GlobalSearchResult:
     """
     Search a knowlege graph for a given query.
-    It uses an agent to search the graph and return the results.
+    It uses an LLM agent to search the graph and return the results,
+    which is why as much context as possible should be provided in the query.
+    We do not value reducing the query length.
     
     Args:
         query (str): The query to search the graph. Should provide as much
         context as possible.
-    
     """
     
     global_result: GlobalSearchResult = asyncio.run(global_asearch(query))
@@ -79,9 +80,9 @@ openai_llm = ChatOpenAI(
 
 llm = openai_llm.bind_tools(tools)
 
-inputs = {"messages": [("user", "what OS does jorge use")]}
+inputs = {"messages": [("user", "where is chinmay, jorge, and jonas from?")]}
 
-config = {"configurable": {"thread_id": "4"}}
+config = {"configurable": {"thread_id": "41"}}
 
 connection_kwargs = {
     "autocommit": True,
@@ -103,7 +104,7 @@ print(pool.get_stats())
 
 with pool.connection() as conn:
     print("\n Connected to the database... \n")
-    
+
     checkpointer = PostgresSaver(conn)
 
     # NOTE: you need to call .setup() the first time you're using your checkpointer

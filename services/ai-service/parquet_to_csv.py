@@ -3,7 +3,7 @@ import pandas as pd
 import csv
 
 # Define the directory containing Parquet files
-parquet_dir = './pair_programming_kg/output/20240829-192100/artifacts'
+parquet_dir = './knowledge_graphs/readai_aug_8/artifacts'
 csv_dir = parquet_dir
 
 if not os.path.exists(csv_dir):
