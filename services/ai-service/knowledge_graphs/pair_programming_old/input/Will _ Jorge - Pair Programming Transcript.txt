@@ -1,932 +1,0 @@
-Will / Jorge - Pair Programming 
-Wed, Aug 7, 2024
-
-0:04 - Jorge Lewis So yeah, so let's do the, what do I wanna work on today? The signup stuff?
-
-0:09 - Will Vincent Parrone Yeah, so wait, let me just finish this up. I'm just gonna be removing this.
-
-0:25 - Will Vincent Parrone Yeah, so just a rundown on my code. So basically, this is a really simple prototype right now that I'm working on. In the sign-in, what was discussed is that we're going to be using passwordless kind of authentication.
-
-0:48 - Will Vincent Parrone assume that we're going to be using OTP. So the way I did it is I created basically the status.
-
-0:58 - Jorge Lewis But have you discussed? So for each feature, we've kind of concluded that we should be discussing with the client for each small feature to make sure all these small things are clarified. Right.
-
-1:11 - Will Vincent Parrone All right. We discussed this with Q1, I think.
-
-1:18 - Will Vincent Parrone days ago before we even finished the scope. Basically, what Q1 wants here is that it's going to be passwordless and not done along with the chatbot, like a separate UI for the sign-in.
-
-1:38 - Jorge Lewis I don't want to interrupt the pair programming session, but just so that we make sure we don't work on something that we won't use. There's two sections to the user authentication with Adapt. The first one is the anonymous authentication where there's no required credentials or input from the user. And the second is a sign up page where after they've completed the workshop, they can sign up. Right? So far so good?
-
-2:14 - Will Vincent Parrone Yep.
-
-2:18 - Jorge Lewis And then you're telling me that you guys said you're going to use single SSO for the signup page. Yeah.
-
-2:27 - Will Vincent Parrone Yeah?
-
-2:31 - Unidentified Speaker Yeah.
-
-2:37 - Jorge Lewis Okay.
-
-2:37 - Jorge Lewis But what about, so has he said we, so are we not going to use Google authentication or Facebook authentication or?
-
-2:47 - Will Vincent Parrone Actually, we haven't discussed this.
-
-2:49 - Jorge Lewis Because Superbase gives those to us, and it's surprisingly easy to integrate. I think we should be- Okay, okay. Yeah, wait, I'll- No, no, I gotcha, I gotcha.
-
-3:01 - Jorge Lewis Okay, okay.
-
-3:02 - Jorge Lewis So let's, let's, um...
-
-3:09 - Jorge Lewis Let's...
-
-3:11 - Jorge Lewis See...
-
-3:13 - Jorge Lewis Let's ask him, then.
-
-3:18 - Jorge Lewis So, ask him in AdaptDev at Kuen and say, hey, I'm working on the sign-up thing or the user authentication now. What do you want to include? So, the options are this, this, and this. Make sure to include kind of how the user experience is for each. So, for a Google sign-on, or Google sign up, what that means is that they can sign in, they click, maybe you can send some examples, kind of, you click the Google sign up, sign up with Google, it takes, it opens the pop up of Google and they click their Google account and it's in. Explain that to him, because I don't know, he probably knows, but I think it's good to illustrate with examples. Because like for example, JP probably won't know, so we want to kind of pretend Kuin doesn't know any technical things, but he does.
-
-4:18 - Will Vincent Parrone I'm messaging him right now.
-
-4:28 - Jorge Lewis Have you done any OAuth authentication with Superbase?
-
-4:34 - Will Vincent Parrone To be honest, no.
-
-4:41 - Will Vincent Parrone I think the authentication that I did was on Firebase.
-
-4:48 - Jorge Lewis No, it's fine, bro. Don't worry. I don't need know-it-alls. I need fast learn.
-
-4:56 - Jorge Lewis OK. And on Firebase, was that single sign-on or was that using Google or?
-
-5:07 - Will Vincent Parrone I did an option wherein I tried Google Authentication, and then what I'm slightly more familiar with is using the email and password to sign in.
-
-5:27 - Will Vincent Parrone Hello? Sorry?
-
-5:27 - Jorge Lewis Yeah, me too.
-
-5:31 - Jorge Lewis Ok.
-
-5:32 - Jorge Lewis Yeah, I've only done email and password and then I think anonymous as well. There's actually a project we, I've only done email and anonymous as well. We have a project, we have a project, IT, you know, actually, are you aware, like, do you know ITNO?
-
-6:00 - Will Vincent Parrone Artino, I saw it. Yeah, yeah, yeah, yeah. When I searched Artino, Artino came up.
-
-6:09 - Will Vincent Parrone Right there?
-
-6:10 - Will Vincent Parrone Hello, hello. My mic is not picking up, but I saw Artino one time, I think, in the messages while searching for something.
-
-6:23 - Jorge Lewis Yeah, so I, yeah, yeah.
-
-6:30 - Jorge Lewis Aetino is our AI project we worked on before. It was kind of a multi-agent builder kind of thing and it was actually a great idea. We were on the right track, definitely.
-
-6:42 - Will Vincent Parrone I would like to stop you first. I think I'm hearing Jonas in Gather.
-
-6:48 - Jorge Lewis It was just, yeah. Unfortunately, we couldn't finish it. But actually, fortunately, yeah.
-
-6:56 - Jorge Lewis Okay. Oh, he's here, yeah.
-
-7:03 - Jorge Lewis I'm a me and Google me. You you Alright, alright. I'm back. He's gone.
-
-10:26 - Will Vincent Parrone Yeah, alright. Okay, okay. Wait. I'll be... I'll just finish messaging Kuan's sign-in with one-time email. Password userwillsprofile and set the Half of our programming one-on-one is just basically consulting with other people.
-
-15:25 - Jorge Lewis Hopefully people stop joining us now.
-
-15:34 - Will Vincent Parrone You were saying something?
-
-15:35 - Jorge Lewis No, no. Go on.
-
-15:41 - Will Vincent Parrone Anyways, so maybe we can put this on hold. I still have one issue that I'm working on, though, related to the anonymous sign-ins that I might need some help with.
-
-15:57 - Will Vincent Parrone Maybe that's something I can do other than the sign-up page while clarifying some things with Q1.
-
-16:03 - Jorge Lewis Yeah, I mean, what would be good is if you send a video, a little short video, Google, for example. You don't have to make one, but just searching online.
-
-16:29 - Jorge Lewis So we can see the user flow.
-
-16:35 - Will Vincent Parrone Yeah, anyways, sorry. There was some noise out there.
-
-16:55 - Will Vincent Parrone Google search a video on how the user flow works, right? I think it's going to be a bit easier. Yeah.
-
-17:04 - Will Vincent Parrone Yeah, I'll just search on YouTube right now.
-
-17:10 - Jorge Lewis Yeah, I'm trying to find one as well.
-
-17:37 - Jorge Lewis I think I found a good example. Could you also edit your message to mention that we can include multiple of the options.
-
-17:56 - Will Vincent Parrone Yeah, thank you. Including this right now, yes, we can have multiple options.
-
-18:14 - Will Vincent Parrone Oh, there we go.
-
-18:20 - Will Vincent Parrone Where did you find this? Just Google Images?
-
-18:24 - Jorge Lewis Yeah, I just searched Google OAuth example. Oh, nice.
-
-18:30 - Will Vincent Parrone Yeah, I think with the exception of Google Auth and Meta Auth, everything's self-explanatory already.
-
-18:40 - Jorge Lewis Yeah. Okay, so, but what I actually think is we're going to put yourself in his shoes. We ask him, hey, do you want this or this or this or do you want all of them? He's going to say, why would I, why would I not? Yeah, exactly. Why would he not say all of them for him? It costs the same. Um, since for us, like realistically the time to implement more than one should maybe take one or two more hours. Um, which should be a positive, um, ROI for us since the client gets to be really happy and, um, and we can reuse that code. So, sorry, sorry. Not reuse his code. Um, create it from scratch.
-
-19:24 - Will Vincent Parrone Our meetings aren't going to be read by him anyways, it's okay. We can...
-
-19:30 - Jorge Lewis Code like this isn't his IP actually, or the client's IP, because it's so generic that it's used in every single SaaS project, so it's not exactly his IP. So we can reuse the code.
-
-19:47 - Will Vincent Parrone Yeah, I think only the workshops might be a little bit... On the gray area of what's good and what's not.
-
-19:56 - Jorge Lewis Yeah, for sure.
-
-19:58 - Will Vincent Parrone Yeah. Okay.
-
-20:01 - Will Vincent Parrone While we're waiting, go on.
-
-20:04 - Jorge Lewis We can get into making all the authentication options, I think.
-
-20:09 - Will Vincent Parrone Okay. Wait.
-
-20:13 - Jorge Lewis If you can share your whole screen and we can, because you're using the documentation on a browser here.
-
-20:22 - Unidentified Speaker Mm-hmm.
-
-20:23 - Jorge Lewis Yeah, so you can share your whole screen. I can follow along with the docs that you're looking at.
-
-20:29 - Jorge Lewis OK.
-
-20:32 - Will Vincent Parrone Wait, let me just clean up my tabs.
-
-20:39 - Will Vincent Parrone There we go, all nice and clean. Mm-hmm.
-
-20:51 - Will Vincent Parrone Stop presenting.
-
-20:58 - Will Vincent Parrone OK. Let's test this on superbase. Superbase hot documentation.
-
-21:18 - Will Vincent Parrone Wait.
-
-21:20 - Will Vincent Parrone If we're going to be including multiple ways to sign in, then here in the architecture, the sign-in page should have multiple pages, right? Like sign-in. There's going to be a sign-in page. And then if, let's say, the user opts for an OTP, well, I'm going to be creating another OTP page.
-
-21:46 - Jorge Lewis Yeah. Let me share with you the code of the other project of Aetina where we did the Google authentication. We did Google and GitHub authentication for that project.
-
-21:56 - Will Vincent Parrone Oh, okay.
-
-22:02 - Jorge Lewis Do you have access to the Aetina repository?
-
-22:07 - Will Vincent Parrone I think I have access already to... Wait, I'm just going to be yanking this.
-
-22:17 - Will Vincent Parrone Oh yeah, I think I have access to this 13 repositories already. All right, perfect. Let me double check. I might be wrong.
-
-22:28 - Jorge Lewis I sent you a link as well if you need it.
-
-22:36 - Jorge Lewis And Discord, sorry.
-
-22:42 - Will Vincent Parrone Ah, here we go.
-
-22:46 - Will Vincent Parrone Repositories, Aitino.
-
-22:50 - Will Vincent Parrone Here we go. This is a public? Okay.
-
-22:53 - Jorge Lewis Oh, it's public. Do you have access to... Oh, actually, no, you just need to read it, yeah?
-
-23:03 - Jorge Lewis So, yeah, I don't know...
-
-23:11 - Jorge Lewis My God, stop.
-
-23:14 - Will Vincent Parrone Ah, here we go.
-
-23:19 - Will Vincent Parrone I will data form form that register.
-
-23:34 - Jorge Lewis How about this? Um, so it's this, this off, it takes a lot of learning. And I think the pair programming sessions while sometimes you probably do want to do learning together. I think a more efficient, especially since we're just starting off with these sessions, is by actually writing some code. So I think what we can do is we can work on the, remember that to-do toggle, or that done toggle that I told you about on Peres, the Read.AI project? Could we work on that instead?
-
-23:59 - Will Vincent Parrone Oh yeah, wait, wait, wait.
-
-24:02 - Will Vincent Parrone Let me pull it then. Repositories.
-
-24:09 - Will Vincent Parrone Read.AI tool.
-
-24:15 - Will Vincent Parrone Yeah, are you okay with extending it, like, 15 minutes, given the, you know?
-
-24:19 - Jorge Lewis Yeah, yeah, for sure. I should be able to. I just have a couple meetings with some people, but it should be good, if you want.
-
-24:30 - Will Vincent Parrone Okay.
-
-24:33 - Will Vincent Parrone Reddit, tool, tmux, new, s, reddit, tool, tntm, install, And then, no package manage, oh yeah, right, right, cduel.
-
-25:04 - Will Vincent Parrone Oh, wait, are we using, what are we using here?
-
-25:14 - Will Vincent Parrone In order for me to test this app properly, I have to do some CSRF.
-
-25:29 - Will Vincent Parrone Show config false.
-
-25:42 - Will Vincent Parrone Run dev. Nope.
-
-25:46 - Will Vincent Parrone Run dev.
-
-25:49 - Jorge Lewis Very annoyed of you.
-
-25:54 - Will Vincent Parrone Huh.
-
-25:55 - Will Vincent Parrone Unexpected token starting dev server. Okay, got it.
-
-26:03 - Will Vincent Parrone And then we're gonna do something in Nginx.
-
-26:07 - Will Vincent Parrone Huh.
-
-26:09 - Will Vincent Parrone Starting dev server.
-
-26:18 - Will Vincent Parrone New GitHub copilot was found.
-
-26:23 - Will Vincent Parrone Okay, I'll just quit everything.
-
-26:25 - Unidentified Speaker Yep.
-
-26:29 - Will Vincent Parrone Clear, clear.
-
-26:34 - Will Vincent Parrone What's wrong again?
-
-26:46 - Will Vincent Parrone svelte.config.js, delete it.
-
-26:52 - Will Vincent Parrone Here we go.
-
-26:57 - Will Vincent Parrone And then something within the nginx file, sudo vim etc nginx. It's still wrong.
-
-27:09 - Will Vincent Parrone Is there no show config? I might have I might have CSRFs.
-
-27:31 - Will Vincent Parrone Oh, check origin.
-
-27:33 - Jorge Lewis What's the CSRF? I've never seen it before.
-
-27:37 - Will Vincent Parrone It's basically the course, it's course related because I'm not using localhost.
-
-27:45 - Jorge Lewis to run.
-
-27:49 - Will Vincent Parrone I'm basically hosting this in another server, in a Vultr cloud server. That's why I can use it from any device as long as I remember the password.
-
-28:08 - Will Vincent Parrone Which I actually am starting to forget now. What's the name again? Checkorigin.
-
-28:15 - Will Vincent Parrone Check origin. There we go.
-
-28:24 - Will Vincent Parrone And I know this is going to work now because I am a god. So it's available.
-
-28:36 - Jorge Lewis Default. Now I have to.
-
-28:38 - Jorge Lewis This is Windows, so.
-
-28:46 - Jorge Lewis Bro, RIP. I'm prompt. You should be using at least PowerShell.
-
-28:53 - Will Vincent Parrone Really?
-
-28:55 - Jorge Lewis Yeah, I prefer using PowerShell, but also WSL works. Like, do you have WSL?
-
-29:04 - Will Vincent Parrone Actually...
-
-29:08 - Will Vincent Parrone Yeah. Yeah, I do. I haven't really used it though.
-
-29:20 - Will Vincent Parrone 5, 1, I just got used to 7, ordinary shell commands. 5.
-
-29:31 - Jorge Lewis But your vulture is Linux.
-
-29:36 - Will Vincent Parrone Yeah, wait, wait, wait. Sorry. Let me try to center my thoughts first. I was really focused on doing the ng-stuff. What was the question again?
-
-29:49 - Jorge Lewis Why don't you use WSM?
-
-29:51 - Will Vincent Parrone Oh, right. It's because I keep on forgetting to initialize them, to like start them.
-
-30:03 - Unidentified Speaker Gotcha.
-
-30:06 - Jorge Lewis I mean, I don't, I can't imagine working with commando prompts, but I mean, if you're used to it, then it works.
-
-30:14 - Will Vincent Parrone Yeah, that's. Actually, that's what's been changing with me recently. My whole mentality is if it works, it works, but I am slightly learning that maybe that's a wrong way of doing things.
-
-30:28 - Jorge Lewis It seems like a balance. For me, when I tried switching to NeoVim, or a better example is I tried switching to Linux, to NixOS, but it's more sexy, it's more flashy. It's like, oh, I use Linux, I use NixOS. I use Vim, by the way, but it just doesn't work for me. What works for me is Windows, because of what I do. It's all very dependent on what you do.
-
-30:58 - Jorge Lewis That's fair.
-
-31:00 - Jorge Lewis For me, I can work so much more efficiently with...
-
-31:06 - Jorge Lewis That happens to me all the time as well. I keep opening those random Windows apps.
-
-31:11 - Will Vincent Parrone Yeah, I also... This is why I'm really gonna change this to... I'm gonna change this to Linux probably tomorrow.
-
-31:26 - Will Vincent Parrone This is a bit...
-
-31:34 - Will Vincent Parrone Annoying to... Yeah, maybe like for most people, for me, I should start on trying new things more often.
-
-31:45 - Jorge Lewis Yeah, that's the tough thing. It's like what works, works is great. But then learning to like growing is just trying these new things that make you feel uncomfortable. Like it was super uncomfortable for me to learn NeoVim, but I learned it. I tried it and it just doesn't work. Like now I know at least. So if people say, oh, you should use NeoVim. I can say, oh, I did. Because a lot of things, when people say, oh, use NeoVim, or sorry, use Vim at least, it's just because they heard Providion say it once and twice and ten times, and now they're just robots saying, oh, use Vim. Use Linux.
-
-32:21 - Will Vincent Parrone Yeah. Wait, what's the name of the env file again? This is it, right? The public super base URL.
-
-32:29 - Jorge Lewis Yeah, are you... Let me send you the new one because... Okay. U.S. Edited it a little bit.
-
-32:41 - Will Vincent Parrone Okay. I remember. Go ahead. There's just this aspect.
-
-32:48 - Jorge Lewis Also, make sure you pull from Alpha because I've been making some changes. Alright, so I'm saying Google Meets. There's just one more variable.
-
-32:57 - Will Vincent Parrone Okay. I'm in Alpha.
-
-33:01 - Will Vincent Parrone Um...
-
-33:07 - Will Vincent Parrone Okay, public base URL localhost 8080, okay.
-
-33:12 - Jorge Lewis Yeah, viewers had a little bit of a confusion with some of the variables and what they were doing, but yeah.
-
-33:20 - Will Vincent Parrone Okay, I think this can work now.
-
-33:26 - Will Vincent Parrone Okay, let's see.
-
-33:32 - Jorge Lewis Actually, you might need...
-
-33:38 - Will Vincent Parrone Hmm.
-
-33:39 - Will Vincent Parrone Go to app. Oh, now it works.
-
-33:46 - Will Vincent Parrone Let's see.
-
-33:47 - Will Vincent Parrone Let's see indeed. OK.
-
-33:58 - Jorge Lewis And one thing I've actually noticed that I'm not going to make a conclusion yet or an opinion on yet, I think a hypothesis I have is that people use Vim and Linux to be more efficient. But what I've noticed is that it's contrary because when I'm watching people code on Windows and code on Linux, the people that code on Windows are less flashy, they're using their mouse, maybe they type a little bit slower, but they're more efficient. So it's a hypothesis that I have that people that use Linux blindly because it's better or it's more efficient end up kind of shooting themselves in the foot. It's a hypothesis I have.
-
-34:42 - Will Vincent Parrone I think it's because the value is so like, like the learning curve is a lot, lot harder than it looks. That's why you have to spend literally like two to three years. In order to actually be 1.5 times better than the average dev.
-
-35:06 - Jorge Lewis Most people, the best companies in the world don't use Linux, they use Windows.
-
-35:13 - Jorge Lewis Using Linux doesn't make you a better developer, doesn't make you a better engineer. It's supposed to make you more efficient but what do engineers need to be more efficient? They don't need to type 1.5 times faster, typing isn't the problem. CDing into the right repository isn't the problem. Using a text-only IDE isn't the problem.
-
-35:35 - Will Vincent Parrone Actually, that's something I think that's where we would disagree. However, something we could agree on is that if you just follow trends blindly without considering your personal circumstances, you're really going to shoot yourself in the foot. And also, what's the key? I mean, like, yeah, for some people, VS Code works for them. For some, doing Linux, Vim, and all that stuff works for them, because they've custom made it for their specific circumstances. So it makes perfect sense that they're going to be better developers.
-
-36:22 - Jorge Lewis But it's interesting. Go on.
-
-36:27 - Will Vincent Parrone Basically, I see a lot of people just use Vim, use Linux for the reason that their influencers did it without much research and they're having plenty of problems because they did not expect that they're going to be making some sacrifices along the way.
-
-36:52 - Jorge Lewis That's a good reason. I agree with that. To get good at Linux, you need to dedicate specific time to be good at Linux and Vim and stuff like that. It's not something that you learn over time, it's something that you need to learn, you need to actually do it. And which most people don't do because they have other things to do. For me, I can't spend time, me personally, it's on a person-to-person basis. I have business calls to get to, I can't be saying, sorry, let me SSH into my Google Meet server or something like that.
-
-37:28 - Jorge Lewis For me, it doesn't work. For me, I'm a unique person, but for other unique people, it also doesn't work for them. They have to work. If you're in school, I would definitely recommend learning Linux because why not? That's growth. You don't have to end up using it in your career, but learning it is great. Learning things is always great.
-
-37:52 - Will Vincent Parrone What did I do here again? So basically, we're just going to add another column here, right?
-
-38:00 - Jorge Lewis Yeah, pretty much add a column and then connect it to the database.
-
-38:05 - Will Vincent Parrone Wait, I remember, let me just review the super base types again. Oops.
-
-38:23 - Will Vincent Parrone So where is to do?
-
-38:32 - Will Vincent Parrone One is to one.
-
-38:36 - Will Vincent Parrone Is this updated? I don't think so.
-
-38:46 - Jorge Lewis Also, sometimes it's not a matter of this or that. Sometimes it's a matter of this and that. Like, I use a Vim, I use a NeoVim environment in my VS Code.
-
-39:00 - Jorge Lewis Oh, really?
-
-39:04 - Jorge Lewis It's a mentality that my friend told me while I was in Thailand. He's like one of the best engineers along with Jonas and Nazif that I've met. It's a matter of, oh, don't use, well, why would you have to use one or two? Why do you have to use Linux or Windows? Why not use both? Why not use VS Code and Vim? Use both worlds.
-
-39:23 - Will Vincent Parrone Oh, yeah, yeah, yeah. It's actually a good compromise.
-
-39:29 - Jorge Lewis Because in today's world, where the influencers are saying a lot of true things, but people follow them blindly, it's a good kind of reminder. Oh, but trust me, I felt so cool using NeoVim in the airport. In the airplane, I was like, yeah, the people behind me can see me just using Vim. I bet they use Windows. I bet they use VS Code.
-
-40:00 - Will Vincent Parrone What's this? Exit your status entry.
-
-40:08 - Will Vincent Parrone Wait, let me see the web and px super basic. Yeah, anyways, the problem that I'm trying to fix is basically when determining whether the types here in the superbase.ts are accurate.
-
-40:32 - Jorge Lewis I would update them regardless.
-
-40:38 - Jorge Lewis They should be, but just, yeah, never hurts. Actually, I can do it for you just to double check in case you're having too many problems.
-
-41:03 - Will Vincent Parrone I'll Shift-C, Alt-Tab, V, superbase.com, continue with GitHub.
-
-41:16 - Will Vincent Parrone Well done, now close this window. And then...
-
-41:26 - Will Vincent Parrone We copy, exit, and then...
-
-41:33 - Will Vincent Parrone So we go bash, update superbase tags.
-
-41:38 - Will Vincent Parrone Hmm. Plus x.
-
-42:00 - Will Vincent Parrone There we go. Packages.
-
-42:09 - Jorge Lewis Like one thing also that I've noticed, I'm not here to attack Linux users, I like Linux, I do. But one thing that I've noticed is that for people using Vim and Linux, you're often fixing your operating system and your tools rather than developing. I think that's one of the biggest arguments.
-
-42:30 - Will Vincent Parrone It's basically a personal attack, but it's accurate to...
-
-42:37 - Will Vincent Parrone Like, fuck you, but like, yeah, that is us.
-
-42:44 - Jorge Lewis Okay, the types are updated, so don't worry.
-
-42:48 - Will Vincent Parrone Okay, let me try to pull.
-
-42:50 - Jorge Lewis Oh, actually, wait, let me push. I have changes here, though.
-
-43:00 - Jorge Lewis There's quite a- Bewis is still learning. He's using a lot of tri-catches, so... Prepare your eyes. If you don't, yeah.
-
-43:10 - Will Vincent Parrone Oh, don't worry, I also use tri-catch. If it works, it works.
-
-43:15 - Will Vincent Parrone That has been my mentality. Wait, let me just...
-
-43:23 - Jorge Lewis I hate this saying because it's just so cliche, but everything's a balance.
-
-43:55 - Will Vincent Parrone What's happening with my... Ah, anyways.
-
-44:03 - Jorge Lewis Look at how inefficient you are, you don't have a shortcut to nvim, just vi. Come on.
-
-44:09 - Will Vincent Parrone Now my vim is lagging like crazy.
-
-44:14 - Jorge Lewis It was a funny topic discussion we had, Jonas, with this Swedish developer that I told you about just now. Jonas didn't set up a shortcut to his neovim command, whereas the Swedish guy puts vi instead of envim. It was just funny because it's like two characters doesn't make you more efficient, but it's just so funny. I don't know. It's like the inside the head of a developer. We're going to spend 10 hours making that shortcut to save no time, but we're satisfied.
-
-44:47 - Will Vincent Parrone Yes, that is us.
-
-44:54 - Will Vincent Parrone Yeah, okay. I'm just going to pull if there are any changes. Wow. Okay. This is from Alpha 2.
-
-45:08 - Will Vincent Parrone Let me see what has changed.
-
-45:14 - Will Vincent Parrone I'm getting a bit dyslexic. Let's see. To do. What's the name of
-
-45:22 - Jorge Lewis I think it's done, done.
-
-45:24 - Will Vincent Parrone Done. Oh, okay, okay.
-
-45:33 - Jorge Lewis Oh, wait. Actually, sorry, I think the table that you're, like the table that's showing on the front end there, that's actually the leaps table, not the evaluated submissions table. And I haven't added that done to, The leads table. So I'm going to do that right now. So you're going to have to actually...
-
-45:54 - Will Vincent Parrone That explains it. That explains the issues I'm having. Okay.
-
-45:59 - Unidentified Speaker Oh no.
-
-46:01 - Will Vincent Parrone In my other laptop, I was trying to forcibly justify the leads. I was forcibly trying to justify the done table. Okay. I'll wait for it.
-
-46:11 - Jorge Lewis Okay, I've added it Let me do you have the super base generate command a hand or should I do and push?
-
-46:21 - Jorge Lewis Can you do it?
-
-46:23 - Jorge Lewis Yeah, I got it. Thanks. All right All right, I think I sent it or I pushed it Okay.
-
-46:48 - Will Vincent Parrone Space BD.
-
-46:50 - Jorge Lewis I'm actually going to paste the command in the project so that we have it at hand.
-
-46:57 - Will Vincent Parrone Leads. We have done. Okay. There we go. Lovely.
-
-47:05 - Will Vincent Parrone I think it is in project. No, no, not projects.
-
-47:11 - Will Vincent Parrone Resizable panel, data table, lead data, deeds.
-
-47:16 - Jorge Lewis So where we want to move the button to, so okay, so actually let's think about this. So I actually thought about this as well. What's the, let's take a look at the front end real quick. And instead of trying, there's an easy way and there's a hard way, I realized. So the left side there is a data table. It's using ChefCN. It's pretty complex compared to the right side, which is straight up just very simple stuff. So I realized if we move the button or the toggle to the right side, it'll make things a lot easier. We don't have to worry about the data table stuff.
-
-47:50 - Jorge Lewis But if you want to learn more about the data table and how it works, I'm more than happy to.
-
-47:58 - Will Vincent Parrone Yes, cool. I already suffered.
-
-48:03 - Jorge Lewis I need to learn a bit more about it as well. But the only thing is I haven't had the time to learn it properly.
-
-48:12 - Will Vincent Parrone Yeah, me too. Let me try to remember the last thing I did. Okay, here we go. Basically, I'm going to be copy pasting this.
-
-48:27 - Will Vincent Parrone Since this is a boolean one, create render.
-
-48:32 - Will Vincent Parrone Relative dates. And I'm going to be Copying this one.
-
-48:43 - Will Vincent Parrone Copy relative date. So let's call this relative to do.
-
-48:49 - Jorge Lewis Oh, actually, it's actually already there. It's started, I think. Dang it. Okay.
-
-49:03 - Jorge Lewis On a general note, I wonder if it's a good practice to suffix the files that are cells, like with a dash cell, I wonder. I don't know.
-
-49:12 - Will Vincent Parrone I mean, it's for readability purposes. It's always a good thing.
-
-49:20 - Will Vincent Parrone Let's call this then. Let's call the done button. Let's see what happens.
-
-49:27 - Will Vincent Parrone Relative.
-
-49:38 - Jorge Lewis Like, see, for... Do you have GitHub Copilot in general, or...?
-
-49:41 - Unidentified Speaker Huh?
-
-49:43 - Jorge Lewis Sorry?
-
-49:44 - Jorge Lewis Do you have GitHub Copilot?
-
-49:48 - Will Vincent Parrone No.
-
-49:51 - Will Vincent Parrone I am only using a language server here.
-
-50:01 - Will Vincent Parrone RelativeDateCell... RelativeDateCell... What's the name of this again? DoneButton... ItemValue...
-
-50:18 - Will Vincent Parrone What's the, uh... Okay, ID...
-
-50:27 - Will Vincent Parrone Item.ID...
-
-50:38 - Will Vincent Parrone I'm not sure if actually this is correct.
-
-50:52 - Will Vincent Parrone Okay, I think this is lead.
-
-50:57 - Will Vincent Parrone No, what is this?
-
-50:59 - Jorge Lewis So I actually tried working on this at some point, but I don't know what happens.
-
-51:16 - Will Vincent Parrone Okay, let's see. What is data body cell? Data body cell.
-
-51:25 - Will Vincent Parrone Table color, I know you're rendering an item, so the thing I would have to do is find out what contains the lead.
-
-51:37 - Will Vincent Parrone Okay.
-
-51:42 - Will Vincent Parrone Yeah.
-
-51:46 - Will Vincent Parrone Nevermind, that's a dead end. Insert columns, table, create columns, status, assessor, status. Property done does not exist.
-
-51:57 - Unidentified Speaker Data.
-
-51:59 - Jorge Lewis So what's item.value?
-
-52:01 - Jorge Lewis What is it? What is...
-
-52:06 - Jorge Lewis Oh, wait. Have you... No, you just... I think it's because you haven't... It hasn't updated your types yet, your ID.
-
-52:16 - Will Vincent Parrone Oh, right, right, right.
-
-52:19 - Will Vincent Parrone Maybe?
-
-52:20 - Will Vincent Parrone Let me try to...
-
-52:23 - Jorge Lewis You know what's funny? That's the most Vim thing I've seen right there. You have to close the entire IDE to get it refreshed. Vim is just like, oh, it broke. Close it and reopen it.
-
-52:40 - Will Vincent Parrone And this is the IT equivalent of, have you tried turning it on and off? Oh, wait, it is working, huh?
-
-52:47 - Jorge Lewis But you changed it to value. Try done. I wonder.
-
-52:50 - Unidentified Speaker Wait.
-
-52:52 - Jorge Lewis Because I have no clue what value.
-
-52:59 - Will Vincent Parrone There's no error message. OK.
-
-53:01 - Jorge Lewis How do you read the type? Can you open the type of value or item?
-
-53:15 - Will Vincent Parrone Not able to do it. Weird.
-
-53:18 - Jorge Lewis Try value.
-
-53:26 - Will Vincent Parrone Value extends body cell. Oh, right.
-
-53:30 - Jorge Lewis Okay, I can see it here. Let me send it to you. Let me send a screenshot.
-
-53:40 - Jorge Lewis So item.
-
-53:44 - Jorge Lewis This is probably just useful to know about the data table structure.
-
-53:49 - Jorge Lewis Okay, so I sense that's the item data structure, and then here's the value data structure.
-
-53:57 - Will Vincent Parrone Wait, where did you send it? Discord?
-
-54:00 - Jorge Lewis Read.AI tool, sorry. Yeah, Discord.
-
-54:03 - Will Vincent Parrone Okay. Waiting for... Ah, okay. Read.AI tool, I suppose.
-
-54:13 - Unidentified Speaker Dang.
-
-54:14 - Jorge Lewis Jump to present. Click to jump to present, yeah.
-
-54:18 - Jorge Lewis So Jonas just sent a screenshot.
-
-54:23 - Will Vincent Parrone Yeah, I saw it either way, it's okay.
-
-54:28 - Will Vincent Parrone Value, data body, cell comment, data discovered.
-
-54:33 - Jorge Lewis It's the same data type as a lead. So it is a lead but just it's synonymous with the lead but different.
-
-54:42 - Will Vincent Parrone Yeah, so I was correct. I mean, partially correct.
-
-54:49 - Jorge Lewis So you should be able to do item.done. But I think the language server or the type checker, what is it called?
-
-54:57 - Will Vincent Parrone It doesn't like it. Language server.
-
-55:05 - Will Vincent Parrone Item. Oh, wait, wait, wait. Yep, yep, I can hear you.
-
-55:10 - Jorge Lewis Yeah, is he with us?
-
-55:16 - Jorge Lewis Wait.
-
-55:17 - Jorge Lewis Yeah, we're not programming session real quick. We're tired of being bothered. I'll get back to you when we're done in like... 30 minutes-ish?
-
-55:30 - Jorge Lewis Is he awake?
-
-55:33 - Jorge Lewis Yeah, he'll reply to you.
-
-55:35 - Jorge Lewis Okay, yeah, could you deal with that? Maybe try.
-
-55:50 - Will Vincent Parrone Screw it, I'll see if it works. I'll refresh.
-
-55:59 - Will Vincent Parrone Okay, I see, internal error. Okay, what the hell did I do? What the hell did I do?
-
-56:19 - Jorge Lewis Try again, I guess, I don't know, cuz it's a little bit, what even happened?
-
-56:24 - Will Vincent Parrone I don't know, is my server getting half plug-in code VSS did?
-
-56:31 - Will Vincent Parrone Maybe a stop overflow or something, let me try. Item.done. What the fuck is this?
-
-56:47 - Will Vincent Parrone I'll be right back, I'm gonna use the restroom.
-
-56:49 - Will Vincent Parrone Yep.
-
-58:39 - Will Vincent Parrone so let's see let's see let's see prospect username status discover dot header done what did I do wrong So why didn't item.done work?
-
-59:14 - Will Vincent Parrone Both of them did not work. I tried item.done. I'll try to check.
-
-59:21 - Jorge Lewis Maybe casting item.done as a boolean?
-
-59:25 - Unidentified Speaker No.
-
-59:33 - Will Vincent Parrone Oh, wait. No.
-
-59:35 - Will Vincent Parrone Let me try to smash this first.
-
-59:44 - Will Vincent Parrone Wait, get diff. What did I do wrong? What did I change? Okay, the spacings...
-
-59:53 - Will Vincent Parrone I changed the spacings. Oh no, this is not gonna help me.
-
-59:58 - Unidentified Speaker God.
-
-1:00:02 - Will Vincent Parrone Okay, I have an idea.
-
-1:00:19 - Will Vincent Parrone Okay, restart the server.
-
-1:00:24 - Will Vincent Parrone Hopefully.
-
-1:00:28 - Will Vincent Parrone Of course, why did I not check the console logs first?
-
-1:00:37 - Will Vincent Parrone So it's not.
-
-1:00:47 - Will Vincent Parrone Okay, I believe it's not the table's fault.
-
-1:00:55 - Will Vincent Parrone Because the error happened even though...
-
-1:00:58 - Jorge Lewis Wait, can I see your error again?
-
-1:01:02 - Will Vincent Parrone Wait.
-
-1:01:07 - Will Vincent Parrone Here we go.
-
-1:01:16 - Will Vincent Parrone I honestly think someone's hacking my phone, right? My AA server right now.
-
-1:01:22 - Will Vincent Parrone Here you go, transfer with what error?
-
-1:01:27 - Jorge Lewis Look at- look at- go down, go down.
-
-1:01:32 - Jorge Lewis So, look at, um... Okay, okay. Look, read the error. Transfer failed with one error. Unexpected character. And it's, uh...
-
-1:01:49 - Will Vincent Parrone Let'S see.
-
-1:01:49 - Jorge Lewis Superbase TS 1.0. But it's weird because there's nothing wrong there.
-
-1:02:00 - Will Vincent Parrone Or maybe there is. I don't know.
-
-1:02:03 - Jorge Lewis No, I'm looking at it on my thing. There's not.
-
-1:02:25 - Jorge Lewis I'm with Will right now in a pair programming session. If you don't mind waiting like 15 minutes.
-
-1:02:38 - Will Vincent Parrone Okay, fine.
-
-1:02:39 - Unidentified Speaker Okay, thanks.
-
-1:02:43 - Will Vincent Parrone Okay, what's What's my super base looking like then?
-
-1:02:51 - Jorge Lewis No, no, it's in types. It's in types and then super base. So, yeah, there's nothing wrong with it.
-
-1:02:59 - Will Vincent Parrone Hmm. Okay. I'll try to restart it again then.
-
-1:03:05 - Jorge Lewis It's a problem with byte.yes.build.
-
-1:03:12 - Will Vincent Parrone Dang.
-
-1:03:17 - Will Vincent Parrone Wait, what's htop saying? Is this a Stack Overflow? No, this is not a Stack Overflow problem.
-
-1:03:27 - Will Vincent Parrone How are my other sites?
-
-1:03:37 - Will Vincent Parrone Yep, this is an isolated event.
-
-1:03:47 - Will Vincent Parrone This is beautiful. I love this.
-
-1:03:49 - Unidentified Speaker Okay.
-
-1:04:05 - Will Vincent Parrone Web slash super base.
-
-1:04:34 - Jorge Lewis Actually, I think I might know what happened.
-
-1:04:39 - Jorge Lewis I think... I might have...
-
-1:04:43 - Jorge Lewis Say... Huh...
-
-1:04:47 - Jorge Lewis Let me just...
-
-1:04:50 - Jorge Lewis No...
-
-1:04:54 - Jorge Lewis Let me actually just delete it and bring it back.
-
-1:05:02 - Jorge Lewis Because what it looks like is something related to the binary, or at least the file of the types doesn't look too happy.
-
-1:05:13 - Will Vincent Parrone In which case, maybe a fresh install would work, fresh pnpm install.
-
-1:05:20 - Jorge Lewis A fresh PMPM, at least I'm doing the gen types call first, which did not work. So I guess, yeah, fresh PMPM. But what's, what broke it?
-
-1:05:40 - Will Vincent Parrone It's probably related to the done value. Something screwed the server up with that. Now let's try PMPM model.
-
-1:05:50 - Will Vincent Parrone Then let's try it again.
-
-1:06:26 - Will Vincent Parrone Yeah, I think it's working now. Oh no, it's not.
-
-1:06:34 - Will Vincent Parrone This has gotten a bit more interesting.
-
-1:06:42 - Will Vincent Parrone Put in a Read.AI column. Transform failed due to an error. Error when evaluating SSR module.
-
-1:06:48 - Unidentified Speaker Hmm.
-
-1:06:54 - Will Vincent Parrone Interesting. Evaluation.
-
-1:07:05 - Will Vincent Parrone I need to use another PC for this.
-
-1:07:10 - Will Vincent Parrone so Okay, I have no idea what's happening Okay.
-
-1:09:48 - Jorge Lewis What a strange issue.
-
-1:09:50 - Will Vincent Parrone Yeah.
-
-1:09:53 - Will Vincent Parrone How about we settle for...
-
-1:09:57 - Jorge Lewis Actually?
-
-1:09:58 - Jorge Lewis Go on.
-
-1:09:59 - Jorge Lewis Huh. It was running a second ago, right? Like...
-
-1:10:03 - Will Vincent Parrone Yeah.
-
-1:10:06 - Jorge Lewis Okay. I have an inkling into what it might be. Nope, wasn't it? Yeah, nope.
-
-1:10:17 - Jorge Lewis No, it doesn't work on mine either. Wait, what? So it's something to do with this new typefile that CibaBase has given us.
-
-1:10:31 - Jorge Lewis That's kind of broken something.
-
-1:10:34 - Will Vincent Parrone Oh, at least that's a clue. That's a clue.
-
-1:10:39 - Jorge Lewis Although it's weirder is that it was working just like a second ago we didn't make any changes on it or we made like a change that I have removed and it's so wait what if we're all back into another
-
-1:11:01 - Will Vincent Parrone what if you're all back to the previous commit and then just do a git div.
-
-1:11:10 - Jorge Lewis Try that.
-
-1:11:13 - Will Vincent Parrone Yeah, git div previews.
-
-1:11:32 - Will Vincent Parrone Let's see.
-
-1:11:36 - Will Vincent Parrone git div next, git div head with head thing.
-
-1:12:07 - Will Vincent Parrone Yeah, but like, I want a good comparison.
-
-1:12:40 - Will Vincent Parrone No, the only thing different from the previous commit is the done.
-
-1:12:44 - Unidentified Speaker Sorry?
-
-1:12:48 - Will Vincent Parrone The only thing different from the previous commit is the inclusion of done.
-
-1:12:51 - Jorge Lewis But like, I shouldn't do anything.
-
-1:13:04 - Jorge Lewis Try deleting it, I guess? Maybe we're like, maybe just, maybe we're just tripping and it's like, just doesn't want to work. It's like, you know, guys.
-
-1:13:15 - Will Vincent Parrone Wait, let me try it. Okay.
-
-1:13:39 - Jorge Lewis No, I deleted done and it doesn't work.
-
-1:13:43 - Jorge Lewis It's not that, huh?
-
-1:13:45 - Jorge Lewis It's not that, it's like, it's just so weird.
-
-1:13:52 - Will Vincent Parrone Wait, maybe I'll do a blind research of which commit is working.
-
-1:14:00 - Jorge Lewis But what it looks like, so the error also says, error when evaluating SSR module, the server file for the home page but I ain't got a clue bro all right well into your trusty hands.
-
-1:14:39 - Will Vincent Parrone Oh, by the way, do we have the scope already for the Read.AI tool? A what? A scope.
-
-1:14:46 - Jorge Lewis Scope?
-
-1:14:47 - Will Vincent Parrone Yeah, like inclusion of the to-do, like the backlogs.
-
-1:14:53 - Jorge Lewis No, no, no. I mean, it's just in my head.
-
-1:14:56 - Jorge Lewis Okay.
-
-1:14:57 - Jorge Lewis I use this on a daily basis for reaching out to people for sales.
-
-1:15:03 - Jorge Lewis Yeah, there's quite a few things that I would like, but they're all kind of nice to have. It's not really too important. Okay, okay.
-
-1:15:13 - Will Vincent Parrone I'll try to fix this, if ever, during my date. But it looks like Q1 wants to...
-
-1:15:21 - Jorge Lewis Yeah, I think it's more important we go back to work on that. And hopefully, next time we attack this issue on rest, it's gone.
-
-1:15:29 - Will Vincent Parrone Yeah. Wait, wait. Before you go, Q1 said that they're going to be signing up for the newsletter before the Y experience, so most likely, the users have an account. They're probably going to transfer the account from the newsletter to us. I'm not sure about this.
-
-1:15:49 - Will Vincent Parrone Sorry, say that again?
-
-1:15:52 - Will Vincent Parrone I'll say this. This is what Q1 had said. Remember, in terms of sequence, they could have signed up for the newsletter before the Y experience. And they can call to the mobile app. Try the Y experience and want to sign up. So basically, people from the newsletter would be signing in. Should we do some kind of creating an account if a person came from the newsletter, like the workflow of it?
-
-1:16:25 - Jorge Lewis Yeah, described, so we're still, I feel like we're still aligned. I feel like he just misinterpreted what we do. So in FigJam, make a user flow of this user process and use these images here. So create a user flow saying, okay, and it's already there online on FigJam. If you open the depth spec, there's actually a section for the user flow, just called discovery. And in that discovery, what you should do is kind of duplicate it. Can you open FigJam?
-
-1:17:01 - Will Vincent Parrone Wait, let me see.
-
-1:17:19 - Will Vincent Parrone Here we go.
-
-1:17:24 - Jorge Lewis So I duplicate the discovery section over here, full user auth flow. In here, search and expand upon it to create the full version with the technical thing. So saying, signs up, replacing that with more in-depth things like how they sign up.
-
-1:17:47 - Will Vincent Parrone And then reply to them, yeah.
-
-1:17:49 - Will Vincent Parrone Sounds like a plan to me then.
-
-1:17:51 - Jorge Lewis I think, let them know, say, um, that sounds, that sounds right. Let me make a FigDem to make, to double check.
-
-1:18:01 - Unidentified Speaker Okay.
-
-1:18:02 - Will Vincent Parrone I'll message them on Discord then. Wait, let me message Kuan now to see if I get what you're saying.
-
-1:18:23 - Will Vincent Parrone Just to make sure that we're also perfectly aligned, I'll be creating a user on how the sign up experience would look like,
-
-1:18:42 - Will Vincent Parrone Sounds like a plan.
-
-1:18:54 - Will Vincent Parrone including again.
-
-1:19:00 - Unidentified Speaker Yep.
-
-1:19:03 - Will Vincent Parrone This looks good to me. Anything else?
-
-1:19:07 - Jorge Lewis Let me check the message out.
-
-1:19:13 - Jorge Lewis So your message, it doesn't feel like, so I mean, he says perfect, but for me, it would be even more clear for sure thing. Like that, It just sounds like all you're saying, it sounds like he said something and then all you said was yes. But what does yes mean? Does it mean yes, that's what we have in mind or yes, I'm going to change my mind? Yes, thanks for the clarification. So when we say sure thing, what do you mean by that?
-
-1:19:44 - Will Vincent Parrone I just basically, I'm just basically saying that I understand. I'll keep note of what you've said. That's what I meant by sure thing.
-
-1:20:00 - Jorge Lewis But we don't want to be just keeping note. We want to make sure that we can give more than that. So for example, he says, this is what we've discussed. How does that interact with what you guys are planning? It's pointless to say, I understand, just as a first thing.
-
-1:20:27 - Jorge Lewis Because there's things that we need to clear up.
-
-1:20:32 - Jorge Lewis We can't avoid the conflict of having cleared things up. That's what it feels like, Because there's a conflict which is, we talked about the UX being via the mentor chat with action buttons. Do you understand what he means?
-
-1:20:45 - Will Vincent Parrone I think right now, he is talking about the mockups.
-
-1:20:54 - Jorge Lewis Wait.
-
-1:20:56 - Jorge Lewis So the answer is no. It doesn't sound like you know what he means. Neither do I. Like, I don't know exactly what he means. So it's, we can't just say yes. We're better off to saying, okay, to make sure that we're aligned. Like don't, because saying it's, um, it's like a false sense of security for him. And it's bad because if he thinks, if it creates an assumption that we understand, and then later down the road, it could bite us in the ass. This one specific example may not be the case, but for things like this, I've definitely seen it happen. I wouldn't be stressing it as much if I didn't see this happen before.
-
-1:21:38 - Jorge Lewis If you feel what I'm saying.
-
-1:21:40 - Will Vincent Parrone Okay, okay. I hear what you're saying.
-
-1:21:48 - Will Vincent Parrone So, what are the improvements that you think I should do, like, It's not on how I voice my messages. I think it's being a bit more inquisitive. Questioning, I suppose.
-
-1:22:02 - Jorge Lewis So, of course, it depends on your style then.
-
-1:22:14 - Will Vincent Parrone Mm-hmm.
-
-1:22:21 - Will Vincent Parrone Sorry.
-
-1:22:22 - Jorge Lewis Yeah, I think so as well. Like, you know, the very short messages kind of like a lot more lenient. QAnon has very direct messages. You can find your own style. But there's some things that need that all forms of communication from conflicts.
-
-1:22:46 - Jorge Lewis So what I would like for me, if this were me, I would, I'm going to type it in your, in our person on the end, but don't, don't kind of, I don't want you to kind of take this as a fact, like just for me, how I would do it, right?
-
-1:23:03 - Will Vincent Parrone Yeah, basically I'll just try to get the essence of it and figure out the, how I'm going to write it in my own words.
-
-1:23:11 - Jorge Lewis Oh, are you there?
-
-1:23:20 - Will Vincent Parrone Yep. I think your internet is a little bit I think you cut out by there. Hello, hello. Can you hear me? Yeah, yeah, yeah, yeah.
-
-1:23:27 - Unidentified Speaker Hello.
-
-1:23:28 - Will Vincent Parrone Hello.
-
-1:23:32 - Will Vincent Parrone Can you hear me?
-
-1:23:34 - Jorge Lewis Yep, I can hear you.
-
-1:23:36 - Jorge Lewis Is that me? Yes, okay, okay. And then you can use that as inspiration. Everyone has their own style, so don't take it as like a fact.
-
-1:23:46 - Will Vincent Parrone Okay, got it. Looking at it now.
-
-1:23:58 - Jorge Lewis Hmm.
-
-1:24:03 - Jorge Lewis Hold on, my Wi-Fi is literally like...
-
-1:24:07 - Will Vincent Parrone Yeah, I'll turn off screen sharing for now.
-
-1:24:14 - Jorge Lewis Haha, thanks.
-
-1:24:17 - Jorge Lewis Man, this is the worst it's been so far. I don't know, bro, I'm in Hong Kong, one of the places with the fastest internet. I don't have like, I can't even do a voice, a video call.
-
-1:24:28 - Will Vincent Parrone Jesus Christ, how much is the internet there?
-
-1:24:42 - Will Vincent Parrone Hello, hello, hello. Can you hear me, Jorge?
-
-1:24:47 - Jorge Lewis Oh, bro, it's expensive. All data, right?
-
-1:24:52 - Unidentified Speaker Yeah.
-
-1:24:53 - Will Vincent Parrone Oh, God. We have like 10 seconds delay.
-
-1:24:58 - Jorge Lewis It sounds like there's a big delay, though.
-
-1:25:09 - Will Vincent Parrone Yeah. Maybe we can end this call now. And I work on the user sign-up flow for now in Figma.
-
-1:25:23 - Jorge Lewis Is it better now?
-
-1:25:25 - Will Vincent Parrone Not sure.
-
-1:25:45 - Jorge Lewis Okay, have a nice day.
-
-1:25:46 - Unidentified Speaker Bye-bye.
-
-1:25:55 - Will Vincent Parrone you

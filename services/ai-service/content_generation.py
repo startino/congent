@@ -112,6 +112,7 @@ with pool.connection() as conn:
     graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
     
     res = graph.invoke(inputs, config)
+    
     checkpoint = checkpointer.get(config)
     
 

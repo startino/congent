@@ -1,4 +1,4 @@
-export const WebsiteName: string = "SaaS Starter"
-export const WebsiteBaseUrl: string = "https://saasstarter.work"
+export const WebsiteName: string = "Congent"
+export const WebsiteBaseUrl: string = "https://congent.starti.no"
 export const WebsiteDescription: string =
-  "Open source, fast, and free to host SaaS template. Built with SvelteKit, Supabase, Stripe, Tailwind, DaisyUI, and Postgres"
+  "An open-source platform that allows for the creation of social media content from unstructured text, like transcripts of conversations."
