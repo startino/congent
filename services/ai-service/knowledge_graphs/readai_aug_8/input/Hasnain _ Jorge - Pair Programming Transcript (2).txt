@@ -1,0 +1,672 @@
+Hasnain / Jorge - Pair Programming 
+Mon, Aug 5, 2024
+
+3:12 - Hasnain sayyed you Hello.
+
+3:36 - Hasnain sayyed Yes, let's start then.
+
+3:46 - Unidentified Speaker You are on mute, I think.
+
+3:50 - Unidentified Speaker Yes, I am.
+
+3:52 - Jorge Lewis Yeah, so let's start.
+
+3:56 - Jorge Lewis you're leading most of this and I'll kind of be chiming in here and there. Yeah, how does that sound? And I'll kind of, if I see you kind of going down the right path in terms of what we want to get done, I'll just let you know.
+
+4:10 - Unidentified Speaker Fine, fine.
+
+4:12 - Hasnain sayyed So first of all, to designing a graph, the most important thing is the working flow. We have to get it in our mind. We have to understand each agent's responsibilities. And we have to track the users, when the role of the users will come, and which agent will speak first, or which agent comes first. At that time. So while reading to the doc, it is mentioned like the flow for the this approach will be linearly for each agent. Like in every example, the flow has been same.
+
+4:52 - Hasnain sayyed While the questions are also replicating the same, like yeah, it will change as per the user, you know, the questions and answers to that particular set. But yeah, we have to do some few short learning for that. So I think the most important thing right now is to design the flow for the graph and the approach that we will be using to design this project.
+
+5:24 - Hasnain sayyed So yeah.
+
+5:29 - Jorge Lewis Can we go over the documents at a high level? The ones that I think are most important are the developer one, which I think is number 6.
+
+5:49 - Jorge Lewis is the most important for us. But I think for the agents, he puts so much content, like it's very comprehensive. So I think we'll be very like, we don't have to ask him a lot of questions. And I think like optimizing the performance of these agents will be really easy because he gives us so much content. Like I could select all and copy this and put in a prompt and the agents I think could do pretty well. Yeah, right.
+
+6:14 - Jorge Lewis I've been looking at, so you've gone through all of them, right? Yeah.
+
+6:21 - Jorge Lewis Okay, so I've gone through the simple...
+
+6:25 - Hasnain sayyed Mostly, I have gone through the important parts which, you know, developers need. Yeah, surely I have gone through everything, but the key points I've also, you know, noted down to my docs. So that seems to be important for developer perspective.
+
+6:42 - Jorge Lewis Yeah, for me, I haven't gone through the number five, which is the interaction between the agents. I skimmed over the number five, but... Haven't gone deep into it. So you're telling me that in that, that's, that's when you were referring to when you said the examples are pretty, like very similar, like the flow is very similar across all users. Yeah. Right.
+
+7:02 - Hasnain sayyed That's the most important, uh, you know, doc for designing the graph, uh, because, uh, we have to track the behavior for each agent. Uh, and you know, when the, their turn is coming.
+
+7:16 - Unidentified Speaker Yeah.
+
+7:16 - Jorge Lewis One, Question I have, like, I'm just looking at this here, analyst bot, and then the response to the analyst bot is not very specific to the analyst bot. Did you notice that, or? Yeah, yeah, right, right.
+
+7:32 - Hasnain sayyed I also thought that it will having some, you know, RAC functionalities, which, you know, giving some external context to the user's answers, which...
+
+7:44 - Jorge Lewis Yeah, that's what I was thinking as well.
+
+7:50 - Jorge Lewis Like for example, in landscape, for the example, he says, now let's look at challenges in the market. Every business solves a problem, but there are actually, there are usually obstacles that make it hard for customers. What difficulties do you face? What I was imagining is that the analyst bot would maybe do like a Google search saying, common obstacles for this industry. And then the analyst bot saying, from my research, these are the common obstacles. What do you think? So maybe, I don't know if he forgot that we can do that or... Because right now the analyst bot doesn't seem to be very useful, like it's not analyzing any resources. Let's hop into FigJam and kinda work there. I think the most important thing when going at this is staying without a... Not trying to go in a straight line, but rather like a, like a mind map, just any ideas that pop in. We can, yeah, right, right, right.
+
+8:48 - Hasnain sayyed Correct. That's what I'm also thinking.
+
+8:49 - Unidentified Speaker All right. Perfect.
+
+8:53 - Jorge Lewis Um, okay, cool. Let's sort of read AI. Let's, I'm going to share my screen, but we can just work. Yeah, yeah, sure, sure, sure.
+
+9:03 - Hasnain sayyed Uh, have you seen that dog that I have, uh, you know, created the UVP in the background? That's kind of a rough idea. I was trying. It's not proper.
+
+9:17 - Jorge Lewis Could you, what I want to try to do is having one fig gem file for everything. So could you copy and paste your stuff into the intelligent spec? Okay. Okay.
+
+9:26 - Hasnain sayyed Got it. Got it. Just doing that. Thanks. Thanks.
+
+9:57 - Hasnain sayyed Should I delete the UVP one because I have already pasted here or let it be we can do it afterwards.
+
+10:08 - Jorge Lewis Yeah, good idea. All right, so let me put a big line there. We're going to work on the left side of this for now. I'll delete it later.
+
+10:25 - Jorge Lewis Oh, by the way, one cool thing I found on LinkedIn this morning was this little card here. If you come to this card I'm highlighting, the purple one. Yeah. So this guy put a comment saying, I don't know what Dita is. Have you heard of this before? Dita Schema?
+
+10:38 - Jorge Lewis No.
+
+10:40 - Unidentified Speaker Neither am I.
+
+10:41 - Jorge Lewis But anyways, he was kind of saying, yeah, the basic RAG is outdated already. There's this new technique, which he described in this comment, that is supposed to be a lot better. And I want to try to research more and maybe see if we can implement it. And the idea is that it can do a lot better of a job kind of using resources for an LLM.
+
+11:05 - Jorge Lewis I'll keep that up there somewhere. It's just kind of not really relevant yet, but just a note I want to keep.
+
+11:12 - Hasnain sayyed I've also heard some memo zero, I think, a Python package for rag.
+
+11:22 - Jorge Lewis Memo?
+
+11:26 - Hasnain sayyed Memo zero, I think.
+
+11:32 - Hasnain sayyed M-E-M-N zero.
+
+11:36 - Hasnain sayyed I will find the video. Oh, okay.
+
+11:40 - Jorge Lewis Yeah, there's there's tons of like, like libraries right now that are being published, like all the different frameworks, like there's hippo rag, there's graph rag. Yeah, a lot of small projects. It's so hard to keep track of all of them.
+
+11:52 - Hasnain sayyed Yeah, but it's not been, I think, present in JavaScript, I think. Yeah, JavaScript.
+
+12:02 - Jorge Lewis I did a post on Read.AI. I don't know if you noticed, but I did a post on Read.AI, and I was trying to figure out, what do people think about Python versus TypeScript or JavaScript? And it was pretty good, I think. I was expecting most people to say, oh, no one's going to use TypeScript. But if you think about it, most people The most used language right now is JavaScript. That means if a web developer wanted to learn generative AI, it would be easier for him to do it in TypeScript. Yeah, got it. So that's TypeScript over time. And also because it's more integrated with web projects, hopefully, because of those two reasons, more people will put resources into JavaScript.
+
+12:45 - Hasnain sayyed Yeah. Now it's been, you know, uh, increasing the projects and the community is growing, uh, with the JavaScript as well.
+
+12:54 - Jorge Lewis Yeah.
+
+12:57 - Unidentified Speaker All right.
+
+12:58 - Jorge Lewis So, okay. So let's, let's see, how can we do this? How, what do you suggest?
+
+13:06 - Hasnain sayyed Uh, so, yeah, yeah. So have you, uh, read the, you know, uh, the working flow, like, uh, what questions and you know, the users actions will be performing. So I have gone through that. And I have noticed one thing like whenever in that doc, it is mentioned, like, if an agent will asking a question, then the second turn, of course, it will be the user will be answering the next question, right? So it will be like an agent, user, agent, user, and it will be going to the next step, agent, user, agent, user. So every time There is a two-phase. First is the agent. Second is the user. So should I explain my rough idea that basically it's a rough idea we can develop to a more extant level? Yeah. Yeah. So I have thought, as in the structure is showing that agent user, so the router, the user, first of all, the start will be doing with the facilitator, right? So I thought the facilitator, Question will be like, it is invoking first. First of all, the facilitator answer is invoking first, like the introduction part. So we can use that as, you know, call that on the onMount function to whenever the user loads the browser or the website for the first time, it will, you know, add that question directly to the chat interface and it will invoke that first. And then the user can interact while saying the next thing.
+
+14:50 - Jorge Lewis As you're going with this, let's make cards. So like say, on load, facilitate FA starts. And then you can just go, try to go real, hopefully you can go fast with this. So you can click, if you hover over the purple, click it. There's like blue dots, so you can go, You can make an error, and it should be really fast, I think. Yeah, yeah, yeah. Try going with that.
+
+15:15 - Hasnain sayyed So if I use this on load and FA, or Facilitate Agent, right? So the next step will be the user will be getting their business details.
+
+15:36 - Hasnain sayyed And that will be going to this graph. And how I thought is we will be storing the state of each step. There are basically four steps, that is tail, T, A, L, E. So in each tail, in each step, we have a different view shot. Yeah, we have a different view shot and prompt for each agent. So forget about this content creator. But for these three, we have different prompt and different view shot for this four step. So we can do like, we can create a object. And in that object, we can, if I write here, maybe.
+
+16:26 - Unidentified Speaker Okay.
+
+16:37 - Hasnain sayyed So in that object, we can write here the tail. And over here, it will be another object where it will have some few shots and prompts. So based on each user progresses the next step, it will be dynamically fetching each prompt for each agent. Example, if I have started with T that is tail. So, the my object will try to figure out which prompt should be using should be given to that particular agent or that agent should use that particular right. So, we can use like that.
+
+17:18 - Hasnain sayyed Whenever user progresses, you know, to the next step, then the user state will be updating from like tail to like the next one. Yeah. Is aspiration. Oh, my bad. E and A Okay.
+
+17:35 - Hasnain sayyed So here it will be having A
+
+17:38 - Hasnain sayyed And it will be having a prompt and examples and few short, whatever we have to put there. And that, uh, the agents, uh, with the three, you know, the three agents will have updated that prompt with a aspiration one. And, uh, that's how we can, you know, progress with the third, uh, as, and then the last one. So how the, that sounds to you. So.
+
+18:02 - Jorge Lewis One concern I would have with that is, so I actually did, I don't know if you saw my message in Discord, I did the, the document three was like a quick start. I did that for Startino. And what I realized was number one, it was, it was slow. So I think that's what he's trying to help with here. Um, but let me get it. So, uh, let me, let me share my screen. Yeah, yeah, sure. Uh, Alright, can you see my whole screen? Yeah, yeah, I can see you now.
+
+18:39 - Jorge Lewis Okay, so...
+
+18:39 - Jorge Lewis So it should be here...
+
+18:44 - Jorge Lewis No, I think it's here.
+
+18:46 - Jorge Lewis So here, I did the quick start guide for Startino, and I noticed... So I went through this little by little, so I did the T-A-L-E, and then when I was crafting the UVP, I went... Oh, actually, when I was doing the... The elevation, or for example, just any step, I needed to go back to one of the previous steps and actually modify this one, because I had a better understanding of what I was trying to do. Like for example, elevation, it was, what's it trying to do? You're trying to find, why is your company unique? Okay, what makes my company unique is that we're targeting this specific problem, so I added that specific problem.
+
+19:29 - Jorge Lewis It wasn't entirely just going from, T-A-L-E. It was kind of a T-A-L, maybe A again, and then L, and then E.
+
+19:41 - Hasnain sayyed Okay.
+
+19:42 - Jorge Lewis So, with your approach, does it allow for that easily?
+
+19:50 - Hasnain sayyed We have to, you know, write the prompts if a user have to go like, yeah, I've thought about the update updation as well. So what about a user, you know, created the UBP and in the docs it's mentioned like if the business progresses and the user needs to update their Then there also needs to be an option to update the thing. So we have to write certain prompts like update or change my business idea or change my this to this. So we have to create an agent which really thinks about the user is talking about updation or change.
+
+20:36 - Hasnain sayyed it needs to point to a certain, like this step I am lagging about, because how can we point to a certain four step, like the T-A-L-E, what user is talking about, whether it's T or A or L, what is it? So here we have to write the examples for each and every step.
+
+21:03 - Jorge Lewis All right, so let's do this. Let's start from the very top and just go, since we're both technical people, I think we might understand it better with the graph. So let's make a graph. Like the actual architecture. So we have the, most likely, let's just start with a supervisor. Let's start with something. 100% change, but let's get something. Should I use circles or what? Let's just use rectangles. Supervisor.
+
+21:35 - Jorge Lewis So the supervisor that'll lead to, let's say you have actually let's just take your graph down here. It's good. Yeah.
+
+21:44 - Jorge Lewis So I'll use this.
+
+21:45 - Jorge Lewis So we have a supervisor. So we have the user actually.
+
+21:50 - Hasnain sayyed You can make the router as supervisor if you want.
+
+21:56 - Jorge Lewis Supervisor.
+
+22:02 - Jorge Lewis And then user, so. Okay, so the flow, so let's keep this, let's keep this over here. Let's worry, so this is the cognitive architecture. And then let's do user.
+
+22:27 - Jorge Lewis User flow. So the user flow, we know it. He put examples of it on the document. Let's try to put it on onto into graph like on fig gems. Yeah. Yeah. Okay. So we start with, what do we, what do we usually start with? We start with an intro, right? Kind of Yeah. Right.
+
+22:43 - Jorge Lewis Um, who gives a, I think it's a facility. Actually, can we, yeah, let's, is there a way we can label this box? Or we can color them, we can color code. Okay, so up here we have the colors actually already. So facilitator agent is yellow. Let me, you see the colors right there?
+
+23:07 - Hasnain sayyed Yeah, yeah, I can see.
+
+23:09 - Jorge Lewis So the facilitator agent is gonna give the intro and then we're gonna go into, what are we going to?
+
+23:25 - Hasnain sayyed We will be getting the user details, the business details from the user, the next.
+
+23:30 - Jorge Lewis So, so let's go gather business details.
+
+23:37 - Hasnain sayyed Yeah, again, there will be the facilitator board, as I can see in the flow.
+
+23:44 - Jorge Lewis So actually, let's do let's do.
+
+23:52 - Jorge Lewis Like, I think they call it something else. So, what? Can you describe?
+
+24:00 - Jorge Lewis Introduce a utility agent.
+
+24:06 - Jorge Lewis Introduce the framework.
+
+24:13 - Jorge Lewis Introduce the framework, and then we gather details Yeah, like, what do we gather name and basic business model like we want for business to actually.
+
+24:31 - Hasnain sayyed So in the technical terms here, that will be a tool which you know, captures go for edit.
+
+24:39 - Jorge Lewis We can worry about making this non-technical and technical.
+
+24:42 - Hasnain sayyed Yeah, yeah. OK. Fine.
+
+24:45 - Jorge Lewis So just maybe up here, we can say, tool to add to a document to a, let's say, user context. Got it. Or user profile. Profile, yeah. Document, something like that.
+
+25:08 - Jorge Lewis Okay, nice. And then.
+
+25:11 - Hasnain sayyed And then the facilitator will be asking whether, you know, the facilitator will be asking to user, will you want to begin the TAIL framework, like just.
+
+25:26 - Jorge Lewis So confirm user is ready, like this, right? Yeah, right, right.
+
+25:32 - Unidentified Speaker Okay, cool.
+
+25:33 - Jorge Lewis And so, so far, So I think we're, from this step alone, I think I can go from supervise or facilitator. Can I add over here?
+
+25:51 - Hasnain sayyed I feel like that needs to be a two parts, while this needs to be a first part of the graph and this needs to be a second part, where both the graph are different. For example, I'm pointing like, The tail framework alone needs to be another graph and this needs to be another one. What do you think?
+
+26:15 - Hasnain sayyed I think that's a good idea.
+
+26:17 - Hasnain sayyed We can combine because the tail is a very complex thing, right? Because over here, uh, you know, the prompts and cue shorts and whatever the rag, uh, will be, uh, explicitly in the second one. The first only has a, you know, collection of the user or the business details. So I feel, I agree.
+
+26:40 - Jorge Lewis I know that's a good point. So let's do, uh, so these are cognitive, we can use sections. I like sections. They organize things. So cognitive architectures for us. And then we can have a section for this is the tail.
+
+27:02 - Unidentified Speaker Yeah.
+
+27:03 - Jorge Lewis And then we'll have a another one for the onboarding graph. Yeah. Got it.
+
+27:11 - Unidentified Speaker Got it. Okay.
+
+27:14 - Hasnain sayyed So So over here, I feel two agents will be fine. There's no need for the content creator brand.
+
+27:34 - Jorge Lewis Yeah, I don't think so. I think just a facilitator with access to tools and it should be good.
+
+27:45 - Jorge Lewis So this graph, so let's make this the same format that we have. You know, when you use a, when you print a graph in, I think like on the documentation, how they print the graphs.
+
+27:59 - Jorge Lewis So we have, so let's use, let's use circles for the agents and then triangles for tools. I think you use a triangle for the tool, right? Somewhere. Yeah, right, right. Yeah, OK, cool. So we have the supervisor and the facilitator agent. We don't need a supervisor, but it's just one agent, right? It's just kind of a one-on-one? Right, right, right.
+
+28:23 - Jorge Lewis One-on-one. OK. And then can I add two?
+
+28:27 - Jorge Lewis I want to add. So this is kind of a two-way graph. This is very simple here.
+
+28:39 - Jorge Lewis We'll have a triangle for update user profile document.
+
+28:55 - Jorge Lewis I keep creating a new one there.
+
+29:02 - Hasnain sayyed Okay.
+
+29:04 - Unidentified Speaker So this is kind of it.
+
+29:10 - Jorge Lewis We can connect this to this.
+
+29:20 - Jorge Lewis So that's the introduction. I'm just going to change it to the name using the Google Doc. So we have the welcome introduction.
+
+29:43 - Jorge Lewis And then, so after we have that, we have the actual tail UVP creation. This is going to be the complicated one, I think.
+
+30:09 - Hasnain sayyed So before, like the previous, as I said, there will be four steps in tail, like not in the implementation, like for the tail, there will be a different prompt, like the object structure that I have shown over here. How does that sound? Like, is it a good idea or should we need to update? Let's see. So we mean like framework letter.
+
+30:40 - Jorge Lewis Or just single letter.
+
+30:48 - Jorge Lewis I'm trying to figure out how to call this, but just a single letter from tail. So what is the process? So by suggesting the approach that you mentioned, it's assuming that they're all kind of the, the, the flow is, is, are, are the same. We can use the same flow. Oh, okay.
+
+31:15 - Jorge Lewis Is that true?
+
+31:15 - Jorge Lewis Like it's relatively the same. So we can use the same graph. Okay.
+
+31:23 - Hasnain sayyed So what is, what is the important about this approach is the, you know, the graph will identify like, yeah, the user is in this state or this step, like the T, A, So there won't be any confusion related to miscommunication between two steps. For example, A and A won't be combining to create a new solution. So in this step, we are storing the state for each four different sections. And based on user upgrades to Next, it will try to use that particular one.
+
+32:08 - Jorge Lewis One problem with that is, like I mentioned earlier, when I was making my... You can see my screen, right? Yeah, I can see. For example, if I want to go from landscape back to aspiration. For example, landscape, what does it mean again?
+
+32:38 - Hasnain sayyed Obstacles or, you know, target.
+
+32:42 - Jorge Lewis So, so obstacles, um, and then aspiration, what are you, what are they?
+
+32:48 - Hasnain sayyed Yeah. So, okay.
+
+32:50 - Jorge Lewis So these two are very linked together. For example, these are the obstacles that they face this, uh, let's say, okay.
+
+33:00 - Unidentified Speaker Yeah.
+
+33:01 - Jorge Lewis So, so here actually put it down. So this is good. I realized that the obstacles. Should be targeting the aspirations. So for Startino, the aspiration of our customers is to retire early. That's kind of what I got to this. Their aspiration isn't to start a software product. That might be how they retire earlier, but they want to retire earlier. So I realized them not knowing how to outsource development is not necessarily as important as, for example, an obstacle in the way of them retiring early is that they don't want to work five more hours a day at their nine-to-five job. That's a better obstacle. Through this, I realized that these two are so linked together, it might be helpful not to have the system go from L to A or A to L, but rather A plus L at the same time.
+
+34:05 - Jorge Lewis So you see what I mean? Or can you explain it more?
+
+34:10 - Hasnain sayyed One thing also, we also have to check the user answer as well. So for example, the agent has asked me a question. So what if I type in some irrelevant answer? So it won't need to update. So that also, like in the flow chart, as you can see over here. I have created the flow. This is not a graph, first of all. This is just a flow. So the user will enter up the message. So first, it will check the answer of the user, whether it's correct, whether it fits for that. The question, like the agent has asked me, what's your business is about, for example. And if I type, I am playing cricket, so it's not an answer to that question. So that also we need to figure out.
+
+35:00 - Jorge Lewis So, let's dig into why are you suggesting this design. I understand why, but let's get it on paper. So, approach one. So, we separate.
+
+35:31 - Jorge Lewis uh, each letter into its own face. Correct. Yeah, let's, let's do, let's do, let me do something here. Let's see. I don't know how to. Okay.
+
+35:53 - Jorge Lewis I'm trying to merge these two things together.
+
+36:10 - Jorge Lewis Okay, I guess I'm not going to be able to.
+
+36:14 - Jorge Lewis So we have the reasons to make this.
+
+36:24 - Jorge Lewis And then reasons not to make this.
+
+36:36 - Jorge Lewis So this is going to be pros and then.
+
+36:44 - Hasnain sayyed After this, you know, we can just dry run our approach with a, you know, simple user question answer, like we can dry run our approach as well. So it will get the most of the edge cases solved.
+
+36:59 - Unidentified Speaker Yeah.
+
+37:00 - Jorge Lewis So we separate each letter into its own phase. One reason not to make this is because it makes each letter more independent than each other. The framework should allow more flexibility across letters. It will be in the prose, right?
+
+37:31 - Unidentified Speaker Sorry?
+
+37:32 - Hasnain sayyed It will be in the pros.
+
+37:34 - Hasnain sayyed This content will be in the pros.
+
+37:40 - Jorge Lewis So actually this, so making them more independent is not a pro or con. That's actually what it does. Oh, OK. Yeah.
+
+37:48 - Unidentified Speaker So that's a good point.
+
+37:49 - Jorge Lewis Let me see if I can do. No.
+
+37:52 - Jorge Lewis So reasons to make this is when they're more independent, the agents can focus more on each letter.
+
+38:08 - Jorge Lewis Hopefully providing better output. Or each step, we can say. Oh yeah, each step to write better output.
+
+38:19 - Jorge Lewis But then if they're, when they're more independent, the agents can't, or have a harder time Referencing and moving between. What else? So when they're more independent, there's actually This list of reasons why we're making it separate is actually a very common list. It's the same reason why you want to use a specialized agent instead of a general agent.
+
+39:14 - Jorge Lewis It's kind of similar to the approach of specialized versus non-specialized. Let me see if I can find something on it. I don't need this. I got all of that.
+
+39:49 - Jorge Lewis So, so far, what do you think? How are you leaning? I have a direction I'm leaning, but I want to hear your idea.
+
+40:01 - Unidentified Speaker I think...
+
+40:07 - Hasnain sayyed What if we add a... Or the state management agent, but I want to try run specifically, you know, to track the user like first.
+
+40:26 - Hasnain sayyed Do you have any, another idea or any updation for this agent, like for this graph? Sorry.
+
+40:34 - Jorge Lewis So for this graph, what I think is, I think it's better we use, we have all of the letters or the steps in one graph and have the facilitator in charge of determining, okay, we're in the T phase or we're in the L phase. And that way it's not explicit in the graph. It's not like, okay, you can only stay in this T phase, but it's more right now, okay, right now we're looking at the T phase, but if the user says, Actually, I think my company values this more and then the facilitator bot will understand, okay, we're actually in the A and L phase. So it's not only just A or L, it can be both, right? And I don't think we're going to suffer too much quality by having them all together since there's different ways we can make them specialized. So for example, the facilitator bot has to understand what each step is and what they're representing. But he doesn't need to understand the best way to answer responses. We can use few shot for that, like you said, for each specific step. We can have it so that the graph is still the same, but we give them enough tools and context to tackle each step properly.
+
+41:51 - Hasnain sayyed You mean like pointing to a single step, we can combine steps like like that?
+
+42:02 - Jorge Lewis yeah because like for example so let's say I'm doing step a and I have something I like and then I do l and then I'm like okay how about actually I don't like what I wrote for a so I'm going to write something new and you kind of want to you're in the middle of both uh both steps you want to and I don't think it's the bot shouldn't reply okay well let's go back to a and change that and go back to l I think it's better it's more natural the the the bot just understands, okay, let's change your aspiration a bit and then we can move back to L. Do you see what I'm trying to say? Got it, got it.
+
+42:45 - Hasnain sayyed So yeah, yeah, I got like a point in my mind, like we have to add an agent over here, like it's just a approach we have to, you know, just a common idea that came. The agent will have a previous like the previous answers of the user okay and whatever the user is trying to answer the next one it will try to relate that yes it will try to find the previous answer would be a better like it can be better if user you know try to write it so it will suggest like in the next question or in the next step, like you have entered this answer for this step, for example, for the T, you have answered this question, which can be, you know, better if you add like, it will add a suggestion, it will give suggestions after the user will complete that step based on the, you know, user history or the user chat, like basic, what do you think?
+
+43:52 - Jorge Lewis Yeah, I think that's important. One thing that we have to make sure is that the output of each step is not like stone. They're just kind of to help the end goal, which is the UVP.
+
+44:04 - Hasnain sayyed Yeah, got it, got it. Yeah, yeah.
+
+44:07 - Jorge Lewis For example, we can even finish all of the steps and we're going to craft the UVP, and then we realize, oh, actually, when you put them together, this doesn't lead to this very well. Let's go back and change it. I don't think they want to go back and change it. They just want to change it. So that's another reason why I don't want to change it to each letter being its own phase.
+
+44:29 - Jorge Lewis What I'm questioning is, we shouldn't overcomplicate this. Maybe, because for example, like I said from the start, I think if we just copy and paste the whole document for the quick start guide, I think ChatGPT can complete the workshop decently.
+
+44:49 - Hasnain sayyed I tried that as well, like creating the graph or creating the design?
+
+44:53 - Unidentified Speaker Sorry?
+
+44:56 - Hasnain sayyed Like creating, like copy pasting the, into the chart GPT, you mean like creating the graph or what?
+
+45:08 - Jorge Lewis Because, I mean creating the, creating the, or running the workshop, JP told us that He already had a little prototype of a chatbot running this workshop with a user, and he said it was already decent. But now he's just trying to make it more scalable and more with potential multi-agents. So our focus should be the multi-agents and not rather worrying too much about the actual items itself. Because I can copy and paste the entire tail framework to a facilitator agent, and I think he'll do a good job at finishing it. Hmm. But what we want to try to do is make sure that it does number one, an even better job and allows for multiple agents so that we can improve it over time. Like, um, facilitator agent alone can't provide research or it's not going to be able to do it properly. Um, the same for like the other bots. So.
+
+46:06 - Hasnain sayyed Or else we can have it here. We can just read.
+
+46:14 - Hasnain sayyed Oops. So over here, it will be a user.
+
+46:20 - Hasnain sayyed And over here, it will be an updater. And where is the line? It will be going this. It will be going this.
+
+46:36 - Hasnain sayyed So, for example, if first let me try run the thing for the tail just a second. So for the T, the facilitator will keep the question. Let's start by thinking. It will be giving a question for the first step. So the chat history or the object that is storing the user answers will be null, for example, the first step. So the user will enter. OK.
+
+47:13 - Hasnain sayyed So that's later. In the first step, actually, we have to add the first step as well. Where is the first row? In the onboarding graph itself, we have to give the first quotient itself, for example.
+
+47:32 - Hasnain sayyed Let me copy-paste this for you.
+
+47:44 - Hasnain sayyed I don't know, it will be coming in the...
+
+47:50 - Unidentified Speaker I think I got what you mean.
+
+47:56 - Jorge Lewis On the onboarding graph, I added a node for the UV creation. The facilitator agent has to be able to say, okay, we're going to go to the UV creation phase. Yeah, yeah, correct, correct, correct.
+
+48:08 - Hasnain sayyed So my concern is the agent will be starting the first step while asking the question. So we have to achieve some solution without the user interaction, like without the API hit or HTTP call in technical terms. The agent needs to give the first step or the first question. So in the onboarding graph, it will be the first question, if I'm not wrong.
+
+48:38 - Jorge Lewis There's a couple of different solutions I can think of For example, when the facilitator agent can call, this can be a tool to start the... So for example, instead of just having that as a different graph, it's calling a tool that will... We can call it Start UVP Creation. And what this does, it'll trigger an event so that when this goes back to a... Let me think. So in the middle of here, so it's not actually... We can run...
+
+49:25 - Jorge Lewis So in the Adapt, I'm actually running a couple like hard-coded if checks. I'm running like if the user is still onboarding. The switch case, right? Yeah, yeah. So we can just do like a switch case for which graph to use. And then so we might be going into the facilitator agent or we might go to, how do I, we go to the
+
+50:00 - Unidentified Speaker Correct.
+
+50:01 - Hasnain sayyed This is the base. Yeah. This is what I am also thinking.
+
+50:05 - Unidentified Speaker Yes.
+
+50:07 - Jorge Lewis Okay, cool. So we, okay, nice.
+
+50:12 - Jorge Lewis So this is, this is the, these three here is actually the, the introduction graph. Yeah. Or onboarding.
+
+50:21 - Unidentified Speaker Yeah.
+
+50:24 - Jorge Lewis And now we've kind of made this smaller. And this whole thing is kind of becoming the, just the final.
+
+50:33 - Jorge Lewis So we can have UV creation. Um, let's call it creation. Yes.
+
+50:42 - Unidentified Speaker Creation.
+
+50:45 - Jorge Lewis Okay. So, all right.
+
+50:53 - Unidentified Speaker Hmm.
+
+51:00 - Jorge Lewis Okay, so let's... Okay, so onboarding is pretty simple. Let's think on the UV creation. So we have the different phases of tail. I think the supervisor So actually, yeah, this should say router. Well, let me think.
+
+51:38 - Hasnain sayyed What do you think about the other code over here?
+
+51:42 - Jorge Lewis Oh yeah, we kind of stopped explaining that. Can you finish the explanation?
+
+51:48 - Unidentified Speaker Oh yeah, yeah.
+
+51:49 - Hasnain sayyed So for example, The updater will is basically a rag or whatever you, it will have the chat history or the answers for the previous step, like the step means the T-A-L-E. And whenever user answers the second question, it will try to figure out it will compare basically the first with the second and it will try to get the first if it can be a better because the agent's memory or the database what you will you say it will be updating over the steps for the T it will having the answers or the memory for the target customers that the business is pointing to, right. So in each step, we are achieving certain things for the businesses want or for creating the UVP. So, in the next, the aspiration is, for example, in the next step, the aspiration what a customer wants. So, for example, if I put my first the target as the target customer will be children's and my business is actually a shaving, shaving blade, or whatever you say, a Gillette, example, and I put the first question answer as wrong, like my target customer is children. And in the second about in the aspiration thing, if I try to put like my the aspiration or the customer wants is basically to remove their hair for their beard for example and it will try to compare in the updater state like oh yes in the target you have mentioned like children's and now you are talking about a cream or a blade that removes the beard. So it's uncommon or it's wrong. So it will update the state for to to the target again, and it will try to tell like user to the user like in the previous step, you have entered your target customer has children which is wrong. And now you're talking about beard. Yeah. Yes. Yes.
+
+54:00 - Jorge Lewis So what you mentioned is a good like it's it's a real problem. But I think we have to we don't want to overcomplicate this solution, I think the facilitator agent can worry about that. If we can present the information to the facilitator properly, so for example, we can have in the states, we can store variables. So in there, we can store maybe an object like tail. We store a tail object. And this tail object has each step.
+
+54:34 - Jorge Lewis And what I think we can do is instead of maybe giving just a text. For example, the end result of each step is text. Why is the box so big?
+
+55:08 - Jorge Lewis So we have, we have the subjects here.
+
+55:15 - Jorge Lewis Then instead of doing, so tale to our audience is children or teens with fears. Actually, let's use the examples that he sent. I know, I saw he put a lot of examples. Yeah, yeah, yeah. You can stick with those. You can use those as like, as like evaluations when we actually make it as well.
+
+55:41 - Jorge Lewis So let's do web craft solutions.
+
+55:46 - Jorge Lewis Do you have it ready?
+
+55:53 - Jorge Lewis It's in the root one, right? Yeah, I have it. Yeah, so OK.
+
+56:07 - Jorge Lewis So, okay, this is actually good, important. So, the target isn't, it doesn't have to be, it shouldn't be a state, it shouldn't be a statement. So, for example, you can see where I'm selecting on this target for web, what is it called, web craft or, yeah, web craft.
+
+56:31 - Jorge Lewis So, you see where I'm at?
+
+56:34 - Hasnain sayyed Yeah, I can see.
+
+56:36 - Jorge Lewis So user says, our ideal customer is typically a small business owner, 30-40s. They're running a growing business like a restaurant. They're tech savvy. And he describes this statement. So initially, or a misconception we might have is that we want to store this as the property for the target. But what we should be storing, I believe, is not that, but the conversation. Because look, later down the road, the facilitator bot JP presents, JP shows that we don't want just this statement. We want more. We don't want to know who our target audience is. We want to understand them. We want to know, okay, so what are their hobbies? What do they do in their free time? How many children should they have? Like kind of really understanding your audience is kind of what I'm guessing he's going into here.
+
+57:24 - Jorge Lewis The user did share kind of their target audience, but the facilitator bot went further and said, okay, let's paint a picture of what their day looks like, So we need to be storing the response to this new question as well. And we need to figure out a format that we want to do it so that later down the road when the facilitator bot is helping the user craft to the final UVP, we want the facilitator bot to be able to take into account this as well, all this context, not just the ideal customer is this. So one thing to keep in mind as well is this framework, the message history won't be long. It'll be a session of about an hour, maybe two hours at most, I think. So with an hour, I don't think the message history can get very long. And if it does, we can worry about that later. I don't think that's something we should be worrying about now.
+
+58:23 - Jorge Lewis So we have to figure out a way that we can store just kind of this conversation here. Maybe even, we don't need to overcomplicate it, we just test it out and have the facilitator bot, if he can remember, so let's say that T is the first step, so that'll be the furthest in the chat history.
+
+58:45 - Jorge Lewis have the bot do like this conversation here, and he says, our typical client starts checking their emails, starts the day with checking emails. If I, at the very end of the conversation, when I'm about to prepare, make the UDP with the chatbot, if I say, state what my client does in the morning, if the chatbot is able to do that accurately, then we should be still to go. But also there's a very big difference with the language model being able to remember something and also being able to use it when it's generating new text. For example, if this fact that their client checks their emails in the morning, if you ask it to remember it, it'll remember it. But when it's generating new text, it's not going to be used as strong in the new text. Does that make sense?
+
+59:39 - Jorge Lewis So that's something to keep in mind as well.
+
+59:46 - Jorge Lewis So I recommend we stay as simple as possible because JP already told us and I think I can vouch that this whole framework can be done with one single agent. So we already know we don't need to complicate it. So let's start from there and if we need to, if we notice, Okay, the facilitator bar is losing quality. It's forgetting things. Then we can worry about, okay, how do we reduce its context so that it's remembering the more important things? Like, we don't need to store tool usage, tool messages, and stuff like that. So how should we, so then, maybe, so maybe we don't even need, so I'll, because what I was thinking is we store the object. For T, we store the list of messages relating to discussing the T. But then again, I don't think we want to make it that hard-coded. One message might be related to both the T and the A Maybe it might be related to three of them. I think that's also over-complicating it. Let's try to just do... Let's keep this as simple as possible.
+
+1:01:01 - Jorge Lewis So this graph here, so let's remove this. Let's go to the user or the router. Also, now that with JP's new examples, I'm reconsidering the whole design of this, because what this is useful for is, well, actually, wait, let me think.
+
+1:01:26 - Jorge Lewis No, it should be fine, actually. We need to make sure, oh, we're missing the, Oh, yeah, we're missing the actual subvisor.
+
+1:01:52 - Jorge Lewis Right?
+
+1:01:58 - Hasnain sayyed One thing here I want to point is, in the context of multi-agent like the router is passing and running each agent simultaneously and then it will be giving the response to SubVisor. Over in this case, each and every agent has a different functionality or different and responsibilities and it will be asking questions independently or you can say to the user in each step. So, if we try to you know combine each agent response in SubVisor.
+
+1:02:33 - Hasnain sayyed it will make the supervisor as complicated because in each step we have to point the supervisor you know this agent needs to invoke first or this agent's response or these questions needs to pick so because it's a linear approach it's a linear UBP framework, if you look at the question answer. So that's why I have not added supervisor. But we can think about how we can fit it into.
+
+1:03:12 - Jorge Lewis So from the example, yeah, thanks. So from JP, I think he's, I don't know if he's forgotten or if he's like, because initially, A big benefit of having multi-agents is that it feels like there's multiple people in that conversation. So if I say, I want to target...
+
+1:03:38 - Jorge Lewis If the system knows, okay, I'm making a Gillette, like a company like Gillette.
+
+1:03:44 - Jorge Lewis If I say, let's say something weird, like let's say I'm targeting people from Japan. Or just follow with me. If we're talking to people from Japan, the analyst agent will take this message and say, okay, let's research relating to this. And then it finds out, oh, Japan people can't grow beards. And so it says that in the message that the subvisor relays, but number one, it's going to be hard to, like the facilitator agents, okay, that was a bad example.
+
+1:04:17 - Hasnain sayyed Like the LLMs know that it'll, You don't understand that naturally, but let's do Because in the JP's doc we have seen the agents will only you know, try to ask questions to the user because The JP has you know listed every agent to ask questions to the user in based on different style or responsibility so If we make this graph as the JP's workflow, the agent will only ask the question based on each step or each tail framework, like aspiration, it will be pointing to that question only, related to that question. It won't have any extra context or any extra tools based on user question to research about.
+
+1:05:18 - Hasnain sayyed You got what I'm pointing?
+
+1:05:23 - Jorge Lewis Yeah.
+
+1:05:29 - Jorge Lewis It's weird, because all of the agents in his example have the same job. They're all asking questions. Right, right. Initially, facilitator bot was kind of to manage the conversation, to lead. Which he does here, the facilitator bot always will know. So in A, if you're on the same example in the web craft solutions example, A is started by facilitator bot, which is normal.
+
+1:06:02 - Jorge Lewis That's what I expect.
+
+1:06:04 - Jorge Lewis Then in L, analyst bot starts it. Makes me think, what's the facilitator bot's purpose? I think what JP did was he simulated the conversation from one person. I think maybe we proposed to JP saying, because it doesn't look like we need multiple agents here.
+
+1:06:27 - Unidentified Speaker Right.
+
+1:06:31 - Hasnain sayyed It's just changing the name of the bot and doing the same thing, like asking questions.
+
+1:06:37 - Unidentified Speaker Yeah, yeah.
+
+1:06:39 - Jorge Lewis So what we can do with that actually is do like a...
+
+1:06:48 - Jorge Lewis is have all these agents, so this facilitator agent is actually going to be useless and we have these three agents and all of these are kind of have the same purpose as the facilitator agent but they have their own approaches or their own specialties and we have a supervisor just as standard that determines okay this this question can be asked by this agents, but they're all kind of the same. Like, uh, I mean, but also by the way, we might not want to spend too much time thinking this out because the fastest approach might be trying something, sending it to JP and he's like, Oh, that's great. And it turns out it was just the easiest solution. Cause if we make something and he's like, actually I want this behavior more than it'll be. We would have wasted the time planning rather than just making something. I want our AI developers to be skilled enough in that one day, maybe even half a day, we can make this entire graph and then publish it and show it to JP. I think that's very doable. For example, if we're able to reuse the rag tools, the the few-shot prompting, all the things we learn, not only reusing code, but reusing our experience, then I think we could make these graphs super fast. So what we should prioritize is more prototyping and making prototypes and sending that to JP and showing him the results of that, and then iterating from there. And that's the whole Agile Have you gone into Agile? Do you know what it is and what it stands for?
+
+1:08:29 - Hasnain sayyed Yeah, Agile is a software engineering framework which basically means developing and testing and deploying, if I'm not wrong.
+
+1:08:42 - Jorge Lewis Can you see my screen on Google Maze? Yes.
+
+1:08:49 - Jorge Lewis So there's the Agile Manifesto. So Agile was created because software development was terrible.
+
+1:09:06 - Jorge Lewis So this is the Agile Manifesto. It was created by a bunch of dudes that were like, alright guys, we need to figure out something to make development better. And this is what you should be reading for when you're trying to figure out how to come, how should you be developing. Of course, you can, this has been, a lot of people like this because it's very accurate. So you can make your own assumptions, of course, over time, but this is what I use. I agree with every point here, I think, or some more than others. But one of them is, I don't know if this is it, there's a better, Let me just use one of these ones. Responding to change. This is kind of number one. Responding to change is referring to instead of planning all the different approaches, let's make one and respond to how we get feedback on it. So getting feedback very, very fast. And that's the idea of sprint. Sprints are too weak. Phases for development, because we're assuming that after the two weeks, something will change in terms of what we're trying to do. Or oftentimes that's the case. That's the idea of sprints. And for us, we can make it one day. One day we make this and we're like, okay, that works. Otherwise, actually, we want more effect of this, so we make a new design. So that's kind of the Agile manifesto. Take a look at it. I sent an article.
+
+1:10:39 - Jorge Lewis for the Agile manifesto a year ago.
+
+1:10:42 - Unidentified Speaker Okay.
+
+1:10:46 - Jorge Lewis Read that after, in your own time.
+
+1:10:52 - Jorge Lewis Okay, so yeah, let's not worry too much about the planning anymore, but it was important that we understood what JP was trying to show.
+
+1:11:02 - Jorge Lewis I'll raise this concern to JP now. Our time's up.
+
+1:11:08 - Jorge Lewis Sign up starts soon. But bring this concern to JP in the chat and say, Jorge and I went over the document. We were trying to design how we can make the AI stuff and realized that none of the agents have a specific use within the system. They don't, or special, behavior like it's not very unique maybe but then he's gonna he might say that's true but I would like the possibility for later down the road that the agents do that so there's um because this is going to be one of many workshops so we have to keep that in mind like I don't know if you if it was mentioned in one of the videos that you watched but he this is going to be
+
+1:11:52 - Hasnain sayyed up to like 300 frameworks so or 300 different frameworks so let's keep that in mind We can keep the question asking for a single agent as well, what you what you have pointed before, that's also a good idea. We can just change the name of the you know, question asking bot or whatever agent and that work will be doing with a single one. And the second will be an analyzer, which simultaneously analyze, you know, the response what user has put or what the user answer has come over here and it will try to analyze is there any wrong thing or is there any irrelevant thing that user has you know put or entered and it will and if it's present if there is a major irrelevant thing like I have pointed before then it will ask user that this is not the case based on the history that you have responded to us. You should, it will be giving some suggestions.
+
+1:13:05 - Unidentified Speaker Yeah.
+
+1:13:05 - Jorge Lewis Like one thing that I was, I was imagining that this framework was going to do is like the, the, in the onboarding fit and introduction, the user says, I'm doing a software development company. That's what this web craft is. So I've got the user says, um, I'm Alex, founder of Webcraft Solutions. We're a web development company. Then the facilitator bot will keep this in mind, or the system will keep this in mind, and so that when the, for example, for landscape, this one is important to the market, how the market is positioned. Let's talk about other businesses similar to yours. Who else is offering web development services to small and medium-sized businesses? This, instead, could be the analyst list saying these are the companies. Yeah, I'll just tell you. These are the companies that are similar to yours. From their websites, I see that their mission statement or their kind of like their headline. So if I go to Startino, It searches online software development companies and if it gives us a location, we can use that as well.
+
+1:14:21 - Jorge Lewis No, but we can search web development company specializing in creating this. And we get a result and it starts to build up. We scrape it, we say, okay, this company focuses on being both a software development firm and a tech co-founder. They provide The passion, okay, so it understands this and it presents it to the user here.
+
+1:14:44 - Jorge Lewis That's what I was thinking the analyst bot would do, but maybe he's trying to simplify it and say, we don't need that right now. Let's not worry about that now. Let's have the user do their own research. Maybe it's beneficial as well for the user to do their own research, to understand it better. Let's ask this misconception with JP, make sure it's clear, and then we can go from there. How about you send a message now, and we can see if we can get a response. You should be awake in about an hour, so I think you'll get an answer then. In the meantime, what I would suggest is... Let's see.
+
+1:15:27 - Jorge Lewis What else? Like, if I told you make the graph, or make the AI, component of IntelliAgent, what would you start? What would you start doing?
+
+1:15:38 - Hasnain sayyed The coding part?
+
+1:15:41 - Jorge Lewis Yeah, like if I said, OK, go make something, what would you start right now?
+
+1:15:50 - Hasnain sayyed I think the first of all, the main idea or the main work is in the prompting. Right, because each step or each phases has different type of portion, few short and whatever you say. So that's the main part of the programming and main part of the code, whatever you say, the logic.
+
+1:16:13 - Jorge Lewis By the way, remember that the prompts are being taken from the front end. So the The prompts should be left to the front end, meaning JP should be modifying them. Is that clear? We don't want our time to be spent improving the quality of the bot's prompts. That's why we have an admin interface for the users. We made that entire interface so that they can spend 10 hours a day improving the prompts. That's something we have to keep in mind. We what we can do is since JP for adapts we I know you guys spent a lot of time improving the prompts, which is not What we what we what we should be doing. That's his job but with JP we can do him the favor and Use all this content that he gave us to write some prompts and start him off as a like he can even do this himself control a or what is it now like if he could take the Yeah, this document, 04, and paste it into our input field for the admin page for the prompts, and he can just keep going from there and see how well it works.
+
+1:17:26 - Hasnain sayyed So, yeah, we have to keep that in mind.
+
+1:17:32 - Jorge Lewis So far, there's two options we can go down to kind of summarize. Number one, there's a concern that we don't need multiple agents.
+
+1:17:40 - Jorge Lewis If we don't need multiple agents, does he want them to feel like different people? Can it be one person?
+
+1:17:50 - Jorge Lewis If that's the case, we have this graph here, the UV creation graph. Let me go back.
+
+1:18:08 - Jorge Lewis So, the initial graph design with the sub-visor was actually the exact same as this, but I think even better. Are you familiar with the mixture of agents design or experts?
+
+1:18:23 - Hasnain sayyed Like the multi-agent one?
+
+1:18:27 - Jorge Lewis So, just the word, when I say mixture of agents or mixture of experts, does it ring a bell?
+
+1:18:39 - Hasnain sayyed Like there will be a conversation between agent like the flow can be in any form like that.
+
+1:18:47 - Jorge Lewis I asked a question. Did you get that it was a question or?
+
+1:18:53 - Jorge Lewis No, can you repeat?
+
+1:18:56 - Jorge Lewis I asked the question and then you didn't answer. Did you understand it was a question or no?
+
+1:19:02 - Hasnain sayyed The mixture of agent you said, right?
+
+1:19:05 - Jorge Lewis Yeah, so I asked, does it ring a bell? Do you know what mixture of experts is?
+
+1:19:11 - Unidentified Speaker It's just yes or no.
+
+1:19:19 - Hasnain sayyed Actually, no.
+
+1:19:23 - Jorge Lewis No, I'm not trying to check, oh, does he know this or not? There's so many things I don't expect you to know. I'm more happy that you don't know anything and you just want to learn everything. I'm more happy with that than you knowing everything because then you get lazy. If I did my PhD, most people, the problem with you studying a PhD in computer engineering, you feel like there's actually a curve of learning. What's the curve? There's a name for the law. Can you see my screen? Yes.
+
+1:20:08 - Jorge Lewis Dunning-Kruger effect.
+
+1:20:12 - Jorge Lewis So when you know nothing, and you learn your first steps, you gain a lot of ego. But the experts know that they know nothing, or they know a very little bit of what they need to know, so they're always constantly learning. But there's some point where people learn quite a bit of stuff, and they think, oh, I know everything, and they go on their way. After time, you learn, wow, I really know nothing. There's just always trying to learn. So, if I ever ask you if you know something, don't think it's like a test, by no means. If you don't know it, great, you can learn it now. It's not an issue. So, the mixture of experts is, you can see my screen? Yeah, I can see.
+
+1:20:59 - Jorge Lewis This was a model architecture used in the Mistral language model. You're familiar with Mistral, right? Yeah, yeah. So what they did was they had, so it's eight by seven B. The eight is actually eight different modules of the thing. So they had the What they did really was what we're doing here. So they have one module here, one module here, one module here. There's a router that determines, okay, let's use this module, let's use this module, let's use this module, depending on the sentiment and the context of the user's message. So that's what we're doing really here. This model of experts, the idea is that you can combine, number one, you can make faster responses since each of these is specialized, it's smaller. So instead of combining all of them. So it's faster and also what you can do is you can attack, you can use all of the modules and combine the results so that each module can be very specific and then we combine all of them together. That's the idea. Like there's a ton of benefits with this design here where there's three agents giving all of their input and then just combining them together. So for example, the brand agents will think, Every message he gets, he's thinking, okay, how does this affect the brand? The content creator will think, okay, will the customers like how this sound? And then the analyst agent will think, how does the market like this? Those are the three things that they think about. And then when they give the answer, we can maybe make, we can determine, Like, since in the example JP sent, each bullet doesn't really have much of a purpose. So we can even just have it so that the output, we can literally just say, OK, who do you think should? So what we do is, actually, no, let me not do it. Let's make this a square.
+
+1:23:05 - Jorge Lewis So pick a persona, or so combine. Combine messages, pick a persona, send. So this here can be the steps that we take to send the message. So it's just, we combine all the messages, take every use, we're not gonna pick one, we're gonna combine them. We're gonna take all the useful aspects, and we just have this guy, this is an agent. So this agent determine, What agent makes the most sense? What agent does this sound like, So if we combine all the messages and make it into a message, who does it sound like, Does it sound like the brand agent? Then we'll just make the brand agent say it. Because for example, here, or where is, no, here. In these messages, the analyst bot is not being very analytical. He's saying something pretty random. So it doesn't really matter too much, I think. Who says it, but rather that it feels like multiple people. So I think what would be good is we go ahead and make this design.
+
+1:24:16 - Jorge Lewis We're going to call it mixture of agents.
+
+1:24:21 - Jorge Lewis This is going to be the mixture of agents.
+
+1:24:34 - Jorge Lewis So try making this design. Like try to spend one day on it the rest of today work on this and try to get something finished And then when we have something that's working we can spend Who knows east on the other the rest of the project we can spend The rest of the day or tomorrow Testing it and figuring it and sending it showing some examples to JP saying this is how it works These are the type of outputs we can get Okay, yeah, because what we need to do is Jonas's job and my job here is to make sure that we don't work on features that don't align with JP's thing. So what we're first going to do is send a message to JP saying, hey, we noticed this with the document you sent. Ask for clarifications. And then we can go through with this. By the way, one thing I would recommend is asking more questions.
+
+1:25:33 - Jorge Lewis Just any doubt you have, like if I say something and because obviously I don't plan in advance what I'm saying so sometimes I'm talking about one point and then I might just talk about a random point here and then I might go back to my first point and you might have a question on the start the middle or the end and yeah so if I'm like starting to go on another road you can either stop me and say let's stick to this one or you can ask a question if you're confused at all. Like, okay, are we talking about a new thing here?
+
+1:26:09 - Unidentified Speaker Okay.
+
+1:26:09 - Jorge Lewis So just, I think a practice, even if you don't actually have a question, try asking a question, like more questions. Okay. There's a, there's a, there's a technique used by, um, people that, that are great at conversations, which is summarizing what the other person just said. You, the other person says something and you just say, okay, to understand, or to check that I understood correctly, you mean to say that this and this, and you try to explain what they just said. And that way, it's very good at making sure there's no miscommunication and that both people understand it. And also it makes it feel like you're listening when I'm speaking, and that's super beneficial in conversation.
+
+1:26:53 - Hasnain sayyed Got it.
+
+1:26:56 - Jorge Lewis All right, cool.
+
+1:26:56 - Jorge Lewis So let's just clean this up a bit maybe.
+
+1:27:00 - Hasnain sayyed So for my thing, I will implementing the graph onto the Node.js thing, Node.js and TypeScript. And yes.
+
+1:27:13 - Jorge Lewis Let's get you and Nazif in a call because I want to get this project set up so that you can start working because there's the meaning that I want to get the super base set up. With the admin page on the front end. Let me show you on Adapt. You can see my screen. Yes. Do you remember the URL? I can't remember.
+
+1:27:50 - Jorge Lewis Is it just Adapt Verso?
+
+1:27:52 - Hasnain sayyed Adapt Journey Verso.
+
+1:27:54 - Hasnain sayyed I will Here's the link. I can't remember which one it is. I have sent it in the chat.
+
+1:28:04 - Unidentified Speaker Oh, you sent it. OK.
+
+1:28:21 - Jorge Lewis Where have you sent it?
+
+1:28:23 - Hasnain sayyed In the meeting chat.
+
+1:28:26 - Jorge Lewis Oh, in the Google meeting chat.
+
+1:28:44 - Jorge Lewis So you're familiar with the add-on pages, right? Yeah.
+
+1:28:50 - Unidentified Speaker Yeah. Okay.
+
+1:28:51 - Jorge Lewis So what I want to get is I want you and Azif to work together to set up all of the... Just a second.
+
+1:28:58 - Hasnain sayyed Your sound is echoing. So can you turn off the mic in gather?
+
+1:29:11 - Unidentified Speaker Oh, it's in gather.
+
+1:29:15 - Jorge Lewis Okay. Um, So what I want you guys to do moving forward with Naziv is setting up. So like I said earlier, we don't want to work on things that we don't know that JP wants. So we're still early in planning. But what we can do is setting up the project, kind of just the basics. So like this admin page, so that you can start working with the agents and making sure it's efficient. Because if you have a UI to edit the prompts, I feel like it's a lot more efficient and also setting up the super base so that you can connect to Message like message histories and stuff like that. So you can actually start working. There's obviously workarounds you can take like you can Probably use like a local storage or cash and stuff like that. But let's try to get all that set up today real quick Okay Yeah, I think stand-ups in two minutes And for the message, can you update this, uh, I have send, uh, in the meeting chat, uh, for the JP, should I put, uh, so Jorge and I were working and then was working on the graph design. Um, we have noticed that none of the agents have unique functionalities. Um, So I think it's, so we, let me, I'll write a new version. So we can say Jorge and I were working on the graph design on it. So for him, I don't think he understands graph design. So working on the AI design for the workshop agent flow, we can say. Yeah, there you go. Thank you. We're working on the agent flow for the workshop.
+
+1:31:14 - Jorge Lewis And we noticed that none of the agents have, that the agents, it's, it's, um, it's helpful. I don't like to use things like none of, or I like to kind of just because like, it's true. None of them have unique functionalities, but then it's important that we don't, when, when JP, when JP read this, he's going to think something and we have to make sure we try to like predict what he's going to think. So if I say, um, your documentation was too simple. Instead of saying that, if I say, um, I thought your documentation was a little vague. It didn't include all the details I need. That's a lot different, but with the same meaning. Um, and that's an annoying thing you have to worry about with clients and communication, but oh well.
+
+1:32:06 - Jorge Lewis And we've noticed the agents don't really have unique functionalities.
+
+1:32:18 - Jorge Lewis So help me check, do the agents have like a persona? So is there something, is it clear that they're focusing on something?
+
+1:32:30 - Hasnain sayyed Uh, like in each step, uh, they are asking a different question based on that particular, uh, state, for example, for the target, they are asking based on that. But, uh, by looking at some of the question, it doesn't seem to be different. Like for that, there was one example that I noticed it was different.
+
+1:32:52 - Jorge Lewis Like, um, there was one message where the, the brand bot says, um, So the brand bot in A for webcaps, he says, we buy products for how they make us feel. So that's what the brand bot is supposed to, that's what branding is. And he lists examples of what their brand should represent. So that's the only example I can see. But that's not functionality, that's kind of just their prompt. We tell their prompt, hey, focus on this. Yeah, so let's maybe mention that. We notice that the agents don't have unique functionalities, just rarely, I'll put in brackets, unique focus points, like the brand, like this.
+
+1:33:45 - Jorge Lewis So this, and then you can send the screenshot.
+
+1:33:56 - Jorge Lewis You can send the screenshot here. All right, I need to use the restroom. I think it's time for, oh wait, no, we're not having standup anymore. Right, I forgot. Wait, I'll be back, sorry.
+
+1:34:13 - Hasnain sayyed Oh, where do you have, you have put, okay, yeah, gone.
+
+1:35:54 - Unidentified Speaker back.
+
+1:35:56 - Hasnain sayyed Can you repeat the last sentence that you have said I didn't got that news was telling about screenshot.
+
+1:36:07 - Jorge Lewis Oh, yeah, send send the screenshot I sense here. Let me add you in discord. So you can send this message saying this and then send them the screenshot of the graph or like the message I sent. So look in Discord, you see?
+
+1:36:32 - Hasnain sayyed Yes, in the intelligent one, right?
+
+1:36:36 - Unidentified Speaker Yeah, yeah.
+
+1:36:37 - Jorge Lewis So you said, Jorge and I, you can copy and paste the message. Jorge and I were working on the AI flow for the workshop. We've noticed that the agents don't really have unique functionalities, just rarely unique focus points like this. And I highlighted where the brand is focusing on the brand, which is his job.
+
+1:36:54 - Hasnain sayyed I pasted this one. All right, perfect.
+
+1:37:04 - Jorge Lewis Hopefully we can get some feedback on that.
+
+1:37:19 - Unidentified Speaker Should I highlight your message?
+
+1:37:20 - Jorge Lewis What do you mean?
+
+1:37:27 - Hasnain sayyed You said the second thing, highlighting.
+
+1:37:33 - Jorge Lewis I sent a screenshot. And there's a blue text that I highlighted. So you can copy the image and send it.
+
+1:37:41 - Unidentified Speaker OK.
+
+1:37:59 - Hasnain sayyed Oh, I haven't looked.
+
+1:38:03 - Unidentified Speaker Yes.
+
+1:38:06 - Unidentified Speaker Sent.
+
+1:38:06 - Jorge Lewis All right, so to review our session here, I think one thing that we could have done better, and this is not only just for the pair programming session, but also in general is worrying, I think we, I think when you're planning things like the graphs, what I think maybe is better for us to go quietly for five minutes to make our own graphs and then come together after like five to 10 minutes and combine the two, because that's what we did for Adapt. We had Bewis, me, Chinmay, and Jonas, four people making different graphs for Adapt. And then that was super helpful because at the end of it we got a really good graph. We compared the graphs saying this graph is better for this and it's worse for this. And we were able to conclude to a really good design. So let's try that exercise. So next time you're working on a graph and you're with another person, try that approach. See how that works.
+
+1:39:15 - Jorge Lewis So that's something we can improve on. Also one thing, so these pair programming sessions are a mix of designing and programming. But we spent an hour and a half, an hour and 40 minutes doing the design. So, and it was also kind of a little bit of a mix between kind of planning the project because we're still so new into this project. So if you don't mind, later today sometime, I'll join you and we can work, I'll join you and we can work on this design that we made. Yeah, yeah. All right, cool. So for this, one thing I want to highlight by the way, I realized it while in the restroom, is that the mixture of agents design can actually, regardless of JP's answer here, if you want single agent or multi-agent or if they do have very specific use cases, regardless of that, we'll be able to make this graph because this graph, depending on how we do the last step, which is do we combine the messages or do we select which ones to send? And if we combine them, who do we want to speak? Do we want it to be one persona? There's so many different things we can do with this. So really, regardless of his answer, I think this graph will be what we use. Maybe we can change it or we can prototype with another design, but I think this design is pretty reliable. So what do you think?
+
+1:40:50 - Hasnain sayyed Yeah, we can try on this thing, we can find some much more edge cases as well. But this is much more flexible, I think.
+
+1:41:04 - Unidentified Speaker Yeah, cool.
+
+1:41:06 - Jorge Lewis So yeah, get started on that.
+
+1:41:08 - Jorge Lewis Let me know if there's any roadblocks or anything like that. I'll be coming around now and then.
+
+1:41:17 - Hasnain sayyed For now, should I work on the admin one or should I work on this graph designing?
+
+1:41:25 - Jorge Lewis What do you mean the admin one?
+
+1:41:27 - Hasnain sayyed The adapt thing you have showed me.
+
+1:41:32 - Hasnain sayyed Can you clarify? Like before you have shown me the ADAPT admin panel, like the working for the prompts and agents creation. So should I work on the coding part or should I work on the designing the graph?
+
+1:41:54 - Hasnain sayyed Like a simple thing, what should I do?
+
+1:41:58 - Jorge Lewis Okay, so there's two things that are to be done. Number one is making the project repository and getting Nazif to help you build the frontend, like a basic version of the frontend, so that you can maybe test something out and you guys can make the super base, you can make it yourself or you can ask him, I don't know. And then that's Or, and or, both of them, is making the mixture of agents design.
+
+1:42:32 - Unidentified Speaker Yeah.
+
+1:42:32 - Jorge Lewis You can, what I'd recommend, so to, okay, how about this? So making the front end, or if you were to do the front end within the z first and getting the super base done, it would allow you to test and connect it to the database and use the front end more efficiently. But what I want to try doing is, only working in the TypeScript environment and seeing how fast you can get something to work there. For the prompts, try not to work too much on that. Spend at most 30 minutes trying to get it. Copy and paste as much as possible saying, here's a document describing the framework or blah, blah, blah. Yeah, so try that.
+
+1:43:14 - Jorge Lewis Today, right now, it is around noon for you, 12, right?
+
+1:43:25 - Jorge Lewis Are you going for lunch soon? Like in one hour. Alright, so start working on the coding, on the graph, the mixture of agents. Mixture of agents. You can work on that. And I'll stop by maybe two or three times just to make sure things are going great. Okay.
+
+1:43:59 - Hasnain sayyed Should I like, I'll join you for like, okay, okay, great, great. Should I create the Node.js repository or should I ask Nazeeb to create the first frontend and then because that will be taking much more time, right?
+
+1:44:19 - Jorge Lewis Yeah, let's bring Nazif over.
+
+1:44:26 - Jorge Lewis I'm going to end the Google Meet and we can hop in together. Yeah, yeah, sure.

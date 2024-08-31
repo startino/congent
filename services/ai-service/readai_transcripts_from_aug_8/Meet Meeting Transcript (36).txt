@@ -1,0 +1,538 @@
+Meet Meeting 
+Mon, Jun 17, 2024
+
+0:37 - Unidentified Speaker Hello.
+
+0:39 - Conference Room (Sonia Calvo) - Speaker 1 Hey, man. How are you?
+
+0:41 - Conference Room (Sonia Calvo) - Speaker 4 Good, good. And you guys?
+
+0:42 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, good, man. You're looking very tropical. Where are you? Still in Vietnam?
+
+0:47 - Conference Room (Sonia Calvo) - Speaker 4 No, I'm in Thailand right now.
+
+0:49 - Conference Room (Sonia Calvo) - Speaker 1 Oh, you're back in Thailand now. Nice. Yeah, yeah. A good working space. You're looking a little bit slimmer. Obviously, the sickness has helped your weight problem.
+
+1:02 - Jorge Lewis No, I think it's the business.
+
+1:09 - Jorge Lewis I know stress is also a good weight loss.
+
+1:15 - Conference Room (Sonia Calvo) - Speaker 1 It's not a good long-term strategy.
+
+1:19 - Jorge Lewis I need to gain weight. I've lost like, I think, three kilos of muscle. I mean, some fat, of course, but...
+
+1:24 - Conference Room (Sonia Calvo) - Speaker 1 Wow, that's a lot.
+
+1:29 - Conference Room (Sonia Calvo) - Speaker 1 Cool. So what do you want to talk about? Milestones.
+
+1:39 - Jorge Lewis Yeah, milestones. So again, also just a refresher for the things we haven't been working, because I've been going so deep into the AI stuff that I've kind of forgotten a lot of the other things.
+
+1:49 - Unidentified Speaker Sure.
+
+1:51 - Jorge Lewis OK, so reminders, nudges, attainment badges. Attainment badges, same as milestones, right?
+
+1:58 - Conference Room (Sonia Calvo) - Speaker 1 Yes, it is, yeah. So for example, let's say you're 10 in, and you've just hit 40 kilometers of walking. Now, so walking would be distance-based. But what we might want to do is translate that into, as soon as you've walked 42 kilometers, hey, you've just done your first marathon. Or you've just walked from London to Scotland, or stuff like that. So we'd want to put some emotive descriptor around it, as opposed to just the facts. You've done another mile. You've done another mile.
+
+2:42 - Jorge Lewis I can't hear Sonia very much. Oh, Sonia, nice to meet you, by the way.
+
+2:45 - Conference Room (Sonia Calvo) - Speaker 2 Hi.
+
+2:47 - Conference Room (Sonia Calvo) - Speaker 1 And then there's my sister, Lassie, as well. Hi, how are you?
+
+2:50 - Conference Room (Sonia Calvo) - Speaker 4 Hi, Lassie, nice to meet you.
+
+2:51 - Conference Room (Sonia Calvo) - Speaker 3 You too.
+
+2:51 - Conference Room (Sonia Calvo) - Speaker 1 We're just all in London at the moment.
+
+2:59 - Conference Room (Sonia Calvo) - Speaker 1 You guys are going to be fucking barred from cutting my cheese.
+
+3:02 - Conference Room (Sonia Calvo) - Speaker 2 He's very particular about how cheese is cut.
+
+3:05 - Conference Room (Sonia Calvo) - Speaker 1 It's a shape, and you're supposed to cut it a certain way, and then they cut, they deform. Look at the deformity.
+
+3:14 - Jorge Lewis My parents are the other way around. My dad does that.
+
+3:19 - Conference Room (Sonia Calvo) - Speaker 1 You cut off triangles like that.
+
+3:25 - Conference Room (Sonia Calvo) - Speaker 2 Triangles.
+
+3:26 - Conference Room (Sonia Calvo) - Speaker 1 It's all about triangles. Well, you get a better knife than this for a start. You take it off.
+
+3:35 - Jorge Lewis So for the milestone or yeah, so milestones and rewards are the same thing. So for those, there's, is that going to be dynamic? Or is it going to be hard coded for the milestones?
+
+3:48 - Conference Room (Sonia Calvo) - Speaker 2 Like, what's that mean?
+
+3:51 - Conference Room (Sonia Calvo) - Speaker 1 So hard coded would be we would have explicit one. So when they hit 10, 15, 20, 35, 45, 50, 600, will remember that.
+
+4:02 - Jorge Lewis Remember that we can also, I mean, we can also AI generate like massive list of like maybe a thousand hard-coded ones like thing then we can review we can make sure that we can review that things like oh you ran from the distance you walked was the distance between Spain right so there's that or we can have the AI and AI models determine okay this is a this can be considered a good milestone but I don't trust the validity of that one to be honest I think that was more effort than it's worth making it give good milestones I think under the hood I don't think it really matters.
+
+4:42 - Conference Room (Sonia Calvo) - Speaker 1 I think the customer is going to see this experience.
+
+4:44 - Jorge Lewis It should just feel it should feel personal. It should feel not just the data should be have some meaning behind it. Just those two things right. Yeah.
+
+4:52 - Unidentified Speaker Yeah.
+
+4:53 - Conference Room (Sonia Calvo) - Speaker 3 I think everyone would be pretty impressed by themselves if they think they bought a marathon in a week. Yeah.
+
+4:58 - Conference Room (Sonia Calvo) - Speaker 2 You know, it's a nice thing to say. Accumulative is like, this is what you've done.
+
+5:02 - Conference Room (Sonia Calvo) - Speaker 3 I mean, over the course of a 10-week program, they'll walk about 420 kilometers. Assuming they're OK fitted, that could be as low as 200. It could be up to 500.
+
+5:12 - Conference Room (Sonia Calvo) - Speaker 1 Well, I mean, this is an app I use every morning. And you can see here, all I get is this thing here. 62 AD streak, three-day streak. It's like, what does that tell me? It doesn't, like, it's, yes, I don't, the streak's important. But actually, I become blind to it. It's like, yeah, whatever.
+
+5:33 - Conference Room (Sonia Calvo) - Speaker 3 Well, my Duolingo now, probably, I will stop what I'm doing and go and do it so I don't break my streak. So I do think if we could have a streak there, I think it's encouraging too, personally.
+
+5:43 - Jorge Lewis Duolingo does an amazing job at helping keep the streak. They just have a lot of different things.
+
+5:50 - Conference Room (Sonia Calvo) - Speaker 1 Yeah.
+
+5:53 - Conference Room (Sonia Calvo) - Speaker 2 a good one as well. If you don't do it, you're not progressing in a way or you're going to lose.
+
+5:59 - Conference Room (Sonia Calvo) - Speaker 1 I mean, imagine the bot at 6pm and the bot goes, hey, do you want to check in? And they don't get an answer. It's like, hey, listen, you've been doing this really well. You've done 18 days in a row. Don't lose your streak. Yeah. So that would be part of the bot's engagement.
+
+6:14 - Conference Room (Sonia Calvo) - Speaker 3 I'd also try and do a code, depending on the time zone, at a time where it gives an opportunity to be able to complete it, like 4 or 5 o'clock rather than o'clock at night.
+
+6:23 - Conference Room (Sonia Calvo) - Speaker 1 We need to figure out what that is for people, like when do they want to be, people will be asked as far as their profile, when do they want to be, do when do they check in.
+
+6:32 - Conference Room (Sonia Calvo) - Speaker 2 Right.
+
+6:33 - Conference Room (Sonia Calvo) - Speaker 1 Oh, that needs to go into the profile. It's sort of like preferred time for check-ins. Preferred time.
+
+6:44 - Conference Room (Sonia Calvo) - Speaker 1 Just actually on this while we're talking about it. We just had an interesting call with somebody who's helping us with this program and There's a workshop. I think I called I talked to last week to you about immunity to change Yeah, we were talking about doing this ourselves, but very quickly that just won't scale and I Think we're gonna try and moved for the bot
+
+7:05 - Jorge Lewis to be running those workshops Which is limited change one is is finding the wire, right?
+
+7:12 - Conference Room (Sonia Calvo) - Speaker 2 is understanding what's getting in people's way. There's quite deep-rooted, held beliefs around what is stopping you from achieving your goal. And most of it is unconscious. So it's a framework that you ask them certain questions to get them to those deep-rooted beliefs around themselves, which is what's causing them... That's what's getting in their way of achieving their goal.
+
+7:42 - Conference Room (Sonia Calvo) - Speaker 1 Like you want to lose weight, you're silly, loads of shit food. Why is that? Intellectually, you know you shouldn't be doing it, but there's a reason behind it.
+
+7:48 - Jorge Lewis It's top down, right? It's a top down process of going... When you say top down... Behaviors and then... So you go from the behaviors to the reason instead of... Because I'm wondering, with psychology, I think everything is top down. Because to figure out the thing is rooted in subconscious is you need to... You can't just know them if they're unknown, so...
+
+8:11 - Conference Room (Sonia Calvo) - Speaker 2 Yeah, the way this is structured, and there are videos out there on immunity to change and what it means. It's a framework of like, what's your goal? What behaviors are you doing against that goal? So if I want to lose weight, I'm eating two chocolate bars a day. And then the third column is, what if you were doing the opposite of that? Then what would happen? How would that feel? What are you worried about if you actually start achieving your goal? And then that's when you start uncovering those limiting beliefs or something that's happened in your past that is stopping you from fulfilling that goal. So there's a structure to it that takes you through for the unconscious to become conscious. Did I explain that okay?
+
+9:02 - Conference Room (Sonia Calvo) - Speaker 1 I think so.
+
+9:04 - Conference Room (Sonia Calvo) - Speaker 4 Yeah.
+
+9:04 - Conference Room (Sonia Calvo) - Speaker 2 And then from that, for now I know this information, what can I do to ensure I achieve my goal?
+
+9:17 - Conference Room (Sonia Calvo) - Speaker 2 So for instance, you know, the defiance, you know, five-year-old child, I will do what I want, no one's going to tell me what to do. If you uncovered that going, oh, that's why I'm not achieving this goal, someone else told me. And what's that like, And what, how's that ruling me? So now I have awareness of it. I can do something about it.
+
+9:42 - Conference Room (Sonia Calvo) - Speaker 1 So for example, if the, um, if the bot starts to recognize that somebody hasn't done something for like three or four days in a row, it might say, Hey, listen, it feels like we could really benefit or you could benefit from a coaching session. Do you want to schedule it? And he goes like, when, when would you have an hour and then let's say I'll have an hour at 8 p.m. On Friday. It would schedule that and then at 8 p.m., 7.45, it'll go, hey, just want to remind you we've got our call in 15 minutes. And then it would run the workshop.
+
+10:20 - Conference Room (Sonia Calvo) - Speaker 4 The workshop is the minute to change one.
+
+10:23 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, it would take them through those steps.
+
+10:24 - Unidentified Speaker The framework, yeah.
+
+10:26 - Jorge Lewis Okay. Okay, so I thought this the framework was held or the workshop was held at the start like at the onboarding also or and we well so when I Just want to make sure I get my thoughts straight on this.
+
+10:42 - Conference Room (Sonia Calvo) - Speaker 1 So originally we were going to do a 30-minute discovery call with people figure out You know, do they either? You know, a lot of the feedback we've had is that people don't like to calorie count So what we were going to say is we've got two choices If you're willing to restrict your carbs to like pretty low every day, don't bother calorie counting because you're going to self-regulate because the amount of fat and protein you eat, you just, you can't, it's very difficult to overeat that. If you're not willing to compromise on your carbs, actually calorie counting becomes really important so that you don't eat, you don't, if you want to lose weight. In that conversation and talking to them about their goals and their why, we would, you know, we would have a sense of whether we think they're resistant or whether they're all in and they're going to do everything. If they're resistant, we were then going to offer them an immunity to change workshop call for an hour. Based on the feedback we've just had over the last number of days, we need to try and digitize that experience and let people start the program. And as and when they have issues, we would then say, hey, you said that you want to lose weight and you're going to do these things, you're not. So that would fill in the first part of the immunity to change automatically because we're not going to, we're not trying to run this for stuff outside the scope of the program. Like I'm learning to drive and I'm never, I'm just not sticking to it. Like I don't give a shit about that. That's not part of our scope. But so the goal and the context for the Immunity Change Workshop will be set by what we're observing them not doing in the program.
+
+12:15 - Conference Room (Sonia Calvo) - Speaker 1 And so you end up just going through in steps two, three, four, and five. All right. Do you think, you know, in terms of the profile, would you, would you want to, do you think if you were, if this was happening to you, would you want to see that conversation in your profile? Obviously, we as a company need to keep that for continuity and awareness. But would you as a customer think you'd want to see that in your profile?
+
+12:47 - Conference Room (Sonia Calvo) - Speaker 4 Like the chat history?
+
+12:49 - Jorge Lewis Yes.
+
+12:53 - Jorge Lewis Of the workshop?
+
+12:55 - Conference Room (Sonia Calvo) - Speaker 1 Yeah. Maybe we create an updated version of the form as a visual for them to see.
+
+13:04 - Conference Room (Sonia Calvo) - Speaker 2 Yeah.
+
+13:08 - Jorge Lewis I'm not sure. Why wouldn't I? What would be the reason?
+
+13:13 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, I don't know. Because at the moment, the profile was just quite those sort of static lists. But actually having a full history, I think, makes sense, because they might want to go over something again.
+
+13:22 - Jorge Lewis Yeah, because, I mean, technically, the entire user's chat history is stored. So if we want to pull it into a more displayed view, that's possible.
+
+13:38 - Conference Room (Sonia Calvo) - Speaker 1 Okay. Cool.
+
+13:40 - Jorge Lewis Um, okay. So how about we put the, um, how, how important is the, that workshop?
+
+13:48 - Conference Room (Sonia Calvo) - Speaker 1 Um, so it's pretty, we think everybody has some level of unconscious issues that they are going to need help with. Um, we also want the boss to do the onboarding. So that's like, you could call that a workshop cause it's got various steps and questions that we'd want them to flow through. So, in my head, and maybe you correct me if I'm wrong, that we have the capability to run workshops, we need to design the workshop, as opposed to there be a bot designed that you would codify the onboarding and you would codify the immunity to change. I think you give us the capability and we will need to teach the bot to do them.
+
+14:26 - Jorge Lewis It's a mix of both. Some things like, for example, the onboarding one, some of the things we'll need to code in, the things like interacting with the database, adding the user's goal, Things like this. Yeah How about this? How about you send me an example a conversation of the the workshop? I think you might have sent it a resource on it.
+
+14:44 - Conference Room (Sonia Calvo) - Speaker 1 Actually, I'm sure I sent you an image of it But like are you guys okay if we send him the hour-long conversation with backs? Yeah, we have an hour video of where back this lady who knows it really well took the three of us through it Okay You should, if I put this in your, yeah.
+
+15:22 - Conference Room (Sonia Calvo) - Speaker 1 Yep. There's a, you can look at the whole workshop there.
+
+15:28 - Jorge Lewis Let me check if I can open it. Yeah. Okay. So I can share this with the rest of the team or yeah.
+
+15:38 - Conference Room (Sonia Calvo) - Speaker 4 Now we're alone. All right.
+
+15:41 - Conference Room (Sonia Calvo) - Speaker 2 A lot of it can be, there was a lot of chats and questioning.
+
+15:45 - Conference Room (Sonia Calvo) - Speaker 1 So rather than pure content.
+
+15:49 - Jorge Lewis Yeah. Just 1.5 speed. No problem.
+
+15:54 - Jorge Lewis Um, okay. Okay. Yeah. So we'll put that on a little bit of a hold. Um, just because I think that could be added on quite easily. Like when we're working on the onboarding bot, we can take a look at it again. Or the onboarding aspect. Okay, so back to the reminders. Reminders and nudges is totally different. So for reminders and nudges, what does that look like again?
+
+16:19 - Conference Room (Sonia Calvo) - Speaker 1 So a nudge, so if we know, for example, onboarding that you drink coffee, that's another thing actually missing from the profile is you know, at 12 o'clock, you'll get a, the bot will just let you know, or send you an email saying, Hey, this is an FYI, no more, you know, to optimize for your sleep, don't have any more coffee today.
+
+16:46 - Conference Room (Sonia Calvo) - Speaker 1 Or if you're going to have a coffee, have a decaf.
+
+16:48 - Conference Room (Sonia Calvo) - Speaker 2 So that's, yeah, you can have another coffee, make sure you have it in the next two hours. Or it's decaf.
+
+16:55 - Conference Room (Sonia Calvo) - Speaker 1 Yeah. And one of those, that's a reminder. I did have a, we did have a difference between a nudge and a reminder. I'm a bit, what, I can't remember in the mural, I think I had a definition of what the difference was. I'm just trying to open it now.
+
+17:12 - Conference Room (Sonia Calvo) - Speaker 2 It's a reminder, have you done this? Which is part of what they've agreed to do in the day. Well, a nudge is have you had your water?
+
+17:29 - Conference Room (Sonia Calvo) - Speaker 1 I can't find it right now, but technically, I think they end up being the same thing.
+
+17:34 - Conference Room (Sonia Calvo) - Speaker 1 So you have reminders or nudges to do behavior like drink the water, no more coffee, no more screens.
+
+17:44 - Conference Room (Sonia Calvo) - Speaker 2 Have you had your walk?
+
+17:45 - Unidentified Speaker Yeah.
+
+17:48 - Conference Room (Sonia Calvo) - Speaker 1 It's accountability. That's all it is. It's accountability reminders. You're just looking at all the things that you said you were going to do and do we help you do them?
+
+17:56 - Conference Room (Sonia Calvo) - Speaker 1 And so that would come from the profile. And obviously someone could say, stop reminding me about this.
+
+18:01 - Conference Room (Sonia Calvo) - Speaker 2 Yeah, they can turn off. Like, if they don't want to be reminded about their water intake, they could turn that fucking off. Or if they're not coffee drinkers, that wouldn't even go on.
+
+18:12 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, yeah, because we know about that as part of the onboarding profile.
+
+18:14 - Conference Room (Sonia Calvo) - Speaker 2 Right, sure, that's different, yeah.
+
+18:19 - Conference Room (Sonia Calvo) - Speaker 2 And it's also like if they've done their walk, I don't know, if they've done a walk and they've already keyed that in or said, I've done my walk today, they don't get reminded about it.
+
+18:27 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, because they can go to the website and fill in the data. At that point, when we do the check-in, the bot would only be asking about stuff that's missing.
+
+18:38 - Unidentified Speaker Yeah.
+
+18:40 - Jorge Lewis So behind the scenes, how I'm thinking, and Quinn, hopefully you can understand this so you can correct me. So a user will have a list of, in the database, there's going to be a list of reminders. And every day, just throughout the day, the bot's going to check, has this reminder been accomplished yet or not. If not, then send it. Otherwise, don't send it. Regarding the time, that's also dependent on the actual reminder itself, right? The time of reminding. Like the coffee one?
+
+19:12 - Conference Room (Sonia Calvo) - Speaker 1 Yeah. So there's reminders, and then there's items that we track. And maybe technically, they're all just a reminder. But the idea is that reminders would have a set time in which to do them. So for example, if we know that your bedtime is 9.30 broadly from you've been adding in when you're going to sleep. So we don't ask that question. We infer that question. We would then work back saying, right, three hours before then, no more screen or no more work. Try and stop work now because your brain can decide to relax. So that would be a dynamically based on when we know you're going. I need that reminder.
+
+19:55 - Conference Room (Sonia Calvo) - Speaker 1 And then the items to track are an end-of-day check-in reminder, which basically goes in and would look at all the things that you're supposed to track on a daily basis. What have you not been proactive on? Now, I would imagine if people get used to the fact that there's a check-in bot, they're not going to start. They're going to not end up going in and proactively track things in the morning. They'll wait until the bot does an end-of-day check-in. Rather than going in and I did this for this lunch or I just did my walk.
+
+20:23 - Conference Room (Sonia Calvo) - Speaker 3 What about as the body's checking in, how you kept hydrated and you do a tick, have you done your walk a tick? That it propels your end of day?
+
+20:30 - Conference Room (Sonia Calvo) - Speaker 1 That's what it does. That's what I'm saying. So let's say 7 o'clock, you've filled in your walk, but you haven't filled in your calories. It will then say to you, hey, so what did you eat today? Like how many calories? It wouldn't ask you about the walk. And what I'm assuming is, if you've been doing this for a week, you would probably stop filling it in and you'd just say, I'll just wait for the bot. I'll have a conversation with the bot at the end of the day.
+
+20:52 - Conference Room (Sonia Calvo) - Speaker 3 Tracking, I mean, you know very easy, you've done your walking up, that's obviously not disputable. But if you don't track the calories in the moment, especially things like snacks, you forget what you've eaten. So it starts like, here's a comment as you gob it.
+
+21:05 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, there's nothing precluding you from doing that. I just think it's user behavior, because you have the bot hoovering up everything with you at the end of the day. I think that could, I think that's the issue. A walk, you know what you've done. If you've eaten three times that day and you haven't actually tracked your calories, how do you, you're unlikely to remember them.
+
+21:28 - Conference Room (Sonia Calvo) - Speaker 3 You have to be done at the moment. So like by 12 noon, if you've had breakfast today, you might remember by 12 what you've had for breakfast.
+
+21:35 - Conference Room (Sonia Calvo) - Speaker 1 So there's an end of day check in, but I think for food, you might want to do it incrementally throughout the night.
+
+21:39 - Conference Room (Sonia Calvo) - Speaker 2 Yes, I think so.
+
+21:41 - Conference Room (Sonia Calvo) - Speaker 1 So again, that's the bot proactively doing it. But if they're doing intermittent fasting, which is another thing we need to have in the profile, then there's no point checking them for breakfast because they won't have their first meal until 12.
+
+21:59 - Conference Room (Sonia Calvo) - Speaker 3 Yeah, but my preference, if they give you the window of intermittent fasting, the first prompt will be 2 o'clock, when you had your first meal of the day. Maybe just call it your first meal of the day, not breakfast.
+
+22:10 - Conference Room (Sonia Calvo) - Speaker 1 So we need to figure out what the profile really is then, because I think the profile that I've just given them is old and not as enriched as we'd like it to be.
+
+22:18 - Jorge Lewis So what it sounds like there is each user will have a generic reminder for the eating part, just to make it easier to track, because people don't like tracking.
+
+22:28 - Conference Room (Sonia Calvo) - Speaker 1 Yeah. But again, if they're doing, um, the low carb approach, then we're not tracking every meal.
+
+22:34 - Conference Room (Sonia Calvo) - Speaker 4 It would just be like, you don't have to at all.
+
+22:37 - Conference Room (Sonia Calvo) - Speaker 1 No, just at the end of the day, you're basically saying, did you keep within your, your, your carb tolerance today? Yes or no. Yep. Cool. Well, nice one. Nice job. Now, obviously you can lie. If you've eaten 5,000 calories and you put in a thousand, we can't, we can't, we can't change that.
+
+22:50 - Conference Room (Sonia Calvo) - Speaker 2 But there's an element of people are telling the truth.
+
+22:53 - Conference Room (Sonia Calvo) - Speaker 1 They're only fooling themselves. Now, if their if their weight is not going down correlation to what they're saying they're doing, then that would be an investigate.
+
+23:00 - Conference Room (Sonia Calvo) - Speaker 3 We would basically say, hey, listen, it doesn't feel and maybe some of the prompts from the vast power along the line said, you know, make as accurate as possible. This is for you. You can tell me anything you want.
+
+23:09 - Conference Room (Sonia Calvo) - Speaker 2 But ultimately, yeah, of course. You know, I mean, the people say like even on keto, they go my way. It's not shifting. It's like we're careful on even though we can eat fat. Don't go overboard on fats, because that can have an impact, because that's calories. So while yes, if they're low carb, they don't have to track, if all you're having is cheese and nuts, you might not shift the weight.
+
+23:34 - Conference Room (Sonia Calvo) - Speaker 1 There's a lot of calories there.
+
+23:35 - Conference Room (Sonia Calvo) - Speaker 2 Yeah. So it's a yes and
+
+23:40 - Conference Room (Sonia Calvo) - Speaker 2 It's within that, even low carb, keep an eye on the healthy fats, because they are very calorific. And unless you're very active, the fat won't get burned because you've got too much fat than you're burning.
+
+23:56 - Unidentified Speaker Yep.
+
+24:05 - Conference Room (Sonia Calvo) - Speaker 2 So do we need to update a profile or something to help move it along?
+
+24:11 - Conference Room (Sonia Calvo) - Speaker 3 I've tried to create here a a bot doing an AI version of sort of unlocking your limiting beliefs, but it's only yes, no, or I don't know. And then if it's a majority of yeses, this is what it indicates and how to mitigate it. If it's a majority of no's or I don't no's, equally, it gives you a lack of self-awareness and it gives you strategies as well. Because I think the bot obviously works better with the yes, no, I don't know, like just a no.
+
+24:35 - Conference Room (Sonia Calvo) - Speaker 1 No, but I don't know what, when you say a bot, I don't know what technology you're using there, which is not, that's not how, that's, that's.
+
+24:42 - Conference Room (Sonia Calvo) - Speaker 3 Try, try bot in terms of asking, the questions the bot would ask the human.
+
+24:48 - Conference Room (Sonia Calvo) - Speaker 1 You don't do yes, no, it's not the way it works. It's very much on the, actually the more verbose descriptives that you get subjectively, it's more, it's more beneficial.
+
+24:59 - Conference Room (Sonia Calvo) - Speaker 3 But I'm just thinking for a human to answer, it's much easier to do yes, no, yes, no, yes, no, yes, no.
+
+25:03 - Conference Room (Sonia Calvo) - Speaker 1 Like give me a scenario.
+
+25:06 - Conference Room (Sonia Calvo) - Speaker 3 Is your health and wellness, stroke, weight loss important to you? Yes, no.
+
+25:12 - Conference Room (Sonia Calvo) - Speaker 3 It's a quick, I'm trying to see like how can something...
+
+25:15 - Conference Room (Sonia Calvo) - Speaker 1 Are you talking about onboarding now? Yeah. Okay. Again, it depends. I think we need to figure out what are the things we want to ask. Certain things are just like, what is your height? It's not a, but your goals and your why, I think can be, like someone can be very verbose and they can infer what's important to them and help them get to that.
+
+25:34 - Conference Room (Sonia Calvo) - Speaker 3 The same here, like yes, no, don't know format makes it easy for the AI to process, analyze, response, providing a clear path to identifying, overcoming, measuring beliefs about weight loss.
+
+25:44 - Conference Room (Sonia Calvo) - Speaker 1 But which AI? It depends what technology they're using and what they're talking about because generally where you see AI with yes, no answers, it's rudimentary and it's actually rules-based. It's not generative AI. So it depends. And again, when they just use generic terms like that, Send it to me, I can have a look at it and see what they're doing. So we can send you an updated sort of profile and I think what we'll do is we'll start talking about what the onboarding conversation would look like,
+
+26:13 - Jorge Lewis Cool, and then I have the workshop one, the immunity change.
+
+26:21 - Jorge Lewis Yes, you have that video, yeah.
+
+26:23 - Jorge Lewis For the attainment badges, I'll do what we said and just make a pretty long list that the bot can choose from
+
+26:38 - Conference Room (Sonia Calvo) - Speaker 1 What would we have that for? How far you've walked? I don't think how long you've walked. Like you've been walking for a day, whatever, maybe you do that. Then there's eating. I think weight loss goals, I think will be a big one, like what you've lost.
+
+26:55 - Conference Room (Sonia Calvo) - Speaker 1 But I think like you've eaten, I think streaks for tracking stuff.
+
+27:03 - Conference Room (Sonia Calvo) - Speaker 2 The sleep, like how you keep into going to bed, waking up.
+
+27:07 - Conference Room (Sonia Calvo) - Speaker 1 I think you'd have a, I think what we're going to do is have some form of like, I think somebody was saying like, what is the, how close is the median hour of your sleep to each other? So for example, you could be getting eight hours of sleep, but on a Friday, you start going to bed at a.m. And you're getting up at 10 a.m., you've shifted the median point of your sleep by more than two hours, then that causes jet lag.
+
+27:32 - Conference Room (Sonia Calvo) - Speaker 2 Yes, I heard that on the podcast.
+
+27:33 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, so you've got to look at sort of a sleep health indicator or sleep quality indicator. Basically, that's just a trending line saying, yeah, your sleep seems to be good.
+
+27:42 - Conference Room (Sonia Calvo) - Speaker 2 Yes.
+
+27:43 - Conference Room (Sonia Calvo) - Speaker 1 Maybe once every two weeks, we might do a deeper coaching on one of the areas.
+
+27:48 - Unidentified Speaker Yeah.
+
+27:49 - Conference Room (Sonia Calvo) - Speaker 1 If people are available.
+
+27:53 - Jorge Lewis Does that make sense?
+
+27:55 - Jorge Lewis Yeah. I mean, just for that, we need to just get the sleep time and the wake up time, I'd say.
+
+27:59 - Conference Room (Sonia Calvo) - Speaker 1 Yeah. And then we infer the rest of it.
+
+28:03 - Unidentified Speaker Yep.
+
+28:05 - Jorge Lewis What about sleep quality? Is there something?
+
+28:16 - Conference Room (Sonia Calvo) - Speaker 1 We talked about what time are you going to bed? What time are you waking up? And I think we talked about sleep quality being the sense of, did you have the sense that you woke up? No, did you wake up during the night?
+
+28:31 - Conference Room (Sonia Calvo) - Speaker 2 Oh, I see.
+
+28:33 - Conference Room (Sonia Calvo) - Speaker 1 Because you can't tell whether you feel rested or not rested or deep.
+
+28:37 - Conference Room (Sonia Calvo) - Speaker 4 It's perceived.
+
+28:38 - Conference Room (Sonia Calvo) - Speaker 1 It's perceived. Did you wake up? Did you go to the toilet during the night? How many times did you get out of bed? I think we need to figure out what that other, the sort of interrupter index is. I think Matthew Walker talks about that.
+
+28:54 - Conference Room (Sonia Calvo) - Speaker 3 Or did you use our sleep meditation app last night?
+
+28:57 - Conference Room (Sonia Calvo) - Speaker 1 That's got nothing to do with sleep though, in terms of the sleep quality.
+
+29:01 - Conference Room (Sonia Calvo) - Speaker 3 If they can track when they use it, they sleep better. There's a correlation.
+
+29:05 - Conference Room (Sonia Calvo) - Speaker 1 I think we've got to be careful because that's going into, like you are going into an Apple Watch and all these guys, there's so many sleep scores and they're so wishy-washy. Because you've got diet and exercise. I look at my ones, and I've got about 15 metrics that I can track. And I just do one of them. It becomes too much, and you end up not using it. But you don't just fill them all in.
+
+29:41 - Jorge Lewis The move is just minutes that they've been exercising, right?
+
+29:47 - Conference Room (Sonia Calvo) - Speaker 1 It's an hour a day. It's focused. So move is everything to do with the body moving and exercising. So it can be initially, the focus will be about walking in zone two for an hour a day. But towards the program, you'll be doing, you know, you'll work up towards a 10K. We'll introduce some very basic physical exercise, like jumping, squatting, stuff like this. So it's everything to do with how you move your body. Predominantly, it's walking, but it will be more than that.
+
+30:19 - Jorge Lewis Okay, cool. Cool, cool. Let me see what else.
+
+30:31 - Jorge Lewis For the programs, I don't understand the part where it says ability to run 12 programs at the same time, but then before that says customers allocated one program at a time. So, yeah.
+
+30:42 - Conference Room (Sonia Calvo) - Speaker 1 So this, let me just, so I think this means we've talked about whether we would have three, three, three people coming independently and they just start when they start, like we haven't.
+
+30:52 - Conference Room (Sonia Calvo) - Speaker 3 I think we also said probably nothing July, August and December. So it'd be a maximum of nine programs a year, possibly.
+
+30:59 - Conference Room (Sonia Calvo) - Speaker 1 If everything is digital, why?
+
+31:03 - Conference Room (Sonia Calvo) - Speaker 2 If it's all digital, people can sign up at any time and start their program.
+
+31:08 - Conference Room (Sonia Calvo) - Speaker 1 I don't think we can say we don't want a program for three months of the year. There isn't a person in the world who would sign up and invest in a company that It's not shutting down because there's going to be programs that are changing it.
+
+31:20 - Conference Room (Sonia Calvo) - Speaker 3 Yeah, well, it makes a difference.
+
+31:22 - Conference Room (Sonia Calvo) - Speaker 2 But we're not having cohorts.
+
+31:23 - Conference Room (Sonia Calvo) - Speaker 1 So we're just having someone wants to sign up. Are we doing the body slams like there's a start and an end and you sign up into those windows? I like the start and end.
+
+31:32 - Conference Room (Sonia Calvo) - Speaker 3 But it can be rolling every month start. So you want to have 12 cohorts.
+
+31:36 - Conference Room (Sonia Calvo) - Speaker 1 Then if you're going to do that, then why not just have it you start when you start? You could start next week. I could start the following Monday. I have my own 10-week program.
+
+31:48 - Conference Room (Sonia Calvo) - Speaker 1 If the hangout, the idea was, one idea we had was the hangout that we'd have is live for everybody who's on the course, no matter where they are in their journey.
+
+32:02 - Conference Room (Sonia Calvo) - Speaker 1 Because the chances are, if you do have a three block windows, you're telling customers they might have to wait two and a half months.
+
+32:14 - Conference Room (Sonia Calvo) - Speaker 1 bad reason for doing it. And if you don't do that, then you may as well just do, well, you can sign up whenever you want. You start when you start.
+
+32:21 - Conference Room (Sonia Calvo) - Speaker 3 But then you've got, kind of like the idea of the cohort, but not obviously every month, it's not too long to wait, because the likelihood that you've picked up on, you know, you might only have perhaps two weeks to wait when you sign up to when you start.
+
+32:37 - Conference Room (Sonia Calvo) - Speaker 1 But why not do it every day?
+
+32:39 - Conference Room (Sonia Calvo) - Speaker 3 I think a cohort and a community, it starts becoming difficult in a Q&A point where you've got people literally on every single day, at least month by month, you've some community that you can reach out to on Facebook and people on the same point as Jeremy. I just think every day is...
+
+32:53 - Conference Room (Sonia Calvo) - Speaker 1 I think it would have to be every week anyway. I think we don't have a definitive answer on that, but we'll take that as... We'll have that debate and we'll come back with you an answer today on the schedule. A person can only be on one course at a time.
+
+33:14 - Jorge Lewis One course at a time, okay. The LMS is the least speculative aspect in terms of tech. It's been done thousands of times before. It's a matter of how we want to do it.
+
+33:24 - Jorge Lewis Yeah, we just need to let you know.
+
+33:26 - Jorge Lewis Yep, yep. Cool. What else?
+
+33:37 - Jorge Lewis For the, okay. So as of right now, so I mean, I was really hoping we could get it all set up today in terms of the, oh, just so you can play with that. What was the, just the whole chat bot, but sadly some of the time difference between Jonas and I didn't help.
+
+33:59 - Jorge Lewis So what would be the next on the list that you guys would want to get up So when you do the release tomorrow, what do you think we'll be able to do?
+
+34:09 - Conference Room (Sonia Calvo) - Speaker 1 By what function are you?
+
+34:11 - Jorge Lewis You'll be able to do, to start a check-in, to complete the check-in, and then, yeah, doing the check-in, and then you'd be able to, for the admin use case, you'd be able to go through the user's messages, all the user's messages, and then select good or bad ones, and then manage it, manage those submissions.
+
+34:27 - Conference Room (Sonia Calvo) - Speaker 1 And if we update the admin, will that then, if we then did another check-in, will that take the feedback? So we can see that cause and effect.
+
+34:37 - Conference Room (Sonia Calvo) - Speaker 4 Yeah. Okay.
+
+34:39 - Conference Room (Sonia Calvo) - Speaker 1 For me, that's a really important milestone because it allows us to start training the bot to do things. And then after that, I think onboarding.
+
+34:50 - Jorge Lewis Today, I'm going to get started on trying to figure out some prompts to leave you guys with because it's, um, A standard prompt that you'd give like something like chat GPT is very different to what we're trying to give to these ones, because we have to give them the context of, hey, you have a team member, you know, pass it to this team member when this or this. So there's a bit of a difference in terms of that. And then also, also trying to make them uniform in terms of the persona, making sure that they abide by their, their style, tone, things like this.
+
+35:21 - Conference Room (Sonia Calvo) - Speaker 1 So how important do we think makes lots of different personalities for the person?
+
+35:28 - Jorge Lewis I don't think I don't think you'd notice that the actual personalities, as long as we don't tell them this is multiple bots, they like they're not going to realize it because No sorry, what I was meaning is that like,
+
+35:41 - Conference Room (Sonia Calvo) - Speaker 1 there is some people who might prefer sort of the Arnold Schwarzenegger tone of voice like straight to the point, and others might like a more you know, uh, cheerleadery type. So there could be good work.
+
+35:52 - Unidentified Speaker Awesome.
+
+35:53 - Conference Room (Sonia Calvo) - Speaker 1 Yeah. Over the top like that. Some people really like that. Um, like in, in work, for example, there's something called the shit sandwich of feedback, where if you're giving people that work for you feedback, you say, Oh, you know, you did a really good job yesterday. And then you say, but you were shit yesterday. And then, Oh, I really like you. So you say something good and good. And then you give the real message in the middle personally that aggravates the living shit out of me. I can, I, it pisses me off, I know it's coming, but then even people know it's coming, like Jen, who used to work for me, she's like, no, no, if you don't give that to me, I will shut down. I will not hear the message. So I have to land it right. Even she knows that it's coming. She has to be landed into it and then she's ready. And then she has to be sort of massaged afterwards to go, yeah, it's everything's fine now. We did like, we had like 60 people working for us and was broadly 50, 50 between people who liked it and people who aggravated, really weird.
+
+36:48 - Conference Room (Sonia Calvo) - Speaker 2 So for us, how do we?
+
+36:52 - Conference Room (Sonia Calvo) - Speaker 1 Well, I think as part of the awarding, we could ask people like, hey, do you like direct talking? Or do you like to be cheerleaded? Or we can figure out what the dimensions are, and we can ask them on that so they can tweak it. Like there's a, in chat GPT, there's like, if you put in no yammering, The answers are really punchy. And I'm like, if I'm doing research to get all of the facts and the nicety nonsense, it just gives me all the facts. And I'm like, much easier, much easier. But if you're coaching somebody, that wouldn't be appropriate.
+
+37:23 - Conference Room (Sonia Calvo) - Speaker 2 Yeah. Because you need the fluff.
+
+37:26 - Conference Room (Sonia Calvo) - Speaker 1 Yeah. And again, I've had coaching clients where they at different times have wanted me to be really direct.
+
+37:34 - Unidentified Speaker Yeah.
+
+37:35 - Conference Room (Sonia Calvo) - Speaker 1 Because I can feel that the nice, nice approach is not moving them forward and I have to call it out.
+
+37:39 - Conference Room (Sonia Calvo) - Speaker 2 Yeah, totally. That's why it's challenging because what I find with my clients, when I'm asked, how do you want me to be with you in a coaching corner when you're not doing something you said you were going to do?
+
+37:51 - Conference Room (Sonia Calvo) - Speaker 1 Do you want to be correct? Do you want me to be direct?
+
+37:54 - Conference Room (Sonia Calvo) - Speaker 2 And most people actually go, So I want you to be direct because it's in service of me. Yeah, so it's about that for me. And it's holding up the mirror what we call. It's like, do you realize you said you're going to do this, but you're doing that. So I'm just calling it out with love and compassion and want the best for you. But this is why I'm calling this out. So I think there's this terminology that we can use.
+
+38:28 - Conference Room (Sonia Calvo) - Speaker 2 Yeah, but then, I don't know, could we have a stream of prompts which are a lot more harsher? Like, you idiot, you haven't done your walk, get up. I don't know, I might have done too much. You know, I put on overdrive. Yeah. Well, on my watch, when I haven't moved for a while, it's like, time to stand up, you know, and it's like, well done, you stood up, you know.
+
+38:57 - Jorge Lewis Yeah, then there's the other hand.
+
+38:58 - Conference Room (Sonia Calvo) - Speaker 2 And it's like, you haven't done what you said you're going to do. You're not going to reach a goal if you don't do this. And then when you do it, it's like, amazing. Well done, you. I can see you commit. So you can do both. It's not one or the other. Yeah.
+
+39:14 - Conference Room (Sonia Calvo) - Speaker 3 I think you're prompted to do it and to do it.
+
+39:18 - Unidentified Speaker Yes.
+
+39:19 - Conference Room (Sonia Calvo) - Speaker 2 Yeah. The cheerleader. Because we all like being told that we're good or we've done something good. And we're really not.
+
+39:27 - Jorge Lewis One of the difficult things that I can see happening is that with an in-person meeting, you can see, you can get feedback from your responses. But with this, it's going to be very hard to, like, the bot's going to say, get up, you lazy, you know, whatever. And then the user is going to say, oh, sorry, like, it's going to have no clue if he did a good job or not.
+
+39:48 - Conference Room (Sonia Calvo) - Speaker 2 Yeah, that's the thing. When you're coaching people face to face, You pick up. It's the body language. You can see someone comes to the call and they've been crying. I'm not going to be a bitch to them. I'll be like, geez, what has happened?
+
+40:06 - Conference Room (Sonia Calvo) - Speaker 1 I mean, if you look at chat GPT 4.0, there are the demos where it basically just goes, the guy's talking about, I'm going to go into an interview and the bot's like going, well, you know, you've mastered the getting out of bed phase, like your hair is a bit messy, you know, you need to, you know, if you're going to go to an interview. So it is there, it can now see, and it can talk. Like, how mature, I mean, because some of these things feel much better talked. And like, could we take that modality into our scope? Or is it going to be text?
+
+40:46 - Jorge Lewis Text, uh, I'd say we'd be over, we'd, we'd be overstepping, um, trying to go directly into, into voice or, um, yeah, voice and video. It's cause it's like a step above text. You start off with text and then you go into those, skipping the text phase. We, if we skip the text phase, we might end up with something that doesn't even work as, um, like at all, like something that isn't usable.
+
+41:13 - Conference Room (Sonia Calvo) - Speaker 1 Use the teaching of the text to go to speech later.
+
+41:17 - Jorge Lewis Yeah, exactly. Like, for example, a problem that I can see is like we use the voice and video feature, and then the responses are just like 30 seconds to wait. Because in the video, in the demo videos, have you watched, Sonia, the demo videos from GPT 4.0? No.
+
+41:44 - Jorge Lewis It was the guy talking to his phone, and the phone had the new GPT model. The response times, I believe, were probably between 5 to 10 seconds. Gwyn, can you hear me?
+
+41:56 - Jorge Lewis Yeah, yeah.
+
+41:57 - Jorge Lewis What do you say? That's about right, 5 to 10 seconds?
+
+42:01 - Conference Room (Sonia Calvo) - Speaker 2 About 10 seconds.
+
+42:03 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, the live's not perfect.
+
+42:07 - Jorge Lewis Yeah, but then also, since we're doing a lot of stuff behind the scenes, and as we're already seeing that it's adding some some delay to the responses, it can probably get pretty unbearable in terms of response times. We don't have to use GPT-4 as well, or for the newest model. We can use a mix of a really fast text model and then a really fast voice model, and then combine them instead of just using one.
+
+42:36 - Jorge Lewis I hope you can hear me because I wasn't...
+
+42:39 - Conference Room (Sonia Calvo) - Speaker 2 He's making a coffee, but he can hear you.
+
+42:50 - Conference Room (Sonia Calvo) - Speaker 2 Thank you. Ice cream coffee. Have you made yours?
+
+42:59 - Jorge Lewis What beans are you guys having?
+
+43:02 - Conference Room (Sonia Calvo) - Speaker 2 Sorry? What beans? Beans.
+
+43:08 - Conference Room (Sonia Calvo) - Speaker 2 What beans are you having? Is that notes? Yeah. Notes beans, you know notes?
+
+43:16 - Conference Room (Sonia Calvo) - Speaker 4 Notes, no.
+
+43:18 - Conference Room (Sonia Calvo) - Speaker 2 It's a company that, it's a coffee shop, but it also does its own beans, but I wouldn't be very prescriptive. I use an espresso machine. So it's, I like the Costa Rica ones.
+
+43:32 - Jorge Lewis Nice. Those are good.
+
+43:34 - Jorge Lewis Yeah.
+
+43:37 - Jorge Lewis So you guys are in London? You guys live there or holiday?
+
+43:43 - Conference Room (Sonia Calvo) - Speaker 2 We live in London and Lassie, Coen's sister.
+
+43:46 - Conference Room (Sonia Calvo) - Speaker 3 I live in Dublin but I'm just over for the weekend.
+
+43:50 - Conference Room (Sonia Calvo) - Speaker 2 Coen and I are obviously in London, then Lassie's in Dublin when we can all three meet.
+
+44:04 - Conference Room (Sonia Calvo) - Speaker 3 In fact, online really does work very well as well.
+
+44:07 - Conference Room (Sonia Calvo) - Speaker 2 Yeah, well, it's like working with you guys online and we think it's a little bit.
+
+44:16 - Jorge Lewis It's we're quite lucky that my schedule is quite late because we can see, for example, Jonas's schedule doesn't align as well as my one does.
+
+44:23 - Jorge Lewis Where's he?
+
+44:25 - Jorge Lewis No, he's in the same place as me, but it's just he sleeps at normal people time. He wakes up at eight, goes to sleep at, you know, like 12. But I go sleep around four and wake up around Right.
+
+44:43 - Conference Room (Sonia Calvo) - Speaker 2 We'll have a question.
+
+44:48 - Conference Room (Sonia Calvo) - Speaker 2 He's just doing the milk. 30 seconds.
+
+44:56 - Unidentified Speaker Or can I have...
+
+45:07 - Conference Room (Sonia Calvo) - Speaker 1 I think the most important thing is for us to work on the onboarding.
+
+45:10 - Conference Room (Sonia Calvo) - Speaker 2 Yeah, so we're going to work on the onboarding. And then we'll send that to you. And then do we need to do any more work on the profile? You mentioned it was maybe... That is onboarding, fine. Okay.
+
+45:25 - Conference Room (Sonia Calvo) - Speaker 1 Yeah, the onboarding is about engaging with the user.
+
+45:28 - Conference Room (Sonia Calvo) - Speaker 4 Setting up the profile.
+
+45:31 - Conference Room (Sonia Calvo) - Speaker 2 Okay.
+
+45:34 - Conference Room (Sonia Calvo) - Speaker 2 Anything else you need from us?
+
+45:39 - Jorge Lewis I'm taking a look. I don't think so. Shouldn't be. Today I'm going to get working on the prompts and hopefully I can send it to you guys and you can start playing around with it by tomorrow. I was really hoping for it to be done today so that we could start working on the next phase.
+
+45:55 - Conference Room (Sonia Calvo) - Speaker 1 Yeah.
+
+45:56 - Unidentified Speaker Cool.
+
+45:56 - Conference Room (Sonia Calvo) - Speaker 4 So that should be it.
+
+45:57 - Conference Room (Sonia Calvo) - Speaker 1 Thanks, man.
+
+46:00 - Jorge Lewis No worries. Thanks so much. It was lovely meeting you, Sonja and Lasse.
+
+46:03 - Unidentified Speaker Bye.
+
+46:06 - Conference Room (Sonia Calvo) - Speaker 4 Have a good day guys.
+
+46:07 - Unidentified Speaker You too.

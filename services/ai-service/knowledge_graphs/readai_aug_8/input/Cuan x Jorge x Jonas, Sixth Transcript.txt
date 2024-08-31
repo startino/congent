@@ -1,0 +1,338 @@
+Cuan x Jorge x Jonas, Sixth 
+Wed, May 15, 2024
+
+0:03 - Jorge Lewis My eyes are really blue in this lighting.
+
+1:00 - Jorge Lewis Bye bye.
+
+1:49 - Jonas Lindberg He's trying to join, I think.
+
+1:53 - Jorge Lewis Hello.
+
+1:56 - Jorge Lewis Hey, how are you? I'm good, and you?
+
+2:01 - Cuan Mulligan Yeah, not bad. I'm on a train, so the signal's a bit patchy. Yeah, it's a bit patchy, the signal. No, I wish.
+
+2:12 - Jonas Lindberg No, just beyond it.
+
+2:18 - Cuan Mulligan I'm gonna kill my video guys.
+
+2:22 - Jorge Lewis Yeah, no worries. Yeah, I was noticing that... Jonas, does this voice sound okay to you? Yeah, it was a bit buggy. It sounds a bit sped up.
+
+2:33 - Jorge Lewis Yeah.
+
+2:33 - Jorge Lewis So, if you don't mind, Kieran, just throw in some noise at us.
+
+2:42 - Cuan Mulligan Yeah, well, let's see.
+
+2:49 - Cuan Mulligan I'm struggling to bring it up and to have this phone call at the same time.
+
+2:58 - Cuan Mulligan So yeah, I can bring it up What All right, I'll open it up on the screen share.
+
+3:42 - Cuan Mulligan Can you guys see the screen? Yeah. It's coming in.
+
+3:49 - Jorge Lewis Yeah. Yeah.
+
+4:52 - Cuan Mulligan Sorry, two seconds. You're not showing your screen. You're showing sort of a very trippy version of all of your screens.
+
+5:00 - Jorge Lewis Can you see it now?
+
+5:08 - Jorge Lewis Yeah.
+
+5:09 - Jorge Lewis Okay, sorry, yeah.
+
+5:12 - Jorge Lewis So far, was that good? Was that correct, Stephen? Or, sorry, Cuan?
+
+5:22 - Cuan Mulligan Yeah, so let me...
+
+5:27 - Cuan Mulligan So the to-do list is...
+
+5:32 - Cuan Mulligan It shouldn't really be a massively new feature, but in terms of people adding in their own... I mean, in essence, a to-do list is the habits that they need to be done. One is that the system generates them, and the other one is that the user generates them. So that's the only variance here, but it's still fundamentally the same capability that you build.
+
+5:50 - Unidentified Speaker Okay.
+
+5:57 - Jorge Lewis Yeah. Jonas, do you want to, or should I explain kind of the thought process?
+
+6:05 - Jorge Lewis You can go ahead.
+
+6:06 - Jorge Lewis Yeah.
+
+6:37 - Cuan Mulligan the handy crush aspects, that's not, that's a much later phase. This is just a raw capability.
+
+6:51 - Cuan Mulligan Let's say somebody has said...
+
+6:55 - Cuan Mulligan I don't know if you guys can hear me. Let's say somebody says... Their plan is to finish eating by 7 p.m. Every day, and the coach is talking to them, and they keep on breaking that. They might say, actually, I want to change that to 8 p.m. So, in essence, that's the same technology, because you're going in and modifying the attributes of an existing task.
+
+8:04 - Cuan Mulligan Well, yeah, let's let's pare that back because This is just one feature set. Let's say we didn't do this.
+
+8:13 - Cuan Mulligan I don't understand how you... You pretty much have to be able to do this anyway in the core feature set.
+
+8:23 - Cuan Mulligan Because there's going to be a number of actions that the user has to track around Eat, Mood, Mind, and Sleep. They're the four categories.
+
+8:35 - Cuan Mulligan And so we have to be able to create what those milestones, or not milestones, but what those activities are. And they might be different for every user. So that is the same capability. The gamification aside, what I'm concerned about is that you guys have a different interpretation of the requirements than I do. So what I'd like to try and do is if you can go back to the Merle What I'm going to do is I'm going to talk through the end-to-end user experience as an example. Can you guys still hear me okay? I just want to make sure because I don't know if you're okay. So the user will hear about the service. They will then register on the website, which is separate from registering for a program. So registration on the website would just be username, password, very basic. We'd then ideally let the boss take over and say, hey, welcome to the thing. The next program starts the next number of weeks. Let's fill in your profile. And it would do some very basic profile filling in, like their weight, their height. We would then work out what their BMR is and their RMR and that sort of stuff. And the program starts. So underlying the program, there is a period of time. It could be an eight-week program. It could be a 12-week program. It could be a month of master class. It could just be that there's a program that is a variable of length, and it has a number of weeks, and it has content associated with it. That's just the whole elements. So at the end of every week is a theme or an objective. It could be mindset. It could be diet. It could be sugar. It could be movement. It could be zone 2 training, zone 5 training. The importance of exercise, what happens So on a daily basis, there is, you know, certainly let's say in the first eight-week program, and what I'm trying to get away from is an explicit feature set as opposed to building a capability. So capability gives us flexibility rather than it does this one thing. So what's important is that a person as part of the eight-week program will be given an activity, for example, you need to walk for an hour a day.
+
+10:59 - Cuan Mulligan And you need to not eat more than a number of calories, like 1,800 calories. So there's just two simple activities that everybody will get on the program. The mindset one will be listening to all of our content as a simple action. And then the sleep will be tracking certain metrics around your sleep. That's just the basic level of tracking. Does that make sense so far?
+
+11:34 - Jorge Lewis Which data are you talking about? Like, for example, the calories.
+
+11:40 - Cuan Mulligan Yeah, so they can either, there's two ways the user enters data. One is proactively and one is reactively. So proactively, they would go to the app and they would just go, you know, they could either go to the bar and say, hey, I'm just eating 500 calories. The bot would then record that against their profile for the day. They can go into the track section inside the site and put it in the meal and put in the more calories that way, or they don't put anything in. At the end of the day check-in, the bot can go to their profile and see what has not been done that they should have done that day and then say, What did you eat today? How many calories did you eat? What meals did you have? And it would ask them a number of questions around that in order to capture that data. So that's the sort of data capture aspect that's relatively dynamic because if we all got ten actions and I filled in nine of them, it would ask me about one. If you hadn't filled in any, it would ask you about all ten. Yeah. Then there is, there is this sense, and this is one is the coaching aspect, which I think is, I want to make sure we've talked about this with the conversational piece and the memory piece, but there's also attributes of being a coach where you're trying to encourage people, motivate people and drive them forward. So for example, if we knew that it was somebody's birthday next week, we'd be like, Hey, you know, you've got your birthday next week. You might want to.
+
+13:07 - Cuan Mulligan this in order to earn the right to go dirty on your birthday, as an example. Or it might say, hey, you've just done fantastic. You've started. You've done your one hour walk for five days in a row. You're two days away from a full week streak. That's awesome. So that level of achievement, achievement badges, milestones, is something that is absolutely critical to phase one. I'm not talking about the gamification of Candy Crush in terms of the to-do list and all that.
+
+13:46 - Cuan Mulligan This is very basic milestones, like, wow, you nearly finished the program and you've hit 50 miles. Wow, that's awesome. Well done you. You've done seven days in a row.
+
+14:05 - Cuan Mulligan And don't let your tracking slip. It's that sort of level of stuff. So like every morning, I've tracked my HRV. And I guess the first thing after I fill it in, I get a, well done you, you've just done 35 days in a row. Amazing. It stops there. I mean, there's the whole, there's a more advanced area that we want to get into.
+
+14:59 - Cuan Mulligan My sense would be, I would prefer it not to be sort of a hard coding value, but something that we could give some guides to say, look out for these types of things and so the code can pick it up.
+
+15:12 - Jorge Lewis Okay. Okay, so it's kind of in the middle, okay.
+
+15:42 - Cuan Mulligan Well, I suppose this is the question I have. I mean, this is in the mural. I think it's pretty well documented that we need to do this. It's on the bot section, and it's on the membership site section. This is the end of day check-in coaching.
+
+16:02 - Cuan Mulligan It's the end of day coaching check-in. It's on the neural process now. And it's a little bit concerning that this is missed in your scope workout.
+
+16:33 - Cuan Mulligan So that's our mistake.
+
+16:36 - Cuan Mulligan So what I need to get from you guys is a more explicit list of the features that we are going to get, rather than just the high level that was in the initial proposal. Because I think what this has demonstrated is that there is a gap. So before I can sign off any money, I need to have a very clear idea, because for me, it was in the the Yeah, I mean, basically it's your high level backlog.
+
+17:49 - Jorge Lewis So with that in mind, we can probably complete that today and send it to you later today. How does that sound?
+
+17:57 - Unidentified Speaker Perfect.
+
+17:58 - Cuan Mulligan And again, if you need to jump on it, I'll be off this train in an hour, so if you Let me just give a high-level run-through of everything in my head and see if anything else dings for you. That you may have missed. So yeah, we would want the bot to be aware of context. So for example, oh, the weather's going to be bad, where the user is. So it might say, hey, wrap up warm today or be wet on your walk.
+
+19:06 - Cuan Mulligan being used to be aware of angel milestones coming up to celebrate people. It will try to protect any sort of streaks of recording activity. And it can be proactive or reactive on tracking data, and it will coach them, and coaching is a very variable thing, but this is something that we would want to be able to train the bot to do. It's a raw capability that we would need to train and educate over time in terms of what we mean by coaching. It's a very difficult term to define, or it would just be, you know, capabilities of training. There's end of day, there's milestones, we want them to be aware of the context of the course, so they can answer questions about, what do you mean by this? Help me understand that a bit more.
+
+20:06 - Cuan Mulligan Yeah, registration profile filling in.
+
+20:12 - Cuan Mulligan Yeah, I mean, LMS contact, I've been able to manage content that is available on a drip bed basis on different days. Content being video, text, links, video, audio, imagery, PDFs. Yeah. So, okay, so.
+
+20:31 - Cuan Mulligan Audio is really poor.
+
+20:54 - Jorge Lewis the past probably 10 seconds was inaudible.
+
+20:58 - Unidentified Speaker Yeah.
+
+21:08 - Jonas Lindberg Last thing that you talked about was the LMS that we could hear.
+
+21:17 - Cuan Mulligan Okay. So I'm sorry. I don't know what you can hear me now.
+
+21:20 - Jonas Lindberg Yeah, we can hear you.
+
+21:22 - Unidentified Speaker Yep.
+
+21:24 - Cuan Mulligan So yeah, the LMS, I think, is just straightforward, where we can add up content, which is videos, docs, links, images, whatever, usual content, allocated to days. It has a shelf life that might disappear after a number of days when we say persistent. So it's standard sort of drip-fed stuff. There's nothing in a bit of there. You just need a simple interface to manage content in the background.
+
+22:01 - Unidentified Speaker right?
+
+22:06 - Jorge Lewis So the drip feed, make sure the user has the correct access they should have, yeah, giving you access to upload content, all that.
+
+22:34 - Jorge Lewis their sleep and then track that on a daily basis, right?
+
+22:45 - Cuan Mulligan Yes, that's absolutely a good question.
+
+23:15 - Cuan Mulligan And
+
+24:36 - Jonas Lindberg I think the mems will take most time. We'll have to create a page for tracking calories, page for tracking movement. The tracking mind is easy because it's just LMS. And then page for tracking sleep. So just all of those.
+
+24:53 - Jorge Lewis What do you mean page?
+
+24:57 - Jonas Lindberg So you open your phone and go on a website. That's a page. In that page, you can track sleep. Then you can go to another page where you can track like food, you're eating calories, go to another page, you can track how much you've moved.
+
+25:12 - Jorge Lewis Wouldn't it make sense if it's all just in one day, like a daily form?
+
+25:17 - Jonas Lindberg Sure, yeah. He seemed like he wanted pages.
+
+25:45 - Jorge Lewis These are not how many calories they're eating a day.
+
+26:26 - Jonas Lindberg So now, like, in the initial scope, just a number they enter. The rest, it's time to see things on top.
+
+26:32 - Jorge Lewis But I don't think that the user knows a number.
+
+26:35 - Jonas Lindberg No, like, for the MVP, they don't. It's not real users, it's just testing if it's possible, and if they don't know the number, there's probably some other solution. It's not necessary to prove the concept.
+
+26:46 - Jorge Lewis Ok, I'll have to ask him on that, because it seems like he wants that to be just a normal thing.
+
+27:02 - Jonas Lindberg Yeah, of course, but how we make it more easy to track calories is later.
+
+27:14 - Jonas Lindberg But I mean, there's... Just numbers, I think. Just enter a number, that'll save us a lot of time.
+
+27:19 - Jorge Lewis Yeah, but I mean, that number won't be useful at all. The user will have no clue.
+
+27:37 - Jonas Lindberg like creating, using a database of food items and their calorie levels and then having that on the website will take at least like a couple days.
+
+27:46 - Jorge Lewis Yeah.
+
+28:32 - Jorge Lewis Gathering results from that because I just don't think the there's any viability of the user inputting calories unless Yeah, like Microsoft Teams, I think is just the best one. Yeah, I think they're the best for bad Wi-Fi.
+
+29:57 - Jonas Lindberg Have you accepted them or is he like stuck on your please accept?
+
+30:03 - Jonas Lindberg No, he's just not here yet.
+
+30:06 - Jonas Lindberg I'll create a new link. You need to close your toilet door.
+
+30:35 - Jonas Lindberg But yeah, you said the scope probably wouldn't change at all, that it would be identical. That was an eek for me.
+
+30:44 - Jorge Lewis It's identical to the 10 weeks.
+
+30:48 - Jonas Lindberg One more week for both the MEMS system and the TODO. I think that's two weeks.
+
+31:03 - Jonas Lindberg The functionality I think will be more user-based.
+
+31:06 - Jorge Lewis I think the functionality of the to-do will become easy because of the mems. What's the acronym for the other one? It's like three M's.
+
+31:14 - Jonas Lindberg Movie, Eat, Sleep, Mind. Oh, it's Mezum.
+
+31:22 - Jonas Lindberg It's he typed the wrong one too. But yeah, the last one I sent to you Mezum, Movie, Eat, Sleep, Mind.
+
+31:40 - Jonas Lindberg Hm.
+
+31:43 - Jonas Lindberg Do we do a kickoff today, then, or? Oh, Jorge just left. Oh, hi.
+
+31:56 - Jonas Lindberg Don't worry.
+
+32:01 - Jonas Lindberg Oh, he's given another link.
+
+32:04 - Jonas Lindberg Yeah, I think I told him to join back. He just said like, okay, I sent the other link and I left and then you joined at the same time.
+
+32:12 - Cuan Mulligan All right. No worries. Um, I want to, I want to kill my videos.
+
+32:17 - Jonas Lindberg Yeah, maybe us too. We may want to kill our videos just to improve the network.
+
+32:24 - Jonas Lindberg Sure.
+
+32:46 - Cuan Mulligan Yeah, so you're right, it is a big issue. So when someone registers, they will be asked questions by the boss or they'll fill it in on the form, which basically says what is your age, what's your sort of, there's various steps to working that, what's called your basic a metabolic rate, your BMR, and that would be your standard calorie consumption for maintenance. And then we would have a minimum of 1,200. There will be an absolute limit. We would basically never say anybody goes under 1,200 a day. So there will be a target established for each person. And then we would suggest applications like Cronometer, MyFitnessPal, where they can put in their foods, and then that would give them the calories which they would enter into this. And again, once you've done that for a week or two, once you've done that for a week or two, you broadly know what it is. Now, where we'd like to get to in the future is using the new visual abilities of the GPTs, is for them to take a photograph of a place And it basically gives you a good enough estimate of all the calories on the plate.
+
+34:27 - Jorge Lewis No, not yet.
+
+34:28 - Jorge Lewis I'll give it a go and let you know actually.
+
+34:48 - Cuan Mulligan Yeah, it's manual at the moment, so there's metrics for time you go to sleep, time you wake up, and your subjective experience of the quality of it in phase one, so it's very simple. With all of these areas, we want to have some visualization of charts so people can see their trends over time, so for example, for sleep quality, we would be saying, right, how consistent are they going to bed at the same time, waking up at the same time, disruptive of that, is there any correlation between your walking and sleep, just subjective experience of sleep and diet, you know, so there is a set can see around each of these four areas around how good they're doing.
+
+35:43 - Cuan Mulligan Now it's in the application dashboards under the Adapt Journey website. It's also in the wireframe as well. In the wireframe you mean the The wireframes are in the Google presentation document.
+
+36:32 - Cuan Mulligan There will be a, yeah, no, absolutely.
+
+36:36 - Cuan Mulligan Every person who comes in will go through at least an hour's phone call, coaching call, to help them connect to understanding why they're doing that. We would like the, this is what we talked about, the immunity to change, where we can do some work with people to understand what's getting in the way.
+
+36:57 - Cuan Mulligan I just want to try this.
+
+37:13 - Cuan Mulligan Yeah, maybe not. Most people are very techy and illiterate, so there's no guarantees that they would. But I think that's something that we'd like to be able to do in the future. So the fact that we're building a native application gives us that option in the future, but that's something that we need to take today.
+
+37:34 - Unidentified Speaker Yeah.
+
+37:35 - Jorge Lewis Okay, cool. Any other concerns from you, Jonas?
+
+37:40 - Jonas Lindberg No, not really.
+
+38:21 - Cuan Mulligan It's not either or, it's both. So a person may log into the app and put it in themselves. They may log into the app and tell the browser.
+
+39:22 - Cuan Mulligan Cool. Did you see the screenshot as well?
+
+39:26 - Jonas Lindberg Yeah, for the marketing show.
+
+39:30 - Unidentified Speaker Yeah.
+
+39:32 - Cuan Mulligan Okay, so the idea is that If we can do this use case with uBots, then the rest of the solution is just multiple instances of this thing. And so we wanted to identify a very discrete use case. So the use case for this is running a brand values exercise with a new startup. So what that means is, what do you stand for? What are your values? And then that would impact your, you know, your tone of voice, your marketing, you know, what you stand for, all those sorts of things. Does that make sense?
+
+40:15 - Jorge Lewis I think it was like two weeks ago, I had to do this myself without any help. So I'm quite familiar with the process now, or at least a little bit.
+
+40:25 - Cuan Mulligan Yeah, exactly. So it's not massively innovative, but I've facilitated these for years, so has JP, so has Arif. So the idea would be is that you'd have a, and again, this is our concept, you may have from an architectural and a technical point of view, a different way of doing this, but this is where We're sort of our current headset is so you would have a facilitator box Facilitator box knows how to run the process from A to Z. It knows all the steps It's happy to go around various steps and it knows It knows what the completion of a step is and before it can move to the next steps It's really really good of doing that and
+
+41:08 - Cuan Mulligan As it's producing stuff in real time, the analyst bot will be looking at the outputs and either going to the market or going somewhere to analyze the integrity or the usefulness of that. So for example, today, that would be JP.
+
+41:30 - Jorge Lewis Okay, what is it, you said, and go to market with the values or?
+
+41:39 - Cuan Mulligan So it might not You're a health startup, and your values are integrity, honesty, and something like this. You might then go and do some market analysis in real time, and go, actually, here's another company, which is also in the health space, and exactly the same values. So while they're okay values, they're not unique.
+
+42:14 - Cuan Mulligan process, the analyst bot is then looking at applicability to the market as an example, and the parallel strategy bot will be looking as do those values align to the strategy that would have been an input into this process as an example. The idea is if we can get these three bots dancing with each other, And we did a lot of research yesterday. There does seem to be other people doing this, not in the marketing space, but doing it in the engineering space. So basically, you end up having a number of coders and testing bots working together to produce software. And it's very embryonic at the moment. I think, you know, bots doing 100% unassisted coding is not viable right now, but the concept is still true. So what we wanted to do was figure out you guys is how quickly could we do a proof of concept where we would have these three bots, where JP would then educate those bots on how to do their piece of the puzzle, and then have them dance with each other in order to get to an outcome. Because if we can prove those mechanics, then we can just repeat the pattern across different steps of his framework that he wants to use.
+
+43:46 - Cuan Mulligan So if you got, again, it might be a bad example, but the idea being is that if you've got a marketing strategy, which is to, you know, I don't know, I'm running out of ideas, but it would just have a different agenda to achieve.
+
+44:54 - Cuan Mulligan Sorry, can you say that again, the first part of your sentence?
+
+45:25 - Unidentified Speaker Sure.
+
+45:30 - Cuan Mulligan Okay. Did you just send one?
+
+45:33 - Jorge Lewis Yes.
+
+45:36 - Cuan Mulligan And I'll...
+
+45:41 - Jonas Lindberg Fundamentally to me it sounds like a plan that will work and the specifics of the bots would be more optimized over time than be perfect from the start.
+
+46:25 - Cuan Mulligan the in any way intended to be the solution.
+
+46:34 - Jorge Lewis Yeah, it makes sense.
+
+46:38 - Jorge Lewis Jonas, what about you? Does that sound cool? We can hop in a call sometime and try to just brainstorm.
+
+46:44 - Jonas Lindberg What would be really useful for that brainstorm session would be, Cuan, if you could give us basically the step-by-step process of like each action item that you go through to like through the entire interaction with a client because I think what will probably be optimal here is having multiple group chats that take place in succession. So instead of having one that tries to do the entire thing, which can often lead down to inaccuracy over time just because of the butterfly effect, instead have one pipeline for one process, another pipeline to determine the next thing, and another pipeline.
+
+47:28 - Cuan Mulligan That probably won't be feasible, because if I was to dictate how to facilitate the session, it would probably take me about a week, solidly, to define how that works. And maybe I'm wrong. The idea is...
+
+47:43 - Jonas Lindberg There are overarching steps. So first, one of the tasks can be to determine the values that the company is proposing. And that will run for one group chat. So all those overarching steps, instead of telling one agent to do the entire thing, then it's giving you a task at a time.
+
+48:04 - Cuan Mulligan Sorry, but that's what we're trying to suggest here, is that the facilitator bot is its own agent, and it's just running the process. As that's producing content and dialogue with the user or users, the analyst part is watching that content and taking things of interest and then independently going and doing its own analysis and then coming back to that meeting and saying hey you said x I found something on the industry that says y so that's exactly what would happen in a meeting like if you go into a marketing agency you're going to have multiple people around the table you're going to have somebody running the meeting and as stuff evolves and emerges during that meeting you're going to put the people going i've heard about that before this is the only thing over here that's really interesting we should do that so These bots are participants in the meeting. They're not running the meeting. That makes sense. So yes, they would be looking and taking the content and then feeding ideas into that process as well.
+
+49:02 - Jonas Lindberg Looking at the example you sent, I think the mission statement workshop would be one group chat. And then the conclusion from that group chat would pass on to values identification workshop. Having like the more scoped you can have the task, the better the agents tend to perform. And of course, like they'll still be working off each other. There will be the three agents, one will be running the meeting and all of that, but it'll just be scoped to one overarching task at a time, if that makes sense.
+
+49:46 - Jorge Lewis Yeah, so.
+
+50:34 - Cuan Mulligan Let's take a step back. So this is not a strategy. That would be a pre-existing document.
+
+50:40 - Jonas Lindberg You're cutting out for me?
+
+50:43 - Cuan Mulligan Let's say we take Tanya and my sister. Can you hear me now?
+
+50:50 - Cuan Mulligan Yeah, should be. 1, We are Yeah, 1, 2, then 1, cut out.
+
+51:09 - Jonas Lindberg Yeah, it's completely out now.
+
+51:15 - Jorge Lewis A new Discord.
+
+51:19 - Jorge Lewis Discord group chat call?
+
+51:29 - Jonas Lindberg I think you can probably organize the overarching things with Cuan then.
+
+51:42 - Cuan Mulligan Can you guys hear me now? Yeah, yeah.
+
+51:48 - Cuan Mulligan Okay, let me try again. Okay, so imagine my sister and my wife, who are owners of Adapt, and they've just started it, and they're trying to figure out what is the, they've read that they need to figure out what their brand value is, trying to get the brand of the company.
+
+52:09 - Cuan Mulligan J.P.' 's company, and they would click on a button saying, establish your brand values. And they'd go, great. So the first boss would then say, hey, welcome. We're going to run a workshop. It's going to take about an hour. And please make sure that you've got access to the internet. And I would set up some contacts and say, OK, cool. So I'm now going to show you. Words on a screen, so my sister would see them, my wife would see them, and I said, and I want you to, it's going to be, let's say, two words, and I want you to click on the words that you feel are more important to you than less important. So there will be a word, two words have come up. Um, there's a really good, there's a really good, uh, car game I used to use with clients called the brand deck that does this. So I have all the content for this. And so you basically just go, we are more of this than we are that we're more of this than we are that. And so you end up having all these words and you're just clicking them. Yeah. And so you end up having a pool of words that I picked that Sonya picked and my sister picked, and then you say, right.
+
+53:16 - Cuan Mulligan be a review of that and say, right, here's the top 10, here's all the words that you've all picked. Here's the themes of those words. And then there'll be some digestion of those words to say, right, you know, what makes this good? If you want like between three and five words that really, really speak to you. And so the facilitator would be grouping those, trying them on, going backwards and forwards until you get to the people who are comfortable in parallel. Again, maybe the context doesn't make sense of this. The analyst bot will be looking at those, looking at the industry, doing something else in parallel, going, you know, are they compatible? Do they make sense? And we can figure out what the right role for these other different bots are. Maybe the strategy bot doesn't make any sense in this meeting because you're not, you know, any values can be aligned to a strategy, so there's no way to discern good ones or bad ones. The idea just wasn't one of multiple bots playing a role to see if we can get it to work. Then you would take those grand values and then the next part would be to figure out what is your mission statement. And what we would do is we would each write for 10 minutes just everything and everything that comes to mind about what we're trying to do, why we're trying to achieve it. The facilitator would then take those three and distill them down into sort of five key sentences and saying, based on what you've said, This is the five key sentences or objectives you're trying to achieve. Now, then I would take them and I would rewrite them with the values, the brand values that they talk about. And then you'd have five areas. We would do some round of voting or trying them on and just a backwards and forward conversation to the point where you've got a single line item. So for example, with Adapt, the strapline that we've done so far we don't have the second half that is adapt is about preventing the preventables so that something we don't have the second half not sometimes So when I used to do organizational design, my strapline was, I want to create organizations that I'd be happy for my kids to work in. That was my litmus of success when I went in and did organizational design. And when I would say that to people, they'd be like, shit, I totally understand what you mean. I know the standard I would want for a company. And by the way, there's very few companies I'd be happy for my kids to work in because most of them are fucking shit.
+
+55:52 - Cuan Mulligan good strapline is, it's emotive, it's understandable, it's punchy, it's very clear what it is. So the outcome of this workshop is their line, so you've got your brand values and you've got your brand mission. Once you get those two things, this workshop is finished. This workshop is completely finished. So you might have a copywriter bot who's taking those brand values, seeing what they said no to, seeing what they said yes to, also looking at sentences that we came up with, the voting that we said, everything that we said in the meeting, and then draft 10 versions of those sentences. And so that's why you've got different bots doing slightly different things and contributing to the workshop in a very dynamic way.
+
+57:03 - Cuan Mulligan there'll be a number of bots, so imagine in the end solution, I would basically create the concept of a workshop. Within a workshop, I can create inputs, I can create bots, and then each bot would have a role, and we would generate personalities, and we would have prompts against that bot.
+
+57:29 - Cuan Mulligan What I don't know, and this is probably a question for you, Jonas, is can a bot follow an actual process? Because for me, bots are very emergent. All they're really doing is guessing the next best word. So can we actually get to the point where a bot will formally follow a process that has multiple steps and really drive to an outcome?
+
+57:52 - Jonas Lindberg Yeah, that is possible, yeah.
+
+57:57 - Jonas Lindberg So that's why I mentioned having multiple group chats for each overarching points, because that ensures that the overarching points get, like, yeah, that they go through them, because if there's a process within a process, that's when they usually start
+
+58:14 - Cuan Mulligan to struggle. Yeah, you tell us the best way of achieving these items, but what we're trying to do is strip away, what we're trying to do is, is do a proof of concept on this, see if we can get it to work. If we can get it to work, then you'll get a lot more business from JP in order to build out the full product.
+
+58:39 - Cuan Mulligan So the question I have for you guys is, what is the quickest, dirtiest proof of concept? Because this proof of concept is never going to see the light of day. He might show it to people just to bring it to life, but he needs to know that you guys can build something that's going to let him achieve his vision.
+
+59:13 - Cuan Mulligan No, proof-of-concept is just as we're built with WordPress.
+
+59:16 - Jonas Lindberg Okay.
+
+59:17 - Jonas Lindberg Could you send an example workshop that you want us to proof-of-concept? Like, just your outline of it?
+
+59:25 - Jonas Lindberg What I just talked through.
+
+59:27 - Jonas Lindberg Yeah, it could be that or any, like, just a workshop that you want us to...
+
+59:32 - Jorge Lewis We'll do that one, yeah. Go on, Ian.
+
+59:38 - Cuan Mulligan into getting brand values and a mission statement for a small startup.
+
+59:42 - Jorge Lewis Yeah. Okay, cool. So, does JPA have Discord?
+
+59:50 - Jorge Lewis I'm sure you can install it very quickly.
+
+59:53 - Jorge Lewis Yeah. So, we have a group chat on Discord just now. You can add him to the group chat and we can go through with the discussion there.

@@ -1,0 +1,248 @@
+Meet Meeting 
+Fri, Jul 5, 2024
+
+0:04 - Jorge Lewis This sure isn't, you know.
+
+0:09 - Unidentified Speaker Cool.
+
+0:17 - Eksno Is he going to be joining for the next meeting or just this spring?
+
+0:22 - Jorge Lewis Probably just at least two and then at least one of me and you and then ideally in May.
+
+0:51 - Cuan Mulligan JP's coming back in I Think we were going we're wrapping up anyways Well, no, we're not gonna do like 20 minutes now on figuring out what's next Yeah.
+
+1:06 - Jorge Lewis Okay. I mean, we could do that as well, but ideally Cuan was here, but yeah, I mean, it's reported, so.
+
+1:12 - Cuan Mulligan Well, I can't do Monday. You're not around unless like, what are you going to, if we don't, if we wait till Wednesday to have the conversation, that's just like, it just feels like we're super slow.
+
+1:24 - Jorge Lewis Tomorrow I would have time around, uh, around 12 PM VST.
+
+1:33 - Cuan Mulligan I don't know what that is in the UK.
+
+1:36 - Jorge Lewis Oh, that's your, that's your time.
+
+1:37 - Jorge Lewis BSTSU.
+
+1:39 - Jorge Lewis Oh, British Standard Time.
+
+1:42 - Eksno 12 PM or AM?
+
+1:43 - Eksno 12 PM.
+
+1:45 - Eksno Military time. What's that in military? The 12 is always confusing.
+
+1:48 - Eksno Is it 12 or 24? Noon. Okay.
+
+1:52 - Jorge Lewis Um, I have, I have a couple, I think I have two interviews booked and that's all, but I can move them to what I learned.
+
+2:09 - Cuan Mulligan So let's just get first aligned at a high level, um, in terms of, uh, let me just do this. I'm going to just start doing this now.
+
+2:24 - Cuan Mulligan So you can see my screen.
+
+2:34 - Jorge Lewis Um, so I do have another meeting to get to. So yeah, it was 20 minutes. Keep it sharp.
+
+2:48 - Cuan Mulligan Um, well, you can drop and I'll work with Jonas.
+
+2:51 - Jorge Lewis Okay. That works.
+
+2:52 - Unidentified Speaker Yeah.
+
+2:54 - Jorge Lewis All right. Cool. Um, I'm going to check if read AI leaves, because I do want to do the recording. So nice seeing you, Kevin. Hopefully, I'll see you tomorrow sometime, or at least really soon. Yeah, no worries.
+
+3:03 - Cuan Mulligan Have a good day, guys. Cool. So when I'm testing it, let me delete this, and I'll just show you what I'm doing.
+
+3:21 - Cuan Mulligan So I might go, I just walked five kilometers. Let's just say that happens there.
+
+3:31 - Cuan Mulligan And I'm still learning, by the way, how to test this.
+
+3:40 - Cuan Mulligan So great. Let me update your check-in with the five kilometer walk. I don't understand why it said AI missing name. I don't know why it said give me a moment. And then why?
+
+3:55 - Cuan Mulligan So this is the congratulations on the back of that. But I don't understand why it said give me a moment. And then let's get your check-in updated. Did you consume any calories? If so, how many? So I would then go into Admin, go to Chats, go to Kuhn Mulligan. And I would say that's a bad response.
+
+4:20 - Cuan Mulligan I would say, while I have you here, how many calories have you had today? I don't need to do the what was wrong. It doesn't work.
+
+4:46 - Cuan Mulligan Go back, delete.
+
+4:53 - Cuan Mulligan I just walked five kilometers.
+
+4:59 - Cuan Mulligan So why is it doing this? Give me a moment. Do you know that?
+
+5:11 - Eksno The message you reviewed was the one Andrew gave me a moment ago. There are two different parts here, the collector and the coach, and then one back to the collector. You reviewed the final message, which you can see it, actually listen to the review you said, while I have you here, how many calories have you had today? The reason it's saying me a moment is probably just due to bad prompting. Currently, it's thinking of itself as an assistant that's interacting with tools for you instead of a coach that just happens to be able to have the same data. It's talking as if it's a tool rather than a person.
+
+5:49 - Cuan Mulligan Yeah, so if I looked here, I just wrote 5k that says user human. These are all AIs. It thinks these two are human.
+
+5:58 - Eksno And this is human, but the type is just for internal debugging. You don't have to think about the type. The name is the more important one.
+
+6:08 - Cuan Mulligan Why, if I'm type human, why is this type human? This should always be type AI.
+
+6:15 - Eksno like internal data structure that we use and giving it the type of human is a trick when working with multi-agents.
+
+6:27 - Eksno It's just for our own testing. You don't have to care about the type. That's just for us to verify things are working correctly. The most important thing is the name.
+
+6:37 - Cuan Mulligan I do get these errors all the time popping up to do with a listener indicated asynchronous response by returning true.
+
+6:47 - Eksno I'm not sure what that error is, but just generally in web development, you'll just have console errors all the time. Like if you open Google Docs, there will probably be console errors.
+
+7:06 - Eksno I don't know.
+
+7:07 - Unidentified Speaker Okay.
+
+7:08 - Eksno I say, yeah. I want to see if the give me a moment is some unique message or if it's part of the original message.
+
+7:15 - Cuan Mulligan Sorry, say that again. Your audio is a bit difficult to hear.
+
+7:17 - Eksno Let me try to change it. You may be.
+
+7:24 - Eksno Tell me if you can hear an echo, Jorge, in the background now. Is my audio better?
+
+7:28 - Eksno Yeah, that's much better. OK.
+
+7:34 - Eksno In the review interface, could you check if give me a moment is actually a unique message, or if it's just a new paragraph in the same message?
+
+7:43 - Cuan Mulligan It's giving me three updates here, which is...
+
+7:47 - Eksno Oh, there seems like there's a lot of delay in the microphone. You responded to what I said like 20 seconds after.
+
+7:55 - Eksno What do you want me to do here? Give me a moment to click bad response.
+
+8:15 - Eksno Yeah, you can see that that's actually one message. So it's just bad prompting. You could remove the give me a moment, then Control-A, Control-C into the improved response, and it may improve.
+
+8:27 - Eksno Yeah.
+
+8:44 - Eksno I wouldn't include that I have recorded your 5km walk for you if you wanted to not say stuff like that. Just, great job, Cuan. Could be enough.
+
+8:54 - Cuan Mulligan No, no, no. I wanted to say that.
+
+8:56 - Cuan Mulligan Oh, OK.
+
+8:57 - Cuan Mulligan Yeah. Because you're saying, I've done some. I've now taken. So you've done your 5k. I've recorded that for you. OK. Yeah, we absolutely want that.
+
+9:06 - Cuan Mulligan Yeah.
+
+9:07 - Cuan Mulligan So if I do this now.
+
+9:25 - Eksno Still saying give me a moment.
+
+9:34 - Cuan Mulligan Yeah, so this is the bit I don't understand why the good response, bad response sometimes doesn't seem to take effect. But if I go into the prompt, then it would.
+
+9:48 - Eksno So I'm assuming if I go into the chat, Yeah, the prompt will be a more reliable way to guarantee an effect outside of specific scenarios where reviews excel. I think over time reviews will be much better because currently there's a very limited number of reviews, which means when it's fetching examples, I think it's fetching five examples, and that's basically how many reviews currently exist, minus a bit, so it may be getting totally irrelevant examples. But if you build it up to 50 reviews, then all the examples should be pretty relevant.
+
+10:24 - Eksno So which AI is this one, the top two?
+
+10:29 - Cuan Mulligan I wanted to change either of these. I would go into the relevant prompt box, but I don't understand these.
+
+10:38 - Eksno Yeah, I see. The review probably didn't work, as you can see that name missing or AI missing name bug has happened. So I think the review got assigned to an error agent, basically.
+
+10:54 - Cuan Mulligan So which one of these? I don't know if you're following me.
+
+10:57 - Eksno I think it's the collector. Because the collector is the one that updates data.
+
+11:02 - Eksno But this one says collector. Why is this one saying list?
+
+11:06 - Eksno I'm not sure. That's something I'll have to go into, look at the logs and run myself to fix.
+
+11:15 - Eksno I heard from Jorge that it's a lang chain bug. Sometimes it just doesn't get the correct name, and we'll have to look into why. OK.
+
+11:26 - Cuan Mulligan Right, so if I do here. So yeah, I mean, what I'd expect to do, this is very transactional about collecting the data. What I'd like to try and do is turn this into a coaching session. So what I want to do is like, hey, just want to check in with you proactively. It would be nice to, I know I can just say, Just to type in, hi, and say, great to hear from you. I'd like to try and do some stuff. How are you finding today? I see from your profile that you've entered in your eating, but you didn't tell me, did you get a walk today? So what I don't know at the moment is what's in the database for my profile versus not. So if I go in here. If you can see, where is it here? If I go back into Table Editor, and I go to Profile, it's not coming. So where would the check-in, where is the, so in my view, in, I think it's actually in this table here. So these are check-ins for me. I've got distance walks, calories, and watch video. And they're all null. So even if I run that again, I've just checked in, and nothing's been written to my profile.
+
+12:57 - Cuan Mulligan I can't hear you. You're on mute.
+
+13:01 - Eksno 2 to finish a check-in, just filling out all the data as it expects it.
+
+13:09 - Cuan Mulligan 1 Yes, I watched the video.
+
+13:20 - Cuan Mulligan Five colors.
+
+13:23 - Unidentified Speaker Oh.
+
+13:25 - Unidentified Speaker Okay.
+
+13:50 - Eksno Some little bug there.
+
+13:52 - Eksno Yeah, I haven't gotten that one before gateway time Did you reload and try to send it again?
+
+14:04 - Eksno Should I delete the chat?
+
+14:08 - Eksno Um, yeah, I think so it probably started that Yeah, we're currently working on the error handling so that it doesn't just break the chat. 120.
+
+14:55 - Cuan Mulligan Yeah, it's crashed again.
+
+14:59 - Eksno And this time it was just an error.
+
+15:02 - Eksno We'll check that.
+
+15:11 - Eksno Yeah, so I think I can get to that afterwards, debugging and fixing that, but get back on track with where we're aligned, where we're moving forward, definitely fixing those errors. And then afterwards, I'm thinking we're going to move over to the high level graph so that you can engage with it at different times of day, which induces different behavior so that currently it's just entering a check-in, the check-in state immediately, always. So you're always in the middle of a check-in. We want to take it out of that, where there's a general shedding mode, where you can enter the check-in. And depending on what time of day, it doesn't ask for every single field like it is currently.
+
+15:58 - Cuan Mulligan So if I go in here, so you're going to do update the graph. To allow chat engagement at any time.
+
+16:26 - Eksno The most recent picture I sent in the dev is more like showing how it's going from just being the check-in box to being like a high-level graph where it can go between different states. So yeah, that's what we're thinking of working on next. Onboarding was just kind of an example of one of those states that we'll cut out. Now it'll be just the shedding state and the check-in state. And then hopefully have a smooth transition between the states where the user can, for example, just update one item in their check-in. Not one day they wake up, like, say, I slept. I went to sleep at this time and woke up at this time.
+
+17:02 - Cuan Mulligan Yeah, how difficult is it to be dynamic with the things that they're checking in on? At the moment, it seems hard-coded to distance walked calories and sleep hours, but we might want to change that. Well, I do. Well, sleep is wrong. We want to track distance and time for sleep or for walking now, but we want to change something else. Is there a way that that's configured? By me, or does it always have to be hard-coded by you guys?
+
+17:28 - Eksno Yeah, I was thinking of that, changing the format in the database from being the columns that each have their own data type to just being one JSON binary that you'll be able to modify in the admin interface, the schema of this JSON binary of what is the data and what are the data types. And then in the tool, we'll have to prompt it with that. Of course, this has all of that overhead, but I think that overhead will be worth it, because I imagine that the check-in data and the data points that you want will change a fair bit over time.
+
+18:12 - Eksno And by that way, you'll be able to have a page in the admin panel where you can edit the check-in items that it'll try to get. Maybe even you can enter the time range on when it should be trying to get those items and things like that.
+
+18:34 - Cuan Mulligan So realistically, how long do you think it is for the next release, because if you need four or five days and that's fine, but I just want to set expectations in terms of there's not really much point in me testing anymore until those errors are fixed and we get the next sort of set of capabilities.
+
+18:54 - Eksno Effectively, each release is every day, because we're constantly pushing updates, constantly pushing bug fixes. So yeah, to have a next release, that'll be more dependent. It'll be more estimations of when we'll have a feature, if that makes sense.
+
+19:11 - Cuan Mulligan Yeah. So that's sort of what I meant. But when do you think you'll have that sort of chatting feature?
+
+19:21 - Eksno Just chatting feature?
+
+19:25 - Eksno I figure just by the end of next week, yeah.
+
+19:30 - Cuan Mulligan Sorry, by the end of the week, during the week?
+
+19:34 - Eksno Hopefully during, but yeah, during next week, yeah.
+
+19:42 - Cuan Mulligan Okay, well then that's fine, man. You guys just work on that. If you get stuff during the week, let us know. We'll continue to sort of test it a little bit here and then and see how it goes.
+
+19:52 - Cuan Mulligan Yeah.
+
+19:54 - Cuan Mulligan Cool. I think that's it. I think we're good to go.
+
+20:00 - Eksno Yeah, perfect. What do you think about the check-in items? Should we just take the short approach currently of just updating the base points to correcting the sleep time? Or the more overhead approach of making it JSON and then exposing it in the Admin panel?
+
+20:23 - Cuan Mulligan And what's the efforts associated with that?
+
+20:31 - Eksno A figure of probably two days.
+
+20:36 - Cuan Mulligan I mean, we know that we want to have the ability for the user to also add their own items to track anyway.
+
+20:41 - Cuan Mulligan That's true.
+
+20:42 - Unidentified Speaker Yeah.
+
+20:46 - Cuan Mulligan And if we have that, we can tweak those things and get it right without having to bother you guys. So if it's only a day or two, I think I would invest in doing that because it's just going to allow us to do more things without having to bother you.
+
+21:05 - Cuan Mulligan Once you have that in the profile, you can then track nudges, reminders, tell me about water, tell me about coffee, all those different scenarios.
+
+21:22 - Eksno being able to add our own items that will have to be adjacent eventually. So it's better to get that done soon instead of waste time on manually updating its database fields.
+
+21:31 - Eksno Yeah, I agree.
+
+21:36 - Eksno I think we'll prioritize that first, and then afterwards, take care of the high-level grid.
+
+21:43 - Eksno So implement the just chatting and the check-in and the transition between those. I see that. Yeah.
+
+21:52 - Unidentified Speaker Yeah.
+
+21:53 - Eksno Anything else?
+
+21:54 - Unidentified Speaker No.
+
+21:56 - Cuan Mulligan We are going to do the...
+
+21:58 - Unidentified Speaker Adding the ability...
+
+22:01 - Eksno Adding the ability to...
+
+22:02 - Eksno The tracking items. And updating the graph. Okay, cool. All right, cheers, man.
+
+22:23 - Eksno Cheers.
+
+22:24 - Unidentified Speaker Bye-bye.
+
+22:25 - Eksno I'll see you.

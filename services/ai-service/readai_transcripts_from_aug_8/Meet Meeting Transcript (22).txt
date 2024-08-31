@@ -1,0 +1,296 @@
+Meet Meeting 
+Mon, Jul 15, 2024
+
+0:01 - Eksno you reloaded the page, sorry. Of more like our position right now, and I would like more have a dynamic meeting where we try to like figure out what's best for that and how we can best move forward where there's as little overhead as possible. Sure. With addendums for like small features and changes in vision and all of that. So just an open discussion, basically. And then tomorrow, I'd like to have a meeting more with everyone where we more finalize everything.
+
+0:39 - Eksno So the document I sent you is the original design spec that was sent along with the contracts?
+
+0:46 - Eksno Sure.
+
+0:48 - Eksno At that point, when we evaluated how long the project would take and estimated everything, it was more of a POC, no user authentication or anything like that. It was just spearheads into the AI bots.
+
+1:03 - Cuan Mulligan No, this was not a proof of concept. This was definitely never a proof of concept. Those proof of concept words were never used, not for ADAPT. For IntelliAgent, yes, but never for ADAPT.
+
+1:16 - Eksno Yeah. So you can see that there's no user management or user authentication or anything like that within the design specification?
+
+1:39 - Cuan Mulligan Yeah, I can see that's missing. That's a concern. OK.
+
+1:44 - Eksno Yeah.
+
+1:48 - Eksno Of course, like a lot has changed since then, especially with the vision of the projects.
+
+1:55 - Cuan Mulligan Can you, can you quick, okay, if you're going to be saying things have changed, I don't think we can use generic terms like vision. Where specifically do you feel has changed and in what way?
+
+2:07 - Eksno I can give examples. For example, the moveEatSleepMineTracker. We have here in the science pack, it was supposed to measure time distance for move, meal calories for eat, sleep was like very specific items. Meanwhile, now it's more of a dynamic tracker.
+
+2:27 - Cuan Mulligan Along with that, we're going to be building the to-do list into If we're going to go through this, we need to stick to one point and get one point clear before we go to the next one. So move, eat, sleep, mind is exactly this, what's changed. Because in my view, what we're building is exactly this.
+
+2:54 - Eksno What has changed is it's more of a dynamic tracker where users will be able to add their own items now.
+
+3:01 - Cuan Mulligan That's a to-do list to track their own tasks. Eat, move, sleep, mind is exactly this. So let's just talk about sleep, move, mind. You're using the words dynamic and stuff like that. That's sort of irrelevant. The UI that I've created, even in the mobile, has buttons for time and distance for move. So this is the same. I don't see any delta there.
+
+3:30 - Eksno OK.
+
+3:34 - Eksno One aspect then is the onboarding graph, for example. None of the structure behind workshops for coaching sessions that are supposed to be lasting 30 60 minutes are included inside the design spec. Inside the design spec, we, like, of course, were originally planning to have a one agent model, which took care of kind of the entire day and was more of a generic mentor coach at the same time, and so for all of these workflows that we are planning now.
+
+4:14 - Cuan Mulligan I can, where's that document gone?
+
+5:18 - Cuan Mulligan Yeah, I can see the coaching aspect is an enhancement.
+
+5:25 - Eksno Yeah. So of course, we want to collaborate with you. We're investing a lot with you. We want to succeed with you. So this isn't an attack or anything, it's more just trying to get aligned on the best way to move forward.
+
+5:42 - Unidentified Speaker Sure.
+
+5:44 - Eksno One of my main proposals would be for the next month, you can basically at the same rate, hire the entire group more so on a, instead of having an end goal, more just moving forward with on the spot estimations for each feature and aligning with you as we see appropriate.
+
+6:05 - Cuan Mulligan So what you're talking about, you want to move to a time and materials rather than you guys getting a fixed price quote.
+
+6:10 - Eksno Yes, because this project is very, like, we don't know the problem until we have one use case, and then the problem changes, if that makes sense.
+
+6:24 - Eksno And because of the inconvenience that's causing, especially you guys were offering all the new developers and me plus the four developers time for the same rate per week, 1000 per week. But the benefit this gives us is that me, as a developer, and them will have to worry less about getting the perfect design spec down in any addendums that we might add for coaching. And we can just worry about doing what's best for that.
+
+6:59 - Cuan Mulligan I mean, regardless of the contract being fixed price or time materials, one would expect that you would always have the best interest of your client. So that doesn't really feel like a thing to say.
+
+7:15 - Eksno We have the best interest of you, which is why we've been working like we have, but I've kind of realized a lot of the aspects which we haven't put into the original estimations are things that we're now starting to work on. But from a business perspective, my motivation is misaligned with Adapt now, which I don't think is correct. I'm motivated to halt improvements on areas I think we should be improving on Adapt because of the original design spec, because it's misaligned in some areas. Areas where I have to put an overhead time. I don't want to be misaligned with your motivations or with that.
+
+7:57 - Cuan Mulligan I get what you're saying. And there's, um, you know, for, for a startup that's pre revenue. One of the reasons we went with you guys was because you were, you know, willing to give a, a controlled cost. Um, we can't also have, uh, just an open ended, We just build, and we keep on building, and we keep on building. So there's a difference between what I would say. Sorry, I'm going to put this on, because I'm getting cold. There's a difference between clarification.
+
+8:39 - Cuan Mulligan So there's probably devils in the details of an LMS that we haven't talked about, but that's sort of real clarification of stuff. Versus a new feature like coaching. And I get the sense. So I understand the request that obviously you can't have an infinite scope going into a fixed price contract. I'm fully cognizant of that. I also can't move to complete TNM because I don't know if this is going to turn into a hundred grand, a million pounds or we're 1000 pounds away from finishing. So that also doesn't work. So what I would expect is a greater, I think you use the word misalignment. I don't think it's misalignment. I think it's scope management. OK. I think we should be talking about whatever we need to talk about. But I think there has to be a tighter coupling, which says, OK, as an example, that coaching is a great feature. I can see the value in it.
+
+10:01 - Cuan Mulligan That's not currently in the scope. Do you want to bring it in, and therefore the scope increases and the budget increases? Or do you want to swap that out for something else?
+
+10:12 - Cuan Mulligan Yeah.
+
+10:12 - Cuan Mulligan So ultimately, there's just, you know, The original contract buys a number of things.
+
+10:23 - Cuan Mulligan Let's say it's 50, whatever that means. If I come up with 20 new things and we take out 20 old things, then it's still 50. It shouldn't really matter. But for example, The UI has simplified a lot because we're not going to be doing a complex website and stuff like that in terms of screens. We think, anyway. We don't know.
+
+10:52 - Cuan Mulligan But I think definitely the coaching is different. I think you guys changing technologies is not something I'd expect that I would cover.
+
+11:09 - Cuan Mulligan I think there's a huge amount that we're doing in ADAPT that I think I'm also being influenced by IntelliAgent so that IntelliAgent will benefit from there. So I'm going to speak to those guys about incorporating some of their budget into my budget or whatever, some of the ADAPT budget gets picked up by IntelliAgent, we'll figure that out. So, I mean, ultimately, we'll find a solution. I think you're right to bring this up. I don't want to move to a pure TNM because that just, it's uncontrolled cost, but also your side, you can't have a infinite, a floating scope going into a fixed budget. That also doesn't work. You guys will just break and you can't work that way either.
+
+11:56 - Cuan Mulligan So I think what we just need to hear is a greater, what's called, just a greater control on the scope management and getting clarifications on that. I've worked extensively in the past, and one of the reasons why the agile project or the sort of AI project manager concept, I think, is really paramount in software delivery, because how long is a piece of string? How long does something take? And again, Part of why we would use any company is there has to be some relevance of experience that you have to be able to say, right, that. So I'm scoping out for that Africa opportunity. I'm scoping out the entire project today and tomorrow. I've got very little requirements, but I've done an awful lot of this stuff already in the past.
+
+12:55 - Cuan Mulligan I'll probably be plus or minus 50% at this stage, but it gives us a ballpark. And then what I'll do is I'll manage those clients as we get more information, that plus or minus 50 will either go north or south, it will go up or down. And we manage accordingly. And at some point that will become intolerable, either in terms of scope or cost. And we have a conversation, which is what we're having right now. So I think this is the right conversation to have. What I need to understand is, and then this is sort of where you know, I was sort of pushing George into, you need to have a backlog, right? A backlog will have 50 items in it. If we add a new item, Cuan, do you want to take something out or do you want to leave this in and increase the budget? And by the way, it's going to be an extra three-man days, five-man days, four-man days, whatever it is. You brought, and again, it might be two and it might be six, but we're going to, we'll sort of budget for five, let's say. It'd be somewhere between three and six. Budget for five, are you okay with that? And when we get to it, then obviously we'll figure out, because it might be two and it might be eight, it'll be in and around five. And that should be the conversation that we have, that we have a very clear backlog. We understand what's in scope versus potentially new. And you can do this very simply in Trello. You have an agreed backlog, you have a parking lot or new ideas, anything new that comes up. Now, new is not clarification. That's different, right? There's a difference in new feature versus clarifying or something. And then, yeah, we basically say, well, that coaching thing, that's pretty big. That's worth three of these things. We can take three out, and you can move one in. What do you want to do? I completely agree that user authentication isn't here. It's sort of, I'll be very honest, it's sort of assumed I was, you know, not there. It's sort of an assumed feature at this sort of level that use it. Coaching totally understand this move completely. Yeah. Um, so yeah, it's, it's, um, I think there's some project management missing basically.
+
+15:08 - Eksno Yeah.
+
+15:09 - Cuan Mulligan Um, Now, the question is, you as a highly skilled engineer doing project management, does it feel like a very good use of your time?
+
+15:30 - Eksno Yeah.
+
+15:32 - Cuan Mulligan And obviously, as you get bigger, as you said, you're starting to notice the management overhead.
+
+15:39 - Cuan Mulligan So figure out how I can potentially help with that in terms of working with the team or stuff like that. But for me, I think having a very clear backlog with a list of items and then seeing who's working on what and what's in progress versus what's testing, what's ready for me to test. I'm happy to sort of take you through how I would manage that on Trello. This is a very simple version of the tooling. And we can get aligned on that. That might be very useful, then you guys should be running your standups from that. And then you get to line or use that other project management tool that George talked about, because it's all I mean, basically, it's just cards on a page. It's nothing too difficult.
+
+16:20 - Unidentified Speaker Yeah.
+
+16:24 - Cuan Mulligan So what I would propose is as a way forward is to break create the backlog. Create a very clear list of the features that are missing from the contract, like user authentication versus ones that are new, like coaching.
+
+16:44 - Cuan Mulligan Excuse me. So we basically get a real position and an aligned agreement between us as terms of what is in scope, what's extra scope, and then how do we want to manage that expectations. So in essence, what you end up doing is what's called CAP T&M.
+
+17:01 - Cuan Mulligan Using your experience to say, right, if you want this new thing, this new widget, that widget's going to be a week, and a week's going to cost you x. Fine, cool. So that's for me to decide whether I want to do that. It's not reasonable for you to just say yes to everything at a fixed price. It doesn't work that way. Obviously, it would be great for me if it did, but I'm also quite realistic. I've been in your shoes many times, so I understand how it works. Our preference is to have a longer term relationship with you guys than trying to take the piss and break you guys. But also, it's very different if I'm going to a, you know, a 300 million revenue startup in the banking space and able to do some work with you guys, we'll be charging them very different rates. And then, again, the idea would be to charge them some rates, but to keep some money, whatever profit share, to try and build other products that we can then potentially sell in the future, or this thing in Africa, is very different from us sort of paying this out of our own pocket as a startup with zero revenue. They're just different problems. Don't think for a moment that just because you're charging clients more money that it gets easier. It gets worse. Because when people pay you money, they feel they can treat you however they wish. And they will keep asking and asking and asking and asking. It's a silly game, right? Because it just doesn't work. It doesn't work long term.
+
+18:49 - Eksno So I think at least something that we can do is try to move the design spec out of the contracts and into something like Trello, like you mentioned, because I think it's going to be moving around, even if it's just switching out features a fair amount.
+
+19:13 - Eksno However, we're currently working on estimating most of the things, or Haznaeen and Shenmei is looking at the past design spec and comparing it to their interpretation of your current vision. And trying to get that down on paper so that tomorrow we'll have more on paper estimations for each of those features. We can move it into Trello. Do you want to compare with you?
+
+19:41 - Cuan Mulligan Or I mean, the only issue with Trello is that it doesn't have any sort of size, like small, medium, large on it so that you can probably do it as a plug-in. But I don't know whether the other tool that George had suggested at the start, I forgot what it's called. Plane.so.
+
+20:04 - Cuan Mulligan Yeah, Plane.so, yeah.
+
+20:06 - Unidentified Speaker Yeah.
+
+20:09 - Eksno Which one do you guys want to use?
+
+20:12 - Eksno I think George would probably prefer Plane.so, but Trello is a lot easier to just hop into, whereas Plane.so, you've probably used it a thousand times to Azure DevOps. It's very similar to Azure DevOps. Where it's got like several layers.
+
+20:31 - Cuan Mulligan Yeah. I mean, if it's, if it's got the ability to have your, have code sent into it, then that's fine. But let's, let's make a decision, which one we're going to use and then to start using it. Um, from an interface point of view, it has a, it has a task board. So, you know, whatever, I'm happy that works. Um, what I'd advocate is that you are, you guys do this, if you're going to do it on a document, on a mural or whatever it is that you make this visible, so I can start seeing the progress that you guys are coming up with today, because the word vision is very generic. And so I want to understand that we're not going down into minutiae. And there's a difference between new features, coaching, totally get it, versus the chatbot, versus clarification, user management.
+
+21:26 - Eksno Just to clarify on one point you made earlier, we never intended to charge you for our tech shifts. The only disadvantage we saw for you was that the project would be like the delivery date would be a week later. So yeah, and I still don't plan on trying to charge you for that. However, we do it logically, but whether it's like the last week we don't charge you or whatever, we never plan to charge you for that. That was a hit for us more so.
+
+21:58 - Cuan Mulligan Cool. We'll figure this stuff out. I think this is just part of you guys working with clients. Yeah.
+
+22:09 - Cuan Mulligan I would hope that I'm going to be reasonable because I've been in your shoes and I understand the challenge and there's always this balance, right? Between trying to, you know, you can't, you can't specify everything upfront because if you do, then you'll, you'll spend three months in requirements and not actually building anything. And then as you build stuff, you go, Ooh, this is really interesting. That will be better if we did that better if we did that. So I guess stuff changes a hundred percent. So, um, What I'd advocate is, I mean, I've got time today. I reckon we could get this cleared up in less than an hour if we were all on a call together and just started doing a workshop and all started going into playing. Everyone just creates items and tickets because then we're saying, yes, no, no, yes, here's why, da-da-da-da-da. It also builds more knowledge about the project and what it is and what it's not.
+
+23:09 - Cuan Mulligan So I'm happy to do that if you guys want to, but also you may not do that.
+
+23:15 - Eksno Yeah. I first saw us doing that probably tomorrow.
+
+23:18 - Unidentified Speaker Okay.
+
+23:19 - Eksno Although I was planning on allocating a bit more than an hour. Yeah.
+
+23:27 - Cuan Mulligan I mean, it takes an hour.
+
+23:31 - Cuan Mulligan It takes an hour.
+
+23:33 - Cuan Mulligan Yeah. I mean, it depends on how you want to run it. Right. Like if you're going to go down into task level, That's going to get very messy, very confusing, very level. You need to start high and then you drill down. And then at some point, the drilling down doesn't add any value. And then you stop. I mean, I think the actual fundamental feature list on this project isn't very big. Less than 20.
+
+24:05 - Eksno Complex part of that for us is the AI part is kind of one feature, but it's a feature which is very complicated and that is a lot of underlying structure. When we made the original design spec, it was definitely a lot harder to estimate. But I think it's easier now to create a proper feature list with all the experience we have working with it and the fact that we're using a line graph, which divides the AI data into graphs, which can individually be estimated much more easily.
+
+24:36 - Cuan Mulligan So you need to separate out the user features from implementation.
+
+24:43 - Unidentified Speaker Yeah.
+
+24:44 - Cuan Mulligan So I'm talking about features initially, getting very clear on the scope that needs to be delivered. The second part of that question then is the how you deliver that, and the breakdown into technical tasks to deliver on those features. So there could be one feature that you thought was five tasks, could now be 20 tasks. So that I understand. But you have to get a line, first of all, on the feature set from a user's perspective, and then look at the the implementation.
+
+25:17 - Cuan Mulligan And it's the feature set that I'm referring to that we should be able to do in less than an hour.
+
+25:23 - Unidentified Speaker OK.
+
+25:25 - Cuan Mulligan That would be the thing for me. If I was you, I would do that today with all of us so that we're clear. Because that's the ask, right? That's the scope. How you then implement it, that's an internal conversation for you guys. I can't really be involved in that because it's not for me to design how technically you build something.
+
+25:44 - Cuan Mulligan If you're going technical first, that is the, you know, I don't like to use the word very often, but that is the wrong approach. Yeah, I agree. You have to go outcome based first, get clear on the outcomes that you want.
+
+26:00 - Cuan Mulligan It's not insanely long or difficult to do.
+
+26:07 - Eksno Yeah. It's just being explicit enough with the outcome definitions. Because with the AI bot, we'll need to outline which workshops it'll be able to run or the coaching sessions, like the onboarding.
+
+26:27 - Cuan Mulligan I think the coaching session, I think, is a good call. I think that is basically, it is a new feature. And I think we've got to be careful about how much of this has been done for IntelliAgent as a dot. And actually say, listen, it's a 20% increase in at least taking ADAPT into thought process in terms of how we build this. And then IA basically benefits, and I'll figure out what the charge is between IntelliAgent and myself.
+
+27:00 - Cuan Mulligan Or you might go, it doesn't make a difference. They're identical. I'm like, OK, fine. We'll figure it out.
+
+27:08 - Cuan Mulligan So can you guys make a decision whether you want to use Trello or Plane? And then what I'll do is I'll start working on the backlog from a customer point of view in terms of what I think we need to do.
+
+27:22 - Eksno Yeah, that sounds good. If we're also going to be creating a backlog, should I create two different boards or one board?
+
+27:31 - Eksno There should only be one backlog.
+
+27:34 - Eksno Yeah. I mean, more or less, we're sketching it out independently.
+
+27:38 - Cuan Mulligan Well, I don't think you should be sketching up anything from a feature point of view. So what we should be doing is you have the high-level features that get broken down into sub-features or whatever. And then at some point, you have technical implementation tasks. And therefore, you can see as you're working on these technical tasks how it's delivering an outcome. And that outcome is part of this bigger bigger outcome.
+
+28:11 - Cuan Mulligan So it's one backlog that's linked. Now, I don't know whether Plane does. Do you have a name? Do you guys already have Plane?
+
+28:24 - Eksno After this call, I'm going to set it up and run through it as fast as possible and just see if it has all the features we need, make sure that it's running.
+
+28:37 - Cuan Mulligan I'm just trying to think here. There is adapt payments agent projects.
+
+28:48 - Eksno Yeah. George was also like assisting me with a lot of the project management tasks. And then he went to the us for the wedding while we were recruiting people. So I've had to take care of everything, business, everything, project management and implementation and everything currently.
+
+29:08 - Eksno Just to give you some perspective.
+
+29:13 - Cuan Mulligan OK. Display. Where is that? OK.
+
+29:22 - Cuan Mulligan I'm not really seeing. Where is the board?
+
+29:31 - Cuan Mulligan So I have a project called Adapt Release 1. It's got issues.
+
+29:41 - Cuan Mulligan I figured it out now. Fine.
+
+29:47 - Cuan Mulligan I have an Adapt one here. How do I get you into this project?
+
+29:56 - Eksno I'm not sure what my account is. It's been a while since I've been on Plane.slo.
+
+30:01 - Cuan Mulligan Well, I've given you the link there. We can move everything from Trello to this if you guys want to work in here. We just get this link.
+
+30:11 - Cuan Mulligan Oh, I can start. I'll start populating it this morning after I've got to take the dog for a walk. But yeah, we'll figure it out.
+
+30:20 - Eksno Yeah. So how do you want to move forward with the contract then?
+
+30:28 - Cuan Mulligan We can't do anything until we understand what the increase in scope is. Got to get the backlog sorted out. Until the backlog's sorted out, there isn't a conversation.
+
+30:36 - Cuan Mulligan Yeah.
+
+30:38 - Cuan Mulligan Because I don't know what the order of magnitude is.
+
+30:42 - Cuan Mulligan Okay.
+
+30:43 - Cuan Mulligan So I would imagine that we'll probably take the rest of this week to sort this out, but we just continue with business as usual. We'll figure it out. Um, I need to have a, uh, some sort of view on, on hero TMO. Um, he seems to be working on adapt and hero. I'm just wondering whether if you just let them lose on hero and figure it out with the charts.
+
+31:04 - Eksno Cool.
+
+31:07 - Cuan Mulligan Yeah, if you can just do an update every sort of half day, that would be really useful just to understand where we're going with that and then figure out what the charge is, that'd be fine.
+
+31:15 - Eksno I think he's just trying to get it up and running right now, as is, or with a few updates to the packages.
+
+31:25 - Cuan Mulligan Ok. Yeah, obviously, good to know whether we're going to head into a dead. I mean, technically, do you think it's still feasible to get that running? Like, it's just a matter of updating stuff?
+
+31:37 - Eksno He's had two to three days.
+
+31:38 - Unidentified Speaker Okay.
+
+31:41 - Eksno So yeah, I should get it up and running within two to three days. Yeah. Otherwise one of the benefits I was thinking about related to the like time and management or what was the time and resources? Time and materials. Time and materials over The specific projects, of course, with some combination of detailed backlog, was that it would be much easier for me to just delegate someone to something like Hero TMO. And because we're just charging you per pair of programmer or for the team, we wouldn't have to worry too much about that being outside the scope of Adapt or something like that. So it could get moving a lot faster. But of course, the disadvantage of that is less guarantee.
+
+32:30 - Cuan Mulligan Yeah, for Hero, because it's just, it's a number of days, the outcome is turn it on. And I get it's, it's unpredictable. So just, and it's not going to be, it's not going to be a month. So TNM is manageable for me. So just go right. Just, just hit that on a product project. That's, that's very different because it's, it's an unknown end date.
+
+32:54 - Eksno Yeah. Okay.
+
+33:05 - Eksno Yeah.
+
+33:12 - Eksno I'm wondering if there's some in-between, then, between time and materials and defined scope in contracts, where we can do the scope outside of the contract, but it's still defined. And at each moment in time, there's a promised result for a promised amount of time.
+
+33:33 - Cuan Mulligan That'S sort of what I refer to is that once you look at the backlog, there's bits that you've done before and you're comfortable with and say, yeah, LMS, that's very little innovation. That's very easy to confine. That's going to be this. Other bits are going to be, right, OK, it's something between this and that because it's innovation. Fine. And then we have something that's clarified, which is included. And then there's something that's new, which is a conversation.
+
+34:02 - Cuan Mulligan But you guys need to be tighter on how you manage me, basically, and your customer in terms of managing your internal resources and the scope of the backlog. Sorry, the scope of the project. That balance has to be controlled by you guys.
+
+34:19 - Unidentified Speaker OK.
+
+34:20 - Cuan Mulligan Which is basically what you're doing now, so it's fine.
+
+34:23 - Unidentified Speaker Yeah.
+
+34:27 - Eksno Yeah, if you have any resources or any recommendations for me, just send me on Discord.
+
+34:34 - Cuan Mulligan related to this? 20 experience.
+
+34:42 - Cuan Mulligan It's not straightforward. I mean, I'm being, you know, there's no point anyone being overly dogmatic about this because we'll just fall out of bed and there's no value in that. So invariably, Every client is going to want a fixed price and every supplier is going to want time materials. That's the equation that's always existed and always will exist. Now, in a really big organization, T&M is ideal, but it's a huge amount of trust for companies to do. And so that's a big challenge, but there are, what we call capped T&M, which is sort of this hybrid approach where you're basically saying, these bits we're really confident about, and it's going to cost you this amount, and we're pretty happy to take that as a fixed price. This bit is innovation, so we're going to have to do some stuff, and then we'll have to spend maybe two days to get it to a capped price to understand it, and then As you're doing stuff, as new stuff comes up, you just need to manage the scope of what's coming in versus out. And say, well, you can take stuff out. You can put stuff in what you want to do. It's sort of that same.
+
+36:16 - Eksno Yeah. So yeah, I'm also thinking about how we should manage this after Adapts and after Intelligent when potentially we'll be working with you guys.
+
+36:27 - Eksno handle the difference between where we can do project-based and where we're doing innovation, as you mentioned, where we don't know the problem.
+
+36:37 - Cuan Mulligan Sorry, I'm not following.
+
+36:39 - Eksno Yeah, I'm also trying to wrap my head around how we should manage the contracts and how we should manage charging organizations after working with you guys, potentially in a partnership with you guys afterwards.
+
+36:55 - Cuan Mulligan Yeah, I mean, you're It depends, right? It depends on every engagement. It's slightly different. I think you've got to be really careful about... Yeah, I mean, in one way, working with a startup like us is really difficult and really easy. And same working with a bigger client. There's bits that's really easy and there's bits that's really difficult.
+
+37:28 - Cuan Mulligan Data, for example, when you go into big companies, data is pivotal to what you do, and it could take you six weeks to get data.
+
+37:37 - Cuan Mulligan And the clock is ticking, right? Not necessarily, you know, the clients go in, well, we're six weeks into the project. And I was like, yeah, but you haven't given us your data yet. I don't give a fuck. It's six weeks into the project. So you've got to manage expectations. There's different challenges in different organizations.
+
+37:54 - Cuan Mulligan And most clients are really shit at telling you what they want. They're just not good at it. They're not good at giving feedback. But we can pick that up as we go along. We have other conversations. I think for now, focus on getting this backlog sorted and getting clear on what the order of magnitude changes.
+
+38:13 - Eksno Yeah, sounds good.
+
+38:15 - Cuan Mulligan Cool. I'm around for the rest of the day. If you want to do, let me know if you want to use plan. As soon as you want to use plan or Trello, let me know, and then I'll start working on the backlog from my side.
+
+38:24 - Eksno Yeah, sounds good. I'll get my plane set up as soon as possible and try to get that backlog done.
+
+38:35 - Cuan Mulligan Are you going to do it or do you want me to do it?
+
+38:38 - Eksno I need to set up my account and go through and make sure that they provide the ability to have time estimations and what's it called? The hierarchical tasks, so that we can start with more of the ethics, go down to the features, all of that.
+
+38:57 - Cuan Mulligan Yeah, it would be good. If we can do hierarchy, I think that would be really good.
+
+39:03 - Cuan Mulligan Time.
+
+39:07 - Cuan Mulligan Oh, yeah.
+
+39:09 - Eksno You can put time in the title.
+
+39:15 - Cuan Mulligan Cycle parent labels. I mean, you could just do small, medium, large. I wouldn't go near time. Time is a myth.
+
+39:30 - Eksno I'd like to say that, but you also need a date when you can expect it to be finished.
+
+39:36 - Cuan Mulligan Yeah, but you do things abstractly by small, medium, large, and then eventually what you'll have is that we can do a number of smalls. A medium is the same as two smalls and a large is the same as five smalls, something like that. And then you know that we do an average 10 smalls a week, therefore you divide everything out. And that's basically, that's the way you do estimates.
+
+39:58 - Cuan Mulligan But you have to figure out what a thing is for you guys. And so we say, right, this piece of work we've all worked on from now on, that refers to a small piece of work. Maybe you'll figure out what small is. It could be half a day. It could be 3 quarters of a day a day. It's generally under a day, a small. It's something that you can definitely do in a day. And then you go, right, OK. It's sort of a small and then you have references you go oh this is very little thing we did that that sounds really similar to that okay so that's a small okay fine so then that's how you have your small mediums and large you basically work yeah you have references so as you as you now have a team just pick a piece of work that you guys have done and say right we're going to call that a small that's our reference story for a small and everything balances off that I wouldn't do time time is far too scary and subjective. It eventually translates to time, right? But you don't work in time. It doesn't work for people.
+
+41:05 - Cuan Mulligan And you have to have a different story that you put a stake in the ground and everyone understands it.
+
+41:12 - Cuan Mulligan Same way, you can say to somebody, how long is a football game? More or less 90 minutes. How does everyone in the world know that? They've just watched games. They understand it. They've heard about it.
+
+41:24 - Cuan Mulligan Yeah. A little bit of extra time, but broadly speaking, it's 90 minutes. I think if you want to be precise about things, that's where you could end up spending and having a debate for the next five years about how long a football game is. It doesn't add value, though. Broadly saying it's 90 minutes is sufficient. Yeah. It never really finishes early. It goes somewhere between four minutes over. Like four minutes out of 90 sort of irrelevant.
+
+41:54 - Unidentified Speaker Yeah.
+
+42:00 - Eksno Yeah.
+
+42:04 - Eksno I'll get started on that then.
+
+42:06 - Eksno Okay, cool. Let me know. I'm around all day.
+
+42:08 - Eksno Yeah. Sounds good. I'll see you.

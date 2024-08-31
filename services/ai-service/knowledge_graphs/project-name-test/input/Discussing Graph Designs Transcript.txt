@@ -1,732 +1,0 @@
-Discussing Graph Designs 
-Fri, Jun 28, 2024
-
-2:26 - Unidentified Speaker Hello.
-
-2:32 - Unidentified Speaker Okay.
-
-2:58 - Biwas bhandari Okay, so this is what I came up with instead of this thing routing and all against us.
-
-3:22 - Unidentified Speaker You are muted.
-
-3:47 - Unidentified Speaker Can you hear me?
-
-3:51 - Jonas Lindberg Yeah, George Fry speaking.
-
-3:55 - Unidentified Speaker Test, test, test.
-
-3:59 - Conference Room (Jorge Lewis) - Speaker 1 I can hear an echo. I mean, yes.
-
-4:02 - Jonas Lindberg You can mute me, I think. Excellent.
-
-4:05 - Jonas Lindberg Oh, can I?
-
-4:09 - Jonas Lindberg No, but then everyone else is hearing an echo as well. No.
-
-4:16 - Unidentified Speaker They weren't when I was.
-
-4:21 - Unidentified Speaker Now?
-
-4:23 - Conference Room (Jorge Lewis) - Speaker 1 Oh, mute.
-
-4:24 - Conference Room (Jorge Lewis) - Speaker 2 I muted you.
-
-4:25 - Conference Room (Jorge Lewis) - Speaker 1 Oh, the mute is for everyone, though.
-
-4:28 - Unidentified Speaker So we can't.
-
-4:29 - Jonas Lindberg Can't you mute individuals?
-
-4:32 - Jonas Lindberg Doesn't seem like it.
-
-4:37 - Jonas Lindberg Yeah, now you know how I had us.
-
-4:41 - Jonas Lindberg This mic is way better, though, I think. The camera one?
-
-4:44 - Jonas Lindberg Yeah. Yeah, surprisingly, it's quite good.
-
-4:51 - Jonas Lindberg Can you hear, like, the music outside? Can you hear me?
-
-4:57 - Unidentified Speaker Yeah, I guess.
-
-4:59 - Jonas Lindberg Yeah, but it's not clear.
-
-5:02 - Jonas Lindberg Oh, yeah, when you're leaning back. I mean, it was the same thing for when I was speaking, I think. No, you weren't quite good.
-
-5:09 - Jonas Lindberg I mean, I could hear myself.
-
-5:12 - Jonas Lindberg It was meh.
-
-5:15 - Unidentified Speaker We're dead.
-
-5:15 - Jonas Lindberg Where is me?
-
-5:25 - Unidentified Speaker Speak of the legend.
-
-5:31 - Jonas Lindberg Alright, welcome back. Jonas and I got ourselves some beers.
-
-5:36 - Unidentified Speaker Yeah.
-
-5:39 - Jonas Lindberg It was free.
-
-5:40 - Jonas Lindberg From the festival right outside, yeah. The concert outside.
-
-5:43 - Jonas Lindberg The concert, yeah. The karaoke, actually.
-
-5:46 - Jonas Lindberg Oh, were they?
-
-5:50 - Unidentified Speaker Where? We're in a co-working space.
-
-5:56 - Unidentified Speaker It's 8 p.m.
-
-5:56 - Jonas Lindberg at the moment. Wait, is he saying how old?
-
-6:00 - Chinmay Pandya Yeah, like, what's your age? How old are you? Would you like to guess?
-
-6:04 - Jonas Lindberg 25. 25 who?
-
-6:12 - Biwas bhandari For both, around 24.
-
-6:14 - Unidentified Speaker Okay.
-
-6:17 - Jonas Lindberg And Maddy was?
-
-6:18 - Jonas Lindberg What's your guess? How old are you?
-
-6:20 - Biwas bhandari Well, I saw a YouTube video of Jorge. He was saying he was 18 years old.
-
-6:27 - Jonas Lindberg Okay. Yeah.
-
-6:30 - Jonas Lindberg Jorge. Well, I am 20.
-
-6:34 - Biwas bhandari Okay, ISO is one of the video software engineer or something in YouTube.
-
-6:40 - Unidentified Speaker YouTube?
-
-6:41 - Biwas bhandari What?
-
-6:42 - Biwas bhandari There is one video that you saw, yeah. Is that a video?
-
-6:45 - Jonas Lindberg Yeah, there's a video of Jorge in YouTube? Is it VTube?
-
-6:49 - Jonas Lindberg Okay, where did I find it?
-
-6:53 - Chinmay Pandya So, Jonas is 20.
-
-6:59 - Unidentified Speaker I'm 20. Jorge? 18.
-
-7:03 - Chinmay Pandya You're 18? Yes, sir.
-
-7:06 - Unidentified Speaker Yeah.
-
-7:06 - Chinmay Pandya You're younger than me. Yes.
-
-7:12 - Jonas Lindberg Yeah, we've been in the game a while. We've been trying to start, like, companies and stuff for, like, ever since. How old are you?
-
-7:21 - Unidentified Speaker 14, so. Yeah.
-
-7:26 - Jonas Lindberg So, yeah, we've gotten a lot of experience, yeah, through that.
-
-7:34 - Chinmay Pandya I thought you guys were like really seniors.
-
-7:39 - Jonas Lindberg We have the experience of seniors, really. Because you mentioned you had six years of experience, I thought. Yeah, I mean, I started when I was 12, so.
-
-7:51 - Jonas Lindberg Yeah, I started ninth grade, like, coding, and then me and Jorge were, like, doing game development and more younger people projects than what we are currently, and now we're trying to make money. With our experience, that's from when I was 18, I got a job as a software engineering in a Norwegian consultancy, worked on bank applications, and also, what was it? Some internal software used by the oil and gas industry in Norway.
-
-8:27 - Jonas Lindberg It seems to be getting loud outside.
-
-8:29 - Jonas Lindberg Yeah.
-
-8:31 - Chinmay Pandya That's impressive, I can say. At the age of 12, I started watching anime.
-
-8:43 - Chinmay Pandya Because you cannot have the freedom to do anything unless you pass out from your college.
-
-8:52 - Unidentified Speaker Yup.
-
-8:53 - Biwas bhandari But I didn't get my mobile until I was 18. Now we can change that.
-
-8:58 - Conference Room (Jorge Lewis) - Speaker 1 If things go well between us, we'll be able to give you a really good thing to do. If you want to move past our company, then you'll be able to find a job pretty easily, hopefully.
-
-9:07 - Chinmay Pandya Vivaaz bhai, how old are you? I'm going to be 21 this year.
-
-9:13 - Biwas bhandari You're the oldest. What are they discussing, Jorge?
-
-9:16 - Conference Room (Jorge Lewis) - Speaker 1 It's your end-to-end knowledge.
-
-9:26 - Unidentified Speaker Hindi knowledge.
-
-9:29 - Chinmay Pandya He's looks 21, the youngest and he's the oldest.
-
-9:34 - Jonas Lindberg So how old are you guys? I'm 20.
-
-9:41 - Biwas bhandari I'll be 21 December.
-
-9:43 - Jonas Lindberg Nice, nice.
-
-9:44 - Unidentified Speaker Okay.
-
-9:47 - Jonas Lindberg Let's not confuse the fact that I'm younger than you guys and anything else.
-
-9:58 - Jonas Lindberg Anyways, yeah, let's get back to it.
-
-9:59 - Jonas Lindberg Yeah, let's get back to diagramming.
-
-10:02 - Jonas Lindberg I'll share my screen just so we can be on one thing.
-
-10:14 - Jonas Lindberg Okay, actually, before we go into the graphs...
-
-10:20 - Conference Room (Jorge Lewis) - Speaker 1 So before we go into the graphs, I want to...
-
-10:26 - Conference Room (Jorge Lewis) - Speaker 1 So before we go into the graphs since that's more flexible I kind of want to talk about the current state of the project and what's the plan so currently we have We were in the middle of migrating, you guys probably know this part already, we were migrating from Python to TypeScript, we were in the middle, we set everything, we set the foundations up, we connected to the database, connected it to the front end with just a simple one function, and we were in the process of making it actually work with LandGraph. Currently, right now, the biggest problem we're facing, other than just setting up the actual graph, is passing the message history to the chat. So I think I'm sharing my screen. So when we're calling a stream and we initialize it with this list of messages, the problem is that it's not somehow getting all the messages. So that's the current bug we're facing.
-
-11:27 - Conference Room (Jorge Lewis) - Speaker 1 Maybe you guys have experience with this. I don't know. I want to say that in my testing, I noticed that passing messages worked.
-
-11:35 - Conference Room (Jorge Lewis) - Speaker 2 But if I created messages manually, So when this was just like a list of messages it works Okay, like it multiple Yeah, I think maybe just better use a normal list like like before That didn't work either. I think it's the parsing from the database to messages that doesn't work. But that's what I was testing before we got in this meeting. I think I was at the edge of maybe solving it, I don't know.
-
-12:22 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, so we'll take a look at that later. But that's where we're currently at. And in terms of where we need to be, where we need to be is by Wednesday, end of day Wednesday, we need to have the the project deployed and the client can test it, Kuin. Kuin is his name, I'm gonna use his name, so that Kuin can test it. The capabilities you need to be able to do is to just have a conversation with the bot, so making it so that it can have a conversation like we discussed, like the example I sent and like the one we had today. So, yeah.
-
-13:02 - Conference Room (Jorge Lewis) - Speaker 1 So in terms of what the plan is, who's going to do what, we can go over it maybe now? So since you two are going to be paired together, it'll be kind of up to you guys to decide if we have maybe two prototypes we want to test, you guys can go into each one and test those out, or however you guys want to do it, that's up to you guys.
-
-13:32 - Conference Room (Jorge Lewis) - Speaker 1 Jonas, do you want to tackle the message bug, or do you want to hand it? Do you want to see if they can take it on?
-
-13:38 - Conference Room (Jorge Lewis) - Speaker 2 I want to tackle it for at least this day. But if I don't solve it today, I will probably have to go.
-
-13:47 - Unidentified Speaker OK.
-
-13:47 - Conference Room (Jorge Lewis) - Speaker 1 So today, Jonas will work on that little bug that I mentioned. If he's not able to do it, then we'll pass it to you guys, since you guys are probably more experienced with LandGraph.
-
-13:54 - Unidentified Speaker Yeah, cool.
-
-13:59 - Conference Room (Jorge Lewis) - Speaker 1 Okay, so yes, let's get it to the graph. Who would like to go first? So actually, I think Jonas should go first, since his one, our ones are, what the
-
-14:12 - Unidentified Speaker I can't zoom out.
-
-14:13 - Conference Room (Jorge Lewis) - Speaker 1 Oh, that's the max. I guess we'll go through Jonas's graph first, since his one is just the conversation, not the actual line graph. So yeah, Jonas, you go ahead, I'll mute.
-
-14:30 - Jonas Lindberg So yeah, this diagram is more to specify what it should be capable of It doesn't really go into the technicals of how things should be pushed to the DB and how things should be retrieved properly, because I think that's more of a technical issue that can be solved no matter how the conversation goes out. But this is basically the parts of the conversation where someone will be sending a message that will be visible to the user.
-
-14:59 - Jonas Lindberg I have top left here. It's the user starting the check-in. When the user starts the check-in, it'll always go to the collector first. And the collector will then request something from the user. For example, how far have you walked today? Then afterwards, hopefully the user gives their request of information. If they reject, or if they say, I don't know, or something like that, it'll probably go back to the collector again for the collector to be like, OK, can you estimate? Or OK, something like that.
-
-15:37 - Jonas Lindberg And also, let's say the user gives a complicated answer. Maybe the user says, I walked around my block. Then the collector's job is to say, okay, well, how far was that? And maybe kind of tease and say, the average block is maybe 1KM. Would you say that's accurate? So that's his job. Yeah. Okay.
-
-15:59 - Jonas Lindberg Just extract the information from the user.
-
-16:04 - Jonas Lindberg More point, yeah. When the information is extracted from the user, And the user, for the first time in this loop, goes to the coach. It always goes through the analyst, which analyzes the data, as well as pointing out if any previous data is relevant. So the analyst's job can be to detect long-term patterns and more complicated stuff than just the coach acting on the data now. And the analyst will pass that to the coach. So, of course, then the coach is on the info, and afterwards it goes back to the user. Now, during the check-in, as I've written here, after the coach has spoken, we need to determine if it should go back to the collector to go on to the next item. Basically, if the user just says, OK, sure, that's fine, then it will go back to the collector, and the collector will ask for more information. Or if the user says something like, why should I do that? I don't understand. I think I'm doing an OK pace now. I don't want to increase it. If it says something like that, Then it should go to the coach again so that the coach can comment on what the user said without it going to the collector and the collector requesting information for it, because that's not always going to fit in. Sometimes it needs to be like a back and forth. Why would I do that? Because it's good for you. Why is it good for me? Because it is. And then finally, when they agree, the discussion with the coach, it goes back to the collector again to move on to the next item. At which point, the loop restarts with the user giving the information. Or if they don't, it goes back to the collector, tries to get the information. Afterwards, the analyst analyzes it, points out things for the coach to coach on. And then onto the coach, the loop continues until the coaching is completely done.
-
-17:56 - Jonas Lindberg Any questions?
-
-18:05 - Jonas Lindberg Nah, I got it.
-
-18:06 - Jonas Lindberg Nah, seems pretty straight forward.
-
-18:08 - Jonas Lindberg Yep, sounds good.
-
-18:11 - Jonas Lindberg Thank you.
-
-18:13 - Jonas Lindberg Can we take it to the next Skylar?
-
-18:15 - Chinmay Pandya That sounds more logical than mine.
-
-18:17 - Jonas Lindberg Okay, so what's what?
-
-18:23 - Jonas Lindberg Are these old now?
-
-18:25 - Unidentified Speaker Yeah.
-
-18:25 - Jonas Lindberg Okay, how about we move that somewhere else. So, who's this one that I'm on?
-
-18:40 - Chinmay Pandya What I was thinking was also similar to Jonas, but he drew a better graph than me with all the nodes. What I was thinking was the same, is that the user can have two edges, but whenever the user checks in, it will always go to the check-in node. And this this will call the previous data from the data and then it will pass to the analyst and it will always go from the analyst to the coach whenever it goes from the check-in node so the analyst analyzes the past data and this is The analyst will analyze the past data and the today's data from the check-in and it will pass on to the coach and then the coach can decide to give advice and once it has given advice, the user can also obviously like Yona said, user can counter and coach can give follow-ups or he can counter back and when the user feels satisfied he can end and if he asks another question it will go again back to a check-in and so yeah was I able to make it clear or coach is coached on it, and it's done.
-
-20:28 - Conference Room (Jorge Lewis) - Speaker 1 How do we depict in this graph that we're going to the next item? Because we need to have it so that the check, I mean, the coach can also be responsible. But I think it would be more reasonable if the check-in node is responsible for making sure the, or asking for more data.
-
-20:49 - Chinmay Pandya Yeah, that's an additional thing which you almost mentioned. His graph is more logical. At the time of check-in, if we ask more data, so we'll have more user input on what he did.
-
-21:04 - Unidentified Speaker So...
-
-21:08 - Conference Room (Jorge Lewis) - Speaker 1 Would it make more sense if we did...
-
-21:12 - Conference Room (Jorge Lewis) - Speaker 1 Sorry for messing up your graph here, but...
-
-21:21 - Unidentified Speaker Hold Alt to...
-
-21:22 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, there we go.
-
-21:33 - Conference Room (Jorge Lewis) - Speaker 1 So instead this is, um, so would this, would this still kind of make sense for your, for your idea?
-
-21:49 - Unidentified Speaker Yeah.
-
-21:50 - Unidentified Speaker Yeah.
-
-21:50 - Conference Room (Jorge Lewis) - Speaker 1 And then, and then it's the supervisor's job to determine is the user passing new data that the check-in node should handle, or is the user responding to a coach's message?
-
-22:04 - Unidentified Speaker Yeah. Okay.
-
-22:08 - Chinmay Pandya So if the user is countering the coach, then the supervisor knows that I have to call the coach next, but if the user is passing on new data or the user is setting new goals, then it will pass into the check-in.
-
-22:23 - Conference Room (Jorge Lewis) - Speaker 1 And then this line here, I don't know if you can see this one. Is this still relevant?
-
-22:29 - Chinmay Pandya Because we added the supervisor, this is not relevant. Yeah.
-
-22:33 - Conference Room (Jorge Lewis) - Speaker 1 So then, so when the check-in node gets new data, and he updates the database, he'll tell the analyst, the analyst will tell the coach, and then the coach will, okay, cool, nice. Okay, makes sense.
-
-22:46 - Unidentified Speaker And any other questions, guys?
-
-22:49 - Conference Room (Jorge Lewis) - Speaker 2 One, is the check-in node basically the interaction between the user and the collector, or the collector tries to get information out of the user?
-
-22:58 - Unidentified Speaker I can't hear you. Oh.
-
-23:06 - Jonas Lindberg Is the check-in node basically the collector and the user working together to get the data out of the user? So, yeah. Yeah.
-
-23:17 - Unidentified Speaker Okay.
-
-23:17 - Chinmay Pandya Yeah. The check-in is the collector. I just wrote a check-in because I wanted for it to be clear to me that whenever the user enters new data, it will go to the check-in.
-
-23:30 - Unidentified Speaker Yeah. Okay.
-
-23:35 - Unidentified Speaker Yeah.
-
-23:36 - Jonas Lindberg Sounds good.
-
-23:38 - Unidentified Speaker All right.
-
-23:39 - Jonas Lindberg Um, he was, yeah.
-
-23:45 - Conference Room (Jorge Lewis) - Speaker 1 Okay.
-
-23:56 - Biwas bhandari so basically a user will input something and this chat prompt will decide either it should go to collector or not we can give it logic like if the user checks in then call this function otherwise just chat with the coach and if it chats with the coach it will update in the collector and then it will again return to the user And it's basically similar users added their supervisor instead of that prompt.
-
-24:33 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, it looks, I think it's identical to, it's a little bit different, but I noticed a mistake on Xinmei's one that I forgot to do was that the coach should actually be returning to the user. Same for the collector. No point going back to the supervisor.
-
-24:55 - Biwas bhandari Instead of supervisor, we can just train, give a logic to the chat prompt. It will be easier.
-
-25:03 - Conference Room (Jorge Lewis) - Speaker 1 Okay, and then the key feature, the key difference I see is that the coach is connected to the data analyst.
-
-25:10 - Unidentified Speaker Yep. Do you wanna go through that?
-
-25:15 - Biwas bhandari Okay, so in the, yes, when a user will just check in, it will pass it to the collector. And the collector again pass it to the coach and it will pass it, not coach. The collector will pass it to the data analyst.
-
-25:36 - Chinmay Pandya So this makes more sense.
-
-25:42 - Conference Room (Jorge Lewis) - Speaker 1 The arrows, you guys, your graphs are so big that I can't see the arrows.
-
-25:49 - Unidentified Speaker Well, yep.
-
-25:51 - Biwas bhandari The user will input something and this chat prompt will determine either is the user just checked in or just wants to chat with the coach. And if it wants to check in, it will pass it to the collector and the collector will pass it to the data analyst and the coach and coach will return it to the user.
-
-26:11 - Biwas bhandari Okay. It's good.
-
-26:12 - Unidentified Speaker Yes.
-
-26:12 - Biwas bhandari Well, I think that's good.
-
-26:30 - Chinmay Pandya Edge from coach to collector.
-
-26:32 - Unidentified Speaker Yeah, yeah, exactly.
-
-26:34 - Conference Room (Jorge Lewis) - Speaker 1 I was about to ask that.
-
-26:45 - Biwas bhandari Did I make it clear or is there any questions? This one.
-
-26:51 - Conference Room (Jorge Lewis) - Speaker 1 What does the edge between coach and collector represent? Or when does it get triggered?
-
-26:57 - Biwas bhandari When the user will ask, like you said, why should I do it? How should I do it? And it will update to the collector. No, no. Coach to collector, bro.
-
-27:07 - Unidentified Speaker Huh?
-
-27:08 - Chinmay Pandya Coach to collector.
-
-27:11 - Unidentified Speaker Coach to collector?
-
-27:12 - Biwas bhandari Why would it go to coach to collector?
-
-27:14 - Chinmay Pandya You don't have to put it in the database.
-
-27:19 - Biwas bhandari I think the conversation between user and coach should also be stored. That's why.
-
-27:27 - Conference Room (Jorge Lewis) - Speaker 1 So, so this, so this one is to, okay.
-
-27:32 - Unidentified Speaker Hmm.
-
-27:35 - Conference Room (Jorge Lewis) - Speaker 2 Correct me if I'm wrong, but we, I think we can remove the chat prompt nodes and basically just connect coach and collector directly to the user. And that will be basically why you, yeah.
-
-27:57 - Conference Room (Jorge Lewis) - Speaker 1 Like that. And keep the user one? Like the user to collector, that arrow?
-
-28:08 - Conference Room (Jorge Lewis) - Speaker 2 Yeah, that's when the user is starting to check in, it'll go to the collector. Same in my graph, like when the user is starting to check.
-
-28:17 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, conditionals are dotted. OK. So, I mean, just for in terms of the actual line graph, there needs to be a supervisor node to determine who to go to. The user can't, so let me just add that.
-
-28:33 - Unidentified Speaker Yeah. Well, okay, so.
-
-28:45 - Conference Room (Jorge Lewis) - Speaker 2 The collector has to be able to speak with the user to get back and forth.
-
-28:56 - Conference Room (Jorge Lewis) - Speaker 1 Okay, so it's funny we've we've gone we've I think this is now the actual exact same as yeah, it's the exact same as she lies away No It's the, uh, no, no, the graph is, uh, wait, what is one coach to, okay. Instead of, so there's one.
-
-29:35 - Unidentified Speaker Hello?
-
-29:36 - Chinmay Pandya In his graph, it's like it will move to coach and the coach will request analysis from the analyst in mind at the time of checking, it will move always to the analyst then to the coach.
-
-29:49 - Unidentified Speaker I see. Yeah, yeah.
-
-29:51 - Conference Room (Jorge Lewis) - Speaker 1 Okay, cool. Let's go through my one and then we can kind of come to a conclusion.
-
-29:57 - Chinmay Pandya So you can decide routing without a supervisor.
-
-30:03 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, but I, yeah, it's a bit of a design choice. It's like, do you want to delegate the task to a language model to determine from the conversation or do we want to trust the other agents to put a text in their answer?
-
-30:18 - Chinmay Pandya Yeah, so if we do not want to use a supervisor agent node, then we can use the router logic, which sits between the edges. Sorry, say it again.
-
-30:45 - Conference Room (Jorge Lewis) - Speaker 2 For questions where it's like, do we want to delegate this test to a model or to something like that, I think diagram both of them, just so we have both diagrams. And then in the future, we can try both and see which works best.
-
-30:57 - Unidentified Speaker Yeah. Yeah.
-
-30:58 - Conference Room (Jorge Lewis) - Speaker 1 When it's things that we don't know for sure, we're better off trying than trying to be like, hmm. I mean, I guess sometimes you can think it through, though.
-
-31:05 - Unidentified Speaker Yeah.
-
-31:05 - Conference Room (Jorge Lewis) - Speaker 2 I think just trying is the most reliable way to get it. And sometimes you think things through, and then you leave. Yeah. Yeah.
-
-31:12 - Conference Room (Jorge Lewis) - Speaker 1 Cool.
-
-31:15 - Conference Room (Jorge Lewis) - Speaker 1 Okay, so I'll go through my one. Did you guys hear all that by the way?
-
-31:27 - Unidentified Speaker Hello.
-
-31:28 - Conference Room (Jorge Lewis) - Speaker 1 Yeah. Did you guys hear the, what Jonas was saying?
-
-31:32 - Chinmay Pandya No, we couldn't hear what he said. Not quite clearly.
-
-31:36 - Unidentified Speaker Okay.
-
-31:37 - Conference Room (Jorge Lewis) - Speaker 1 Um, he said that's when we have things like that, we don't know for sure. It's better to just try them out in the code and see which one actually performs better. Because sometimes through discussion, it's not enough to actually get a real world understanding of it.
-
-31:53 - Unidentified Speaker Yeah.
-
-31:55 - Chinmay Pandya If it works or not, unless we. Language models are so unpredictable.
-
-31:59 - Conference Room (Jorge Lewis) - Speaker 1 And then also when you're trying to code it in that process, you understand like new under the table, like problems and stuff. Yeah. Um, okay. So I'll go through mine and then we can kind of conclude. So. Let me try to remember, what's the, why I have two?
-
-32:19 - Unidentified Speaker Okay.
-
-32:25 - Conference Room (Jorge Lewis) - Speaker 1 Okay, the bottom one is better. The bottom one's better. I'll explain the top one after, but just the bottom one's better. So first of all, we start with user, and the concept of this is where the collector will receive every message first, And if the message is related to the collector's task, so for example, if the user is passing the message, or if the user says, let's check in, or if the user says, dude, I'm done with my check in, you're so boring, let's stop the check in any of those things, the collector will call his tools and complete those actions. But if the user is not invoking is not like trying to invoke one of those tools, the collector without responding or without doing any actions, Or maybe he will do some actions. We'll pass it to the coach, and the coach will make a response. So for example, if the user says, let's check in, the collector will call his tool that says start check-in, and he'll pass it to coach. Or the collector will respond and gather the data. As soon as the data is collected, it'll go to coach. The coach will provide some feedback. If the user is responding to that feedback, it'll go to the collector first. The collector will see, will tell it, or will teach it how to understand when it's responding to the coach, and it'll hand it off to the coach directly. So it's kind of being in the middle of a supervisor, but also just telling it, hey, if this is applicable to you, do something. If it's not, just hand it off to the coach, which is always a direct line. So it'll always pass it to the coach. Although this is not the case, actually. Sometimes when the user says, let's check in, the collector should say, OK, he should prompt the user to ask or give information. There's no one else in.
-
-34:11 - Conference Room (Jorge Lewis) - Speaker 2 My speaker's not loud enough.
-
-34:15 - Unidentified Speaker It isn't.
-
-34:16 - Conference Room (Jorge Lewis) - Speaker 2 Mine is. Mine isn't.
-
-34:18 - Conference Room (Jorge Lewis) - Speaker 1 I can show you. You can just get the Chrome extension. My speakers like start buzzing.
-
-34:27 - Unidentified Speaker Is yours not?
-
-34:33 - Conference Room (Jorge Lewis) - Speaker 1 No. So for the collector, if the collector calls new or update check-in, so as in the user gives new data, he'll pass it to the analyst and the analyst will then go to the coach. But if it's something like, if he's starting a check-in or if he's ending a check-in, it'll most likely go to the coach.
-
-34:55 - Conference Room (Jorge Lewis) - Speaker 1 Does that make sense or can I have some questions?
-
-35:00 - Chinmay Pandya Yeah, so who will ask the follow-ups?
-
-35:04 - Unidentified Speaker Sorry?
-
-35:05 - Chinmay Pandya Who will ask the follow-ups or if let's say the user has checked in, so the collector has either two choices, either go to the coach, not call any tools, or either call his tools to get previous data. But what if you want to have a conversation between collector and user to get more data before it passes to the coach?
-
-35:32 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, so then if the data has not, so usually this edge will only be triggered when updates check, when update check-in is called, usually. I think there's probably some more nuanced cases.
-
-35:51 - Conference Room (Jorge Lewis) - Speaker 1 So for example, the user says, I walked around the block, my house's block, and the collector will see that and say, okay, that's not enough information for me to update the database. So let me go back to the user and ask for more information or try to pry it out. Otherwise, if we know we have the information we need, then we're going to pass it to the coach. Not the analyst. Or then the analyst first and then the coach. But when would this line ever go? This line would go when it's not new data. So if it's, if the user is responding to a coach, so like, let's say the coach says you should walk five, five KM instead of one, by the way, I don't know why we're using miles. So everyone, like literally everyone in the, in this entire project uses KM. So you guys use KM, right? Yeah. Yeah. So, okay. Even the client uses it.
-
-36:38 - Conference Room (Jorge Lewis) - Speaker 2 Wouldn't that go use for coach then? Why pass it to collector just for the collector to go? I don't need to do anything to this.
-
-36:45 - Conference Room (Jorge Lewis) - Speaker 1 No, because then otherwise we'd need a router every single time and it would be actually cost more than a collector itself.
-
-36:51 - Unidentified Speaker Okay.
-
-36:52 - Conference Room (Jorge Lewis) - Speaker 2 So it's basically if we want to leave it like the responsibility to the collector. Yeah.
-
-36:56 - Conference Room (Jorge Lewis) - Speaker 1 So it's just saying collector may or may not do anything, but making a route to collector by default solves the problem of introducing an extra supervisor.
-
-37:03 - Conference Room (Jorge Lewis) - Speaker 2 Could you add the comment on that line instead of just update check-in, just no new relevant info, or just the coach is having a conversation, the collector does nothing.
-
-37:12 - Unidentified Speaker Yeah, just default, I think.
-
-37:14 - Conference Room (Jorge Lewis) - Speaker 1 The collector does nothing. Yeah, collector does nothing.
-
-37:21 - Chinmay Pandya So whenever the user enters a prompt or check-in, and if the data is not enough, then will the collector add that to the database first or ask more questions?
-
-37:33 - Unidentified Speaker Sorry, just repeat that.
-
-37:35 - Chinmay Pandya If the user enters something which is not enough, not enough to analyze, like you said, he walked, he just walked around and if the collector wants to know more data before he passes to the analyzer, then will he update the database, the pieces of information he gets when he gets those pieces, or will he update the information once he gets enough pieces?
-
-38:04 - Conference Room (Jorge Lewis) - Speaker 1 He, he has to do it when he gets enough pieces because in the data, this is a, oh, this is the wrong project.
-
-38:12 - Conference Room (Jorge Lewis) - Speaker 2 Yeah.
-
-38:13 - Conference Room (Jorge Lewis) - Speaker 1 Um, so, so in the database, there's columns specifically for the items. So things like, um, the NKM, how far has the user walked? So if the user has given anything other than that, the collector needs the number of kilometers the user has walked. Um, so if the user says I walked around.
-
-38:34 - Conference Room (Jorge Lewis) - Speaker 1 I walked around a football pitch three times. The collector could interpret this and say, okay, so, or if the user says something like that, then the collector, if he's very certain that the distance of a football pitch, then he can do it.
-
-38:51 - Unidentified Speaker Yeah.
-
-38:56 - Chinmay Pandya So if you add a node in between, which has the function to decide whether the information is enough or not. And then when the information is enough, then it will pass to the collector. So the collector won't have to decide additional logic to maintain whether the information is enough or not. Collector can just have two functions, whether call from the database or pass it to the coach.
-
-39:32 - Chinmay Pandya Right now, collector has three logics. Call from the database, pass it to the coach, or check whether data is enough or not. So if the data is not enough, we can add another node which decides if the data is enough or not before passing it to the collector.
-
-39:48 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, I see. I think both will work. Your one is kind of more robust. I'm trying to think of any downsides of introducing an extra node in the middle here.
-
-40:09 - Conference Room (Jorge Lewis) - Speaker 2 I haven't heard any of the context, but I don't think we should avoid introducing nodes.
-
-40:15 - Conference Room (Jorge Lewis) - Speaker 1 There is actually a problem, though, with speed, with time. Because once we introduce too many nodes, the duration for a response becomes actually unbearable.
-
-40:26 - Conference Room (Jorge Lewis) - Speaker 1 We can improve that with faster models, of course, but we're trying to keep, like, ideally, it's just not going through a lot of nodes.
-
-40:32 - Conference Room (Jorge Lewis) - Speaker 2 What about, like, limited loop structures, like the one I created, where it's, like, they take part in one part of the loop, then jump to another part of the loop, then jump? Like, if we straight up implemented my whole flowchart as a graph, how would that work?
-
-40:48 - Conference Room (Jorge Lewis) - Speaker 2 Because usually then it's only going for like two months at a time.
-
-40:51 - Conference Room (Jorge Lewis) - Speaker 1 So in my experience, what I made with the Python graph, actually, the collector was doing what I... My graph here is actually what was the case before, except the analysis is a little bit different. The collector in my previous one was doing the three logics. So understanding if we have enough info, passing it to the coach or updating the database.
-
-41:15 - Conference Room (Jorge Lewis) - Speaker 1 And it was able to do it quite accurately as well. It was like, for example, if I said I walked to cam and then another message later on, I said, Oh, actually I walked an additional eight, then it was able to update it accordingly. Um, I didn't do rigorous testing. So, so maybe, but I think to start off, we can start with this. And then if we know if in our testing, we figure out, okay, this, this guy's pretty inaccurate when we try to like, test its limits in terms of like making more complicated answers, then we can introduce one. Does that work or do you think otherwise?
-
-41:47 - Chinmay Pandya Yeah, I think we should try with a simpler model first.
-
-41:53 - Conference Room (Jorge Lewis) - Speaker 1 Okay, so from all of these, what can we take from all of them? Which one do we like best?
-
-42:00 - Conference Room (Jorge Lewis) - Speaker 1 Well, not Jonas's, sorry, your one said a useful diagram, but not a graph, not the line graph.
-
-42:06 - Unidentified Speaker We'll need to save this.
-
-42:11 - Unidentified Speaker Bro, the text is too small.
-
-42:14 - Conference Room (Jorge Lewis) - Speaker 1 I'll save it later. So which one do you like best?
-
-42:24 - Chinmay Pandya Mine has four nodes, and yours has three. So right now, I would like to test with three nodes, if it works.
-
-42:38 - Conference Room (Jorge Lewis) - Speaker 1 These two are just, yeah, these are the same, right?
-
-42:42 - Conference Room (Jorge Lewis) - Speaker 2 Except the line that goes between the coach and collector, but I don't- I don't think that's really relevant. Yeah, because both of them have a router, I don't think. BWAS.
-
-42:51 - Unidentified Speaker Yeah, they're the same.
-
-42:54 - Conference Room (Jorge Lewis) - Speaker 1 Okay, so BWAS, what do you think of this one, starting with this one then?
-
-43:18 - Biwas bhandari I work 10 kilometers and today I work 20 kilometers.
-
-43:22 - Unidentified Speaker Yeah, yeah.
-
-43:24 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, one thing we need to consider is are things like when the user does things like that when he says 2 KM and then 5 KM like we need to make sure we have a system where it updates the database accurately because for example it might try to do it might update the database first with 2 KM and then it does another call with 5 KM but really it should be doing the second calls should be for 7
-
-43:50 - Chinmay Pandya so we need to make sure that's that's in place the database updated before every preceding check-in sorry like if the user checks in another five kilometers like you said if he checks in with another five kilometers so if we have the two kilometers updated and we can calculate that the entire day he already had two kilometers and then he went out and did five again yeah there's there's two options like one of them is just trust that the
-
-44:22 - Conference Room (Jorge Lewis) - Speaker 1 llm will see the conversation history, which in the past, through my experimentation, it was able to do that. It never failed. But the other option is to every database update is the sum. So it just adds them together. I think letting the LLM decide is better, because if it's the sum, we're relying a lot more on conditional, like hard-coded things than the LLM. The LLM will just know, OK, no info, let's update it.
-
-44:51 - Chinmay Pandya We just need to tell LLM to recognize all of the activities of today. So he'll sum it up himself. Yeah.
-
-45:00 - Conference Room (Jorge Lewis) - Speaker 1 Maybe, maybe later down the road, if we noticed the, the collector is, is it sucks at trying to figure out like multiple data points and adding them together, we can make a small little graph down here to help add an extra LLM saying summarize or like extract the, the data points for this in this category.
-
-45:21 - Unidentified Speaker Something like that.
-
-45:22 - Conference Room (Jorge Lewis) - Speaker 1 It's the thing about the nice thing.
-
-45:24 - Unidentified Speaker Sorry.
-
-45:25 - Chinmay Pandya I was thinking of a fourth node because if the collector has too many responsibilities, it might not work.
-
-45:32 - Unidentified Speaker Yeah.
-
-45:33 - Conference Room (Jorge Lewis) - Speaker 1 So, so we'll have to test around. Um, that's a nice thing about this graphs. It's really easy to test. You just change the prompts and add some edges. Yeah.
-
-45:40 - Chinmay Pandya We just have to add a node and we have to just transfer the tools.
-
-45:46 - Unidentified Speaker Yeah.
-
-45:46 - Chinmay Pandya We have to transfer from coach, from collector to the support. Yeah.
-
-45:52 - Unidentified Speaker Okay, cool.
-
-45:54 - Conference Room (Jorge Lewis) - Speaker 1 So in terms of the plan then, I'll leave Chinmay and D.Wes to discuss what you guys are going to try to do. Jonas is going to continue on the messages thing. I won't be on the project right now. I'll let you guys work.
-
-46:15 - Conference Room (Jorge Lewis) - Speaker 1 Are you guys both on tomorrow?
-
-46:18 - Unidentified Speaker Yeah, yep.
-
-46:21 - Unidentified Speaker Okay, cool.
-
-46:22 - Conference Room (Jorge Lewis) - Speaker 1 Okay, so I think tomorrow, sometime around midday, we can check in all together and see how things are going and how we can delegate a little bit better.
-
-46:29 - Chinmay Pandya Also, there's some issue with the check-in, the database check-in.
-
-46:39 - Biwas bhandari What's wrong with it?
-
-46:41 - Chinmay Pandya Like we have three check-ins, an update check-in, a create check-in, and get today's check-in, right?
-
-46:54 - Chinmay Pandya Hello.
-
-46:55 - Unidentified Speaker Yeah. Yeah.
-
-46:56 - Chinmay Pandya So, uh, the code as it was written for create check-in, it will always, it should return the latest inserted node or the data, but it always returns the data as null.
-
-47:18 - Unidentified Speaker I see. So is that.
-
-47:21 - Chinmay Pandya No, wait. I'll present my screen and show you.
-
-47:34 - Chinmay Pandya Yeah.
-
-47:35 - Chinmay Pandya So here.
-
-47:37 - Chinmay Pandya You see this?
-
-47:39 - Unidentified Speaker Yeah.
-
-47:40 - Chinmay Pandya This is always not.
-
-47:44 - Chinmay Pandya Yeah, so whenever you're trying to create a check-in, it will not return you the latest check-in which was created. And that's why the data is always null. And in the case of error, we pass in an object where data is null and error. So here, this was the original code.
-
-48:04 - Unidentified Speaker Yeah.
-
-48:10 - Chinmay Pandya So here we try to return something, but this will always be null. So this, it was causing error here. I think there's a problem with this function, this create function, which should be the latest inserted.
-
-48:24 - Conference Room (Jorge Lewis) - Speaker 1 Do you have experience with Superbase?
-
-48:31 - Chinmay Pandya I do not have with Superbase. But what I tried to do here is, because it was not inserting, I just ran the code to, for it to insert, then I called the two days check and it will fetch the most recent again.
-
-48:46 - Conference Room (Jorge Lewis) - Speaker 1 I'll send you, let me send you the documentation for superbase SDK. It's very simple. You've worked with Postgres databases before, right? Yeah. Postgres, right?
-
-48:54 - Unidentified Speaker Yeah.
-
-48:55 - Conference Room (Jorge Lewis) - Speaker 1 Okay, so you should have no trouble understanding it, and then it's just a matter of looking at the documentation reference.
-
-49:01 - Unidentified Speaker Okay, yeah.
-
-49:02 - Chinmay Pandya Also when you when you call get today's check-in, do you want only one single item to return or Don't just send link to one of them.
-
-49:11 - Conference Room (Jorge Lewis) - Speaker 2 Yeah, that's the wrong one sends link to super base slash SSR Sorry, I didn't get Is it different yeah, it's slightly different I'm talking about like just the basic API calls. Yeah, you were looking at the wrong ones. Like just these ones. Yeah, I just sent a link to one of them. It's not SuperBase.js we're using, even though that's the one that's still listed there. They're phasing it out and replacing it with SuperBase SSR. But the only difference between SuperBase.js and SuperBase SSR is how you create the client, not how you use the client. So just how a client is created and how authentication is performed is different. But how you make normal API calls, that's the same thing.
-
-50:20 - Unidentified Speaker Okay.
-
-50:21 - Chinmay Pandya But the goal of the today's check-in function is to fetch one check-in or multiple check-ins?
-
-50:32 - Conference Room (Jorge Lewis) - Speaker 1 One check-in. So, so every day there's one check-in object. And the idea is that every day the user checks in. So there's a new one that created every day for every user. Yeah.
-
-50:42 - Chinmay Pandya Because the current code fetches multiple check-ins.
-
-50:48 - Conference Room (Jorge Lewis) - Speaker 1 No, I think it does single.
-
-51:05 - Chinmay Pandya So this is the today's check-in and it returns an array of anything.
-
-51:12 - Conference Room (Jorge Lewis) - Speaker 1 Oh yeah, there should be single there.
-
-51:15 - Chinmay Pandya Yeah, I tried adding single, but since I didn't know superface that well. Yeah, no, I'll go, I'll go.
-
-51:21 - Conference Room (Jorge Lewis) - Speaker 1 Ask your boss.
-
-51:22 - Unidentified Speaker Okay, cool.
-
-51:23 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, there should be a single there, my bad. That was, yeah, pretty cool. Cool.
-
-51:29 - Unidentified Speaker So, I'll love you guys.
-
-51:31 - Conference Room (Jorge Lewis) - Speaker 1 I'll let you guys go through whatever you guys need to go through. And then tomorrow we can regroup.
-
-51:38 - Biwas bhandari Yeah, can I have this? Let me try this.
-
-51:47 - Conference Room (Jorge Lewis) - Speaker 1 Hello, hello? You have to set the output.
-
-51:50 - Conference Room (Jorge Lewis) - Speaker 2 Click up here. Then you can set the system output. Oh.
-
-51:55 - Unidentified Speaker Yeah.
-
-51:55 - Biwas bhandari You'll be Firefox. Oh.
-
-51:59 - Conference Room (Jorge Lewis) - Speaker 1 Hello?
-
-52:01 - Conference Room (Jorge Lewis) - Speaker 2 Yeah, you have to turn the volume up a lot. It's the same thing for me.
-
-52:04 - Conference Room (Jorge Lewis) - Speaker 1 That is not speaking.
-
-52:07 - Unidentified Speaker Yeah.
-
-52:07 - Conference Room (Jorge Lewis) - Speaker 1 Can you guys speak? Yeah, it's working. Oh, there. Okay. I was checking on the graph.
-
-52:14 - Conference Room (Jorge Lewis) - Speaker 2 So one thing I wanted to ask is, are you guys going to be peer programming, or how is this going to be organized?
-
-52:23 - Conference Room (Jorge Lewis) - Speaker 1 For me, what I think is best, I've never tried, I don't have experience with it, but just hypothesis is that maybe like a combination, maybe 40% peer programming and then solo. And that way, the peer programming is a mix of staying aligned, but also learning from each other.
-
-52:42 - Conference Room (Jorge Lewis) - Speaker 2 Yeah, so when you guys are getting on, probably message each other that you're online, and if both people are online at the same time, try to get in the call as fast as possible, sync up on everything, just get used to working in a team. And if you feel it's appropriate, start a pair programming sessions. I can say from experience that pair programming is one of the best ways to learn how to program and how to run a project ever.
-
-53:11 - Chinmay Pandya Cool, cool, cool.
-
-53:15 - Unidentified Speaker Alright, sounds good.
-
-53:18 - Conference Room (Jorge Lewis) - Speaker 1 So I'll see you guys tomorrow then.
-
-53:22 - Unidentified Speaker Let me know if you guys have any questions.
-
-53:26 - Conference Room (Jorge Lewis) - Speaker 1 Yeah, thanks so much for your guys' time. It's been a bit of a long night, but yeah, enjoyed it. I had fun meeting you guys.
-
-53:36 - Biwas bhandari Okay bye bye, have a good night.
-
-53:38 - Biwas bhandari What time do you work? During the day, from 2 to 11 am. At night, I work more. Around 1 am.
-
-53:42 - Chinmay Pandya You work more at night? I sleep at 1 am. My work is in the morning and afternoon.
-
-53:48 - Biwas bhandari Yours is in the afternoon and night.
-
-54:05 - Chinmay Pandya So do you live at 2pm? At night or in the afternoon?
-
-54:08 - Biwas bhandari No, no, in the afternoon. Yeah, yeah. From 2 to 5 in the afternoon.
-
-54:13 - Chinmay Pandya Yeah, okay.
-
-54:13 - Biwas bhandari Okay, so I live at that time as well.
-
-54:18 - Chinmay Pandya I mean, I live from 9 to 1 in the morning and from 2 to 5 in the afternoon. So, I'll see you from 2 5 afternoon. You can come online then. We can collaborate. Okay, okay.
-
-54:28 - Chinmay Pandya Okay, bro.
-
-55:12 - Chinmay Pandya When did you start working on Lightning?
-
-55:15 - Biwas bhandari First I worked on it twice, using TypeScript. Then I switched to Python. And made 2-3 projects.
-
-55:25 - Biwas bhandari And that guy messaged.
-
-55:27 - Biwas bhandari Did you do any internship work? Not internship, I did both remote work. They were from Nepal, but they stayed in San Francisco. America.
-
-55:41 - Biwas bhandari They gave me the job.
-
-55:43 - Biwas bhandari So, I did it.
-
-55:45 - Biwas bhandari Lang Graph.
-
-55:46 - Biwas bhandari I haven't used it much. I've only used it in LangChain. Agent. Banana. Router. That's it. First time using Lang Graph.
-
-55:56 - Unidentified Speaker But it's good. Yeah.
-
-56:00 - Chinmay Pandya We'll figure it out.
-
-56:01 - Chinmay Pandya There's no new code.
-
-56:03 - Chinmay Pandya It's just LangChain. But the graph and nodes are different.
-
-56:10 - Chinmay Pandya ok bro, let's meet tomorrow ok, today I am working on the collector now my quota is over so I will start again tomorrow morning if there is any quota, I will do it ok, I will try to figure out the collectors do you have the documentation link?
-
-56:38 - Biwas bhandari Langchan's Superverse I haven't used. I was only using MongoDB and MySQL. I'll send you a link.
-
-56:50 - Chinmay Pandya I'll send you the documentation link in the Discord chat.
-
-56:56 - Chinmay Pandya Okay. Let me know if you have any extra resources.
-
-57:00 - Biwas bhandari Yeah.
-
-57:13 - Chinmay Pandya Where did it go?
-
-57:23 - Biwas bhandari I sent it.
-
-57:24 - Chinmay Pandya This was just a multi-agent. I was also looking at this.
-
-57:29 - Biwas bhandari But it has a router.
-
-57:30 - Chinmay Pandya It doesn't need a router. It has a supervisor in the code too.
-
-57:43 - Biwas bhandari using supervisor, he was also using multi-agent collaboration using supervisor, he was using multi-agent collaboration actually in multi-agent, router is better we'll have to see I'll do it tonight, if there's any error I'll inform you, you can check it in
-
-58:05 - Chinmay Pandya the morning If you figure out something or work on it, let me know. I'm sleeping, when I wake up, you go offline, I'll see.
-
-58:27 - Biwas bhandari Okay, bye bye, have a good night.

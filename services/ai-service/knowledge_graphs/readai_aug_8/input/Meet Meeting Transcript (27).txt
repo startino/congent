@@ -1,0 +1,276 @@
+Meet Meeting 
+Fri, Jul 12, 2024
+
+0:05 - Cuan Mulligan Hey, how's it going?
+
+0:06 - Eksno Morning, guys.
+
+0:13 - Cuan Mulligan Hi there. Hey, Hasnain, how are you? Yeah, I'm all good. How about you?
+
+0:18 - Eksno Hey, how's it going? Just got my headset connected.
+
+0:21 - Cuan Mulligan Yeah, my ears are a bit funny. I feel like I'm underwater. I don't know why, and I can't pop them.
+
+0:28 - Cuan Mulligan Yeah, my audio, you sound very weird to me, but I'm sure, I know it's my ears rather than that.
+
+0:36 - Cuan Mulligan Both of us?
+
+0:38 - Cuan Mulligan Yeah, yeah, no, it's me, it's completely me. It's my ears that are toast. I don't know what's going on with them. Cool, so let me see if you see, have you seen this document? Is it Hasnain, is that how I say it properly, Hasnain?
+
+0:58 - Cuan Mulligan Yeah, yeah, right.
+
+0:59 - Cuan Mulligan Perfect. Cool. All right. Let me see.
+
+1:05 - Cuan Mulligan Can you see that?
+
+1:10 - Cuan Mulligan Yes.
+
+1:11 - Cuan Mulligan So have you seen this image before, this process flow?
+
+1:19 - Hasnain sayyed Yes, I think.
+
+1:22 - Cuan Mulligan So the idea is that during the day, there's the mentor, which is being a bit more directive and telling people, like, watch this, do this. It's very telling them what to do, almost. And then there's this coaching session, which I think is what we're talking about today and something you're going to be working on. And again, because this is all What we believe, obviously, when we start having users, that will clarify an awful lot of our understanding in terms of what it is. But a coaching session is a dedicated time. It could be somewhere between 30 and 60 minutes to go into something, because it's not something where all of these, if you ask the question, when you get the answer, is not that important, as long as you get the answer at some point during the day. So it's a very asynchronous communication. Where the coaching session is deeper, and it could get quite emotional. So you want to make sure that completes, or you need the time to do it justice. Now, with all of this communication up here and sending out the communication, text, I think, is totally fine, asking for something, something to come in back. My concern is that a coaching session feels very unnatural to be texting. It wouldn't be something that people would naturally do. They would normally talk. So one of the concerns or the questions I have is, how do we do both the user and the bot agent speaking? Now, I don't think it needs to be visual. I don't think we need an avatar. And I'll give you a demo of an avatar. But I don't think we need that at the early stage. But we definitely need to probably do voice. So there's two of them. Let me show you this.
+
+3:17 - Cuan Mulligan Have you used character.ai before?
+
+3:21 - Cuan Mulligan No, actually not. OK. So I'm just going to sign in. I thought I'd already signed in.
+
+3:32 - Cuan Mulligan OK. I think it's this one here.
+
+3:37 - Cuan Mulligan So I could say.
+
+3:50 - Cuan Mulligan So you can see that it's doing text and voice. It's quite good. There is all of these different.
+
+4:02 - Cuan Mulligan Yeah, voices.
+
+4:06 - Cuan Mulligan Interesting. She hasn't changed.
+
+4:07 - Eksno I'm not sure if it's only me, but I couldn't hear a voice. Kudu has now. No, I can't hear the voice.
+
+4:20 - Cuan Mulligan Oh, interesting.
+
+4:28 - Eksno For me, the mute stream button is grayed out. So I'm guessing there's no audio on the stream for some reason.
+
+4:35 - Cuan Mulligan Oh, but again, it's coming out over my speaker. So I would have assumed my microphone picks it up.
+
+4:40 - Eksno Oh, OK.
+
+4:44 - Eksno I think computers are pretty good at filtering out audio. It's playing itself now. Wow. Why you can't hear me for example.
+
+4:52 - Cuan Mulligan Okay. So anyway, so that, that is car to the AI voices. Uh, so this is, um, I don't know if you're going to be able to, um, so this is a demo of a startup that I was speaking to. Um, she's a pretty impressive young Irish girl and she's doing some really cool stuff. So can you.
+
+5:20 - Hasnain sayyed Can you guys hear us?
+
+5:22 - Eksno No. No.
+
+5:26 - Eksno Are you able to allow the audio to go through the screen on Google Meets? Turn it on when you're streaming or something?
+
+5:34 - Eksno How do I do that?
+
+5:37 - Eksno I haven't done it before. Usually I'm screen sharing code, not audio.
+
+5:42 - Unidentified Speaker Google Meets.
+
+5:43 - Eksno Share.
+
+5:54 - Cuan Mulligan How bizarre. I had no idea that it wouldn't.
+
+5:58 - Eksno Click present now. You will see three options to present. Click an option that says Chrome tab. Select from which tab you want to share. Oh, so you have to share the specific Chrome tab instead of the entire screen, it looks like,
+
+6:11 - Eksno Ah. OK.
+
+6:13 - Cuan Mulligan I'm going to try it one more time.
+
+6:26 - Eksno Yeah, now the mute button isn't great.
+
+6:28 - Speaker 0 Hi, this is the Sunset Hotel reception. How may I help you?
+
+6:31 - Hasnain sayyed Can you guys hear that?
+
+6:34 - Eksno Oh, yes.
+
+6:35 - Cuan Mulligan I'm sorry. I'm not sure what you're asking. Could you please provide me with more information about your request? Would you like to make a reservation or do you have a question about the hotel?
+
+6:44 - Cuan Mulligan What's your biggest room size?
+
+6:48 - Cuan Mulligan Let me check that for you. Our largest room is a suite that can accommodate up to four people. It comes with a separate living room and bedroom area and it's perfect for families or groups of friends. Would you like to book a suite or do you have any more questions about our rooms?
+
+7:03 - Cuan Mulligan So you can see they provide an API that we would just send the text to, and it does that. I've got to change tabs now for a second. So if that's their current model, there's a new model coming out in about three weeks, which I'm going to show to you now.
+
+7:24 - Eksno Can you see that?
+
+7:27 - Hasnain sayyed It's starting.
+
+7:30 - Cuan Mulligan Oh, yeah. Now it's visible.
+
+7:32 - Cuan Mulligan So this here, this is her on the left, and this is the model on the right.
+
+7:42 - Cuan Mulligan So you can still see quite that it's still a computer model. These are the two founders on the left. The one on the right is actually a generated model. It's not real. You can sort of see some of the detail in the hair quite isn't there. The eyes are not 100% the same. But compared to the previous version that you just saw, pretty bloody impressive.
+
+8:04 - Unidentified Speaker Yeah.
+
+8:04 - Cuan Mulligan Um, and the big issue with all of these things is lip sync. Lip sync is the number one issue with any of these things. And they're really getting quite close to it. Um, so these guys are really interested in, in having companies use their product and the coaching feels like something that will be really appropriate. Um, but I think we'll look at that at a point in time. So if I just go back to.
+
+8:32 - Cuan Mulligan Where is it? Oh, there we go. So if I do here live coach, it goes like this. Good morning. How can I help you today? Can you hear that?
+
+8:47 - Unidentified Speaker Yeah.
+
+8:48 - Cuan Mulligan Yes, I am struggling getting to, even typing this feels weird. I'd much rather talk to it.
+
+9:04 - Cuan Mulligan And what it does is it times to put the text, and then it was doing that before. I'm sorry to hear that you're struggling with getting to the gym. It can be difficult to maintain a workout routine, especially if you're feeling unmotivated or pressed for time. Something that might help is to set specific. Sorry?
+
+9:26 - Eksno It sounds almost angry. I'm sorry to hear that you're struggling.
+
+9:29 - Cuan Mulligan Yeah, the intonation is not always perfect. And there's something fundamentally annoying about this style. I was speaking to somebody about this. And I don't know what it is, but I think it's something related to it. The agent has never experienced going to the gym. So they're talking about it as if it's a theory. Not from the first person's experience.
+
+10:04 - Cuan Mulligan And so when you're coaching somebody, it's very much you can share your own experiences. And there's something about this, the Thrive app as well, it's overly, it sounds really weird to say this, it's too coachy. It's not real enough. It's not giving you an opinion. It's not helping you. So if you look at the, well, I'll send you over the immunity to change workshop that we ran with the coach. That feels a bit more normal in terms of what a coaching session is. So Hassan, just to let you know, so there's a, there's a work by a psychologist called Robert Keegan and Lise Laje. And they've done this work called, it's called the immunity to change. So for example, if, if you had information that like, I know going to the gym every day or doing at least a walk an hour every day is really good for me. And right now, But I'm not doing that.
+
+11:03 - Cuan Mulligan And so I have the information. So it's not a question of having information. It's a question of applying it. And what do I need to do to my day, to plan my day, or to understand what's getting in my, what story am I making up that's preventing me from actually doing these things? And that's what that workshop does. It goes into that and helps people understand why they're doing them, and then putting some actions in place to allow them to, change basically now in when as humans when we're coaching we might only speak to our clients every two weeks and so what happens is during the phone call or the coaching session people are very attentive and they're like yeah I'm going to do this yeah yeah and then after the call life takes over and then about an hour before the following call two weeks later they go shit I've got to do all this stuff that I promised my coach And so, but in the meantime, not much has changed. So what we're trying to do is if we can have the ability, we don't, we don't have a formal coaching session every day, but if we did between the mentor nudging you every day and the ability to have a coaching session, we're hoping that people will find it harder to not apply healthy habits. That's the, that's the underlying assumption.
+
+12:20 - Cuan Mulligan Does that make sense?
+
+12:28 - Hasnain sayyed Oh yes, yes.
+
+12:33 - Eksno One question, Cuan. The coaching session, it sounds like you mentioned the workshop of the Immunity to Change. That sounds like a very specifically aligned and good workshop to run. But I imagine each coaching session with the user would be quite different, right?
+
+12:58 - Cuan Mulligan Potentially, right?
+
+13:02 - Cuan Mulligan And again, this is just my initial assumption. So what instigates a coaching session? So I think when we were previously talking about it, we were looking at this end of day check-in. I use sometimes the word coaching, and I don't think we're looking at that. So that's what the mentor is doing. If you have a work mentor, they're a little bit more directive. They say, OK, you need to do these four things today. They're telling you what to do. A coach never tells you what to do. That's not their job. Their job is to be curious and ask questions. And so I think we're looking at this hybrid mentor-coach type thing. So if we are noticing that either you're not applying, you're not recording your information, you're struggling, or you're doing something, that is the call to action to have a coaching session. So generally, the coaching session is going to have an objective. It's going to have a thing they need to talk about. Like, OK, you're not getting to the gym. Let's have a session as to understanding why. You're still eating sugary food. Let's understand why. And so it'll generally always have a topic. It's not a generic open-ended session. And the topic comes from the lack of engagement or the data or stuff like that. So we're saying, oh, wow. And so let's say most people's lives are not very consistent. And so you might find Saturdays because people went out on the piss on a Friday night. So Saturday, they just don't engage with the app. So we would then say, ah, OK, we're probably going to start having the mentor probably start having conversations with you on the next Tuesday to say, hey, listen, we know that on Saturdays, you really struggle.
+
+14:48 - Cuan Mulligan Do you want to see if we can set something up this week to try and change that? How do we make your Saturday really successful? And if they're saying yes, then part of that solution might be having a coaching session to understand What are they doing that's making them fail on a Saturday, as it will be? And that's the sort of dance between the mentor and the coach.
+
+15:10 - Eksno If the user insists that, no, I like going out, doing whatever, partying, or whatever the entire day, not doing their tasks for that.
+
+15:22 - Cuan Mulligan Yeah, I think that just you know, resets people. Well, the point of that then is to reset people's expectations of what they're going to achieve in terms of weight loss. Remember when we onboard people, one of the other coaching sessions we're going to have is helping people understand why they're doing this and helping them connect to their reason for doing this.
+
+15:46 - Unidentified Speaker Yeah.
+
+15:47 - Cuan Mulligan Um, actually that might be the first, it's part of the onboarding, maybe the why and helping people get to that is probably the better, use case, because I think it's narrower and easier to work with than the whole immunity to change workshop.
+
+16:02 - Eksno You mean to implement now or in general?
+
+16:04 - Cuan Mulligan The first coaching session will be to help people discover why they're joining. Why are they signing up? Why are they joining? What do they want from this? What does it look like when they've achieved this? Because that's the fuel that's going to help them do the difficult things and the hard things.
+
+16:19 - Eksno Ironically, that sounds like a very similar workshop to the one we're going to be doing for intelligent It's not, it's not a million.
+
+16:27 - Cuan Mulligan Yeah. But it was one's around brand and one's a personal thing.
+
+16:32 - Unidentified Speaker Yeah.
+
+16:32 - Eksno So, um, I think a lot of like, uh, a lot of that should be directly transformed, uh, transferable to making the intelligence or intelligent.
+
+16:44 - Cuan Mulligan Intelli agent.
+
+16:46 - Eksno Okay.
+
+16:47 - Cuan Mulligan So like I was in a meeting, what was it all day the other day, Tuesday with Dell and the video. I was in Dell's offices in London for an executive AI briefing day. And yeah, they did some work for the Texas governance state of Amarillo. They created what's called a digital human and their avatar was shocking, but they were saying, it's amazing. Like this girl's startup is way better, way better than what they've done. And, Yeah, just their ambition. They do agenic work, so multi-agent systems as well. So project managers with analysts and stuff like that. So this is where everything is going. And I think we just need to really show the...
+
+17:43 - Cuan Mulligan Actually, the one difference would be in this one, Your why would be a one-to-one relationship between the person and the coach. Even if the coach is actually made up of multi-bots, the multi-agents, the person would never know that. Where in the IntelliAgent brand workshop, you almost want to show that there's multiple agents working.
+
+18:08 - Cuan Mulligan Because if we were running an agency, exactly like this call right now, Hasnain and you are providing different inputs into this session to me. And you're asked different questions. And that's, this is the experience that JP ideally wants for a tele-agent. So everyone's doing different things. And obviously, you know, you have your own independent ability to know when to say something or when not to say something, or his has an aim about to say something. Cause you can sort of see the body language change. Agents won't have that. So that coordinator supervisor agent that we built for ADAPT, will do that coordination and when to speak, not to speak, that's going to be really, really important. Where with Apt, it's a single life coach, so it doesn't feel like there's any coordination going on to the user. It's just one voice.
+
+19:05 - Unidentified Speaker Yeah.
+
+19:08 - Cuan Mulligan Actually, I think we should focus on the why. Let me dig out some work on why workshops and how to help people get to why. There's some really good work on this that we can figure out. And then you can actually, well, rather than me assuming what you need, as you say, coaching is relatively organic, right? In terms of where the conversation goes and how you get there. And, you know, there's tech five wise and going deeper. And, you know, even in that demo of the, of the hotel room, you can see that, you know, I tried to do a session earlier on just to make sure it was working. And I said, can I book a room in December, 2021?
+
+19:48 - Cuan Mulligan Now her response was, we're fully booked.
+
+19:53 - Cuan Mulligan Now she's not wrong. A person would say, what the fuck are you talking about?
+
+20:03 - Cuan Mulligan So it's that level of humanness, reality, like we're not trying to be perfect. We're trying to be human in the conversation. And if someone says something stupid, The bots are too polite, right? They're very much, oh, I'm really sorry. Like, if you'd say to chat GPT, give me something, and it's wrong. You say, sorry, you completely got that wrong. Oh, yeah, I'm really sorry. Maybe you got it right, by the way. But if you say it got it wrong, yeah, yeah, yeah. Where it doesn't, at some level, we need to start having an opinion here. And maybe that's the thing that I'm feeling is missing here. There's no agenda that's not trying to do anything where I think we are. We are trying to help someone get somewhere. And I think that's the difference. And I don't know what you need from me in terms of data or information or guidance in order for you to build that. Or is it more a case of you're going to just build the capability, and it's in my training and fine tuning of it that we will turn it into that sort of an experience?
+
+21:12 - Eksno Yeah.
+
+21:13 - Eksno So should we start with the yellow part of the coaching session, which is already in the diagram? Or should we leave that out for now and focus on discovering your why workshop after onboarding?
+
+21:26 - Cuan Mulligan I think the why one will be easier as part of onboarding, because that's an actual workshop. I think we'll get caught up in the mechanics of the workshop as opposed to the experience of being a coach.
+
+21:42 - Cuan Mulligan So I think the why is a slightly more narrow defined experience as part of onboarding. And it's a more discreet thing that we could demo to somebody as sort of showing like, hey, do you want to know your why?
+
+21:56 - Eksno Could you explain to us what your why is, like what that is as a concept?
+
+22:05 - Cuan Mulligan It's a deep understanding fundamentally of why it's important for you to do something. So there's an often used life coaching experience where this guy wants to go to university and the life coach is saying like, well, why? And he's like, well, you know, it's a long conversation, but I'm giving you the sort of short version. He basically just goes, well, you know, I didn't go to university and I've always felt my dad's didn't respect me for that. And so I want to go to university and prove to him and basically get his approval that I'm, I'm a capable man. And then the life coach will ask a very powerful question, which is what if he doesn't like, what if your dad doesn't respect you because you go to university? What if he already respects you? What to do at university?
+
+23:03 - Cuan Mulligan And so that makes the person think about, well, why am I doing this? And it's like, you know, for on the health stuff, I was given, um, I don't know if you know my backstory. So about three, four years ago, I, uh, I worked for a company and we would get very detailed medical exams every two years. So you get MRIs and ultrasounds and stuff like that. And well, I was cured, I wasn't, well not cured, sorry, I wasn't, I was cleared of all the big scary shit like cancer. I had something that was called NAFLD, which is non-alcoholic fatty liver disease. I was pre-diabetic, I had arthritis, I had high cholesterol, I had calcium in my heart, and I had a sixth one, I can never remember the sixth one. And for years I went down the, the, doctor's route of having pills. And it sort of worked a little bit and then it wouldn't, and then it did, and then it wouldn't. And then eventually I said, fuck this. I'm going to figure this out myself and figure out what's going on. And, um, I spent about a year researching everything and understanding actually high cholesterol is really good for you. Um, lowering your cholesterol is a really, really bad thing to do. Um, what they actually mean is if you've got a very high, what's called triglycerides, which is a very high sugary diet, and you've got high sugar in your blood, there's something as part of cholesterol process is an LDL and the LDL gets damaged by the sugar in your system. And then that damaged LDL is tiny and it goes into your arteries and that's where you get calcium buildup and it can cause heart disease. Um, So they say, oh, let's bring down all LDL. It's like, no, that's really dangerous. You need to not have sugar, basically, is sort of the punchline. So my why was, if I didn't change my life, I would probably be having a heart attack within five years. So I would have had a very big issue. So I've had, I've been very motivated. I've lost, I've changed all of my markers. All of my health has now changed and I've lost about 24 kilos. So I was slightly fatter than you see me now. My wife is doing it proactively because she doesn't want to get diseases that are very avoidable later in life. My sister did it because she hit 14 stone. So she just had it like, 13 a half stone was fine. 14 stone was not fine. She just, her mental image just went, I can't be that big. And so she changed. So we all have these triggers.
+
+25:50 - Eksno Did you say 14 stone?
+
+25:52 - Cuan Mulligan Yeah. Into real money. That's it. 14 stone is an Irish English weight category. So 14 stone is about 89 kilos. Okay.
+
+26:06 - Cuan Mulligan And she is now 63 kilos. So she's lost about as 20 well. And so it's really important. Sorry, excuse me. It's really important that people understand why they're doing something, because that's the motivation that's going to keep them going through the tough times. So why do people get a job? Maybe it's because they enjoy it. But ultimately, it's probably because they need to pay bills. And when you're having a shit day at work and your boss is a wanker, and I'm not suggesting in your company, it's like this.
+
+26:49 - Cuan Mulligan You've got this choice in the back of your head, like, okay, well, what do I, why am I here? Am I here to be right? Am I here to get paid? Am I here to, you know, change the world or not? And invariably you're like, I'm here to get paid. So shut up, do what you're told.
+
+27:07 - Cuan Mulligan If you understand your why, invariably I often forget my why and I get into arguments with shitheads and I don't like working in companies, but it's really important that people understand why they're doing something so that most weight loss programs fail because people don't understand why they're doing it. So what will happen is the data says that most people who lose weight within a year, they put it all back on because It might be, and maybe it's right for them. Maybe they they'll go, I need to get to a wedding. I'm going away on holiday. So it's a very short term goal. And there's a difference between like the journey of losing weight and maintaining weight are very different. And people have this journey or program to lose weight, but not to maintain it because they don't have a why anymore. So the why was to get skinny, to get into the dress, to go on the beach, to go to the wedding. Fine. You've achieved it, then what happens? Well, you just got all your bad behaviors come back and all the weight comes back. So both of you aren't, aren't here yet, but once you get up after 40, shit doesn't bounce the way it used to. Like the hangovers are worse. Food hurts more. You know, once you've got kids, you'd sleep less. Life is different after 40 and after 50 and 60, it gets, it gets even different, more different. So this is for people who know that they want to change for a short-term reason for this initial weight loss. Part of this why is also educating them over the 10-week program that actually the stuff that we do today when you're 40 and you're 50 and you're 60 really, really, really helps when you're 70 and 80. It stops you living the last 15 years of your life in a fucking chair or a bed. And so this is the journey we want to take people on. But initially, it's understanding their first why. And then in the program, we will educate them about looking at a longer-term perspective. Because if somebody comes in and says, I want to lose weight, and we're like, yeah, that's sort of important. But actually, the real goal is what you're doing when you're and 80. They're just going to go, fuck off. That's not what I'm buying. I'm buying weight loss for today. And so we need to understand that and connect them to that. Because also, what we'd expect then is the mentor, if someone's struggling, is you're going to tap into all of that information from the coaching session to say, hey, do you remember that thing you said about this? That's really important for you. So tap into that memory when you're deciding what you want to do tomorrow. So that's where the mentor is going to be using information from the coaching session to cheerlead and to support them in their journey.
+
+29:51 - Cuan Mulligan Because at the moment, all the demos are very isolated. They're very independent. They don't have the context of the user. Because we don't have it. It doesn't exist, right?
+
+30:01 - Unidentified Speaker Yeah.
+
+30:02 - Cuan Mulligan Oh, did that profile worksheet I sent over, was that useful?
+
+30:08 - Eksno Yeah, it's very useful. We've only added what we've needed until now. We can add more, but I'm a little afraid of adding too much information too early, where it makes it harder to test the things that are currently being implemented structure-wise.
+
+30:25 - Cuan Mulligan Yeah, makes sense. So I suppose the question I have for this is, I think we have to try the why as a voice conversation.
+
+30:51 - Cuan Mulligan It's a very unnatural thing to do texting.
+
+30:57 - Cuan Mulligan And my concern is, is that if we If we approach this through text, now I'm proposing that we do the character.ai model where it's text with voice.
+
+31:14 - Cuan Mulligan Ideally, it will be the user speaking into it as well. And that can just be another voice to text. So we've got text to voice and voice to text. That would be ideal, but I don't know I had a quick look and there is stuff on hooking face. I'm assuming LandChain has its own capabilities around that as well.
+
+31:48 - Eksno Yeah. We'll have to look into that, because I think integrating voice will probably increase the scope by a fair bit.
+
+32:02 - Cuan Mulligan Why? Because that's just a mode.
+
+32:07 - Eksno If there's just an API we can plug in there, then it's really easy. Then, yeah, no problem.
+
+32:14 - Cuan Mulligan Yeah. I mean, I'm just looking here, there's lots of people talking about using lots of voice agents with Lanchain. You can use Google speech to text. There's a medium here for article on how to build an advanced voice assistant with Lanchain. So this is not cutting edge in terms of we're not the first people to do it. And so I think other people have done it.
+
+32:42 - Cuan Mulligan I'm not saying, I'm not trying to overly describe it being super easy, but I think my concern is if we do the text and I can hear almost your voice saying, well, let's just do the text and get the thing working because that's easier and we know we can do that. It's polishing or making the wrong thing right. Making the wrong thing better, like proving that we can do this on text doesn't actually, may not be a usable, Yeah, it may not be a useful experience because I think it has to be voice.
+
+33:17 - Cuan Mulligan A coaching session. It just, it would be.
+
+33:20 - Eksno Have you worked with like voice before using Langstone? Uh, actually not yet, but yeah, we can find the solution. Yeah. Then I think probably you, Hussein, can look into integrating voice synthesis into the coaching graph and basically just make a demo of how we can integrate voice into ADAPT. Because if it works for the URY workshop, then potentially we could just escalate that to making almost entire ADAPT optionally through voice.
+
+34:01 - Cuan Mulligan Yeah, and again, I think it'd be good to do some proof of concepts on it. Now, in my simplistic head, all the voices is translating text to voice. It's not actually, the voice has got nothing to do with the functionality or the features. So we might find out that actually getting it working on text It's totally fine because all voices is a wrapper. It's a veneer on that. So actually we don't need to do voice on day one. We can just do text. But I think there's also the experience of somebody talking and hearing it is different. And I think if we get the text version too good for text, it sort of contaminates the spoken version, if that makes sense.
+
+34:55 - Eksno Yeah, I think it has to mean that you could probably get that voice demo up and running, then we'll have a lot more context to run off.
+
+35:06 - Eksno Because if it is just a wrapper, we can slap on them and it doesn't increase the scope by a lot. And it should, yeah, we should move forward with voice. Yeah, we'll go and start finding the better solutions for the voice. Yeah.
+
+35:24 - Cuan Mulligan Yeah, I think there's quite a few. I just did long chain voice input, and there's quite a few. But with any of these things, I think it's important to know which one. I don't think we need to start getting into having a range of voices or being able to configure the voice and all that sort of stuff. I think we can park that for now. I think that's very adventurous. But there's a whole load of stuff here.
+
+35:59 - Cuan Mulligan And I'm assuming there's also loads of stuff on Hugging Face. Yeah, there's loads.
+
+36:07 - Eksno Yeah. What do you think, Osman? Do you have any questions or anything? No, actually not for now.
+
+36:15 - Eksno I think I'm clear.
+
+36:18 - Eksno Yeah, that's good.
+
+36:21 - Eksno Could you get like, or make like a little text outline of the your why workshop and how that is going to work just in chat so we have something to refer back to and get started with?
+
+36:35 - Eksno Yeah.
+
+36:36 - Eksno Perfect. And also, if you could send us resources on running your workshop and all of that, that would be great.
+
+36:43 - Cuan Mulligan Yeah, I'm going to have to dig that out probably over the next couple of days to try and collate that in terms of how that works.
+
+36:50 - Eksno Sounds good. So we're going to park the coaching session that spawns out of the check-in for now, then?
+
+36:58 - Cuan Mulligan Yeah, and we focus on this instead. I think maybe the first thing is just to focus on the speech stuff. And generically see what that overhead is and how difficult that is.
+
+37:10 - Cuan Mulligan As and when you find anything good or bad, please share it. I think we love the transparency.
+
+37:19 - Cuan Mulligan As we're all remote, sometimes it's difficult to know or feel stuff is happening. It's really nice when we can see all the conversation. Anything that you're finding or not finding or struggling with, the more you share, the more it's easier for us.
+
+37:35 - Cuan Mulligan Yeah.
+
+37:43 - Eksno All right. Anything else left on?
+
+37:46 - Cuan Mulligan I think that's it. Yeah. Cool. And welcome to the team, Hasnain. And again, any questions at all, please drop me a line. I'm pretty much online almost 24-7. Yeah. Sure. Cool. All right. Cheers, guys.
+
+38:13 - Eksno Cheers. Bye-bye.
+
+38:15 - Cuan Mulligan Cheers. Bye-bye. Have a great day. Have a good one.

@@ -1,0 +1,146 @@
+Meet Meeting 
+Mon, Jul 1, 2024
+
+0:09 - Jorge Lewis I'm dead. She... I'm dead.
+
+0:15 - Unidentified Speaker Nah.
+
+0:15 - Jorge Lewis Yeah. Those are kind of cherry on tops.
+
+0:44 - Jorge Lewis Welcome back. Welcome back.
+
+0:46 - Unidentified Speaker Hello.
+
+0:46 - Cuan Mulligan Yeah, I'm sorry, JP. I sort of broke up there. Do you think that sort of hybrid approach probably is the best way?
+
+0:56 - Unidentified Speaker Sorry.
+
+0:59 - Jorge Lewis No. Nope.
+
+1:08 - Cuan Mulligan We can read your lips a little bit.
+
+1:15 - Cuan Mulligan Yeah, we're struggling to hear JP at the moment.
+
+1:17 - Jorge Lewis Do you want to speak as well?
+
+1:34 - Jorge Lewis But I guess they can hear us. Can you hear me?
+
+1:42 - Jorge Lewis No, we can't hear you.
+
+1:48 - Jorge Lewis Yeah, I think that's kind of a cherry on top because either way, the bot needs the info. So whether it's done through a chat or whether it's done through those bubbles, that's a cherry on top in terms of UX.
+
+2:02 - Cuan Mulligan Yeah, but I'm just trying to figure out, if we go down just the chat window, then there's a lot of UI pages that we don't need to bother building.
+
+2:13 - Jorge Lewis I agree as well.
+
+2:17 - Jorge Lewis Jonas, I think there's an echo.
+
+2:22 - Eksno Why is there an echo now and there wasn't before?
+
+2:23 - Jorge Lewis I don't know.
+
+2:28 - Jorge Lewis If you don't mind muting.
+
+2:31 - Jorge Lewis Um, yeah, for, for having it all on one kind of one screen, similar to JP is actually having it all on one screen where they can chat with the ball and there's just really useful buttons. Just picking the buttons, right. Where the real estate is really valuable because on a phone, it's, I mean, mine, at least it's very tiny.
+
+2:52 - Cuan Mulligan Yeah.
+
+2:53 - Cuan Mulligan And just trying to figure out how do we, yeah, I think we want to try and crash this in together. You could have a persistent banner at the top around their streak and their achievements, and then the main chat interface, and then the next best action could be a couple of buttons that appear. And so we figure out, oh, you haven't entered in your walk or your calories today. So those two buttons would be there. But obviously, you can override that with any text, with any chat. And then you can always say, yeah, how are you doing with my walks? And that would present the chart rather than having the chart on another page.
+
+3:29 - Eksno Hold on a bit. Jorge's audio has completely got defunct.
+
+3:35 - Eksno No worries.
+
+3:38 - Eksno I think the main point we're trying to highlight though, is that if we get the chat interface working like completely for everything, then we know in the future, like we can add all those like nice UI features, those shares and stuff like that. We know we can add those. The things that we need to prove the core of the application of that will be the chat interface. That's like the unique value proposition to the customers. So all those shortcuts and everything for adding the easy numbers, those can be edited afterwards. They're completely isolated tasks.
+
+4:13 - Cuan Mulligan Yeah. I suppose what I was thinking when we talked about discussing the LMS, the current wireframe suggested that there are pages of, this is all your eat history and your chat history. Or not chat history, but your eat history and your move history. And I'm going, I don't know if we need that.
+
+4:34 - Cuan Mulligan I think we can maybe look to prioritize the chat interface with some hot links or some sort of dropdown menus that provide me to go into other areas, rather than building a web page with lots of pages, a website with loads of pages, or an app with loads of pages.
+
+4:52 - Unidentified Speaker Yeah.
+
+4:54 - Eksno Jorge, is your audio working now? Oh, OK. Yeah, so for the LMS, the features we were planning to prioritize was like the video system and the course system where you can put out the articles and the drip feed functionality. So I don't know the interval releases and all of that. The calorie tracker and all of that, we were planning to have as part of the chat interface. I didn't know you wanted those as part of the LMS, but it seems like we're aligned and that we want that to be part of the chat.
+
+5:29 - Cuan Mulligan Well, sorry. I mean, the LMS is just the management aspect, but there is still then the presentation of that content in terms of the original wireframes.
+
+5:36 - Eksno But I'm wondering whether there's a way to skip that traditional approach Are you talking about the calorie and the information about the user, the tracker, or are you talking about like the videos that are posted, that are articles that are posted, the courses?
+
+5:54 - Cuan Mulligan I'll show you now. Wait two seconds.
+
+5:58 - Eksno OK.
+
+6:05 - Cuan Mulligan Can you see my screen?
+
+6:10 - Eksno Your mic isn't working yet.
+
+6:14 - Eksno Can you see that?
+
+6:15 - Eksno Yeah, I can see it.
+
+6:18 - Eksno So this was the original sort of content?
+
+6:22 - Eksno Can you give me one second? I'll give Jorge my webcam and see if he can get the microphone and that to be working.
+
+6:29 - Eksno Huh? Oh, okay. I'll just, yeah, I'll just be, yeah, I can give you.
+
+6:47 - Cuan Mulligan Yeah, go ahead. So this was sort of like the idea that the original page, whether you go to the website or you're on the mobile app, would look like, So you have reach week. You've got your week control navigator. You can see what you've done. You've got your daily tracker. And then these sort of white boxes in the middle are the content for that day. And then you've got your tracking actions underneath. And then you've got Like if you want to go down here, you've got your progress. So here's your progress for Eat, Move, Sleep, and Mind. So you can see your short overtime. This was the sort of trackers and progress trackers. So this is all the UX and screens that we were looking at having. And I'm now wondering whether there is a possibility that we just skip all of that and we have a chat window like this. You've got your streak, you've got your one hour, five kilometer, like this could be walk time, walk distance. And I can just click on them and put the numbers in rather than having to type. But if I want to chat, I can chat. So I was trying to figure out how do we crash all of this into this one page and create as a single page as this sort of hybrid approach of both chat and text input. The thing is, if I scroll around here and I go, oh, look, wow, I can see all these charts. They're there. But if you get rid of all those pages and you just have a chat interface, the user has to know to ask about them. So that's a different problem to fix. Now, if I look here, where is this thing? Like this here. You see the way you've got these sort of pop-ups here? Where am I? Upload a photo, take a photo. So we could create this sort of power window where everything's available in there. And if you click on where I am, all that's doing is setting the context for the conversation to the bot, some predefined scripts. Or at least says, oh, here, this is now what you're talking about. Do this I think over time users would just learn they could ask them about whatever they want but we know that yeah they don't know that or maybe it's all achievable by giving a demo and we tell we educate people and we give them full four exercises to do and they go everything's in the bus amazing That could be really interesting, since those buttons could literally be pre-written prompts that you made.
+
+9:12 - Eksno Like, how far have I walked could literally be just when you click the button, it automatically sends a pre-written message to the bot.
+
+9:21 - Cuan Mulligan Yeah. It could be anything.
+
+9:25 - Eksno Yeah. I think all of that should be possible. It shouldn't be an issue. All of that is just standard web development.
+
+9:34 - Eksno Yeah.
+
+9:37 - Eksno What is the scope that you want from the LMS then? Because my interpretation was that the core part of the LMS was going to be the videos that you post and the articles and drip feeding that to the customer, to the user.
+
+9:53 - Cuan Mulligan The LMS is basic content storing, content drip feeding. And there is content that will be available for a day, content that might be available for a month, and content that might be available for, well, content's available for a period of time and is only available from a date. So it's drift freight content and it has a shelf life.
+
+10:17 - Eksno From a date that's bound to the user or bound to absolute time? I'm assuming it's bound to a user.
+
+10:24 - Cuan Mulligan Yeah, because when we originally started this, we were thinking that like, like there's a competitor and they do three intakes a year for their program. And now we're like, I don't know. I think we're going to have a different time to market. So I think we should be having, you know, if you sign up today, well, we've started already this morning. So you'd have to wait a week to do next Monday. I think if you're making customers in this climate, wait for a month, that feels.
+
+10:50 - Cuan Mulligan Yeah.
+
+10:51 - Cuan Mulligan if not even three months. So I think every Monday, we'll start a new program. So you won't be starting it on a Tuesday or a Wednesday or Thursday. But I think once a week, it starts. And then people have a cohort. And then we're trying to figure out is we're going to be looking to do one live session a week. How can we do that across different groups that are at different parts of the journey? But I think that's feasible. It'd be nice if you've got people finishing, celebrating, and people starting. And there's ways I think we can make it a positive rather than a challenge.
+
+11:23 - Unidentified Speaker OK.
+
+11:23 - Eksno Does that make sense? Yeah.
+
+11:31 - Cuan Mulligan But yeah, so I think that's the next thing. We need to do the workshop for IntelliAgent, but I'm trying to figure out what that UX might be for the chat.
+
+11:42 - Cuan Mulligan If you have any demos, or you have any thoughts yourself, or anything to point me to, let me know. Because I don't want to over-engineer stuff that you then have a more clever approach to.
+
+11:53 - Eksno I'm thinking for IntelliAgent, the chat window can basically be what we made for Itino, because Itino is already a chat interface where you're talking to multiple bots, and multiple bots can talk before it goes back to the user. So it basically just chat bubbles with the profile icon of the agent plus the name next to it. So like, Jorge?
+
+12:23 - Eksno Yeah, like a WhatsApp group chat. He's yelling.
+
+12:31 - Eksno Do you see an issue with using basically a WhatsApp group chat UI where it's just profile icon, the name of the agent, and they're talking?
+
+12:41 - Jonathan Phillips No. I mean, that was pretty much what I envisaged on the screens that I had almost with a whoever was not reading at the moment, but talking at the moment. You had their avatar and you had their content.
+
+13:02 - Jonathan Phillips There's different ways of doing it. There's no necessarily right way. And until we get to the point of starting to work out what the best user experience is, you know, we can't just say now this instance that it's going to be that way. I know obviously you've got to think in advance of how to put it together, but we also have to think about usability and do some testing to make sure that it works because it might look pretty or might look effective, but it might completely fail as far as the communication method.
+
+13:33 - Eksno Yeah.
+
+13:36 - Jonathan Phillips So obviously we have to have a target and go for something. We have to have an idea of what we want, a concept, but we have to keep it quite loose until we then work out the best way for it to work for the user. Because obviously the user is the person who's going to be using it and paying for it. And if it doesn't work for them, it's going to fail.
+
+13:56 - Eksno Yeah. You you I'm very confident the UI, like how it will work, will be one where it feels like the user is in a room or a group chat with a bunch of agents. I don't think we should separate them into different chats. I think that would actually make our job easier. Quite a lot harder, because then we have to make a really good UX to make it obvious whose chats you should go to, and a lot of like that. Meanwhile, we've already proven, we've already created, like, for example, IT, now, where you are chatting with multiple agents.
+
+14:29 - Jorge Lewis Yeah, but just an idea of how they are solving the problem with the user not kind of is one solution is summarizing the turn of the bots. So if the bots have a, let's call it a turn, that summarizes that turning, these are the main points that you need to reply to. Another solution could be to convert to voice all the messages and play them using different voices. That way, what you need to write to do is listen. The text that you write is the same, but behind the scenes, there's a voice playing. We're not behind the scenes of some simple stop or pause the play button. And then, yeah, I feel like one of those two or both works as a kind of solution if we figure out that's the case where the user is just not able to digest all the info. And we can also just tell the bots, hey, don't reply with paragraphs.
+
+15:33 - Jorge Lewis Usually you don't reply with paragraphs when you're in a group setting. In a conversation.
+
+15:42 - Jorge Lewis Yeah, cool. We should wrap it up, it's getting pretty late. So anything else that's probably, that isn't going to be in the brainstorming session next time, next Thursday?
+
+16:01 - Jorge Lewis And for QM, we can discuss the LMS sometime, I'll let you know on text tonight.
+
+16:07 - Jorge Lewis That's good.
+
+16:08 - Jorge Lewis Cool, thanks so much for your time.
+
+16:13 - Jorge Lewis Hope to see you guys soon. Take care guys. Have a good day.
+
+16:17 - Eksno And you. Bye bye. Have a good day. Bye bye.

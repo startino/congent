@@ -1,0 +1,500 @@
+Adapt Feature Discussion - Milestones 
+Mon, Aug 19, 2024
+
+0:19 - Unidentified Speaker Silence.
+
+0:34 - Unidentified Speaker Silence.
+
+0:45 - Cuan Mulligan Hello.
+
+0:46 - Jorge Lewis Hey, how are you?
+
+0:48 - Jorge Lewis Good, good. And yourself?
+
+0:51 - Cuan Mulligan Yeah, ready to go home.
+
+0:52 - Cuan Mulligan Nice. How long have you been in Spain?
+
+0:57 - Cuan Mulligan Nearly a month now.
+
+1:01 - Jorge Lewis Have you learned any Spanish at least? Any more Spanish?
+
+1:03 - Cuan Mulligan No.
+
+1:08 - Cuan Mulligan I got a holiday that way. I don't need to think.
+
+1:12 - Jorge Lewis Just a gringo in Spain.
+
+1:17 - Cuan Mulligan So want to talk about streaks and milestones, yeah?
+
+1:20 - Cuan Mulligan Yep, yep.
+
+1:24 - Cuan Mulligan Did you guys get a chance to read my text that I put in this morning? And does that make sense, the difference between a streak and a milestone? And a streak has two qualities, two aspects. I don't want to use the word quality.
+
+1:39 - Jorge Lewis Let me.
+
+1:47 - Cuan Mulligan I can say it again now if it saves time.
+
+1:51 - Jorge Lewis From what I understood, a streak is just the user inputting data that's good quality or of a certain standard to the user.
+
+2:02 - Cuan Mulligan Well, it's not the standard of the data, it's the quality of the habit formed, shall we say. So for example, I was having a big debate with my sister yesterday because she was over here as well.
+
+2:15 - Cuan Mulligan If you think about, do you know Duolingo? It's a sort of learn to speak languages app. So they have a thing where if you do something for a certain number of days, let's say like 60 learning the language, you also get these things called gems and you can spend gems to give yourself a break. Let's say like I'm going on holidays for 10 days without losing your streak. And I'm like, In habit formation, if you don't do it for 10 days, that's a proper problem, certainly in the program. Maybe in the later stages, we can look at that. But the streak is about doing something every day.
+
+2:56 - Cuan Mulligan Now, if you are supposed to walk an hour a day and you walk for one minute a day, that's also not useful because you've just walked one minute a day. If you're supposed to be eating 1,200 calories and you eat 4,000, you can record the data But it's not good data. It's not a good habit. If you're on the carb restriction, if you're supposed to be eating zero carbs and you're eating loads of carbs and you're recording it, is that useful? So I don't have an answer, by the way. The streak is the consistent doing of an activity plus the recording about that activity or habit. And that habit's actually useful. Or good, whatever word we want to use.
+
+3:48 - Cuan Mulligan If you're supposed to walk an hour a day and you walk 45 minutes a day and you record it, that's potentially good. 55 minutes a day is better. An hour is great. Anything over an hour is a bonus, right? It's brilliant. There's no penalty for going over the hour.
+
+4:04 - Cuan Mulligan If you don't record it, well, then you'd lose your streak. And in that regard, if you're doing the habit well and you're not recording it, we want that data. So that's sort of our encouragement is to say, hey, record this, record this. Yes, it's beneficial for them that they've done the activity and the habit, but it's also selfish for us to say, well, we want that data so we can track your behaviors.
+
+4:30 - Cuan Mulligan And then on the other hand is they're recording it every day, but they're not doing the habit very well. They're only walking for five minutes. So there's those two aspects of a streak. And then a milestone is an achievement of a certain amount. So you've walked five kilometers, you've walked a marathon, a half a marathon. Oh, you live in London. You've now walked from London to Manchester. You know, some some contextual relevant like, oh, well, I bought from London to Manchester. That's amazing. Great. And you've lost, you know, in weight, you've lost 15 pounds and you've lost five bags of sugar. You know, you were not we want to try and make it a bit more emotive and connection rather than to say you've lost three point six pounds. That's interesting. But let's convert that into something that's a bit more tangible. So there are milestones and The, um, the milestones, and I think where you were going with XP points was like the sense of the level or award. And I think some of the stuff, what I came up with yesterday is sort of more, maybe the achievements, like you're the milestone master, you're the, this, you're that, like they're badges that you can attain. You can't lose a badge. It's a badge that you have, like you just, you've just given a badge. So.
+
+5:50 - Cuan Mulligan So you've got streaks with two aspects, you've got the milestones and badges, and we've got to figure out the right way of bringing that together.
+
+6:00 - Jorge Lewis So I think for us, what we confused was, so to explain our first sheet, by the way, we were using the term milestone as a reward. And for us, a streak, we were thinking of rewarding the user for a streak at certain points only. Does that make sense? But realistically, what you wanted was, the streak is something that's every single day, the user gets notified, this is your streak, good job, keep it up. It doesn't have to be too prominent, but it's something that's not exactly like, oh, you reached a seven-day streak. Or, I mean, we can make, we can add emphasis on 31 days.
+
+6:41 - Cuan Mulligan The streak, you're right. So streak is a little bit of game theory. It's to drive behavior of recording your data.
+
+6:49 - Jorge Lewis Because if you break it, then all of that work was for nothing.
+
+6:53 - Cuan Mulligan Yeah, well, your streak would go back to zero. Now, we might give them a day's grace. We've got to do the scenario. Well, what happens if they're recording it every day? Let's just keep the scenario simple to walking, right? Let's say they're walking a day, but it's five minutes a day they're doing. They're not doing the hour. So in one aspect, the recording streak is protected or preserved. But the quality of the habit is not. And actually we care about that. It's like, okay, so you're recording. Great. Good on you for doing that. But you're not really hitting your targets. You're not really forming your habits. That's not really beneficial to you. So in that regard, you keep the streak. But I think it's a low quality streak. It's like you're never going to hit your milestones.
+
+7:41 - Jorge Lewis We want to reward them for logging their data, but we also want to make sure they're doing the things that they need to do.
+
+7:48 - Unidentified Speaker Exactly.
+
+7:49 - Cuan Mulligan And then milestones and badges are just certain accomplishments on distance.
+
+8:04 - Jorge Lewis I can make a suggestion that we use streaks just for data entry, and then milestones for awarding good data. But I'm just saying good data as in just the what's like, you know, 55 and not five.
+
+8:18 - Cuan Mulligan But...
+
+8:29 - Cuan Mulligan And I'm assuming we have, well, I don't know, do we have separate streaks for eat, move, mind and sleep?
+
+8:37 - Jorge Lewis I mean, what do you think? I think so.
+
+8:42 - Cuan Mulligan Yeah, I think that's something that we'd have to, I think I find that very difficult to decide up front. I think that's something based on user behavior we might need to change to be one or both or four.
+
+8:53 - Jorge Lewis We can speculate what would be better like for example for if we used one for each it might end up being too much like Since there's too many streaks. There's not enough value behind them Potentially it could be too noisy So like for example and then on the other side we could do it at the end of the day in the check-in Where we say hey congrats you completed all the check-in items.
+
+9:10 - Cuan Mulligan Here's your streak or you know, that was the original thinking but there is a certain aspect of measuring it between each four and And then obviously we need to figure out the, I just want to play this out in my head. So if you like, so every day I'm recording what I'm doing, we care about that. And then for example, if you did, if you did something every single day for the full eight weeks or whatever, how long the program ends up lasting, you could get to this level of a badge. If you miss four or five days, you're going to lose that potential to hit that milestone. But actually not necessarily because that's a streak. Milestones are distance. So if they basically did nothing for a week and then the second week they basically walked five hours a day, they could still hit those milestones.
+
+10:09 - Cuan Mulligan So milestones are literally just accomplishments of a distance or a weight or a thing. It's an accomplishment. It's not related to time. And streak then is a consistency. I mean, certainly if you do any UX research on the benefits of streaks and stuff like that, like Snapchat has streaks, most of them have streaks. It's about consistent behavior day on day. And I think for that is, for us, Like Snapchat doesn't give a shit whether you post a good post or a shitty post. Like people just post things like photographs of their knees. They don't care. It's just, it's their tracking engagement. That's all they care about. They don't care about the quality of the engagement where we have the
+
+10:49 - Cuan Mulligan Yes. If there's, if the street, what we don't want to do though, is have stupid sycophantic rewards going, Oh my God, well done. You, you've just done 10 days in a row of recording data. And they've walked one minute a day, like that doesn't make sense. I agree with you, a streak is the consistent logging of data, but we can't be championing and rewarding putting in like shit data, if that makes sense. I mean, because this has another dimension, we're not just tracking engagement, we're tracking habit formation. So I mean, at that point, if they're three days in, And they're tracking the data. Good. Good behavior. Well done. But we've noticed that you're not hitting your targets. That would be a coaching opportunity, or the mentor would step in and say, hey, what's going on? How do we help you?
+
+11:41 - Cuan Mulligan So that shouldn't be going on for too long. But we need to have the most important thing is consistent entry of data, because then we understand what they're doing, whether that's good or bad. But we just need to make sure that the reward messages or the congratulatory messages around streaks are not independent to the quality of what they're doing. Does that make sense?
+
+12:08 - Jorge Lewis Yeah, it's tough.
+
+12:09 - Cuan Mulligan And that's why I think you have a consistency metric. Are you doing something every day? And then you have a quality metric. And the message, messaging to them is a combination of those two factors. A high consistency, high quality is an awesome. A high consistency, low quality is a different message. A low quality, sorry, high quality, low consistency is a different message. And a low, low is another message. So you just have those four options of the flavor of messaging.
+
+12:54 - Jorge Lewis Yeah, one thought is that it's not the streaks job, or it shouldn't be the streaks job to facilitate making sure bad data is not rewarded. Bad data should be addressed, I think the same day, or at least within two days.
+
+13:16 - Cuan Mulligan Yeah. I mean, all I'm saying is at the end of the day, if you've recorded data for seven days, but I don't want to have a message that goes amazing. Well done. You you're on your track to seven days streak. And they've like, yeah, but I've been eating 50,000 calories and I'm not walking a streak. Yes. Is the consistent input of data, but there's another dimension that we get, we get, we do care about the quality of their habits. So.
+
+13:46 - Jorge Lewis What about we have, so for each, I wonder how the UI would look for this, but, um, for each, so what I just thought of in my head, maybe I could get, let me get my screen sharing.
+
+14:05 - Jorge Lewis Okay. Hmm.
+
+14:31 - Cuan Mulligan Is for not sure how we're going to make the UI for this, but I'm glad you brought that question up because I don't have a clue either. Yeah.
+
+14:46 - Jorge Lewis A streak is going to be two things. It's going to be the day and a color.
+
+14:59 - Jorge Lewis If the data is bad, we can make it something like grey. If the day is good, then we make it a good color.
+
+15:08 - Jorge Lewis So their streak here is four days, but it's clear that their data was only really good for two days. And we can make these ones more appealing or make these ones look kind of like, oh, we need to improve those ones. We need less gray ones and more yellow ones. We need that urge in them.
+
+15:28 - Cuan Mulligan Well, you're getting into UX here and UI. I think, first of all, we need to agree what the foundational principles are. And so if you were to do a, um, is that a Figma jam that I've got access to? Yup.
+
+15:44 - Jorge Lewis Yup. Uh, I can send a link.
+
+15:49 - Cuan Mulligan It's, uh, it's the adapt spec, is it?
+
+15:52 - Jorge Lewis Yeah. Just in case.
+
+15:53 - Unidentified Speaker Yeah.
+
+15:55 - Cuan Mulligan So what you actually have is this, so you have, um, Oh, huh.
+
+16:07 - Jorge Lewis So actually for some inspiration, GitHub, do you know how the GitHub UI looks for commits?
+
+16:18 - Cuan Mulligan No.
+
+16:19 - Jorge Lewis So let me send, where can I, I'll send it in. So I just sent an image in the Discord, so that's how the, GitHub looks on your profile. So that's my profile. When you put a commit, it makes it green. The more commits you have, the greener. So that is, that is valuing quantity over quality, but in the same way we can make the greener, make it more saturated for the days that, you know, I think that's perfect as a report.
+
+16:48 - Cuan Mulligan I just think, um, let me show you what I mean here.
+
+16:51 - Jorge Lewis So you've got these two there and then you've got, and I can see where this is a really good UI to use for reports. You can see, okay, Tuesday's a day where we're kind of lacking every single time.
+
+17:45 - Cuan Mulligan Yeah, and that starts building up patterns.
+
+17:53 - Jorge Lewis That's going just into coaching.
+
+18:05 - Cuan Mulligan So did you see, can you see my, can you go to my boxes there for a second? So you can either have high, medium, low, or no for quality. I don't think streak is either. Actually, I need to change that. So for streak up here, you either have it's either done or Not done. You either input data or you don't input data. So that's the streak over here. And quality is either, do that here, is either high, medium, or low. Or no, didn't do it. And it's not done. It's entered, not entered.
+
+19:08 - Jorge Lewis For the quality, do we want to be giving them four different options rather than just saying, would it be better to say, this doesn't meet your standards?
+
+19:18 - Cuan Mulligan No, no, no. Let me just explain what that is. It's not four options. Sorry, I've just got to charge my stuff.
+
+19:32 - Cuan Mulligan So, a streak, you either enter the data or you don't enter the data. That's very, very clear. The quality, so high for a calorie one, for example, they were supposed to do 1,200, they did get 1,200.
+
+19:54 - Cuan Mulligan Medium might be 1500, low might be 1700 above. No doesn't really make sense because you sort of eat that. Well actually, no might be, I didn't eat that day. I fasted all day. Okay. If it's walking, I walked an hour, I walked 45 minutes, I walked 10 minutes, I didn't walk today.
+
+20:16 - Cuan Mulligan So these are a spectrum and depending on the habit, the spectrum thresholds are different. And the point being that depending on the streak is one message, but the high high message is going to be awesome job. The high medium message is, hey, well done for doing it. Let's try harder to get to the high. A low message is, hey, great for doing it. More to come. A consistent set of lows might trigger a coaching event. And then a set of no's is a problem. It's like, okay, how do we help you? And not enter it on the streak is also a problem. It's like, we're not getting your data. Like what's going on? You said you wanted to do the program. What's happening?
+
+21:06 - Jorge Lewis Yeah. For, for a series of, I think for, for just a series of one of these or for a series of medium, low or no, could that, could we tell the user, Hey, if we're, if we're getting more of these, you're, you're going to lose your streak, you know? So let's, let's try to, Could that be an option?
+
+21:25 - Cuan Mulligan Well, I don't think you're going to lose your, this is the whole question, right? A streak is just a consistent application, but it's the, the quality of it is, is a coaching thing. And that's the thing. I mean, it's, it's a good point. Like at what point, you know, just going in and I mean, it's the same issue. I know loads of people who have problems with like things like Salesforce, cause they always just pick the first dropdown. Like they don't actually fill it in. And with all of these things, ship data in, ship data out. There's no way around that. So this is about rewarding people's behavior. We're going to assume positive intent. So the streak is about maintaining consistency of behavior and recording the data. And you really want people to be green, green or green, amber, anything that's going into green, yellow, green, red, even if it's consistent or, or pink, red, pink, anything, because we don't, if it's pink, we don't have their data. So that's a problem.
+
+22:21 - Cuan Mulligan Let's actually maybe do that as red.
+
+22:28 - Cuan Mulligan And that's green.
+
+22:31 - Cuan Mulligan So any combination of red, red anything, we don't know what the quality is because we didn't get the data. So red is an immediate problem.
+
+22:48 - Jorge Lewis Yeah. So I can see, I can see where you're going, like for the streak, we can still give them the streak. Um, even though they're doing like consistent lows and then we rely on the coaching to make sure that it's, it's, you know, going to be improved.
+
+23:16 - Jorge Lewis Because we don't want to like, do we.
+
+23:21 - Jorge Lewis Is there a problem or downside with giving them a streak for a day that we say, Hey, we're going to, we're going to go into a coaching today because you've, you've been putting low quality data. I don't know.
+
+23:34 - Cuan Mulligan No, I think, I think the streak, I think we have to keep this simple. I think a streak is about the entry of data. The quality of the data is a coaching aspect.
+
+23:49 - Cuan Mulligan What the coaching needs to be doing is going from medium to high, from low to high. That's what the coaching needs to be doing is driving those arrows up.
+
+24:14 - Cuan Mulligan And I think that's the model there.
+
+24:33 - Jorge Lewis The quality is only regarded by the agents. A streak doesn't rely on any quality.
+
+24:44 - Cuan Mulligan No, a streak is binary. I've entered data or I haven't entered data. But any sense of messaging to the user about like, oh, awesome job, has to consider quality. So a streak is a streak, but the messaging to the user has to consider quality.
+
+25:10 - Cuan Mulligan Sam, is this making sense to you?
+
+25:16 - Jorge Lewis You're muted, by the way, if you're.
+
+25:21 - Cuan Mulligan Hussein, can you hear us?
+
+25:24 - Hasnain sayyed Yeah, yeah. Yeah, I just have one question. For example, if there is a seven-day streak and the user has stayed five high and two medium, then are we averaging whatever the higher will be we are getting the message to the user? Or what the message would be like,
+
+25:47 - Cuan Mulligan So streak for me, yeah. A streak is about, so you're on a Friday the first week, right?
+
+25:57 - Cuan Mulligan Let's look at this, actually.
+
+26:00 - Cuan Mulligan So let's say, no, it's not there.
+
+26:53 - Cuan Mulligan This is sort of getting into your grid view. We're just there.
+
+27:09 - Jorge Lewis So this is something we want to be showing and giving to the coach, I think, in an escalation or during the check-in.
+
+27:35 - Cuan Mulligan So there's all these different scenarios that you guys need to spec out. So, for example.
+
+27:48 - Jorge Lewis Can you think I could delay this one?
+
+27:52 - Cuan Mulligan The left side.
+
+27:55 - Cuan Mulligan Maybe.
+
+28:05 - Cuan Mulligan So this is the agent message. You say, great job, for example.
+
+28:21 - Cuan Mulligan It might be something like, Something like that, do you see that? So it's more interesting those two.
+
+31:01 - Jorge Lewis Yeah, so this is a milestone here, right?
+
+31:08 - Cuan Mulligan It's the integration of a milestone coming up into the text rather than it being a separate thing. It's about because again, we want to have human conversations as opposed to transactional statements.
+
+31:27 - Jorge Lewis Yeah, but at the same time we want to incorporate, at least later down the line, UX that kind of makes it feel, you know, the whole gamify, like, ah, you know?
+
+31:35 - Cuan Mulligan Yeah, yeah, yeah, completely. That's, you know, that could be badges along the top, it could be anything, you know, hey, you're, you know, you're...
+
+31:43 - Cuan Mulligan Like a flashy message.
+
+31:45 - Cuan Mulligan I mean, generally, we know what will happen is that in the first two to three weeks, people are going to be hyper committed, and they're all going to be in the middle period, people will hit a dip. And that's where you need to be saying, Hey, listen, you're so close to walking a marathon, go go hard today. And this is the like, when you get close to a milestone is bringing that into the text as well to say, Hey, you're so close. Let's do this. Let's do this. And that's, that's the whole motivational aspect of this is really important.
+
+32:19 - Cuan Mulligan So you're either near a milestone or you've gone past it. Because we don't do it in races. You're not actually hosting a marathon where you say, hey, you finished it. So you're very rarely to actually hit it exactly.
+
+32:34 - Unidentified Speaker Yeah.
+
+32:47 - Jorge Lewis Well, I'm just using the term quality. I think we can understand that it's like,
+
+32:52 - Unidentified Speaker Sure.
+
+32:58 - Jorge Lewis Yeah, so just pointing out, hey, you had a dip. What can we do to make sure it doesn't happen again? And the next day, if it's improved, great, reward that.
+
+33:08 - Jorge Lewis Yeah. Reward conquering it.
+
+33:15 - Jorge Lewis How do you spell conquering?
+
+33:19 - Jorge Lewis Oh yeah.
+
+33:23 - Jorge Lewis Did I get it? Yeah.
+
+33:30 - Jorge Lewis Okay.
+
+33:34 - Jorge Lewis Yeah. So it'd be really good actually. So this is actually great. We can, let's do this again, um, for a scenario for just a different scenario.
+
+33:47 - Jorge Lewis Also, could you use the rectangles or the squares instead of the sticky notes?
+
+33:53 - Cuan Mulligan Sure, whatever.
+
+33:55 - Cuan Mulligan Whatever works. Thanks.
+
+34:07 - Jorge Lewis So here we can try a different scenario where let's try So yeah, could we, could we have you go in and just fill like a lot of these scenarios in and then we can infer because that way we can.
+
+34:32 - Cuan Mulligan Well, I think the whole point is, is that I start showing this and then you guys start taking, start doing out all the scenarios because as an engineer, you need to be thinking about all of these scenarios. So this is the transition. Rather than me being explicit about all of them, I've shown you the criteria. For me, when I would code, I would now take this and I would work out the different scenarios. The text is what we should be able to refine and tweak in the admin rather than having to get a precise. So it's more beneficial for you guys to start taking this on and seeing, I know I can create this. That's not going to prove anything. You guys taking this on and extrapolating out and taking ownership is that transition of knowledge, which I think is really important.
+
+35:14 - Jorge Lewis All right, what else? Okay, so the streaks, so that's the streaks down. So we're going to, it's a binary value and then the coaching or the quality of it is handled by the chatbot.
+
+35:35 - Jorge Lewis Okay. Very nice. Okay. So for milestones and then milestones, that one's pretty clear. Although I did have one question. So does, so when you say successfully control your calorie intake for one week, that means seven consecutive days or just in total one week, like, or seven days in total.
+
+35:57 - Jorge Lewis Sorry, say that again.
+
+35:59 - Jorge Lewis So when, for example, if you open the Google Sheets, the milestone thing, and in there you mentioned successfully control your calories intake for one week. Does that, is that consecutive? Like seven consecutive days?
+
+36:13 - Cuan Mulligan So this is where, this is no, this was a, based on what we've now talked about, this was a hybrid of milestones and streaks. These are badges. So, um, You know, what milestones do we have for eating or calorie if you're tracking calories? So. This needs a rethink based on what we've just talked about is the shorthand combination of both. But I think this gives you an idea for. So streaking this, you know, these could be streaks rewards.
+
+36:54 - Jorge Lewis Yeah. And that's what we were thinking for a streak where it's like you have, you have milestones for a streak or you have badges for a streak.
+
+37:04 - Cuan Mulligan Yeah. Just because rather than just saying 71 days done, 72 days done, like you need to have micro achievements within the streaks as well to lock them in. Now the question is if you, become a calorie conqueror, you've done it for three consecutive days. And on the fourth day, you don't do it. Do you lose that? Or do you retain it? But you just got used to you. I think you keep it. But you've got to go again. Like if you then did another four days, you don't become a calorie controller. Because a streak is about doing something consecutive consecutively for a full week, not a week over time. Like if you did, if you did one day a month for the next seven months, you don't become a calorie conqueror.
+
+37:47 - Jorge Lewis Yeah. And it's, yeah. One interesting thing though, is, is using Snapchat as an example, they don't, do they have, they don't have, um, kind of levels. It's always a number. They do change. I think the, like how it looks, but I don't think they have kind of levels or like fixed points.
+
+38:11 - Cuan Mulligan I'm just trying to look here.
+
+38:14 - Cuan Mulligan So to maintain a streak, you need to send at least one picture every 24 hours.
+
+38:19 - Cuan Mulligan And if you do for more than three days in a row, you get a flame icon.
+
+38:26 - Cuan Mulligan And another flame indicates how many days in a row. So there's some interesting UX aspects that we can take from other things.
+
+38:49 - Jorge Lewis Are there any apps that we could take a look at that does a good job for gamifying things for older people?
+
+38:59 - Cuan Mulligan Less of the older people, thank you.
+
+39:02 - Jorge Lewis Sorry. The wiser people? Experienced, I think. Experienced.
+
+39:16 - Cuan Mulligan There's some really nice UX on this.
+
+39:44 - Jorge Lewis Yeah, very iOS UI. Hmm.
+
+40:12 - Jorge Lewis Okay, so streaks we've got down, that's something we can move forward on at least. And for the milestone, so if you look at our sheet one, this is kind of where we're going with it, where a streak, So if we go to the sheet one, we can see there's a type which is streak. Or let me do this, milestone type, so it's more clear.
+
+40:43 - Jorge Lewis So this can be a streak, or it can be one of these. And all of these will end up as badges, so let's just do badge text. So let me just copy one of yours.
+
+41:02 - Jorge Lewis So can you see how they connect?
+
+41:12 - Jorge Lewis So the criteria would be two things, the number of days of the streak, and then the quality, so the value.
+
+42:15 - Jorge Lewis So I've taken two examples from the walk and put them in here.
+
+43:32 - Jorge Lewis Are we using cat? What unit do you want to use for... For distance, by the way. Just what's more...
+
+43:39 - Cuan Mulligan It would be different to different people.
+
+43:43 - Jorge Lewis Yeah, but kind of for us, what's more appropriate with the type of data we're going to be getting?
+
+43:49 - Cuan Mulligan Miles and kilometers.
+
+43:51 - Cuan Mulligan Kilometers, okay.
+
+43:52 - Jorge Lewis Miles and kilometers.
+
+43:54 - Jorge Lewis Yeah, but just so that we can stick to one. I don't want to put miles and kilometers everywhere.
+
+44:25 - Jorge Lewis It's interesting because for these milestones, there's two variables. There's the number of days that it requires and then also the quality of it. So it's how do you mix and match those is going to be interesting.
+
+44:55 - Jorge Lewis Are you following on the on the sheet one that I'm on?
+
+44:58 - Hasnain sayyed Oh yeah.
+
+45:23 - Jorge Lewis The XP thing, by the way, you mentioned this at the start, it's something that's pretty easy to implement, like a level system for the user. It'll 100% take fine-tuning over time, but do you want to work on that now?
+
+45:39 - Jorge Lewis I think implementing a basic system right now will have benefits and then over time we fine-tune it because we will want it at some point, I think, almost definitely, right?
+
+45:49 - Cuan Mulligan To find depends on the boundary between basic and not basic. But I think with all these things we need to start somewhere and then refine it to experience rather than trying to get it all right up front.
+
+46:00 - Jorge Lewis Yeah, exactly, because we need something to see where should we go. So basic as in Every user has a level. Reaching milestones gives you XP which adds up to levels or points. Let's call it points. And we can give points for a lot of things by the way. One thing that I can't pinpoint it but let me, Give me a second to think.
+
+46:39 - Jorge Lewis Okay, like for example, Discord. Some Discord groups have a bot that gives you points for every message you send. There's criteria for it, but pretty much for how active you are gives you points. So if you send a message, you might get a certain number of points. But of course, there's criteria so they can't spam. So we can probably do something similar where it kind of promotes the user to chat with this bot. I think it would be cool.
+
+47:07 - Jorge Lewis Useful.
+
+47:20 - Jorge Lewis I'm going to rename this sheet to Gamification.
+
+48:38 - Unidentified Speaker Okay.
+
+49:04 - Jorge Lewis So I think, did you hear what I said regarding the points?
+
+49:08 - Cuan Mulligan Say that again? So Discord has a, there's a, in some Discord groups, there's a bot that rewards where you can farm levels and you get some XP points from sending messages.
+
+49:29 - Jorge Lewis Of course there's criteria to prevent spam and all that but I think that would be a cool way to At least later down the road, we can give points for things like really nuanced things or just kind of small things that add to this gamification where it's like, oh, you know, sending a message, we can give points. Of course, that shouldn't be rewarded that much compared to something else. But for all these things, we can give points. So for a session, we can reward, hey, thanks for chatting. You know, you got five points from last session or something like that.
+
+50:04 - Cuan Mulligan Maybe. We just wanted to get noisy.
+
+50:09 - Jorge Lewis Yeah.
+
+50:18 - Jorge Lewis How does the format of this Google Sheet look? Sheet 1.
+
+50:32 - Cuan Mulligan It's not walk, it's move.
+
+50:37 - Cuan Mulligan It's a sleep. It doesn't make sense. Well, I'm just going to look at move for now.
+
+50:44 - Cuan Mulligan And it's not walked like this. That's not, this isn't, this isn't correct.
+
+50:51 - Cuan Mulligan It's, it's, we've talked about a streak is data entry. There's you, you, you merge stuff again.
+
+50:57 - Jorge Lewis This, this was from your milestone. So I just copied it over. So, I mean, but are we not giving milestones for streaks?
+
+51:09 - Cuan Mulligan There is, but it's not this. It's not just walked. That doesn't make sense.
+
+51:15 - Jorge Lewis you So let's work on this. How long do you think it's going to take to settle what you're dealing with?
+
+51:58 - Jorge Lewis About half an hour.
+
+52:00 - Jorge Lewis All right. Okay. Can you reach it back out when you're done?
+
+52:04 - Cuan Mulligan Well, I'll pause that for a second. Why are you saying a streak is consecutive days walked? Because that's not what we've just talked about for ages.
+
+52:16 - Jorge Lewis So there's the description here, which is taken from the milestones sheet, where we have walk at least for 15 minutes each day for three consecutive days. Is that something we want to know?
+
+52:28 - Cuan Mulligan Why is it 15 minutes? It's not useful.
+
+52:31 - Jorge Lewis That was from the milestones. Change it to the values that would be useful, because we don't.
+
+52:38 - Cuan Mulligan What are we trying to achieve here that we don't have on the Figma gem?
+
+52:43 - Jorge Lewis We're trying to get in a format that we can use for the system, like the structure of a milestone.
+
+52:52 - Cuan Mulligan Well, then you guys take what we've done on the Figma gem and create it into whatever format works for you guys.
+
+52:56 - Jorge Lewis The Figma gem is for streaks. We discuss streaks only. We haven't discussed at all milestones.
+
+53:04 - Jorge Lewis The milestones currently that you gave is a mix of streaks and milestones, which is like, is fine because we can reward for, we can give milestones for streaks, but there's also other things that we need to consider like total or accumulated distance, total.
+
+53:20 - Unidentified Speaker Sorry?
+
+53:23 - Cuan Mulligan This format doesn't make sense to me. I'm going to do a different sheet.
+
+53:26 - Jorge Lewis Um, Are you creating a new sheet or? I guess. Yeah.
+
+55:07 - Cuan Mulligan Something like that, and just flesh it out, figure it, I mean, that's the way I would do it.
+
+55:24 - Jorge Lewis What's the bag of sugar here?
+
+55:28 - Cuan Mulligan If you've lost a pound, that's a bag of sugar, or a kilo of a bag of sugar, whatever. You're just translating it into objects that the people understand, so it's an emotional concept.
+
+55:38 - Unidentified Speaker Yeah, okay.
+
+55:40 - Cuan Mulligan Yeah, you could do percentages, you can do explicit amounts, three pounds, four pounds, half a kilo, a kilo of stone, bag of sugar, you know, a football, a fucking, you know, a newborn baby, who fucking knows, like, I'm just making it emotive rather than just transactional.
+
+56:00 - Jorge Lewis Yeah, no, I got that part.
+
+56:05 - Jorge Lewis I'm just doing the same up here.
+
+56:18 - Jorge Lewis And then do we want to have a milestone for an all time high? Like, Oh, you walked, you know, today you, yeah. For, for in one session where they walked the most they ever did, like a certain amount.
+
+56:30 - Jorge Lewis Say that again.
+
+56:32 - Jorge Lewis So there's one other type of, which is like an all time high where we can say, Hey, you walked, um, a new all time high and we can have a new records.
+
+56:42 - Cuan Mulligan You set a new something. So records, you know, that could be on a daily basis, a weekly basis, both for weight and distance. Yeah, that's a nice idea. I don't know whether you'd call that a milestone or an achievement or a full-time high, whatever.
+
+57:01 - Jorge Lewis And then for Can we build this part out of meta? I don't get what you're doing here.
+
+57:32 - Cuan Mulligan What do you mean?
+
+57:37 - Cuan Mulligan Where are you at?
+
+57:40 - Jorge Lewis On the 3-7 section.
+
+57:43 - Cuan Mulligan Which part do you not understand, sorry?
+
+57:46 - Jorge Lewis Can you see this part I'm selecting?
+
+57:48 - Jorge Lewis Yeah.
+
+57:50 - Jorge Lewis Yeah, mostly this. So what is this?
+
+57:54 - Cuan Mulligan So the street milestone for Eats for three days in, this is where you probably take stuff from the milestones page.
+
+58:06 - Cuan Mulligan So for example, that would be a calorie conquer.
+
+58:33 - Cuan Mulligan Something like that.
+
+58:43 - Jorge Lewis Okay, and these are... Okay, these, okay.
+
+59:05 - Jorge Lewis Four.
+
+1:00:17 - Jorge Lewis Do we want to reward or have milestones for time?
+
+1:00:25 - Cuan Mulligan I mean, yeah, you could say you've walked for a day, you've walked for a week.
+
+1:00:38 - Cuan Mulligan You okay, brother? Do you need help with any of the shopping?
+
+1:01:01 - Jorge Lewis Okay, so we'll try to fill this out. And then we'll ask you to iterate on afterwards.
+
+1:01:11 - Cuan Mulligan Sounds good.
+
+1:01:11 - Jorge Lewis All right, cool. Do you have time today later on for Chinmay to discuss kind of the check-in, end-of-day check-ins?
+
+1:01:22 - Cuan Mulligan What does he need to cover on that? Sorry, I'm a bit lost.
+
+1:01:27 - Jorge Lewis Pretty much just the overview. What's it going to look like, We know we can list out some things that it should do, but we'd like to go.
+
+1:01:35 - Cuan Mulligan Because I thought this was quite extensively done in the mural before we moved to Figma Jam.
+
+1:01:48 - Jorge Lewis Like the one from the original mural, you mean?
+
+1:01:51 - Jorge Lewis Yeah. Yeah, yeah.
+
+1:01:53 - Jorge Lewis Well, we only could find, the only thing that was helpful from that mural was the screenshot we sent.
+
+1:02:00 - Cuan Mulligan Can you send me that? Sorry, because I didn't have a chance to look at that.
+
+1:02:04 - Jorge Lewis Yeah, I can bring it up.
+
+1:02:45 - Jorge Lewis Okay.
+
+1:04:08 - Jorge Lewis Can you see the mural?
+
+1:04:14 - Cuan Mulligan many things at the same time. So which Which part of the image do you guys, are you looking at, sorry? Can you share your screen and I can take you through it?
+
+1:04:49 - Unidentified Speaker Yeah.
+
+1:04:56 - Cuan Mulligan Can you go to where my cursor was?
+
+1:05:15 - Cuan Mulligan Okay, so that chat there is basically a day in the life, I think.
+
+1:05:39 - Jorge Lewis So is that kind of still as as how we left it before where it's just a daily video that gets sent to the user and they watch it It's not just a video.
+
+1:05:49 - Cuan Mulligan There's, there's other content that's there. There's motivational statements, you know, there's content that there's a, there's content available on a daily basis.
+
+1:05:59 - Jorge Lewis Okay.
+
+1:06:05 - Cuan Mulligan So did you look at this section when you were looking at the daily check-ins?
+
+1:06:10 - Cuan Mulligan Uh, no, not this one.
+
+1:06:12 - Cuan Mulligan Okay. So have a look at that. Then it goes down into different scenarios and
+
+1:06:17 - Jorge Lewis Down here as well?
+
+1:06:18 - Jorge Lewis Yeah, the whole thing.
+
+1:06:25 - Jorge Lewis But is this under the new system where we're doing a daily check-in at the end of the day?
+
+1:06:34 - Jorge Lewis Also, is the check-in must be at the end of the day or how is that?
+
+1:06:44 - Cuan Mulligan It's it's not like it doesn't check in at the end of the day. There's an interaction What I suggest is can you have a look at this conversation? See how you think this is relevant or not relevant because I I think this still stands, but you might feel differently Okay Sounds good then Well, I'll have to may look at his own because he's building out that one
+
+1:07:17 - Jorge Lewis All right, cool. So yeah, we'll keep you updated then.
+
+1:07:23 - Cuan Mulligan Cool, yeah, have a look at that and then let me know. And I appreciate you having me around as much as I would have liked to have been. I think things will settle down from Thursday this week.
+
+1:07:32 - Cuan Mulligan From Thursday, okay, cool.
+
+1:07:34 - Cuan Mulligan Well, I've got my son's exam results on Thursday morning, so depending how they go, my day might be a good day or a bad day. We'll see.
+
+1:07:42 - Jorge Lewis We'll see. All right, thanks, Cuan, for your time.
+
+1:07:48 - Hasnain sayyed But cool. Yeah.

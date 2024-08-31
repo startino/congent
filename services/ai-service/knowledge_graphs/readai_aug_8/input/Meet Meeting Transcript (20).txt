@@ -1,0 +1,342 @@
+Meet Meeting 
+Wed, Jul 17, 2024
+
+0:13 - Jonas Lindberg My pre-trial to the Google One just ran out today. So the Google meeting got cut off after an hour. So I've got to get that subscription. I think it's quite valuable to be able to have more than one hour of meetings.
+
+0:30 - Jonas Lindberg Yeah. Kun, you're muted.
+
+0:37 - Unidentified Speaker Sorry.
+
+0:38 - Cuan Mulligan For agents, we need to be able to create an agent, agent training, and then agent, I'm just going to call this role. So you create an agent. You give it its role. Like what its job is, and then you need to be able to train that agent to say, do these things, do those things.
+
+1:01 - Cuan Mulligan Now, we might want to have an actual workshop on agents, because there's probably hierarchy, because there's a supervisor agent that might be doing coordination across multiple agents in a workshop. But at a high level, this should be it. In the initial scope, we're just running a single workshop. However, when you architect this, you know that we're going to be having multiple workshops, and that the output from one can feed into another, because we've explained that. But we're not looking for that feature today. So we don't want to architect away from that, but we also don't want to build that in day one. The reason being is we want to be able to go in, create a workshop, run that workshop, and start demonstrating the capability to people pretty quickly. So at a high level, if we have the ability to create users as in customers, We have the ability to manage them. So there'd be a space per account. So you'd have some sense of company, like ADAPT company would have a workshop that would be separate from a Will's company. So we'd have a company and a space that'd be users. So there'd be some level of company. Sorry, BewhZ.
+
+2:22 - Biwas bhandari Yeah. So when a user comes to our website, it might be related to either startup or improving existing business or some marketing agency to check if their marketing strategy is working or not, right? So for that, I think one, instead of just creating one agent, we need to create three different categories when the user sign-ups either they are a startup or existing business or a marketing agency, so that we can create agents based on their categories.
+
+2:58 - Cuan Mulligan What difference does it make at all, regardless of which one they are?
+
+3:03 - Biwas bhandari Because since three of the aspects are different, but I mean, startup and existing business and marketing agency, these three is, what do you call it? Models or ideas might be three different. We might need to give them responses.
+
+3:25 - Cuan Mulligan I don't think the workshop is different, because the only difference between an existing company and a startup, for example, is a startup might not have any existing documentation, might not even have a website, where an existing company might. So it would just mean maybe at a startup, there will be more foundational basic questions asked, where an established company might give us answers to that.
+
+3:54 - Cuan Mulligan But fundamentally, the actual objective of the workshop is the same regardless. The experience might be different.
+
+4:01 - Jonathan Phillips My role would be to, within the workshop, discern who they are to start with and then base the following conversation on who they are.
+
+4:14 - Cuan Mulligan So if you actually look at the crux of this product, it's the ability to create an agent, give that agent a job, be able to train that agent and to do that job better, and to do that job in the context of achieving the outcome of a workshop.
+
+4:35 - Jonas Lindberg There's one problem with this, and that is introducing agent creation, especially workshop creation, increases the scope quite exponentially, especially without having an example workshop to run off of Because agent creation also entails giving JP the ability to create the tools that the agents need and a lot of other complex stuff that the agents need to be able to interact with outside stuff.
+
+5:07 - Cuan Mulligan Perfect. So I just want to point out, you saying that now in this meeting is exactly the thing to be saying in this meeting, by the way. That's exactly the point of these meetings. It is to clarify those points of, we get to the customer, me, JP, gets to ask and go big. And you say, that bit's challenging. Now we talk about, well, what could we do? So I know, for example, in ADAPT, you haven't given me the ability to create them. But we do have multiple agents, and they are trained. So what we might say is, agent creation is out of scope. But for phase one, we know it's coming, but we will need to prescribe how many agents we need, what roles they would be for this one first workshop. We won't do workshop creation. Well, it's not created, but we will have a workshop with a workshop output.
+
+6:11 - Cuan Mulligan So it's a workshop with a workshop output, but not the ability to create um to create them but we know that's what we want to get to in the future. Makes sense JP?
+
+6:22 - Jonathan Phillips Yeah as far as the the agents go again my naivety on technology just just shoot me down if I'm if I'm wrong what what the in my head the agents are trained chatbots, obviously. They have a base prompt and they have documentation to support their existence and what they think and how they work. By having multiple ones of those, obviously there's got to be some complexity in how they work together. I understand that element, but creating extra chatbots, agents, what's the complexity around doing that on the fly? Is it their interrelationship or is it just having them existing?
+
+7:14 - Jonas Lindberg It's probably a combination, especially what we probably could do in the future, which is a scaled-down version, is have you have the ability to create agents from templates that already have tool integrations and the correct edges, so how they converse with others when they speak, already set up. And then you can use those templates to build off them and add them in. Uh...
+
+7:46 - Jonathan Phillips I mean, I'm thinking at the moment I could in a day quite easily work out all the agents I would foreseeably need in a launch version. So if it's 10 or 15, I suppose it doesn't really matter, it's just obviously the amount of effort it goes into how they react with each other, interact with each other. But ultimately, I could say, if this is a 10 person marketing agency, then we'd have 10 roles doing whatever, and that's fixed in the product.
+
+8:18 - Jonathan Phillips So I'm happy in doing that. Rather than having the ability to make an agent on the fly, I'm happy to say right at the beginning, this will be enough to drive all the frameworks we want with these particular 11 agents. So I can do that. That's not a problem.
+
+8:35 - Cuan Mulligan OK.
+
+8:37 - Cuan Mulligan And there is, if you look at right now, sorry, two seconds. I need to cancel something.
+
+9:02 - Cuan Mulligan Like ADAPT at the moment has multiple agents. It has a supervisor, it has a data collector, it has a coach, it has a mentor.
+
+9:12 - Cuan Mulligan They're sort of hard-coded. They have different jobs and different roles. So I'm assuming we can lift and shift that. And maybe there's seven other agents that are required. But it's fundamentally a predetermined list of agents that will run in a workshop. So for ADAPT, when we are onboarding somebody, you have the mentor who owns the relationship and asks them questions about their profile and onboards them. And then at some point, we'll go, hey, Do you want to, yeah, we need to run a coaching session with you. So that is in essence, a workshop.
+
+9:51 - Cuan Mulligan Now the big difference is that our workshop is not necessarily producing a visual artifact, but again, it could be a sentence like there, why you want to get married. You want to be skinny on the beach, whatever.
+
+10:08 - Unidentified Speaker Yeah.
+
+10:11 - Cuan Mulligan at its essence is almost the same. So I wouldn't imagine what we would need to be doing is saying, right, OK, so there's the all singing, build whatever you want version, which is exactly what you did, Jonas, and said, guys, that's a month's worth of work. There's the give us another month and adapt, and then we can lift and shift that, and then we just have to do a configuration, for want of a better word, for IntelliAgent.
+
+10:40 - Cuan Mulligan So you leverage all the good experience we've done from Adapt, and then you're just changing the nature of the agents. But you have a lot of all of that shared infrastructure. And the big thing is the user experience. Like this thing here, this box here, the UI UX of the chat, it's very difficult for us to conceptually understand what a good version of that. That's very much a suck it and see it. We have to play with it to see how well it works. I don't think we need to deviate too much from Claude. It's got some really, they've got millions of pounds. It sort of works.
+
+11:17 - Cuan Mulligan I think we could run with that for now, something like that.
+
+11:21 - Jonas Lindberg Yeah. I think the drawing you made in the mural is probably quite good. One thing, you put UI UX under workshop, the workshop one. That kind of indicates to me that there's going to be a different UI for each workshop, but I'm not sure that's quite what you mean.
+
+11:38 - Cuan Mulligan There's definitely the overarching multi-modal workshop UI, left hand, right hand. But for example, in the brand workshop, having this sort of idea of option A and option B, that's a capability that might not be relevant as a feature in every workshop.
+
+11:58 - Unidentified Speaker Makes sense.
+
+11:59 - Cuan Mulligan Sorry, Nazif?
+
+12:04 - Nazif Barassounon I have one question about the workshop. I was wondering if we can imagine the users to have multiple projects so they can run the same type of workshop.
+
+12:23 - Cuan Mulligan Yeah, remember, certainly at a marketing level of what JP is working, it tends to be at the company level as opposed to a project.
+
+12:35 - Nazif Barassounon So if I understand correctly, one company means some kind of one project. It's a one-to-one relationship.
+
+12:48 - Cuan Mulligan There is no sense of a project here. It's just there is a marketing plan for a company.
+
+12:56 - Jonathan Phillips There will be obviously different campaign ideas as you go through but ultimately it's more of a thread running through your to create a plan rather than working and executing and working within a project.
+
+13:15 - Cuan Mulligan giving me a really good idea. So one of the things we need to do, you've got a company, right? And a company has a, and JP, you'll need to educate me on this, has a marketing plan, a marketing plan. Sorry, no, no, no. You have a marketing strategy.
+
+13:38 - Cuan Mulligan or you probably have a brand purpose, you have a marketing strategy, then you have your marketing plan.
+
+13:50 - Cuan Mulligan You would then potentially have a product and then a product will be something that is like a product is a subset of your marketing plan. If you had 12 products, you might then do a social media plan, but again, that might be, um, I think it would be specific.
+
+14:13 - Jonathan Phillips Yeah. So, so, so you're right. You, you would be able to within your marketing plan, your holistic business plan, marketing plan for your company level, you could have a number of campaigns and those campaigns are directed towards different products or different target audiences with different messages.
+
+14:34 - Cuan Mulligan Yeah. And so, You could either go down the company part. So you've got a company social media plan. You've got a company content, or no, it's a campaign, social media campaign. And then you could do a company social, or basically content plan. Something like that, whatever the hierarchy is, right? Because that's going down the company route. If a company had multiple products, then yes, you could do those three here for a product.
+
+15:22 - Jonathan Phillips But if, for example, if you, you go through your company marketing strategy, obviously it gives you a, an output within that you'd have your social media plan. You'd have your, like you say, your product plan and marketing communications plan, and maybe several, but If you did this on Claude, for example, you'd be able to still deviate a little and have sub plans within it quite easily without having to necessarily do a completely different strand.
+
+15:53 - Cuan Mulligan There has to be a hierarchy.
+
+15:56 - Jonas Lindberg So if I get this right, basically, workshops can deviate into multiple branches. One branch could be going down a company route, where you're going down some workshops to get company social media plan, all of those done. And another branch could be for a specific product or many products.
+
+16:20 - Cuan Mulligan Yeah, it's actually probably like this. You have your marketing plan, you have your company social media plan, or you go down as one product. You're either going to market and making people aware of your company or making them aware of a product or a service or an offering.
+
+16:38 - Jonas Lindberg Or both.
+
+16:42 - Cuan Mulligan So for example, in ADAPT, the ADAPT company and the ADAPT product are one and the same thing. We're too small to have a difference. Coca-Cola has the Coca-Cola company, Coca-Cola the brand, 7-Up, and all their sub-products have their own campaign strategy. They honor the parent identity, but each product line has its own go-to-market strategy. So you have a different company.
+
+17:16 - Cuan Mulligan There's a difference between the company and the product. I think you're right, Jonas. A workshop needs to have a scope. Am I doing this for a product or am I doing this for a company?
+
+17:27 - Unidentified Speaker Yeah.
+
+17:46 - Cuan Mulligan So this is just the nature of the scope and the hierarchy. And in essence, The story framework, by the way, takes you down this hierarchy.
+
+17:56 - Cuan Mulligan Yeah.
+
+17:58 - Cuan Mulligan But I think one of the things that I've learned from JP is that loads of people are figuring out, and there's loads of AI doing social media campaigns and content plans and content calendars out there right now. But if you don't have your brand purpose, your marketing strategy, your marketing plan aligned, You're doing all this work down here, and you've got no idea if it's honoring what you're trying to do in the world.
+
+18:26 - Jonas Lindberg Yeah.
+
+18:27 - Cuan Mulligan So this is why we've intentionally started at the start of the journey with figuring out what your brand purpose is. The next workshop would then be this one, this one. Now, there comes a point where, yes, we will have to ask you to create another workshop with new agents and a new role. And at some point, we'd want the ability to do that ourselves. But I also understand that the the building the capability to automatically generate workshops and new agents and then configure them in a particular way is extensive.
+
+19:03 - Cuan Mulligan The brand purpose, once you give us that hard code, for a better word, you could duplicate that. And actually, the first protocol would probably be this. They're just separate workshops, separate instances of workshops. There's probably no linkage between them. There is cognitively to the brain, but not technically. Or maybe there is. But initially, we're just talking about a single workshop, knowing that we want to grow to other workshops.
+
+19:37 - Jonathan Phillips Excuse my ignorance. If, for example, you have your facilitator bot, for a better word, who has the whole framework in its knowledge base, then if you modify that, the other bots will just react with that? Or is that just very naive to understand that if the workshop is modified with one agent, the others can't, that they've got to be programmed differently? Is that correct?
+
+20:08 - Cuan Mulligan As I understand it, we would actually have a facilitator per workshop. Because the facilitator is basically the supervisor. It's telling you what happens in that workshop. Now, you may have a supervisor or supervisors to do the coordination from one workshop to another workshop. But ultimately, how an agent behaves in a workshop has to be quite tightly defined. There's not a suddenly, oh, I've created a new supervisor, so bots automatically react to it.
+
+20:37 - Jonathan Phillips But wouldn't you, within the framework, just so you numbered it 20 within the framework, wouldn't you just say, here are all the parameters in workshop 4. This is how you behave in workshop 4. Or again, is that just naive?
+
+20:50 - Cuan Mulligan I'll let Jonas answer that one.
+
+20:57 - Jonas Lindberg I think fundamentally here, one of the things we use is LangChain, which lets you start completely different conversations with completely different prompts, et cetera. At intervals, which is really good at guaranteeing that a conversation or a task gets done a very specific way, as opposed to just giving an entire outline to a facilitator bot. If you give an entire outline like that, it can deviate. And if it deviates, it practically entire conversation is ruined, LangChain helps eliminate that possibility quite extensively. That is one of the primary reasons why it's so hard to say we can make an ability to create workshops in the applications, because we will need to craft those graphs to ensure that the bots comply with the order of the tasks that should be done.
+
+22:00 - Jonas Lindberg The facilitator bot would be coordinating between those graphs?
+
+22:05 - Cuan Mulligan So what I would urge some caution is, there's a reason why no one else is doing this yet in the market. It's quite difficult to run workshops.
+
+22:17 - Cuan Mulligan We know we want to be able to create them independently of you guys at some point. But that might be too advanced. And it's a problem that adds no value, actually. The reason why we're asking for that is that we feel that if you give it to us, then we can go and create whatever we want. But designing software that can do anything is very, very difficult. It's much easier to design software that does a thing. So ultimately, what we want to do from this first phase is prove that we can run a really good workshop as good as people. That's the exam question. If we cannot do this for a brand purpose workshop, we haven't proved anything. So everything has to be around proving that we can run a workshop, an actual workshop, dynamically with different agents providing different inputs into a session.
+
+23:14 - Cuan Mulligan That's where this gets exciting, because we have something quite new and novel in the industry.
+
+23:23 - Jonas Lindberg Yeah, I completely agree.
+
+23:26 - Cuan Mulligan I mean, JP, does that resonate with you as well? Because I know it's not everything that you want, but it does allow us to prove that the concept and the theory works.
+
+23:35 - Jonathan Phillips Of course. Of course. We need something to go and show people, because that's what we're desperate to do. We want to show off. We've got a great idea. We want to show off. Also to start to recruit partners and suppliers and people who are interested.
+
+23:51 - Jonathan Phillips But I don't want to overcomplicate it at the same time. But we do obviously need a differentiator. So we don't want to water it down to the point where we're the same as everybody else. We need to push And push to make it hard because then you've got a barrier to enter. And that's what we want to do. We want to make it so that people can't just say, I love that idea. And in three weeks time, they've got a similar model. We want to make it hard, which doesn't make it easy for you guys. But it's also a challenge for you guys to be brilliant so that you've created something that is hard to emulate.
+
+24:26 - Cuan Mulligan So if I go through each of these things, authorization, user management, I'm going to put to green because that should be a lift and shift from ADAPT. Needs exactly the same stuff.
+
+24:38 - Cuan Mulligan Agent role, agent training is exactly the same as ADAPT. Yes, there'll be different agents and there'll be new agents and more agents, but the capability is there. Is completely new. Workshop, workshop output. I think, Jonas, the concept of a workshop, because the why workshop should be the same, the workshop output would potentially be the same.
+
+25:04 - Jonas Lindberg The workshop is completely different, and how to set it up will be in a completely different way. We'll have to set up the graph, as mentioned, to run through each of those processes in an implementation data level.
+
+25:20 - Cuan Mulligan How is it any different from running the why workshop in ADAPT than running the brand purpose workshop in IntelliAgent?
+
+25:28 - Jonas Lindberg There will be a lot of similarities, but the main thing we can lift and shift over will be our experience, which will, of course, speed it up, but we can't lift and shift everything.
+
+25:38 - Cuan Mulligan But explain why. You're not telling me why there. You're just saying something, but I'm not disagreeing.
+
+25:43 - Jonas Lindberg The why is more of a very technical reason. We can get into it if you want.
+
+25:48 - Cuan Mulligan Well, tell me in a non-technical way.
+
+25:56 - Cuan Mulligan Because the reason why I'm saying this is understanding the why of a customer in the context of ADAPT is exactly the same of what we just did in terms of understanding the why of a company.
+
+26:15 - Cuan Mulligan And the outcome is the same. There is a sentence or a number of sentences that reflect the outcome of the conversation.
+
+26:27 - Cuan Mulligan Now, the only maybe difference is that in the IntelliAgent version, you might have multiple agents participating, whereas in the context of ADAPT, there's just one coach. But functionally, the nature of having a purpose or having an outcome and asking questions to achieve that outcome is identical.
+
+26:56 - Cuan Mulligan So if there's a Venn diagram of adapt features to IntelliAgent features here, like if I was to do this here and I go adapt and I was to do IntelliAgent and I was going to fill that with nothing and fill that with nothing. I think the Venn diagram is probably like that.
+
+27:27 - Cuan Mulligan In fact, actually, I think the Venn diagram is that.
+
+27:35 - Cuan Mulligan I think ADAPT is a subset of the IA needs.
+
+27:40 - Cuan Mulligan So I think what you're doing for IA is an extension of what you do for ADAPT, but it's significantly overlapped.
+
+27:54 - Jonas Lindberg I can say that the level of performance that you guys are looking for isn't something that can ever, like, with the current technology, just be lifted and shifted like that implementation-wise. In addition, us doing a large part of it. Again, of course, we'll take over all of our experience and such. So if we were to remake Adapt right now, it would be done very fast because a lot of development is just experience. We want to remake that better too and align it purely with intelligence flow. We don't want to be limited by what we've done for Adapt.
+
+28:34 - Unidentified Speaker Yeah.
+
+28:35 - Cuan Mulligan But remember, the exam question we're trying to answer is, This is not about building the coolest technology and the best technology right now. The exam question is, can we demonstrate running a marketing workshop so that we can garner interest and excitement about what's going on? So lifting and shifting the code and then modifying it rather than starting from scratch feels far more sensible given the overlap. I still, at its essence, they're the same workshop. Just one's talking about the why of a customer, a person as opposed to the why of the company.
+
+29:16 - Cuan Mulligan At its essence, they are identical to me. Now, I might be wrong. I'm not saying I'm right. I'm just not hearing an argument from you as to why they're different.
+
+29:29 - Jonas Lindberg It's very difficult to give a non-technical answer. I think it will be easier after we create more, the finer parts of the implement, like after I go over with the blockchain developers into how we will architecture them both, then we can compare.
+
+29:50 - Cuan Mulligan Why would the architecture be different between them?
+
+30:04 - Jonas Lindberg Yeah, I might have...
+
+30:05 - Jonas Lindberg Hello, guys, can you hear me? Yeah, I can hear you.
+
+30:11 - Will Vincent Parrone Yeah, so isn't the architecture of a tab...
+
+30:19 - Will Vincent Parrone Wait, if I remember correctly...
+
+30:23 - Will Vincent Parrone Aren't there specifications in Longchain that are specifically made for ADAPT's business purposes? And if we try to adapt it to IntelliAgent, it would require significant rewrite, which makes it inefficient, which makes it better starting from scratch. Sorry, I'm just reviewing the source code just now, so I'm not so sure if I'm getting it right.
+
+31:03 - Jonas Lindberg Is it correct, Jonas?
+
+31:05 - Jonas Lindberg Looks like Kevin wrote that.
+
+31:11 - Jonas Lindberg Sum up of a lot of what you're looking at currently, I don't think is what Cuan refers to lifting over. You're probably looking at the part that hasn't been started on yet, or we're discussing the part that hasn't been starting on yet. Yeah, which the getting to know your why. One thing I remember just now is you want the intelligent outputs from the getting to know your why workshop has to be unique. The one for That doesn't really have to be unique. No one cares if your why is unique. It's your why. You don't have to sell your why to anyone else. But if you have the exact same brand purpose as someone else, that's something you guys mentioned you want the bots to be able to determine.
+
+32:08 - Cuan Mulligan Potentially, right? There's running a workshop and there's enhancements of that workshop where you might have an agent that goes and does competitor analysis in real time. That doesn't necessarily need to be there for phase one.
+
+32:23 - Cuan Mulligan In all of these things, right, there's goal placing, there's the core functionality, and then there's goal placing. But that's just another agent with another role in a workshop.
+
+32:35 - Cuan Mulligan It's nothing more than that. If we agree with the scope that we've talked about today, there's probably another workshop on, like, let's go in, like, I don't know who the UI guy is, but maybe we can mock up a very quick interface to start playing with it and seeing if that sort of works. When we talk about the agents, say, JP, OK, list out all the agents. How are they going to behave? What do they want to do? So take this down to the next level of what, in this particular workshop, tell me all the agents that you need will be the next level of conversation down. So let's not make assumptions about the complexity of something. And again, I understand I oversimplify things because that's how my simple brain works. Otherwise, it just gets too confusing. But I think there is It seems odd to me that we wouldn't lift and shift, adapt into this because it feels like there's a good, like a significant overlay. Why would we start again? It just doesn't make any sense to me.
+
+33:42 - Jonas Lindberg For us, it isn't starting from scratch. As mentioned, if we restarted that now, it would go a lot faster because we have the experience of creating something very similar, which means when we create it again, we will be working faster. We will have experience. Our estimates will be a lot more accurate.
+
+34:00 - Jonas Lindberg As you mentioned, I'm not saying any concrete reason for why we can't lift and shift anything, but I can't say we can do it when my intuition and my technical knowledge tells me we likely won't be able to lift and shift everything.
+
+34:17 - Cuan Mulligan But hold on a second. Let's say ADAPT was a bit further down the line, right?
+
+34:24 - Cuan Mulligan Is there anything stopping you taking a copy of that code and running an instance two of ADAPT?
+
+34:37 - Cuan Mulligan If you gave me a copy of the ADAPT, the entire code base right now, OK, and you've got user management and user authentication built in there, JP will then get that for free. Why would we rebuild that? There is a workshop called the Personal Why. Rename that to Company Why. And yes, you've got a single bot running a brand workshop. Might need six more bots in there. But you've got the workshop running on a single agent. And we're going to say, OK, add in three more agents. Add in this. Add in that. There's no part of my brain that's going, listen, I totally understand. You've built it over here. You can take that knowledge and build it again quicker. But it's so similar. Why would you not lift and shift and duplicate the code? I just can't wrap my head around it.
+
+35:42 - Will Vincent Parrone Yeah, okay. So, let me try to see if I get what you're saying, Cuan, right now. So basically, what you're saying is, given that there are some overlaps with certain functionalities between ADAPT and IntelliAgent, it's a very good idea to copy some of those functionalities and transfer them over, right? That's what you're saying.
+
+36:11 - Cuan Mulligan I mean, for me, apart from the nature of the business, it's almost identical. Like, ADAPT has the ability to take a conversation and say, that's a good response, that's a bad response. Yeah, we've got that capability. That exact feature is needed in a teleagent. Are you going to rebuild that capability for IA or just take it from ADAPT?
+
+36:41 - Will Vincent Parrone Okay, I see what you're saying. I think in essence, some of it is, in technical terms, possible. However, that doesn't guarantee that it would be for free. It would just mean that we would probably be able to redo it better because of the lessons that we've learned.
+
+37:11 - Cuan Mulligan Guys, let's be really clear. We don't need Rolls-Royce code. We need code that's working. If something's functional and adapt and meets the needs of IntelliAgent, we should not be spending any time re-architecting it or redesigning it or rebuilding it. We're a startup. Time to market is everything. Not phenomenal. The code needs to be robust and solid. Re-architecting and re-engineering a solution that's totally functional and works. There's two scenarios. One, what you've built for ADAPT is either shite and you need to rebuild it. And so you're going to take the opportunity for IA. I've got a question then, why have you built something so poorly? Or what you've built for ADAPT is totally functional. Why would you not just reuse it exactly as it is? If it's good enough for ADAPT, it's good enough for IntelliAgent. I just don't want us wasting time and money building stuff that we don't need to build so we can spend the time on the bits we actually need to build.
+
+38:12 - Cuan Mulligan The whole good response, bad response, admin screens, 100% can be identical between adaptive and tally agent. 100%, there shouldn't be a single bit of difference.
+
+38:27 - Jonas Lindberg That will definitely be copied over. But there will have to be some new integration with how IntelliAgent will work, especially with how they work with files and everything. We'll have to integrate that into the reviews so that the reviews have the context that the agents have. But otherwise, the fundamental nature of it, we will take over.
+
+38:50 - Cuan Mulligan But ADAPT has right built in as well that there should be contextual files that the agents only use for their information.
+
+38:58 - Jonas Lindberg It'll be stored different when files are generated live compared to those huge PDFs, which we run generations on to generate embeddings that we store in a database and then pull from, because the documents are so large compared to the ones that will be generated. There will be some integration difference, but of course, a lot of time will be saved there. OK.
+
+39:22 - Cuan Mulligan What do you mean by generation? There's nothing being generated in IntelliAgent that needs to go anywhere else.
+
+39:30 - Jonas Lindberg The brand statement, the messages on the right that are generated, the bots will have that in context.
+
+39:41 - Cuan Mulligan Yeah, that's not files being uploaded though. There is a section where users can upload their existing brand artifacts or give me a website URL, and we'll go and scrape that. But that's just putting it into the same, rather than me uploading a book in Adapt, we're just uploading another content. That's the same capability, fundamentally. Yes, the UX, UI is different. I get that. But the underlying capability is there's a repository of content that we want the agents to look at.
+
+40:14 - Cuan Mulligan What I'm concerned about is that there might be a, and I'm not saying I'm right by the way, there might be a misinterpretation of actually what is needed. And you guys could, with good intent by the way, go and start building lots of really cool shit that actually doesn't materially shift the needle that we could have repurposed from a doubt. A, we spend less time, we spend less money. The most important thing is that we get this into the market.
+
+40:42 - Cuan Mulligan And to a degree, the difference between IA and ADAPT is lipstick. Is the UI, the UX, that screen, get it? Big difference. But under the hood, the raw capabilities are, we have multiple agents, we have the ability to give feedback to multiple agents, and they're working on an outcome. All of those things exist in ADAPT.
+
+41:10 - Jonas Lindberg Yeah. And the reuse functionality will primarily be if I start over, but it'll be like 95%, not 100%. Like we can't just.
+
+41:20 - Cuan Mulligan Yeah. No, no. I mean, I would, you know, even if you're saying there's probably an 80% reuse from a dot. Perfect. I'm not expecting it to be a hundred percent at all, but when you start hearing, we're going to just take our learning and I'm going to rebuild it. That's what scares me, because I don't... Listen, in an ideal world, would I like to do that? Of course I would. It's a great way to do it. Re-engineer it, do it faster, better, quicker, it's great. But ultimately, does JP end up with a particularly new feature set? Not really. It's like, at the end of the day, and this is the challenge for technical people, if it doesn't break, no one gives a shit how good the code is. They just don't care. Because it's not the bit that we play with. We play with the outputs. We play with the screens and the interface.
+
+42:11 - Cuan Mulligan We care what it looks like and what it's experienced like, So in that regard, we do care about the underlying tech. But no one cares whether it's land chain, or blueberries, or bananas, or what your test coverage is. Customers don't care about that. They just assume it works.
+
+42:32 - Cuan Mulligan Now, everyone cares about all of that massively when it breaks.
+
+42:37 - Cuan Mulligan But if you have slightly dirty code, but it's functional and it works, no one cares.
+
+42:47 - Cuan Mulligan Now, we care when we've suddenly got 100, 400, 500 concurrent users and it doesn't work anymore.
+
+42:56 - Cuan Mulligan But let's be clear. We have zero customers today, zero revenue today, time to market. With some compromises is probably better than beautiful code. There's this tension that we should always be maintaining, is how can we reuse what we've built?
+
+43:16 - Jonas Lindberg Yeah. One thing, I think we should probably be wrapping this meeting up soon so that we can go over everything and then probably pick it up another day.
+
+43:25 - Jonas Lindberg Sure.
+
+43:27 - Jonas Lindberg One thing about the getting to know your why workshop, for ADAPT, will that be using a specific framework? Because for IntelliAgent, it'll be using the story framework. But for ADAPT, my perception was that it would be more.
+
+43:43 - Cuan Mulligan The story framework is an overarching framework where all the workshops exist in. The brand workshop does not use the story framework to deliver the brand.
+
+43:55 - Cuan Mulligan OK.
+
+43:56 - Cuan Mulligan The framework is a meta framework over the entire suite of activities that could be 70 workshops.
+
+44:04 - Cuan Mulligan But within the brand workshop itself, it's basically the sort of questions that me and JP asked. Now, we can take that down to another level. But fundamentally, there is no framework for understanding why. I mean, apart from actually asking the question, why? Why are you doing this?
+
+44:25 - Cuan Mulligan something inside of us that went, that doesn't feel satisfactory. It doesn't feel there's something inside of me and JP that we didn't just go, great answer. Brilliant. Like, no, no, no. We have an internal criteria. And listen, me and JP are not aligned. We didn't speak about this before the meeting, but both of us were sort of going, Too technical. There was some judgment that we were making on what you were saying. And the challenge is, how do we codify that? And the only way I think we can do this is by you giving us the capability. The bot runs a workshop, and it'll be a bag of shit. And we get to go, no, no. You don't say that. I would have asked this. Oh, I would have gone deeper there. That's really interesting. Oh, and that's one of the reasons why I was speaking to a coach this morning on the adapt thing. Why I think it's really, really important that we go to speech. Because there's something what's called in coaching called the unspoken word, the pause, the intonation. Do I speak faster? Am I getting excited? That can't come across by text.
+
+45:34 - Cuan Mulligan And so the sentiment of somebody, how they're speaking, the pace at which they're speaking, also conveys a huge amount of information that me and JP were picking up. How you were saying things, you were leaning back. All of these things are cues to us as to what's going on. And as much as possible, if you look at Adapt, I sent that link to thrive.ai, which is the Sam Altman, Ariana, fucking, they should be the best coach in the world. It's a bag of shit. It's rubbish. Because it sort of doesn't care what you say. It's just a question, because it's only taking text. It's not connected to what's going on, really. And the thing that's going to be different here, the IP, is how do we codify JP into the agents? To go, no, no, I wouldn't, that thing there, that's really interesting. And the agent goes, why the fuck was that interesting? Well, here's why, let me tell you. So actually, just the good, potentially the good response, bad response, prompt pages are probably going to be the really interesting bit that might need to change here to give it more information than just saying that was bad and here's why. I don't know. But that, for me, is the thing we need to get to, where a very rudimentary bot knows its outcome. So I can go to an LLM right now and say, let me look at this.
+
+47:11 - Jonas Lindberg In the meantime, can I ask you JP? Do you think you could run our brand identity workshop through text only?
+
+47:22 - Jonathan Phillips It's possible the reason that I I Like speech is because I do everything through speech so I dictate everything I tend to do speech But also our target market will be a lot of people who don't sit at computers So a lot of them will have a smartphone and they won't really ever sit at a laptop unless they're doing an invoice. So we see in our world, we're very laptop. We're very, we've got apps going. We sit here all day. Whereas a lot of our customers are going to be people who are landscape gardeners who are in the garden or the cleaning business, or they're in a restaurant. So they will have a few minutes or 10, 15 minutes where they may want to do it through a smartphone. So speech is the fastest way, and it's also the most accurate way to do it quickly.
+
+48:17 - Jonathan Phillips So I think that's the target.
+
+48:19 - Jonathan Phillips And that's nothing to do with the quality of, is text better than speech? That's just a usability aspect of, I think, most of our customers will want to speak.
+
+48:30 - Jonas Lindberg Assuming then I gave the user the capability to record their message, and then it was converted to text before it was sent to you. From that, do you think you could run an effective brand identity workshop?
+
+48:43 - Jonathan Phillips As long as it's fast, the latency is good, then yeah. I mean, it's not a problem how it's delivered, it's just from the user perspective, they're talking and having a conversation.
+
+48:54 - Cuan Mulligan I want to challenge that because As soon as you convert voice to text, you lose all sentiment, you lose all pauses, you lose all intonation. And all of those things are actually quite important in running these sorts of workshops. Because at the end of the day, remember when JP was speaking to you Jonas he was asking where's the emotion what's the emotion of this and if you take that that comes across in voice and again we're looking to do the sentiment analysis of tone and intonation in ADAPT We're aware that there may be a lag in the time and the performance, and we need to do a trade-off on that. But I think that's something we need to figure out the right answer is. I'm concerned of the efficacy of text only on both of these workshops. I think it's unnatural to do these with text.
+
+49:51 - Cuan Mulligan You would generally talk about them. It's more organic. So what I mean, if I look at this right now, Help me find out what my brand purpose is.
+
+50:03 - Cuan Mulligan Now, at some point, Claude has decided what it means to be a brand purpose is. And it's asking me questions. No one's asked it to ask those questions. So what I'd expect is for us to have the ability to do this and for JP to go, no, that's not the first question to ask. I would have asked this question first. Go again. We go again. And we just keep on doing that over and over again until the agent starts to behave as JP would have behaved in this context, in this workshop.
+
+50:33 - Cuan Mulligan So I don't believe that you should be giving us a finished workshop agent. You have to give us the ability to have multiple agents looking to achieve a common outcome that JP can give feedback to to say, yes, that's good, that's bad. I understand. Because I don't know how many questions it's going to ask me, nor that it does. It has some framework. There's some algorithm in the back or some weighting that says, I've now asked another question. I don't need to ask another question. Sorry.
+
+51:13 - Cuan Mulligan So there is some raw capability available in LLMs to run a workshop right now. It's just not very good. It's very generic. And if me and JP run Claude simultaneously, we're going to get to a similar outcome. But actually, what we're saying is, if we codify JP's way of doing it and the standards that he wants, that's the difference.
+
+51:36 - Jonas Lindberg Yeah. Could I ask you then, JP, after what Cuan said, this is just because doing sentiment analysis can increase the scope quite a bit. How essential do you think it is to be able to hear the person speak compared to doing the entire workshop through text?
+
+51:58 - Jonathan Phillips This is all iterative.
+
+52:01 - Jonathan Phillips Like Karina said originally, my vision is to have a interface which looks like what we're looking at now, a Zoom interface with all the video characters who aren't real people, they're AI avatars, all having a conversation, all with their areas of expertise. That's the holy grail. So how we get there, because that will be possible in a few years' time, without a shadow of a doubt, but how we get there, is is a journey we don't know at the moment but I just want to get there but at the same time if it takes small little tiny steps that's fine but we need to be able to make sure that the goal is is always in in our sort of like front and central we need to get there so once we once we go through the the text into the speech these are just early days because as we know technology will soon gesund that and it will soon be We won't even have to program it because it'll be in a box somewhere that we just press in. But to start with, I just want to get these things up and running and then we evolve as we go. So whatever is the quickest and the most effective way of delivering what we want, then I'm happy with that just to start with. And then obviously we are testing ourselves all the time to make it better and better.
+
+53:17 - Unidentified Speaker Yeah.
+
+53:23 - Cuan Mulligan Yeah, and I think we do need to learn, I have an assumption around the text, but maybe the text is OK to start. And again, if sentiment analysis slows down, like it's a five-minute response for every time someone speaks, and we can do the analysis, that's just not usable. I'd rather do text. I would take text only rather than that. And we'd have to find a way.
+
+53:50 - Jonathan Phillips But what we don't want to do is go down an avenue where we can't come back. So we don't want to go down an avenue that's text and forever it will be fixed. So we want to always have the ability to jump on the latest thing, so to speak, or move forward.
+
+54:04 - Jonas Lindberg Yeah, I was going to add on to that. I think sentiment analysis is something that will definitely be able to be added on later as an additional bit of context that the Boston is given because larger language models, they work through texts, they haven't been trained on language, they've been trained on text. So how you integrate sentiment analysis into these chatbots is through converting that audio to text along with sentiment analysis performed by a bot that did voice to text, or that interpreted a voice, which is a completely different machine learning model from large language model. And that is processed through text and generated through text.
+
+54:49 - Cuan Mulligan I just want to make sure also that I understand the use of the word sentiment analysis, because there are sentiment analysis done where 15 customers complained on Twitter today, because it's very clear on the text, as opposed to understanding the sentiment of somebody through the tone of their voice. Are they being sarcastic? Are they being serious?
+
+55:15 - Cuan Mulligan I'm talking about that level of sentiment. It's tone and tonality, pauses.
+
+55:19 - Jonas Lindberg Yeah, it's the second one.
+
+55:21 - Cuan Mulligan Yeah, I think that's real sentiment analysis as opposed to opinion analysis.
+
+55:28 - Jonas Lindberg But yeah, it has to be put into words for the LLM to work with. And I think that's something we can add on to the interface later.
+
+55:37 - Cuan Mulligan But I thought on ChatGPT, the whole point was that it can now see and hear. And that does not go via text.
+
+55:48 - Jonas Lindberg That was the first one. I'm not educated enough on that topic, but from an engineering perspective, what I hear them is they use a different model to convert it smartly into text before passing it on.
+
+56:03 - Cuan Mulligan Can we confirm that? Because my understanding was one of the big advances of 4.0 was the fact that up until 4.0, if you had a video, you had to convert that into text, into the vector database, and then it could get consumed by the LLMs. And I don't know how, but now with the 4.0, fact that it can hear and see, all the Google cars and all those cars doing mapping are now going to become LLL trainings. I don't believe they're taking all that visual cues, converting it into text to then being understood. I believe it's now able to see and understand visuals. And that's why you have them with the blind guy doing the tour saying, what's happening? Oh, that's a duck doing this. It's able to see now, and it's able to hear. I think it's bypassing the legacy translation to text before I understand it mode. That's one of the big advances in 4.0. Now, I don't think many people are picking up on that. And the big thing is 4.0 can now learn without having to be converted to text, from what I understand. I might be wrong with that, but I believe that's the big block.
+
+57:14 - Jonas Lindberg Yeah, we'll definitely have to look more into that.
+
+57:19 - Cuan Mulligan Cool. You said you needed to wrap up anyway, guys. I know it's pretty late for- Yeah.
+
+57:26 - Jonas Lindberg Yeah. Anything else before we end the meeting, then?
+
+57:31 - Jonathan Phillips Nope. First of all, thank you for everybody joining. It's good to sort of try and align, but maybe we need to do shorter meetings more often just to make sure we're all moving in the right direction.
+
+57:42 - Jonas Lindberg Yeah. Yeah. Yeah, so I'm hoping, as mentioned in chat, that now we've got more employees, and especially Will, that can hop onto IntelliAgent and take a fair bit of the load off me, because I think you guys know George is currently off uh this brother's wedding and is on for a not not too long each day so it's been mostly me managing everything and I think it'll really help with that you guys will be able to help in meetings with
+
+58:16 - Cuan Mulligan other guys and align yourself a lot more often than I have been able to do yeah and I would say again whale thanks for for stepping in, apologies for stepping in, but hopefully you can see, I think, the level of conversation that we needed to have, which was, I think, a really good outcome overall. And for Nazif, Biwas, Bill, if you guys have any questions 24-7, just ask myself and JP, we're pretty much online all the time. So we will jump on calls, answer questions, whatever you need.
+
+58:48 - Will Vincent Parrone Yes.
+
+58:51 - Cuan Mulligan love to have a copy of the mural is it the mural the diagrams we made earlier i've sent you guys a link if you don't if you if you should be able to just access it I'll put it in
+
+59:05 - Jonathan Phillips uh yeah I'll put it into the um into the discord channel as well call's just about to end I think so I'll say bye thank you very much everybody yeah cheers

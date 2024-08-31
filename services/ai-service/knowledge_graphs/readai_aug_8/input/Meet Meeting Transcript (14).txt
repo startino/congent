@@ -1,0 +1,120 @@
+Meet Meeting 
+Mon, Aug 5, 2024
+
+1:40 - Jonas Lindberg How are you doing?
+
+1:48 - Jonas Lindberg Yeah, very well. Thank you very well.
+
+1:52 - Jonas Lindberg Yeah, nice.
+
+1:54 - Jonas Lindberg Yeah, so this is kind of like more free meeting. I want to to go over the workshop that I've planned, the mission and vision statement workshop. And also just want to get your feedback on my kind of setup, on how I've set up the workshop, maybe since you're like in marketing and all of that. And it's like a vision and mission statement that's pretty close to marketing. So I think you could probably have some valuable insights for me too, but outside of the typical client-project manager relationship. Sure, sure.
+
+2:32 - Jonas Lindberg Yeah.
+
+2:33 - Jonas Lindberg So let me just share the link with you to the Figma. So I'm hoping to run the workshop kind of through a Figma that we've kind of pre-assigned a bit. In it I've held up a few things like the purpose, our roles and responsibilities, some things that we need to fill out like the key stakeholders that should be present in the meeting and kind of the outline of the meeting.
+
+3:08 - Jonas Lindberg Are you able to access the link I sent you?
+
+3:16 - Jonathan Phillips Why did that come through?
+
+3:17 - Jonas Lindberg I sent it in the chat there.
+
+3:31 - Jonas Lindberg I think your mic might have changed to one that was worse. Your audio was good, and then it suddenly turned a bit more like robots-ish.
+
+3:43 - Jonathan Phillips Not coming through very well, is it?
+
+3:46 - Jonas Lindberg No, it wasn't good earlier. I'm figuring that the microphone changed when you put in the earbuds.
+
+3:52 - Jonathan Phillips And you can't hear very well now.
+
+3:55 - Unidentified Speaker I can hear you.
+
+3:55 - Jonas Lindberg I can understand you. But it was better earlier.
+
+3:58 - Jonathan Phillips Let me try. Is that any better?
+
+4:06 - Jonas Lindberg Yeah, the audio is better now.
+
+4:09 - Jonathan Phillips OK. I can't hear you now, but I know you can hear me. That's good.
+
+4:13 - Jonathan Phillips Oh, you can't hear me?
+
+4:15 - Jonathan Phillips No, it's just easier with headphones. But I'll manage. Don't worry. I've got the link up now.
+
+4:21 - Unidentified Speaker Yeah, nice.
+
+4:23 - Jonas Lindberg So there's two pages. One's the planning the workshop, which is more the one I wanted to go through with you. And then the actual D-workshop, which I'm still building a bit out. Yeah, I want to basically go through the stages outlined in planning the workshop there. Yes, sure. So yeah, just to to go through this. The purpose of the workshop is aligning on a mission statement and a vision statement. The reason I use aligning there more so than creating or defining is because all the key stakeholders that have a part in the project should be aligned and agree on division and division specialist. The mission is more so how you got the idea in the first place, the reason why you thought of this project at the core, while the vision is where you want to get to, where you imagine the project being in the future. Then once we have those two key parts down, the mission, where we start from, and the vision, where you want to end up, we can start much better building a roadmap and filling out the in-between. To a point where the development should hopefully be a lot more holistic. Everyone should know where we are in the project, what parts they are taking part in, instead of just following tasks that get listed down or handed to them in the backlog. Sure. Makes sense.
+
+5:57 - Unidentified Speaker Yeah.
+
+5:59 - Jonas Lindberg So for our roles in this meeting, I will not be leading the meeting. It will be you, the product owner, that is going to lead this meeting because this meeting is to your benefit for you to help everyone align on a project vision that you can guard and make sure all the features align with moving forward. It should also help benefit us when planning out features and such because then we'll be working from a standpoint where everyone knows the vision in the future so we can better prioritize what is essential compared to what's like just nice to have or things that can be added on later. Sure, sure.
+
+6:37 - Jonathan Phillips No, it makes all sense.
+
+6:39 - Jonas Lindberg Yeah, we can probably just start with the key stakeholders. So these are the people that should be present during the meeting, everyone that has a stake in IntelliAgent. So of course, JP, you're a part of it. Then, yeah, if you could help me just, is there anyone I don't know about that has equity or investment or anything in the IntelliAgent?
+
+7:06 - Jonathan Phillips I mean, no, the only other person obviously is Coen who's heavily involved. So I think involving Coen, he has a number of skills that I think complement what we're trying to achieve. So I'm more than happy for Coen to be involved. Not obviously all the time, but I think any key decisions, especially with him going through the ADAPT process, which you've already started and you've learned a lot already. I think that's quite valuable because then we're not going over the same ground.
+
+7:37 - Unidentified Speaker Yeah, absolutely.
+
+7:39 - Jonas Lindberg Yeah, so outside of us developers and us in Startino, just you and Koen Da? I think so.
+
+7:47 - Unidentified Speaker OK. Yeah.
+
+7:50 - Jonas Lindberg So you can take a little moment to read through the purpose I've written here if you want to. Yeah.
+
+8:05 - Unidentified Speaker Yeah, it all makes sense. Yeah.
+
+8:09 - Jonas Lindberg So then there's the outline here. The reason I filled it up here is, of course, because you'll be the one running the meeting. So you'll have to know where it's supposed to go, how we're supposed to go through it. So in the beginning, of course, introduce what the meeting is about, basically going through what purpose of this. And clarifying that it's a collaborative session, you're not going to just be telling everyone what the vision is. It should be a collaborative session where at one point everyone will fill in what's their idea of the vision is and we'll compare afterwards, combine it into a final mission. A vision statement, then in the end, move on to a document that's using a proper, I don't remember the name of it. I'm going to add it in, but it's a vision statement document that has a lot of items we can fill in and make sure everything's aligned.
+
+9:04 - Jonathan Phillips No, it makes perfect sense.
+
+9:07 - Jonas Lindberg Yeah.
+
+9:11 - Jonas Lindberg So yeah, you can see our product owner will invite everyone to write a statement around their motivation. Yeah, also the motivation to work on the product, compare and compile into a final vision statement.
+
+9:23 - Jonas Lindberg One thing that will happen before here is you'll describe your mission statement.
+
+9:35 - Jonas Lindberg So this will basically just be telling your story of how you conceive the idea of intelligence to give everyone the perspective of like where fundamentally this platform, this product is coming from So it could be like saying like, so I was sitting in my office looking out the window and I saw a plane, which made, yeah. Just how you came to think of the product because that's- It's helpful. I fully understand.
+
+10:05 - Jonas Lindberg So hoping we can run this. I want to get on the ground running, get the meeting done as soon as possible and everything. So I'm just finishing up the workshop tab. You can see I have just quick context right now, which is outlining a bit the purpose, what the mission statement is. I don't think, yeah. Can you see the pages top left and then click on the workshop?
+
+10:36 - Unidentified Speaker Yep, I'm in now. Yeah.
+
+10:38 - Jonas Lindberg Yeah, so this will be the one that we will be showing everyone when you're running the workshop. Outline some quick context what the two different things are.
+
+10:53 - Jonas Lindberg how it'll, yeah, we will be defining where we're starting from and where we want to get and how it'll like help fill in everything between like kind of what I've filled you in on right now. Sure. Then moving on to the idea of the project, this will be you describing the mission statement, how you like came up with the idea of it, what problem you saw with the industry. Then hopefully everyone will create their own sticky notes describing their interpretation of your idea.
+
+11:29 - Jonas Lindberg Next up, I haven't created this slide yet, but it'll be the vision. So you'll explain your vision of the platform Intelligent. Then in a quite similar vein, everyone will fill in their motivation for working on the project, what they imagine it to be, what excites them about it. Then after that, we'll all collaborate. Of course, you'll be owning it, you'll be reading it, and combining it into a final proper vision statement that will then move on to documents using the little pre-made documents that I haven't added yet.
+
+12:06 - Jonathan Phillips Now that makes sense. It gives us a good foundation for understanding at the same level, which I think is important. We all think that we see the same thing as each other, which we don't. Yeah, exactly. It's nice to at least have a vision and an understanding of what everyone else is seeing. So that's cool. It's cool.
+
+12:26 - Jonas Lindberg Yeah, I'm glad to hear you like it. Do you have any feedback or anything? Because this is very in the vein of what you're doing professionally, right?
+
+12:37 - Jonathan Phillips Yeah, what I'm very wary of is me wading in now and saying, do it like this. How about this? That's not the way it's going to work because it basically devalues what you've done because I think it's a really great start. So what I'll do at the moment is I will go away, have a little think, read the structure again, look at what you're doing, and I will give some feedback. And then we can either incorporate that in the workshop or it can be incorporated after the workshop for the next time it's done. So what I think is Maybe an optimum way forward, but I certainly don't want to diminish what you've done because it's excellent So no no absolutely not like you're working in this industry for so much longer than I have
+
+13:25 - Jonas Lindberg like This is just what I've diagrammed throughout yesterday night and today up until now like I'd love your feedback on it But the most important thing, irrespective of the detail, is that you're thinking this way.
+
+13:38 - Jonathan Phillips And this is the way to start any project off. It's the way to align ideas. It's the way to make sure everyone's moving in the same direction. And that is key. So how we do that, that's semantics. That's something we can discuss. But the key thing at the moment is that we are starting this the right way. So that's cool. Nice. Thank you for that.
+
+14:01 - Jonas Lindberg Yeah, that's, that's really all I want to bring up in this meeting. It's why I wanted it to be more one on one because it's like mostly just between you and me as I'll be the project manager and you'll be the project owner and didn't want to waste like, like mentioned that
+
+14:17 - Jonathan Phillips we have six guys in this meeting it's like multiplying each hour by I didn't realize that this was what we're going to discuss so this is perfect we've done it which is fantastic and I'm glad we've done it and it can only go from strength to strength now because it's all about everybody having the same outlook. So what we've had I think so far and I think what you suffered with with Kuhn and Adapt at the beginning was everybody had different thoughts about what they were trying to do. And it's not easy. We've got so many different conflicting things. Everybody's different to start with. We've got different levels of knowledge. We've got different cultures. We've got different languages. It's not easy. It really isn't easy. So I think this is a great idea to actually align and it can only get better. So that's really cool. Yeah, fantastic.
+
+15:12 - Jonas Lindberg Then, yeah, just to give you an overview of like how I'm planning to move forward with Intelligent after the this workshop, of course, starting with the mission vision workshop, the one we're running currently, the mission is less participative, because it's just how you came up with their idea but of course we're going to get everyone's interpretation of that and discuss on that afterwards and the vision. After this workshop I want to move on to creating like a roadmap workshop where we define the high-level roadmap of where you want the projects to end up. So basically, if the mission is the where we're at currently, or how what made you want to create this and the vision is where you want to end up the roadmap should fill in the in between so that we can start like building upon it, get a good foundation, not start with the windows.
+
+16:04 - Jonathan Phillips Absolutely, no it all makes sense, it all makes sense. A lot of the success of a project isn't necessarily going away and creating something, it's making sure the team work together because that is absolutely essential and everybody understands what they're doing and if people are going away doing different things and coming back together and going this doesn't align that's where you start to waste time and become becomes more difficult but I think we're on the right road here now and I think you've you've now grasped as a group of really young intelligent developers that there's a lot of structure behind how to move through a project and it's a massive learning learning curve for everybody. So when you start to do this in life, you think, wow, there's so much I need to learn. And most of it is quite simple and obvious, but it's only simple and obvious when you know it. When you don't know it, it doesn't exist in your head. So I think as a group of developers, I think this will be a great foundation for every project you now move forward with.
+
+17:05 - Unidentified Speaker Yeah, absolutely.
+
+17:07 - Jonas Lindberg That's what I'm hoping.
+
+17:09 - Unidentified Speaker Excellent.
+
+17:10 - Jonathan Phillips Okay, so I will go away, I'll have a quick read, I'll look over, I'll feedback, and we can take it from there. Yeah, awesome.
+
+17:19 - Jonas Lindberg Yeah, I hope we'll see each other tomorrow then. Yes. Let's get this running quickly.
+
+17:25 - Jonathan Phillips Perfect, perfect, excellent. All right, thanks for your time Jonas. Much appreciated. Yeah, thanks. I'll see you.
+
+17:30 - Jonas Lindberg Bye-bye. Bye.

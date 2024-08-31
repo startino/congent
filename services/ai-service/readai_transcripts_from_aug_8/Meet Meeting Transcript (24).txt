@@ -1,0 +1,334 @@
+Meet Meeting 
+Sun, Jul 7, 2024
+
+0:04 - Eksno Wow.
+
+0:09 - Eksno Yeah. Um, but yeah, I have, yeah, I have like laundry scheduled at three, but yeah, it should be done with the meeting by then. Just going to watch the interview video as well at the laundry and go over that.
+
+0:32 - Eksno Yeah, I'll see you there. And send a link to Conan here.
+
+0:36 - Unidentified Speaker Silence.
+
+0:36 - Eksno Silence.
+
+1:56 - Eksno I can't hear.
+
+2:24 - Eksno bad lighting, I'm working from the apartment currently.
+
+2:27 - Cuan Mulligan No worries, yeah, well, mine's not exactly better.
+
+2:32 - Eksno You've got like a studio set up almost, a guitar in the background, plants and everything.
+
+2:37 - Cuan Mulligan Yeah, well, we're gonna hopefully launch a podcast next week, so I need to...
+
+2:46 - Cuan Mulligan Yeah, it's all right, it's not perfect, but I don't know, I've got to test the video, the audio, and start doing all the intro, the music, all that shite. It's just, it's interesting. A lot of the stuff you see on AI, oh, it's all going to do everything for you and stuff like that. Well, one, we still can't get printers working properly at home without any problems. I think certain jobs are going to go away. And I think there's just unbelievable opportunity right now.
+
+3:14 - Cuan Mulligan The big consultancies are really, they're making billions of pounds on the back of AI. It's boring shit. It's just selling and fucking copilot and stupid shit. But there's yeah, there's just still there's still mega mega money to be made from it all. Yes, I figure out how to get part of it.
+
+3:37 - Eksno Hey guys. How's it going?
+
+3:44 - Jorge Lewis I'm in Hong Kong now, back home. Here's Marco.
+
+3:50 - Jorge Lewis I just came to do that, so I'm gonna turn my camera off.
+
+3:55 - Unidentified Speaker Okay.
+
+3:58 - Eksno Yeah, so I've read through your documents and yeah, there were a few things I noticed. First off, sorry, do you want to lead with anything before I say my questions?
+
+4:17 - Cuan Mulligan I suppose the thinking, just to give you some thought about why I did what I did and where it came from, I was trying to figure out what the UX starts to look like,
+
+4:32 - Cuan Mulligan I'm happy to show you something but I don't I'm sort of in my head this is a this is a thought experiment as opposed to the solution so in one way I'm like yeah it's a really good idea and another way I almost don't want to show you so that you guys might come up with something and think about totally different but if you think it's fine then I'm happy to show you what I was thinking just so you get an idea of what what I think how Flow and Mural translates into an app. Do you want me to show it to you for a sec?
+
+5:07 - Cuan Mulligan Yeah.
+
+5:09 - Unidentified Speaker Okay.
+
+5:09 - Cuan Mulligan Go ahead. Can you see that?
+
+5:26 - Eksno Yeah.
+
+5:27 - Cuan Mulligan Okay. So the idea here is, obviously I know that wouldn't be there because that would be the cut out of the iPhone stuff like that. So that can't really go there, but you get the idea. So this is sort of like a streak. This is where you are. This would be a persistent banner for the day, which would be a theme for the day or whatever that is. And then you wake up in the morning you would have a message, you'd have some content and video, you've also got input boxes or you've got decisions like, you know, yes, no. I think there are certain things that make sense. It's more easy to do it with a click as opposed to typing. And there's other bits that are better at typing. And I'm not entirely sure where that bit is yet. That's just sort of what it would look like with the, With the keyboard enabled, it pushes it out underneath the banner. And then the idea is maybe if you click on this A, you would have a Eat, Move, Sleep, Mind pop-up, which would give you the chart. But actually, maybe thinking about rather than having a pop-up is moving those four icons in this space up here. So they're persistent. So just sort of playing around with that. And hopefully, that sort of gives you a bit of an idea of where I think this works. I'm struggling to figure out a way or why we would have an LMS page, like an actual sort of the original UX, where you have like a Eat page and a Move page and a sort of traditional content-based page that I'm doing now. I think everything should probably be through this. And I think we probably have two personas of bots. One is the person who's giving you content and leading you through the program, as opposed to somebody who's actually coaching you.
+
+7:20 - Unidentified Speaker OK.
+
+7:21 - Cuan Mulligan But they may be the same thing. I don't know. That's just a question I have. I don't know whether that actually makes things more complex.
+
+7:28 - Eksno I think that's more of a design decision than an integration decision, because we're using a lot of different spots and background anyway. So we could just assign a different profile photo to some of them and do A-B testing, what people like better there.
+
+7:46 - Cuan Mulligan Yeah, OK, cool. So shall I bring up Merle, and we can go through it? Or how do you want to? What's the best way to do it?
+
+7:55 - Eksno The graph you made?
+
+7:57 - Unidentified Speaker Yeah.
+
+7:58 - Eksno Yeah, go ahead.
+
+8:02 - Cuan Mulligan Where the hell is the button?
+
+8:12 - Eksno Yeah, in the meantime, one question we had about the LMS. If we're moving the LMS entirely to chat, how do you want to do, like, watching videos that have been sent in the past? So the bot sends a message or sends a video, and you said there was, like, a one-week expiration. So if they take a couple of days to get to watching it, do you want them to just have to scroll up and chat, or how should they be able to retrieve it?
+
+8:40 - Cuan Mulligan So if you look at my screen here, my thinking is that you have a chat for a day, and then this banner signifies the start to a new day. Now, whether that means I can scroll down and I can scroll to past days, or whether I have to navigate, I go back to another day. So that back will go to day nine. Day 8 day 7 day 6 so I could scroll through so I can see all my previous chats and and If the video is gone, it would just be you know, a placeholder image saying sorry This is this contents no longer available or something like that Okay Yeah, so yeah, if they want to watch a video from the past they just scroll and find it I think so Yeah, but I think some of that UX I think until we start playing with it. It's hard to know what the best way is Yeah.
+
+9:39 - Eksno And that's not core to the infrastructure anyway, so we can add on later.
+
+9:43 - Unidentified Speaker OK.
+
+9:45 - Cuan Mulligan So do you want me to talk you through this, or do you just want to jump in and ask questions?
+
+9:51 - Eksno Yeah, you can give an overview of what you were thinking. Then I'll get to the questions afterwards.
+
+9:58 - Cuan Mulligan I'll make sure we're going to probably color these into. So these are notifications.
+
+10:05 - Unidentified Speaker Nope.
+
+10:07 - Cuan Mulligan Sorry, I'm going to sneeze.
+
+10:10 - Cuan Mulligan Why is it not working? I fucking hate not sneezing when you want to sneeze. That's one of my very annoying things. Cool. So the idea here is the pink ones, the lighter pink ones, would be something that we instigate. So we instigate a notification to the user to start the day. There'd be some banner, which you saw at the top there, sort of a welcome message. This is a mind area. So it's a logo with some, you know, here's a, here's a quick message for the day. Um, and then you've got like, um, you know, there's potentially this.
+
+10:45 - Eksno Do you mean like an app notification and that notification, or do you mean like outside? So they get on their phone notification Aristotle, we are what we repeatedly, or just to like top notification.
+
+10:58 - Cuan Mulligan I think the notification to the user is a native notification that drives them into the app. Okay. So the Aristotle we are repeatedly doing, that's in the app. So that's this bit here.
+
+11:11 - Unidentified Speaker Yeah.
+
+11:13 - Cuan Mulligan There'll be a notification that drives them into the app to start the day. So again, whether that's This message here, welcome to day 10, might be the text for that notification, maybe. And then it would probably start, you probably have a break point where you just see the video, and until they've actually watched the video, you wouldn't go to the next thing, which is how is your sleep, because they haven't engaged with the application. There might be some point of time where it, I don't know what it is, but then this would be another notification to remind them to watch the content.
+
+11:51 - Cuan Mulligan Okay. Yeah, I see.
+
+11:53 - Cuan Mulligan And so that's what they're dotted lines. So they're, they're optionals. I don't, I don't know when the scheduling of that would be. And then there's logistics. So how would your sleep look last night? So that would be here. So how is your sleep? And you could just click into that sleep time and wait time box and enter in the numbers, or they can be pre-populated with the previous ones because a lot of people should hopefully do the same. So Again, that might just be a quick scroll with your finger to change the time. We'll figure that out. And then if they do answer that, there would be these two follow-on questions, like, did you wake at all during the night? If it's no, then it's finishing. If it's yes, then you'd say how many times. But that's sort of a spur of the questions there. Then there's some more content during the day.
+
+12:41 - Cuan Mulligan Again, same pattern. If I haven't watched it, I had to do it. And then have you done your walk, drop in your updates?
+
+12:52 - Cuan Mulligan Then when you've done your calories, so just trying to figure out what that is, then you'd have nudge notifications throughout the day. So it's 1 o'clock. If we know that you drink coffee, don't have any more coffee, basically. One second, JP's around, he might actually join. Just give me two seconds, I'm just gonna give him this URL, where is it there?
+
+13:20 - Cuan Mulligan And then there's reminders, drinking water, doing air squats, stuff like that. I am just, in terms of, for both of you, I'm a bit concerned with the amount of notifications we might be giving the user. And I think we could easily piss them off and they just turn the fucking thing off. But that's something I think we're going to have to figure out over time. And then there's an end-of-day check-in. And I think there's three categories. Everything's already been filled in by the user. Some of it's already been filled in, or none of it's been filled in. Actually, I'm going to call that filled in.
+
+14:05 - Cuan Mulligan Come on JP. I know I like you. Queen, best band in the world. Best band ever. Actually, here's going to be a really generational question.
+
+14:19 - Cuan Mulligan Jonas or Jorge, have either of you watched Highlander, the original movie?
+
+14:24 - Eksno Yes. Absolutely.
+
+14:27 - Cuan Mulligan Excellent. Okay. We can continue to do business together.
+
+14:30 - Eksno Still friends.
+
+14:32 - Cuan Mulligan I don't know about Jorge though, but I have definitely Yeah, it's one of my favorite movies of all time and it's how music used to be written for movies where you have a single band doing the entire soundtrack and it's actually a fucking awesome album as well.
+
+14:53 - Eksno Yeah, pretty insane that Cuan did that.
+
+14:58 - Cuan Mulligan I mean it was such a badly made movie that it ended up being good. The fact that you have an ancient Spanish person with a Scottish accent that nobody sort of saw the challenge with it is bizarre. Only the 80s.
+
+15:15 - Eksno Probably to watch with the boys just sitting down and having a drink and laughing at.
+
+15:23 - Cuan Mulligan Henry Cavill is doing a remake. I think they're starting to shoot next year. So that's going to be... You either fuck it up or... All of them are pointless.
+
+15:35 - Eksno One of those that are so terrible it's good movies.
+
+15:38 - Cuan Mulligan Yeah, but like the Kurgan, he was so brilliantly casted. Yeah. Yeah, I'll get off my Highlander horse.
+
+15:53 - Cuan Mulligan Actually, one of the really interesting facts, which is just stupid, I know this. The scene where Sean Connery is teaching the Highlander about the quickening and he's with the stags and they're trying to get that scene. At that time of year, all of the stags had lost their antlers because they were, I think that's rutting or whatever that phase of the year is. So they actually had to get a stag and they stuck on antlers with glue to its head. And the deer, basically as soon as they did it, it ran away and freaked out. So they literally, it was a complete accident that whole scene. They didn't get to do it properly.
+
+16:39 - Jonathan Phillips I also find it amazing that stags lose their antlers every year. That's just bizarre.
+
+16:43 - Cuan Mulligan Yeah, but they're not like they're small. Crazy. Cool, so maybe just so you know, sort of what I've been doing here is trying to take them through the day in the life of all the comms and sort of going backwards and forwards, because the guys are working on the graph, which is sort of the high level data architecture of how all the different components, the relationship of the bots and who does what and how it all works. And I think we had started originally with this sort of very clear idea of the end of day check-in. But I think that's evolving from my thinking, and this sort of flow, I think, will sort of bring that to life. So you've got the sort of content that's pushed to the user throughout the day. They may engage or not engage with that. And then you end up having three categories. They've either filled everything in and watched everything, they've done some of it, or they've done all of it, or they've done none of it. So for example, if they've done none of it, That doesn't make any sense. Let's say he didn't sleep. You're on a nine-day streak. Let's not break that. Drop in your walking updates. And so basically, this is about just capturing the remaining things to be done, which is sort of what we're working at the moment. This is just an example of two things, and this is an example of everything. That text needs to change.
+
+18:10 - Cuan Mulligan So be like this. Let's not break it. Drop in your updates below. So if we're going to move to a form-based, one of the questions I had is, at the moment, the bot or the agent that you're designing is incredibly chat-based. But actually, I'm wondering, For these sorts of things, it doesn't really make sense to me that it's a chat. I think more having an input makes a lot more sense, because it's a lot less effort for the user to do that. And getting that UX right, I think, is really important. But then, whether you're, everything's already filled in, some of it's filled in, none of it's already filled in, once you have this, then there's sort of the coaching phase. And then on a coaching phase, I think there's sort of three flavors of user. There's a user who's on top of it, seems to be smashing everything. They're irregular, they're sometimes doing it, sometimes not doing it, and then they're disengaged. So there's three sort of flavors of users. So if they're on a streak, it's basically saying, yeah, you know, you're on top of it. It's rewarding, it's acknowledging them, it's championing them, saying that they're doing really good. And then sort of giving them some milestones. You've nearly walked a marathon, you've also not eaten about 20 bags of sweets, blah, blah, blah. And then some sense of this is what's going on tomorrow. And if you, so this is awareness of where we are in the program. So it's saying, you smashed it today, this is what's going on tomorrow, and then if you wanted to do, here's some meditation. If they're irregular, I think we need to start figuring out what are the patterns of irregularity. So for example, I noticed that you often struggle with your habits on Tuesdays. I get it like it's in the way. You matter, your health matters. What do you feel are the reasons you're struggling on Tuesdays? Or you're not doing your walks. We know that right now, what's one thing you can do right now to get your walk in tomorrow? What's food that you can prepare today that you can eat tomorrow or eat better? And then I was thinking, well, actually, that's really fucking pointless saying that at eight o'clock at night. Because they're very likely to then do that. But the walk makes sense to talk about that late at night, right? So this coaching, at the moment, this is feeling very sequential and non-organic. And actually, I would imagine, for example, if someone's a regular and we notice that they have issues with their eating, I might want to bring that up during the day rather than just having this sort of very linear process where your data, do coaching, stop. I don't think that's sort of, depending on the context of the issue, I don't think that's useful. And then this is sort of a question was like, do we need to have a bot that's reviewing users behavior? A bit like where you have a collector, like is there a behavior analyzer, which is basically looking at all the profile data and the patterns of the user, which is then extracting insights and saying, Overall, people struggle on Fridays, but this person struggles on a Tuesday or whatever it is.
+
+21:14 - Jonathan Phillips I think that's one of the key things in the whole operation.
+
+21:22 - Jonathan Phillips So several reasons. One, it alerts you to how the whole process is working. But also, it means you can improve things dramatically. And if the whole interface is about habit forming and nudging, et cetera, then that's the key thing that will enable you to enhance that as time goes on.
+
+21:44 - Cuan Mulligan Makes sense.
+
+21:48 - Cuan Mulligan And then this is just somebody who's just not on board with the program. And it's like, you're not recording your habits. Can we chat?
+
+21:57 - Cuan Mulligan You're overeating your calories. That's going to slow your progress. And you're not recording. So this is just, again, an example of the issues. And eventually, both of those patterns flowed back into some level of acknowledgment of where you are and then what's coming up tomorrow. So I think this sort of pattern across a day where we're pushing content to, well, first of all, it starts with notifications pushing you into the app. Then there's the chat. So this is what it might look like as a sort of an interface.
+
+22:31 - Cuan Mulligan They may or may not engage with the content. They may or may not supply the data. So then there's definitely a data cleanup phase. And then there's a, Probably an end of day coaching, but for certain things, there might be a midday or during an intraday coaching.
+
+22:48 - Eksno Yeah. Is there going to be any other coaching scenarios than midday and end of day?
+
+22:58 - Cuan Mulligan So when I say midday, let's call it intraday. There's some point during the day it makes more sense. Like it could be the first thing in the morning and say, hey, listen, we're noticing that you're struggling with your eating. So what's something that you can do today to change that? There's certain things that will be more appropriate in the morning as opposed to the evening. And I think that, I mean, it's hard. It's really hard. Like it was only until I started playing with it this week that I started really thinking about This chatting to update my habits feels labored. It feels much easier if I was just to put it in as sleep time, wake time. That would just feel a lot less onerous for a user. Now, one of the challenges I also have with this, the anti-pattern to this is, as soon as you put those buttons and those boxes in there, it no longer feels like a person talking to me.
+
+23:51 - Jonathan Phillips yeah it very much becomes a system now that might just be the tone it might be the style I think if you have a follow-up as soon as they put the data in to not necessarily engage in a conversation but to report back to them it feels like someone's saying hey thank you for doing that and then on to the next thing yeah I I think that's a really good point actually rather than you know If I was
+
+24:17 - Cuan Mulligan saying good morning to JP, I'll say something, but I'm going to wait for you to come back to me in real life before I start spamming you. So I don't think we'd ever want the user coming in. Well, actually, no, I do spam you.
+
+24:28 - Jonathan Phillips You don't do that, no.
+
+24:30 - Cuan Mulligan I spam you with fucking shit every morning. But yeah, I think somebody coming in to five or six messages from the bot, I think, shows a disconnected from them. So I think it's got to be very much An actual conversation as opposed to a chat interface where we're just pushing shit out to people From like a technical perspective over time we can allow both but we should choose
+
+25:03 - Eksno one to focus on for the moment either buttons or through the chats. We were originally doing through the chat because that's the more like unproven way to do it and also felt the most natural as if having a conversation than we were planning to add buttons later when there was more focus on the UX.
+
+25:26 - Cuan Mulligan I get that, but I think this is an incredibly user experience driven solution. And if we just focus on the technical aspects, I think we could end up missing and not understanding something really fundamental.
+
+25:43 - Cuan Mulligan So for me, and again, this is just my point of view. I'm not saying it's right. So everybody please do chime in. I actually think having an app to test this very soon outside of the web interface is going to change how we get feedback and use it. I actually think the experience of this in my hand on my phone as opposed to on a web page typing in is fundamentally different. Me typing on my keyboard versus on my phone is a very, very different experience in using it. And I think if we're pushing people into predominantly mobile, which I think most consumers will be using, I'm concerned that we could look at optimizing a solution for something that's not where we end up being. Now, I know at some point, very early doors, that doesn't really matter because you're doing so much of the sort of core foundation. But my concern is that we've had to do a significant rewrite from the architecture moving from Python to typecast and that's fine. I just don't want us to, and there's always a degree of rework. I get that. I'm just trying to say, if we know where we're going to go to a point, is there stuff that we can do today to start bringing this to life? Because actually, if you look at this, pushing content, even if it's the same piece of content every day, in the context and figuring out what the dance between content and notifications is a really big, important part of the UX. Data capture, we're doing that. And I think we've proven already that we can look at someone's profile, see what they have or haven't done, and ask relevant questions around it. But actually, if we think actually putting in the buttons is the right thing to do, spending loads of time crafting data capture through text doesn't make any sense to me. Where actually coaching and noticing patterns over time, this orange thing here, as JP said, potentially comes actually the most important thing because this allows us to get better at what we're doing. And this is that, if everything here is around habit formation, we need to understand what's getting in the way of people.
+
+28:12 - Eksno Yeah. So yeah, the primary thing is we should move forward with one of the UX aspects for now, just so we don't spend time doing both, either the buttons or the inputting through chat. Earlier, we decided on chat, but we can do buttons instead. But there will be some overhead of implementing that. But if it's worth it, it's worth it, of course. In relation to the getting it on your phone, we should be able to pretty quickly make it a PWA, like half a day. And it should be a PWA, at which point you can install it on your own phone. But if you want it to be a native app.
+
+28:54 - Cuan Mulligan So for the end solution, this is a native app. It's not a PWA, yeah?
+
+28:58 - Unidentified Speaker Yeah.
+
+29:01 - Eksno The PWA would be to get it on the tester's phone, so that you can install it on the phone and get the experience, even though you won't be getting it through the app store.
+
+29:13 - Cuan Mulligan Yeah, makes sense. I mean, I think Given my experience of playing with it for the last few days, the...
+
+29:41 - Cuan Mulligan The different feedback I have from where I thought it was to what it actually is has been quite significant in a positive way. It's different when I start playing with it in my actual hands.
+
+29:56 - Cuan Mulligan And that's why I did this sort of end-to-day workflow, because actually, this data capture thing where we seem to be spending a lot of time on, if we actually think the better case is buttons. I don't know whether we actually have a scenario where we're doing it by text or by button. I mean, I suppose we could.
+
+30:21 - Eksno One point is the capture through text is already implemented, so that is the fastest way to move forward. Implementing buttons, especially in chat buttons that the bot creates instead of buttons that are always on the screen, like those four buttons at the top for inputting, will take quite some time. Getting the bot to be able to create buttons and display those on the screen is not an easy task.
+
+30:53 - Eksno It's, of course, possible, but I'm not sure if that's where we should be investing time right now. Instead, maybe go with the original approach of having the four persistent buttons at the top or bottom, like you showed in the other application, where they can always input the values.
+
+31:14 - Cuan Mulligan No, that was more for showing reports over time, not for data input.
+
+31:22 - Cuan Mulligan I mean, obviously there's all sorts of scenarios that we haven't done. It's like, what happens if it's, you just, you had a busy day yesterday. Can you go back and enter yesterday's data? You know, there's a couple of nuances, but I think for me, what's really important is understanding to test it. We need to be able to input data completely or partially or not. How do we deal with that? Again, if we're dealing with this through text for now, maybe that's okay. I think getting into the coaching, so having the idea that someone's on a streak, someone's a regular or someone's disengaged is more important so that we can start figuring out what the coaching aspect is and when to intervene because I think that's the bit where we're now starting to form habits as opposed to filling in fields.
+
+32:12 - Jonathan Phillips That's the difference between this proposed app and everything that's out there at the moment. Everything out there at the moment is very much driven by a process that is fixed, whereas the whole coaching element and the analysis of where the user is is something that's new. So I think that's got to be a core focus.
+
+32:33 - Unidentified Speaker Yeah.
+
+32:39 - Cuan Mulligan So given that, I mean, if you're saying that getting to buttons is extra effort, but actually from a technical point of view, whether you capture the data through buttons or text doesn't really matter and allows us to get into testing the coaching aspect, then maybe that's the right thing to do.
+
+32:59 - Eksno Yeah, I think the best approach is to continue with the implemented solution where it's collected through chats. Maybe then also afterwards, once we've got like a full day experience with you having it on your phone, you might notice it's like a bit different once you're not just doing a check-in for a web interface. If it's like going through an entire day, it may be different entering through the chat, a different experience.
+
+33:22 - Cuan Mulligan How far away are we from actually being able to do this on a daily basis so that we can actually start building up profiles of ourselves over time? Rather than just looking at a point in time data capture.
+
+33:38 - Eksno It's hard to say on the spots.
+
+33:50 - Eksno During or by the end of next week, I want to have the full day check-in basically implemented. So yeah, and the transitions between the top level or the just chatting and doing a check-in. So that's when you wake up, you can go, hey, I slept eight hours today. Or, hey, my wake up time was this, and I slept at this time. And then it goes to the collector more dynamically than it is currently, where it's like a very sad process. We also have to change it from being collect, coach, collect, coach, to collect everything, then coach at the end of the day.
+
+34:30 - Unidentified Speaker OK.
+
+34:34 - Eksno Oh, yeah.
+
+34:37 - Jonathan Phillips What else we can't forget is that we are here to do a cool tech implementation so technology is really important and the AI is obviously leading edge and important but it's all about user experience so that's one thing that we can't forget with everything that we do it's irrelevant unless it's all about user experience so that's something we've got to we all forget when we do these and we've got to keep every iteration that we do we've got to think back how will that work in real life will the user benefit from that? Will they like it? Will they hate it? How is it compared with competitors? And every time we've got to have that iteration, I think, and just think back.
+
+35:16 - Unidentified Speaker Yeah.
+
+35:30 - Cuan Mulligan Okay, so when do you think the next So you think by the end of the week we'll have something else to start playing with?
+
+35:38 - Eksno Yeah, hopefully more of a full day application converted to PWA and the input fields should be more dynamic to where you can input them through the admin panel or create the check-in items there. I'm wondering how that will sync up with what time of day they'll be collected if you make like a prompt to the AI describing when the item should be collected or if it's like a select time of day or how it will work. So we'll have to look into that.
+
+36:12 - Cuan Mulligan Okay.
+
+36:16 - Cuan Mulligan Okay, because I think We can't really do the coaching until you can have a profile over time, because there's no patterns really to do. The coaching will be very limited. So profile over time is a precursor to testing the coaching.
+
+36:47 - Jorge Lewis We can make dummy profiles in Superbase, like within the database. We can make like 10 examples where each one is a different example case.
+
+36:57 - Unidentified Speaker Yeah.
+
+36:59 - Jorge Lewis And then one more thing I want to, I'm brushing my teeth, so I don't know if you guys can hear me all right, but the another question I have is, are we definitely for sure switching from collecting, coaching, collecting, coaching to just collecting first and then end of day or intraday coaching?
+
+37:18 - Cuan Mulligan Sorry, I don't understand the difference there.
+
+37:22 - Jorge Lewis Beforehand we were doing some we were collecting and then the coach was going to provide coaching on that on that tracking item but as I've been told the The new way is going to be collect first and then whether it's at the end of the day or some time in the middle of the day Disregarding that specific tracking item.
+
+37:40 - Cuan Mulligan We're just going to coach on all the items No, no, no, no I'm glad you asked the question because we're there's a gap there so There's data capture, which happens independently and asynchronously throughout the day. And a person will have either had everything filled in, some of it filled in, or none of it filled in. So there are definitely an end of day hoovering up exercise to collect data.
+
+38:11 - Cuan Mulligan That could be followed on by some coaching. Like on a streak, hey, well done, bit of champing. There's no coaching there. There's just champion. Well, you could call that coaching if you want to, but it is not, you're not going in and discovering the issue and helping them, you know, habit formation. Um, there's a regular and disengaged, you know, if someone's massively disengaged, suddenly doing a deep conversation with them at the end of the night, doesn't make sense to me, but you might say, Hey, listen, it feels like, We're going to need a good hour to have a conversation here. Would you like to arrange a coaching session for 30 minutes and let's schedule that in? That might be the disengage thing here. And that might be something that happens the next day or three days later to go in. And maybe that's an escalation to one of the human coaches. So the way you were saying it, I was feeling that it was like, right, it's going to be here or here. And that feels unnatural. I think we have to be a bit more organic with what we're trying to approach here, as if we were actually a person. Like, I wouldn't call somebody up unscheduled at 6 p.m. And say, right, let's do an hour's coaching right now. It's just not gonna happen. But there's micro-coaching, where you're just asking them a single question and being curious. But then I think there could be a full-on coaching session needed for disengaged. And as I said here, telling somebody at eight o'clock at night, you need to sort out your food in the morning, it's too late. So there's context. If we notice certain issues, certain issues are better described first thing in the morning. Say, hey, listen, we noticed over the last, if you go back to here and you're saying, hey, welcome to day 10, actually, you might actually stick in a custom message there for me to say, hey, listen, today's Tuesday. We know on Wednesdays, you really struggle with your food. Have a think today about stuff that you can do better today that sets you up for success tomorrow. So that's a little bit of coaching.
+
+40:14 - Cuan Mulligan And it's more appropriate rather than doing it at the end of the day. I feel I'm failing to get the right words. But it feels like we're hard coding or we're looking for coaching will be at 12 o'clock and at That feels very old-school, traditional way of approaching the solution, rather than going, actually, what's the dynamic element of here? What's the emergent nature of this on a per-user basis?
+
+40:55 - Eksno OK. I just want to say I've got to go in around 15 minutes. I have a lot of work scheduled.
+
+41:02 - Cuan Mulligan No worries.
+
+41:06 - Cuan Mulligan But I think these conversations, by the way, are really important. They're fundamental to where we're going to go with this. And again, there's no expectation that we're fully aligned, nor should we be. But I think through these conversations, you become more and more aligned. So I welcome the challenges and the thoughts. I think we need to be doing this, certainly at the start of every, OK, this is the next thing, the next big thing we're going to work on. We need to have these alignments to make sure really deeply aligned, both in terms of the immediate next scope, but also how that fits into the bigger picture. Because as I'm using it more and more, even my knowledge and my experience is changing. We had originally spec'd out pages and pages for the content to be displayed. I'm not so sure that's needed anymore.
+
+41:57 - Cuan Mulligan So in one way, scope's reducing, and in other ways, it's becoming more nuanced.
+
+42:02 - Eksno Yeah. Do you guys have like a Cal.com or Calendly link that you could send us where we can just schedule meetings on the fly?
+
+42:14 - Cuan Mulligan I think Google Calendar has entered in a new feature around that. I haven't actually started to use it yet, but generally, if you contact us on Discord, I mean, pretty much from about 6 a.m. Local time till about midnight, I'm online most days.
+
+42:32 - Eksno 6am till midnight.
+
+42:36 - Cuan Mulligan Maybe not midnight, maybe till about 11, 12, 10 or 11.
+
+42:38 - Eksno How long do you wake up till you go to sleep?
+
+42:45 - Cuan Mulligan Pretty much, I'm never really online, certainly with this stuff. There's just so much stuff to do, so obviously we're doing a whole load of stuff in the background all the time.
+
+42:54 - Jorge Lewis You're doing one of my favourite magic tricks, you just get a full work out of thin air.
+
+43:00 - Eksno Yeah, pretty much.
+
+43:01 - Jonathan Phillips I think what Chris says, we're flexible, so we do other stuff as well during the day, but any time we can switch and jump on calls.
+
+43:12 - Eksno Yeah. I'd definitely like tomorrow to schedule a call where you guys can get introduced to our link chain developer, Chen Mei. He's been really helpful. Oh yeah, nice.
+
+43:25 - Cuan Mulligan Tomorrow is going to be a challenge, myself and Ira, for traveling up to Leeds for a meeting. And we're traveling in a meeting all day, so that is a bit of an anomaly. But I'd rather have dedicated time where I can sit down and really go into that. So Tuesday is definitely better. OK. Yeah.
+
+43:44 - Eksno Yeah, let's schedule a call on Tuesday, then.
+
+43:52 - Eksno Will you be available, Jorge?
+
+43:54 - Jorge Lewis Yeah, I'll put in my calendar what time I'm free, because I'll be free, like, one hour or two hours before the flight.
+
+44:01 - Eksno So yeah.
+
+44:03 - Jorge Lewis OK.
+
+44:03 - Jorge Lewis Yeah. As long as I have Wi-Fi, I can borrow from other my neighbors.
+
+44:09 - Cuan Mulligan So just so you guys know as well, so I had that dinner the other night where I was with Dell and NVIDIA. I didn't actually realize that Dell is NVIDIA's biggest. Does your wife know? Sorry, Jorge?
+
+44:25 - Jorge Lewis I'm sorry, Del just sounded like a girl's name and I was like...
+
+44:28 - Cuan Mulligan Yeah, I don't know who's Del. No, Del, the head of UK was sitting beside me. There was a whole lot of lords who are very sort of senior politicians on the table. And I'm spending all day Wednesday with Del.
+
+44:46 - Cuan Mulligan They run a AI factory, what they call it.
+
+44:51 - Jonathan Phillips I think to give context, guys, Dell used to be one of the biggest PC manufacturers in the world. Oh, Dell.
+
+44:58 - Cuan Mulligan D-E-L-L. Yeah, I thought it was a name.
+
+45:02 - Jonathan Phillips Adele. Adele.
+
+45:05 - Eksno Yeah, I had a Dell computer back in the day.
+
+45:09 - Cuan Mulligan That's all I ever thought they would. The majority of Nvidia chips is on Dell kit around the world. So given how powerful Nvidia is, you can imagine what's happened to the growth of Dell.
+
+45:24 - Cuan Mulligan They've gone huge. The consultancy that myself and Arif are trying to set up around AI pretty much is exactly what they're doing. The only difference is they're doing it for colossally large companies and they're able to throw a shit ton of free consulting at it to get the multi-million pound sort of kit sell. That's what they're, they're doing all of this to sell kits. So it's gonna be interesting. I'm gonna go in and get, I'm going in as a client on Wednesday to see if there's anything that I can learn in terms of what we might be able to do together. But I think, I think actually we have, more opportunity at the SMB level and small medium businesses than I think they do because they don't really like our previous consultancy. They don't engage companies under 500 million revenue because they just won't tolerate their rates. There's an awful lot of money under that, like huge amounts of money. And there just isn't a lot of people who know what the fuck they're talking about in AI. There's a lot of noise. Our problem now is one of noise to signal.
+
+46:37 - Cuan Mulligan But yeah, we'll see what we can do with that. But yeah, Tuesday would be good. I'm free from lots of stuff in the morning. But afternoon is wide open. I can do 12 to 2.30.
+
+46:58 - Eksno OK. I think we can probably schedule that in chat once Jorge has his flight time.
+
+47:03 - Jorge Lewis I'll be over the Pacific at that time.
+
+47:08 - Eksno No worries.
+
+47:09 - Jorge Lewis Or was that Tuesday or Monday?
+
+47:10 - Jorge Lewis I mean, I don't have to be there as well. If it's recorded, I can watch it later.
+
+47:15 - Unidentified Speaker Yeah.
+
+47:17 - Jorge Lewis Just another note is that this is my brother's weekend, my brother's wedding this Saturday. So busy, busy week for me. So you won't be seeing much of me. I'll be available for most meetings throughout the day. But yeah.
+
+47:31 - Jorge Lewis No worries. What part of the world is he getting married in?
+
+47:34 - Jorge Lewis Kansas. The US.
+
+47:38 - Eksno Nice.
+
+47:40 - Eksno desert.
+
+47:44 - Jorge Lewis Deserted.
+
+47:44 - Unidentified Speaker Deserted. Okay.
+
+47:48 - Cuan Mulligan As Dorothy said, we're not in Kansas anymore. Yep. Cool.
+
+47:58 - Eksno One more thing before we leave. I don't know if Jorge has already notified, but we're spending a fair amount of effort on hiring currently so that we can scale up our development efforts and get faster, basically. So there may be some slowdowns because of that. But hopefully those slowdowns are for massive speedups.
+
+48:21 - Cuan Mulligan Yeah, totally expected. Just obviously keep us informed. And I think that's the biggest thing to say, hey, listen, We're interviewing five people this week, so we're going to be a bit slower. That's fine. It just helps us. Because obviously, one of the big issues is, now that we've got a stable release, it's great, but demand from our side then becomes even more enticing. Because we're like, right, let's get moving. We want to push and push and push. So there is this tension between pushing and scaling. That's just an inevitable issue that we have.
+
+48:57 - Cuan Mulligan Yeah, great.
+
+48:58 - Cuan Mulligan Cool. All right. Cheers, guys.

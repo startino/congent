@@ -1,0 +1,212 @@
+10 Minute Preliminary Interview between Jorge Lewis and Will Vincent L. Parrone 
+Thu, Jun 27, 2024
+
+1:35 - Jorge Lewis Hello. Can you hear me?
+
+1:38 - Jorge Lewis Yes, I can.
+
+1:39 - Jorge Lewis How are you doing, Mo? I'm doing well so far.
+
+1:42 - Jorge Lewis How are you?
+
+1:43 - Jorge Lewis I'm doing great, yeah. Good. Having lunch? I think you're in the Philippines? Yep.
+
+1:51 - Jorge Lewis What time is it for you right now? It's 5 p.m.
+
+1:54 - Will Vincent Parrone Oh, it's close to dinner, actually.
+
+1:56 - Unidentified Speaker Nice.
+
+1:59 - Jorge Lewis I'm in Thailand currently.
+
+2:00 - Jorge Lewis 4pm for me.
+
+2:04 - Unidentified Speaker Okay, I see.
+
+2:05 - Will Vincent Parrone Where in the Philippines are you? I'm currently in Makati, the business district.
+
+2:11 - Unidentified Speaker Okay.
+
+2:12 - Jorge Lewis Nice, nice.
+
+2:14 - Unidentified Speaker Cool.
+
+2:14 - Jorge Lewis Yeah, so just a little call to introduce ourselves. Get to know each other.
+
+2:22 - Jorge Lewis So yeah, I guess I could start us off and then you can follow up.
+
+2:29 - Jorge Lewis So my name is Jorge.
+
+2:31 - Jorge Lewis I've been programming for about six years. I started with game dev, went into some competitive programming, then some machine learning and Python. And then now in the last year, I've done web dev.
+
+2:47 - Jorge Lewis Last year, I started a consultancy, this consultancy with my co-founder Jonas. We started with just making simple websites, but we've pivoted into and kind of evolved into making MVPs and prototypes. But we've gotten a lot of traction for AI ones recently, but we just do all of the above for any startup or entrepreneur. So yeah, that's what we're looking for, someone to help us out with the SvelteKit part and to kind of just help us develop the apps.
+
+3:19 - Unidentified Speaker Okay.
+
+3:23 - Will Vincent Parrone Anything else or should I speak, should I introduce myself now? Yeah, go ahead.
+
+3:29 - Will Vincent Parrone Okay.
+
+3:29 - Will Vincent Parrone So yeah, for my part, hi. I have been a Svelte user for about a year now. I have been an active member in the Svelte Philippines community. I'm also a bit knowledgeable in Python, AI, and a lot of the backend stuff. And I guess I dabbled a bit on project management. So you can actually say that I'm a bit of a generalist in terms of web tech. I know a lot about anything, but not necessarily an expert, except on Svelte. I think I can say that I'm knowledgeable enough in that field.
+
+4:16 - Jorge Lewis Are you in school right now? Or are you graduated? I'm currently...
+
+4:21 - Will Vincent Parrone I don't have any commitments education-wise. I'm looking for work. Okay, cool.
+
+4:29 - Jorge Lewis Are you... So for us, we're looking for someone to work with long-term. We want to really build a team. We want to build a team that everyone's comfortable working with each other, build a long-term relationship. I feel like that way, if everyone enjoys working with each other, and everyone knows each other, then it makes working a lot easier and a lot more enjoyable. Are you only open for short-term or is long-term something you're more interested in?
+
+5:02 - Will Vincent Parrone I'm looking forward with a long-term kind of role too. Assuming the company is great and all. Yeah. I think it's a good fit. Yeah, of course.
+
+5:13 - Jorge Lewis Ooh. Yeah, so I can give you some background regarding our team currently. So it's me and my co-founder Jonas. We were both programmers, but I've taken on a business role recently. And he's taken more of a high level kind of design and everything. And then we have two developers. One is a Python developer who is helping us build the APIs. And the other one is a SvelteKit developer as well. He's, I think, I think he's a SvelteKit expert, I would say. He only does SvelteKit. So yeah, that's our team. We're currently hiring for a two, or I think probably two LangChain developers. So are you familiar with LangChain?
+
+5:58 - Will Vincent Parrone I'm not, can you tell me more about it?
+
+6:01 - Jorge Lewis Yeah, LangChain is a, it's a framework for building like AI applications, pretty much, LLM applications. Oh, okay.
+
+6:10 - Will Vincent Parrone That's, okay. Yes, pretty much just AI developers.
+
+6:14 - Jorge Lewis So we're looking for two of those right now. So with the Svelket developer that we're also trying to hire, we'll have a team of about seven. So almost double.
+
+6:27 - Jorge Lewis So yeah, the company is located, it's based in Hong Kong, but the whole team is remote.
+
+6:33 - Will Vincent Parrone Okay, that's nice. Within the same time zone, I presume. Or less.
+
+6:42 - Unidentified Speaker Everywhere.
+
+6:44 - Jorge Lewis Oh, okay.
+
+6:47 - Jorge Lewis My co-founder Jonas is in Thailand with me as well right now. He's actually going to move to the Philippines, um, probably like March next year. Um, but then the rest of the team, one of them is in Switzerland, one of them's in Benin, Africa. And yeah, our clients are based around the UK and the US.
+
+7:10 - Unidentified Speaker Okay.
+
+7:11 - Will Vincent Parrone That's nice.
+
+7:15 - Jorge Lewis All right, cool. I just want to know a little bit more about your experience as well. Like, what type of projects have you built? And maybe just kind of go off, maybe tell me your best, your favorite one.
+
+7:26 - Will Vincent Parrone Right now, what I've, yeah, for my past work in Sormonshots, basically, I've helped with the redesign of their website. Basically, Sermon Shots is a SaaS company wherein they turn sermons into shortened clips. Do you have an idea of what Opus is?
+
+7:53 - Jorge Lewis Opus, the AI?
+
+7:57 - Will Vincent Parrone Opus, is it an AI product?
+
+8:01 - Will Vincent Parrone No, no, no, not cloud. Opus Clip, AI-powered video repurposing. No, no, I'm not familiar.
+
+8:08 - Jorge Lewis Okay.
+
+8:11 - Will Vincent Parrone Basically, yeah, converse sermons into short clips for Instagram with Facebook reels and YouTube shorts. Yeah, that's cool. And yes, I did play around with my portfolio website, but everyone does their portfolio websites. I guess my favorite one, my favorite one is when I I rewrote my portfolio website in C because I really wanted to get a grasp on how networking works, like from the root on how to create sockets, how to bind them to ports, and how to receive it with all the memory management and stuff.
+
+8:53 - Unidentified Speaker You built it with C?
+
+8:55 - Jorge Lewis C, yeah. Like the programming language C? Yeah, C.
+
+9:01 - Will Vincent Parrone It's kind of the front end is shit because That's what happens when you build a web project with C.
+
+9:35 - Will Vincent Parrone thinking of creating a templating engine in C, but that's insanely hard. I'm just thinking of the scope right now, and it's something I want to do, but I don't have a lot of time to do.
+
+9:51 - Jorge Lewis Yeah, yeah. That sounds cool. I see on your website, by the way, I've seen that you used Tailwind for one of them.
+
+10:01 - Unidentified Speaker Yep. Wait.
+
+10:03 - Will Vincent Parrone Let me see.
+
+10:06 - Will Vincent Parrone I am proficient with Tailwind as I've used Tailwind for about a year or two now and my previous projects as well. I think Tailwind is the industry standard already so that's why I use it.
+
+10:23 - Unidentified Speaker I love it. It's amazing.
+
+10:25 - Jorge Lewis I don't know what I'd do without it to be honest. Of course.
+
+10:28 - Will Vincent Parrone Me too. Me too.
+
+10:31 - Jorge Lewis Are you familiar with ShadCN?
+
+10:34 - Unidentified Speaker ShadCN?
+
+10:36 - Jorge Lewis Have you worked with it before?
+
+10:39 - Will Vincent Parrone Yep. I had a friend who advocated it to me. We had this mini debate. His main argument towards using ShadCN is... That it's very customizable, whereas for me, I'm actually a DayZ UI advocate because I like using class names instead of components. But yeah, when I use ChadZN, I understand the philosophy. It's very customizable. It's just that I'm a bit lazy, so I use DayZ UI.
+
+11:13 - Jorge Lewis It's funny because my co-founder Jonas, he advocated for DayZ UI at first. In a project, we were like, all right, how about instead of just argument or instead of debating using arguments, let's try them both out and see which one is actually better and more productive. So we tried Daisy first, just better. I think when you're working with a team at a larger scale, Shazam makes a little bit more sense. Daisy UI has nicer fundamentals, like it's more pure, but it only sounds nice.
+
+11:52 - Will Vincent Parrone Yeah, I'm just saying since most of my projects are by ones, I just need like a component and that's why Daisy is good.
+
+12:06 - Jorge Lewis Yeah, Daisy is really good if you're just building something fast, if you don't need to build something multiple times. But for us, Shazian is a game changer. So we do use Shazian for all of our projects.
+
+12:20 - Jorge Lewis I mean, if you're familiar with SvelteKit, then it shouldn't be an issue. And Tailwind as well.
+
+12:28 - Jorge Lewis I'm familiar with both.
+
+12:31 - Jorge Lewis You use TypeScript, right? Just checking. Of course. Of course.
+
+12:36 - Jorge Lewis No, you'd be surprised.
+
+12:38 - Jorge Lewis You'd be surprised. So many people use JavaScript still. I don't know. I have no clue either.
+
+12:46 - Will Vincent Parrone It's like they're fans of PHP or something.
+
+12:50 - Jorge Lewis Yeah, but the people I'm talking to, they're like young. They're like 22 and they're still using JavaScript. And I'm like, wow. I think it's because all the resources are currently still in JavaScript.
+
+13:02 - Unidentified Speaker Fair, fair.
+
+13:03 - Will Vincent Parrone Also, TypeScript, it has a slightly steep learning curve. Yeah.
+
+13:11 - Unidentified Speaker But I think it's good.
+
+13:11 - Jorge Lewis I mean, of course, it's good because it requires better code. But yeah, the learning curve is a bit. I think if you know JavaScript, going to TypeScript is easy.
+
+13:21 - Unidentified Speaker Fair point.
+
+13:23 - Jorge Lewis All right, well, any questions for me?
+
+13:31 - Will Vincent Parrone Yeah, you told me already the stack. How do you host it? Do you use Vercel or do you use node build? Yeah, we use Vercel.
+
+13:43 - Jorge Lewis Okay. We use Vercel, yeah.
+
+13:48 - Jorge Lewis I have one more question for you, actually, regarding your goals. So where do you see yourself in a couple years' time? So like six months, one year, and five years, where do you see yourself?
+
+14:01 - Will Vincent Parrone Six months to one year, I can still see myself building the skills necessary to have my own startup. Not necessarily a startup, but my own business. And by five years' time, I will either, if I don't have the capital necessary to start my own business, I will be at the high executive position at a startup or a consultant, web dev consultant, of course.
+
+14:29 - Unidentified Speaker Nice. Cool, cool.
+
+14:30 - Jorge Lewis Sounds fun.
+
+14:31 - Jorge Lewis Have you thought about what type of business you want to start, if you could?
+
+14:34 - Will Vincent Parrone Of course, as a developer, it's, yeah, it's a developing web development company, but I'm really hoping that I can have that great SaaS idea someday.
+
+14:49 - Jorge Lewis Yeah, man. That's cool. Thanks for sharing.
+
+14:57 - Jorge Lewis As far as I know, I don't have any more questions. What about you?
+
+15:02 - Will Vincent Parrone I'd like to know, for this role, of course, this is going to be one of the difficult questions, but what's your typical budget for compensation for long-term employees?
+
+15:15 - Jorge Lewis Yeah, so for long-term employees, we only started in August of 2023. So to give you an idea, our budget for this role is somewhere between 700 and 1,000 month. But the goal really is to not have a budget, but rather, if you can get a better offer elsewhere, we'll match it. Because we believe that if we're working with you, you provide a value that is should be compensated for. And if you can get that compensation elsewhere, then we have to match it if we really like working with you. Otherwise, why would we be working with you?
+
+15:53 - Will Vincent Parrone So that's what we think. Second question that I have is outside of the compensation, what are your expected working hours? Or what time should I be available? Yeah.
+
+16:06 - Jorge Lewis So the schedule. Yeah. Sorry. Good question. I didn't realize we didn't go through any of that. Yeah. So for schedule, it's completely up to you. There's just one point in the day. Every day, there's a stand-up, so a daily meeting. For me, that's For you, that would be 3 p.m. Okay. But if that time doesn't work for you on a daily basis, then we would just talk to the team and find a better time.
+
+16:33 - Jorge Lewis Other than that, there's no requirements, just 40 hours per week, roughly.
+
+16:39 - Jorge Lewis Yeah, not much else. We just want you to be really comfortable with how you work. The only things we need in terms of output is just having good communication and then being reliable. That's kind of what we're looking for. Okay, sure.
+
+17:00 - Will Vincent Parrone I think I can do all that. Lastly, when can I hear next from you? Of course, I assume I'm going to be tested by my technical skills or whatnot. Yeah.
+
+17:13 - Jorge Lewis So for me, today's Wednesday, right? Yeah. So probably early next week, so Monday, Tuesday, something like that. If not, over the weekend. How does your schedule look like, Do you like working over the weekends?
+
+17:27 - Will Vincent Parrone Let's see. Outside of this one, event that I have at Saturday, I'm usually working on the weekends.
+
+17:40 - Jorge Lewis Sorry, your microphone's kind of like muffled a little bit. Can you say it again?
+
+17:43 - Will Vincent Parrone Yeah, outside of my other charity engagements, I usually work on a Saturday.
+
+17:51 - Will Vincent Parrone And then Sunday is the Lord's day.
+
+17:54 - Will Vincent Parrone Yeah, the day of the Lord. Yep, yep, cool.
+
+17:58 - Jorge Lewis That sounds great, yeah.
+
+18:01 - Jorge Lewis Okay, cool.
+
+18:04 - Jorge Lewis So maybe I'll be able to get back to you maybe on Saturday or Sunday, if not. Otherwise, just probably early next week. Yeah, cool. Thanks so much, Will. It's been great meeting you, man. Yeah, it's great meeting you too, Jorge. Thank you. I like your suit. Thank you. Have a nice day. Makes me feel underdressed. Bye-bye.
+
+18:26 - Unidentified Speaker Bye-bye.

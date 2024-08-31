@@ -1,0 +1,1122 @@
+Hasnain / Jorge - Pair Programming 
+Thu, Aug 8, 2024
+
+0:03 - Jorge Lewis Hey there, hi, how are you?
+
+0:07 - Hasnain sayyed Good, good, good. What about you?
+
+0:09 - Hasnain sayyed Yeah, all good.
+
+0:12 - Hasnain sayyed Have you looked at the Figma file that I have created for brain project?
+
+0:18 - Jorge Lewis I did, I did, I did. I made some, so I went down a rabbit hole yesterday of just learning some stuff. Can you give me an idea of what's the flow for this ADAPT simulation, what kind of thing we have to work with?
+
+0:50 - Jorge Lewis Yeah, exactly. So, so that's what we'll get into. So we'll kind of today in this, in this hour, I think probably we'll do an hour and a half. We'll kind of figure out what do we, what are the requirements? What do we require the system to accomplish? Um, and then we'll go into kind of making it.
+
+1:03 - Hasnain sayyed Okay. So are we creating in Figma or in like the code stuff?
+
+1:08 - Jorge Lewis So we'll start with Figma and then we'll go into the code. Okay. It's only a span, maybe 10 minutes in the, in the Figma.
+
+1:15 - Hasnain sayyed Okay.
+
+1:17 - Jorge Lewis We can take a quick look at your graph from yesterday. These are all of my thoughts from yesterday. I was just doing a lot of learning.
+
+1:38 - Jorge Lewis So there's gonna be a big issue, which I put a message yesterday, but people didn't understand is that we're doing so much data. So every day, if you look at, I did some math here, every day it's 85,600 words. So that's not too much in terms of like, that's around 430 kilobytes, that's fine. But when you, put that into a vector database, it's about one gigabyte, that many words. And when you put in a knowledge graph, then it scales much, it's much harder to scale. So there's gonna be a big, there's gonna be that issue, it's gonna be too big. Like of course we can use really powerful servers and stuff, but it just can't scale. This is one gigabyte a day over, like for a knowledge graph, since it's more, it's harder, or it's a bigger, data structure, it's going to be much bigger. So like over 10 days, when you connect multiple nodes, like it's just, uh, I think it'll get out of hand. So we need to figure out that.
+
+2:44 - Hasnain sayyed Yeah. Data is the main concern, like how we keep updated and you know, uh, how can we manage that as well? Because the data is changing each and every day. So we have to, yeah.
+
+2:57 - Jorge Lewis Yeah. So, so I put a, I put a note here, an idea to have a longterm and a short term system where We have our long-term system that gets updated maybe once a day or once every so often. And then we have a short-term system which is very basic, like just simple rag maybe. The long-term can be a knowledge graph and the new one can be a vector database.
+
+3:20 - Jorge Lewis Anyways, yeah, so I did take a look at yours. Although some of the, I really like this pros and cons list, by the way. I didn't see this until after this morning. I was looking at the graph and then I saw that.
+
+3:34 - Jorge Lewis But for the graph, I didn't totally understand all of the items.
+
+3:38 - Hasnain sayyed Yeah, yeah. So let me get you. Will I explain like what's my idea behind?
+
+3:46 - Jorge Lewis We can we can try to do that another time since I would like to do the the adapt evaluation system So after the adapt thing if I still have time then we can do that.
+
+3:54 - Unidentified Speaker Okay?
+
+3:54 - Jorge Lewis All right, cool. Yeah, so let's let's get into so I'll go to Adapt project and I'll make a new design file a new fig gem board Or actually I'll go to the go to the adapt spec page the main one and then make a new page and All right, so I'll make a new page. All right, can you see the new page?
+
+4:40 - Jorge Lewis Yes, I can.
+
+4:43 - Hasnain sayyed Yeah, simulation, I can see.
+
+4:48 - Jorge Lewis So what does this need to accomplish? Let's see. So we need it to generate synthetic conversations so that admins can How up to date are you on your DAD projects?
+
+5:32 - Hasnain sayyed Like I know the graph working like the check-in the chatting and Onboarding, yeah, the last onboarding I know a little bit.
+
+5:46 - Jorge Lewis Okay.
+
+5:49 - Jorge Lewis Yeah, pretty much same. Okay, so pretty much, do you understand the vision of ADAPT, the goal?
+
+5:58 - Hasnain sayyed Yeah, so it's kind of 10 weeks framework. It will ask the goal of the user, like whether he wants to lose the weight or what's the motivation he wants within these 10 weeks. And during that, it will get the similar exercises. It will get the data, like the daily check-ins. And based on that, a performance review will be given to the user.
+
+6:26 - Unidentified Speaker Yeah.
+
+6:27 - Jorge Lewis So that's the main part of the app. Sorry, that's the start of the app.
+
+6:38 - Jorge Lewis The main part of the app, though, is after that, where we understand his goal and why he's trying to achieve it, and then we're going to help him do that. Because understanding his goal and helping him understand his goal is good, but now the main point of the app is to help him achieve it. All the features you can see on the page one. We have the reminders and nudges, the daily check-ins, the day-to-day mentoring, and the milestones. So these are the four main systems that are going to be used throughout the core app. So reminders and nudges, okay. Actually, this is a, follow me over.
+
+7:25 - Jorge Lewis Okay, here, here. So this is the mentor.
+
+7:30 - Jorge Lewis Mentor has three things to do.
+
+7:37 - Jorge Lewis Hold up.
+
+7:46 - Jorge Lewis Okay, I'll explain it like this. The core app has a mentor. The main agent that the user will be interacting with is the mentor. Sometimes when there's a dip in performance and the mentor gets notified by perhaps an analyst agent saying, hey, the user has been lacking on this. And then the mentor will say, okay, user, do you want to start a coaching session? And that's the coach's job. The coach's job is to go really in detail about why is the user lacking and not making progress towards their goals. What is stopping them? Do they have to update their goal? Do they have to agree on a new system, like some new practices they should do. Anyways, the mentor, his job is just facilitating everyday conversation. One of the main things that you guys were working on before was a daily check-in, right? So this is when you know about the day-to-day mentoring. All this is really is just the Everything other than the daily check-in, I think. It's kind of giving the mentor the ability to help the user and coach the user with simple things. So this will be mostly using data sources related to health, fitness, sleep, all those things so that he can provide advice. So I think this is mostly a very simple chatbot, the mentor. And then he has tools which can make him do a daily check-in.
+
+9:16 - Jorge Lewis Although this LMS feature, by the way, so initially Kuhn wanted to have an LMS, a learning management system. He wanted to, it was like kind of pretty separate to this whole app so that the, there's an LMS, the user watches a video every day and the mentor can ask the user, Hey, have you watched the video? Uh, but I don't know where Kuhn is on that right now. I think he's changed his mind a little bit since now this is becoming like a, the term he uses is a, um, is a health vault, I think, or health bank, something like that.
+
+9:50 - Jorge Lewis Are you familiar with the term? He just made it up, but he's been using that word a bit in the chat.
+
+10:01 - Hasnain sayyed Which word?
+
+10:03 - Jorge Lewis Health bank, I think.
+
+10:08 - Hasnain sayyed No, I haven't heard that.
+
+10:09 - Jorge Lewis All right.
+
+10:13 - Hasnain sayyed But I know this LMS content like it will be recommending video based on the user past history.
+
+10:22 - Jorge Lewis Not recommending but just so there's there's one video every day for the user so the user picks a course I think there's gonna be multiple courses and they pick a course every day there's a new video that they have to watch. But I don't know if that's the case anymore. I don't know if Kuon has changed it or how he's been regarding that. We'll have to get updated on that.
+
+10:46 - Jorge Lewis The rest of the system, reminders, milestones, these two are just very simple. What the mentor can do is remind the user.
+
+11:01 - Jorge Lewis through notifications, saying, for example, hey, your bedtime is in three hours, you shouldn't drink coffee, for example.
+
+11:12 - Jorge Lewis And the milestones are pretty much a way to motivate the user. So it's the mentor, when the user checks in, the user says, hey, the mentor can ask during the daily check-in, Have you done your walk today? And the user says, yes, I walked 10 kilometers. And the milestone should be kind of automatic, saying there's just a condition for each milestone. So for example, one milestone can be user walked 1,000 kilometers, for example, over a number of days. So we present to the user saying, hey, you've reached a new milestone. You've walked 1,000 kilometers. That's like walking from France to Italy.
+
+11:56 - Jorge Lewis Yeah, one key aspect of making it very visual, the milestone. So not just, oh, you walked a thousand kilometers, like that doesn't mean anything. But instead of telling them they walked from France to Italy, that's like, oh, wow.
+
+12:07 - Unidentified Speaker So.
+
+12:11 - Jorge Lewis Oh, yeah, I hope that gives a good idea on the system, so.
+
+12:17 - Jorge Lewis So what the system needs to accomplish is generate synthetic conversations so that admins can use them to improve the system through the prompts and adding reviews. The reviews is just a few-shot prompting. Are you familiar with them?
+
+12:31 - Jorge Lewis Yeah.
+
+12:31 - Jorge Lewis Have you seen them before?
+
+12:33 - Jorge Lewis Yeah.
+
+12:35 - Jorge Lewis So it's just a few-shot prompting.
+
+12:39 - Jorge Lewis So what we need to do, one complication is that we probably don't, well, hmm. Okay, no. So what this is going to entail is we need to create a, what do we call it? A synthetic user.
+
+13:06 - Jorge Lewis So someone needs the ability.
+
+13:11 - Jorge Lewis Admin needs the capability to create new synthetic users.
+
+13:25 - Jorge Lewis I got an idea what you are trying to say.
+
+13:26 - Hasnain sayyed So synthetic user is basically a topic based thing, for example, based on different scenarios, the synthetic agent, you know, we can embed the few short and the prompts dynamically to that topic only. And the admin has the capability to create multiple synthetic agents. Is that what you are trying to point?
+
+14:08 - Jorge Lewis Okay, so I don't think so.
+
+14:10 - Hasnain sayyed I mean, you know, the URL for the project Like I just want to know what capabilities the synthetic user will have. Just simple.
+
+14:27 - Jorge Lewis Okay. So the synthetic user is all the synthetic users job or the synthetic user is really just the fake user, right? Does that make sense?
+
+14:37 - Jorge Lewis Oh yeah. Makes sense.
+
+14:39 - Jorge Lewis But so his old, his end goal for the synthetic user is to pretend to be a user and generates a, a synthetic conversation. So synthetic data. Okay. But there's some things, so for example, I want to, let me share my screen actually.
+
+15:09 - Jorge Lewis Can you see?
+
+15:10 - Jorge Lewis Yeah, I can see.
+
+15:11 - Jorge Lewis Do you know the URL to the app?
+
+15:16 - Hasnain sayyed Yes.
+
+15:30 - Hasnain sayyed So let's send you.
+
+15:32 - Hasnain sayyed Oh, yes, please.
+
+15:34 - Hasnain sayyed Send in the chat.
+
+15:43 - Jorge Lewis Okay. So, so here, wow, that's a lot of users. Um, so here is, is this is like kind of a, just a temporary kind of page for selecting a user where after we use user authentication, will be gone. But what I was thinking is, since these are all users, or actually, no this should probably be in the admin panel. So you see how I have to select profile when I want to modify the prompts.
+
+16:22 - Jorge Lewis So what I'm thinking we do is somewhere on the sidebar, we can have a page called simulation. And in that simulation, we have a button. We can configure the synthetic user. So a synthetic user can have the properties of this. So we can tell it its main objective to test, and then What else? We can just give it some background, like personality. Or give it a user profile. Or goal, maybe.
+
+17:20 - Jorge Lewis Yeah, so this is the goal, the main objective. So this can also be, This can be generic.
+
+17:36 - Jorge Lewis So just no goal.
+
+17:41 - Jorge Lewis A synthetic user needs the prompt, it needs to understand, or we need to tell it who it is. So it's a user, or you are chatting with a life coach bot, you know, and tell it the thing. So we need to give it, tell it who it is and what.
+
+18:13 - Jorge Lewis You are the person So, uh, hardships might be.
+
+18:32 - Jorge Lewis Oh, so what we also need to do, which is quite important, is simulating multiple days because the chapel actually uses time.
+
+18:47 - Jorge Lewis We need to make sure that... Because if they just keep chatting, there won't be, for example, a new check-in, right? Because check-ins are made on a day.
+
+18:58 - Jorge Lewis We need a way to...
+
+19:07 - Hasnain sayyed a way to simulate time to control time based on time interval we can have the chatting with the synthetic like per day or one hour two hour maybe maybe even like per 10 minutes right oh yeah 10 minutes Um...
+
+19:59 - Hasnain sayyed But over here, every synthetic user will have a different kind of personality, right? Like the few short.
+
+20:08 - Jorge Lewis So I don't understand that part. I don't, I don't think so. Can you, can you kind of keep going?
+
+20:13 - Hasnain sayyed Yeah. So, so like if admin has the capability to create multiple synthetic users, so each user which is created will have a similar kind of personality or like the talking or the chatting way, like the few shots that we are giving to each synthetic user, like the history or data or each synthetic user will have a different kind of knowledge.
+
+20:43 - Jorge Lewis Um, they, they should be mostly the same. So like, um, let me come up a little wireframe here. How do I, So we have, so we can give it name.
+
+21:09 - Hasnain sayyed We can give it personality.
+
+21:14 - Jorge Lewis We can give it goal. It's objective. So this, just a little note.
+
+21:25 - Jorge Lewis Objective is a behavior of adapt that the synthetic user is trying to test or exploit. What else?
+
+22:06 - Jorge Lewis I guess the profile information, so just the stuff that's in the super base in the profile table. So every user has, so we need to assign it like things like it's goal.
+
+22:32 - Jorge Lewis Let me just check. Ah, I'm going to have to sign in. But you get what I mean. Within the profile information, there's their goal, their Y, weight, height.
+
+22:57 - Jorge Lewis Basic onboarding.
+
+22:59 - Jorge Lewis Yeah, like all the information we gather from the onboarding, exactly. So what else?
+
+23:06 - Jorge Lewis I guess it's a list that we can copy from onboarding. So I think with that, there's probably going to be things that pop up that we can't see right now, but I think we might as well get started in this development. There's some things we can start on.
+
+23:25 - Jorge Lewis Yeah.
+
+23:30 - Jorge Lewis So one thing, since we're working on the AI stuff only, for creating synthetics users, we can, since we don't want to work on any of the front end, we can just use directly in super base. We can manually create a table and manual create rows. All right. So I'll hand it off to you. Yeah. So we'll, There's different ways pair programming sessions work. You can do like pilot driver or what is it? Driver. I don't know, but what I'm going to do is I'm going to let you lead the way and I'm going to kind of chime in here and there.
+
+24:14 - Hasnain sayyed Okay. So, uh, what things should I start with? Like
+
+24:22 - Hasnain sayyed Can we just create the flow like the first we will be working on this, then this, then this, because there are multiple things in this module.
+
+24:38 - Jorge Lewis Let's create a very basic system. So what do we need in order to simulate a conversation? What is the requirement?
+
+24:47 - Hasnain sayyed The first thing is data, of course, because, uh, it is a fake user, first of all. So, uh, the table that you have created, we need that then the prompt, uh, the basic few short, like, uh, the knowledge, uh, on the basis of which the fake user will chat with the agent. So that's the main thing. And, uh, uh, the function functionality, like, uh, to automate this thing, uh, because, uh, the API only hits when, uh, event on click event will trigger. So we have to create a functionality for that. Uh, so that, uh, on each day, 10 minutes.
+
+25:24 - Jorge Lewis The, the, the one where we, because the user we're not, we don't have a real user anymore. We're not sending a message. So we have our AI system and we have the user, but we probably use it more. So we're going to have to replace it with the synthetic user.
+
+25:43 - Hasnain sayyed Yeah, correct. So that's what I'm telling. We have to create a function. So then we can start with that.
+
+25:51 - Unidentified Speaker Okay.
+
+25:53 - Jorge Lewis Yeah, keep going. Which one? We're going to have to probably work and make, yeah.
+
+26:04 - Jorge Lewis Your voice is breaking. We're going to, we're going to have to work.
+
+26:09 - Jorge Lewis No, it's cause I think, I think there's a bit of a delay, so we keep cutting each other, but we're going to have to work on super base probably to create some manual things.
+
+26:18 - Jorge Lewis Okay.
+
+26:22 - Jorge Lewis All right. So let's open the project. Start your screen share. Do you use this code or VS code?
+
+26:31 - Jorge Lewis Okay, cool. Can you share a live share link?
+
+26:35 - Hasnain sayyed Okay, should I open that app project or? Yeah, yeah. Okay.
+
+26:46 - Hasnain sayyed Just a second. I just pulled the latest one.
+
+27:03 - Hasnain sayyed On which branch should I pull?
+
+27:13 - Jorge Lewis Just a second.
+
+27:18 - Jorge Lewis Probably alpha. I don't know.
+
+27:21 - Hasnain sayyed Just a second.
+
+28:19 - Hasnain sayyed Yes.
+
+28:25 - Hasnain sayyed I'm now in alpha right now.
+
+28:32 - Hasnain sayyed Do you mind sharing your screen, by the way?
+
+28:34 - Hasnain sayyed Yeah, yeah, sure.
+
+28:41 - Jorge Lewis Show the whole screen so I can see the web server as well as the super-based things you're doing.
+
+29:24 - Hasnain sayyed So first in the super base thing.
+
+29:34 - Hasnain sayyed Should we create the function to dynamically create this synthetic user or first we should manually interrupt the thing or what else?
+
+29:48 - Jorge Lewis So to start off, since that's kind of not the creating a synthetic user is part of what we can do, but I think we should start off with making a synthetic user and then go from there. But, but we have to think, yeah.
+
+30:07 - Jorge Lewis So let's create one in the super base first.
+
+30:16 - Hasnain sayyed So we have to create a new column for that, right? Because we don't have to merge the real users with the synthetic one.
+
+30:29 - Jorge Lewis Or what say?
+
+30:30 - Hasnain sayyed That's what I was thinking as well.
+
+30:32 - Hasnain sayyed or just create a column here a new table or a new column right the column will identify like a real user or a synthetic user what say exactly what I was saying but my concern is that this table is
+
+30:49 - Jorge Lewis linked to the chat one the id is linked to if you can see the um no it's linked to the users table that superbase uses for authentication So we can create a new profiles and you try to.
+
+31:12 - Jorge Lewis If you tried to create a new row, it won't work like it because you need the ID needs to be linked to a insert the green button near the top.
+
+31:31 - Jorge Lewis the green insert button above ID. I can draw on your screen, I think, right? No, let me see. I'm trying to see how I can color. Oh, you have it there.
+
+31:51 - Jorge Lewis Oh, here we go.
+
+32:01 - Jorge Lewis Hmm, I guess only you can.
+
+32:07 - Jorge Lewis But do you see the insert button? It's green, near the top.
+
+32:17 - Jorge Lewis Insert button? Yeah.
+
+32:18 - Jorge Lewis A little bit left.
+
+32:21 - Unidentified Speaker Yeah.
+
+32:22 - Jorge Lewis Try to insert row. And you'll see that the ID has a foreign key relation to the users table, which means that unless we create a new user in the users table using super-based authentication, we can't create a new row in this table. So that's going to prevent us from creating synthetic users like we might want to with that.
+
+32:48 - Jorge Lewis So like you proposed, I think we're going to have to make a new table. And even if we can later add just a column in the profile table, it takes five minutes, right? So it's better to kind of just start. So let's make a new table. Synthetic user or synthetic profile maybe to keep it the same.
+
+33:21 - Hasnain sayyed Should I off this RLS, the rule level security because I think it's disabled. Yeah, turn it off, turn it off.
+
+33:33 - Jorge Lewis We don't want to, it'll be, it'll be annoying. It just, the best practice is before you go to production, you want to turn all those on, but
+
+33:41 - Jorge Lewis Hmm. Correct.
+
+33:45 - Hasnain sayyed So the, attributes will be, ID is already there, created at.
+
+33:54 - Jorge Lewis So this is going to be the same as, um, actually we kind of did a little bit. We need the name, personality, or anything.
+
+34:05 - Hasnain sayyed Can you copy paste over here? It will be fast. Like the name of columns, because it needs to be similar.
+
+34:18 - Jorge Lewis The, um, I'm still trying to sign into the super basic account. Um, does super base have like sign in with, uh, Google?
+
+34:33 - Jorge Lewis Yeah, yeah, it has.
+
+34:37 - Jorge Lewis Yeah, that's exactly, but I can't see it.
+
+34:41 - Jorge Lewis Um, no, I mean like, it's its own platform.
+
+34:52 - Hasnain sayyed Oh, so I don't think so.
+
+35:07 - Hasnain sayyed Or else I can copy paste over here.
+
+35:10 - Jorge Lewis Um, Oh, there we go. I'm in. Nice.
+
+35:41 - Hasnain sayyed I'm just writing the column attribute. So I just copy paste.
+
+35:51 - Jorge Lewis What I want to note on though, what I want to note on is that this synthetic user for example first name and last name hmm they don't need to be separate I think what do you think like or actually
+
+36:09 - Hasnain sayyed huh actually no they do yeah I think it needs to be identical to the profile table yeah yeah um Because the functions, uh, if they're going to be using the first name, it's not using, uh, it's needs to be similar because there will be other, uh, the data is null. Okay.
+
+36:32 - Jorge Lewis Yeah, exactly. So what I've also noticed though, is that the code right now is using, um, is using the profiles table, right? So if we want to make it use the Profiles table or the synthetic user table without having to rewrite all the code Should we use like an if state like should we in the request to call the AI? That we probably need to add a parameter or something like synthetic so that we can add an add a an if operation so like if this is synthetic use the The synthetic table does that make sense?
+
+37:10 - Hasnain sayyed Yeah. Yeah, I What I am thinking is, while the first flow, the Q1 created the synthetic user, then we have to create an external function which gets the ability for that agent, the synthetic user, to automatically chat with the agent. So we have to create that function. And the graph will be same, of course. The flow and the graph, the functions will be same. We just have to create a functionality that will automate the synthetic user to pass the message or the prompt or whatever, the query. Automatically, once it has received the agent response, then the user will automatically send That's the main rule over here. Because this is just a data. Sorry, I just clicked on Zoom. Yeah. So this is just, uh, you know, uh, the character or the character building thing. We can say, Oh, one thing we can do, we can, uh, I can just discard here. I can just come here. Uh, should I download this? Should I download this in CSV and directly, you know, or create a new table like the synthetic and import that thing? It will be much more easier.
+
+38:31 - Jorge Lewis Yeah. And then, um, and then just modify from there.
+
+38:35 - Hasnain sayyed Yeah. Yeah. It's easy then because manually entering will take much more time.
+
+38:45 - Hasnain sayyed Yeah. And just let's see CSV.
+
+38:52 - Hasnain sayyed Okay. I just need to drop you.
+
+38:59 - Hasnain sayyed Okay. It has come here.
+
+39:01 - Unidentified Speaker Save.
+
+39:13 - Hasnain sayyed Uh, the primary key will be the ID, right? And yes, save.
+
+39:21 - Jorge Lewis Can I see the, the, the prop, the columns like that? You scroll down a little bit.
+
+39:33 - Hasnain sayyed Yeah. We can create, uh, it's adding the column.
+
+39:38 - Jorge Lewis The ID should be you, you ID.
+
+39:44 - Jorge Lewis OK.
+
+39:44 - Jorge Lewis I think it's a little bit too late, but
+
+39:50 - Hasnain sayyed It has added. OK. We can edit here.
+
+40:04 - Hasnain sayyed I think it won't change now.
+
+40:07 - Jorge Lewis Yeah, that's what I thought.
+
+40:12 - Hasnain sayyed Come on, come on, come on.
+
+40:13 - Hasnain sayyed Yeah. I think it's updated. Yes. It's updated.
+
+40:20 - Unidentified Speaker Luckily.
+
+40:21 - Jorge Lewis All right, cool. Um, okay. So that's, that's nice. All that done. And now we can, we can, I think we can delete all except maybe two.
+
+40:32 - Unidentified Speaker Okay.
+
+40:35 - Jorge Lewis Um, In case you didn't know, if you click the button, the checkbox button on the same row as the labels, it does all. Yeah, yeah.
+
+40:51 - Hasnain sayyed The dark UI, it's hard to find the options.
+
+40:56 - Jorge Lewis Ah, you're on a laptop. Yeah, you're on a laptop.
+
+41:01 - Jorge Lewis Yeah, I have the same problem. When it's nighttime for me and I put my monitor on like a lower brightness, all the dark UI starts to kind of fade in.
+
+41:15 - Jorge Lewis Now we can go into the code and start working.
+
+41:26 - Jorge Lewis Let's see what we're missing from this that we might need. We need to tell the agent.
+
+41:35 - Jorge Lewis We need to tell the agent, the synthetic profile, who it is or what its objective is. Because like me as a user, I know what I'm doing. So I think we can add a column for prompts. So if you go to the, if you scroll left a little bit.
+
+41:58 - Jorge Lewis Sorry, yeah, left, left. Yeah, no, the other way, the other way.
+
+42:04 - Jorge Lewis More, more. There's a prompts column that I'm looking for.
+
+42:07 - Hasnain sayyed Yeah, it's there.
+
+42:10 - Jorge Lewis So here, so this column in a real profile is connected to the admin page. But since this synthetic user is not accessing the admin page, I think we can change it. I think we can change the structure of it.
+
+42:28 - Jorge Lewis I wonder if Yeah, I think that should be fine. Let's do that. So in the structure of the...
+
+42:42 - Jorge Lewis I'll also share my screen, by the way.
+
+42:44 - Jorge Lewis Yeah, yeah, please, please.
+
+42:48 - Jorge Lewis And that way we can just go back and forth.
+
+42:50 - Hasnain sayyed Yeah, yeah. What I'm thinking is...
+
+42:55 - Hasnain sayyed Should we add an option to the admin panel, like, or get a, like, if the flow that we have decided will add a similar kind of user, because we haven't created any option to, you know, change the user character or the few short prompt, whatever. So we can have some options to admin that, like four or five examples, we have to, create that data. And whenever the user clicks on, whenever the admin clicks, like, yeah, I need this character, I need this synthetic user character, maybe like a goal will be different for that synthetic user. Have you got the point?
+
+43:43 - Jorge Lewis Yeah, so you see my screen share.
+
+43:59 - Jorge Lewis We have input fields for the prompt We have input fields for the prompt so they They can go in here and modify the prompts in the same way. I think we can modify the prompts of the the characteristics of the the Synthetic guy. So for example, what I can do is I'll I'll kind of, actually let me take a screenshot of this. So what I want is a button here that says synthetic users. Something like this maybe. And when it opens it, let me just kind of make this empty.
+
+44:53 - Jorge Lewis Okay, so pretend like I've just, there. So here, what I think we can do is have, so I think what we'll have is two tabs. We'll have manage users.
+
+45:24 - Jorge Lewis And then we'll have a new user.
+
+45:33 - Jorge Lewis So the managed users, what it's going to do is help with being able to remove, or actually just, okay, I have an idea actually. So when you go to, synthetic users, the UI will look like a table with all of the properties. And then we can have a button at the top. Can I move this? A button at the top.
+
+46:14 - Jorge Lewis Add new synthetic user. And when you click this, it opens a pop-up.
+
+46:25 - Jorge Lewis new pop-up or a model like yeah a model model yeah what do we see and then we have we can give it a new name hmm so pretty much all of it So we get a new name, a new personality, the objective.
+
+47:02 - Jorge Lewis This one can be null. So I guess all of them can be null and we can have a default.
+
+47:14 - Hasnain sayyed Got it.
+
+47:21 - Jorge Lewis So for example, the objective, when it's default, could literally be nothing. We just tell the bot who it is and what it's doing, and we let it, like, kind of just, you know, we tell it, pretend you're a person that's trying to achieve this goal, and you're chatting, you're trying to improve your life with a chatbot, with a life coach here. So this is their profile information that they set, okay. So this, I guess this can be default as well. We can just set, maybe we pre-fill all of these with the default information and then so that Kuen can make a lot of new users fast. And if he wants to change it, then he can.
+
+48:07 - Jorge Lewis And maybe, this is just an idea, no clue, temperature.
+
+48:26 - Jorge Lewis I'm like that.
+
+48:32 - Hasnain sayyed But yes, we have to create a new column. Yes, for every user for the temperature if you want.
+
+48:42 - Jorge Lewis That will be dynamic for each create.
+
+48:49 - Jorge Lewis So is it is it all good or? Yeah, yeah.
+
+48:58 - Jorge Lewis Oh, cool. Let's go, let's go into, uh, working on that.
+
+49:04 - Hasnain sayyed Got it. So which part, uh, should we start the first, uh, the UI, AI work?
+
+49:14 - Jorge Lewis Um, so the UI, we'll leave it to a front end. Have you worked with spells?
+
+49:22 - Hasnain sayyed Uh, no, actually I am proficient in react next. Yeah.
+
+49:34 - Jorge Lewis Yeah, we'll run that for now. We can worry about the backend. All of this here can be done just by creating new, we can set all this data with just doing it in Superbase. So these here, so actually this profile information is sets, this is already from, that's already in the table. This is new, and this is new.
+
+49:58 - Jorge Lewis Hmm.
+
+49:59 - Jorge Lewis Right. I'm sure. Correct.
+
+50:02 - Hasnain sayyed So these are all new ones, but, uh, if you create the temperature, uh, uh, additional point of here, so it will affect the real user or else we have to, uh, set like, uh, if, uh, the condition, like if I did a synthetic user, then it will be, uh, getting from the database or else, uh, the default temperature of all the real user will be like that.
+
+50:27 - Jorge Lewis Yeah, I think so, yeah. So, in the call, in the function that does... I think it's just called run, actually. In that function, we can take in a parameter saying synthetic or not, and then anywhere in the code we can access that variable.
+
+50:48 - Hasnain sayyed Okay, so...
+
+50:48 - Jorge Lewis So, I'll leave it up to you.
+
+50:55 - Hasnain sayyed the basic thing here if I am just a quick recap the functionality of the backend will be pointing the listing all the you know the user the synthetic user in this dashboard it will be a function a normal select all thing and then While clicking on the new user, it will be picking the default value. I think there doesn't need to be any database. Or we can just have a normal JSON created. We can just create a JSON over here in the, and it will be storing, uh, in our local file only if we want, or maybe in the database. And this data will be, uh, you know, fetching, when the user, when the, and if that, uh, values change, it already been stored in the state like, uh, uh, the input state and if your admin takes on create, the updated value will be creating a new row in the super base.
+
+52:05 - Unidentified Speaker Yeah.
+
+52:07 - Jorge Lewis Yeah, so the flow of... Okay, so actually let's discuss quickly the flow after I click the create button when I create a new synthetic user. What should happen is that... Let me think actually.
+
+52:26 - Jorge Lewis So instead of 10 because I think that's too long, because imagine this, if Kuen wants to simulate one month of the user interacting with a bot, is too 10 long, that'll be 300 minutes. So obviously if we could, we'd make it instantly. We'd make it, you click create synthetic user and it has one month or 10 months of data, of conversation data done, but the LLMs are too slow, so how do we figure out how do we figure that out based
+
+53:06 - Hasnain sayyed on data length or based on time interval these are two options I feel but like the number of questions interval Like number of questions asked by the synthetic user, we can also point that as well. Like it won't exceed 10 questions, maybe.
+
+53:31 - Jorge Lewis So for time interval, I like time interval more, but what's the lowest we can set it at? Because one minute, I don't think they can have enough messages. Maybe?
+
+53:42 - Unidentified Speaker Yeah, right.
+
+53:48 - Jorge Lewis We can play around with the number. We can set it later. Also, one concern I have that I think will be kind of annoying is, so the synthetic user, how will he or when will he send a message? Because how that will work is, this guy sends a message to this guy, this guy responds immediately, the bot responds immediately. And then the synthetic user, because he's in LLM, will receive the response and respond immediately as well. And it'll keep going. There's no way to say, okay, um, yeah, no, not even waiting for it. Like for example, a normal user, they wake up, they'll open the app, they'll talk, chat with the user, the chatbot and say, Hey, um, hi. They'll have a conversation. The phone, the usual, put the phone down. But in our case, the synthetic user, how do we tell him to put the phone down?
+
+54:49 - Unidentified Speaker Yeah.
+
+54:53 - Hasnain sayyed One, one, one idea.
+
+54:59 - Jorge Lewis One idea is that we separate, um, we give the, the synthetic user, their concept of a, um, of, of a conversation and the synthetic user will know, or we'll have an objective for each conversation. And when it reaches that objective, it closes the conversation and then it, um, it calls a function saying let's time elapse and it lets an hour or two pass fake, fake one hour or two.
+
+55:32 - Hasnain sayyed Uh, okay. I got it. Um, but I'm thinking like how we create that function, like, uh, while conversation between two points, we have to create a loop kind of thing that this is the basic, uh, brute force approach or else we have to based on we have to create a function like based on the like response from the synthetic user it will it will think like if the synthetic user wants to ask another question like wants to give another answer or not or like it will stop at that point this is the two solutions I can think like the
+
+56:17 - Jorge Lewis Is the loop, so I have an idea, but it might be the same as a loop. It's like a brute force, like you said. A conversation is five minutes. So that after five minutes, they stop talking and we let time to pass. Is that what you're suggesting?
+
+56:34 - Jorge Lewis Yeah, correct, correct.
+
+56:36 - Jorge Lewis I think we can do that, yeah.
+
+56:40 - Jorge Lewis But like right now, we don't have to worry about that. We can just make it have, We can just let it go back and forth. We don't have to worry. And then later we can worry about controlling the time. How does that sound?
+
+56:54 - Hasnain sayyed Correct. We can change the time, whatever we want. It's just one variable we have to change.
+
+57:02 - Hasnain sayyed Yeah, OK, cool.
+
+57:04 - Hasnain sayyed Yeah, there are normal edge cases in the background, like the synthetic user has to chat one day at a time, like only one day, five minutes or two minutes, whatever we set. It won't have to reiterate. Yeah, that's the normal edge case.
+
+57:21 - Jorge Lewis We can add all these edge cases, I think, one by one if we need to, right?
+
+57:24 - Hasnain sayyed Yeah. We have, we have to add a column here. We have to add, uh, like, uh, uh, maybe the last time, uh, he chatted and, uh, based on the last time, uh, it will add 24 hours, whether, uh, it is, uh, like, uh, greater, like it will compare the current time and the last time. And whether there is a gap of 24 hours or not, if there is not a 24 hours gap, then it won't execute that function or if there is a gap.
+
+58:07 - Hasnain sayyed One point I have, the one most important question is, it is not a WebSocket, right? It is a HTTP request. Like, how can, how could we let the synthetic user run by itself? Like, okay, the condition satisfies, like, yeah. There is a gap between 24 hours maybe. Then how the synthetic agent will let know like, yeah, there is a 24 hours gap. Like the API hit.
+
+58:39 - Jorge Lewis That's a good point. I think we'll have to use some sort of either edge servers or edge functions or, um, yeah, I think something related to edge functions.
+
+58:57 - Hasnain sayyed Okay.
+
+59:00 - Jorge Lewis But we, yeah, so we'll worry about time later since that can be added on top of, um, and by the way, just a quick concept of how we can control all the time is in data in super base, we can store the time, um, like normal, like, uh, as normal, but in the, in the system, the code, we divide it by a multiplier. So that's one, one minute for us.
+
+59:25 - Jorge Lewis we multiply it by a multiplier, not divide it. So 20 seconds for us, we multiply it by 100, that's 2,000 for them.
+
+59:44 - Jorge Lewis Anyways, all right, let's get into it. So you can open VS Code, share a live share link. So it's 1.30, we've already done an hour. Let's do 30 more minutes if you don't mind. Just so we can get some coding in.
+
+59:55 - Hasnain sayyed Yeah, sure.
+
+1:00:24 - Hasnain sayyed Okay, I have sent in the chat.
+
+1:00:49 - Hasnain sayyed Can you access it?
+
+1:00:57 - Jorge Lewis Trying now.
+
+1:01:08 - Hasnain sayyed Should I create a column here that the last time maybe, because that's the starting point to write the function, the last time compared by the current time.
+
+1:01:32 - Jorge Lewis Sorry, could you say that again? I was working on the VS code thing.
+
+1:01:37 - Hasnain sayyed Okay, so I was telling like, we have to like, as I said, before, we have to add a time variable in the synthetic table, like the last run.
+
+1:01:54 - Hasnain sayyed Yeah, last executed. Oh, yeah. So We can compare the last executed with the current time. And if that is not more than 24 hours, then that synthetic user won't execute. And if it is more than two hours or maybe equal to, then we can execute.
+
+1:02:18 - Jorge Lewis Yeah, but what I would suggest is we ignore the time controlling first because that will expand the scope a lot and there's so many different edge cases to manage that it'll kind of not allow us to focus on getting something first. So we have this task, we have to make a simulation system. We need this system, we want to, we want to get something done, something that we can see the smallest thing that we can see is going to be one conversation back and forth. We don't need to worry about time. It's just a user having the synthetic user having a conversation with the ball. You can have a stop button so that they don't forever go on.
+
+1:03:03 - Unidentified Speaker Okay.
+
+1:03:05 - Jorge Lewis And then later you can already be excited to see that you can have conversations. And, um, yeah.
+
+1:03:14 - Hasnain sayyed Got it.
+
+1:03:17 - Hasnain sayyed So first thing, what should we start like with the super base creating functions or what else? What do you suggest?
+
+1:03:27 - Jorge Lewis So I'll leave it up to you. I'm going to, I'm going to leave it up to you. You, you can think, okay, we've got a couple of things to do. I'm just picking one. Usually it works pretty well. Just starting. It's hard to find the right answer because they're all OK.
+
+1:03:47 - Hasnain sayyed Because the main thing that is coming to my mind is that function to create.
+
+1:04:07 - Hasnain sayyed I'm thinking how to execute that.
+
+1:04:18 - Hasnain sayyed Okay, so one thing we can do is and getting this for this. You we have to create a rag over here like the sorry the graph sorry the graph will be similar to this everything will be similar to this folder but that will make the easy and the starting point will be
+
+1:06:14 - Hasnain sayyed graph Okay.
+
+1:06:17 - Hasnain sayyed Everything I think will be similar, uh, to this folder itself. Uh, just, uh, this folder is calling the real user. It will, in this folder, we will be calling the synthetic user. And additionally, uh, the top layer will be the edge case that we have talked like the time variable.
+
+1:06:35 - Jorge Lewis Right.
+
+1:06:37 - Jorge Lewis We, we, I don't think so. Are you, are you suggesting we just copy and paste the AI folder?
+
+1:06:49 - Hasnain sayyed Uh, yes. Or I don't like, are you saying that the not copy pasting, like, uh, in the synthetic user, it will be having a chat with, uh, AI agent, right. Uh, and the AI agent code won't invoke by itself. We have to, uh, create a flow between, uh, these two, uh, the synthetic and the AI agent. So, uh, in the current folder itself in the AI agent, uh, folder, there is a chat between real user and the AI agent. So the code for the AI agent will similar.
+
+1:07:24 - Unidentified Speaker Yeah.
+
+1:07:32 - Jorge Lewis In the AI folder, there's one function that's being called somewhere, run. So inside run.
+
+1:07:43 - Jorge Lewis There's one function that's been called run. This is to interact with the chatbot. We're here, we're passing it profile ID, we're passing it user message and user examples prompt. Profile ID is the only thing that's going to be different.
+
+1:08:05 - Jorge Lewis So in, within synthetic user, what we need to do is somehow call this run function, right? Correct.
+
+1:08:11 - Unidentified Speaker Correct.
+
+1:08:13 - Jorge Lewis We, in essence, we need to call the run function.
+
+1:08:16 - Hasnain sayyed So, and the top layer will just be the like, the edge case function that I have talked like one day, one conversation, like one day, one session, the top layer will be that the edge case condition. And we just have to create a loop over here because in this file, it's just a one case scenario, like a one way scenario. It's not a loop where it's just a HTTP request, like pointing, running this function and getting the return for one conversation. But we have to create a loop kind of thing over here.
+
+1:08:54 - Hasnain sayyed Based on time.
+
+1:08:58 - Jorge Lewis As we discussed, 30 seconds or 1 minute.
+
+1:09:09 - Jorge Lewis As I said, we have to reduce the scope right now. We want to focus on one thing right now. When you're developing software, if you're worrying about all the 30 different things that have to be made, You're never going to make one thing. Right now, we want to get a conversation happening between the bot and the user. Then we can worry about adding in time into the code. So we need to isolate small things to make.
+
+1:09:35 - Hasnain sayyed Should I copy paste this thing over here?
+
+1:09:42 - Jorge Lewis This function? No, no.
+
+1:09:48 - Hasnain sayyed I just have to change this thing. The user message will be not the parameter itself. It will be the previous. We will be getting it from the database or the few short.
+
+1:10:07 - Hasnain sayyed What do you mean, few short?
+
+1:10:09 - Hasnain sayyed The database, like the prompt that a Q1 is adding from the dashboard.
+
+1:10:18 - Hasnain sayyed The user message will be, in the real use case, will be passed by the real user, right? But in the synthetic user, it doesn't have any, like, the user message from the real user. We have to get it from database, which will be in the scenario of future.
+
+1:10:36 - Jorge Lewis For the synthetic user, we should be using a language model. There should be an agent.
+
+1:10:44 - Hasnain sayyed OK.
+
+1:10:47 - Hasnain sayyed So based on the- Yeah.
+
+1:10:55 - Jorge Lewis Because we're trying to pretend this guy's a user. There's no reason not to use a language model. We're trying to create new data, not reuse old data.
+
+1:11:11 - Jorge Lewis Got it.
+
+1:11:13 - Jorge Lewis I was just saying- So I'm going to try to kind of start you off and see if it makes sense. So we have this run function that's being called by the dev bot. Let's go into the simple dev user. Let's import that function.
+
+1:11:34 - Jorge Lewis Let me enable my copilot.
+
+1:11:57 - Jorge Lewis Oh, my co-pilot subscription ended.
+
+1:12:28 - Jorge Lewis And then here, we know we want to call run. What are the properties?
+
+1:12:41 - Jorge Lewis These are profile ID, so it's a string ID. What else?
+
+1:12:53 - Jorge Lewis User message.
+
+1:12:56 - Jorge Lewis So we need to message to do AI generated message.
+
+1:13:07 - Jorge Lewis And then use example prompts just do hmm. What does that mean?
+
+1:13:12 - Unidentified Speaker Oh?
+
+1:13:15 - Hasnain sayyed It's just a boolean template.
+
+1:13:17 - Jorge Lewis Yeah false okay, so So we have this here const ID is So we need to get this ID from a We need to get this ID from SuperBase.
+
+1:13:39 - Hasnain sayyed Yeah, so just right here, maybe.
+
+1:13:48 - Jorge Lewis So for now, let's use a hard-coded ID. So I'm going to go into SuperBase and copy one from the correct tables.
+
+1:14:03 - Hasnain sayyed Just paste over here.
+
+1:14:13 - Hasnain sayyed And it will be synthetic user.
+
+1:14:23 - Hasnain sayyed Synthetic profile, sorry.
+
+1:14:33 - Jorge Lewis All right, so I'm going to copy this one.
+
+1:14:50 - Jorge Lewis Oh, no, this is just, yeah.
+
+1:15:00 - Jorge Lewis I don't know how you guys don't use super base. I mean, I'll compile it.
+
+1:15:09 - Jorge Lewis Profile for, okay, so. Okay, so let's make a new file that generates a message. Message, yes. And then here we can just do prompt run.
+
+1:15:50 - Jorge Lewis All right, so I've made just a simple run function and, or let me actually just.
+
+1:16:00 - Jorge Lewis And then, okay.
+
+1:16:17 - Jorge Lewis Sorry, I'm messing up with your if code.
+
+1:16:26 - Unidentified Speaker Why?
+
+1:16:27 - Jorge Lewis Oh, are you error tracking or?
+
+1:16:42 - Hasnain sayyed Should I add this data types like synthetic user in the database.types? So this error will be gone.
+
+1:16:56 - Jorge Lewis Let me, I'm not seeing your screen. Over here. Yes. I don't have some of the highlighting because I'm on your live share.
+
+1:17:10 - Jorge Lewis Generate the new types.
+
+1:17:13 - Jorge Lewis Yes.
+
+1:17:15 - Jorge Lewis That's a good idea.
+
+1:17:28 - Jorge Lewis If there's only one super base call in the script or in the code, you don't want to name them. You can just leave them. So this is pretty, should be pretty obvious, I think.
+
+1:17:44 - Unidentified Speaker Bye!
+
+1:18:18 - Jorge Lewis It's now gone.
+
+1:19:11 - Hasnain sayyed We have to create an agent which passes this message.
+
+1:19:18 - Hasnain sayyed Okay, yeah, it's generate message is there.
+
+1:19:30 - Jorge Lewis I'm not getting all of the error highlighting that you are by the way.
+
+1:20:48 - Hasnain sayyed What are we creating next?
+
+1:21:06 - Jorge Lewis Next is.
+
+1:21:16 - Jorge Lewis Could you keep sharing your screen? Because it was quite helpful.
+
+1:21:44 - Jorge Lewis Okay, so we're going to, what's the statement? So we have a message.
+
+1:22:11 - Jorge Lewis So, imagine the message history is no messages, so we're going to have the synthetic user generate a message first, and then the AdaptBot will reply to it. We need to wrap all this in a for loop.
+
+1:22:32 - Jorge Lewis Which one? This?
+
+1:22:35 - Jorge Lewis So the synthetic user and the response to that need to be looped if we want to kind of have a conversation. So let's say we want to have a conversation of 10 messages.
+
+1:22:46 - Hasnain sayyed We can just do a for loop for So based on the user response, maybe like Sorry, based on the user question, we can point like, yeah, it's 10. Or maybe a normal pointer while const let a is equal to 10.
+
+1:23:21 - Jorge Lewis 2 Use a for loop, no?
+
+1:23:29 - Hasnain sayyed Maybe, yes.
+
+1:23:33 - Jorge Lewis I can't remember the syntax, though, so I'm going to search it up.
+
+1:23:39 - Jorge Lewis For loop syntax, OK.
+
+1:23:44 - Hasnain sayyed It's equal to 0, then 10.
+
+1:23:56 - Hasnain sayyed A plus plus.
+
+1:23:57 - Unidentified Speaker Yeah.
+
+1:23:59 - Hasnain sayyed This is the basic syntax and it will be running 10 times.
+
+1:24:09 - Hasnain sayyed The messages will be passing through this and RES we have to store this thing because the run function is performing actions on this as well.
+
+1:24:35 - Hasnain sayyed Okay, we have events.
+
+1:24:44 - Hasnain sayyed The one thing over here is, if you look my screen, yeah, so in the post chat, the events, it is storing the chat in events. So we have to club this ID to the events itself. Because the profile ID is also pointing to events.
+
+1:25:08 - Hasnain sayyed What do you mean?
+
+1:25:10 - Hasnain sayyed Like the history, the chat history is being stored in this event table. Yep. So this profile ID has a foreign key in this events.
+
+1:25:27 - Hasnain sayyed Does it?
+
+1:25:28 - Hasnain sayyed Yeah.
+
+1:25:38 - Hasnain sayyed Where is that?
+
+1:25:41 - Hasnain sayyed Ok, so it's externally storing. I failed. I thought.
+
+1:25:52 - Jorge Lewis OK. So it is linked, though. It is linked. Go back to Superbase. There's a green icon next to it. That means it's linked. That means there's a foreign key.
+
+1:26:01 - Jorge Lewis So no, on profile ID, that green icon, that means it's linked. No, no, no. Back where you were. Do you see the icon? Yeah, yeah. It's a foreign key with profile. So let's open up that detail of the column so that we can modify it. Because if it's foreign link to profile table, that means we can't add events from our synthetic user, which we want to. So let's see if we can add a foreign link.
+
+1:26:28 - Jorge Lewis Yeah, yeah, there we go.
+
+1:26:29 - Unidentified Speaker Nice.
+
+1:26:31 - Hasnain sayyed Select table profile.
+
+1:26:38 - Jorge Lewis Oh, yes. Should I save?
+
+1:26:41 - Unidentified Speaker Yeah.
+
+1:26:47 - Hasnain sayyed Id is in public. Yes. Cool. Hm.
+
+1:27:09 - Jorge Lewis I'm going to profile ID.
+
+1:27:13 - Jorge Lewis Insert or update.
+
+1:27:17 - Jorge Lewis Wait, save again? I couldn't finish reading the error.
+
+1:27:26 - Jorge Lewis File is foreign key constraint.
+
+1:27:37 - Jorge Lewis Let me see...
+
+1:27:49 - Jorge Lewis Because if that doesn't work, but it should, if that doesn't work...
+
+1:27:55 - Jorge Lewis I think the problem is that there's already items in that...
+
+1:28:09 - Jorge Lewis There's already items in the table, which means that it can't switch it. So what we have to do is either delete all the items. Is that OK? Can we do that?
+
+1:28:32 - Hasnain sayyed Yes, or else we can't edit this thing. Can't edit the value.
+
+1:28:40 - Jorge Lewis Um, so the only thing is if Kuhn is testing it, but I don't think he is. So let's just delete everything.
+
+1:28:47 - Hasnain sayyed And if he says, why did you delete everything that we say in the synthetic profile, uh, we can delete and we can check, uh, if it's added because I feel, uh, the ID is similar, uh, but that doesn't the case.
+
+1:29:10 - Hasnain sayyed let me delete this and try in the synthetic.
+
+1:29:14 - Jorge Lewis No, the problem was because every row in the, or every row in the events table was linked, was a foreign key link to the profile ID. The structure of the cell was a foreign key link to profile ID. It was not foreign key. I wasn't a foreign key link to profile ID or, um, Uh, forward key to the profile ID or the synthetic profile ID. So now it is because I deleted all the events.
+
+1:29:44 - Unidentified Speaker Okay.
+
+1:29:44 - Jorge Lewis So now we shouldn't have an issue with it.
+
+1:30:33 - Hasnain sayyed Okay, so we can copy this supervisor agent code over here, because whoa, in this file, what say there's there's Sorry, I was just looking at the code.
+
+1:31:02 - Jorge Lewis There's a lot of, there's a prompt. So, okay. I see. Huh? So you know how, you know that we're exposing the prompts on the front end, right?
+
+1:31:13 - Hasnain sayyed Hmm.
+
+1:31:15 - Jorge Lewis Yeah. So, so I saw that under supervisor, there is a lot of, there is, um, his system. What is this? Yeah. So, so if you follow me, Hmm. So here we give it its prompts here, but then we're also giving it more. This should be, we should try to, this is kind of as a backlog. I know this is probably temporary, but there should be a backlog for somebody to migrate it to the front end because we want everything, all the prompts to be exposed to the front end. So yeah, we need to.
+
+1:31:55 - Hasnain sayyed On the backend, right?
+
+1:31:58 - Jorge Lewis No, no, it's the front end. We don't want text here. We don't want this text here. What we want to do is be using the data tape, the super base and accessing the prompts from there, which admins can modify from the front end.
+
+1:32:08 - Jorge Lewis Okay.
+
+1:32:19 - Jorge Lewis So we don't want to hard code the prompts here.
+
+1:32:25 - Jorge Lewis But instead, we want to use a promise for the profile. So yeah, that's something to note out. So what is this here?
+
+1:32:55 - Jorge Lewis Uh, you can click on me somewhere.
+
+1:32:59 - Hasnain sayyed Uh, could you also share your screen? Uh, I can.
+
+1:33:02 - Unidentified Speaker Yeah.
+
+1:33:03 - Hasnain sayyed Yeah. Okay. So, so we have this, this loop.
+
+1:33:27 - Jorge Lewis I just copied this thing So we don't need this here Okay, so...
+
+1:34:06 - Jorge Lewis Why is that still saying? Oh, expected zero. Oh, okay. Oh, I see. Sorry. Okay, this is the...
+
+1:34:18 - Hasnain sayyed No, we can edit this.
+
+1:34:21 - Jorge Lewis This is the new guy. I thought this was the super generate message function.
+
+1:34:29 - Hasnain sayyed So this, uh, this file is different. This is a generate message function. We can just, uh, let the LLM to generate, uh, the question on the behalf of synthetic agent. So, uh, the prompt, the prompt will be different.
+
+1:34:52 - Hasnain sayyed Is that make sense? Yeah, we just remove this all.
+
+1:35:04 - Jorge Lewis Correct.
+
+1:35:21 - Jorge Lewis So this is not a structure of profile. I believe this is a synthetic user.
+
+1:35:36 - Hasnain sayyed Yeah.
+
+1:35:39 - Jorge Lewis What was the definition of this profile though?
+
+1:35:45 - Jorge Lewis Over here. So we can do type, uh, then back here.
+
+1:36:07 - Hasnain sayyed Okay. It's not profiled. It's it's in. Yeah, there is no S. Correct. And this we have to export over here.
+
+1:36:22 - Jorge Lewis Yeah.
+
+1:36:24 - Jorge Lewis So, is this correct over here? System and then, or is this a tuple?
+
+1:36:31 - Jorge Lewis And then I have to do prompts.
+
+1:36:34 - Jorge Lewis Or how was it before? Let me just copy this.
+
+1:36:39 - Jorge Lewis So, it's a list. Oh, it's just the two, okay.
+
+1:36:44 - Jorge Lewis So prompts teams, okay, so this is going to change from Like it's just prompt this is not gonna be using So how How should we go about structuring the profile structure? So if you see on my screen We have the prompt is Is it these three?
+
+1:37:17 - Jorge Lewis Hmm.
+
+1:37:17 - Jorge Lewis Or well, we're actually. Okay. So let me think.
+
+1:37:28 - Jorge Lewis So this objective is, it can be just prompt. Personality can be part of the prompt and LM. Okay. Okay. So these two are just part of the prompt. So inside of the structure of here of synthetic profile, Should I re-upload the file?
+
+1:37:50 - Hasnain sayyed Because I have deleted.
+
+1:37:53 - Hasnain sayyed Re-upload the file? Which file?
+
+1:37:55 - Hasnain sayyed The CSV from the profile. So we will be having the users in the synthetic one. Like, do you want- I think, I think.
+
+1:38:05 - Unidentified Speaker Yeah.
+
+1:38:06 - Jorge Lewis Go ahead. Yes.
+
+1:38:09 - Jorge Lewis Oh, actually, you know what we could do to make it more dynamic and probably better, just a lot better code is within anywhere in the original code that's accessing the profile. So let me, let me go to man to kind of illustrate what I mean. So this function here is returning a profile, right?
+
+1:38:31 - Hasnain sayyed Right. Just a second. Yes.
+
+1:38:37 - Jorge Lewis So this profile here is referring to the, like an actual user. What we can do is do something like, so we take in another Boolean synthetic.
+
+1:38:49 - Unidentified Speaker Yeah.
+
+1:38:52 - Hasnain sayyed It will be false for the default value. You can put the default value as well.
+
+1:38:58 - Jorge Lewis Oh, yeah. Good point. And then we do table. Synthetic.
+
+1:39:08 - Jorge Lewis Or just do profile table.
+
+1:39:15 - Hasnain sayyed Is it profile?
+
+1:39:19 - Jorge Lewis We want to make sure it's, they're all the same. That's a big, that's important.
+
+1:39:27 - Jorge Lewis So profiles with an S. So we wanted this one to be profiles with an S.
+
+1:39:33 - Jorge Lewis There's of course best practices in terms of should we use S or not, but at least make them all the same. So if they all use S, use S.
+
+1:39:41 - Jorge Lewis Yeah. Okay.
+
+1:39:44 - Jorge Lewis Which means I believe in, yeah, I already added S, okay, nice. Or did you? Okay, so it comes, what else? And I think that's, it's just that table that we're changing, right?
+
+1:39:56 - Unidentified Speaker Yeah.
+
+1:39:59 - Jorge Lewis Or just do synthetic, we don't need it, we can just clean this up a bit.
+
+1:40:15 - Hasnain sayyed I've added the data over you.
+
+1:40:19 - Jorge Lewis So pretty much like that. And then we use, Oh, is that you?
+
+1:40:30 - Jorge Lewis No.
+
+1:40:33 - Jorge Lewis Huh?
+
+1:40:35 - Jorge Lewis Uh, So, what type, what does this take in?
+
+1:40:59 - Hasnain sayyed I think the row, maybe?
+
+1:41:02 - Jorge Lewis Actually, I think I know.
+
+1:41:11 - Jorge Lewis If you go into database.types, it takes in...
+
+1:41:18 - Jorge Lewis Take some of these things.
+
+1:41:22 - Unidentified Speaker Tables.
+
+1:41:29 - Jorge Lewis How do I? Where's the
+
+1:42:07 - Hasnain sayyed How should we add?
+
+1:42:09 - Hasnain sayyed Let me try.
+
+1:42:36 - Jorge Lewis Bye.
+
+1:43:03 - Jorge Lewis Yes, I mean, if we use...
+
+1:43:07 - Hasnain sayyed Yeah, have you found the solution?
+
+1:43:12 - Jorge Lewis So, not yet, but just kind of to think it through, this does take in a string, or it ends up being a string, but it's just typed differently. So maybe, or maybe actually. We can use this code.
+
+1:43:38 - Unidentified Speaker Yeah.
+
+1:43:41 - Jorge Lewis So if I put the string, if I do this, it works.
+
+1:43:48 - Jorge Lewis But I want to reuse this variable profile table since we… I think use it down? Oh no, it's just once.
+
+1:44:06 - Jorge Lewis We're only asking, we're only making the simple base request once, so I guess we can use this, but I wonder maybe we should figure it out instead of
+
+1:44:34 - Hasnain sayyed Let me try one thing.
+
+1:45:02 - Hasnain sayyed Yeah. Yeah.
+
+1:45:33 - Hasnain sayyed That's it.
+
+1:46:00 - Hasnain sayyed At 10 o'clock, she would get up and leave. What? Again? She would leave at 2.30 in the morning. You would come at 8.30?
+
+1:46:12 - Hasnain sayyed No, no. She would come at 6.30 in the morning. She would come at 8.30 the morning. Sometimes, she would come late at night. She would come late at night and leave early in the morning. She would leave early in the morning. I would come at the 8.30 morning. She would come at 8.30 in the morning. I would eat and leave.
+
+1:46:33 - Hasnain sayyed You think he made any progress?
+
+1:47:04 - Hasnain sayyed I don't know.
+
+1:47:31 - Hasnain sayyed I think that's better actually.
+
+1:47:57 - Jorge Lewis But I can't tell because my screen doesn't show me the correct things.
+
+1:48:15 - Jorge Lewis Showing you any errors? Yeah.
+
+1:48:24 - Hasnain sayyed I think we both are in different areas.
+
+1:48:30 - Hasnain sayyed Tables, it's not as stable, I think.
+
+1:48:33 - Jorge Lewis Yeah, I think month of dates.
+
+1:48:36 - Unidentified Speaker Maybe.
+
+1:48:50 - Jorge Lewis Because I mean, I'm fairly certain that the one here should work.
+
+1:49:32 - Jorge Lewis Can you, it just, our screens are different. Yeah. Okay, let me, looks like we're going to disconnect it, I guess.
+
+1:49:52 - Hasnain sayyed I mean, why is tables erroring there?
+
+1:50:21 - Jorge Lewis Hey, have you seen my daughter-in-law? Yes, she has gone to work.
+
+1:50:25 - Hasnain sayyed Oh, really? Yes, she has gone to work. Why are you so late today? Are you busy? Yes, I am busy. Yes, I am busy.
+
+1:50:50 - Hasnain sayyed Yes I have to go at 6.30.
+
+1:50:51 - Jorge Lewis I have to go I have to go at 6.30 I don't know why it's taking so long to load. I'm gonna stop sharing my screen, my camera so that, to see if it can go faster.
+
+1:51:33 - Hasnain sayyed Yeah. Yeah.
+
+1:51:37 - Jorge Lewis Um, but yeah, it's just super slow. Like I clicked it's joining collaboration session for quite a while. Okay. But, um, okay. So I'll, I'll just ask you to do it. So instead of, so take copy and paste everything after the question mark.
+
+1:51:57 - Hasnain sayyed This one.
+
+1:51:58 - Jorge Lewis So the second one should be a cool one.
+
+1:52:04 - Hasnain sayyed Yeah. Yeah.
+
+1:52:12 - Jorge Lewis But anyway, so copy copy those two so the table synthetic profile and tables profile the whole the whole thing Now it doesn't like it Oh no, there we go, cool. Is it airing for you?
+
+1:52:51 - Hasnain sayyed Unknown word, it's failing.
+
+1:52:56 - Jorge Lewis I think it's just slow to update.
+
+1:53:11 - Jorge Lewis Can you try... It looks like it's just confused. It's the same type of string, but it thinks it's something else. Like we just labeled it as something else. So all we need to do is just use the types that it needs. So we're synthetic here on the right-hand side of the equals is just is saying making it a string. But then we're just typing it as a tables synthetic profile. But for me, it's not giving any errors. But for you, it is. It's just saying it doesn't know what it is.
+
+1:53:59 - Hasnain sayyed It's also getting error in the profile as well.
+
+1:54:09 - Hasnain sayyed I said maybe.
+
+1:54:41 - Jorge Lewis Can you push and then save all and push and I'll try to open it locally? Because it just feels like the IDE is not being very happy.
+
+1:54:54 - Hasnain sayyed So should I push while creating a new branch?
+
+1:54:59 - Jorge Lewis Yeah, yeah.
+
+1:55:03 - Jorge Lewis Yeah, create a new branch.
+
+1:55:23 - Hasnain sayyed What should be the branch name?
+
+1:55:29 - Jorge Lewis What did you suggest?
+
+1:55:31 - Hasnain sayyed Features and synthetic profile.
+
+1:55:36 - Hasnain sayyed Maybe.
+
+1:55:36 - Jorge Lewis Yeah, or yes.
+
+1:55:38 - Jorge Lewis Yeah, whatever. That works.
+
+1:56:07 - Jorge Lewis Yeah, I'm now in.
+
+1:56:32 - Jorge Lewis Yeah.
+
+1:56:33 - Unidentified Speaker Yeah.
+
+1:56:58 - Jorge Lewis Have you generated the superbase types again?
+
+1:57:04 - Hasnain sayyed Which one?
+
+1:57:06 - Hasnain sayyed The superbase types.
+
+1:57:11 - Hasnain sayyed The interface?
+
+1:57:18 - Jorge Lewis So we made a new table. Have you generated the new types for it?
+
+1:57:23 - Hasnain sayyed Yeah, I've created the types over here.
+
+1:57:33 - Hasnain sayyed Why it's not coming? Yeah. Yes, profiles. OK.
+
+1:58:10 - Hasnain sayyed Yeah, I pushed on GitHub.
+
+1:58:13 - Unidentified Speaker OK.
+
+1:59:10 - Hasnain sayyed or else we can make this dynamic afterwards like just.
+
+1:59:46 - Jorge Lewis Why is there so many branches open?
+
+2:00:05 - Jorge Lewis Uh, your, your branch, the branch name should not be with an S feature and then slash. That's why I couldn't, I was trying to check it out, check out, get checkout, but it wasn't finding it.
+
+2:00:20 - Hasnain sayyed Oh.
+
+2:00:26 - Jorge Lewis Um, Yeah, so my thing doesn't error. Does your thing still error with the type? Yes. Try restarting your IDE.
+
+2:01:31 - Jorge Lewis No, it's a very old name, so I shouldn't...
+
+2:01:36 - Hasnain sayyed of extension which gets an error if my spelling mistake is there, so.
+
+2:01:47 - Hasnain sayyed Oh, so is that what's erring?
+
+2:01:49 - Hasnain sayyed No, no, it's not the extension one.
+
+2:01:53 - Jorge Lewis Oh, there's two. TypeString is not assignable to type.
+
+2:02:02 - Jorge Lewis Oh, wait, maybe...
+
+2:02:07 - Jorge Lewis Uh, do. So I'm trying to figure out why I'm not getting those errors.
+
+2:02:17 - Jorge Lewis Um, but try, try the string. So go to the strings and do as tables and then.
+
+2:02:26 - Jorge Lewis Where in the data type.
+
+2:02:27 - Jorge Lewis So, so when you're setting the screen, no, no. So right where you are, right where you are back, you want to cast the string to the type. So. Synthetic underscore profiles as, and then tables synthetic profiles. No, no, no, up, up, on the string, on the string.
+
+2:02:46 - Jorge Lewis So the variable, the string, synthetic profiles, the string.
+
+2:02:50 - Unidentified Speaker Okay.
+
+2:02:52 - Jorge Lewis Down, yeah.
+
+2:02:54 - Jorge Lewis Yeah, so we want to cast it as the table.
+
+2:03:03 - Jorge Lewis Cannot, there's no type string to type.
+
+2:03:18 - Jorge Lewis Wait a minute. Why is...
+
+2:03:30 - Hasnain sayyed It's also getting type string is not assignable to the row.
+
+2:03:32 - Unidentified Speaker All right.
+
+2:03:36 - Jorge Lewis Um, are we spent enough time on this? So I had to do, um, and make, and just use the hard coded one.
+
+2:03:46 - Jorge Lewis I'm going to use the rest of your beer book.
+
+2:04:36 - Unidentified Speaker Oh, my God.
+
+2:05:27 - Unidentified Speaker Hello.
+
+2:05:30 - Hasnain sayyed Yeah, I'm just coming in two minutes for washroom.
+
+2:06:25 - Unidentified Speaker Bye.
+
+2:07:37 - Hasnain sayyed Welcome back.
+
+2:07:44 - Jorge Lewis So is it all done now?
+
+2:07:47 - Unidentified Speaker Yeah.
+
+2:07:47 - Hasnain sayyed Is that problem solved?
+
+2:07:48 - Hasnain sayyed Well, which problem? All right, cool.
+
+2:07:53 - Jorge Lewis Oh, yeah. The type.
+
+2:07:54 - Unidentified Speaker Yeah.
+
+2:07:56 - Jorge Lewis Oh, wait, no, no, it's not solved. So the problem was that the problem is that we need to access either the synthetic profile or the user profile right there. We're only accessing the profile. We need, so the solution is to just move. So take a look. Let me share my screen.
+
+2:08:22 - Jorge Lewis Like the whole world, what we're solving, I feel like you kind of tunnel vision too much on what we're on the typing issue. The, what we're trying to do here is, is set this profile to either be from the synthetic profile or the profile list. That's what we were doing up here. So we were trying to set up. We're trying to do this and make it a variable, but instead we're just going to copy this and then paste it here. This profile here will either be from the synthetic profiles or the profiles.
+
+2:09:01 - Hasnain sayyed Okay. Well, I thought it can be.
+
+2:09:18 - Jorge Lewis One thing we need to be careful of that maybe is that if there's any properties of these two that if profiles has something that synthetic profiles doesn't, then there might be an error at some point. I don't think so.
+
+2:09:34 - Hasnain sayyed Because it has copy paste.
+
+2:09:39 - Hasnain sayyed It's the same. I copy pasted the same.
+
+2:09:42 - Hasnain sayyed It has all of the properties.
+
+2:09:44 - Hasnain sayyed Yeah.
+
+2:09:46 - Jorge Lewis Yeah. Cool. All right. So I'll just push this in.
+
+2:10:02 - Jorge Lewis All right, go ahead and pull. And yeah, I'm a hop off. It's been a great session. I think very productive.
+
+2:10:08 - Hasnain sayyed I think we learned a lot.
+
+2:10:11 - Jorge Lewis So for now, I guess just keep working on this and then, um, and then, yeah, keep me updated. So it's clear what the objectives are, right. And how we should move forward with this.
+
+2:10:24 - Hasnain sayyed Yeah. So for now, uh, we will be using the loop, right. Uh, for, uh, iterating for the 10 times.
+
+2:10:32 - Hasnain sayyed Or should I create a function? OK.
+
+2:10:38 - Jorge Lewis Just do that for now. And then once we can see something on the screen, then we'll move forward. We need to do it step by step, because it's a very big issue that most new developers have, is that they try to make the whole application And then it takes them three months and within that three months they never finish something that they can test. Not test as in make unit tests, not test as in no errors. Test as in see the experience so it's very important that we that when we're making these projects and you're developing is you focus on very small things that you can test as an end and you so in this case what we can test as an end user the smallest thing is we can see a AI the synthetic user having a conversation with a chatbot that's all we need like we all we need to see is they can send messages to each other basic that's it hmm And then after we can see that, then we work on expanding it little by little. But it's very important that we see the progress through the testing that like with the end user.
+
+2:11:50 - Hasnain sayyed Okay. Okay. I will work on this and make it as functional as a basic level and then we can move step by step.
+
+2:11:58 - Jorge Lewis All right, cool.
+
+2:12:01 - Jorge Lewis Um, I think you'll have to work with, um, I think you'll have to work with one of the front-end developers to get the front-end for this done. So whether Will or Nazif, kind of bring them both in a call and ask and demonstrate or tell them, hey, we have this new task. How can we go about working on this? Check who's busy or who's not.
+
+2:12:27 - Hasnain sayyed Yeah. Okay. I will ask them right now.
+
+2:12:33 - Jorge Lewis doing this programming session. Looking forward to the ones to come. I think it's a great way to keep growing.
+
+2:12:45 - Hasnain sayyed Yeah.
+
+2:12:48 - Hasnain sayyed Correct then. I will update you once I will get our achieving done. Okay.
+
+2:12:55 - Jorge Lewis All right. Cool. All right. Thanks.
+
+2:12:58 - Unidentified Speaker Thanks. Bye.

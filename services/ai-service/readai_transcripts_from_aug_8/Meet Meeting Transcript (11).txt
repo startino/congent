@@ -1,0 +1,218 @@
+Meet Meeting 
+Fri, Aug 16, 2024
+
+23:08 - Unidentified Speaker Hey Jonas.
+
+23:11 - Charan Puvvala Hello.
+
+23:17 - Unidentified Speaker Apologies mate.
+
+23:19 - Charan Puvvala Sorry. You just didn't give me the notification. I'm so sorry. My bad. That's okay.
+
+23:25 - Jonas Lindberg Sorry about that. Yeah.
+
+23:29 - Charan Puvvala And I don't usually be late to meetings. Yeah, that's okay.
+
+23:35 - Unidentified Speaker How are you?
+
+23:38 - Charan Puvvala Not too bad. Today is an Indian festival, so my wife is busy doing something. What's the festival called? It's for a Goddess. It's meant for bringing prosperity and wealth.
+
+23:54 - Charan Puvvala How are you doing? What's your time zone?
+
+24:00 - Jonas Lindberg My timezone is in ICT, in Dunedin, so plus 7.
+
+24:08 - Jonas Lindberg Not too far off yours.
+
+24:10 - Jonas Lindberg You're plus 5, 30, right?
+
+24:12 - Charan Puvvala No, I live in UK, I live in London. Oh yeah, you live in UK.
+
+24:17 - Jonas Lindberg Yeah, we work with a lot of timezones, so it's pretty interesting. It's pretty early for you then, right?
+
+24:25 - Charan Puvvala Yeah, it's early, it's like 9 a.m. Yeah, so I was just running, getting some stuff.
+
+24:29 - Jonas Lindberg Yeah, and here it's 4 or 3.30 p.m.
+
+24:36 - Charan Puvvala Okay, Hong Kong, right? You live in Hong Kong?
+
+24:39 - Jonas Lindberg I live in Thailand. Thailand, okay. Hong Kong is plus eight, I think.
+
+24:44 - Unidentified Speaker Okay.
+
+24:45 - Jonas Lindberg That's the co-founder, George. Okay, lovely, lovely. Yeah, so.
+
+24:55 - Unidentified Speaker Let me see.
+
+24:56 - Jonas Lindberg So yeah, for today, I'm just going to present to you and hopefully answer as many of your questions as possible about the task. And then Kuhn will be taking care of budgeting and quotation later. He told me pretty clearly that that's his job, not mine.
+
+25:17 - Unidentified Speaker Kuhn?
+
+25:18 - Charan Puvvala Yeah, Kuhn. That's cool. Yeah, yeah, yeah.
+
+25:22 - Jonas Lindberg He's there in the UK with you. Yeah. Let's see.
+
+25:36 - Jonas Lindberg I'll send you a link in chat. Can you see that one?
+
+25:43 - Unidentified Speaker I need to log in.
+
+25:52 - Charan Puvvala I'Ve requested access. Or you could share your screen. Anything's fine.
+
+25:56 - Jonas Lindberg Yeah, approved. Lovely, sweet.
+
+26:02 - Jonas Lindberg Yeah, so basically the one on the left here is the previous infrastructure. It kind of describes how it worked previously, how it was set up. I think I've sent you this one before, right?
+
+26:18 - Unidentified Speaker No.
+
+26:20 - Unidentified Speaker No, okay.
+
+26:21 - Jonas Lindberg So, oh yeah, I sent you the list of tasks, not the previous infrastructure.
+
+26:30 - Jonas Lindberg So, on the previous infrastructure, the application Hero TMO, you worked on it, right?
+
+26:37 - Charan Puvvala Well, not on Hero. I worked on the product before that, but I kind of helped them with some configuration, setting up Nginx, more like infrastructure. Yeah. Do you still have the Nginx config? I don't have it, but I can ask the other guy, the old guy who used to work.
+
+27:00 - Charan Puvvala Apart from Jeetu, there was one other backend guy called Akash. He's kind of like, I mean, he was here in UK two years back. He moved back to India. I'm still in touch on WhatsApp. I can kind of just check in and see. It's not hard to set up Nginx. I've done it like multiple times.
+
+27:17 - Jonas Lindberg Okay, yeah, that's good. Well, yeah, this kind of, tell me if anything is wrong here, but this is kind of outlining how the previous setup was configured.
+
+27:29 - Charan Puvvala Yeah, PM2, yes, you're right, static folder, yep. Nginx and then a wildcard, yeah.
+
+27:39 - Jonas Lindberg That look correct, yeah? Yeah, yeah. Yeah. So how we're aiming to get it configured is most of these services should be able to be quite easily containerized as I see it. But have you worked with Docker? Yeah. Yeah.
+
+27:59 - Unidentified Speaker So.
+
+28:01 - Charan Puvvala How do you want to have it, Jonas? Do you want two Dockers or one Docker? I mean, one for the back end, one for the front end or all of them in one?
+
+28:11 - Jonas Lindberg I think, which do you think is better?
+
+28:14 - Charan Puvvala I think the back-end services and the DB kind of Nginx.
+
+28:23 - Charan Puvvala Yeah, no, I think, yeah, back-end DB we have along with, I think we can also have them just as one Docker.
+
+28:31 - Jonas Lindberg Yeah, one Docker Compose, but many Dockerfiles, right? Yeah, yeah, yeah. Then, if needed, we can separate them out later. But I think it should be easiest to get it all working if it's one Docker component, right? Because then you can take care of the networking in just one.
+
+28:53 - Unidentified Speaker Cool.
+
+28:54 - Jonas Lindberg Yeah.
+
+28:55 - Jonas Lindberg Yeah, so this is basically the high-level overview.
+
+29:00 - Jonas Lindberg The code is as it was before, except we've updated and replaced some packages that have been deprecated and completely deleted from the repositories and replaced them with updated ones. We've got the frontend and websites running separately along with the MongoDB. We're a bit unsure on how the middleware situation works. So you'll probably have to take care of that. But otherwise, we've at least got the MongoDB server running. We've got the frontends running, both the surveys and application.
+
+29:43 - Jonas Lindberg The backend, I'm a bit unsure about, and the Nginx, no.
+
+29:48 - Unidentified Speaker Okay.
+
+29:52 - Charan Puvvala Do you have the updated, can you add me to the updated repository if you have one?
+
+29:56 - Jonas Lindberg Yeah, one moment.
+
+29:58 - Unidentified Speaker Yeah.
+
+30:06 - Charan Puvvala Could you send me your GitHub user?
+
+30:09 - Charan Puvvala What are you using, Bitbucket or GitHub? We don't, yeah, it's the same email if you can find me. Or else. Yeah.
+
+30:19 - Jonas Lindberg I just got a hook up for some two-factor authentication stuff.
+
+30:26 - Unidentified Speaker This is my link, yeah.
+
+30:39 - Jonas Lindberg Yep, found you. Lovely.
+
+30:46 - Jonas Lindberg The invitation has been sent.
+
+30:51 - Charan Puvvala Yep, I'm on that. I need to sign in. I'm going to sign in now.
+
+31:12 - Jonas Lindberg I'm on.
+
+31:14 - Charan Puvvala Just tell me when you're sent, and then I'll look for some stuff.
+
+31:39 - Charan Puvvala Yep, that's it.
+
+31:42 - Charan Puvvala Okay, I mean, Hero TMR, Hero Web Services.
+
+31:47 - Charan Puvvala Everything's in OneRep, alright? Yeah, everything is there in this repository.
+
+31:53 - Jonas Lindberg Everything that Jif gave us is here.
+
+31:57 - Unidentified Speaker Okay. Sweet.
+
+32:01 - Jonas Lindberg In Web Services, you can see there's a Docker Compose inside of this Mongo database and an app called DTestApp1. We aren't completely sure what the DTestApp1 is.
+
+32:13 - Unidentified Speaker OK. Cool.
+
+32:16 - Jonas Lindberg You can also see some folders like middlewares and migrations and stuff. So there looks to be an application that was here acting as some sort of middleware, but we are unsure of how it interacts with the rest of the application.
+
+32:33 - Charan Puvvala Yeah, a lot of this code, right, it's been kind of copied from the previous thing. That was the one that I built. So this middleware, some of it is familiar for me. Some of it is like quite like, I mean, someone else has written it here. So the tenant and all, earlier what we had was, before this I was working with QN on a product called Manicola. Not sure if he's given you some info about it. It was an AI project management tool. So in that he wanted basically some complete isolated tenants for each client. So the data is not shared or things like that. So I can see some of the code from that. Yeah. Okay. I see.
+
+33:14 - Charan Puvvala Okay.
+
+33:15 - Charan Puvvala Yeah. But quite a lot has changed right in the last five years. You can use GraphQL, MongoDB to make it much more simpler.
+
+33:23 - Jonas Lindberg I think we got the version that you had, that you were working on first, because we got an updated version that we started working on and figuring out before we got in a meeting with Jippu, which basically told them, hey, this is a very old version, here's the actual new one.
+
+33:40 - Unidentified Speaker Okay.
+
+33:44 - Jonas Lindberg Yeah, in this new one, the two like main folders is the TFS folder and Hero TMO folder, which is the, let me see what it would be. I think that's the, that's the main like application where the business logic is basically app.hero.tmo one. And then there's the website folder, which is where you sign up and create a company. Yeah.
+
+34:11 - Jonas Lindberg Okay.
+
+34:15 - Jonas Lindberg I advise you, like, in your work, you hop on Discord and check out the Hero and Hero-dev channels, because that's where we've been discussing with Kuhn, and there should be a lot of context there to look at.
+
+34:34 - Unidentified Speaker Sure.
+
+34:36 - Charan Puvvala You invited me, right, to those channels?
+
+34:39 - Jonas Lindberg Yeah, you're in those channels.
+
+34:46 - Jonas Lindberg There you can also get in contact with Kuhn and plan a meeting, sorting out the cost side of things.
+
+34:54 - Jonas Lindberg Okay.
+
+34:59 - Charan Puvvala Okay. I'm going to change my password. I need to change it.
+
+35:03 - Unidentified Speaker Anyway. Yeah. Okay.
+
+35:08 - Charan Puvvala Uh, yeah.
+
+35:10 - Unidentified Speaker Anything else, Jonas?
+
+35:13 - Jonas Lindberg You may need to...
+
+35:17 - Jonas Lindberg About the previous DNS config and the DNS records and getting access to editing them, you might want to get in contact with Jeff, so he can create a Microsoft account for you to access the It's not Azure, or it's kind of like Azure, but it's called Microsoft 365 Admin.
+
+35:43 - Charan Puvvala Yeah, yeah, yeah, I know that.
+
+35:44 - Jonas Lindberg Yeah, yeah, I've done that before. Yeah, you may already have a user there, actually. Yeah, yeah, yeah.
+
+35:51 - Charan Puvvala Cool. So basically, you want me to dockerize everything, yeah? Get it working somewhere, configure the DNS records, and then hand it over, like commit the code, kind of keep it working, that's it, right?
+
+36:05 - Unidentified Speaker Oh yeah, exactly.
+
+36:06 - Jonas Lindberg And to confirm afterwards, we should be able to take the repository, which you will have committed to, and basically run the Docker Compose. Yeah, I'll commit to the same one on which you've shared.
+
+36:19 - Charan Puvvala You're an admin on that, so it should be fine.
+
+36:22 - Unidentified Speaker Yeah.
+
+36:23 - Jonas Lindberg Then, once you're finished, we should be able to take the repository, put it on a virtual machine, run the Docker Compose, fine-tune the DNS records and it should be working.
+
+36:37 - Charan Puvvala Sure, no worries. I'll set up a branch called Info or something. I'll keep working on that so that in case you guys are doing something.
+
+36:46 - Jonas Lindberg We won't be working on it and if we are working on it, it would be in collaboration with you. So you can just work with that repository however you feel.
+
+36:54 - Charan Puvvala Lovely, man. Cool. No worries. Because I own QN1, so I'm going to make sure this is sorted out.
+
+37:04 - Jonas Lindberg Okay, nice.
+
+37:08 - Jonas Lindberg So, anything else, any questions or anything, just ask me. Yeah, I'll message you on Discord.
+
+37:17 - Unidentified Speaker Yeah, perfect.
+
+37:20 - Jonas Lindberg Anything else right now? No, that's it.
+
+37:25 - Charan Puvvala Perfect. Once again, apologies, mate. I kept you waiting for 20 minutes. That was not good of me.
+
+37:32 - Jonas Lindberg Yeah, it was quite convenient today because I was just coding anyway, so I just for 20 more minutes. But yeah, thank you for that. I will hope to see in the future. Have a great day and have a good day with the festival. Yeah, thank you.
+
+37:48 - Jonas Lindberg Cheers. Bye.

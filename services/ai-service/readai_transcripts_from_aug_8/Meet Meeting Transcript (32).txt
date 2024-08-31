@@ -1,0 +1,310 @@
+Meet Meeting 
+Thu, Jun 27, 2024
+
+0:52 - Unidentified Speaker Hello?
+
+0:55 - Chinmay Pandya Hey man. Hey, how are you? I'm fine, how are you?
+
+1:00 - Jorge Lewis Great, doing great.
+
+1:02 - Jorge Lewis Would it be possible to turn on your camera? It's a lot more human. Yeah, just wait a second.
+
+1:08 - Jorge Lewis No worries, man. Thanks, appreciate it.
+
+2:28 - Unidentified Speaker Can you see me?
+
+2:31 - Jorge Lewis Yep, yep. Cool, cool. Look, you're a handsome boy. Come on. All right. Yeah, I mean, it's good to see you now, and now I can actually see you, so it's a lot more better. It feels like I'm talking to someone. Yeah. It's really lonely in this room here, see? There's no one here, so it's nice to talk to someone. All right, cool. So yeah, so... Is that your office? Yeah, I mean, I'm at a co-working space. It's like people just come here to work.
+
+3:01 - Jorge Lewis Since I'm traveling around, it's no point getting an office, but it's super nice here. It's very peaceful. I get to get a lot of work in, really focused, so it's nice. I've invited you to the GitHub project, the GitHub repo.
+
+3:22 - Jorge Lewis So pretty much what's going on is, like I said in my message, is just that we have a project that we're working on, we're migrating it from Python to TypeScript.
+
+3:33 - Jorge Lewis And I'm only familiar with the Python one. I've started the migration, I've imported, I know TypeScript, but I don't know SDK from BlankChain and TypeScript. And some of the concepts are quite different. So I'm struggling trying to do it on time, and also I figure this would be a great opportunity to see what you're able to do.
+
+3:54 - Chinmay Pandya So can you guide me through the project?
+
+4:03 - Jorge Lewis Just so you know as well, there are two other developers doing the same thing. So we're able to hire all three if you guys are all able to do a great job and we like how we work together. Otherwise, we'll consider it at another time.
+
+4:21 - Jorge Lewis Yeah, for compensation, I still have to decide with Jonas. But I'm thinking I want to be respectful of your guys' time. Although it's kind of a mix between like a technical interview and like a test, I still want to respect your guys' time. So I'll let you know later today if that's okay with you, how we can deal with that.
+
+4:41 - Unidentified Speaker Yeah.
+
+4:44 - Jorge Lewis So for the project, so this is a client's project that we started five weeks ago. It's a chatbot to help Well, there's two aspects. There's the chatbot, and then there's an LMS, Learning Management System, for delivering a course to the user.
+
+5:02 - Jorge Lewis We first started, the tech stack is in SvelteKit. It was with Python using FastAPI as an API, but now we've migrated it to all be within SvelteKit under the same project. I've migrated all the code, but now I just need to connect it up and make it work. So all the, kind of the template is there. But just it's not working. So the main thing of the app, what I've understood, so there's a couple of main things. So first of all, the chatbot has to be able to onboard the user. So this one's kind of simple. Just ask the user, hey, what's your name? How old are you? Male or female? What's your weights? All these simple onboarding. And then the main thing in terms of daily use for the chatbot is going to be doing a check-in. A check-in is where the bot's going to ask the user a bunch of questions regarding things like, how far have you walked or how much have you walked today? How many calories have you eaten? Did you sleep? How long did you sleep? These things, so helping with the health. And then provide coaching on it. So the flow is kind of like the chatbot will say, or the user might say, let's start a check-in. It's 7 p.m. The user says, the day's kind of wrapping up and they say they want to start a check-in. The bot will say, okay, cool, how many minutes did you walk today? The user will say, oh, let's say 30. And the bot will update the database for that. And then there will be a coach agent that says, all right, great job. But then there's also a data analyst agent that will kind of read all the data in the past and try to find patterns.
+
+6:46 - Jorge Lewis find patterns and come to insights for the rest of the team. And then they'll provide some coaching, say how they can improve if they're doing a bad job. If things are doing well, then the coach will just, then the bot will ask for more info. Until they finish all the items, there's like a list of items. You can check it out on the super base in a second.
+
+7:08 - Jorge Lewis Hopefully I haven't gone too specific yet.
+
+7:12 - Jorge Lewis Let me show, Send me your discord by the way. Did you send me your discord already? No.
+
+7:18 - Chinmay Pandya No, I didn't because I actually forgot my password. I had to post. Make a new account. Alright, no worries.
+
+7:28 - Jorge Lewis Okay, so make a new account, send it to me. I'll invite you to a group chat and you can also meet my co-founder and the rest of the team.
+
+7:34 - Chinmay Pandya Yeah, also, I apologize for any disturbance if there's any, because I'm at a new house. We recently shifted, so I do not actually have a room of my own. I do not have a desk. Don't worry, man. All good. All good.
+
+7:47 - Jorge Lewis The mics, the quality's OK. Don't worry. Thank you.
+
+7:55 - Jorge Lewis Yeah, so let me maybe get a screen share.
+
+8:01 - Chinmay Pandya Have you migrated all the code from Python to TypeScript?
+
+8:05 - Jorge Lewis Yeah, so the Python is no longer being used. The TypeScript is being used. We've connected it to the front end. So right now, as of right now, today, you can have a conversation with a chatbot, but it's the graph, the line graph, you're familiar with that graph, right? Yeah. Yeah, the line graph is just the router and then a researcher. It's just those two, just like a dummy graph, right? To get the thing set up. So the rest of the work is making it actually the graph that was made in Python. So I feel like it's just the line graph part. So we've connected it to the database, we've connected it to the front end, so all of that's done, but we just need to do the line graph part, which I'm struggling with. Specifically, in Python, the way tools were called was a little bit different. I was able to modify the state through a tool call, but now I'm not, so I have to kind of go a little bit of a different route. But I was hoping you could, you'd probably have more experience and maybe here and there you'll be able to decide on better designs than I did.
+
+9:13 - Jorge Lewis Yeah, sure.
+
+9:20 - Jorge Lewis Are you making the Github account now? I mean the Discord account now?
+
+9:24 - Chinmay Pandya No, I've logged in actually.
+
+9:28 - Chinmay Pandya Let me send you my username.
+
+10:06 - Jorge Lewis All right, I'm gonna send you a friend request.
+
+10:09 - Jorge Lewis Are you on Windows, by the way, or Linux or Mac? Yeah. I'm using windows.
+
+10:19 - Chinmay Pandya So are you getting the error in your code itself or when you're running the application?
+
+10:25 - Jorge Lewis So there's no error. So the problem that I have is just I wasn't able to reach the output. I wasn't able to reach the behavior I wanted.
+
+10:39 - Jorge Lewis Yeah, once I invite you to the group chat, I can send you the kind of the behavior I was expecting.
+
+10:45 - Jorge Lewis And I haven't gone through, because I started learning the LangChain TypeScript version just two days ago. So I've only had two days to learn it. But the deadline is next Wednesday for delivering the new migrated project.
+
+11:03 - Chinmay Pandya Some of the concepts and the terms have changed when you migrate from Python to JavaScript.
+
+11:08 - Jorge Lewis Yeah, and that's what bothered me because I told the clients, I looked at the, so I knew the Python SDK and I took a look at the documentation for the TypeScript one and I was like, oh, it's quite similar, same concepts. So I told the clients, yeah, we could be done. I told them yesterday. And then in the past few days, when I started learning like chain on TypeScript, things are so different behind the scenes, like under the hood, it's so different. So I was like, ah, well, shit, sorry, boss. We have to move it to next week. Um, but I'm so confused why it's so different because of, um, because it's the same project. Like, um, yeah, so.
+
+11:49 - Chinmay Pandya Yeah, because Python has some libraries to support a kind of particular behavior. And also the lang chain is not fully effective unless you're using Node.js. There are some applications which will only run in a Node environment.
+
+12:05 - Chinmay Pandya Oh, I didn't know that.
+
+12:07 - Chinmay Pandya Yeah, I had once a project where I had to read from a file. It was a project. I had to create a resume scanner, an ATS scanner. Reading from files with JavaScript. There's no built-in support for reading files by language in JavaScript.
+
+12:26 - Jorge Lewis There is in Python, but not in JavaScript. Yeah, I prefer like now that I've worked with both, I prefer the Python one. It's a lot more the Pythonic way feels better. But yeah, when we're now that we're doing a TypeScript, it's a lot more lean, like our team is for each project, we only like to have two developers. So we get rid of all the distance between the API and the front end. So now we just have one project. So one, both developers are able to work very tight. And there's no like, difference between the database schemas, and we don't have to wait for all those things, because we had a lot of issues with that. So we're going to be able to move a lot faster with TypeScript. Hopefully, that's the idea. I sent you a friend request. Did you get it?
+
+13:16 - Unidentified Speaker Yes, I got it.
+
+13:25 - Unidentified Speaker All right, let me invite you.
+
+13:30 - Jorge Lewis So my co-founder Jonas, he's from Norway. He's been doing this. He's been programming for, we started around the same time, like six years ago.
+
+13:40 - Jorge Lewis He's living in Chiang Mai right now. I'm just traveling around. So he's going to be in Thailand. Chiang Mai is in Thailand. So he's going to live in Thailand for maybe another eight months and then move to, I think, the Philippines.
+
+13:57 - Chinmay Pandya Where do you live right now?
+
+14:00 - Jorge Lewis Right now I live in Hong Kong but I've been traveling for the past three months and I'm not going to live in Hong Kong for a while. I'm going back to Hong Kong for like three days next week and then I'll be in the USA for a month and then Mexico for maybe a month and then maybe depends Japan or maybe in Europe.
+
+14:29 - Chinmay Pandya So you move for the client projects?
+
+14:32 - Jorge Lewis No, not specifically for the clients. Just more of, I love traveling. It's like going, like for me, a really nice work, work life is just, I come to work 10 hours and then for the other time, I just, I work out and then I travel around the city. It's really nice.
+
+14:48 - Unidentified Speaker Yeah.
+
+14:49 - Chinmay Pandya If only I could do that. Yeah, I mean, maybe, maybe.
+
+14:53 - Jorge Lewis One of our team members, Nazif, he lives in Benin. We plan on him, if things continue to go well for the business, we plan on bringing him to Thailand and we'll have kind of an in-person office for a couple months. So if things go well between us as well, that's definitely an option. Is that something you're interested in or just, I mean, this is way in the future, but...
+
+15:14 - Chinmay Pandya Sorry, your voice wasn't audible. Can you repeat what you said?
+
+15:18 - Jorge Lewis Yeah, did you hear the first part about how we're planning to bring our other team member to Thailand or?
+
+15:28 - Chinmay Pandya Wait a second, just excuse me for a second. No worries, no worries.
+
+15:54 - Chinmay Pandya Yeah, sorry. This is actually my mom, she was trying to tell me something. All good, all good, don't worry man.
+
+16:04 - Jorge Lewis When I'm back, if I go back home, you'll see a lot of that, just always my family were knocking.
+
+16:10 - Unidentified Speaker Yeah.
+
+16:15 - Jorge Lewis Alright, I sent you an invite, by the way, to the Discord.
+
+16:18 - Chinmay Pandya Yeah, I joined the group.
+
+16:21 - Unidentified Speaker Oh, okay.
+
+16:23 - Jorge Lewis Didn't, uh... Huh, it's not updating. There we go. Alright, so I gave you the staff role. You should be able to see all of the chats. I'm gonna add you to a three-way chat between you, me, and Jonas. One second.
+
+17:05 - Jorge Lewis All right. I'm going to change your nickname on Discord to your real name. Yeah.
+
+17:14 - Chinmay Pandya I don't know why I sent that user. It was a long time ago.
+
+17:17 - Jorge Lewis I mean, my one is, what's my one? My one is PoorHateGeorgia. It has my name. But, um... Oh, you're in the voice channel. All right, cool.
+
+17:28 - Chinmay Pandya Can you hear my voice on Discord or from the Meet?
+
+17:36 - Chinmay Pandya Sorry?
+
+17:38 - Chinmay Pandya Are you speaking from Discord or from the Meet? The Meet, the Google Meet.
+
+17:44 - Unidentified Speaker OK.
+
+17:45 - Chinmay Pandya Should I mute in Discord?
+
+17:48 - Jorge Lewis Oh, you don't need to go to the voice channel. You can leave it. And voice suddenly got louder. Okay, yeah, so I sent you, I believe, yeah, I also sent you invited to the super base.
+
+18:09 - Jorge Lewis What else? Yeah, you're invited to the GitHub. Oh, let me send the environment files and all the resources.
+
+18:33 - Jorge Lewis All right, so what I sent was the issue in terms of what the behavior I was trying to get but was struggling a little bit with.
+
+18:50 - Jorge Lewis And then here is the environment file. Yeah, just be careful with the OpenAI key.
+
+19:03 - Jorge Lewis And then this is a link to the to where there's a couple resources for like the there's Google Slides there's a like a mine or a diagram for some of the things and the video meetings with the clients.
+
+19:26 - Chinmay Pandya Where are you seeing this actually?
+
+19:28 - Jorge Lewis Oh, okay. Let me...
+
+19:32 - Jorge Lewis Can you see now? It's in a specific channel on Teams.
+
+19:38 - Chinmay Pandya Yeah, I got it. Okay, cool.
+
+19:41 - Jorge Lewis So there's the behavior at the top, the end file, and then the link is to a place where there's a bunch of links for all things. So you can understand the project through there. And then obviously the code will help.
+
+19:58 - Jorge Lewis If there's anything that's missing or you think is more efficient, if we hop in a call and talk, then let me know.
+
+20:08 - Jorge Lewis Yeah, so I guess I can go over the code a little bit, just like five minutes, just explaining what some of the things do.
+
+20:23 - Chinmay Pandya Maybe save you some time.
+
+20:27 - Unidentified Speaker Yeah, that would be helpful.
+
+20:30 - Jorge Lewis All right, let me know when you can see my screen.
+
+20:34 - Chinmay Pandya Yep, it's visible.
+
+20:39 - Jorge Lewis So you'll be able to find the Python projects or the Python code in the API folder in the source. So within here, there's only a couple main files. It's going to be main, assistant, check-in team, and state, and then utils probably. So these are really the main ones. The other ones are being used here and there, but don't worry too much. So you can take a look at the Python code to understand kind of the graph and how it should be working. And then when you're implementing it, it'll be in TypeScript. So that's in the web folder within here. So the main function or the main file is graph.ts. And this function is called by the API run graph.
+
+21:27 - Jorge Lewis So yep, down here is what happens. You don't really need to, you don't need to return anything within this function. It's getting all updated to the database and we're listening to the database changes for new messages.
+
+21:43 - Jorge Lewis So yeah.
+
+21:46 - Jorge Lewis So, okay, let's, let's dive into a little bit of the code. So within this main function, We're just, we're creating the graph. At the moment, like I said, it's just, okay, well now it's a little bit different, but there's just the supervisor and I was testing, trying to figure out how the tools work and trying to get that working. So feel free, completely free to modify all the code here to work. Go on your own branch and name it feature, feature, Chinmay, Chinmay, man.
+
+22:22 - Chinmay Pandya Chinmay, it's like, it's an uh sound.
+
+22:27 - Jorge Lewis Uh, Chinmay.
+
+22:31 - Chinmay Pandya Like that, Chinmay.
+
+22:34 - Chinmay Pandya Chinmay, Chinmay.
+
+22:38 - Jorge Lewis I don't know, maybe it's the microphone. You can call me Chinmay, it's fine.
+
+22:44 - Chinmay Pandya Yeah, voice is lagging in between, but it's, yeah, it's fine if you call me Chinmay.
+
+22:53 - Jorge Lewis I'm going to learn it, don't worry. Yeah, so I mean there's not much in terms of something new here, this is just very standard Lang graph. This is the state, we have just messages and then the next, this is where I was having a struggle with trying to make sure the flow was correct.
+
+23:16 - Jorge Lewis Yeah, and then the check-in team, this is just a module to pretty much separate it from the main code. This is to set up the check-in team. So I can draw a little graph to go over what the graph should look like in the end.
+
+23:38 - Jorge Lewis So first we have...
+
+23:44 - Chinmay Pandya Sorry, you're lagging.
+
+23:48 - Unidentified Speaker Yeah.
+
+23:48 - Chinmay Pandya I said I use the same website. Oh yeah. This one's amazing.
+
+23:53 - Chinmay Pandya Excalibur is the best.
+
+23:55 - Unidentified Speaker Yeah. Yeah. Okay.
+
+23:57 - Jorge Lewis So at this top, there's the, what I, what we're calling the super router. Uh, so this guy's just the very top and then there's, he can select between going to just, or to like just a chatterbox, which is a placeholder for, for later down the road, we'll figure it out. But then the other option is the check-in team.
+
+24:18 - Jorge Lewis Um, And then the check-in team within this, there'll be three people. There'll be the check-in supervisor, the coach, and then data analyst.
+
+24:36 - Jorge Lewis So we have these three. I need to connect my mouse.
+
+24:45 - Jorge Lewis So yeah, so the flow of how it usually works is the data analyst or the check-in supervisor will request data. And then if the user gives the data, the check-in supervisor won't respond. He'll tell the coach, hey, the user has given us data, provide some coaching on it. The coach will say, all right, let's do that. But before that, he's going to ask the data analyst, hey, is there any data insights that we need or that you have for the user? So, for example, if the user in the past seven days has walked, let's say 30 minutes every day, but then today the user says, oh, I only walked five minutes today or 10 minutes. Then the data analyst will take a look at the long term and say, oh, hey, today was a lot lower than the past seven days. Let's tell the coach this. So the coach will be told that and the coach will say, okay, You the past seven days you've done this today was a bit slower. Why is that? How can we improve that and the coach will just help the the user try to fix the problem?
+
+25:51 - Jorge Lewis Yeah, I mean the don't worry too much about in terms of like the actual behavior of each of these guys Just more so getting it to work in the way that like the steps is how I described it in in the message Just Yeah, so it's just the user gives the data, the check-in updates, the supervisor updates the database, and then selects the coach. The coach will request data from the data analyst. If there is insights, then he returns it. If not, nothing happens. Then the coach will use that to make some response to coach the user. There are a couple examples that I'll find and send to you to hopefully give you an idea. But yeah, that's kind of the idea of what it's going to look like,
+
+26:39 - Chinmay Pandya Any questions?
+
+26:43 - Chinmay Pandya So which part of this behavior is not working like you wanted it to?
+
+26:53 - Jorge Lewis Maybe it was my lack of experience, but I was on the part where I was learning how to do this. Because in Python, I knew how to do it. But in TypeScript, when I was trying to implement this in TypeScript, I was like, okay, there's a bit of a difference in terms of how things are done. So I spent a little time learning, and then I figured out, okay, I can't do it the exact same way as Python. So I was exploring different ways to do it. None of them felt right, but that's just because I have no experience with the TypeScript one. So I was hoping that you could come up with a solution yourself and just see how it works. I haven't really tried a solution. One of the solutions that I was kind of brainstorming Don't take this as the answer, just as an idea, but I was trying to inherit the tool node, the default or the pre-built tool node. And also, instead of having it only return a new message, also return a parsed version of the output. So when you have a tool, it outputs a string. So for example, if we stringify an object like this, the next, then within this new tool node, we can parse it down and try to return it as the state so that it updates the state. That was kind of one of my solutions. But the reason I haven't done it yet is because I'm wondering why that isn't the default. So I'm wondering if I'm doing something fundamentally wrong. I don't know. That was kind of my issue where I've left off.
+
+28:31 - Chinmay Pandya So the expected behavior is that when you pass in the data or whenever the user enters his activities, so the expected behavior is the end result from the coach about how he should be.
+
+28:54 - Jorge Lewis Let me send an example. I have it somewhere.
+
+29:13 - Unidentified Speaker I don't know where it is.
+
+29:22 - Jorge Lewis By the way, do you have any friends that are doing programming as well? I'm just curious.
+
+29:28 - Chinmay Pandya Yeah, a lot of my friends are into this.
+
+29:33 - Jorge Lewis Any of them into LangChain as well?
+
+29:36 - Chinmay Pandya Not many use LangChain, but they are pretty familiar with the framework. They use Hugging Face and Lama Index and other frameworks.
+
+29:53 - Jorge Lewis Cool. That's cool. So you guys are all like big into AI now. Yeah.
+
+29:59 - Jorge Lewis That's cool.
+
+30:01 - Jorge Lewis Are all of you guys kind of doing things outside of school, like maybe internships or finding work or like own projects?
+
+30:07 - Chinmay Pandya Yeah, everybody is looking out for internships because in India, you cannot rely on your degree. Your what, sorry?
+
+30:18 - Chinmay Pandya In India, it's like you cannot rely on your college degree unless you're from an IIT.
+
+30:23 - Jorge Lewis So everybody has to be like, we have no choice.
+
+30:29 - Chinmay Pandya Some people do it because they have no choice, but we do it because we like to gain skills and experience. Yeah.
+
+30:36 - Jorge Lewis That's cool. That's really cool. It's super, super competitive, right? The whole scene in India with tech.
+
+30:43 - Chinmay Pandya Yeah, there's just too many too many people in the market. Yeah.
+
+30:49 - Jorge Lewis Oh, yeah, we totally I don't know what happened to that conversation, but we're talking about traveling. I mean, I think you can hear me. So one of our team members, Nazif, he lives in Benin, in Africa. And he's been with us for about like six months, I think. And the plan is to, if the business keeps doing well, then we'll bring him to Thailand for a couple months. And we'll have like a like an in-person office for a couple months and see how that goes and just Get to meet each other and have fun. That's uh, so I was asking you if that's like something that would like to sound exciting or That does sound exciting In the future things go well, of course, but yeah Yeah, I've always wanted to do something of my own or be a part of a team I really want to build like a team that's like everyone's friends within the team and it's not like the normal agencies or the consultancies where it's just like everyone is kind of like a tool, it feels like at the bigger consultancies. So I want to feel like our team is very tight and everyone knows each other, we enjoy working together. And we're with each other for the long term. We don't have to work all together in the long term, but the idea is that we're growing together throughout the time that we're working together. If any of our team members has a better opportunity or more interesting opportunity somewhere else, that's something we hope for because whatever they find interesting is what we're happy with. Yeah, just growing with each other has become something we really enjoy. Like for me, I work like around 90 hours per week. I cannot do that if my team is like really annoying, like I can't. So it makes it so that I can continue working hard and enjoying what I do. So I sent an example chat, by the way. Is there anything I'm missing?
+
+32:43 - Unidentified Speaker Yeah, let me see.
+
+33:17 - Chinmay Pandya So it is a chat application for daily check-ins and advisory purposes.
+
+33:26 - Jorge Lewis I don't think it's too new, but the idea is that over time, the concept is not new for sure, but the client's a very big guy in tech. He's been in tech, IT, for like 15 years, but a couple years ago with his wife, he started doing life coaching, so they think this is a really good like a way to help their clients and to scale. On this note though, the clients for this project, his name is Kuhn. You'll see him in the videos of the meetings. He's very, very big for us. He's quite important because he has a very, very strong network and he'll be able to, if we perform well on these projects, he'll be able to bring us a lot of business from like higher paying clients. So that's kind of the goal. Just so you know.
+
+34:21 - Chinmay Pandya So it's like a critical project you have here.
+
+34:25 - Jorge Lewis Yeah, yeah. Let me, I mean, yeah. Yeah, cool. You can search him up if you want. Cool. I think that should be it. Anything we haven't gone through?
+
+34:41 - Chinmay Pandya Yeah, I just wanted to analyze the behavior of the individual components. You said there's a, there's a supervisor who requests data and the coach and an analyst.
+
+34:56 - Chinmay Pandya Yeah, but that will be the backend, right? That that's not what the, that's not visible to the user.
+
+35:03 - Jorge Lewis Yeah, for the for the user, it's for the user experience. What it's like is just talking to a life coach, one person, it's like, they want more data, you give them more data, they provide coaching, and then you say, Okay, cool.
+
+35:17 - Chinmay Pandya So we analyze the individual components, if only an individual component is not behaving properly.
+
+35:25 - Jorge Lewis Because it's all connected.
+
+35:28 - Jorge Lewis Well, we haven't. What do you mean?
+
+35:32 - Chinmay Pandya Like there's the three components for the you to get back and also you have to go through three components, right?
+
+35:39 - Chinmay Pandya So, uh, does the entire system not behave as expected or one of the components?
+
+35:46 - Jorge Lewis There is no system right now. The, the, um, the, our graph hasn't been made in, in TypeScript before. The only, the only line graph stuff currently is just the, um, It's just the sample stuff, like the supervisor, the researcher. And then I was testing with the tool guy. Um, our, if you want to see an implementation of our graph, our line graph, you can take a look at the Python code. That's where you'll find hopefully more useful stuff.
+
+36:14 - Unidentified Speaker Yeah.
+
+36:14 - Chinmay Pandya I would have to look at how it was used to work in Python. Then I'll try to figure out why. Are you like right now, are you more familiar with the Python or the type of the JavaScript or TypeScript one? I have used Python more actually. I've used Python more, but for, uh, uh, web application projects, of course I use TypeScript.
+
+36:42 - Jorge Lewis Yeah. Um, could you, I have terrible memory. Uh, things are moving too fast as well. Um, what's your, is what's your experience with, uh, Lang chain in TypeScript? Yeah.
+
+36:58 - Chinmay Pandya So Lang chain in TypeScript, I do not have a professional experience like working for a company. I have experiences like where I have participated in competitive hackathons. Yeah. So there, uh, this, uh, this is, uh, your project, this project, it sounds very familiar to me because last year there was a hackathon where me and my team, uh, were, uh, working on a project where the user will enter in his daily schedule and, uh, the AI will support him with a fitness guideline for his entire week. Kind of a similar project there. I use Lang chain with JavaScript not TypeScript. Yeah, same thing. Yeah, just the type definition is the only change. Yeah, that should be fine.
+
+37:53 - Chinmay Pandya I use Lang chain with JavaScript. Yeah.
+
+37:55 - Unidentified Speaker Yeah.
+
+37:56 - Chinmay Pandya And before that, I did an internship as a full stack web developer where I used Next.js and TypeScript.
+
+38:07 - Jorge Lewis Next.js and TypeScript. Yeah, our project's using Stokke. The setup should be quite simple, just pnpmi, pnpmdev. If you set up the environment file, it shouldn't be an issue. You have access to Superbase, GitHub. I gave you my OpenAI key. Just change out the langsmith once for your one, just so you can debug.
+
+38:30 - Jorge Lewis Yeah, I think that should be it. I'm heading to the gym now, so I'll be back in about an hour and a half. If you have any issues, text me and I'll be able to respond from my phone. If you have any issues, please text me because I'd much rather help you move faster than just you're trying to figure it out by yourself. Do not feel like you're bothering me at all because it's I enjoy helping people because in the same way you guys are helping us so yeah, and then Compensation just just to be totally honest. We're I'm gonna discuss it with my co-founder today Hopefully I can give you a response by today. If not tomorrow if that's cool with you Yeah, that's cool Thanks, man.
+
+39:14 - Chinmay Pandya Sounds cool Take care. Have a good working on it and then it takes you and you think I face any issues. See you soon, man. Bye. Bye. See you soon

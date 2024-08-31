@@ -1,0 +1,130 @@
+Meet Meeting 
+Sat, Aug 24, 2024
+
+0:00 - Jonas Lindberg Okay.
+
+0:56 - Cuan Mulligan Oh, Yeah, I've just done my ice bath, so I'm cold, but otherwise, otherwise good. I have a, I've had an ear infection for about six weeks now. So this ear is completely blocked. I can't hear anything. So I might do this because I can't hear, but
+
+3:34 - Cuan Mulligan Okay.
+
+3:35 - Cuan Mulligan Cool. Um, so this is quite exciting, but also quite overwhelming in terms of what it's doing and how I interact with it and what I, how I tweak it or not. So, um, let me, let me take you through what I think I was trying to do. Uh, I'm just trying to load the page. Okay. Right. Let me see.
+
+4:06 - Cuan Mulligan Can you see that now?
+
+4:12 - Jonas Lindberg Yeah, it's coming up.
+
+4:17 - Cuan Mulligan Yeah, I can see it. Cool. All right, so finding your y. And what I was trying to do was build a step, get comfortable with that step, and then build the second step, and third step, and fourth step. Yeah.
+
+4:31 - Cuan Mulligan I copied these roles and supervisor roles from main because I didn't know any different. Um, I did actually create a second step last night because you can see here, it suddenly went into a second step. So let me just clear this down. Um, yeah, I changed this. It's not saving still.
+
+4:55 - Jonas Lindberg Yeah, I think I found the cause of the issue. It saves correctly to the database, but when the application reloads, it uses a local cache of what's been written, which is the previous cache and not the updated cache, and overrides it, and then saves it again, which deletes the changes. So I think I'm on the brink of fixing that issue. OK.
+
+5:19 - Cuan Mulligan Yeah. Makes sense. So does that need to be fixed before we test this? Because I think it's going to be really problematic if I'm doing stuff. Yeah.
+
+5:31 - Jonas Lindberg No, absolutely. That should be. Or, well, what you do shouldn't be an issue because I'm testing on another workshop. But I imagine it's quite annoying and hard for you to test it when it's not saving properly.
+
+5:44 - Cuan Mulligan Yeah. So if I say hi, just let's see where I get to here.
+
+6:01 - Jonas Lindberg Oh, it's crashed. Which workshop is this? 517.
+
+6:05 - Cuan Mulligan If I go back to finding your Y.
+
+6:12 - Unidentified Speaker Gateway Okay.
+
+6:35 - Cuan Mulligan I mean, I want to change this text. So how much of this text is impacted by this purpose?
+
+6:43 - Jonas Lindberg To explain kind of how the steps work, you can scroll down to the facilitator.
+
+6:51 - Jonas Lindberg Yeah, it's the one above there. This is the facilitator's whole prompt. And you can see that in the instructions, if you read them, it's saying you are currently in the step of the process. Your objective is to purpose until the desired outcome has been reached. Those curly bracket fields are being replaced by the text in the step above.
+
+7:13 - Unidentified Speaker OK.
+
+7:18 - Cuan Mulligan So what I don't understand is if the desired outcome has been reached, you must say advanced step and only advanced step. I'm assuming that's an internal messaging.
+
+7:27 - Unidentified Speaker Yeah.
+
+7:28 - Cuan Mulligan It doesn't say that.
+
+7:30 - Jonas Lindberg Yeah. So when it says advanced step and only advanced step, it advances the step in the database and then it calls the bot again with the new step. So with the new instructions.
+
+7:42 - Cuan Mulligan Okay. Well, that's not, this is a system message. It's not going to ever be displayed to the customer. The user?
+
+7:47 - Cuan Mulligan No, no. Never.
+
+7:49 - Cuan Mulligan OK. That makes sense. OK. Yeah. And context message, you're creating a response for?
+
+7:56 - Cuan Mulligan What does that mean?
+
+7:58 - Jonas Lindberg Message, you can read above in Facilitator. Message is the message the browser is responding to, so most likely the user's message.
+
+8:07 - Unidentified Speaker Right.
+
+8:07 - Jonas Lindberg The message, hi, that you sent, is the one that gets entered in there.
+
+8:11 - Cuan Mulligan Fine. So that's the last message. That's all the history. Yeah. Is this not going to have a massive payload? You're including an increasing history of a very long conversation every single time.
+
+8:26 - Jonas Lindberg Yeah, it's an important task to rework that to use rag or knowledge graph, but it's not an urgent task since we're quite early in testing still, but when it launches to production, we'll, I think, or you should ask George about this, but on the notion, I saw the long-term memory thing was tasked up. So it's going to be implemented later down the road. And then the context window will be minimized and more smartly done towards just remembering what it should Yeah, because it could be a lot of garbage in there that's not needed to be retained.
+
+8:58 - Jonas Lindberg It has no value. Fine.
+
+9:01 - Jonas Lindberg But for now, we're just fitting everything in because that's the easiest way to test.
+
+9:05 - Cuan Mulligan Yeah, that's fine. So consistently. Let's have them change this to traditional.
+
+9:27 - Jonas Lindberg I don't know if it will save properly now. I think I added some debug stuff. So if you had F12 on your keyboard, we can kind of see the commands that are being run on the background.
+
+9:46 - Jonas Lindberg There, you can see it's saving the different steps with the updated data. And what I noticed is it's saving it correctly, and the database, it's being updated correctly. And then when the page is reloaded, it's overriding it with the old data. So it's some local cache that it uses, which it shouldn't be using. And I think I figured out where it's coming from
+
+10:08 - Cuan Mulligan OK.
+
+10:16 - Cuan Mulligan Okay, so what I wanted to understand was the second step and how to tweak it, but I don't know whether we're gonna be able to do this until you've got that bug fixed. We won't know.
+
+10:31 - Jonas Lindberg So what may work is like while you're editing the prompt here, never reloading the page and just talking with it in the chat. But I think everything you write will be deleted when you reload the admin page then. But for testing now, I think that works.
+
+10:48 - Unidentified Speaker Yeah.
+
+11:04 - Cuan Mulligan So for example here, if I've said, I think so, okay, let's proceed. It seems to double check. And I think it's because it's taking this fully understands and this is too strong a word. And so looking for re-confirmation after the user said, yes, like, are you sure? Are you really sure you're sure? And it gets into this cycle of like it's threatening for cut from moving to the next step seems very high.
+
+11:36 - Jonas Lindberg Yeah, you define that threshold. When the bug is fixed, obviously, you can edit that line, the outcome line, instead of saying fully understands, you can add it to when the user is ready to proceed or something.
+
+11:54 - Cuan Mulligan Again, so if I say the user confirms they understand and are happy to proceed. Just for example. So if I trash this, do you think this will use that text now or?
+
+12:21 - Jonas Lindberg It's a little bit hard to know because it's on the deployed version locally. I can look at which prompts exactly were called.
+
+12:34 - Jonas Lindberg But we can see if it advances when you say, I think so.
+
+12:56 - Cuan Mulligan That's crashed something.
+
+13:06 - Cuan Mulligan I think this means because there isn't a second step, it doesn't know what to do. You Yeah.
+
+16:24 - Cuan Mulligan And it's sort of crashing now. Every time I try to send something, it's not working. So I'm wondering whether we need to.
+
+16:33 - Jonas Lindberg That's because it's advancing into a step that doesn't exist. OK.
+
+16:39 - Cuan Mulligan So if I create a new step, which is basically establishing the users why I think what I had started to do was start copying and pasting this into notes rather than... Yeah.
+
+17:04 - Cuan Mulligan But anyway, so I'll just say, okay, seek to understand why the user is signing up to the ADAPT program and what they want from it, why it's important to them. So the icon of the step is for the agent to be able to assess something, right?
+
+17:45 - Jonas Lindberg Yeah, it's for the agent to assess when to call the advanced step, which goes on to the next step.
+
+18:34 - Cuan Mulligan Okay, good. Here. Trash.
+
+18:49 - Jonas Lindberg I'm going to be switching over to laptops, so I won't be hearing you for a second.
+
+19:05 - Jonas Lindberg Can you hear me?
+
+19:25 - Cuan Mulligan Yeah. So this is an odd question. This feels like it's been trained on, like your values or like, I don't know where this message came from and why it's doing that. So how do I tweak this?
+
+19:45 - Jonas Lindberg I think tweak the instructions in the step. For the example, the instructions in the step is pretty like short, but I think you can expand it to be like quite a long piece of text inside the purpose. The purpose is kind of the whole instructions of how to go through it.
+
+20:05 - Jonas Lindberg Um, but can I see the question again? Let's start by understanding what truly drives you think about the time when the culture. Yeah. It's not really in line with what instructions you've had for the staff.
+
+20:24 - Cuan Mulligan Yeah. And when I did this last night and I had a second step, it was starting talking about what are your core values. Yeah. So it seems like it's taking, it's got an idea of what a value workshop is as opposed to this workshop.
+
+20:40 - Jonas Lindberg So what I think is happening is because of the bug that's currently present, when you click New Step, it saves properly the new step of the default instructions, which is nothing instructions, basically. So it just kind of makes up itself. So I think it's got to do with the bug that I'm trying to fix.
+
+21:01 - Cuan Mulligan Well, let me jump off then. And you crack on. Just hit me when you've got that bug fixed, and we can try and reconnect.
+
+21:08 - Jonas Lindberg Yeah. Perfect.
+
+21:11 - Jonas Lindberg Yeah, cheers. Bye bye.

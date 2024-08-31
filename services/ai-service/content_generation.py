@@ -1,47 +1,79 @@
+import asyncio
 import os
+from typing import Annotated, Literal, TypedDict
 
-from typing import Annotated, TypedDict
+import dotenv
+from langchain_core.messages import HumanMessage
+from langchain_openai import AzureChatOpenAI, ChatOpenAI
+from langchain_core.tools import tool
+from langgraph.checkpoint.memory import MemorySaver
+from langgraph.graph import END, START, StateGraph, MessagesState
+from langgraph.prebuilt import ToolNode
+from langgraph.prebuilt import create_react_agent
 
-from dotenv import load_dotenv
-from langgraph.graph.message import add_messages
-from langgraph.graph import StateGraph, START, END
-from langchain_openai import ChatOpenAI
+from querying.global_search import global_search
+from querying.local_search import local_search
 
-from IPython.display import Image, display
-from langchain_core.runnables.graph import CurveStyle, MermaidDrawMethod, NodeStyles
+from models import GlobalSearchResult, LocalSearchResult
 
-load_dotenv()
+dotenv.load_dotenv()
 
+AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-if OPENAI_API_KEY is None:
-    raise ValueError("OPENAI_API_KEY is not set")
-
-class State(TypedDict):
-    messages: Annotated[list, add_messages]
+@tool
+def search_graph(query: str) -> GlobalSearchResult:
+    """
+    Search a knowlege graph for a given query.
+    It uses an agent to search the graph and return the results.
     
+    It is using a brute force technique to search the graph, using both global
+    and local search to get results to get the best results.
+    """
+    global_result: GlobalSearchResult = asyncio.run(global_search(query))
+    local_result: LocalSearchResult = asyncio.run(local_search(query))
     
-graph_builder = StateGraph(State)
+    final_result = f"""
+    The RAG Agent has returned the following results:
+    
+    -Global Search Result-
+    
+    {global_result.response}
+    
+    -Local Search Result-
+    {local_result.response}
+    """
+    return final_result
 
-llm = ChatOpenAI(model="gpt-4o")
 
-def chatbot(state: State):
-    return {"messages": [llm.invoke(state["messages"])]}
+tools = [invoke_global_search, invoke_local_search]
 
-graph_builder.add_node(chatbot, "chatbot")
+tool_node = ToolNode(tools)
 
-graph_builder.add_edge(START, "chatbot")
-graph_builder.add_edge("chatbot", END)
+azure_llm = AzureChatOpenAI(
+    api_key=AZURE_API_KEY,
+    deployment_name="gpt-4o",
+    model="gpt-4o",
+    azure_endpoint="https://startino.openai.azure.com/",
+    api_version="2024-02-01",
+    max_retries=20,
+)
 
-graph = graph_builder.compile()
+openai_llm = ChatOpenAI(
+    api_key=OPENAI_API_KEY,
+    model="gpt-4o",
+    temperature=0,
+)
 
-print(graph.get_graph().draw_mermaid())
+llm = openai_llm.bind_tools(tools)
+
+graph = create_react_agent(llm, tools=tools)
 
 while True:
     user_input = input("User: ")
-    if user_input.lower() in ["q", "exit", "quit"]:
+    if user_input.lower() in ["quit", "exit", "q"]:
         print("Goodbye!")
         break
-    for event in graph.stream({"messages": user_input}):
+    for event in graph.stream({"messages": ("user", user_input)}):
         for value in event.values():
-            print("Chatbot: ", value["messages"][-1].content)
+            print("Assistant:", value["messages"][-1].content)

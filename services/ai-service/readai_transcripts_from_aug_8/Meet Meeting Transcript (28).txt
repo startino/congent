@@ -1,0 +1,322 @@
+Meet Meeting 
+Sat, Jul 13, 2024
+
+0:44 - Eksno Oh.
+
+1:58 - Unidentified Speaker Hey, can you hear me? I can, do you, Jack? Perfect. Bye.
+
+2:51 - Eksno Will, can you hear me? We're in the Google Meet. I sent a link in Discord.
+
+2:56 - Eksno Will, can you hear me?
+
+2:58 - Eksno I sent a link in Discord to the Google Meet.
+
+3:04 - Eksno Yeah, Google Meet. Yeah, I sent a link in Discord.
+
+3:10 - Unidentified Speaker Yeah, perfect.
+
+3:11 - Eksno See you there.
+
+3:27 - Will Vincent Parrone Hey, can you hear us?
+
+3:33 - Will Vincent Parrone What part of the world are you in?
+
+3:51 - Cuan Mulligan Yeah, well, can you double-check your microphone that seems to be a little worse than last time I I'm not sure you're using the correct microphone.
+
+4:32 - Will Vincent Parrone Sorry about that. I, uh, my VPN reset. Cool.
+
+4:34 - Cuan Mulligan So what do you, what's the, what's the, Jonas, what do we want to get out of this meeting? I'm happy to do whatever is needed or just talk about stuff in general.
+
+5:00 - Eksno Generally, Will is the new Smothkit developer. He's going to be coming onto that, getting familiar with our tech stack. So basically, now we have the capacity to make all the UI, UX changes that you were requesting previously that we didn't have time to focus on at those times. And also the UI, the new piece of UI that we're developing, which is the to-do applications that's check-in item manager. So that you as an admin can add and edit check-in items that are mandatory. And also the user can add their own check-in items or to-do items throughout the day.
+
+5:43 - Cuan Mulligan So let's take it back out 10,000 foot and see what we're trying to do here. So ultimately, this is about, and again, I'm just making this shit up as I talk now. So challenge me and see what you think is good or not good.
+
+6:05 - Cuan Mulligan Sorry, I've just woken up, so I'm still tired.
+
+6:13 - Cuan Mulligan The interface itself is going to be really interesting to figure out what is the right blend of traditional web pages that I navigate to push something that we push to the user, and they can click, and they can just input versus chat versus talking.
+
+6:37 - Cuan Mulligan And when we originally did a lot of the UX and the work, like, Will, have you seen the original wireframes and stuff?
+
+6:45 - Cuan Mulligan Okay, let me see if I can show you something. Sorry, I'm trying to find this now.
+
+7:06 - Eksno Well, can you see if you can lower your volume a little bit? It still seems to be a little too much.
+
+7:18 - Unidentified Speaker Got it. How about this?
+
+7:19 - Eksno Is this better? Yeah.
+
+7:20 - Unidentified Speaker Yeah.
+
+7:20 - Eksno That sounds perfect to me. Okay. Thank you.
+
+7:23 - Unidentified Speaker Okay.
+
+7:27 - Cuan Mulligan Sorry. I'm just trying to find stuff that's not working for me.
+
+7:48 - Cuan Mulligan That is a very interesting email.
+
+7:52 - Cuan Mulligan What's the story behind that? I made it during early 2010s.
+
+7:58 - Will Vincent Parrone Back in the days, I think bands like Linkin Park, Green Day. Yeah, those were the common stuff and everyone's all emo so I was... I was a part of that emo phase. I just did not change the email address. It's like a memorial to a time when I was an emo.
+
+8:27 - Will Vincent Parrone Nice. Good story.
+
+8:31 - Cuan Mulligan So let me... I'm getting closer to this now. Right.
+
+8:40 - Cuan Mulligan What I'm going to show you is the legacy thinking. So you want to sign where we've come from
+
+8:46 - Unidentified Speaker Okay.
+
+8:49 - Cuan Mulligan So let me know when you can see that screen there.
+
+8:58 - Unidentified Speaker Can you see that?
+
+8:59 - Will Vincent Parrone Yep.
+
+8:59 - Will Vincent Parrone I can see it now.
+
+9:04 - Cuan Mulligan So we're The idea was it was going to be a website. You have this sort of sense of 10 weeks or 12 week program. Across these four pillars of eating, moving, sleeping, and mind. So it was very traditional. You'd have a daily dashboard and some weekly content. So this is what it would look like on a daily basis. You'd have this sort of where we are in the week, what's your focus for the day, some motivational content, some video, some education. And then these actions that you had to do to track your calories, your walk, your sleep, and your mind. Or update your profile stuff like that. So this update your profile was very similar to LinkedIn where it basically says your profile is 20% complete do more. So that's sort of encouraging you to complete your profile and The idea here is that you've got you sort of here's my progress of moving Over by time I can see my reports I can see my progress. So this was the the the interface, you've got sort of achievements and the badges to say, hey, you're doing really well. You're on day one of 84. So where you are in the overall program. And then this is just where you are as it was a calendar type thing. So as a high level, does that sort of make sense?
+
+10:23 - Unidentified Speaker Yep.
+
+10:24 - Cuan Mulligan Still making sense.
+
+10:26 - Cuan Mulligan Now, that was before we were considering chat as being an option and the AI. So that was when it was just a standalone LMS website. It was a learning management site. So now this is what that has come into in my head. So this is the, and again, this is not complete. This is just me thinking with my brain. I don't know if this is accurate, So the idea here is that this is your daily quote, like what the focus of the day is. So it's bad habits. Then the mentor is speaking to you. It's like, welcome to day 10. This is what we're all going to do today. Here's a video that you should watch. And then here are some input boxes, sleep time, wake time. You wouldn't put all of this in in one go, by the way. It would be progressive over, this is a conversation, not just spamming you in the context. It's just showing the different modalities of having text and buttons to engage with the user.
+
+11:45 - Cuan Mulligan So if we're now saying, for example, when you sign up your profile and you go, Right.
+
+11:58 - Cuan Mulligan Do you drink coffee? I do coffee. Well, if you drink your coffee, well then we'll give you a reminder that around one o'clock or about nine, 10 hours before your bedtime, we would suggest that you don't have any more coffee. So that's a reminder, but that's built into the system. But if you were chatting and you said something, for example, like, Oh, I've got a really busy day tomorrow. I'm not going to be able to get my walk in.
+
+12:28 - Cuan Mulligan And the agent said, are you sure? Could you get off a station earlier? Could you walk a bit this? I was like, actually, I could leave earlier. Would you like me to set you an alarm for that? Yeah, great. So that alarm then becomes a custom to-do item, in essence. It's just a thing to remind you about.
+
+12:52 - Cuan Mulligan If we know, for example, that you're going to do the weather, or say you're going to do a walk, and you wake up in the morning, and we know for your area that it's going to rain from 4 o'clock, we might say, hey, in the morning, hey, it's going to rain around 4 o'clock today, so try and get your walk in earlier. Would you like me to schedule a time for you? And it's like, yeah, remind me around 10 AM. No worries. I'll remind you. So that becomes a custom to do. And you might say actually as part of this which we don't really do as part of the program It's saying I now want to go to the gym Monday Wednesday and Friday at 9 a.m. Or 10 p.m. Whatever doesn't matter Okay, I can track that for you and I'll remind you about that. So that would become a custom thing. So you're not necessarily Tracking the progress of us we can do but it's more about just becoming a useful point of good things I want to do, or new habits, and that I can get reminded for them. And if I want to track them, we can ask to track them as well. But you don't have to track any of your custom ones. You can certainly ask them, but it wouldn't necessarily be something that you want to do.
+
+14:05 - Unidentified Speaker Does that sort of make sense?
+
+14:09 - Will Vincent Parrone I'll try to summarize what I understood, what I've understood. So basically, the to-dos are the outputs made by the chat engine, like for reminders, for tasks, for habits that the user wants to do, and that they are saved within the database and they are, if the user wants it, they are recorded. To be used as reference by the user at a later point of time?
+
+14:52 - Unidentified Speaker I think so.
+
+14:53 - Cuan Mulligan But what I think with these things, it's more useful to not talk about the technical solution initially until we get aligned on what the user experience and the outcome is that we're trying to find.
+
+15:12 - Unidentified Speaker OK.
+
+15:13 - Cuan Mulligan So the objective here is that we have things. It's basically habits, right? And the habits have come from the system, or a habit can come from the user. A habit can have a reminder, and a habit you can track. If we have that core capability, we then can scale whichever way we want.
+
+15:45 - Will Vincent Parrone So we start by letting the users create their habits first. Do I get that right? No.
+
+15:51 - Cuan Mulligan So the program itself will have default habits. So if you really want to take control of your health, there's four areas that you need to be working on. Eating, so what goes into your mouth, your movement, what you're doing, exercise and gym, sleep, And then your mindset. So there's, there's habits that were forming around those four areas on a daily basis. So for example, it will be, don't eat any seed oils and walk for an hour every day. They will be the two basic ones. And then try to have good sleep hygiene, which is going to bed and, um, waking up at a very similar time every day of the week. So they will be the first three habits that we would be advocating for you.
+
+16:43 - Cuan Mulligan And the system has those by default, because that's what we're recommending people. They're good habits to have. So through the course, people can add in new habits if they want to. And we might recommend habits beyond that. But fundamentally, you have the ability to have a habit. A habit could have reminders. So we're going to ask them about it, remind them to do it, and it can then also have the ability to track it. So you're saying, did you do it? What did you do? And then we can track that progress over time.
+
+17:19 - Will Vincent Parrone Can you repeat the last sentence? I just need to put it in notes. Ability to have reminders, ability to do it, and the ability to So it's the ability to create a habit, remind about a habit, and then track a habit.
+
+17:45 - Cuan Mulligan So tracking is, like, did you, like, reminder is saying, hey, remember to do your walk today. Tracking is saying, how far did you walk and how long did you walk for?
+
+17:59 - Cuan Mulligan And then habits would have progress. So I just put an image in there Um In the discord channel and you can see uh, like that's a physical habit tracker You know, there's there's lots of different ways of Of people tracking their habits Trying to there was there was a new one, but I saw that was really good. I don't know where it is there was a, there, this, I can't find it now. I won't take up the call, but there was a sort of a calendar on a wall that you basically got to push a button and you say, I did this, I did this. So you had your habits and you could see it physically reminded. So the one that you're missing from the current interface, that's sort of the, sort of the day to day interactions, but there's no, at the moment, there's no sense of like the overarching progress. Like, where's the report? Like, Hey, you're, you're, you've done 15 miles so far. Brilliant. Um, on average, you know, if you look at saying in the first week, you were walking for an hour and you were doing three kilometers. Now you're walking for an hour and you're covering five kilometers. You've improved this amount. That's amazing. Well done. So the progress is also a really important one as well.
+
+19:44 - Unidentified Speaker Okay.
+
+19:45 - Will Vincent Parrone Okay. I think we're starting to understand each other. So let me see if I got things right now. So for the next few days, I'm going to be creating a feature that allows me to create a habit that can be tracked and be reminded to users, right? And in a sort of habit tracker type of UI.
+
+20:16 - Cuan Mulligan Well, I don't think there is a habit tracker UI. There is just the UI. There is our app, which is a chat with your mentor. And all you're basically saying to the mentor is, can you remind me of this? Are you guys thinking that this is like a separate page where I have a list of my to-do items?
+
+20:43 - Will Vincent Parrone At first, that's what I'm thinking. But from our conversation, do you want it to be like...
+
+20:52 - Cuan Mulligan What I would imagine would be very useful to do then is that we need to create sort of a higher-level site map of high-level wireframes first before we build anything. Because there's definitely the chat interface on the mobile, right? But what happens if I want to go back a day? What if I want to look at my profile? What if I want to go in my profile? There's probably a page where here's all the habits that I'm tracking, where I could delete them, or I don't want to do this anymore. So there are certain things that chat is really useful for and other things that it's not very useful for. So seeing a list of all of my habits that I want to track or not track. So for example, you know, Like this is the iOS to-do list. I don't think it's this. This is not what I'm thinking happens. So I think it's most important that we figure out what the screens are and don't build them until we've actually agreed on what the wireframe and the user flow is. Does that make sense?
+
+22:12 - Will Vincent Parrone Yeah, that makes sense to me.
+
+22:16 - Cuan Mulligan Because again, if we start building something as a single solution, you don't have... Jonas, remember we were talking earlier on about if you have a software project with 100 files and you want AI to migrate it, it will work on one individual file and that's fine. But then when it goes to the next file, it's got no context of the other one. And therefore, it doesn't actually fix the problem. That's what I feel we're at risk of here. If we just start looking at point solutions, rather than looking at the entire user experience, what is that? And that's what I started to do on Merle, where I said, well, this is what I think a day looks like, These are the chats.
+
+22:59 - Cuan Mulligan So let's take this back. Where do habits get created? When do they do this? So the stuff that we have, there is stuff that may come up in conversation with the mentor or the coach, that the mentor or the coach says, I can track that for you. Would you like me to? Oh, yeah, cool. Do you want a reminder on that? Is there something that you want to add to your daily tracking to track progress on? We think that's a good idea. Yeah, I would love to. Great. So that's just done through chat. There is no interface to do that. But what we don't have at the moment is, within this, is like, what happens? How do I see my progress on my walking over the last four months? There's no screens for that at the moment. So whatever mechanism we work on that would be the same for tracking the progress of any habit. What if I want to manually just go in and see everything I'm tracking? So it's not really a to-do list. It's more of a habit tracker. And maybe that's inside your profile. So there's a profile page where you've got literally all of your settings and all of the things. And you can delete habits, or you can show them But yeah, I think we need to explore what is the UX and the user experience here before we start building anything.
+
+24:22 - Cuan Mulligan And it doesn't need to be high fidelity, right? I'm just in Merle. I can share this Merle with you, Will, and you can, by all means, jump in.
+
+24:34 - Cuan Mulligan Let me ask you, where is that?
+
+24:38 - Eksno I also remember you showed me a proposal for how you could see back in time the progress, where you had a button on the bottom left, which was just the Adapt logo, which opened up the different tabs of Move Easily.
+
+24:53 - Unidentified Speaker Yes.
+
+24:53 - Cuan Mulligan For example, let me share that with you now. Can you see this? Actually, that's not correct.
+
+25:10 - Cuan Mulligan It needs to be here. Hold on a second. Where is this?
+
+25:26 - Cuan Mulligan Okay, yeah. Let me share this.
+
+25:31 - Unidentified Speaker So interconnected.
+
+25:31 - Eksno Will, can you see this now?
+
+25:40 - Will Vincent Parrone Uh, not yet. It's loading. Yep. I can see it now. Okay.
+
+25:46 - Cuan Mulligan So the idea here, so this is, do you use Figma at all?
+
+25:49 - Unidentified Speaker Yep.
+
+25:51 - Cuan Mulligan So I can share this file with you. So this is just the Figma thing. I'm just making shit up here, by the way. I'm not a designer. I'm just pulling shit together. Um, so this is the chat. This is the, you can see that this goes behind there. This is the, the, with the, with the, with the keyboard engage. So you can see how it moves up. And then the idea was, if you clicked on the Adapt icon, that would appear here as Eat, Move, Sleep, and Mind. And that's where you would see your progress. But actually, then, I can't remember who said it. Someone said, actually, you could move this away. And you could put all the four icons up here. And they could just be dropdowns, progress, tracking it there.
+
+26:32 - Cuan Mulligan But then if you've got And more than just Eat, Move, Mine, Sleep, you've got Eat, Move, Mine, Sleep, Yours, or Custom, whatever.
+
+26:45 - Cuan Mulligan That's now five icons. That probably fields a lot in there. But it's something that we can figure out.
+
+26:53 - Eksno What is the scenario where a custom item wouldn't be under one of the predefined categories?
+
+27:01 - Cuan Mulligan That's a very good question.
+
+27:06 - Cuan Mulligan I don't think it would.
+
+27:09 - Eksno Yeah, since then, we don't need a custom category per se.
+
+27:14 - Cuan Mulligan Yeah, that's probably not a bad idea. Yeah, so for example, we could do this. I mean, that streak could actually be part of the messaging down there.
+
+27:38 - Cuan Mulligan That's not, why is that not working? I think it's because of the layers on the left.
+
+27:44 - Eksno The page you're moving it from is on a layer under the page on the right.
+
+27:50 - Unidentified Speaker You get the sense, right?
+
+27:52 - Cuan Mulligan There'll be some icon here.
+
+27:58 - Cuan Mulligan Whatever, we can figure that out.
+
+28:02 - Cuan Mulligan Yeah, and I think that's sort of the structure. So how do you usually work, Will? Do you usually have wireframes given to you or designs given to you and you just build it? Or do you help design these solutions?
+
+28:20 - Will Vincent Parrone It depends from company to company. Typically in startups, they don't give me wireframes. They just give me user requirements. But if needed, I can help edit the wireframes. Actually, I would like to ask you the question, how do you guys work from requirements to development? Do you create wireframes first, do you create the requirements, then just toss it to the devs?
+
+28:50 - Cuan Mulligan It's very much a conversation in real time. So we haven't done any UI, UX stuff at all yet. So we started with the overall vision. We wanted to focus on having an admin interface to chat with the agent and train the agent. Jonas just reused legacy admin screens that are very basic, which is fine, which is totally fit for purpose. But now as we get into later in the project, now we've got to start talking about the actual app interface, because I think the app interface is going to change the experience of that. So I suppose one of the questions I'd have, ago, 10 15 years ago, you needed to get this interface absolutely pixel perfect in design because you built it once, and it was difficult, right? It was difficult to iterate. Now there's all sorts of frameworks, and it's super easy to knock up stuff. And if we wanted to move the icons, move them down there, move them there, that's like 10 minutes. It's seconds of work. It's not difficult. So the question I'd have for you guys is, how much of this do we need to get right in Figma as opposed to, Could we start with something like this? I mean, chat's chat, right? We don't need to re-engineer or re-imagine chat. We just don't need to do that. You've got Signal and WhatsApp and Discord. These guys are spending millions of pounds on good UX on chat. We could just lift those ideas.
+
+30:23 - Cuan Mulligan If we're building, if we're using a framework that allows us to iterate quite quickly, then let's do that and just build it and sort of iterate the designs through using it. Rather than trying to get it right through Figma, if that makes sense.
+
+30:50 - Eksno So instead of designing a final version to start off with in Figma, we create iterative versions that are functional and use those to test how the experience is. And depending on the experience, update the UI from there dynamically.
+
+31:06 - Cuan Mulligan Yeah, I mean, if you think about it, all you need initially is the ability to chat, the ability to input data, like a form or a button, like the sleep time and the yes, no. Take on my profile. To see stuff in my profile, it's not that important, depending on what we want to use it for. And then to see progress of move, mind, and sleep, like over time, how am I doing overall?
+
+31:44 - Cuan Mulligan So this type of an interface potentially works to start going, where that banner could be your quote, but also could then rotate to being your streak and your progress. So this could be a multifunction window. The idea of back here would go to other days, but you could click on that day, and that could be a dropdown into different days of the week. So again. Luck to you guys to bring your expertise in what you've designed in the past to how we might improve this.
+
+32:25 - Eksno To just give some context here, Will is the web developer, so he can do Everything web of standard web functionality, UI and such, and everything how it looks. But if the AI is highly involved, then he'll have to work with the others. For example, prompting the AI, making a message that also spawns buttons will be a very interconnected job between the wireless subkit and the Chinmay and Bewas working on the chat interface.
+
+32:59 - Cuan Mulligan So the question I have then is, beforehand, this was a website, right? We weren't doing a mobile app before we engaged with you guys to work on this. So I'm wondering whether there isn't a website.
+
+33:20 - Cuan Mulligan Apart from the interface to control the agent and train the agent, I don't know if we have a website for the users to engage with. I don't see the value in that.
+
+33:37 - Eksno Yeah, you mean a more extensive website than the chat interface and the mobile application?
+
+33:46 - Unidentified Speaker Say that again?
+
+33:47 - Eksno You mean a website that's more extensive than the chat interface and the mobile application that we're developing?
+
+33:56 - Cuan Mulligan Sorry, I don't understand that. The user will only use the mobile interface. The company, us, who are training the agents, we have the web interface that we have now to control admin and agent. That interface, obviously, it needs some tweaking. Is that what you want to talk about now rather than this?
+
+34:20 - Eksno It was both of them. So on the admin interface, how you will decide which entry, which habits that are there by default. So you can add them and schedule them for what time of the day and all that, as well as how the user would add their own habits and how the user would track their own habits.
+
+34:43 - Unidentified Speaker Okay. Just give me a second.
+
+34:44 - Cuan Mulligan My brain's got to catch up. I've got to write a message on this too.
+
+34:51 - Eksno How are you holding along, Will?
+
+34:55 - Unidentified Speaker I'm doing great.
+
+34:57 - Will Vincent Parrone Fortunately, I have written some notes so I can go back to this after the meeting.
+
+35:05 - Eksno Yeah, I also hope that over time, you two will be able to sync with each other pretty independently from me. And you can basically just tell me, hey, I'm making these UI changes. Hey, I'm working on this to improve the user experience and such. And of course, sync up with Jen, maybe, was the AI developers, if it's very interconnected with how the AI works.
+
+35:30 - Unidentified Speaker Got it.
+
+35:37 - Cuan Mulligan The admin interface, it doesn't resonate with me that we're going to have an interface where we schedule things. Scheduling should be dynamic to the user.
+
+35:55 - Unidentified Speaker There's no point in scheduling.
+
+35:56 - Eksno There will be default habits, right? Like sleep time, wake up time, for example.
+
+36:02 - Unidentified Speaker Sorry, say that again?
+
+36:03 - Eksno There will be default habits, like sleep time, wake up time can recede.
+
+36:08 - Cuan Mulligan Yeah, there's habits, but we don't schedule them.
+
+36:12 - Eksno The schedule, I mean, is more for one day, but should ask about it. But that's dynamic to every user.
+
+36:23 - Cuan Mulligan So for example, if we know that you're waking time, that you're a late night worker, and you go to bed at 2 AM, and you wake up at 12, Assuming your day starts at 7 AM doesn't make any sense.
+
+36:40 - Cuan Mulligan Yeah. So there's a level of dynamic engagement in terms of what a day is and when a day starts for each individual user. So there is parts of the system. So you've got nudges and reminders. Don't drink coffee. Come off your technology. Don't do any more work. Those things. They are scheduled. Yeah, we can customize those things, or we can specify those things relative to when someone goes to bed. So it's bedtime minus a certain number of hours.
+
+37:20 - Cuan Mulligan So that's fine.
+
+37:27 - Cuan Mulligan I'm finding my brain. I'm confused about where we're going with this. And I'm not entirely sure how useful this will be for Will if I'm sounding incredibly confused, because I am feeling confused. So I think we need to figure out, what is the scope of the question? And how do we answer it? So are we now talking about the admin portal functionality or the admin screen functionality? What do we need to do?
+
+37:56 - Eksno I think that will be the easiest to start off with, yeah. OK.
+
+38:02 - Cuan Mulligan So we need to then figure out what is the feature set in Admin, first of all. What does Admin want to do? And then we can figure out the UX for it. We've got to figure out what first, and then we figure out how.
+
+38:25 - Unidentified Speaker So.
+
+38:27 - Cuan Mulligan I think it would be really useful to have a bit of a brainstorming session. I've got a call in 12 minutes, so I don't know if we're going to get to complete it now. But Will, maybe as an idea to support your onboarding, would be for you to start listing out what do you think all of the features that need to exist in Admin. Just a bullet list. It doesn't need to be anything fancy. We're not looking at wireframes at this stage, because I think we can then debate those things. Like Jonas there saying, oh, I think we need to be able to schedule them. I'm like, OK, interesting. That provides a really good conversation to saying, no, no, we're not going to schedule. They are going to be scheduled, but they're going to be scheduled dynamically. How do we do that? So I think I don't want to, I have no intention that you're going to get it all right In fact, I don't want you to get it all right. Because actually, in some of the things that you're seeing or thinking might be really cool, I have never thought about. And secondly, you might say something that I'm going, no, it's not that, and here's why. And that itself is a really good conversation.
+
+39:35 - Cuan Mulligan So happy for you to drop that into Figma. Or if you want to create a Google Doc, we can collaborate on whatever works best for you guys.
+
+39:42 - Unidentified Speaker Yeah.
+
+39:44 - Will Vincent Parrone I've worked with making business requirements before, so this is going to be a cakewalk for me. I'll create a Google Doc and send it in the Discord channel with you, everyone.
+
+39:54 - Cuan Mulligan Perfect.
+
+39:58 - Cuan Mulligan I don't know if you're around working today. I'm around all day today as well, so we can do little bits. I prefer to work in small increments, like do something and review, do something and review, rather than doing big reveals, invariably that we deviate for too long. It's better off doing something small and doing small patterns of diverge, converge.
+
+40:21 - Unidentified Speaker Got it.
+
+40:25 - Will Vincent Parrone Yeah, maybe that's the main action point for today. And then we can end this call if we don't have anything else to talk about.
+
+40:33 - Cuan Mulligan Yeah, I think that's cool. Yeah. So yeah, let me know if you've got anything to review or you want to talk about anything. I'm sure you're going to digest it and have a think about things, but let me know.
+
+40:44 - Unidentified Speaker Okay.
+
+40:44 - Will Vincent Parrone I'll message you on discord then. Perfect.
+
+40:48 - Unidentified Speaker Have a nice day.
+
+40:50 - Eksno One thing before that, I think it may also be good for you to go over the entire idea, the purpose, and all of, like, basically give an overview of the deck, why it exists, what it aims to do and such, with probably all of the new developers, because they've kind of been thrown onto the project pretty fast, or just, here's what you need to do.
+
+41:11 - Cuan Mulligan Yeah, I mean, I've done that for Cuan, I think I did that for and asked yesterday. So I agree with you, by the way. What might be useful, actually, is to have a call with everybody and just sort of do a level set and have other people talk about it as well and see what they understand. Because me, I know I know this. So hearing from Cuan and stuff like that and seeing are we aligned would be a really good exercise.
+
+41:38 - Unidentified Speaker Yeah.
+
+41:43 - Will Vincent Parrone Yeah, I think that would be helpful Who's gonna set it?
+
+41:48 - Will Vincent Parrone Is it you, Sir Jonas?
+
+41:52 - Will Vincent Parrone Or is it you, sir? Of course, a little bit of formality.
+
+41:57 - Will Vincent Parrone Mr. Cuan? I'm sorry, I don't know how to pronounce it. Cuan. Cuan, okay.
+
+42:08 - Eksno I'll look at the time zones and try to find a time where everyone is usually online. I think one of the days is after 30 stand-up, so around 20 minutes ago on Monday.
+
+42:23 - Unidentified Speaker Maybe.
+
+42:24 - Eksno So 8.30 BST for you, Cuan, would probably be a pretty good time to do the all hands meeting. Minus George, because he's in the opposite side of the world from me. So it's like almost impossible for us to get him to call anymore.
+
+42:39 - Unidentified Speaker Yeah. No worries.
+
+42:40 - Eksno Whatever works.
+
+42:42 - Unidentified Speaker Yeah.
+
+42:44 - Eksno I'll try to sync that up with everyone.
+
+42:49 - Cuan Mulligan Okay, so just set expectations, Will. Sorry, I'm tired. When do you think you'd have the first version of this to look at? In terms of that initial thinking of what goes into Agent.
+
+43:08 - Will Vincent Parrone I should be able to do it in 30 but I have church within the next few minutes, so about two hours of church. Perfect.
+
+43:19 - Cuan Mulligan At some point today, great. Let's talk about it during the day. I think God has taken him to church already.
+
+43:41 - Cuan Mulligan I'm not religious, by the way, just in case you were wondering.
+
+43:49 - Eksno I think like the Philippines is Christian.
+
+43:54 - Eksno I'll be able to show you something.
+
+43:58 - Eksno Can you hear us now?
+
+44:03 - Cuan Mulligan I think we're clear. He's going to come back today. We'll catch up on Discord. Yeah. Sounds good. Cheers. See ya.

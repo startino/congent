@@ -1,0 +1,172 @@
+10 Minute Preliminary Interview between Jorge Lewis and Biwas Bhandari 
+Tue, Jun 25, 2024
+
+0:25 - Jorge Lewis Okay.
+
+0:50 - Jorge Lewis Oh I'm doing good. Yeah. So is your name Dewas or is it? Yes, it's Biwas. Biwas. Okay. Nice to meet you, man. Sam. So just a quick call to introduce ourselves and what we're looking for. Yeah. If things go well, we'll discuss how things can go further. So sure. So yeah, I'll start us off. So my name is Jorge, I have been programming for about six years now. And last year, I started the software consultancy with with my co founder Jonas. And we've built it. We started we first started with building websites, and then we transitioned into building MVPs and prototypes for entrepreneurs and startups. So but now, We've got a lot of demand for AI projects, so we're looking to expand our team with blockchain skills. Do you have any questions? A little bit about the team. We're a team of four currently, so me, my co-founder Jonas, and then two other developers. We're looking for two more currently, so that's what our company's team is looking like,
+
+2:27 - Biwas bhandari So, okay, first let me start by introducing myself.
+
+2:32 - Biwas bhandari I'm Vivas Pandhari. I currently reside in Nepal. I have been coding for around 2.5 years. I also first started with web development.
+
+2:45 - Biwas bhandari Then I just switched to AI since the web development was being saturated. The market was very saturated in our country. Everybody was just going in web development and There are no further progress in AIs and that. And there are not more opportunities here in AI also. So it's been around. I first started with BlankChain around eight months ago. I was working in a startup based on San Francisco. And the co-founder introduced me to BlankChain. And he said that it will be more used in future. And now it's being used widely.
+
+3:27 - Biwas bhandari Then I did two projects at that time using LinkedIn one, that one, it was called LCIN chain where people can normally query and ask what is the transaction history of my Bitcoin address. And then the result would come using Python. And then after that, I just stopped using it. And on YouTube, I started to find more and more tutorials on LinkedIn. Then I switched to it. And we started coding in Python and build some three to four projects. I think currently I'm building a discord bot using LinkedIn where you can normally ask it about myself. If you have queries, yeah. If you have queries about anything, then you can simply ask, who am I? What do I do? And it replies instantly.
+
+4:18 - Unidentified Speaker Yeah.
+
+4:19 - Biwas bhandari That's it about me.
+
+4:23 - Biwas bhandari And I'm currently studying bachelors in computer application. So I have college around three hours in the morning, six to nine p.m. And I'm around free, totally free. I just do some project and stuff.
+
+4:40 - Jorge Lewis Nice, nice.
+
+4:40 - Jorge Lewis That's all.
+
+4:42 - Jorge Lewis And are you in your, which year are you for your school?
+
+4:47 - Biwas bhandari Currently I'm in third year now. Just two weeks ago my second year's exam was concluded and now I'm in third year.
+
+4:59 - Jorge Lewis Okay nice, so two more years.
+
+5:01 - Biwas bhandari Yes.
+
+5:02 - Jorge Lewis Nice, nice. And are you on summer holiday right now?
+
+5:07 - Biwas bhandari Not quite. The school has already started but I haven't gone. I will go from next week.
+
+5:14 - Jorge Lewis Nice, nice.
+
+5:15 - Unidentified Speaker Cool.
+
+5:18 - Jorge Lewis Okay, so I just have a couple questions. So you said, so the question is, was like, what the story of how you got into, how you got introduced to Lankchain? And if I got it right, you previously worked at a startup and the co-founder introduced it to you?
+
+5:32 - Jorge Lewis Yes.
+
+5:33 - Biwas bhandari Okay, cool, cool. Nice.
+
+5:36 - Biwas bhandari Well, I did it in Python because there were more easy documentations in Python and JS. They were just introducing it newly. That's why I switched to Python, but I have experience in React, Next.js, TypeScript.
+
+5:53 - Jorge Lewis Nice. Nice. Um, okay. Okay. So if you, if you could have any projects that you could build, like the type of project, what type of project would you want to build? Like what's your, your dream project to build?
+
+6:06 - Biwas bhandari For now, I want to build that, um, what do you call it? Like a CA something that CA does when you should just show him your sales report and analyze it and provide you the future predictions.
+
+6:25 - Jorge Lewis What is the SA or CA?
+
+6:29 - Biwas bhandari Yes. You provide your sales data to the user, to my chatbot. And then that's what will analyze all your sales data from past and how much you are selling and it will predict how much you will sell in next 10 years, five years, depending on. Cool. Cool.
+
+6:48 - Jorge Lewis That's really cool. Is it for like, for what type of businesses would use it?
+
+6:54 - Biwas bhandari Normally, small businesses cannot hire CA, so it will have a subscription model. And then people can usually subscribe it and analyze their sales report. So it's for small and medium scale businesses who cannot hire CA and pay them more. Cool.
+
+7:11 - Jorge Lewis That sounds cool, man. Yeah. That's pretty cool. Yes. Okay, so I just have another question. If it's about your goals, where do you see yourself in the different time frames? So let's do like, where do you see yourself in six months, one year and five years?
+
+7:32 - Biwas bhandari In currently I'm learning machine learning too. So in six months, I will have all the basics of machine learning. And then just Querying through LinkedIn and querying through the OpenAI models and JVM models will cost you more and more. So you need to train your chatbots, you know, instead of just querying and increasing more and more expenses and taking more credits. It's good. It should just train itself and stop querying in six months. I should be able to do that. And in one year, two more years, I will have completed my bachelor and start my own startup I'm planning.
+
+8:20 - Jorge Lewis Oh, cool, cool. The startup is what you explained earlier, the idea? Yes. Cool, cool. That's cool, man. That's nice. So like a software startup.
+
+8:30 - Unidentified Speaker Yeah.
+
+8:32 - Jorge Lewis That's cool. That's cool. That's good, man. Um, yeah, thanks for sharing. That's, that's all I have. Uh, Oh, actually I want to talk about, uh, the, the web stack that we use. We use chat, see chat with yes. Okay.
+
+8:46 - Biwas bhandari Yes. I was exploring your website and that all, and you were using self lead. Uh, I use, I use that same with react. Almost every project I did, I did it using section. It's very easy to use and that.
+
+9:02 - Jorge Lewis Yeah. I love it.
+
+9:03 - Jorge Lewis Yeah.
+
+9:05 - Jorge Lewis Yeah, and then, but you haven't used Svelte here, right?
+
+9:07 - Biwas bhandari No, I do not have experience with Svelte, but React and other Next.js.
+
+9:15 - Jorge Lewis And Node.js. Ideally, you'd be able to learn some Svelte, so that you'd be able to kind of do a little bit of the work yourself. And since you've used ShedCN before, it kind of saves a lot of the front-end work, so.
+
+9:30 - Jorge Lewis Yep. Yeah.
+
+9:31 - Jorge Lewis Cool, cool. Yeah, so You know type, you know Lang chain and TypeScript.
+
+9:40 - Biwas bhandari Is that correct or yes Not yeah, I haven't used Lang chain with TypeScript, but JavaScript I've used it with and it should not be that much of a difference I can use it with TypeScript Yeah, because we are moving
+
+9:58 - Jorge Lewis from Python to TypeScript for all of our projects because it allows us to be a lot leaner with our team. But yeah, the only thing is just the Python documentation and the tutorials are more, there's more resources.
+
+10:15 - Jorge Lewis But yeah, I don't think it'll be too much of an issue. Well, since it's so new as well, if we have like three LangChain developers in our team, we can all work together to kind of learn and maybe post some documentation for TypeScript and tutorials.
+
+10:29 - Biwas bhandari Well, I've been using LangChain mostly with Google Vortex AI and generative that Gemini Pro. Since OpenAI created, I cannot buy it. And it was free. So I've been mostly I'm more familiar with Gemini Pro and what they say, but if we read documentation, it's, it's all about documentation in LinkedIn.
+
+10:55 - Jorge Lewis Yeah. Yeah. So we can, yeah, it'd be fun. That's cool. All right. Thanks, man. Any questions for me?
+
+11:02 - Biwas bhandari Um, no, you can tell me your hobbies. I like to listen to people's hobbies.
+
+11:09 - Jorge Lewis Yeah. Um, so, so before, so currently I'm traveling around, I'm in Thailand right now. I grew up in, I grew up in Hong Kong. Um, so, so that's kind of, I guess, a hobby I'm traveling around. Um, I'm currently in Thailand. Uh, I've been here for like two, three months or two months ish. So that's a hobby. Before I came, before I started traveling though, I did jiu-jitsu, like the martial art, you know, Brazilian jiu-jitsu. But then I don't have time for it right now, so I've just been going to the gym. Just the gym. Yeah, I mean, I like to go to just have some drinks with my friends.
+
+11:56 - Biwas bhandari I like watching more and more series.
+
+11:59 - Jorge Lewis Like Netflix or? Yep. Nice, nice. Cool, cool.
+
+12:06 - Jorge Lewis That's cool, man.
+
+12:09 - Biwas bhandari Yeah, anything else?
+
+12:11 - Biwas bhandari Nothing. So the project will be based on BlankChain and SelfRaid.
+
+12:17 - Jorge Lewis That's it. Yeah, BlankChain and SelfRaid. We use SuperBase for our database, by the way.
+
+12:28 - Biwas bhandari Okay, so I think that's it.
+
+12:34 - Biwas bhandari Can you tell me more about your team?
+
+12:37 - Jorge Lewis Yeah, sure. So our team, we're a team of four. It's me, my co founder. We have two other developers. One of them is from Benin. One of them is from Sweden.
+
+12:52 - Jorge Lewis So we We, the company started in August, like last August, so it's not too old. We're still growing. Um, we're currently hiring for two or maybe three more people right now. Um, so that's, that's what we're doing right now.
+
+13:08 - Biwas bhandari You have two startups. I think one is startt.nu and AIT node, I think.
+
+13:15 - Jorge Lewis So we're a software consultancy, so our ITNO project is our own product that we're working on, but we've put on pause because of clients that we've gotten recently. Our main thing is providing services for clients and building their products. But that was a project that we were working on when we were not too busy with clients. So it's still in progress.
+
+13:42 - Biwas bhandari Yesterday I tried chatting with it, but it was not responding.
+
+13:48 - Jorge Lewis Yeah, so we put that on pause. Yes, Tartino is the brand behind the consultancy. Yeah. Okay.
+
+14:00 - Biwas bhandari So you have experience in machine learning too?
+
+14:04 - Jorge Lewis Yeah, so I first started with game development at the very start, like six years ago. And then I did game development for a good while, and then I got introduced to Python and competitive programming. Three or four years ago. So I did those two and then in the last year I've been doing web development and some basic Python stuff here and there for scripting and automating some work. I've been doing a lot of less development myself nowadays because I'm working more on the business side of things.
+
+14:42 - Biwas bhandari So, do you have any interest in blockchain development or Web3?
+
+14:48 - Jorge Lewis I'm not into any of that, no, no.
+
+14:52 - Jorge Lewis I was really busy building the business when that became popular, so I missed the phase.
+
+14:59 - Biwas bhandari Nowadays, there is competition between Web3 and AI, so...
+
+15:04 - Jorge Lewis Yeah, yeah. I think AI will win now. Web3 is still too new, I think. It's still a nice time.
+
+15:13 - Biwas bhandari Most of them just started for funding. They do preceding and leave the project.
+
+15:20 - Jorge Lewis Yeah. It's too early right now for the technology is good, but I think that there's no infrastructure. We need, we need to wait a little bit. That's cool. Um, yeah, well, I gotta, I gotta head off soon. Anything else?
+
+15:35 - Biwas bhandari Okay, so project, when do we get started? How do we get started?
+
+15:41 - Jorge Lewis Yes, so after this, I'll let you know on LinkedIn how we can move things forward. Most likely, we'll go through another, maybe one or two more interview rounds, some technical ones, so you can show us how you like to work and how you program.
+
+15:57 - Jorge Lewis Okay.
+
+15:57 - Jorge Lewis And then after that, you'll just get started on one of the projects that we're currently working on in the middle of
+
+16:02 - Unidentified Speaker Okay.
+
+16:05 - Jorge Lewis Yeah.
+
+16:07 - Unidentified Speaker Okay.
+
+16:12 - Biwas bhandari I think that's it.
+
+16:15 - Jorge Lewis Thanks guys. It was nice talking to you. Thanks for those great questions. Yeah. Hope to see you soon.
+
+16:22 - Unidentified Speaker Okay.
+
+16:23 - Biwas bhandari See you soon. Have a good day.
+
+16:26 - Jorge Lewis Have a good night.
+
+16:27 - Unidentified Speaker you

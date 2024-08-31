@@ -1,0 +1,628 @@
+Meet Meeting 
+Tue, Aug 27, 2024
+
+0:00 - Cuan Mulligan for a long time. And he's got some different points of view on stuff. So I just thought it'd be really useful if the three of us could have a quick chat.
+
+0:06 - Jonas Lindberg Morning.
+
+0:08 - Cuan Mulligan Morning.
+
+0:09 - Cuan Mulligan The latest issue.
+
+0:14 - Cuan Mulligan You haven't pushed any fixes or anything from last night, no?
+
+0:18 - Jonas Lindberg I just pushed or OK, I just committed one, but I haven't pushed it.
+
+0:26 - Jonas Lindberg Yeah, I haven't.
+
+0:28 - Jonas Lindberg OK.
+
+0:29 - Jonas Lindberg I was about to test one, but I was getting like a 504 deployment error and just resending the message work. So I'm about to push a change that basically just retries seven times if there were message errors to try to just at least temporarily get around those.
+
+0:49 - Cuan Mulligan OK.
+
+0:49 - Cuan Mulligan Go ahead.
+
+0:51 - Cuan Mulligan So if you can see here where it says So step three is the playback, which is correct. This one here.
+
+1:03 - Cuan Mulligan And then it just randomly decides as part of playback to saying, would you like to discuss some initial steps to get started? I then ask the question, what do you mean, get started doing what? And it's jumped to phase four.
+
+1:19 - Cuan Mulligan So I know you've said that the LLMs can just give you erratic behavior. But we can't really have a product that's that erotic. So I think JP feels that there's, use the best word ever, there's some standard lubrication that needs to take place between one message to another message and across steps that's not happening. But yeah, it'd be good to get your thoughts on what you think is happening here.
+
+1:47 - Jonas Lindberg Yeah, to start off with, at risk of repeating myself, I think this is, once again, something that will definitely be improved a lot when we get the review system in, because the playback messages, it'll have many examples of how they should look, and it should consistently answer in that way. But that also applies to all the other steps.
+
+2:07 - Cuan Mulligan I mean, I think that's fine for the tone and stuff like that. But this one here, would you like to discuss some initial steps to get started? Has no place being part of three.
+
+2:17 - Jonas Lindberg Like if you look- Yeah, so in the reviews, if all the examples that gets in the reviews don't include a question, then it won't include a question when it's creating its own answer.
+
+2:27 - Cuan Mulligan Okay, okay, fine. So if I, is the deleting of these working yet?
+
+2:35 - Jonas Lindberg Yeah, just click one from the bottom on up. I'm not sure if the steps going backwards is working yet. I have to fix up on that. I've been in call with Jorge a lot of this morning, just discussing how to move forward.
+
+2:53 - Cuan Mulligan So if I want to reset that, do I just go again?
+
+3:12 - Cuan Mulligan No, it's still in step four.
+
+3:15 - Unidentified Speaker Yeah.
+
+3:17 - Cuan Mulligan So I suppose there's not much to talk about then until either the steps is added or we have the review thing.
+
+3:31 - Cuan Mulligan Yeah.
+
+3:34 - Cuan Mulligan I mean, is Jorge available now? We can have the 9 o'clock now.
+
+3:39 - Jonas Lindberg he's online on discord but offline on gather and gather is kind of the platform where we join when we're actually on he hasn't answered me either asked if he was off and guessing he's up for lunch or something that's around the time OK. But otherwise, everyone else seems to be on. So whenever Jorge comes back, I think we can do a meeting with everyone or a meeting with just us two or us three and Jorge discussing how to move forward with projects overall.
+
+4:12 - Cuan Mulligan Yeah, let's have that one first. What's your thoughts on why the team are not sort of listening to you guys? Because like, no offense, you're the boss. They sort of have to do what you say.
+
+4:26 - Jonas Lindberg Could you, in what way, like not listening on the communication?
+
+4:30 - Cuan Mulligan Well, Jorge sort of asked for me to see if I could help inform the team as to why the importance of communicating to clients is important. I'm happy to help, by the way. It's not an issue. It's just I'm curious why they're not listening to you guys. And if there's any risk to me being involved, then it undermines your position.
+
+4:53 - Jonas Lindberg What me and Jorge talked about is probably the fact that they don't feel the same kind of pressure that we do. Me and Jorge are just directly responsible for the projects and therefore want to make sure that everything is aligned all the time. For them, there's less pressure because it's usually us talking to you guys.
+
+5:17 - Cuan Mulligan I'm not sure if I'd agree with that. I think that pressure that you're feeling is what's called ethics and morals. Um, I don't know what, I think you'd feel that pressure to a degree, whether we were speaking to you or not, this is your company, your dream, your vision. And, um, regardless, you're never going to have employees give the same amount of shit as you and Jorge. It's just never going to happen. It doesn't happen ever. Um, There's a difference between giving a shit and being professional. And I would imagine that there's an issue here where, um, in the cultures where the engineers are, the thought of being vulnerable is not acceptable. And what I mean by be vulnerable is asking. Potentially stupid questions or perceived to be stupid questions, showing incomplete work.
+
+6:23 - Cuan Mulligan All that could cause them to get in trouble and lose their job in other environments where actually it's exactly the behavior that we're looking for here is because Little and often, and JP, I hope you don't mind, we've had that same, even conversations between me and you, where you'll create something and spend a huge amount of time. And then me or Arif might look at it and go, but what about this? You're like, oh, that's changed everything else. And it's just a style. There's also a style. So some people prefer to go away and do more work. Some people prefer to do little amounts and get feedback. There's also a cultural thing here and a style thing here. But yesterday, I asked the question, is there anybody working? And Jorge was like, yeah, three people are on holidays. We didn't know that. And then three people are working. And I'm like, I still wouldn't know that. One of the things that they need to understand is, as a remote company, you have a duty to fill the gap of remoteness. That's the trade-off, right? Either we all get in a room together, and we feel that sort of passive communication or you have to communicate in a way that there is passive awareness that people are actually working. Yeah. And it's not a spying thing. It's not like a big brother. I don't trust what you're doing and I need to micromanage you. It's not that at all. It's actually, as JP said the other day, we're, we're, we're really fucking excited about this and we want to be involved and, You know, this workshop builder in particular has huge potential for us. It's not there yet, but the more calls that I'm having with you, I feel you're getting closer to what we want. I can see you suddenly go, Oh, I need to do this instead. And that's that level of partnership that we're looking for. And to a point that should be on everything. Now, the reality is that some of your engineers are quite junior and there's some challenges with the literal translation of English. Like the LMS that I created, I think it's pretty straightforward. Like I feel it is. Let me see if I can show you what I'm talking about here. Here we go, LMS.
+
+8:50 - Cuan Mulligan This is what I asked you. I shared with you yesterday, JP, but I sent you something too small. You couldn't read it.
+
+9:01 - Cuan Mulligan So here, I have daily content as a type. If there can be a quote, which is just basically text. Actually, that should be text.
+
+9:16 - Cuan Mulligan And that should be a daily quote. These are examples. So I don't have arrows here. The video, morning message, bottom line, meditation, and Will goes, What's a morning message bottom line in meditation? I'm like, it's just a video. For me, it's fairly obvious that it's just a video, but good on them for seeking clarity. So I've tried to be quite clear with these features.
+
+9:46 - Jonathan Phillips Have you given them any context besides this?
+
+9:52 - Cuan Mulligan In the overarching program, yes, but that's a long time ago and I actually don't recall who was in those sessions, if it was just Jorge or if it was even Jorge and Jonas.
+
+10:02 - Jonathan Phillips I'm a little confused though myself, which is normal.
+
+10:09 - Jonathan Phillips Just where does this, so when you say LMS, where does this hang? Where does this exist?
+
+10:20 - Cuan Mulligan This is a, LMS is probably too grandiose a term. This is a rudimentary content management system that will be, the LMS, whatever this thing is, allows us one, to set up a program that has a duration, eight weeks, 10 weeks, 12 weeks, which has got something called a theme, which is topics and events or a live session. And each theme of a week has daily content. And all you're doing is you have a number of different content types that get drip fed out onto the platform on a daily basis that people have to consume. Now, the LMS is not tracking consumption of that. The agents and the systems are tracking that. So the LMS, the true, true, like if you looked at another white labeling LMS, a lot of the features we of a pure LMS are actually existing outside the LMS content management system. So this is probably, I think it's probably inappropriate. I think you've highlighted something. I don't think it needs to be called an LMS. I think it's more a CMS.
+
+11:28 - Unidentified Speaker Yeah.
+
+11:29 - Jonathan Phillips Yeah. That makes more sense because there's no sort of overriding physical structure to it.
+
+11:36 - Cuan Mulligan Yeah. It's probably a course management system rather than a content management system. Yeah. I think that would probably make more sense, because some of the other bells and whistles sit in the agents and what the agents are doing with the data, like milestone tracking and streaks and all that sort of stuff. That's there, but not this. This is just the content aspect.
+
+11:59 - Cuan Mulligan I think then Will created something down here.
+
+12:06 - Cuan Mulligan And daily theme types is like, no, that doesn't make sense. So that just tells me that sentence, daily theme types, does not make sense. So that's probably an English not being a native English speaker issue.
+
+12:21 - Jonas Lindberg Yeah, this looks like types of medium, like if it's text, video, audio, documents. Exactly.
+
+12:29 - Cuan Mulligan So the themes is sort of the, you know, There's a, there's an eight week program. The objective is this. So the program has to be described also because then the agents are going to be using this program as content for understanding. Like if someone says, Hey, this is what's coming up next week. The agent needs to be able to go in and look at the program and understand where it is. A weekly theme might be the week one is all about habit formation. So the quotes and all the content is going to be around habits.
+
+13:03 - Unidentified Speaker Yeah.
+
+13:03 - Cuan Mulligan And so the theme is a is a construct rather than a group of content. That's why there's some little issues there. So I mean, good that he's taken on. There isn't a user program, user weekly.
+
+13:19 - Cuan Mulligan Yeah, I don't know. This needs to be looked at. I'm not entirely sure this is correct.
+
+13:24 - Jonathan Phillips Can I just bounce quickly back to the workshop builder? Sure. I mentioned yesterday about training the bots with their expertise. How do we see that happening? The system at the moment is a structure of prompts and direction.
+
+13:44 - Jonathan Phillips But where do we start to give them their expertise and how do we build that into the system?
+
+13:53 - Jonas Lindberg Part of the refinement will be using the review system, giving them their expertise. We'll likely be giving them tools like RAG to be able to look for documents that you guys give them. So that will be extensions of the workshop builder.
+
+14:08 - Cuan Mulligan But Jonas, yesterday when we spoke about this with Jorge, Jorge said we shouldn't be using RAG for that.
+
+14:16 - Jonas Lindberg For which part was it?
+
+14:19 - Cuan Mulligan Like, for example, we wanted to say, this is what ADAPT is, and give a reference document of saying, when we talk about ADAPT, this is actually what we mean. And he goes, we shouldn't be using RAG for that. It's not effective.
+
+14:31 - Jonas Lindberg Oh, yeah. I think there will be one large document about what ADAPT is, where it can look up more specific information. But the general information about what ADAPT is that it should always know should be in the project.
+
+14:47 - Jonathan Phillips So let's just say my naive understanding of say let's take it back a step so imagine that the bot was an actual person it was a an employee of a business so the business recruits the bot and says hey come and work for our organization and within our organization, we do things this way. This is what we do. This is a new system you've got to learn. These are your colleagues that you're working with. And this is the process and the guidelines working with all your colleagues. That's what I kind of see the system at the moment. An employee comes in, and then all the guidelines and process of how they work within the organization is what they have. But the moment we don't have what's in the brain of the employee coming in, all the tacit knowledge, the information that that employee has over all the others and the reason he's being employed. So he has specific knowledge relating to his core purpose and his expertise. And at the moment, we don't seem to have that wrapped into the system.
+
+15:56 - Jonas Lindberg The reason it's not there yet is because this is a POC of the Workshop Builder. But we're going to be expanding our component with features, of course, as they are needed and we get the capability to create them. This was a proof of concept to get a Workshop Builder in your hands so that you guys can see if you wanted to move onwards with this workshop builder?
+
+16:18 - Jonathan Phillips Yeah of course, it's not a criticism obviously. I mean I'm just coming in saying sort of like bulldozing in and saying you know this is my perception of the world. I mean to give an example when I did one of the workshops that I put together yesterday before it broke. It came to me with a definition of brand and that definition isn't the modern definition of brand. It's a definition that 90% of the world use still but it's very traditional and old-fashioned. So where is it getting that information from and I want to make sure that the bot who's talking about brand knows the current modern definition. So That's not something I want to build into a prompt because there's so many elements that I want to make sure it's expert on, it would just be silly. But I could feed it documents that basically give it its personality as far as an employee and as far as an expert. And that's sort of the element that I see missing at the moment.
+
+17:17 - Jonas Lindberg Yeah, I think throughout building this workshop builder we'll kind of learn which technologies and which techniques work best like all together. I can of course give examples of what systems we could use to do that. We could build up a knowledge graph that's kind of There's a lot of technologies we can use to achieve it. I don't know which are best yet. I don't suggest that we'll have all the answers straight away.
+
+17:53 - Jonathan Phillips is that the way that this is going to differentiate itself between a hundred other software developer companies out there who are doing exactly what we're doing. Let's not forget that there's thousands of companies doing similar things. The differentiation we have is the training, is the tweaking, the fine-tuning, the training. So as far as systems go, people will be migrating towards using the same frameworks and the same ideas. And yes, we can do something funky and something different and have some differentiation with the technology. But ultimately, it's the way we get the expertise into the bots and also the way they behave with each other, of course. And that fine-tuning and that understanding to make them more human, I think, is the race. The race is to get these bots becoming human. And if we can do that, that becomes powerful. So that's why I get excited. So I want to train them, I want to make them different, I want them to react differently to the way that I, so when I do simulations in the ChatGPT, Claude, Gemini environment, I want to see a difference in what we're doing because the bots are experts, whereas They're very generic, and they can pretend they're experts in my simulations, but they aren't. They're just obviously simulating. So it's that expertise that I think is our differentiator. And obviously, if we then do this in different industry verticals and different categories, it's the expertise that is the differentiator, not the platform itself. But without the platform, we don't have anything. So the platform is so essential and key. And how we get that right is imperative. But the beauty is in then what we do with it.
+
+19:35 - Jonas Lindberg Yeah, I can give you kind of my high level understanding of like how the technologies fit in and method to like how a human works. I'd say that like the RAG or the graph RAG or there's new technologies for implementing it every day, whatever RAG system it is, it's kind of like your long-term memory. It's what's stored way in the back of your head, and you don't have it on the top of your mind all the time. But when you hear a keyword like brand purpose, then all that information about brand purpose pops back into your head. That's kind of how Wrike works, where you can have very specialized and the high level and like the understandings which are not always present in the top of its head. Then there's knowledge graphs, which is its understandings of how things connect to other things, how, for example, a network as a platform could be a knowledge graph, which is always at the top of your head. So that could be like a 10 minute or 15 minute preparation before you're running a workshop. You're building up your own knowledge graph of what you're going to be running. Then there's the prompt, of course, those are instructions also always in their heads. I don't really know how to map a prompt to a human brain as an analogy, but I think you both know how a prompt works.
+
+20:59 - Jonathan Phillips Of course. Yeah. Yeah. That's aware and then you've got to basically bring in a separate sort of conscious memory and you react that way and that's what I'm sort of looking forward to marrying those two up. The process, the base prompts, this is what we need to out of this exercise but then it's like all the clever stuff and the experience over the years of the bot obviously it won't have years of experience but we're emulating a human and how they're bringing all their years and years and years of different jobs different um education systems everything back into the present to actually do something special so so let's just dream for a moment and so
+
+22:06 - Cuan Mulligan We've got the core capability now to have sequential steps.
+
+22:14 - Cuan Mulligan We know we need to be able to add in steps at different points because we were refining a message or refining prompts. So we need to be able to alter steps. When we're testing, we know we need to be able to delete steps and go back rather than having to retest everything, because it gets exponentially longer to do anything. In order to get where you just said, JP, what other high level functions do we think this builder needs before we could get to a v1 like what's the actual gun against the head minimum feature set because from my point of view from a your why workshop single agent just facilitator and subvisor not multi-participants like for from the point of view of adapt single agent is fine and I'm thinking you know if I get the review capability I probably feel I could go live with that But that's a very simplistic workshop. That's not a workshop. That's a coaching session. A workshop is a multi-complex thing. You've talked about branching and more complex routing of the steps rather than just a flow.
+
+23:36 - Cuan Mulligan That was a question, guys. More to you, JP, to say what do you think we need?
+
+23:40 - Jonathan Phillips All right, sorry.
+
+23:55 - Jonathan Phillips So I'm looking at it from a human perspective. So I'm imagining humans in a room. So they're the bots. And it's how we bring in the whole human element. So you've got your individual experts, you've got your processes. So at the moment we've got a system that takes you through a process. And at the moment it's quite linear. So you start at the beginning and you finish at the end and there's no deviation really. You are driven down a line, a single line. But in life it's not like that. So if you have people in a room discussing during a meeting, just like we are now, this conversation is going all over the place. It's everything but linear. Even though we still have an objective in the meeting and we're still talking about one subject, it's all over the place.
+
+24:57 - Jonathan Phillips Without the ability to go all over the place, you don't get the expertise of everybody involved, because you are being driven down a single route. So you may have people in the room who aren't involved in the conversation, for whatever reason, who could add lots of expertise in, so the end result is much more profitable for the meeting. So, the way I see it, it can't be linear, it has to be looping back sometimes, because you're going down the wrong alleyway, you are basically discussing something and you've missed the point or you are being driven the wrong way and it might take someone else to bring you back there and then you loop round to maybe two steps before and go right, okay, let's get back on track. Let's go now back to the right route. So I see constant loops.
+
+25:46 - Cuan Mulligan So JP, I just want to, I agree with you by the way, I just want to bring that to life for JP, for Jonas for a second. Jonas, can you see this?
+
+25:53 - Cuan Mulligan Yeah, I can see it.
+
+25:55 - Cuan Mulligan So this is what's called a business model canvas. It's pretty cool, but it was very, very popular for a while.
+
+26:03 - Cuan Mulligan Yeah, way back in the day.
+
+26:07 - Cuan Mulligan Yeah. Now I run this for workshops. I've run this for clients and it's a very useful structure, right? How you engage this document is completely organic. Now I have my own personal technique. I will start with a bit of the value proposition. I will then jump to the customer segments. The customer segments might inform more value propositions. We might pause for a while and understand what's the best channel to deliver that value proposition to those customer segments. Once that goes, get a few of those, what sort of relationship do you want with those customers on those channels to deliver those value propositions? So these four boxes iterates quite a lot. Now, at some point, that starts to stabilize. It's sort of a good feeling, like I'm now fucking flogging a dead horse. I'm not getting, you know, at the start, there's loads of new ideas. Then suddenly it dries up a little bit. So I move on. And then I could possibly talk to about revenue. And then I would possibly talk to about key partners, activities and resources in order to drive out what the cost structure is. That's just how I do it. Might do it differently. My friend Ciarán who's running these last week will do it differently. But it's not, it's not consistent. The path, one, by doing customer segments, I give us an idea in value proposition. And I think this is the backwards and forwards and how ones, you could easily do, what's this? One, two, three, four, five, six, seven, eight, nine. You could easily make a nine step workshop, assuming you do this, then you finish value propositions, then you do customer. It's not like that. There are nine discrete, I don't want to call them steps, there are, minus steps. As JP said, it's a process. I go from A to B to C to D. And that's fine. Certain workshops work like that. It's totally fine. There are others where there are, these are nine components. There's nine components to the workshop. I will dabble in one of them, go to another one. The second one might inform something more on the first one. So you dance around, for example, you will dance around all of these until you feel that they're complete.
+
+28:22 - Jonas Lindberg Yeah, so something we'd be looking to them is, instead of having the telling the facilitator when to go to the next step, we'd provide the facilitator with the capability to go to any step and then in the prompt of the facilitator, describe the steps and somehow tell it more dynamically how it can switch between them.
+
+28:47 - Cuan Mulligan I just want to check with JP, does this sort of metaphor explanation here of a workshop work for your world as well?
+
+28:54 - Jonathan Phillips It does, it does. It's the organicness and again that's what I got excited originally when I started reading about multi-agent models. It's the the change, the switch over from having a chatbot where you have prescribed answers. And that's what we don't want to have. We want to have the opposite to that. We want to have a process that technically is a straight line, but every time you have the conversation or the workshop, it's a different straight line.
+
+29:27 - Cuan Mulligan So I was demoing Super Whisper yesterday, and there was a demo video on YouTube of this psychologist who uses it.
+
+29:38 - Cuan Mulligan He's been using Dragon Dictate for years, and he now uses Super Whisper. It's made it more efficient. And one of the things he can do is he will use all sorts of acronyms, like PQ cell basically means participant or patient takes it in the morning and the evening. What the fuck does that mean? The letters aren't even any way related. But it's obviously medical shorthand. And so what he did was he goes, it will do a literal translation for me. But then what I did was I gave it an example of my shorthand verbal note and how I would have transcribed it verbatim. And as soon as I did that, it's flawless. It's absolutely amazing, because it's not taking my example literally. It's literally taking it as an example. What I'm finding at the moment when I write in to the prompt, here is an example. Do not use this exactly. Just use it as a reference. It uses it exactly. And we're missing something at the moment in the ability to give it examples and for it to be inspired by the example as opposed to taking it literally. Super Whisper has figured it. So it is possible. Now, one question I have for you, JP, if I was doing this Business Model Canvas workshop, I would think it could get overwhelmed with these nine things. Like, where the fuck do I go next? Like, who knows? You can go to any of them, by the way. But you can get yourself in an infinite model very quickly. So having done this, I would have a suggested path. And suggested does not always have to be followed. But it's a recommendation to go value proposition, customer segments.
+
+31:21 - Jonathan Phillips There's nothing wrong with having a default or several defaults to go to when there's nothing more obvious, so to speak. There is a path to be taken. So, for example, if you're doing a workshop in a room with people and everyone's really quiet, the facilitator will just go through the steps without any modification because whatever's in his head isn't being interrupted. So it's only the interruptions and this applies to obviously the bot system. So if an analyst bot comes in and starts to say hang on a minute, new information coming in, breaking news, things change. You're not going to then go, oh, that's really interesting, and then carry on what you were doing. It's changed the whole dimension, maybe, of the conversation. And then you look back and say, right, OK, in that case, let's redo the last bit because it doesn't make sense anymore, or it's really old-fashioned, whatever. But ultimately, it's a dynamic situation where you're analyzing all the time the steps to see are you in the best position? Are you bringing in the right resource? Are you in the right place in the conversation?
+
+32:23 - Cuan Mulligan So you have to have an agent sort of being the guardian for each box on this page and basically saying, am I good enough? Have you come up with something else that I think you now need to change in my area?
+
+32:39 - Jonathan Phillips And that's where expertise comes in, because you're relying the expertise of each segment, each area, being the authority.
+
+32:47 - Cuan Mulligan I like the idea of segments. I think a workshop should have segments, because the segment has no implication of sequence or anything. And a segment then will need to have an agent expert for each one. And then you have a facilitator for the workshop that guides you through segments. Now, there might be a starting segment or a suggested one, And there'll be an intro workshop, which is probably a sequential process to say, what's your company? There's probably a little bit of a set of context. And then you're going into the segments. And the segments are who knows what order you're going to take.
+
+33:24 - Unidentified Speaker Right.
+
+33:27 - Jonas Lindberg Hey, Jorge.
+
+33:32 - Jonas Lindberg Hey, everyone.
+
+33:38 - Jonathan Phillips So we're finished, you're doing everything.
+
+33:48 - Cuan Mulligan Sorry, when's the deadline?
+
+33:51 - Cuan Mulligan Yes.
+
+33:55 - Cuan Mulligan You've got a very fancy outside your room there, looking very lush and garden, lots of trees.
+
+34:01 - Jorge Lewis Yeah, that's the point. It doesn't look that good in person.
+
+34:10 - Jonas Lindberg What do we want to do here?
+
+34:14 - Cuan Mulligan So where are we? In short, the Workshop Builder is tantalizingly good, but not useful yet. It's still got some glass ceilings that we're knocking our heads against. I think we've got a good, sort of relationship with Jonas. I think Jonas is getting into our heads more in terms of where we need to go with this. I'm getting to the point where I think Jonas can even start thinking about things that we might need that we haven't asked for, because he understands, because we're having these sort of good conversations around where it's going. I see the journey being, let's get a very basic process-based workshop working, which is where we're getting close to now. Then there is a multi-agent version of that. And then this new version, which is what we're calling segments, where you've got segments 1, 2, 3, 4, 5, but there is no sequence to them. And you have to have agents associated with that. I'm implying that, but I don't know if that's the right roadmap, by the way. There might be differences.
+
+35:25 - Cuan Mulligan There is no ADAPT product or go-to-market without this. There just isn't, like there's no point in going to market without this working really well because this is the differentiator. Same for IntelliAgent, by the way.
+
+35:39 - Cuan Mulligan So one of the things I was talking to Jonas last night with, I'm not, you know, as I'm not really interested in the LMS and the mobile and blah, blah, until this works. Once this works, then that's going to be super important. But without having all that other stuff making progress doesn't really make sense. So one of the features that we need from Adapt, which is the reviewer, the review capability, we need to bring that into the Workshop Builder or Workshop Builder migrates over to Adapt and it's all one platform for now. And we'd figure it out later. Let's talk about what the right approach is. So the question I'd have is, is can we migrate or can we move some of the team onto the Workshop Builder and getting this moving forward faster or concurrently? Integrating the reviewer, for example, from Adapt into the workshop builder hopefully wouldn't need to take up Jonas's time. Wouldn't make sense, but it's one of the other engineers should be able to do that. Is there other features that we could get going on? Like, is there somebody I can work on other than Jonas to debug it, or is it better to work with Jonas on the debugging and the fast iteration? All those questions.
+
+36:49 - Cuan Mulligan This is where I think we need to double down on the investment and the time, because without it, I don't think we have a product.
+
+37:01 - Jorge Lewis And how does that play in with IntelliAgent? Is it all the same for IntelliAgent?
+
+37:10 - Cuan Mulligan I mean, IntelliAgent and ADAPT, with the Workshop Builder, almost become one of the same thing.
+
+37:16 - Jonathan Phillips I mean, ultimately, the Workshop Builder is the foundation for everything we do. So ultimately, without that, we don't have it, and it can be generic enough to plug into everything. But I think that's the core that we need to make, we need to get right.
+
+37:38 - Jonathan Phillips The marketing element really just is a wrapper that goes on top. I mean, ultimately it's that 80% engine.
+
+37:45 - Cuan Mulligan Yeah. Remember what we, what I think the proof of concept has proven is that if you build us the capability We decoupled, you've decoupled us from, we are decoupled from you from imparting expertise.
+
+38:04 - Cuan Mulligan Now, obviously there's some handshaking going on in terms of which bits are prompts and we need reviews because it's still quite early, right? But the point is that once this gets to a V1, if JP makes 50 workshops over the next four months, has no bearing on you guys, unless there's a new feature request. And I think that's the great, that's the really powerful unlock. It means I can go and refine this coach to become a coach the way I wanted to coach.
+
+38:36 - Cuan Mulligan And that's where I think it's going to be different. All those, myself and JP were talking about this yesterday, like there's a lot of apps out there that functionally do the same thing, like to-do app or a backlog tool. Some of them are just, they're just better. And a lot of it comes down to these micro interactions where you can't really sort of see them, but together it all just goes, yeah, they're sort of the same, but that's just better. And that's what this is allowing us to do. Not yet, but that's what we want it to do.
+
+39:11 - Jonathan Phillips And when we say better, my perspective of better is the output. So imagine that there were four concurrent systems trying to build a marketing strategy, let's say, and all of them have output. And you could do it now with ChatGPT. You could simulate it now, and it will come out with an output, a strategy. But if you lined up all the strategies, the one we want for our system is going to be superior. And when everybody lines them up, they go, wow, all the others are very samey and generic-y and just like, okay, but it's not going to set the world on fire. Whereas that one there, wow. That's what I want to see. I want to see the output so different. And almost like you have Office Juniors doing the rest, and then you have a 30-year veteran, 40-year veteran, doing the fourth one. And it's just so different. It's out of this world. So that's my impression of the output that I would like,
+
+40:10 - Jonathan Phillips So go and do it. There we go. That's it. That's the brief.
+
+40:16 - Jonas Lindberg Easy peasy.
+
+40:18 - Jonas Lindberg Easy peasy. Yeah, what are you thinking, Jorge? I think I've been run down on that already, kind of by Kieran yesterday. So I'd like your input.
+
+40:34 - Jorge Lewis On what specifically?
+
+40:37 - Cuan Mulligan I mean, let me make this very sort of simple. So, one, Can we move...
+
+40:57 - Cuan Mulligan We need to create a new backlog, an enhanced backlog for Workshop Builder. Let's do that in a moment. Two, are you okay with moving some team members over onto the Workshop Builder team to make this faster, better, et cetera, based to deliver that new backlog?
+
+41:15 - Jorge Lewis Yeah. Jonathan and I said we'd probably have Has9 move over.
+
+41:19 - Cuan Mulligan Okay, if there's others as well, that'd be useful, but fine. Three, the budget. We will fund at least another, let's do this in two-week chunks. We'll fund another two weeks. So if that's Jonas and Hussain for two weeks, that's another $4,000.
+
+41:49 - Jorge Lewis Math is pretty hard. I think it's a little bit less because...
+
+41:54 - Jonathan Phillips I think it's Because they're half a joke.
+
+42:03 - Cuan Mulligan Whatever it is, we'll approve another two weeks. So if we're broadly agreed that that's what you need from us, then I think we need to agree what the backlog is and what we think is feasible in that two weeks, like we did for the first two weeks.
+
+42:19 - Cuan Mulligan Yeah. And Jonas, is there somebody else? I mean, obviously, you know the system because you built it. Who would be best placed to do the debugging with us? Is that the best use of your time? Or are you better off doing more complex features?
+
+42:37 - Jonas Lindberg I think I'm probably best off, at least when there's a new thing coming in, outlining the framework of how it's put in so that it's properly integrated. And then they can probably help debug it. But it really depends on what we're debugging. If it's more a core issue, then probably me. But if it's just a surface-level thing that needs to be fixed quickly, I think any developer that has an in could do that.
+
+43:10 - Jonas Lindberg So as you mentioned, you don't think I need to be on implementing reviews, but I think it would be good for me to implement the reviews, because the fundamental structure behind the reviews have to be quite tightly integrated with how the agents are built up, how it's passed into them, how all behind that works. I'd like to get the structure of it right before I don't think we've finished the foundational work, have we?
+
+43:43 - Jonathan Phillips The foundation hasn't been laid yet. We're not even building up yet. We're still working out exactly what the core is.
+
+43:54 - Cuan Mulligan Okay, so I'm just going to create...
+
+43:58 - Jonas Lindberg Something I imagined getting his name on moving, or for this next week, like moving forward, is refining the advanced stuff thing, because quite right now I've just laid out all the foundation, just thrown bricks at the floor, and I've got a foundation, but it's not really refined. The bricks aren't in their proper places yet, but he could make sure the bricks for the advanced step is more refined, because the structure is already there. He just needs to refine how it works, that it's able to do all those edge cases that we've gone over where you've had issues and all that. And also, We'll probably, as you mentioned, need to convert the step system into a segment system instead and provide the...
+
+44:43 - Cuan Mulligan We should do now or later.
+
+44:52 - Jonas Lindberg I imagine that comes more down to if it's essential to JP's UBP workshop that he'll be experimenting with creating...
+
+45:00 - Jonathan Phillips I think we've got to work on some fundamentals. We can't go off in several directions. We've got to work out what we want and what is going to be the core going forward for everything. So I think we need to work that out first rather than develop two branches and then throw one away.
+
+45:21 - Cuan Mulligan For me, right now, being able to test this effectively makes a lot of sense.
+
+45:28 - Cuan Mulligan If we can't test it, we can't disappoint building it. So I think deleting messages and taking a back step so I don't have to go through whether they're steps or segments is a really big win.
+
+45:41 - Jonathan Phillips This sort of thing is irrelevant to our core direction as far as segments or linear or whatever, because this is relevant to whatever we do.
+
+45:52 - Cuan Mulligan Deleting the message and backing the step is relevant to it.
+
+45:56 - Jonathan Phillips Yeah. So that's a micro thing, isn't it? That we need anyway, whatever direction we go in, that is essential.
+
+46:03 - Cuan Mulligan Yeah. So what I'm trying to do here is actually just build a list of stuff that we need to build, and then we'll agree the order and the sequence. So we need the review capability. Migration so that's bringing over the review capability from adapt into this and there's an improvement. And again, you, there are going to be some workshops that are step to step and other workshops that are are not So we need to improve the current capability for moving from a step to a step. It's a bit crunchy at the moment. And I'm just trying to think from my world, purely from the why workshop, if I get these things and they're working really well, I think the why workshop is... I'm trying to think of all the other issues that we had. The review is a massive unlock.
+
+46:56 - Cuan Mulligan The deleting the steps allows me to test faster. So the other thing then I would say is speed.
+
+47:07 - Cuan Mulligan There were times yesterday we're waiting 20, 30 seconds almost in certain cases for a response. When we're trying to do testing and iterate on it, it's really, really slow. It's quite painful. Maybe there's something we can do about that because it's all to do with the OpenAI and actually our server is fast, it's just waiting on the delay or is it our server that's slow?
+
+47:30 - Jonas Lindberg Yeah, I think that one also comes down into the, I don't know if you watched it, but Jorge sent a video about premature optimizations earlier. And I think this is probably something that should be tackled towards the end once all the foundational elements are in place, because it's going to be so particular to the solution. And also it's such an arbitrary, there's no clear way to go forward with it, if that makes sense.
+
+47:56 - Jorge Lewis Jonas, why is it 30 seconds though?
+
+47:59 - Jonas Lindberg It's not 30 seconds for me. It's not for me. Also, it wasn't 30 seconds yesterday night. So like for all I know, it may have been just a bad time of the day when all the batch jobs were being run in OpenAI or something.
+
+48:14 - Jorge Lewis Yeah, because for me, it was fine.
+
+48:18 - Unidentified Speaker Yeah.
+
+48:19 - Jonathan Phillips I was getting 10 to 15 seconds.
+
+48:23 - Jonas Lindberg Yeah. So the response times increased with the amount of agents. That's one thing.
+
+48:29 - Jonas Lindberg Because it's all the agents having to, that are answering, and then the subvisor is taking all the answers into account, selecting one and passing it onward. All the agents are responding in unison, though. They're responding at the same time, and then being passed to the supervisor. But of course, that means the time it takes to reply is the time it takes for the longest replying agent to reply.
+
+48:52 - Cuan Mulligan So I watched that video, and in principle, I agree with it.
+
+48:59 - Cuan Mulligan Just to give you a summary, I don't know whether you watched it. It basically is, don't over-engineer performance when you've zero customers. Which sort of makes, I get it. Now, the only issue I'd say is that years ago, myself and Arif, when we were building a rudimentary agile project manager on our own backlog management tool, we made a technology choice under direction to use Angular rather than React.
+
+49:27 - Cuan Mulligan And it worked fine. It worked really well. It was fast. It looked smooth. And then suddenly, when we started having a lot of deep backlogs, I think the Angular has, I forgot what they're called, but like handles. And it basically was, the way Angular worked, there was something like 50,000 bits of memory being used for want of a better word, and React had a much better way. So we're six months in, and we end up having to rebuild. We just basically said, Angular can't do what we need to do. We had to move to React. That was a massive two-month, huge cost migration. So there's, yes, I get the concept of premature optimization, But don't start building a train when what you need is a boat.
+
+50:31 - Cuan Mulligan You can't be belligerent on the optimization either. So the speed of response, yes, everything you said makes total sense. But if we've fundamentally chosen some bad technology and we get this, and suddenly JP has a fourth agent and a 12th segment, and the entire architecture just goes, eh, eh, that's going to be a problem. If it's just getting exponentially slower, but we know we can throw 10 others and a little bit of re-architecture, totally fine. But we can't just willy-nilly just stick shit together and then in six months go, oh, we've got to rebuild the entire thing.
+
+51:11 - Cuan Mulligan So there's a trade off, right? You can't just say, do whatever and we'll figure it out in the future. There's gotta be some awareness of the future needs.
+
+51:18 - Jorge Lewis On the hand, on the other, I disagree with the part where you don't throw things willy nilly and fix it later because when you put things willy nilly, they allow you to move faster, which gives you a lot of ability to either get funding, get customers feedback, get money from customers testing at a smaller scale. And if you have to fix that, that problem that that willy nilly thing has made, it shows that that willy nilly thing had value.
+
+51:44 - Cuan Mulligan Potentially, but we couldn't, we couldn't go to market.
+
+51:49 - Jorge Lewis If it's something that's preventing you from going for market, then it doesn't accomplish the task. It's not.
+
+51:54 - Cuan Mulligan Yeah, but it worked.
+
+51:56 - Jonathan Phillips It worked under a very small scope, but then as soon as we pushed it, I think ultimately it's trying to understand what the problem is, because if it's a problem of scaling, then fair enough, you can scale and as Cuan suggested, throw more power at it. But if there's a flaw in the architecture, which we don't know about and we ignore, then that flaw still exists when we try and build on top. So if we don't identify it, then it's always there. And it could be a problem, might not be, but it could be. So I think knowing what the problem is, even if we don't attempt to fix it is key.
+
+52:35 - Jorge Lewis Yeah. Like in this example here, we'd be looking at, okay, realistically, what's the maximum number of agents we'd be looking at? And then we look around there and say, okay, architecturally, is that something that should change because we're using say a hundred agents compared to 10?
+
+52:53 - Jonathan Phillips Exactly.
+
+52:54 - Jonathan Phillips Yeah.
+
+52:55 - Jonathan Phillips I mean, that's the experimentation I'd like to do. I'd like to know whether because we're pushing things here that there aren't necessarily, um, case studies for.
+
+53:03 - Cuan Mulligan So, so we need to know ourselves, but I, I think we have to put some bounds on things. I think running a workshop, like when I'm running physical workshops with people, I wouldn't have a hundred people in there. I'd have maybe. Four voices max. Counting beyond that becomes overly confusing.
+
+53:23 - Jonathan Phillips If, for example, rather than how you say voices, but if you imagine that every single person with a voice in there, the limited number had loads of people giving them information all the time, then they'd be able to analyze that information and hand it on.
+
+53:38 - Cuan Mulligan But us architecting and building a system today that handles five agents versus a hundred agents is fundamentally different.
+
+53:47 - Jonathan Phillips I don't think we know where the level is though. I mean, they're extreme examples. We don't know whether 10 is optimum, 15 is optimum.
+
+53:57 - Cuan Mulligan Optimum, I think is a dangerous question. I would offer what's good enough to show something. And so if we could run a workshop with five agents, and let's say each of those agents has a maximum of one helper agent in the background. So you've got 10 agents concurrently are going. Now, knowing that Jonas has raised significant concerns around the cost of running these things and the speed of having so many agents, I get the ambition. But let's start with something. If we try to boil the ocean, we're not going to get anywhere.
+
+54:29 - Jonathan Phillips No I understand and I'm not suggesting we make it but if we have a proof of concept that works perfectly with 5, 6, 7 agents but then it falls over at 10 and longer term 10 the goal or 15 is the goal then that could be an issue too.
+
+54:45 - Cuan Mulligan Oh you know it is but then that would be I would suggest a re-architecture because if you build day 1 to support 10 or 15 20 well that's, you know, that's a much bigger problem that might take us a year to build solutions for that, as opposed to we could get a five in two months.
+
+55:08 - Jonathan Phillips Yeah, I agree. I agree. But what I don't want to do is build a system and then rebuild the whole system because it's flawed as far as scalability.
+
+55:18 - Cuan Mulligan I agree with I think there has to be we know that we are So Jorge missed the first part of the conversation. So today's version of the workshop is a sequential set of steps, one, two, three, four, and you go down. You're forced down a process. The next evolution of that we know we want to get to is each one of these steps becoming what's called a segment. And there may or may not be a defined order to go through those segments. We know that's ultimately where we have to get to. Having a singular path of 1, 2, 5, 6, 7 was useful for the proof of concept. It's probably sufficient for my Y workshop. It's not going to work for JP's workshops, because his are more fluid in terms of where they go. So today, we need to decide, is that an architectural pivot that we need to take today? I'm wondering whether it does. I think it sounds like it is. We know, ultimately, there's going to be a lot of agents. Agents cost money. So what is the first pass of this? Well, let's say four agents with a helper each. So up to 10 agents, let's say. You might look at that and go, you know what? We can give you five really easily. After that, it becomes really difficult. Well, we'll go with five. Let's see if we can get some customers. I think at five, we could still demo something. We could still wow people with it. And we then know that we have a real architectural diva to fix later to go to 10 or to go to 20. I don't know what the breaking point is. Maybe there is no breaking point, and it's purely money. I don't know. But I think we need to face into these incrementally rather than trying to imagine what they could all be, because I don't think we'll go fast.
+
+57:11 - Jorge Lewis we can tackle the actual problem whether deciding that. But the quick note is for the costs, I don't think the cost will ever be a concern until you guys are trying to optimize for profit. They'll always, because at every point we're in, we're going to be able to optimize the costs. Up until a point where you're not really looking at anything but optimizing profit. Then you're gonna be looking at numbers and like, yeah, the percentage of profit and things like that.
+
+57:41 - Jonas Lindberg To add on to that though, the cost is just multiplied by the amount of participants plus two. So we have the supervisor and facilitator. For every agent you add, it's going to be just multiplied by that number. It's not exponential, it's a linear how it goes up, but it's multiplied by that. So if you have 100 agents, that's going to cost, okay, 102 agents, that's going to cost 100 times more than workshop, no, or just a facilitator and a supervisor or a supervisor. But the theoretical speeds limitation of adding more agents is literally the longest response time. So the agent with the longest response time. So it should be a logarithmic curve more so than exponential or linear curve in terms of response time and capability of scaling to many, many agents. The problem is more if we add layers of agents, so agents that talk to agents that talk to agents that accumulate at one point and then respond to the subvisor, but that's limited by the model's response time, not by our infrastructure.
+
+58:53 - Cuan Mulligan So I think the ask is, I think you can hopefully, well, hopefully you understand JP's ambition. Yeah. It's way beyond the current profile of the platform. We want to go there incrementally. What we don't want to do is go left when you ultimately know we're going to go right from an architectural point of view. I think that's what we want to avoid. So given that, do we think now is the time to invest in doing segments as opposed to steps?
+
+59:30 - Jonas Lindberg I think now is the time to do some, but maybe not all, of migration. So there's some fundamental aspects that should be quite fast to change, which makes sure we're at least on the right path but doesn't allow for the sequence difference or like I'll make technological modifications that don't affect the front end yet just to make sure we're on the right path in other words.
+
+1:00:00 - Cuan Mulligan So apologies my brain didn't follow half of what you just said there.
+
+1:00:08 - Cuan Mulligan I'm still trying to wake up.
+
+1:00:11 - Cuan Mulligan In my head, and see if this makes sense for you, JP, I imagine the page at the moment where we have, I'm going to stop presenting, bring this page up. I just want to make this real for a second and see if this works for everybody.
+
+1:00:30 - Cuan Mulligan Can you see this page?
+
+1:00:38 - Unidentified Speaker Yeah.
+
+1:00:39 - Cuan Mulligan Yeah.
+
+1:00:40 - Cuan Mulligan What I would imagine that there is in a workshop, we would have a tab that says segments or steps.
+
+1:00:52 - Cuan Mulligan You can still call them steps. They're just non-sequential steps. It's almost identical to this, but there is no implied sequence that you go from one to the next.
+
+1:01:06 - Cuan Mulligan There is then another tab that calls process map, which would basically say, is there a suggested flow or process flow? Is there a preferred or a default set of process flows? And there might be different scenarios that, as a JP sort of said, well, in this scenario, we would do this. In that scenario, we would do this. If you get stuck, do this. There's some sort of process. Governor, for want of a better world. And then I think there's a third tab, which is the agents. Now, what I think's missing for me, and I don't know whether we do this at the agent or at the step or the segment, is which agent is primary for what step. So a segment, sorry, I'm rambling a bit now, but a segment will probably have an agent that's an expert in that step, which is separate from the facilitator.
+
+1:02:09 - Jonas Lindberg That sounds like an interesting idea, but doesn't really emulate a real life workshop.
+
+1:02:17 - Jonas Lindberg Correct me if I'm wrong, but like in a real life workshop, it's the same members of the workshop that participate all the way through it.
+
+1:02:27 - Jorge Lewis I guess it could differ when you're like, let's say marketing. Let's say a marketing workshop, JP, you're gonna have to correct me here. But like, let's say you're at a phase where you're doing a little segment for your brand colors. Maybe one person is very good at coloring.
+
+1:02:44 - Jonathan Phillips I think we've also got to sometimes move away from the term workshop because it's a set of Objectives, processes, goals we're talking about which don't necessarily mean people in a room and it doesn't necessarily mean a traditional workshop environment. So we are trying to get an outcome from something and that outcome doesn't necessarily emulate a meeting of people or bots, if that makes sense. We could be looking at something which is longer term, which is over a period of time, or it takes The best way to describe it.
+
+1:03:36 - Jonathan Phillips Difficult for me to describe it.
+
+1:03:43 - Jonathan Phillips I think of an alternative to a workshop environment.
+
+1:03:47 - Unidentified Speaker Bye.
+
+1:03:53 - Jonathan Phillips We even like a pitch where people go away and assimilate information and come back and then bring together a synopsis report on it and make a decision. So, so it could be a slightly different process. It doesn't necessarily follow that it's a experts in a room, so to speak. That makes sense. I don't think that makes sense really, but it's, it's, I think there are variations. I'll have to have a little think about how to describe that.
+
+1:04:19 - Jorge Lewis It's actually a similar problem. We were figuring out. How we wanted to, we're trying to make a project to speed up our initial development of projects. Um, and we were using the term template, but then we realized if we use the word template, whenever we're trying to decide the vision for this, we're going to be restricted to that word template. And we're going to end up going down that path because we've said template. But in a similar way, we probably shouldn't be using the word workshop, although it's helpful in understanding what we're trying to do here. It might be limiting us to other possible kind of structures of conversation we want.
+
+1:04:51 - Jonathan Phillips Well this is a conversation that had occurred many moons ago didn't we about workshop and workshop is very much Cuan's world, Cuan's environment and at the beginning I couldn't understand what we're trying to achieve because a workshop to me was a physical workshop in a room so there's this slight again terminology discrepancies there but I think we're looking for different ways to achieve things. And it doesn't necessarily, sort of, it's not set in stone before you start. And that's, I think, the adaptability there is quite important.
+
+1:05:29 - Cuan Mulligan So can you guys see this? I think it's important that we agree at a high level. This is a workshop, by the way, in my head.
+
+1:05:46 - Cuan Mulligan Does anyone disagree? Does anyone have a different word for this?
+
+1:05:49 - Jonas Lindberg There are multiple kinds in the picture. That's the only thing that conveys what's serious.
+
+1:05:56 - Cuan Mulligan No, like what we're doing together now, this, since we've been on the phone, these are workshops.
+
+1:06:03 - Cuan Mulligan Or would you call them something else?
+
+1:06:10 - Jonas Lindberg I mean just that there's three clients, are all the three clients in the one workshop?
+
+1:06:15 - Jorge Lewis Sorry, I mean the calls we're having between us, like you, me, Jonas, JP.
+
+1:06:20 - Jonas Lindberg Oh, yeah, yeah, okay, now I understand.
+
+1:06:24 - Jonathan Phillips Okay, okay, so this is I just thought of what we disagreed on at the very beginning. You built everything workshop-based, and I did exercises and tasks and activities. And those exercises, tasks, and activities don't form a traditional workshop, but they still have an outcome.
+
+1:06:44 - Jonathan Phillips So that was a terminology thing we had at the very beginning. So for me, this is a workshop.
+
+1:06:54 - Cuan Mulligan There's just a wrapper around everything we're doing. I am now about to do an exercise or an activity Okay, so I think we're violently in alignment.
+
+1:07:04 - Jorge Lewis I just think sometimes the term The term workshop is associated with one thing in your head and one thing in JP's head Maybe yeah, I mean workshop to me was always a people in a room with a flipboard type
+
+1:07:21 - Cuan Mulligan thing environment, so This is an event where we are trying to get to an outcome, which is a workshop. A workshop could be physical. I can go walk in a park for a workshop. I can go sit on a beach for a workshop. That would be a great workshop.
+
+1:07:46 - Cuan Mulligan Yeah, I've done workshops where everyone brought in random objects and shit around their house. And we just facilitated some brainstorming with random objects.
+
+1:08:01 - Cuan Mulligan Certainly in a consulting environment, a workshop would be more formal. It would be a presentation. It would have a very, very tight agenda. You're very clear where you're trying to get to. If you're running that workshop, you're going to get smacked by the partner if you don't get to that outcome. So you're driving it more. Different workshops have different flavors, but they're still all workshops.
+
+1:08:27 - Cuan Mulligan Now, you've got gelato. You've got ice cream. You've got vegan bullshit that's not ice cream. But it's all ice cream. There's all flavors. There's loads of different variations.
+
+1:08:40 - Jonathan Phillips Facilitator, Bob, let's get back on task and do this.
+
+1:08:47 - Cuan Mulligan So let's say you've got three real-world people in a call. They want to do something. Doesn't really make a difference what they're doing. The facilitator is introducing, running that meeting. That does not preclude. Actually, I'm going to bring this over here. That does not mean that any of these guys, agents, cannot also speak to the agent. But we also know that that becomes complex. And actually, what we have here is a behind-the-scenes, and I think it's called the subvisor. And basically, the supervisor All comms go into the subvisor and the subvisor decides who speaks Go in in our in our example yesterday.
+
+1:09:51 - Jorge Lewis The subvisor is going to decide what suit they wear the message wears With subvisors the personalities the personality chooser.
+
+1:09:59 - Cuan Mulligan Yeah But it is a subvisor also choosing. So for example in a meeting, right?
+
+1:10:08 - Cuan Mulligan You could have a lull, and you could have me and JP. And we've had it here. And I can see JP looking for body language cues, going, well, who's next? Some role, some subvisor need. If you've got four agents, there's no reason why they might all not try to say the same thing at the same time. That's going to overwhelm people. There has to be some element of throttling and facilitating the internal conversation so that the customer doesn't suddenly get 10 voices going, bleh. Intended redirections.
+
+1:10:41 - Jorge Lewis Yeah, when I was designing the subvisor design, the biggest problem is that if you try to compare it to a, can you give this example, it's like if you're at a high end law firm, each of the people in a workshop are going to be senior enough to say their own thing. But in this case, it's running the assumption that each of these are juniors and we have, they might be seniors in their own regard, but not with, with like client management, for example. And they go through the subvisor to become senior pretty much. I think the subvisor is the senior saying, okay, you can say what you want to say. You're not going to say what you want to say.
+
+1:11:14 - Jonas Lindberg I disagree with that description.
+
+1:11:18 - Cuan Mulligan Yeah, because one of the challenges is, like, right now, when I was demoing with JP earlier on, like, JP, you said, one of the things that you prefer is telling your agents you only ask one question at a time. I'm finding that it's not always honoring that. It's doing it better now, but it hasn't always. And sometimes it gets crafty by saying, grammatically, it's one question, but with one question mark. But they'll put two questions with a comma in the question. It's like, what's your target weight and your current weight? That's two questions. But to put it in a single sentence is a single question. So that's not what I wanted to do. So it was quite cheeky. Now, if you have multiple agents, there has to be, if you're in a workshop and you have multiple people, regardless of seniority, the more senior person is just more nuanced at reading the body cues and understanding when to interject. Maybe they're looking at going, Carl's pretty junior. He hasn't said anything in here. I might drop him a message and say, Carl, it's OK to speak up. You've got good things to say. They might be doing things like that behind the scenes.
+
+1:12:28 - Jonathan Phillips So I think the best example, again, I could be completely wrong, the supervisor is like the Speaker of the House of Commons. They don't have any value at all except for choosing who's speaking. And the same with a switchboard operator who chooses which conversation goes where but doesn't have the the skill to actually decide what's important, if that makes sense.
+
+1:12:55 - Jonas Lindberg I'd argue it's even better than that because it allows every single agent to speak to it and then it picks out who had the best response and passes that onwards.
+
+1:13:05 - Jorge Lewis Jonas, is it picking a response or is it merging them together to have like a really nice...
+
+1:13:10 - Jonathan Phillips Picking one.
+
+1:13:12 - Cuan Mulligan Okay, so this is interesting this I didn't realize that okay So it has an opinion it basically goes actually the idea agent was sort of talking about bananas.
+
+1:13:21 - Jonathan Phillips That's not relevant not doing that Okay, but how far how deep does it go? Does it actually go on content or does it go on protocol?
+
+1:13:34 - Jonathan Phillips So content as in expertise on content of what's being said or is it a protocol of a you're dominating or you...
+
+1:13:47 - Cuan Mulligan So let's say the idea agent has come up with something and it's an expert in this idea and it says this is the right thing. The subvisor, now if it said it very aggressively the supervisor might go that wasn't very nice or you've asked 17 questions there you can't do that or is it going to say the content of what you're saying is wrong. I think then that undermines the expertise that you encodify into the agents. So I think, JP, I think you're saying, is it controlling etiquette, but not the quality? Like, when I go to these meetings with Google and stuff like that, there's always somebody who's sort of making sure everyone gets to speak. But they're not saying, OK, I've heard what you said. I'm going to change what you said. I'm going to say it better.
+
+1:14:41 - Cuan Mulligan I think we need to train the agents to say very good things and the power should reside in the agent and the supervisor should only be etiquette.
+
+1:14:54 - Jonas Lindberg I think the SubVisor picks who had the best response or most capable response. If the user asked something about the brand and the brand thought with all its context made a better response than the others, the SubVisor would pick that response because it's better.
+
+1:15:12 - Cuan Mulligan Actually, that's a really interesting point, actually, because I've been in workshops where, for want of a better term, the minute taker has said something that they're not an expert in, but was actually really insightful.
+
+1:15:29 - Jonathan Phillips This is dangerous territory. I know what's happening here, but it's dangerous territory for the supervisor to understand everything. At what point does it have all consuming knowledge to understand what the best answer is?
+
+1:15:48 - Jorge Lewis Good question.
+
+1:15:50 - Jorge Lewis I'm trying to find a graph. So I worked on this design with Hasnain quite a bit. We expanded it to include a loop where you have this subvisor picking one message. And after sending that message to the user, the agents are then given a chance again. Hey, do you still want to say this? Do you still think this is relevant? Kind of a way to make sure that if this really was that important, we have to get it through. But I can't find this graph.
+
+1:16:15 - Cuan Mulligan Jorge, I don't know if you understood or you got JP's question.
+
+1:16:18 - Jonas Lindberg Yeah, I think we're moving to a new topic now.
+
+1:16:21 - Cuan Mulligan So I think it's really important there'll be a clarification on JP's question here.
+
+1:16:29 - Cuan Mulligan If the subvisor is able to choose between the content, I've got four agents here and for some reason we're in a part of the workshop. Okay.
+
+1:16:49 - Cuan Mulligan Business model canvas workshop. I'm going to just bring this image in here for a second just to make it contextually correct. Okay. Can you guys still see my screen?
+
+1:17:01 - Unidentified Speaker Yeah.
+
+1:17:02 - Cuan Mulligan Right. We are in a value propositions. We're exploring that, right? All four agents contribute ideas to what the value proposition is. There's a scenario where all four are valid, all need to be submitted. Some of them are absolutely bonkers and not appropriate because of the context of the meeting. Make sense?
+
+1:17:32 - Cuan Mulligan The supervisor should never have an opinion if they're right or wrong. I mean, you could say in scope, out of scope, like if we're having a meeting about agriculture and someone starts talking about coffee making. No, I don't care how good your coffee making is, it's not relevant. So I think the supervisor can keep relevancy, context. But I would imagine in the value proposition, where we're brainstorming, for want of a better word, all four ideas. I'd want to hear all four. It's not just one. There's an assumption there that one answer is the right.
+
+1:18:10 - Jonas Lindberg Yeah, but if you're running a real workshop, that's literally impossible. If you ask a question, you can't listen to all four people respond at once. Only one person gets to respond. People can add on to that afterwards. Which is a capability we can add. But if, uh, like there's going to be one person that takes initiative to start speaking.
+
+1:18:36 - Jorge Lewis Like for example, a vision workshop where we all write down on sticky notes, the vision, and then we put them together at the end, for example.
+
+1:18:45 - Cuan Mulligan Yeah.
+
+1:18:47 - Jorge Lewis And so the question I asked, does it pick one or does it combine them all? This whole subvisor is where the bottleneck will happen. There's edge cases where we want all of their input. Sometimes we just want the best one. Sometimes we might want the best two.
+
+1:19:00 - Jonathan Phillips So it is a definitive. If it's a quantitative answer, and the answer is seven, then it's definitive. There's only one answer. If it's a qualitative answer, and it's all opinions and insights, then how does the supervisor decide which insight is better?
+
+1:19:22 - Jonas Lindberg I mean, take the alternative of real life. Someone just asked the question, what decides who is going to speak? It's going to be the one that takes the initiative first, usually. This is just an alternative to showing initiative. It's just letting all of them speak at once. And then it could even be like a random selector, but the improvement of that is a subvisor that selects who it thought has the best answer. How it selects that is decided by the prompt that you write for the subvisor.
+
+1:19:52 - Cuan Mulligan So what I'd like to suggest is listening to what you're saying.
+
+1:20:03 - Cuan Mulligan So I think there's multiple capabilities here. So I think we know or we certainly think there is a switchboard. So if everyone speaks at once, that it coordinates that speaking. Let's say idea agent in the middle of a conversation with the client. They're running that bit of the thread right now. Let's say like I am doing this conversation right now. If we all start speaking, this thread that I'm having never finishes.
+
+1:20:36 - Jonathan Phillips So just go back a step. My idea, this was before we've had this conversation, my idea originally was that each step or phase or call it what you will, had an expert that had veto, So, even though there were lots of contributions, if, for example, it was a strategy decision, then the strategy bot would have veto over everything else.
+
+1:21:02 - Jonathan Phillips It would take on all the ideas and then it would formulate it itself. That's how I saw it. I don't know if that's logical or it makes sense in this scenario.
+
+1:21:12 - Jonas Lindberg I think there's a fundamental misunderstanding of what the purpose of the SubVisor is. The purpose of the SubVisor isn't to be an active participant in any way at all. It's just what allows a multi-agent conversation to even happen. Like instead of having agents decide who the next speaker is, instead of selecting randomly an agent to speak, the SubVisor just lets everyone speak and then picks who is the best answer. And now what it emulates is just someone's choosing to speak up.
+
+1:21:46 - Cuan Mulligan Sorry, everything you said there made a lot of sense. Until you said the word, it chooses the best.
+
+1:21:54 - Jonas Lindberg Of course, it can't know it's the best, but it's better than nothing.
+
+1:21:59 - Cuan Mulligan Well, I think it could be very harmful.
+
+1:22:08 - Cuan Mulligan What's the alternative?
+
+1:22:10 - Cuan Mulligan Well, that's where I'm trying to go to. So I think there is a, um, as JP said, so there's solutions though.
+
+1:22:19 - Jorge Lewis It's not like we're at a roadblock. Like there's a Jonas, do you remember the cash, uh, the supervisor cash, which I mentioned quite a while ago?
+
+1:22:30 - Jonas Lindberg Fundamentally, we're making a problem where there isn't really a misunderstanding of the purpose of what the subvisor is doing, because it's not limiting anything. If anything, it's unlocking more capability, more than there is in real life, because in real life, you just have to go off body language. Who speaks next in this one you actually get to like kind of pick and choose who speaks next depending on the responses because it's a fundamentally the subvisor is just a replacement of the bad body language or initiative someone
+
+1:23:02 - Jonathan Phillips takes I think there's a disconnect in what we're saying here. So ultimately the the subvisor doesn't choose content, full stop. It chooses the protocol of who speaks when, but all content is assimilated and then a bot will choose which content is best. Is that right?
+
+1:23:19 - Jonas Lindberg Yeah, and best is the arbitrary word used.
+
+1:23:25 - Jonathan Phillips And the best depends on the expertise we train on the bots. So that's limited to how well we train the bots to what it decides is best.
+
+1:23:35 - Cuan Mulligan And as JP said, in a step here, if we're in step X, one of the agents will be the prime agent. And that's the one here with the border. So that's the first word. Will give preferential treatment to the prime agent for the particular context of where you are in the workshop.
+
+1:23:56 - Jonas Lindberg That's fully possible. Like the real world scenario there would be, okay, we're moving up to this step. Everyone in the workshop knows he's the expert. So everyone's going to be paying attention. If this guy's intending to speak, then we listen to him. Yeah. And the way we're facing that error is telling the supervisor that, Hey, this guy's the expert of this stuff. So give priority to him if he's taking it in a new direction or something.
+
+1:24:19 - Cuan Mulligan Is there, I like that. That makes sense. Does that make sense for you as well? Is there a sense of, like, one of the dysfunctions in meetings is that I'll ask a question, you might start to answer it, Jonas, then Jorge asks another question. So my question hasn't been answered. We then go off and then it can spiral out where we're just taking the conversations and we've created all these branches, we haven't actually closed anything down. So...
+
+1:24:55 - Jonathan Phillips You mean we're having a normal meeting, every single meeting that you ever go into?
+
+1:25:01 - Cuan Mulligan Yes, but if you're facilitating and you're trying to get somewhere, if you're on the hook to get somewhere, at some point you tolerate a little bit of that, but then eventually you just go, okay, guys, need to move on. So the facilitator is that one who's trying to drive to a... An outcome in a period of time. Is there a sense, though, that, for example, if, like, let's say JP and Jorge are really getting into something and you sort of get a sense that there's about to be a massive unlock. So I would call that conversation, you're having a thread. There's a conversational thread going on between the two of you. That needs to be protected so it completes. Because you could be talking for the last five minutes, getting really into it, and then someone just goes, hey, how should we make the website? It's like, oh, no, you just like, you know, there has to be some sense of protecting a thread or a conversation because it's getting really useful.
+
+1:26:04 - Jorge Lewis I think we're discussing a lot of very useful things, but I think in the end the best way to go forward, maybe not until later in the future, is to add these things as kind of configuration for workshops or to segments. Because maybe one segment you might want it to kind of let the discussion go ask a question on top of a question on top of a question but sometimes you might not want it to sometimes there is an expert sometimes it's let's treat everybody equally there's a lot of these these configurations that maybe are probably better off in making as configurations instead of is this the right way or is this the right way I think this is really
+
+1:26:42 - Jonathan Phillips useful by the way what we're discussing here for me and my understanding of how the the technicalities work it's been really useful I won't add in personas JP because that blew my fucking head off What's that so you so
+
+1:27:00 - Cuan Mulligan beyond the Asians you then have a persona and a persona is the The way It's how the agent gets expressed so the agent can give content but then the persona takes that content and actually it could be a hey, you're a happy, jovial Christmas elf persona. So everything that that agent gives you goes through that persona and that's how that gets expressed.
+
+1:27:30 - Jonathan Phillips So like a different voice on sat-nav?
+
+1:27:32 - Unidentified Speaker Yes.
+
+1:27:34 - Jorge Lewis Jonas, if I'm not mistaken, I don't know how you implemented it, but this switchboard initially, or depending how you implemented it, could define the persona. So he has a choice of persona saying, hey, these are the options or Yeah, these are the messages that we've been given. Pick the persona that best fits it, for example.
+
+1:27:53 - Jonas Lindberg Not really. It could work like that for a deck, because there it's kind of X as a single application, but not for JPE's application.
+
+1:28:03 - Jonathan Phillips So why do we have persona? What value does that add?
+
+1:28:07 - Jonas Lindberg I wouldn't worry too much about it, because the thing is, for example, the idea agents, it can have three agents behind it, which give it context and good research. Pass that down to the idea agent, which is really the persona which finally gets to talk. All the agents in the background that don't talk are still agents, but they don't have a persona to the user.
+
+1:28:33 - Jonathan Phillips So some agents and personas are not agents.
+
+1:28:36 - Jonas Lindberg For example, in that, there's only one persona, or there's two personas. There's Maria, the coach, and there's, I don't know the name of the other one, but the member. But there can be multiple agents that make up that one person, Maria.
+
+1:28:51 - Jonas Lindberg Yeah. Gotcha. Yeah. I understand that now. OK.
+
+1:28:55 - Cuan Mulligan Yeah. It's confusing. And then you have persona teams. Let's not talk about that.
+
+1:29:03 - Cuan Mulligan So going back to the backlog, deleting messages and taking the back step is really important. Reviewing the capability, getting that migrated over is really important. Moving from step to step properly is really important. And then the question is, and that's why I was starting to do that diagram before we went down that rabbit hole is, Do we create segments? Is that the next most important thing to do?
+
+1:29:33 - Jonas Lindberg I think so. It'll quite fundamentally define how you make your fonts and how you do your reviews.
+
+1:29:39 - Cuan Mulligan So if that's the case, if that's going to change everything, is there any point in doing these three things? Because is that polishing a legacy that's not going to exist anymore, and segments needs to become the top?
+
+1:29:58 - Cuan Mulligan Get rid of those two.
+
+1:29:59 - Jonas Lindberg Renews aren't infrastructurally connected to segments, so that can be implemented at the same time. Delete message and backstep can be implemented asynchronously.
+
+1:30:15 - Cuan Mulligan But my question is, is there any point in me going in and spending loads of days testing and changing the prompts now, as if once you release the segments, it actually basically invalidates everything I've done and I've got to start again?
+
+1:30:28 - Jonas Lindberg It fundamentally comes down to the purpose of your testing. If the purpose of your testing is getting to a final version you want to present in depth, no. If the purpose of your testing is understanding the platform better so you can give better feedback to me on how we should move forward, then yes, it's valuable.
+
+1:30:46 - Cuan Mulligan OK.
+
+1:30:50 - Cuan Mulligan So how long do you think it'll take to do segments? And do you have enough from us to understand what segments need to do?
+
+1:31:02 - Jonas Lindberg I think I have enough to start throwing out the foundation, but something I'd like to define and I'd like to do a workshop with you and JP is defining the main aspects like properties that are required behind the segments and a workshop. So just to give an example of main properties, behind a workshop is the expected outcome of a workshop could be, or outcomes of a workshop. So, for example, for you, Cuan, and you're not getting to know your why workshop, the fundamental properties will be getting an initial goal, getting the measure of success, getting the the fundamental reason why those things that should be saved to a database and stored for later retrieval and use in the application. That's an example of a main property that needs to be defined from or gotten from the workshop. And also I think segments will have the same kind of things where we need to figure out what are the main properties of the segments that need to be implemented.
+
+1:32:09 - Jonas Lindberg to be able to support both JP's workshops, your workshops, and workshops you may see yourself using in the future or making in the future. Does that all make sense?
+
+1:32:23 - Cuan Mulligan Let me play that back to see if I understand. So you basically need to understand the marketing, a marketing workshop in more detail so that you'll basically design the appropriate solution.
+
+1:32:39 - Jonas Lindberg I don't think we're fully aligned. I more need to sit down with you and JP and just figure out which properties a segment has to have and what properties a workshop has to have in the final vision so that I develop it in the correct direction. For example, now a step has an outcome and a purpose. Those are probably not the best two fields to have. I'd like to discuss with you guys more what things a segment needs.
+
+1:33:07 - Cuan Mulligan Well, JP, as I understand it, and I might be completely wrong here, there's no difference between a segment and a step. It's just that a step at the moment is implied to be sequential. I go step one to step two. The big difference between what we have and what we're talking about is the order of them. And the fact that I can go, 1, 2, 3, 7, 3, 1, influence 3, 1, the other.
+
+1:33:45 - Jonas Lindberg Well, just to give you an example, a property that you're very showing me that you want is to define an expert per segment. That's a very defined property that a segment needs to have, right?
+
+1:33:57 - Jonas Lindberg Yeah.
+
+1:34:00 - Jonas Lindberg So that could be like a drop-down selector, who's the agent that's the expert of the segment. And I just want like one day to go in with you. You guys can just knock down what are the things.
+
+1:34:11 - Cuan Mulligan I don't want to delay this. I wonder if we can do this like...
+
+1:34:16 - Cuan Mulligan I need to go and walk the dogs. Dog, singular. I mean, JP, do you have a sense of a schematic for a workshop?
+
+1:34:26 - Jonathan Phillips I'll have a little think. Because what's in my head now probably isn't the right, necessarily the right thing. I just need a little thing to make sure we capture it.
+
+1:34:35 - Cuan Mulligan I also have bad memories now.
+
+1:34:37 - Cuan Mulligan If possible, rather than going away, because if we go away, we could go away for days and days and days. I don't think this is a hugely.
+
+1:34:45 - Jonas Lindberg Absolutely not. I was thinking tomorrow, tomorrow, like same time, 9am.
+
+1:34:51 - Jonas Lindberg Why not today?
+
+1:34:54 - Jonas Lindberg I have badminton now. Well, we can do it tonight. But just I know there's structural things I can program that are independent from the properties.
+
+1:35:07 - Jonas Lindberg So there's things I can work from that may even give me more context for when we have that meeting.
+
+1:35:13 - Cuan Mulligan OK.
+
+1:35:13 - Cuan Mulligan I mean, I think I have an answer. What might be interesting is presenting the answer potentially wrong. And then you guys have something to react to that says why it won't work, what it needs, because that's better than starting from a blank sheet of paper.
+
+1:35:31 - Jonas Lindberg OK. We can do it tonight, then, if you want, if you guys have time.
+
+1:35:35 - Cuan Mulligan Yeah, I've got to get a travel vaccination jab this evening, so at 2. But yeah, I'm around. I just don't know how well I'll be. I don't tend to react to vaccines. All right.
+
+1:35:52 - Cuan Mulligan I think, I can't remember, I went kite surfing in Egypt once and I had to get one and it nearly killed me.
+
+1:36:00 - Cuan Mulligan So you'd be much better off getting the disease.
+
+1:36:01 - Jonas Lindberg I think I have to leave in about 30 minutes, just so you know.
+
+1:36:08 - Cuan Mulligan Yeah, I'm going to go walk the dog, I'm going to let this percolate and then I'll have a think about stuff and I'll share stuff asynchronously on the chat.
+
+1:36:15 - Cuan Mulligan Yeah, sounds good.
+
+1:36:17 - Cuan Mulligan And JP, if you have any thoughts about this as well, just ping it away. All right, so Jorge, are we going to move Hassan over and start the review migration? That feels like a no regrets move.
+
+1:36:30 - Jorge Lewis We can do that, yeah. Yeah, we'll do that. Jonas, can I just have you for a second there? We can plan that out.
+
+1:36:41 - Jorge Lewis Yeah, just make sure that makes sense.
+
+1:36:44 - Jorge Lewis Yeah, the main goal is bring Hassan on to that project. I think so. He's mostly done with the milestones and the streaks, so I think it's good timing. We'll see.
+
+1:36:55 - Jonas Lindberg Cool. All right.
+
+1:36:57 - Jonas Lindberg Cheers, guys. Cheers.

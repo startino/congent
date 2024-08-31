@@ -1,0 +1,238 @@
+10 Minute Preliminary Interview between Jorge Lewis and Chinmay Pandya 
+Tue, Jun 25, 2024
+
+0:02 - Jorge Lewis 23 August, we first started making websites and things like that. And then we started transitioning, we transitioned into MVPs and prototypes recently, I think a couple months ago. And specifically, we do MVPs and prototypes for startups and entrepreneurs. And lately, we've gotten some more demand from people wanting AI projects. So that's what we're looking to kind of scale in terms of what industry you want to do. So that's us. Do you have any questions?
+
+0:34 - Chinmay Pandya Yeah, let me introduce myself. I am Chinmay. I'm currently in the fourth year of my college. I study computer science. And I am studying artificial intelligence in the last year I was into web development before but I was always more enthusiastic about python and deep learning and machine learning so I dived into machine learning and then later on I moved on to studying large language models and then I came across using langchain to maintain web applications and integrating LLMs Nice, cool.
+
+1:16 - Jorge Lewis It's great. So it's Chinmay or Chinmay?
+
+1:19 - Chinmay Pandya It's Chinmay. It's an Indian name, I guess.
+
+1:24 - Jorge Lewis Chinmay, right?
+
+1:28 - Chinmay Pandya Are you facing any noise or sound disturbances?
+
+1:33 - Chinmay Pandya Yeah, there's some. It sounds like wind in the background. No, my fan is on.
+
+1:38 - Chinmay Pandya It's a very powerful fan.
+
+1:41 - Jorge Lewis Yes, it's quieter now, very quiet now.
+
+1:44 - Jorge Lewis Sorry about that.
+
+1:45 - Jorge Lewis All good. So, Chinmay or can you tell me again?
+
+1:50 - Unidentified Speaker Chinmai.
+
+1:52 - Jorge Lewis Chinmai, okay. All right. Sorry. It's an interesting name.
+
+1:56 - Chinmay Pandya Yeah.
+
+1:58 - Jorge Lewis So, I have a couple of questions. So, what's the story behind how you got into Lanchain?
+
+2:06 - Chinmay Pandya So I wanted to make large language models. I wanted to make web application that uses large language models. And so my friend is actually very much skilled in this area of lang. So he suggested to me that I should learn langchain. It's a framework to integrate LLMs into your application. So I started learning Langtian and then I came across RAG pipelines and how to implement those pipelines to be memory efficient and time efficient using vector stores. And I started making projects. I already knew React, as I told, I was into web development. So I was already scaled enough in react and JavaScript and next.js. So I started making projects. And right now, I guess there's a competition for Google, which requires you to make a web application, which embeds Gemini. So I'm also working on a project with my friends.
+
+3:12 - Chinmay Pandya that competition is for about 60 days so and my friend is also having a job he's a senior so I do not give that much time so it won't affect any in my schedule But yeah, him and I have many friends who guide me with LLMs and langchain. So I'm working on a project, which is, which is the name is not decided, but it works as is. It's like chat GPT, but it's a visual chat GPT. It gives you. A tree like data structure for research purposes. If you want to research for a particular topic, you just have to pass in the prompt or the title of your research and it will provide you with a tree consisting of nodes and each node will have information. And the nodes will be divided by categories like if you want to search for like AI in finance so it will be it will divide like it will divide the data into categories like key events and further topics and if you click on each node then it will further call the LLM and pass that context summary and retrieve more relevant data and expand your Nice.
+
+4:31 - Jorge Lewis That's cool. Um, and how long ago did you start that one?
+
+4:36 - Chinmay Pandya We started that about a month ago. We have meetings, uh, two to three times per week. As I said, he, he currently has a job. So he will say it as they cannot afford much time, but I managed for the front end side and he guides me for other limbs and he works most of the time. Cool. Cool.
+
+5:03 - Jorge Lewis Yes, thanks. So you said you had experience with web dev before?
+
+5:07 - Chinmay Pandya Yeah.
+
+5:13 - Jorge Lewis Sorry, one second.
+
+5:22 - Jorge Lewis So you said you have with web dev. Which framework did you use next, I think?
+
+5:27 - Chinmay Pandya I've used pure JavaScript, as well as React, as well as VJS, NextJS.
+
+5:37 - Jorge Lewis Okay, cool. We used FeltKit. Do you have any experience with that?
+
+5:43 - Jorge Lewis Sorry?
+
+5:44 - Jorge Lewis We used FeltKit. Do you have any experience using that?
+
+5:47 - Chinmay Pandya I've heard about that, but I haven't actually used it. No problem.
+
+5:55 - Jorge Lewis And then for database, what do you usually use?
+
+5:58 - Chinmay Pandya Database for simple web projects, I use the MongoDB database, the cloud MongoDB database.
+
+6:07 - Chinmay Pandya And if I have to use extensive data, then I store it in my local SQL database.
+
+6:17 - Chinmay Pandya or Postgres.
+
+6:20 - Jorge Lewis Nice, nice. We use Superbase. Have you used it by chance?
+
+6:23 - Chinmay Pandya Yes, I've heard about that. And unfortunately, I haven't used that in a project.
+
+6:31 - Jorge Lewis It'S not hard. It's fine. I have two more questions. So first one is, if we could give you your dream project, the favorite type of project you could do, what would it be?
+
+6:47 - Chinmay Pandya My favorite type of project?
+
+6:49 - Jorge Lewis Yeah, to work on. Uh, like what do you love to, what type of apps do you love to make and stuff like that?
+
+7:00 - Chinmay Pandya I've actually worked on, uh, I have actually had prior internship where I had to make e-commerce websites.
+
+7:11 - Chinmay Pandya And so to make apps which require LLMs and also frontend and backend, so it gets me pretty exciting because it's also challenging and it boosts my skills and it pushes me in a zone where I need to constantly develop and debug the errors and keep, it's like a continuous process. So any project which challenges my mind and challenges my abilities is kind of my favorite project.
+
+7:47 - Jorge Lewis Yeah, cool. Thank you. The last one is, what are your goals for the next time frame? So like, what are your goals for, where do you see yourself in like six months and one year and maybe like five years?
+
+8:03 - Chinmay Pandya Okay, so for the short term, I have the last year of my college. So for short term, I'm looking into working with people, working with startups, preferential preferable the startups from abroad give opportunities to Indian students just like yours. So I am excited to work with startups, build my network, build a team and be experienced as a developer and after my graduation if If I feel confident, then I feel like being a freelance developer if I'm not currently a part of any team. But my first preference would be to get a job at a fan company. That's what I'm preparing for.
+
+8:58 - Jorge Lewis Oh, big fans, yeah. That's cool. That's great, man.
+
+9:03 - Jorge Lewis So like in five years, you would see yourself at a fan company. That's cool. Do you want to live abroad? Do you want to live abroad or do you want to live still in India, like when you're working at the fan company?
+
+9:32 - Chinmay Pandya Living abroad always seems like a better option.
+
+9:36 - Jorge Lewis Yeah, it's a big move, big change.
+
+9:39 - Chinmay Pandya Yeah, it's a big change.
+
+9:44 - Jorge Lewis Cool, cool man. Thanks. I think that should be it. I've learned a lot about you. Do you have any questions for me, for the company, or how we like to work, anything?
+
+9:55 - Chinmay Pandya Yeah, so actually I was actually I shouldn't say this in an interview, but I was actually unsure of the company because when I looked into the company profile, everybody had an AI AI profile picture. Generated profile picture. So I thought, because maybe you do not know this, but there are a lot of companies which try to lower Indian students and they charge money or they lower Indian students saying that we'll pay you dollars of amounts. And so I wasn't really sure, but I guess I'm satisfied.
+
+10:33 - Jorge Lewis What are those companies like, what do they attract? Like, why do they attract people?
+
+10:39 - Chinmay Pandya No, they lure Indian students because Indian students want to work with abroad companies. That's the first thing. And the second is that they tell the students that we'll pay you X amount of dollars.
+
+10:54 - Jorge Lewis I see, I see.
+
+10:55 - Chinmay Pandya But it doesn't usually end up very well, right? So they ask for a temporary payment for confirmation and then they never message you. Yeah, yeah.
+
+11:06 - Jorge Lewis That makes sense.
+
+11:09 - Jorge Lewis I think I've ordered some food. I think he's here. So I think we can wrap up here man. It was great meeting you. Yeah, I'll message you I'll message you soon to let you know the plans Yeah, actually I have some questions if you don't mind, okay I don't mind but I'm gonna go get the food. So if you give me like five minutes or two minutes Yeah, sure. All right. Cool. Thanks Hey man, I'm back. So sorry about that.
+
+14:02 - Chinmay Pandya Can you tell me about the structure of your startup? Have you hired any other developers from India?
+
+14:11 - Jorge Lewis Yeah, for sure. Okay. So our team currently is, we're four, um, four people in total. It's me, my co-founder Jonas. Um, he's from Norway. He lives, uh, he's been programming for this. We started around the same time. We're really close. And then we have two other team members. One is from Switzerland, Sweden, and the other one is from Benin.
+
+14:38 - Chinmay Pandya Okay. So you do not have a developer from India, correct?
+
+14:43 - Jorge Lewis Not yet. No.
+
+14:45 - Unidentified Speaker Okay.
+
+14:45 - Chinmay Pandya Are you also interviewing other candidates?
+
+14:49 - Jorge Lewis Yeah. Yeah.
+
+14:51 - Jorge Lewis Okay.
+
+14:51 - Jorge Lewis Currently, currently we're interviewing for both, um, the line chain role and then also the spelt kid developer.
+
+14:59 - Chinmay Pandya Okay. Can you, uh, give me a brief about my responsibilities if I were to join?
+
+15:04 - Jorge Lewis Yep. Cool. So how we like to work when we have new clients is working in pairs. So we believe that's probably the best way to go forward with things just because it's so efficient, the communication is really good, and you don't have to worry about too many clashes. So for every project that we get, we'll most likely do it in two by twos, or in pairs. And if the project needs two pairs, or if the project needs more than two people, you add another pair instead of just a single person. So we kind of use it as our unit of courtesy. In terms of your roles and your responsibilities, you'll be in charge of helping our team. So currently, I'm the lang chain developer, pretty much, for our company.
+
+15:51 - Chinmay Pandya I think you've got a phone playing in the background.
+
+15:53 - Chinmay Pandya No, it's my mother's phone actually. I told her not to call. She doesn't know that my interview. She came from outside. No worries, man.
+
+16:03 - Jorge Lewis Sorry about that. No worries, no worries. Just wait. Alright, cool.
+
+16:09 - Jorge Lewis So currently the plan is, by the time we have a new developer, we would have two developers that know Lanchain, so Jonas, my co-founder, and then the one from Switzerland. He still doesn't know Lanchain, but he knows Python, so he's going to learn it.
+
+16:27 - Jorge Lewis So yeah, so you'd be helping the Lanchain part, integrating it to the rest of the project. You would have to communicate with some of the clients probably, at some point you'd have to meet them. Okay. Yeah, in terms of schedule super flexible round full time So just around 40 hours anything around that does and then in terms of schedule on a day-to-day basis completely up to you Weekends you don't have to work. But if you want to maybe like take Wednesday off and do Sunday instead completely fine with us Okay, so you do not have a fixed schedule like nine to five or? No, no, no, because the time zone difference, it's too hard. Yeah, I can tell you how how we work right now with the rest of the team. So the one, Nazif from Benin, he, he wakes up probably around my time, 12pm. That's, that's about it. Oh, one restriction, one restriction we do have, though, is that at At a certain point every day, we have a daily meeting with everyone to let everyone else know how your project is going and how things are going, just to say hi. That is at 2 p.m. For me, so I don't know what time that is for you. So that's the only requirement. I have to calculate that for my time zone.
+
+17:55 - Jorge Lewis So, yeah, that's it. Anything I missed out?
+
+18:02 - Chinmay Pandya No, it was, so basically my role would be of like an assistant Lanchain developer, am I correct?
+
+18:11 - Jorge Lewis I think in terms of Lanchain, our team is so new to it as well that you would probably be the most experienced in terms of how many years or how many months have you worked for Lanchain or years?
+
+18:24 - Chinmay Pandya I have, uh, making projects. I have worked with LangChain for about a year. Okay. Yeah.
+
+18:33 - Jorge Lewis For me, I've only been, I've been working with Python for quite a few years, but with LangChain, I only started maybe two months ago, so I'm quite new myself. Um, well, LangChain we've actually used for a little bit longer, but LangGraph is, um, is what I learned like last month. So, yeah.
+
+18:55 - Jorge Lewis Yes, I think for example, I'll give you I'll try to give an example if this kind of clears things up so I Mean, and I guess a little bit more background in terms of our clients. So currently are we have two clients that are paying us At both their projects are kind of chatbot AI type of thing But one of the clients that we have is a is a really ambitious guy, and he has a lot of ideas. He has a consultancy that helps other, like medium to large businesses to to strategize and how to use AI. That's he consults with them. And the plan is for him to bring clients to us. So those clients wouldn't be startups or entrepreneurs, there'd be big businesses that want to get get an MVP for for some strategy that they discussed. Um, so that's kind of a direction that we might go in, but if he doesn't refer us to any clients in that regard, we continue our current path of working with startups and entrepreneurs.
+
+19:56 - Chinmay Pandya That's really exciting to hear. So most of the projects are Python centric.
+
+20:03 - Jorge Lewis Uh, okay. All right. We do our lang chain and TypeScript. Now we switched from Python because with SvelteKit, we're able to develop it really like we're able to be really lean.
+
+20:16 - Jorge Lewis Beforehand, we had to deal with the scheme of the database changing and the API getting changed. A lot of planning and a lot of time wasted where you have to re-edit things. But now, for the entire project, it's done in TypeScript, and it's all done in one codebase, so it's really simple and lean.
+
+20:36 - Jorge Lewis So what's your experience like with TypeScript and then also LANG chain in TypeScript?
+
+20:42 - Chinmay Pandya I haven't used Lang chain in TypeScript, but I have used Lang chain in JavaScript. And, uh, for individually TypeScript, I have made a project where I had created a dashboard for admins and it was used to generate invoices. And it was done. It was kind of a dynamic dashboard that I had to use TypeScript. And I also hosted that website. If you want to check it out. Yeah, you can send it over. I can take a look. I can give you the link. It was a very minor project, but it involves using TypeScript and handling data and typecasting. So the entire project was in TypeScript. So I am comfortable with TypeScript. And also, yeah, I use lang chain with JavaScript.
+
+21:29 - Unidentified Speaker Cool.
+
+21:31 - Jorge Lewis But your primary one is Python, right? Like you usually work with as an API, right?
+
+21:36 - Chinmay Pandya Yeah, no, not in terms of lang chain. My primary language is Python in terms of deep learning and machine learning. For lang chain, I'm comfortable with both in JavaScript and in Python. I see, I see. Python only because Python has a library called Streamlit. So I do not have to worry about the front end. I can make a quick interface and embed the LLM. So that's why for my most recent project, I used Python with Streamlit.
+
+22:00 - Jorge Lewis Cool, cool.
+
+22:04 - Jorge Lewis Yes, I mean, if we go down the routes of working with larger companies, we'd be making a lot of different programs, but we'd still be working two and pairs. We want to make sure that we don't like for us, we would be as a business, we would probably make more money if we had like 1000 developers on our on our company. And then we just talk we just outsource and bring them in for like one client at a time. But for us, we really want to have like a very tight team. That's like, that's that really likes working with each other. And that way, even a couple of years down the line, it doesn't matter. If it doesn't matter on the clients, but within the company, we all like know each other and enjoy working with each other. If it makes a lot more like worthwhile.
+
+22:50 - Chinmay Pandya So you want employees which are trustable and collaborative, right?
+
+22:55 - Jorge Lewis Yeah. Like, uh, just being easy. Like we, the first one is just luck and you need to get along with the rest of the team. That one's, that one's just based on luck. Um, and then also just people that want to, that are ambitious. We want you to be able to grow with us because otherwise it doesn't feel like we're helping each other as much as we could. Like we think if we're able to grow together, it's much more beneficial than if only our company grew, but you just, we pay you like a flat thing every time. Like only money, if that makes sense.
+
+23:24 - Chinmay Pandya Yeah. So have you accepted any previous work or any client or something which I can see? So maybe I'll get to learn how you work.
+
+23:37 - Jorge Lewis Yeah. So, so our, our first, the, the, one of the projects was in Python and Python for the backend. We use an eight, we use fast API and then spell kit for the front end. But we're currently in the middle of the process of migrating the Python code to TypeScript, switching the SDKs. So we're in the middle of that. And then for the other clients, we haven't started that one yet. We're supposed to get started on that one, actually, already.
+
+24:08 - Chinmay Pandya So the work is in middle, right? You haven't deployed.
+
+24:11 - Jorge Lewis Oh, it's deployed, actually. Let me send you the link.
+
+24:29 - Jorge Lewis And then Seems like it cut out. Did I send the first one?
+
+25:02 - Chinmay Pandya Yeah, I got it.
+
+25:12 - Chinmay Pandya Yeah, I checked it out. It's it's the same as a it's like a chat GPT.
+
+25:16 - Jorge Lewis So that one we're We're working, we're only working on the chat, like the AI functionality. We haven't done any work. It's very simple stuff. Um, right now it's just, it's like a lot of the properties are exposed. It's not done. I mean, to say, right. Um, like the last few weeks of the, of the project, making it look usable for the users.
+
+25:42 - Chinmay Pandya I've sent you the link for my project. Uh, the one that I posted, which was built using TypeScript.
+
+25:52 - Chinmay Pandya If you want to take a look at it, I've mentioned the link in the message.
+
+25:55 - Jorge Lewis I'm taking a look at it. Um, what did you use for the profile authentication?
+
+26:07 - Chinmay Pandya I used an email provider, but, uh, uh, then I scratched that and just, uh, choose the simple username and password because. I just wanted the main thing for the project was how the backend for the dashboard works and not the authentication.
+
+26:28 - Chinmay Pandya So I used, but previously I used Google provider, Google auth provider and also the email provider.
+
+26:37 - Chinmay Pandya Those are built-in functionalities for Next.js. So with Next.js middleware, it's pretty easy to manage user sessions and use authentication.
+
+26:49 - Chinmay Pandya Also, the data is coming from the database which is also hosted.
+
+27:03 - Jorge Lewis Where's the database hosted?
+
+27:05 - Chinmay Pandya The database is hosted in the WordCell itself, the WordCell Postgres database.
+
+27:21 - Jorge Lewis It's cool. It's only, is there any AI features in this one or no?
+
+27:27 - Chinmay Pandya I haven't included any AI features, but it's the entire project is done in TypeScript and it was a lot of code.
+
+27:34 - Jorge Lewis Yeah, it looks like it. Have you, do you use ShadCN?
+
+27:41 - Chinmay Pandya Yeah, I switched from use cases. If ShadCN is the better one, Mostly I use and, no, Material, sorry. Material or Tailwind. And I've used ShadCN in one of the hackathons I went. There's a city, Surat, and it hosted a hackathon, a global hackathon for students. So there I used ShadCN.
+
+28:11 - Jorge Lewis Gotcha. Yeah, we always use Tailwind CSS, and so far we've always used ShadCN.
+
+28:22 - Jorge Lewis So that's what we use it for our front end. I know you won't be, or I haven't, uh, like the official role isn't for a web dev, but if you are able to learn so kit that, or like some of the web dev part, that would be fantastic as well. Is that something that's like totally out of reach for you? Or what is that? How does that look for you?
+
+28:43 - Chinmay Pandya It's not totally out of reach. Yeah. If you talk about my preference, I would prefer to be a Lang chain developer. Because I see my career as an AI ML software engineer. And so I would prefer to be the line chain developer, but if anybody from the team needs assistance in a website, so I have already experienced in react next year. And I also, uh, I like to learn new things, so it's not a problem. I would learn sweat kit anyways. If I have to collaborate with the team, I guess I have to learn it anyways.
+
+29:19 - Jorge Lewis Gotcha. Yeah, that makes sense. Cool, man. So yeah, if you have no more questions, then I think we're good. I have another meeting to get to.
+
+29:27 - Chinmay Pandya Yeah, I have no further questions. All right, cool. It was nice to meet you. Thanks for your time.
+
+29:34 - Jorge Lewis It was lovely meeting you as well, man. I'll hit you up on LinkedIn soon and we can see how to move things forward.
+
+29:40 - Chinmay Pandya Yeah, I'm looking forward to it.
+
+29:41 - Jorge Lewis All right, cool, man. Take care. Have a good day or good night.
+
+29:46 - Chinmay Pandya Have a good night. You.

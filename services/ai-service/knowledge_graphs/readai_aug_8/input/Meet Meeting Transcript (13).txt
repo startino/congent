@@ -1,0 +1,400 @@
+Meet Meeting 
+Sat, Aug 17, 2024
+
+2:07 - Jonas Lindberg Yeah, Jorge, basically just to run you down on what he's said until now is that he's looking to resign at the other job in conclusion, and that he wants to move over to ours in full time, but he hasn't had the opportunity.
+
+2:26 - Jonas Lindberg That's the gist of it.
+
+2:30 - Jorge Lewis Oh, wait, he's not here yet. Yeah, he's currently trying to join.
+
+2:46 - Jonas Lindberg And then he started kind of telling the story from the moment he got the Uber job and was going over it, but then his connection just died at the same time as he was starting. So it's good that you joined so that you can also get the story.
+
+3:05 - Jonas Lindberg Will, can you join Google Meet?
+
+3:11 - Unidentified Speaker Already joining? OK.
+
+3:31 - Unidentified Speaker Yeah, hello.
+
+3:34 - Jonas Lindberg Hey, how are you? No, the connection seems to be bad. The one on gather was just bad.
+
+3:43 - Will Vincent Parrone I'll be turning off my gather for now.
+
+3:47 - Jonas Lindberg Yeah, go ahead.
+
+3:51 - Jonas Lindberg So yeah, you were starting to go through the story. Do you want to just summarize what you've said already to me for Jorge, so that he has the context?
+
+4:00 - Will Vincent Parrone Yeah.
+
+4:01 - Will Vincent Parrone Okay, I'll be turning off my camera too, if it's okay, for internet.
+
+4:06 - Will Vincent Parrone The internet seems to be fine, huh?
+
+4:12 - Unidentified Speaker Oh, okay.
+
+4:13 - Will Vincent Parrone In which case, just a short summary. I got accepted at this server admin job in around May, and then Jorge contacted me around June, which I was actually not able to respond because I got kidney stones during the first days, but my initial plan back then was to work at Stardino during the times that I'm also working at this other company. I kept it as a secret because In our local culture, working two jobs is often times from the pot, by the employer.
+
+5:06 - Will Vincent Parrone So that's primarily the reason why I kept it as a secret.
+
+5:19 - Will Vincent Parrone So yeah, that's where I left off.
+
+5:25 - Will Vincent Parrone We're already going to be discussing the ways forward, like the schedules.
+
+5:34 - Unidentified Speaker Is it right, Jonas? Yeah.
+
+5:39 - Jonas Lindberg You also mentioned that you were planning to resign at the auto company, right?
+
+5:44 - Unidentified Speaker Oh yeah, absolutely.
+
+5:46 - Will Vincent Parrone I'm gonna send the resignation paper either next week, Monday, or next week, Tuesday.
+
+5:56 - Unidentified Speaker Yeah.
+
+5:57 - Jonas Lindberg One of the main issues that we've had with your time here at Cirquino has just been your presence, even during your work hours. You've just seemed like you've been on a different wavelength, like in meetings, you're tired, closing your eyes all the time. Just seemed like you're about to sleep and otherwise just haven't been fully present, if that makes sense.
+
+6:29 - Will Vincent Parrone Yeah, I think I've been called out about it a few times already. I'm pretty aware. And probably it's because of the overwork too. But then again, it kind of feels like I'm saying an excuse. So the way I move forward with it is probably to create a means for me to read the messages better and also connect with the other developers more often.
+
+7:15 - Will Vincent Parrone It's possibly my way forward.
+
+7:24 - Jonas Lindberg Personally, I feel like it's just kind of been the whole situation that's created the circumstances. If you're, as I explained earlier in Gather, if you're working from 7 a.m. In the morning till 9 p.m. In the evening every single weekday, there's no way all of those work hours will be efficient, you're going to be super tired. If you want any free time to spend in your weekdays, then you're going to be either missing hours or missing sleep. And if you're missing sleep on such a schedule where you're working every single hour of the day, you're not going to be working efficiently at all. I think that's the reason why you haven't been present fully.
+
+8:26 - Will Vincent Parrone Basically, other than that, I think one of my issues is I oftentimes lose track if I'm not writing notes of the meetings. That's a habit that I know works, but I don't strictly implement it.
+
+8:48 - Unidentified Speaker Yes, what?
+
+8:51 - Will Vincent Parrone Write down notes, like notes of the meeting.
+
+9:02 - Jonas Lindberg I don't think there's any specific thing like that that's been ditched.
+
+9:06 - Unidentified Speaker What do you think, Jorge?
+
+9:11 - Jorge Lewis It's like, it's hard to tell because Any behavior that we experienced from you was affected by your other job. So it's like, I can't say, oh, it's this. Oh, no, it's this. Because everything, oh, it's this, we could say it was because of that, but we don't know. So for all I know, my concern is that you leave this other job and you join us full time, and some of those issues still remain. And then we can say, oh, it wasn't because of the other job. It was because of something else.
+
+9:52 - Will Vincent Parrone Yeah, good point.
+
+10:00 - Unidentified Speaker Okay.
+
+10:08 - Will Vincent Parrone Let me try to think about it.
+
+10:15 - Will Vincent Parrone Basically, it's a bit hard.
+
+10:17 - Will Vincent Parrone I hear what you're saying. It's a bit hard. For us to figure out what's going on or I guess for the both of you to figure out what's going on to see which ones are an issue related to the other company and which ones are just literally behavior related issues.
+
+10:40 - Will Vincent Parrone I would argue the other company plays a huge role especially with my activity in from morning to afternoon, not being able to respond to calls, not being able to be up on gather, those things are related to the other companies. However, like the times where I sometimes, I sometimes don't, like, fall too much attention to meetings, like I'm a bit, how do I say it properly, like, lightheaded? Is lightheaded a term?
+
+11:17 - Unidentified Speaker Yeah.
+
+11:18 - Will Vincent Parrone Yeah, okay.
+
+11:20 - Will Vincent Parrone I would argue that even though the other company might play a role there, with all the stress and all the stuff, I'm sensing that it's related to a behavioral tendency of mine to be a little bit lightheaded if I'm not writing down notes. Because this is a behavior I've observed for a long time already.
+
+11:47 - Will Vincent Parrone Are you guys waiting for me or something?
+
+12:08 - Unidentified Speaker No.
+
+12:10 - Will Vincent Parrone I'm just thinking.
+
+12:11 - Will Vincent Parrone Everyone's like thinking. Yeah.
+
+12:22 - Jonas Lindberg Something you learn doing a lot of meetings is just being comfortable with silence.
+
+12:26 - Jorge Lewis What do you think, Jorge?
+
+12:38 - Will Vincent Parrone What are your takeaways?
+
+12:47 - Jorge Lewis I think it'll be a great opportunity for you to grow as a developer, but there's also a risk that in the end it doesn't work out with us and then you'd be left in a bad spot. That's one of my concerns.
+
+13:03 - Unidentified Speaker That's fair.
+
+13:05 - Will Vincent Parrone I think maybe it's because I'm overconfident in myself, but I honestly think I have the capacity to be hired in another job if everything goes wrong like I'm not that afraid of losing wait wait that sounds wrong I'm not afraid to lose no 30 um I'm not afraid of that prospect because I think it's easy for someone like me to be hired in a simple job like a simple server management a simple network like I'm not afraid of
+
+13:50 - Jonas Lindberg losing your house or something.
+
+13:54 - Unidentified Speaker Basically.
+
+13:57 - Will Vincent Parrone If all else fails, I can always be a fryer at McDonald's.
+
+14:10 - Unidentified Speaker That is the way.
+
+14:12 - Jonas Lindberg What we really need from people in Startino is a lot of self-initiative, a lot of wanting to move forward.
+
+14:23 - Jonas Lindberg taking on responsibility and not relying on others, and I think if you're consumed with another job in addition to this job, and you're trying to optimise your time too much, what happens is you don't have the opportunity to have that self-initiative to over-deliver to take on responsibility to manage yourself, you end up just completing the things that are handed to you, and just that, and it's not in a proper timeframe either.
+
+14:57 - Jonas Lindberg As an example, Chen Mei, especially when he started with us, when we got him on, like, and gave him a task. Usually he did the task and then over-delivered on it, looked into new avenues he suggested we go into, like, did a lot for us beyond just the task that we gave him. And that's only something that's possible to do if you have the time to do it. And if you have the mind space to go properly into it, you can't really get into that mind space if you're working a 18 day onto different things.
+
+16:06 - Jonas Lindberg Seems like well cut out again.
+
+16:59 - Jonas Lindberg Maybe you can turn off your camera, we'll see if that helps.
+
+17:28 - Will Vincent Parrone Oh, hey, this might be.
+
+18:01 - Jorge Lewis I mean, the only thing I think is just, if he leaves his other job, there's a chance that he doesn't fit in here, and then he's going to have to find another job.
+
+18:14 - Jonas Lindberg Yeah, he didn't seem too concerned over that, so I wouldn't feel that responsibility on my shoulders at least.
+
+18:27 - Jonas Lindberg Oh, joined with the work account now, I think.
+
+18:36 - Will Vincent Parrone Hello, maybe using my phone will be a bit better.
+
+18:40 - Jonas Lindberg It's sideways for me, but it's clear.
+
+18:44 - Jonas Lindberg Yeah, OK.
+
+18:52 - Will Vincent Parrone So yeah, anything that you guys discussed without me?
+
+18:58 - Jorge Lewis Just to highlight it again, my concern is that we don't want the responsibility or the weight of having to keep you because you have no other job or because you left your other job for 13-0.
+
+19:28 - Unidentified Speaker How do I say this?
+
+19:29 - Will Vincent Parrone I think it's not really that bad.
+
+19:38 - Unidentified Speaker Okay, okay.
+
+19:49 - Will Vincent Parrone Here's how I think about the situation. Right now, I have a very... I basically have two options.
+
+19:59 - Will Vincent Parrone I could probably focus more on Stardino.
+
+20:04 - Will Vincent Parrone It's a very simple job with not a lot of things to do. But my... But growth there is also minimal. Or I can focus on...
+
+20:19 - Will Vincent Parrone I can focus on Startino, which I honestly believe would be a lot more stressful, but would force me to grow in ways I don't know. I could. I could possibly choose the other job for the sake of stability and some of the government benefits, but I honestly feel like five years down the line with them, or a year down the line with them, I would regret not taking this option because I won't grow as much. You feel me?
+
+21:01 - Will Vincent Parrone And if, let's say, let's say, in a hypothetical universe that I actually don't align with the values in Startino, it's part of the business. At some point, at some point, yeah, there will be major differences that should be resolved immediately.
+
+21:23 - Will Vincent Parrone There's nothing wrong about it, Para. Sorry, Filipino word, Para. Like, it's part of the game.
+
+21:36 - Will Vincent Parrone Yeah, sorry if I keep putting in Filipino words.
+
+21:40 - Jonas Lindberg Only I will understand them. Yeah.
+
+21:51 - Will Vincent Parrone But basically, my stance is that I would prioritize Tartino mainly because I feel like I would be growing much better as a developer than stay at a typical server management job in a small company in Makati.
+
+22:23 - Jonas Lindberg Yeah I resonate with that.
+
+22:26 - Unidentified Speaker What about you Jorge?
+
+22:28 - Jorge Lewis Yeah I mean I think that's obvious, that's pretty obvious. Yeah.
+
+22:32 - Jonas Lindberg Jorge do you want to hop in another call and just discuss them or want to remain here?
+
+22:45 - Jorge Lewis I think this is in Will's court now.
+
+22:48 - Unidentified Speaker Yeah.
+
+22:52 - Will Vincent Parrone It's basically my court because... I have to make a choice? It's up to you. It's your decision.
+
+22:58 - Unidentified Speaker Yeah.
+
+23:00 - Will Vincent Parrone I mean, I'm not gonna lie, guys, but like...
+
+23:05 - Will Vincent Parrone Although it's in my court, yeah, my decision is to be with Startino. Like, you guys still have the final say. Like, whatever your decision is, I have to respect it. No, not have. I will respect it.
+
+23:20 - Unidentified Speaker Nonetheless.
+
+23:24 - Jorge Lewis I mean, we don't have much of a decision right now. As you know, we're open for you to join full-time. That's how it was initially. So if you're able to actually be on full-time this time, then yeah, that's the way we would like to go and then see from there.
+
+23:45 - Unidentified Speaker Yeah.
+
+23:47 - Will Vincent Parrone Although, I have a small request, Jorge, if ever I get full-time.
+
+23:54 - Unidentified Speaker Yeah.
+
+23:55 - Will Vincent Parrone I want to keep the up work, just lower my rate a little bit and to the proper amount of hours. I just realized how much it benefits me by letting me know how much I work for the day and how much hours I'm not actually doing productive things.
+
+24:15 - Unidentified Speaker Okay, sure.
+
+24:16 - Jorge Lewis Yeah, that's not a problem.
+
+24:21 - Unidentified Speaker Yeah.
+
+24:23 - Jorge Lewis I think we're pretty cool on that front.
+
+24:29 - Unidentified Speaker Yeah.
+
+24:29 - Will Vincent Parrone Would you like, Jonas, to have a little bit longer talk? I mean, a little bit longer coding session on Sunday to compensate the lack of coding we've done for today?
+
+24:41 - Unidentified Speaker Yeah, sure.
+
+24:41 - Jonas Lindberg We can do it on Sunday instead.
+
+24:45 - Unidentified Speaker Yeah.
+
+24:45 - Jorge Lewis I was supposed to see Chinmay today, but he's not here.
+
+24:50 - Jonas Lindberg Yeah, he's usually not on when you have scheduled pair programming with him.
+
+24:57 - Jonas Lindberg I see, like, Jorge is supposed to be pair programming with him. Oh, he's not on.
+
+25:01 - Jorge Lewis To be fair, I hopped on, like, as it was supposed to start, because I didn't get a notification for this event. So I don't know. He hasn't put a thumbs up, so I think that's why. Yeah.
+
+25:13 - Jonas Lindberg By the way, is it possible to move the Startino YouTube discussion, like, well, little bit earlier because it's like I prefer to go out for lunch like and it's currently like the right between over nothing that so it's like too early to go now and also it's too close but it's also very late to go oh we could do it later as well if it's Is everyone invited there or is it just the two of you?
+
+25:45 - Jonas Lindberg We can just do it at that time.
+
+25:46 - Jonas Lindberg I'll just take lunch at like 2pm then, I guess.
+
+25:52 - Jorge Lewis I don't know why I'm feeling so tired. I think it's because of the rain. It's been really rainy the past few days. So I'm going to go shower and then...
+
+26:01 - Jonas Lindberg Maybe we can do it tomorrow?
+
+26:04 - Jorge Lewis Ideally, I don't want to push it back anymore because it's already been quite a while. It's just a discussion. It's like, uh, it can, it can even be like, I mean, it'd probably be like an hour or maybe probably an hour and a half, the whole thing. We can just do it right now.
+
+26:22 - Jorge Lewis I don't have enough energy for it. So if you want, you're on in the evening. Uh, yeah.
+
+26:31 - Jonas Lindberg I think so, yeah. It's just that I'm not very awake during the evenings now because my sleep schedule was thrown back and forth.
+
+26:42 - Jorge Lewis After lunch work then?
+
+26:50 - Jonas Lindberg Tomorrow morning I would. Today evening should work.
+
+26:56 - Unidentified Speaker We can do after lunch as well.
+
+27:06 - Jonas Lindberg I just like to get some programming done then when I'm like awake or so.
+
+27:11 - Jorge Lewis I mean, we could do tomorrow afternoon like, but like one.
+
+27:18 - Unidentified Speaker What's that? So, so like 12.
+
+27:21 - Jorge Lewis What time is your lunch on Sundays?
+
+27:25 - Jonas Lindberg Usually just go out like between 12 and or like 12. Yeah.
+
+27:31 - Jonas Lindberg 12 to 1.
+
+27:34 - Jonas Lindberg Usually I'm done with lunch right before stand-up.
+
+27:37 - Jorge Lewis Let's do tomorrow at like 1 your time then, or 1.30ish.
+
+27:43 - Unidentified Speaker Yeah.
+
+27:44 - Jorge Lewis I'll move it.
+
+27:46 - Unidentified Speaker Sounds good.
+
+27:48 - Jorge Lewis I'll accept it. I'll accept the move. I wonder if Chinmay's gonna get in.
+
+27:57 - Jorge Lewis Also, who put Balloon on my desk?
+
+28:00 - Unidentified Speaker Oh that wasn't you?
+
+28:01 - Jonas Lindberg I thought it was you.
+
+28:03 - Jorge Lewis No, I don't want balloons on my desk. 100% that was Beelze.
+
+28:17 - Jorge Lewis Who had the time to put 4 balloons on my desk?
+
+28:24 - Jorge Lewis Which one's Beelze's desk? Oh yeah this one.
+
+28:30 - Jonas Lindberg Okay, I tried to reschedule, what happened to it?
+
+28:36 - Unidentified Speaker Ah, okay, yeah.
+
+28:38 - Jonas Lindberg Yeah, okay, it's rescheduled now, then you get the notification.
+
+28:49 - Jonas Lindberg It never asked me if I wanted to send or update it for other...
+
+28:57 - Jorge Lewis I haven't gotten a notification, but...
+
+28:59 - Jonas Lindberg Copy to Jorge, say. For me it's still 1.30. Oh, I just added it to yours. And then...
+
+29:13 - Jonas Lindberg Okay, now if you look at Sunday 18th, it should be there. 1 to 2 PM for me.
+
+29:19 - Jonas Lindberg I think, yeah. 2 to 3.
+
+29:22 - Will Vincent Parrone Guys, is it okay if I early?
+
+29:25 - Unidentified Speaker If you what? If I go early?
+
+29:30 - Unidentified Speaker Sure.
+
+29:30 - Will Vincent Parrone Since I think I'm okay already. Do you guys have any questions for me or something?
+
+29:38 - Jorge Lewis No, just whenever you can, posting an update about the signup would be good.
+
+29:43 - Unidentified Speaker Yeah, okay, wait, wait, wait.
+
+29:44 - Will Vincent Parrone Good thing you brought that up.
+
+29:50 - Will Vincent Parrone With regards to the updates, I saw your announcement a while ago, but Are you expecting, like...
+
+30:03 - Unidentified Speaker Ah, okay, okay.
+
+30:06 - Will Vincent Parrone In the channel user sign-up, do you have an expectation for me to provide an explanation still on what's happening on the auth?
+
+30:20 - Will Vincent Parrone Because my initial assumption is that my updates are to be written in status, in the status subchannels.
+
+30:30 - Unidentified Speaker Yep.
+
+30:31 - Jonas Lindberg In coordination with Chenmei.
+
+30:32 - Unidentified Speaker Yeah.
+
+30:37 - Jorge Lewis So put it from our perspective you're working for two days. I have no clue what you're actually developing I can hop in a call Which is which is what I do like here and there but kind of to put like as a baseline It would be good for everybody to be posting what they're working on and like in the technical channel so that I don't have to support them. For example, what I can do is I can spend a 10-minute checkup on everybody twice a day to gather the technical things, what's going on, are they doing the right solution, but then multiply that by three people and that's already a lot of time.
+
+31:17 - Will Vincent Parrone In the Adaptive, I update what I'm working on and the status, I update what's the status for the feature I'm working on. Is that right?
+
+31:25 - Jorge Lewis Yeah, the features that are going to be deployed. It doesn't matter who's working on it.
+
+31:29 - Jonas Lindberg Just what doesn't have to be crafted for current at all. It shouldn't be the problem. The reason has expected it to be is because you've also are us and everyone has been asking questions in the dev channel. We shouldn't be asking him anything in the dev channel. That's just for us. It's supposed to be showing him, Hey, we're working. Look at us. We're chatting. That's basically it. Yeah.
+
+31:53 - Unidentified Speaker Okay.
+
+31:56 - Jonas Lindberg Otherwise, what's in the status channel should be outcome focused. That should be what he can expect when. And it's to set expectations for him so that he knows what to expect when. It's not for him to put pressure on us or anything like that. It's just showing him when he should expect pain.
+
+32:21 - Will Vincent Parrone I think that's better.
+
+32:26 - Will Vincent Parrone So basically, from what I'm hearing, we have to post two kinds of updates. One update, what we're working on. Second update, what's the status of the features assigned to us.
+
+32:38 - Jonas Lindberg That update is for Jorge. Status updates are for Q&A.
+
+32:42 - Unidentified Speaker Got it.
+
+32:44 - Jorge Lewis Jorge plus the rest of the team, because like, for example, Chinmay has no clue what you're working on for the signup page, but it would be helpful for him to know. Oh, he's working on the signup page. So when he's done with that, we could hook it up to the whole chat. Like it's just that type of communication is just needed for projects. Kuin sent a message to me in a private chat saying you guys have no overlap between your call times. I put call in bracket because I'm available like 12 hours a day so I just put the times that Kuin can reliably call me. I don't know what your guys' times are. Yeah, wait, let me see.
+
+33:22 - Will Vincent Parrone If I remember correctly, we don't have a lot of overlapping hours too.
+
+33:28 - Jonas Lindberg I have on my calendar when I can be called there's like book a meeting entries which is 11 a.m. To 4 p.m. Is when you can book and then 11 the night to 2 a.m.
+
+33:49 - Jonas Lindberg That should be very clear there when you can book with me.
+
+33:52 - Jorge Lewis I mean I didn't respond to him just because like he doesn't need like that is a worry but I'm just gonna tell him, oh, those are the call times. Like for you. I don't know. But it's just like, because we do have enough overlap. Chinmain has nine, have at least like a couple of hours a day.
+
+34:11 - Jonas Lindberg Just show him a screenshot of like your calendar with all the pair of homecomings and meetings between us and say, we meet. We meet each other. So it's just, um, Yeah.
+
+34:26 - Jorge Lewis So when do you think you're, let us, I don't want to force you into a final decision now, but when do you think you would have an answer by?
+
+34:41 - Will Vincent Parrone Wait, I don't think I heard this properly. You asked me when signup is ready, right? Or when am I able to be full-time in Startino?
+
+34:52 - Unidentified Speaker The latter. Okay. Yeah.
+
+34:57 - Will Vincent Parrone I'll probably provide you with a definite answer on Tuesday.
+
+35:04 - Unidentified Speaker Tuesday. Okay.
+
+35:05 - Jorge Lewis And then Tuesday, you'll let us know. And then from there, if you are going full-time, when could we expect that?
+
+35:13 - Unidentified Speaker Yeah.
+
+35:14 - Will Vincent Parrone So in typical Filipino companies, resignation happens on a 30-day basis. So you have to render 30 days of service.
+
+35:24 - Will Vincent Parrone However, I can negotiate.
+
+35:27 - Will Vincent Parrone I'll probably try to negotiate it to be shorter because that's also possible to be done.
+
+35:31 - Unidentified Speaker Okay, cool. Sounds good.
+
+35:36 - Jorge Lewis Yeah, keep us updated.
+
+35:39 - Jorge Lewis Yeah, sure thing.
+
+35:42 - Unidentified Speaker All right, cool.
+
+35:42 - Jorge Lewis Great chat, guys. Jonas, good luck coding, and I'll be back on in like 20 minutes. I'll let you know if you're going for lunch then. I mean, yeah, we'll... Have a nice day, guys.
+
+35:52 - Jorge Lewis Bye-bye. See you.
+
+35:53 - Unidentified Speaker Bye-bye.
+
+35:55 - Jonas Lindberg At least on his phone.
+
+35:57 - Jonas Lindberg Oh, on his phone.
+
+36:00 - Jonas Lindberg Who placed birthday cakes all over Bwaz's desk? Bwaz's desk is a birthday cake. You.

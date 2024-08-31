@@ -1,0 +1,522 @@
+Meet Meeting 
+Mon, Aug 26, 2024
+
+1:34 - Jonas Lindberg Morning, mate.
+
+1:39 - Unidentified Speaker How are you?
+
+1:40 - Cuan Mulligan Oh, you're on mute. I can't hear you.
+
+2:05 - Jonas Lindberg Can you hear me now? I can, DJ.
+
+2:07 - Cuan Mulligan We have a really good vote of you. Cool.
+
+2:25 - Cuan Mulligan exciting and frustrating because it like we get to go and then it does it's it where the biggest challenge I have using it is where there's no error in the function and yet it's not working but then it's wrong so there's nowhere I can't point at you I don't know where to go and tweak it so that's why I sort of went and created another Meeting and I stripped back all the chats and started to build it up incrementally to see if I could find out where it triggered and It just it's it.
+
+3:01 - Jonas Lindberg Yeah, it doesn't make sense to me anymore why it's breaking Yeah, one thing I've been noticing while testing is that the advanced step hasn't been executing correctly, so I've made that a bit more reliable, just pushed that recently. I've also added a lot of debugging, so it's now showing the steps on the frontend, which made me realize another bug which I fixed. Oh, cool. I've run through your getting to know your why workshop for like 10 minutes now. It's almost addictive. It's been running very well. The only parts that I've had a problem with is parts I think that have to do with the prompt engineering or if not having enough context about the next step where it's like continuing to ask me about what's my true goal is even though I just gave it what I think the true goal is and I'm just saying the same exact question again. Exactly.
+
+3:55 - Cuan Mulligan So would that be prompt engineering?
+
+4:00 - Jonas Lindberg I think so. When I said, I think, I told it straight up, I think we're going in circles here. What is your interpretation of what I told you? Then it told me its interpretation and moved on. So when I complained, it moved on to the next step. But without complaining, I think it would continue to go in circles and circles. I think if it had the context that visualizing the goal as the next step, it would have gone, oh, we should probably move on. But it didn't have that context. Yeah, there's one area.
+
+4:32 - Cuan Mulligan So I'm trying to get it through the happy path. So I'd just say weight loss. And then it goes, how will it feel to have achieved that? And then when it starts asking me the score, it's asking me the score about my feelings, not the weight loss goal. And I've tried to call that the initial goal, but it doesn't seem to have, like, I don't know whether, is there anything in the prompt engineering where I can lock in a variable, for want of a better word, to say, when the user, when you clarify this, like if I look at, let me share my screen, it might be easier.
+
+5:12 - Unidentified Speaker Yeah, go on.
+
+5:19 - Cuan Mulligan So This is where I think it started to break where I started putting code in here if else To try to make sure that it through these scenarios. I don't know if that's a bad a bad idea to put things like that in there and I Don't know whether to put in like sort of giving an overview of the scenarios and then giving instructions per scenarios whether it's better practice to merge those into a If it's this, do that. If it's that, do this. I don't know the best prompt to write.
+
+5:51 - Unidentified Speaker And if I...
+
+5:52 - Jorge Lewis If it works, it works.
+
+5:54 - Jorge Lewis Sorry?
+
+5:55 - Jorge Lewis If it works, it works.
+
+5:58 - Jonas Lindberg Yeah, that's the problem right now. It doesn't work perfectly, right?
+
+6:02 - Cuan Mulligan So this is another version called the Y2 workshop where I basically made sure every step is just doing one thing. Yeah. And so... Saying hello initial goal and then playback right then ask why and I want to stop there And I couldn't even get it to run through this. So let me ref let me trash this and restart Yeah, now you can see the sketch is included. Yeah also interestingly If I have the why the other workshop running and i've given it my name This version thinks i've already it already knows who I am That's quite weird, since we haven't coded in any memory, apart from,
+
+6:49 - Jonas Lindberg you know, like when the events, which is the messages, when you delete the messages.
+
+6:55 - Jonas Lindberg Oh yeah, you want the agent to speak first, right? The facilitator to like, oh, I started.
+
+7:02 - Cuan Mulligan It'd be good. Interesting. You see here where it says, hello, Cuan. So I've done here, and this is just my learning, in the facilitator, People's names are always in sentence case, and it never picks it up.
+
+7:16 - Jonas Lindberg Yeah, you said always use lowercase for the word about, but I've noticed it uses only lowercase ever. It's not using the proper casing. In my entire conversation, it's just lowercase. I think Ritter always used lowercase and just ran with it and ignored the other parts. Okay.
+
+7:42 - Cuan Mulligan So when using the word adapt, ensure, I'll leave that, ensure that ensure you use it in their workplace. Try that. Do I need to restart the chat now or will it?
+
+8:02 - Jonas Lindberg No, it should be updated, but what may happen is it sees its previous message and emulates how it's been speaking before. Okay. So no.
+
+8:20 - Unidentified Speaker Yeah, now it's fixed.
+
+8:23 - Jonas Lindberg Let's say kuhn is still lowercase, though.
+
+8:25 - Jonas Lindberg Yeah.
+
+8:26 - Jonas Lindberg I think that's because you typed it in lowercase, so it's memorized. You typed it in lowercase. OK. Yeah. That's got to do with prompt engineering more so than implementation group hearts.
+
+8:51 - Cuan Mulligan So I don't know why it's done that, because according to this, if I go here, initial goal.
+
+9:02 - Cuan Mulligan So they shared the goal. They should be in step three now, and still in step two.
+
+9:14 - Cuan Mulligan So I've said here, ask the user a question to establish what the issue is. That they have, what issue they have, what is it that they feel ADAPT can help with?
+
+9:35 - Cuan Mulligan And so it seems to be going deeper. And I'm not entirely sure why.
+
+9:41 - Jonas Lindberg Yeah, maybe you need to specify that it doesn't need to go deeper, because the LLM kind of has its own line towards, like, diet needs more information.
+
+9:51 - Jonas Lindberg if it doesn't feel like it has enough information. OK.
+
+9:53 - Cuan Mulligan And then the other one is, when I was looking at this, and I was, you know, there's a lot of steps here. I'm on step 8. And I'm trying to debug step 8. It can take me 15 minutes to get down to step 8. Is there a way? And again, because you need the context of the other ones, you can't just do a workshop with just step 8. Is there a way that we can?
+
+10:24 - Cuan Mulligan I don't know, lock in a chat?
+
+10:29 - Jonas Lindberg Like save checkpoints almost? Yeah, and go back to that point.
+
+10:33 - Cuan Mulligan Is that possible? Because that's going to make testing much faster.
+
+10:36 - Jonas Lindberg Yeah, it's possible, but yeah.
+
+10:39 - Cuan Mulligan Like I'm thinking for JP's workshop, which is going to have multiple participants behaving in all sorts of different ways, this is going to be way more complex.
+
+10:48 - Jonas Lindberg Yeah, some kind of load checkpoint function that will go back in history instead of deleting the entire shot, deleting back to that point or something.
+
+10:58 - Cuan Mulligan Yeah, some version control or something to say, right? Say the chat here or breakpoint in the chat. That would be amazing.
+
+11:06 - Unidentified Speaker Yeah, what do you think, Jorge?
+
+11:12 - Jorge Lewis Yeah, we've mentioned it a couple of times before for IntelliAgent, so yeah.
+
+11:28 - Jonas Lindberg Nope.
+
+11:29 - Cuan Mulligan I need to lose weight.
+
+12:05 - Cuan Mulligan So I was trying to create a format here by having a purpose, a how, and an example in the prompt. To be honest, it's not proving to be any more useful than the structured text I gave in the other example. I see no material benefit.
+
+12:25 - Cuan Mulligan So if I go back to here and trash this and start again.
+
+12:31 - Jonas Lindberg I think there's improvement to be done in the facilitator prompts too, to properly separate the different sections, because now it's kind of just injected in the middle of a sentence. So if you're doing like several paragraphs, it may not understand that that portion is like the purpose if it's very long.
+
+12:50 - Cuan Mulligan So this purpose here, for example, step two being very big, Yeah.
+
+12:55 - Jonas Lindberg Where, where, where would the problem down to the facilitator?
+
+13:01 - Jonas Lindberg You can see hair. Your objective is to purpose until the desired outcome. So until the desired outcome may just be taking in like the last sentence and not be sensible. So I think this section is in the outcome. What's in this box.
+
+13:21 - Jonas Lindberg Yeah, but as you can see down there, it's kind of in the structure of a sentence, but in the steps, the purpose is often multiple paragraphs, so it doesn't really fit into a sentence structure. So I'd imagine, I wonder if I update there, will it come live to you? Let me see.
+
+13:49 - Cuan Mulligan like to review the full purpose and coach the user until the desired outcome has been received.
+
+14:07 - Jonas Lindberg Are you finding your why or your why to? No.
+
+14:14 - Cuan Mulligan You see this formatting that you have here with the larger text. I'm assuming that has absolutely no bearing on the agent at all. It does actually.
+
+14:21 - Jonas Lindberg The agent works in markdown, so the larger text has importance.
+
+14:28 - Jonas Lindberg It highlights what it should focus on. But OK, can you see my updates live now if you scroll down to the facilitator prompt?
+
+14:41 - Unidentified Speaker States.
+
+14:45 - Jonas Lindberg No, it doesn't seem like it's coming in. Try to reload the page, maybe.
+
+15:00 - Unidentified Speaker Oh, there, yeah.
+
+15:02 - Jonas Lindberg So you could do something like your objective and this stuff.
+
+15:21 - Unidentified Speaker All right.
+
+15:29 - Cuan Mulligan And the way you're breaking this down and what you're using to write this, is this just your gut instinct or?
+
+15:37 - Jonas Lindberg Yeah, it's just gut instinct.
+
+15:49 - Unidentified Speaker Are you back in Hong Kong, Jorge?
+
+15:53 - Cuan Mulligan Yeah.
+
+15:54 - Jorge Lewis Been back here for almost a month now.
+
+16:01 - Cuan Mulligan Is it hot there now or?
+
+16:03 - Unidentified Speaker Oh yeah, extremely.
+
+16:04 - Jorge Lewis Right now, um... Oh, today's not so bad. 33 degrees.
+
+16:06 - Unidentified Speaker Um... Yeah, 80% humidity. Not so bad.
+
+16:21 - Cuan Mulligan Yeah. I remember when I was in Hong Kong, we had, um, we were on our way to Australia and we had three days in Hong Kong. Um, myself and my two mates, we went out one night and we literally would go to a corner. We'd flick a coin, whether we go left or right. And we basically just went into all sorts of weird and wonderful places in the back streets of Hong Kong.
+
+16:44 - Jorge Lewis Everyone has their own way to decide which street to go down.
+
+16:48 - Cuan Mulligan Um, But you see these people just sitting on the side of the streets, like wrapping crabs. And they just literally have a hole in the wall. And that's their home. And we went into this restaurant for dinner. And it smelled absolutely amazing. And there was all these big round tables. It was all shared seating. And they were trying to find cutlery for us. We're like, no, no, no. We can use chopsticks. It's fine.
+
+17:16 - Cuan Mulligan We ordered this food, which we thought was like sort of sweet and sour chicken, stir-fried beef or something like this. Came out, smelled absolutely amazing. I wouldn't be the most adventurous of eaters, but my friends would be way more adventurous than me. And every single one of us, as we put the food in our mouth, we're like, this isn't fucking chicken. And this isn't beef. There was just something really, really wrong with it. Yeah, I don't know why, because I know some restaurants serve dog there. In Hong Kong, not really.
+
+17:51 - Jorge Lewis No. In China, very few places, well, certain provinces, or sorry, not provinces, villages actually.
+
+18:03 - Jorge Lewis It's a lot more prominent on the news than it actually is, as is anything.
+
+18:11 - Cuan Mulligan So we end up trying, we end up going to I think KFC and even KFC is different there. They've got everything is spiced and got different stuff in it.
+
+18:22 - Jorge Lewis I don't know how you guys as McDonald's are, but the McDonald's in Hong Kong compared to the U.S. Is like, it's great. One of the U.S. Is terrible.
+
+18:32 - Unidentified Speaker Yeah.
+
+18:32 - Cuan Mulligan I remember there was, um, I think it was Burger King or McDonald's. One of them was doing a promotion where there was like a happy meal with a Snoopy toy. And there was literally just thousands of people queuing outside the restaurant to get them. They didn't care for the food, they were buying the food and just throwing the food in the bin to get the little plastic Snoopy. It's crazy. I remember, because we flew into Chepelot car, air-conditioned got into an air-conditioned taxi into an air-conditioned hotel and we were jet-lagged buggery and we were just in our Irish clothes like we were in it you know tops and we had jeans on and we literally went out for a walk and we were about maybe 20 paces away from the hotel and you could literally just see all of our jeans going dark with the sweat What time of year did you guys go down?
+
+19:25 - Jorge Lewis Sorry?
+
+19:25 - Cuan Mulligan What time of year did you guys go?
+
+19:29 - Cuan Mulligan Oh, gosh.
+
+19:33 - Cuan Mulligan I think maybe August, maybe September. No, it would be the start of the summer. Maybe March, actually.
+
+19:44 - Jorge Lewis I mean, any month other than December to February is going to be hot, like hot.
+
+19:52 - Cuan Mulligan Yeah, and then we went up to Victoria Park. I had some dinner up there. That was nice.
+
+20:02 - Jonas Lindberg Yeah, I've kind of written up what I think would probably be a better structure. It's kind of just out of intuition, but also kind of mixed with some of the frameworks that I've seen online, like CoStar having output formats separately from instructions. Separately from row and context. You might want to put in a description of what is the depth on the bottom there to the context.
+
+20:26 - Cuan Mulligan So when we talk about adapt, is that, is that something that rag would be like, we'd have a document that this is what adapt is, what it's not when you're talking about food, you know, hair, we put in like, what is the depth or like, But should that not be central to all workshops as opposed to having to put that into each different facility? Like, would we want to have some shared context for every workshop rather than repeating it and having to change it like seven times if you've got seven workshops? Yeah, that's what it like,
+
+21:05 - Jonas Lindberg It would be like context about workshop or and then it would be relevant context from document so that when it's running, depending on what the user is saying, it will catch the most relevant context using something like graph drag. Am I correct?
+
+21:22 - Unidentified Speaker I wasn't catching that.
+
+21:24 - Jonas Lindberg It was just catching the most relevant data about a workshop from documents instead of having to hard code it into the prompt.
+
+21:32 - Jorge Lewis Yeah, using RAG. Yeah, for RAG, we don't want to be relying on that, really. What it's great at is for chatting with your documents, asking something very explicit. For things like context, that's usually not the best. That's best in the prompt. If the user isn't asking what is ADAPT, it won't give the definition. It won't know the definition.
+
+22:01 - Cuan Mulligan Can we have a centralized context? So for example, in IntelliAgent, if JP's got like 100 workshops, he doesn't want to go into 100 workshops facilitators in order to update the same piece of context.
+
+22:17 - Jorge Lewis Yeah, we could probably use variables, like on the front end, make variables and then place them into text boxes.
+
+22:24 - Cuan Mulligan Yeah, so we'd have, in terms of workshops, you'd have a centralized panel or a centralized or global variables section.
+
+22:36 - Jonas Lindberg Yeah, I remember we were planning to make that for it.
+
+22:43 - Cuan Mulligan So when I go into... Why is it not working? Yeah. So will this workshop builder be merged into this at some point?
+
+22:59 - Jonas Lindberg Because the reason why we wanted like a central workshop builder platform that was independent from ADAPT and Intelligent, is that correct?
+
+23:16 - Cuan Mulligan Yeah, because now that I see the power of this, I think this is something that we might want to figure out how we launch and sell independently. But if I build a workshop, I want to be able to build the workshop and use it in Adapt.
+
+23:33 - Jonas Lindberg Yeah, I meant more like the workshop you create for ADAPT would be located in this workshop builder panel in a website instead of having to copy over all the code. We just keep it in one place and then through referencing from the database, we capture it into the ADAPT application.
+
+23:53 - Unidentified Speaker Okay.
+
+23:54 - Jonas Lindberg I mean, you don't have to go deeper into how we'd integrate it in the other, in ADAPT and Intelligent. That's kind of the next step moving forward.
+
+24:03 - Cuan Mulligan Because the reason why I'm asking is that there's, in the chat, like when I start chatting to this, there's a certain tone in a particular thing. And the current Adapt interface, where I can look at a chat and say, right, there's nothing wrong with what you said, but I prefer you to say it this way.
+
+24:31 - Cuan Mulligan That's very difficult to, it seems more easy to do that in Adapt when I'm explicitly responding to a, or highlighting a piece of text that they've said. Trying to preempt the prompt in the workshop builder to say, if you ever say something like this, better to say it's something like that.
+
+24:49 - Unidentified Speaker So let me try this thing.
+
+24:56 - Cuan Mulligan Oh, this is all gone.
+
+24:58 - Cuan Mulligan Errors.
+
+25:03 - Unidentified Speaker Okay.
+
+25:19 - Cuan Mulligan See, it's taking that weight loss conversation from here.
+
+25:27 - Unidentified Speaker So I have to trash this.
+
+25:29 - Cuan Mulligan Oh, is that on a different account, or what's the
+
+25:32 - Cuan Mulligan It's my same account, but it's a different workshop.
+
+25:36 - Jonas Lindberg Oh, OK. I see. Oh, that shouldn't be too much of an issue. It's just adding another filter that I probably forgot somewhere. That'll be fixed right after this meeting, probably.
+
+25:49 - Cuan Mulligan But it really is quite exciting to see it and being able to go in and tweak it and stuff like that. Hi, my name is Maria.
+
+25:59 - Cuan Mulligan So it's asked two things there now. So if I go in, once the user names have been established, you can then also offer to tell the user. So it's not doing that. And it has been.
+
+26:22 - Cuan Mulligan So this is where I get very confused and I don't know how to tweak that. So if I stop this now.
+
+26:29 - Cuan Mulligan And even in the facilitator, if I go down here.
+
+26:31 - Jonas Lindberg We could even make that two steps, though. The second step could be offering to introduce the user. If anything, that's actually cheaper. You don't have to worry about paths to serve because that's less context in the prompt. That's where you'll have to learn how to use the workshop builder, probably better than both me and Jorge will, because you'll be using it a lot more.
+
+27:01 - Cuan Mulligan So this is probably the next feature that I need to have from you, which is I need to be able to put a step in between each of these. Because at the moment, I've got eight steps. And if I want to put something in here, it'll take me about two hours to put it in.
+
+27:18 - Unidentified Speaker Yeah.
+
+27:20 - Jonas Lindberg Well, yeah. New step, and I'm copy-pasting everything now.
+
+27:25 - Cuan Mulligan Yeah, that's sort of what I was starting to do. And it was becoming painful and just problematic. So if we can either create a step and then be able to drag it so you can change the order, whichever is easiest.
+
+27:43 - Cuan Mulligan So are we saying, as a principle, a step should really only try to achieve one thing?
+
+27:54 - Jonas Lindberg I mean, I think so, but that one thing can be like a combination of some things. It's probably what you're going to have to be testing since you're probably testing it more than I am at the moment. Of course, I am beginning also to test it, but...
+
+28:12 - Cuan Mulligan So only after the user has shown... Can you send the end file for WB?
+
+28:22 - Unidentified Speaker Send the what?
+
+28:23 - Jonas Lindberg The end file. Oh, environment type? Yeah.
+
+28:37 - Jorge Lewis Also, Jonas, is the structure going to change at all to what it currently is in WB? How it is currently is all of it's clumped into the AI, and then we have graphs as the root one. Is that how it is going to be? Oh, we have graph and then memory.ts and then run.ts.
+
+28:57 - Unidentified Speaker Yeah.
+
+28:58 - Jorge Lewis So is that going to change at all when you kind of refactor or?
+
+29:03 - Unidentified Speaker The file structure?
+
+29:04 - Jonas Lindberg Yeah.
+
+29:06 - Jonas Lindberg Don't think so. The major thing that'll change is when I'm adding reviews. That'll be a new thing. Oh, reviews not yet.
+
+29:16 - Jonas Lindberg Yeah.
+
+29:17 - Jonas Lindberg That wasn't part of the POC. All right.
+
+29:26 - Jonas Lindberg But you can see how that's kind of done in a depth, how the file structure is done there. Yeah, yeah.
+
+29:32 - Cuan Mulligan So there's a crash there now.
+
+29:40 - Jonas Lindberg Gateway time now.
+
+29:43 - Unidentified Speaker Yeah, it's...
+
+29:45 - Cuan Mulligan I'm going to come off my VPN, hold on.
+
+29:56 - Cuan Mulligan You guys back now?
+
+29:59 - Unidentified Speaker I'm here now.
+
+30:01 - Cuan Mulligan I dropped off because I was on. I killed my VPN. And it does feel slower today than it did yesterday testing.
+
+30:10 - Jonas Lindberg It feels slower? Yeah.
+
+30:13 - Jorge Lewis Wait, what servers are the... Where are the servers, Jonas? Because that might be...
+
+30:20 - Jorge Lewis Sweden. Okay, no.
+
+30:22 - Jonas Lindberg So it should be a password for QM, then it is for us. Yeah.
+
+30:27 - Cuan Mulligan So yeah, so it's still lowercase, everything.
+
+30:32 - Cuan Mulligan Well, not the name, at least. Well, that's because I typed it in uppercase.
+
+30:36 - Cuan Mulligan That's why. Yeah.
+
+30:43 - Jonas Lindberg Always use, oh, it's still the old always use lowercase for the word that, which didn't work earlier. So it might've came from like me editing it, but the first of it.
+
+30:58 - Jorge Lewis Jonas, do we have the org for Startino on Superbase?
+
+31:05 - Unidentified Speaker One moment.
+
+31:08 - Cuan Mulligan Okay, so this is something that it wasn't doing yesterday, and now it's suddenly doing it. Why is this goal... It's in step two, and if I look here at step two, it should be picking up That should have been scenario one. I want to lose weight. It's an explicit example.
+
+31:40 - Cuan Mulligan Oh, maybe this is what it's doing here. Coach the user to understand why this goal is important to them.
+
+31:53 - Cuan Mulligan This is too much in one step.
+
+31:58 - Cuan Mulligan So how long would it take, Jonas, to be able to add a step within a step or to add in a step? Because that will allow me to tease out a part of this stuff as opposed to copying and pasting it.
+
+32:20 - Jonas Lindberg Yeah, I think it will operate one day.
+
+32:28 - Jonas Lindberg If it's a drag-and-drop, probably closer to one day, because it's kind of a unique piece of web implementation to have moving UI when it's very structured HTML by nature. But a move button would probably be simple enough, but not over a day.
+
+32:48 - Cuan Mulligan Yeah, I mean, if you can have just on a step and have a up arrow, down arrow, so you can just push it up and down.
+
+32:56 - Jonas Lindberg Yeah, that's probably the easiest one.
+
+32:57 - Cuan Mulligan Yeah, if we can do that, that'll be really good because it's prohibitively complex to test at the moment. Also, the alternative way is that I go and I say, right, I'm happy with this. I go over to the Y2 workshop and I start to do it there and I build it incrementally. But at some point, I'm going to get, it's going to get wrong.
+
+33:21 - Cuan Mulligan So if I go over here, My name is Maria. I'm over here.
+
+33:42 - Cuan Mulligan I'm saying hello.
+
+33:46 - Cuan Mulligan So maybe I kill this one, and I start building it up over here until you've given us that ability.
+
+33:55 - Cuan Mulligan So did you facilitate your bot? No, okay, I need to.
+
+34:20 - Jorge Lewis Has JP had any time to test the project yet? Nope.
+
+34:24 - Cuan Mulligan He's been out with family. I think he should be around today. Alright.
+
+34:47 - Cuan Mulligan There's definitely a UX issue in that when there's lots of text presented by the agent and it's just, boom, it just appears, it doesn't feel like a conversation.
+
+35:01 - Unidentified Speaker Yeah.
+
+35:05 - Jonas Lindberg I think we discussed that before, where it'll come as like a screen. Yeah.
+
+35:26 - Cuan Mulligan So this is stuff that we're going to do later. So why? So ask. So what they have, feel that that can help with. So the user has shared it to their goal. For me, step two is complete there. I don't understand why it's doing that and why it hasn't gone to step three. So can we try and do that? Because I don't think, I don't know how this is the prompt. It's very clear and it's very, very succinct.
+
+36:03 - Jonas Lindberg I mean, it doesn't look like a clear goal. Like, I mean, to me, a clear goal is lose 70 kilos, not lose weight.
+
+36:11 - Cuan Mulligan Okay, so if I just shared, maybe the word clearest is causing it to do that. Yeah, I think so.
+
+36:22 - Jonas Lindberg Share their initial goal. Specify maybe that it doesn't have to be perfect. Just any goal is fine.
+
+36:44 - Cuan Mulligan So there's a difference here. Maybe you guys can help me.
+
+36:50 - Cuan Mulligan I have been diagnosed with prediabetes is not a goal. I want to reverse my prediabetes is a goal.
+
+36:57 - Unidentified Speaker Yeah.
+
+36:58 - Cuan Mulligan So will it know the difference between those?
+
+37:07 - Jonas Lindberg I think definitely when reviews are incorporated, you can give examples like that.
+
+37:15 - Jonas Lindberg So In the long term, from an infrastructure perspective, it shouldn't be an issue. Or from a fundamental standpoint, it shouldn't be an issue. It's more like to tackle. Yeah, so if I go here, for example, explain.
+
+38:05 - Cuan Mulligan Let's see what it says.
+
+38:06 - Jorge Lewis I don't know what it is, but GitHub CY is so clean. I mean, sorry, Superbase.
+
+38:19 - Cuan Mulligan So looking at that, I would say there's qualities that it has a desire or intention to take action as a goal.
+
+38:30 - Unidentified Speaker Yeah.
+
+38:33 - Jonas Lindberg Well, you could say like the goal must have colon expressive desire or intention dash list of requirements.
+
+38:45 - Cuan Mulligan So what's the format of that?
+
+38:50 - Jonas Lindberg I think you can enter and go down lines, right?
+
+38:54 - Unidentified Speaker Yeah.
+
+38:56 - Cuan Mulligan So how would I write that to say the goal?
+
+39:00 - Jonas Lindberg The goal should have a colon, I think.
+
+39:04 - Cuan Mulligan Sorry, should the goal, the...
+
+39:07 - Jonas Lindberg The should have goal. The goal should have goal.
+
+39:15 - Jonas Lindberg Should have, should...
+
+39:18 - Cuan Mulligan express a desire or intention to take action to something like that. Yeah.
+
+39:24 - Unidentified Speaker What's the point of the colon?
+
+39:25 - Cuan Mulligan What does that do?
+
+39:28 - Jonas Lindberg I mean, because the model is trained on mostly articles, mostly text on the internet, mimicking how instructions would be given to other people on the internet is a good way to do it, because then it's closer to what it's trained on. They're basically trying to mimic its training data, but nothing in particular, really. I just thought if you needed multiple requirements, then colon, dash, line, dash, line, dash.
+
+40:15 - Cuan Mulligan I'll let you guys go after this and I'm going to go and walk the dog and do more testing.
+
+40:25 - Unidentified Speaker Okay.
+
+40:28 - Cuan Mulligan So it's, I think I just need to get much better at the prompting and understanding that the structures that work.
+
+40:39 - Jonas Lindberg thing now is like you've been testing a buggy system for like what two days and you've got like a pretty working workshop that's at least made me think when I run through it and such.
+
+40:52 - Cuan Mulligan It's very very usable and it's very easy to tell it what to do there's just certain things we say right okay I've overloaded this prompt I now need to tease it apart I can't can't do this yeah I don't understand why it's doing that.
+
+41:13 - Jonas Lindberg I think just explicitly tell it this shouldn't be a perfect goal, or just take the first goal the user gave you and run with it. Don't expand upon it, like tell it that explicitly.
+
+41:24 - Cuan Mulligan Represents stage is two, maybe two.
+
+41:47 - Jonas Lindberg I can give the prompting a go if you want.
+
+41:52 - Unidentified Speaker Please, yeah.
+
+41:55 - Jonas Lindberg I'll edit the Y2 workshop a bit.
+
+42:12 - Cuan Mulligan Yeah, you get very bored writing in your fucking name all the time and then it gets abbreviated down just to a letter, whatever letter you hit on the keyboard.
+
+42:41 - Cuan Mulligan Is it better to go happy path with weight loss the whole way through the program, or is once I'm happy with this step with weight loss, then I need to start doing it for lots of different issues and variations before we go to the next step?
+
+42:56 - Jonas Lindberg Sorry, I didn't catch that. I was finishing the sentence.
+
+43:01 - Cuan Mulligan Should we go through the happy path of weight loss all the way through the workshop and then go back and start refining it for different scenarios? Or should I, once I'm happy that this step is okay for weight loss, should I then try pre-diabetes, try the, oh, I don't really know what problem, what problems could you help me with? You know, all those variations.
+
+43:27 - Jonas Lindberg Honestly, I don't know the best way to go about it, since this is such an innovative... I mean, this is the first time this kind of step process has been done. But how I imagine the way to go about it is refining one step at a time. But also once in a while going through the full process as you'd expect it to make sure that it's aligned with what you want in the long term. But since each step is so isolated from the other steps, probably when refining, I'd focus on one step at a time, but once in a while, make sure the whole workshop goes through as I expected to make sure the long-term vision of the workshop is still good.
+
+44:14 - Cuan Mulligan Like, because in later steps, I say like, you know, ask the user to give a score between one and 10 their existing goal, not the future stage. Does it retain in memory what the initial goal is? Or is that, because if it's an LLM, it's always slightly fluffy. It's not very specific. So is there a way we can actually explicitly state, once you've this step, the output of this step is locking in this variable?
+
+44:47 - Jonas Lindberg Yeah, that sounds like something that will be needed for basically all workshops, right? Yeah, I think so.
+
+44:54 - Jonas Lindberg Yeah.
+
+44:55 - Jonas Lindberg So that would probably be like a feature of the workshop builder that we'll have to implement, but it should be possible. Okay.
+
+45:04 - Cuan Mulligan Um, yeah, it's still doing it. So I don't understand.
+
+45:14 - Jonas Lindberg Yeah, it's asking why it's important. Now I've tried to specify. What if I remove the make sure it fills the definition of a goal? Maybe that's throwing it off then. Ask the user a question to establish what issue they have, what is it they feel that can help with. Maybe it's the what is it they feel that can help with, which makes it go into like, oh, I should be going deeper. It's like all just theorizing about what parts of the prompt can be causing an issue.
+
+45:51 - Jonas Lindberg This is just the initial goal, but you're also including that it should be asking what the devs can help with, which can be maybe conflicting for the LLM, because it's just going after the outcome, but it's also being asked to do something which is outside of the desired outcome.
+
+46:38 - Cuan Mulligan I'm going to get rid of that coaching offer as well, because it's just pointless.
+
+47:11 - Cuan Mulligan It's just not letting go. The thing is, it wasn't doing this in the bigger workshop before. This is suddenly a new thing it's doing. How did it skip a step?
+
+47:27 - Unidentified Speaker Oh, it's gone to step four.
+
+47:32 - Jonas Lindberg purpose of the step is to show the user you understand their goal. It just skipped playback. I think what happened is it responded while expressing that it understood the user's goal, and then advanced step at the same time.
+
+47:52 - Jonas Lindberg So it included advanced step in the playback message, which made it skip over that step, because when advanced step is included, it just ignores the message and goes to the next one. So what I think it did was it's, you'll need to somehow tell it to not include advanced step if it hasn't completed the current step or something.
+
+48:19 - Unidentified Speaker It's an interesting issue.
+
+48:24 - Jonas Lindberg In the back end, what happened was it went like, okay, I understand your goal, advanced step. And then it just jumped over that message because advanced step wasn't that message.
+
+48:34 - Unidentified Speaker Okay.
+
+48:35 - Cuan Mulligan Is that something that you need to fix?
+
+48:39 - Jonas Lindberg It can be done in two ways, which is one, if anything but advanced step is included in the advanced step message, the rest of the message can be passed to the user. And then before advancing step, and then chatting again. The second way to fix the issue is just prompt engineering, telling it better how to use advanced step. Because currently, I think in the prompt, of the facilitator, all that's being told is, if the desired outcome has been reached, you must say advanced step, which means in the same message, it's completed the goal. It may include advanced step at the end of the message because it's like, okay, I completed the goal.
+
+49:24 - Unidentified Speaker Not for me following.
+
+49:26 - Jonas Lindberg Yeah.
+
+49:30 - Jonas Lindberg So the bot can complete the goal itself and in the same message advance step, which makes it jump over a step. So advance step happens twice.
+
+49:47 - Jonas Lindberg I can kind of format it here.
+
+49:52 - Jonas Lindberg Basically, it made the message what was, okay, I understand your goal is to dot, dot, advance that. So that was its message. And because the message includes advance that, Yeah, it should be on your side.
+
+50:27 - Jonas Lindberg You see that like section there under decide outcome where it's like quotation mark?
+
+50:34 - Cuan Mulligan So because the text advanced step was in the message and it achieved its goal, it sort of skipped.
+
+50:44 - Jonas Lindberg Yeah.
+
+50:45 - Cuan Mulligan Okay, I wouldn't want that sort of issue to be in prompt engineering, that should be in the... That's functional in the background, isn't it?
+
+50:54 - Jonas Lindberg Well, what we can do is tell it, do not include events in the... In the message to the user for when you completed the move. Something like that.
+
+51:15 - Jonas Lindberg But what I also can do is add some logic where when the person connected alongside advanced...
+
+51:29 - Cuan Mulligan Okay, I need to go and walk the dog, so...
+
+51:44 - Cuan Mulligan Can you play with this and let me know if you can find a workaround?
+
+51:48 - Jonas Lindberg Yeah, I think either way, we'll probably want to pass the message it sent alongside advanced step when it's chosen to advance step and send the message to the user at the same time.
+
+52:00 - Jonas Lindberg Because like with that solution, if you then decide to interrupt engineering, tell it not to advance step with a message, then that'll also work. So it'll fix both scenarios.
+
+52:12 - Cuan Mulligan So what do we need to do then?
+
+52:16 - Jonas Lindberg I think you can get it working on the prompt. I think you can sit there. This will be an implementation issue in the back end. I'll have to split up the message and push off of it. The part without the advanced stuff should go fine.
+
+52:32 - Cuan Mulligan Do you reckon that's something that you'll get done today or? Yeah.
+
+52:37 - Cuan Mulligan OK. And is there any sort of the step order? Is there any sort of dirty hack way that we could do that today?
+
+52:50 - Jonas Lindberg Oh, yeah, actually.
+
+52:51 - Jonas Lindberg And I mean, it's very hacky, but you can go into the super base and edit the JSON manually and copy paste JSON up and down.
+
+53:01 - Jonas Lindberg But that's very hacky.
+
+53:08 - Jonas Lindberg But I think it should be download. Like, with just the up and down arrow button, I think I'll be able to finish that today, too. Let's assume. If not, early tomorrow, before you get up.
+
+53:24 - Cuan Mulligan Yeah, because if I do some days, I'll fuck it up.
+
+53:30 - Cuan Mulligan All right, again, if you can get this prompt advanced step issue fixing, then at least I can start playing with it and I can start being incremental with it before you release the next sort of step feature.
+
+53:44 - Unidentified Speaker Yeah. Cool.
+
+53:45 - Cuan Mulligan All right, cheers, folks.
+
+53:47 - Jonas Lindberg See you. See you.

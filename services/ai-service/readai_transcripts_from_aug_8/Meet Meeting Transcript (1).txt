@@ -1,0 +1,258 @@
+Meet Meeting 
+Wed, Aug 28, 2024
+
+0:02 - Cuan Mulligan Cool.
+
+0:08 - Cuan Mulligan This workshop builder has got me rethinking things.
+
+0:12 - Unidentified Speaker OK.
+
+0:18 - Cuan Mulligan So when I see some of the Chinmai and Will's interpretation of things, It's heavily influenced by English not being their native language.
+
+0:32 - Cuan Mulligan And this is not a criticism of them. That's not what this is about at all. Hopefully, you can see the difference between us trying to prescribe to you what a workshop is versus you giving us the Lego blocks, and then we configure it to our needs.
+
+0:53 - Cuan Mulligan And what I've been able to do with the workshop builder in terms of designing the why workshop, I feel that would have taken me weeks to try and convey to one of those guys the nuance of what I was after without me being able just to type it in. And it's not the perfect thing, but it's certainly there. And then I'm looking at this check-in session, and I'm like, Cuan doesn't need to build that. He doesn't need to build the workshop. He just needs to be able to give me the data for the workshop. So if the workshop builder has the ability to pull elements from a database, like give me milestones for user, give me achievements, give me issues, give me the course, suddenly, you've basically enabled us to build workshops with content from a data from someone doing something, which is what I think JP is going to need as well.
+
+2:01 - Jonas Lindberg Yeah.
+
+2:02 - Cuan Mulligan And I just sort of had this thought and I'm like going, would we be better off? And I'm, I almost need you to confirm this or pull me back from the edge. But it feels like the workshop builder becomes the product that allows us to build Adapt or IntelliAgent rather than you building it. To a point, by the way, because the workshop builder is not going to build the LMS. It's not going to generate the data. But it's doing some of the stuff. Like, if I want to do a check-in session, I should just be able to build it and pull data, as long as the data is there.
+
+2:43 - Cuan Mulligan Does that make sense? What I'm what I'm trying to do. I don't know whether it's very well formed, but I'm just like, it just feels tantalizingly close to allowing me to do this myself, as opposed to me trying to convey to these guys what it needs to do.
+
+3:00 - Jonas Lindberg Yeah.
+
+3:05 - Jonas Lindberg I think this is a topic that would be better discussed with George present since he's been mostly running adapts recently. I've seen some demos of what they've been created. And from the demos, it seems to be that they've been focusing on the developing the more unique to adapt or unique to feature features. So like for the milestones, they've been focusing on the functionality behind tracking the milestones for the highest scores.
+
+3:42 - Jonas Lindberg streaks and such, they've been focusing on the functionality behind those and not how they're represented in chat, if that makes sense. And all of that work is still working. I'd imagine that would have to be done and then incorporated into the workshop builder for you to work on to create the actual chatting experience.
+
+4:02 - Cuan Mulligan I agree. I think there's definitely, there's still adapt stuff. I'm just wondering whether what I don't want to waste money and time on the guys building something like the actual check-in session when I reckon the workshop builder will do that.
+
+4:21 - Jonas Lindberg Right.
+
+4:37 - Jonas Lindberg It's hard to give a straight answer right now. I don't even know what a straight answer would be.
+
+4:49 - Cuan Mulligan Fair enough.
+
+4:54 - Cuan Mulligan Well, have a think about it. I'm assuming you'll have time with George in the morning before I wake up.
+
+5:01 - Jonas Lindberg Yeah.
+
+5:08 - Cuan Mulligan Yeah, we just need to make sure that we're doing things sensibly rather than inefficiently. So what's going on? Is the saying going to come over or not? I know there was concerns about there being front end or stuff like that. It just feels like it's sort of stalled too much progress on changes.
+
+5:32 - Jonas Lindberg on the workshop builder?
+
+5:34 - Cuan Mulligan Yeah.
+
+5:37 - Jonas Lindberg Yeah, it's, I mean, in mostly today, I've just been in calls before. In the morning, I was in call with George, then got in a call with you, and JP did that workshop. Now I just hopped on to start working on the Workshop Builder. And I went for the FigJam, so you added new stuff. So read through that and added the comments. Did you? Oh, I know.
+
+6:03 - Cuan Mulligan Where's the comments?
+
+6:05 - Jonas Lindberg or in the bottom part of the segment's definition. Because...
+
+6:12 - Cuan Mulligan Ah, yeah. So let's talk about that. Hasn't looked at this or hasn't given any feedback, but does it sort of make sense what I was trying to do? I just sort of...
+
+6:19 - Unidentified Speaker Yeah.
+
+6:21 - Cuan Mulligan I made it up.
+
+6:23 - Jonas Lindberg Yeah, this was exactly what I was requesting to have a workshop with JP and you about. So this is a great start for at least got me thinking, especially the outcome and complete parts. As you can see on the left there, I still don't I don't have a full picture in my head of how we would structure the dynamic transitions between segments to be consistently reliably good, because the more dynamic something is, the less consistent it will be.
+
+6:57 - Cuan Mulligan Yeah, so that's where I'm, I mean, in my head and see if this makes sense, right?
+
+7:10 - Cuan Mulligan I start a workshop. Makes no difference what it is. Let's use Business Model Canvas, because I know it's something you've done, right?
+
+7:18 - Jonas Lindberg Yeah.
+
+7:20 - Cuan Mulligan And let's say we have a segment for each of the boxes. So there'd be nine segments, right?
+
+7:26 - Jonas Lindberg Yeah.
+
+7:26 - Cuan Mulligan As we do the first segment, whatever that is, and we start generating ideas, fundamentally, there is some stuff that we create during a segment. Now, rather than that just being part of the conversation, I think that formally comes out and becomes part of the output of a segment. So the first time you have a segment that has no output, so the agent has to just use the default examples.
+
+7:53 - Jonas Lindberg Yeah, sorry, did I say outputs? I meant outcome and completes. Outputs I totally get.
+
+7:58 - Cuan Mulligan Yeah, so I'm going to get there. So outcome is this subjective feeling that I have as a facilitator. It's time to move on to the next one. I have enough clarity on that thing. So for me, the outcome feels that I have enough clarity on the, maybe there's a missing thing here, which is what question are we trying to answer here?
+
+8:29 - Cuan Mulligan And maybe that's the purpose or the context or the question to be answered. And once you have, I mean, because the thing about it, when I'm running those workshops, I have a sense of what I'm looking for as an answer before I would move on. Now, I might attack that from a multitude of angles, but I'm fundamentally trying to get them somewhere. Now, that does not mean. So OK, so I think the action prompt is how I do something. But I wonder whether this comes down here.
+
+9:05 - Jonas Lindberg Yeah, I commented on the action prompt. Is this the famous instructions of the segment?
+
+9:14 - Jonas Lindberg So the instructions that the agent follows during this segment.
+
+9:23 - Cuan Mulligan Yeah, I mean, the action prompt is the prompt. It's the instructions that they take in order to do this.
+
+9:32 - Jonas Lindberg Questions to be answered seems eerily similar to what the purpose of outputs is.
+
+9:41 - Cuan Mulligan So the outputs would be the answers. The question is the question.
+
+9:49 - Jonas Lindberg So, outputs is any formal outputs that need to be, ah, okay. Oh, yes, sorry.
+
+9:56 - Unidentified Speaker Yeah.
+
+9:56 - Cuan Mulligan And so, the outcome is achieved, the outcome is achieved when the questions to be answered are answered. The action part is how you go about getting answers to questions.
+
+10:10 - Jonas Lindberg How are outcome and questions to be answered different then?
+
+10:18 - Cuan Mulligan What is your name is the question to be answered. Jonas is the outcome.
+
+10:25 - Jonas Lindberg Yeah, so the user has given their name as the outcome.
+
+10:28 - Cuan Mulligan Yeah, so Jonas would be the output. The outcome assessment would be that question has been answered, so the outcome has been achieved. Therefore, I feel that we could move on now.
+
+10:46 - Cuan Mulligan Not complete, because it might be complete in that case. But in the case of the business model canvas, if this was the value proposition, there's a number of questions that you want to explore in there. You don't just want to do the first one. There'd be lots of them that you'd explore.
+
+11:07 - Cuan Mulligan the dynamic element is. So there's a point where you have a segment that's empty, and you have examples that gets you started, gets you going. There's a point at which you feel good enough to move on to the next segment, right? Now, in the process map, where you'd have all your segments, let's say we have nine segments, we would have a recommended flow. We can't just say, do what you want. That doesn't make any sense. As JP said, there will be some form of default. Every workshop I go into, I have a rough idea of what path I want to take. I might not follow it because something might happen, but I have an idea of where I want to go. As I said, I would go from value proposition to customer segments to back to that, to the channels, to the relationship. And I would go around those four boxes for a while. So if I was to do this for that workshop, Segment one will be value proposition. Start here. OK. So there will be a process map that says, start with this segment. We need to have that, right? Afterwards, there will be a facilitator agent that will be going, right, based on the outcome you just said, JP has recommended I now go to customer segments. Do you have anything to challenge that? Nope. Right. Go to step two, our segment. The next segment is customer segment, and you just repeat the process. There are certain questions that need to be answered in this segment. You keep on going around that segment until you've generated outputs that allow the agent to feel comfortable that an outcome has been delivered. Now, the question, this is where I think the challenge becomes, right?
+
+12:58 - Cuan Mulligan In real time, so Let's say you do the status. Let's change complete to status. So for example, you could have filled in.
+
+13:29 - Cuan Mulligan And then, for example, something happens in segment two. The facilitator is going, that's now challenged something from a previous segment. This now goes in here and says, challenged. Challenge is the new status.
+
+13:49 - Cuan Mulligan So if you're in segment two, if it has challenged any of the previous segments, the next action is to go back, update that one before you move on.
+
+14:03 - Jonas Lindberg Yeah, the difficulty for me there isn't updating the status or how to use the status or technologically how to update it or use it. It's how to identify when it should be updated. So it's to identify when a segment is challenged because where would that be included in the prompt? I'm guessing it's the facilitator that would have to be able to identify when a segment has been challenged. How would it identify that? It feels like going down to a specific tunnel vision solution, if that makes sense.
+
+14:46 - Cuan Mulligan So the two questions I would be asking the facilitator, or I have in my head as a facilitator, has anything happened in this segment that contradicts the previous segment?
+
+15:03 - Cuan Mulligan Challenges. So for example, if I said the value proposition is we want to sell wheelchairs, And in the customer segments, we're looking at athletes, professional running athletes. I'll have a second. I'd be like going, OK, that's really interesting. Why did you say your value proposition was to sell wheelchairs, but your customer segments are for athletes that are running? Those two things don't feel aligned to me.
+
+15:34 - Cuan Mulligan So I'm still in segment two, but I'm using the awareness of that. And they're like going, oh, yeah, yeah. Sorry. We're also selling runners, our trainers. OK. Now that would go back and update the outputs from the value proposition to say we have two value propositions, wheelchairs and trainers.
+
+15:56 - Jonas Lindberg Yeah. Okay, I understand. Yeah, then I have a better understanding. But I think that's something to build upon later, probably as a later step. So important, but not urgent.
+
+16:13 - Cuan Mulligan I don't think JP would agree with that, because I think he sees each of these segments as being a fluid dance between each of them.
+
+16:21 - Jonas Lindberg Yeah, I don't know if you've read my card next today, but I think we should start with making it as simple as possible, where we just give the facilitator a tool which allows it to switch to any segment, and then tell the facilitator about all the segments and when to switch to them. When this is completed, we can build upon it with, for example, adding in a checkbox, which allows you to have a fixed next segment, where this next segment is hard-coded to be this segment, which could be useful for when it's like, get the name of the user, then ask the user what they came from You know that's always going to be the progression. So just to prevent any weirdness with the URL.
+
+17:11 - Jonas Lindberg So maybe just read through what I wrote here, then we can discuss after.
+
+17:18 - Cuan Mulligan The most dynamic solution would be to give the facilitator a tool which allows it to switch to any segment.
+
+17:25 - Cuan Mulligan So in the case of a business model canvas, are you suggesting that we have something called a process map or a process flow, which would have a default sequence of the segments, yes or no?
+
+17:41 - Jonas Lindberg No, but in the second part, tell the facilitator about all the segments and when to switch to them in the facilitator's prompt. You could include that. But I think the process map is something to add on to after this is completed. It's not something to exclude. It's something to add on to after the simple version is completed.
+
+18:01 - Cuan Mulligan If we can achieve the same outcome through a prompt in the facilitator, then that's fine. OK. What you're saying is, The facilitator is aware of all segments, and it's given a set of instructions on a potential path through them.
+
+18:17 - Jonas Lindberg On a potential path through them, and then because it's so dynamic, because it's a prompt, you can just tell it whatever you want. So you can, in step two, tell it, hey, you can go to actually step five here if this is achieved. That's why I call it the most dynamic solution, because it's a very simple, very dynamic solution. Of course, the disadvantage of that is the consistency of it. So hopefully, we build upon this consistency with all the other parts.
+
+18:48 - Cuan Mulligan Yeah. Well, as long as you've got on the reviewing engine where you can say, right, you went. So there's reviewing on the sense of a good prompt or a bad prompt in terms of tone, for example. We might want to have a subset of the review where you're saying you've chosen incorrectly.
+
+19:13 - Cuan Mulligan So you went from one to seven, actually going to six was much better. Here's why. So you're educating it over time, how it goes through the model. Because that then is JP's expertise. That's where you codify expertise.
+
+19:32 - Jonas Lindberg Yeah.
+
+19:33 - Cuan Mulligan So if we can give it a default prompt, like you've said there, but then rather than trying to get that prompt right, we can say, run the workshop and go, no, if I was looking at a junior guy or if a door steps to me, hey, teach me how to run a business model Canvas workshop. I'd let him run it, and I'd go, OK, so why did you go there? I would have done this, and here's why. Oh, OK. And then, OK, do it again. OK. And we would just keep on going further and further through the process, and eventually, The boss starts to behave because of me because of all the reviews I've given us Yeah, if we can do that, then I think this process works Yeah.
+
+20:13 - Jonas Lindberg So the first thing I was thinking was like, oh yeah, that definitely sounds like something that's already within the system's capabilities. But then I remember that tool calls are pretty fundamentally different. So what we'll have to do is expose tool calls to the review system and also in the chat somehow allow you to see when a tool call was performed and reviewed tool call and correct which step it went to, as an example, or tell it that, hey, you shouldn't have been changing stuff here.
+
+20:47 - Jonas Lindberg But yeah.
+
+20:48 - Cuan Mulligan Yeah, maybe, but yeah.
+
+20:50 - Jonas Lindberg I'll maybe go to technical error, sorry.
+
+20:53 - Cuan Mulligan Yeah, that's all right. I think if we've got a prompt and we've got a review, I like your approach because I think the question I'd have is whether we need to segment reviews between process and process content and tone.
+
+21:13 - Cuan Mulligan I don't know whether it makes a difference, but it might make a difference from an administration point of view.
+
+21:23 - Jonas Lindberg Yeah.
+
+21:27 - Jonas Lindberg I think all of those, assuming when you review a message, you make it the most optimal message you could foresee yourself, uh, foresee it being instead of just improving on one thing and always ensuring the improved responses, what you would respond. I think it'll pick up on all those aspects for every single routine.
+
+21:50 - Cuan Mulligan Okay.
+
+21:52 - Cuan Mulligan And then again, so let's say it goes to segment seven and I would then pause it and I would go, no, I would have gone to step six, here's why, do this next. Rerun, go back a step, because we have the step going back a step, and it goes to eight this time. We're like, no, you always go to six. So we would have the ability to keep telling it and reinforcing that. I think that then allows JP to go wherever the hell he wishes.
+
+22:25 - Jonas Lindberg Yeah. And I think for that, you could even say, when it went to step seven, when correcting it, you could go like, hey, you shouldn't have even gone to another step here. You should remain in the current step and say this to proceed with the current step. And that way you'd get both change of procedure, tone, everything, like of how it works. But we, I mean, there could be some potential for like categorizing things in the admin panel where it's like, this is a tool review. This is a just message review. Yeah, I think all of that should be fine. There's no wrong avenue to go on down there where we lock ourselves into anything bad.
+
+23:10 - Cuan Mulligan Yeah. Because I think what we're doing here, which I like, is this sense of capability rather than solutions.
+
+23:21 - Cuan Mulligan So I like your approach.
+
+23:25 - Cuan Mulligan So I don't know what Whisper does, or Super Whisper does, But it seems to be that they've done something in the code that they take the example of a input, which is translated to this output, that that example of the transformation, it takes it very, very seriously. And it really applies it. And when I was going through some stuff with JP earlier on, it was like, I was showing it when I said, do not summarize this event or this step. And it was summarizing it. And he's like, LLMs, when you tell it something that explicit, it should be paying attention to it. So I'm not sure why our solution does not appear to be paying attention to black and white explicit statements.
+
+24:29 - Jonas Lindberg I'm not sure either.
+
+24:35 - Jonas Lindberg Yeah, I think that should be fixed by the review system once it's in place, because then proper examples will be passed, and those examples won't have summarization. So hopefully you won't even need to specify it shouldn't summarize, because the review system is basically the experience it has, the memories it has of doing it before. But it's not really it doing it before, it's you doing it before and correctly.
+
+25:03 - Cuan Mulligan Not wanting to overcomplicate things, but we're going to get to the point where we have an awful lot of steps and just having a very, very long list becomes very unmanageable.
+
+25:19 - Cuan Mulligan I'm wondering whether it's possible to have either just a list of all the steps down the side. You know the way you currently have a list of the workshops? If you're in a workshop, you just have a list of all the steps. You click on a step, and that page is everything to do with that step. And you click on another step that way.
+
+25:40 - Jonas Lindberg Yeah. I mean, yeah, that's just a UI implementation. I think any of our developers could do that.
+
+25:48 - Unidentified Speaker Yeah.
+
+25:49 - Jonas Lindberg Yeah, especially the front end ones.
+
+25:52 - Cuan Mulligan So given where we're going, who else on the team can help you with this?
+
+25:59 - Jonas Lindberg For front-end improvements, like you just mentioned, Nazif and Will could easily help. But those front-end issues are pretty cross-project.
+
+26:11 - Cuan Mulligan That's a trivial change. I'm more interested in the logic, putting in the review system, putting in this segment system, Definitely has Naeem.
+
+26:27 - Jonas Lindberg I think he'll be quite a help in implementing the segment system because he's more familiar with implementing tool calling than I am. So giving it the ability to switch to any segment and properly formatting that, he can help with.
+
+26:46 - Jonas Lindberg Otherwise, I think it's a bit early to select more developers on it because there's not enough foundation to start building up from Once we have more foundation to build up from, it will be easier to delegate.
+
+26:59 - Cuan Mulligan OK. So given what we've talked about, when should we, I don't really feel So it's that useful for me to spend more time doing the Y Workshop. I've done a happy path. I can play with it a little bit more in case it breaks. But you can see how much time I take of yours talking to you and going down these rabbit holes. And I'm like, is it better just to let you go back, like when you were doing the first week, and say, right, I'm going to go dark for a week. Give me six days, and I'll come back, and I'll give you the next release.
+
+27:35 - Jonas Lindberg I don't know. I think these days have been valuable looking at it from like an agile perspective. It's just like I completed the first sprint and now we're doing like a sprint review plus sprint planning.
+
+27:48 - Cuan Mulligan Well, so how long, I mean, given these new features that we're talking about, when do you, how much time do you need? Cause I think we really do need the review system and the segment system, those two new things allow us to do an awful lot more.
+
+28:06 - Jonas Lindberg Yeah.
+
+28:16 - Jonas Lindberg It's kind of like, there's a lot of problems which are similar, where it's like, either it takes a day or a week. During the first day of implementing it, you really figure out how long it's actually going to take compared to not even having started yet.
+
+28:36 - Cuan Mulligan I mean, I think this example that I gave in here is probably a good enough layout for a segment to start with. It's got enough components to it, or variables. If we have app plus review.
+
+28:55 - Jonas Lindberg Yeah, so just to filter out kind of what's going to be in the first version. I think all of these can be, I don't know which color to use. Is this the correct way?
+
+29:09 - Jonas Lindberg All of these would be after a first release, which I present to you. The examples, I don't know if you read my comment, but you won't need to create examples in the prompts at all. Fundamentally, examples should be done for reviews, as reviews are passed as examples in a fundamentally better way. Do you agree with that?
+
+29:34 - Cuan Mulligan I don't know, so I can't agree or disagree with it. The intention is to give us examples of good transformation. When a customer says this, do this. If the reviewer mechanism allows us to do that in real time, fantastic. Let's take this out. Now, what you might want to have is in a non-editable format, all the examples or the reviews associated with the steps that you can delete it.
+
+30:04 - Jonas Lindberg Yeah.
+
+30:05 - Cuan Mulligan Something like that. That's fine. I do think you need outputs and outcome and status. I'm not sure how we do this without that.
+
+30:13 - Jonas Lindberg So those won't be part of a segment. They'll be more part of the facilitator's prompt. Outputs are just like it's, I think, I mean, now I'm just talking about before the next presentable version I give you, not before the final version.
+
+30:33 - Cuan Mulligan I'm not sure that works because for me, an output is something that you're going to, for example, store in the database as an explicit value that you want to be able to refer and pull up on. I don't know whether you can have the sense of a segment being aware of something from another segment without having that explicit variable filled in.
+
+30:53 - Jonas Lindberg The workshops you're running now don't have an output at all.
+
+30:59 - Cuan Mulligan Let's design this for the business model canvas.
+
+31:03 - Cuan Mulligan If you're doing the value proposition segment, you have the whole chat, right? Something needs to extract from that chat the outputs as the formal contribution of that segment in and amongst the entire stream of chat.
+
+31:21 - Jonas Lindberg OK. That can be the next thing we work on right after the first thing we implement.
+
+31:31 - Jonas Lindberg Yeah, I'm not arguing that we shouldn't include it. It's more just like the next version I'll present to you probably won't include this.
+
+31:38 - Cuan Mulligan But I don't. So what would I be able to do with the next version?
+
+31:45 - Jonas Lindberg In the next version, it would be the most dynamic solution here. So the facilitator can switch to any segment. And how it decides which segment to switch to will be just through the facilitator's prompt.
+
+32:00 - Cuan Mulligan Okay.
+
+32:02 - Jonas Lindberg And then after that's done working, then we'll be incorporating the ability to, when it decides to switch segments, it'll probably provide the outcome of the set segments along with the switch segment tool call. So it'll be adding it. So just adding it step-by-step instead of trying to do everything in one solution, you won't hear from me in way too long. I want to be able to do it in a step-by-step process where I can come back to you, present it, have discussion, see if we're aligned, everything.
+
+32:37 - Cuan Mulligan Perfect. This is where we're going. I think we're broadly aligned. You figure out what the quickest way to start giving us new stuff is.
+
+32:49 - Jonas Lindberg Fair, sounds good.
+
+32:52 - Cuan Mulligan And once you've digested and sat on this for a couple of hours, if you could just sort of say, right, I think I'll have something for you Thursday or Friday, what you've already been doing where you just have this update, that would be really good.
+
+33:04 - Jonas Lindberg Yeah, absolutely.
+
+33:07 - Cuan Mulligan Sweet, brother. Thank you so much.
+
+33:09 - Jonas Lindberg Yeah, thank you.
+
+33:10 - Cuan Mulligan Bye.
+
+33:12 - Jonas Lindberg Cheers.
+
+33:12 - Unidentified Speaker Thank you.

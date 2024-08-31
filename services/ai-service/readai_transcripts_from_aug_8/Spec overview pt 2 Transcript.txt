@@ -1,0 +1,208 @@
+Spec overview pt 2 
+Mon, Jun 3, 2024
+
+0:01 - Jared Cairns back to this one thing. So for having the Stripe, I don't know if it's super easy or more of a pain in the ass. A lot of times in the B2B space for the CLM specifically, you're not paying through Stripe or not paying through a credit card. It's literally just like a direct wire transfer. Once a year, annually. I think for something of this scale, the Stripe is better. But is it a pain in the ass to implement that? Or is it pretty much out of the box?
+
+0:31 - Jorge Lewis I didn't see if you had a match, though.
+
+0:39 - Nazif Barassounon Yeah, but for the Stripe payments, it's handling all the edge cases can be really tough. It's something that could take two weeks. If it's something that is okay for you, we can go ahead and implement it.
+
+1:04 - Jared Cairns What would the edge cases be in this case? What would the issues be? Sorry, I'm naive here.
+
+1:11 - Nazif Barassounon Yeah, it's making sure that all of the data related to an organization is correctly set and safe. Checking all of the the expiration date you know if it's it is paid a month in a monthly basis making sure that um the monthly basis are respected if it's annually making sure it's the the annually um subscription is respected it's all those cases and you know, handling the errors from Stripe, making sure that we, for example, the user don't pay and then don't get access to the app. That's some of the case I'm referring to.
+
+2:10 - Jared Cairns But it's really more out of your hands. It's on Stripe side of being a problem, not necessarily the integration. Or I guess it's kind of at that point kind of mixed.
+
+2:22 - Jorge Lewis They give us the ability to handle the things, but it's out of the box. It's quite hard to deal with everything.
+
+2:31 - Jared Cairns Got you. Okay. So even if I said it's only monthly, only one price, you only pay by credit card, it still could be giving you kickbacks or errors. So no matter what. Okay. So, so basically to set it up, tell me if I'm wrong here. It sounds like it's set it up. It's easy. The inevitable errors may be time consuming. But I would figure if like, if unless we were dealing with a lot of scale, if the issue was like, this person signed up to pay, and their payment didn't register, and they don't have access, we could easily just say, give this person access, we know they're trying to pay.
+
+3:12 - Unidentified Speaker for example.
+
+3:17 - Jorge Lewis This is more for a holistic view of us. The first client, who is this going to be? Do you know the customer?
+
+3:23 - Jared Cairns I would probably say if I'm able to sell it to them, the company called Vetman Bio.
+
+3:29 - Jorge Lewis Okay. And you know them how?
+
+3:31 - Jared Cairns So the CEO of this company was a former COO at DTX. And then my girlfriend's one of the few employees there as well. And they have She was just going through, torturing herself, going through this exact contract process. And I was like, I... Is she an accountant as well? What's that?
+
+3:49 - Jorge Lewis Is she an accountant as well?
+
+3:51 - Jared Cairns No, she's smart. She's a PhD. She's too smart for this dumb shit.
+
+3:57 - Jorge Lewis Um, okay. So then for this client, this customer, would it not be professional enough or would it not be an option to do the payment link where you just blink, they pay, and then immediately we can make it so that you can give them access straight away.
+
+4:13 - Jorge Lewis Yeah, that would be an option for sure. Yeah.
+
+4:16 - Jorge Lewis I think, I think we go ahead with that. What do you think Nazif? I think that was kind of like what we were hoping for.
+
+4:21 - Nazif Barassounon Yes. I think for at the beginning, it should be fine. And maybe later when we fine tune the app and integrate it automatically.
+
+4:34 - Unidentified Speaker Yeah, cool.
+
+4:37 - Jorge Lewis So I'll remove this line. Or.
+
+4:53 - Jorge Lewis I can add an asterisk or a note saying this is not included in the initial. Yeah.
+
+5:02 - Jared Cairns You could like strike it through or do whatever is makes the most sense.
+
+5:17 - Jared Cairns Yeah. Okay. Yep.
+
+5:22 - Jorge Lewis Okay, and then marketing pages. Yeah, we just have the landing page that we made at the very start. Yeah, just very basic, right?
+
+5:31 - Jared Cairns Yeah, I think for now that's fine. Yeah, it would be nice. I mean, all these things have room for refinement, but I think everything is looking good enough for this stage.
+
+5:45 - Jared Cairns And I see you just added a note. Jorge, did we answer that? How does editing a bill work when in approval flow?
+
+5:52 - Jorge Lewis Yeah, I'm not sure if it's already been implemented or going to be implemented because I think for that, that's kind of a, there's gonna be quite a bit of UI to, to make that work. Whereas maybe a better solution is just to reject it and tell, and the proof, the person that rejected it, just tell the owner, Hey, there was something there. This was the problem. Try again. Or like do it again with this one.
+
+6:19 - Jared Cairns Oh yeah. That's what I would envision. I don't know what.
+
+6:24 - Jared Cairns Yeah, they would. Yeah, I would just say reject. I mean, if you could add like a free text field that goes with it, if not, I'm not that worried about it. But yeah, just reject. Try again. That's a good way to put it. That's what I would imagine.
+
+6:37 - Jorge Lewis And request a re-entry.
+
+6:41 - Nazif Barassounon And in the case we want to remove a bill, if it's not all right at all.
+
+6:49 - Jared Cairns I would say, I mean, usually what I see is that, that it, well, what it appears to be for me is that that record is kept and just like kept in a draft state. It's just sent back to the beginning of that approval workflow. Um, and the reason why that works for people like me is usually if somebody has a stack of 50 bills, like in their outlook, when they enter it, they put it to like enter bill or whatever. And when you reject something, it just ends up not being in a queue anywhere if they fuck it up and you reject it and it gets deleted. And then they don't know where to get it from Then the vendors calling you that they need to be paid. Um, so if you could reject it, it stays in draft form, goes to that person. That would be ideal.
+
+7:32 - Unidentified Speaker Okay.
+
+7:35 - Jorge Lewis So that's the best to put this down. So.
+
+7:44 - Jorge Lewis So if they reject it, then?
+
+7:48 - Nazif Barassounon But one thing we could do is just, instead of thinking of it as rejected or not, we can just make a request. And within the request, we can state if we want it to be modified or rejected. Rejected could be it's in the draft state, and modified would mean we want it to be updated. I don't know what you think.
+
+8:18 - Jared Cairns Well, let me think of a, tell me if this is stupid. What if you utilizing like the same logic you've built, like when you approve, it goes to the next person in the chain. What about if you hit reject, it sends it back to the first person in the chain. Cause that would, that would basically work every time because if you're rejecting it, you're sending it back to the beginning and saying, fix it. And then that way you don't have to build any complicated rules. You can just have like the same logic, just sending it the other direction.
+
+8:49 - Jared Cairns Tell me if that's totally stupid, just tell me.
+
+8:52 - Jorge Lewis It's funny.
+
+8:53 - Jorge Lewis It's like, we're going in this direction for the approval flow. It can't be that hard to just go this direction. But anyways, I think more of the issue is just the capability, adding the capability to modify the contract again.
+
+9:14 - Jared Cairns Are we talking about, sorry, is this the contract or the bill that we're talking about?
+
+9:18 - Nazif Barassounon I think it's the bill, right?
+
+9:20 - Jared Cairns The bill, right. I guess it's a little interchangeable, but in that case, I mean, if it gets rejected like that, I would like anything can be edited again. It can kind of be a blank slate again.
+
+9:33 - Jorge Lewis You could come back with all the... I think we start with that. How does that sound? We just start with a blank slate.
+
+9:42 - Jorge Lewis Maybe.
+
+9:49 - Jorge Lewis I think, I think if we, if we email the owner saying, Hey, this was rejected, then it's somewhere in the records and they, they'll have some way to, to go back to it. At least at the very start.
+
+10:04 - Jared Cairns Yeah, I would say they rejected it. They get an email saying they rejected it. And then. The person who has to fix it, I guess maybe they get a notification as well. Yeah, that's fine to start. That works for me.
+
+10:29 - Jorge Lewis I think the simplest solution may be is all of what we just said. So it gets rejected. The owner gets emailed saying, Hey, this was rejected. And there's a link in the email. If you click the link, it pre fills the bill entry form with all the data and they can, and then they're, they're technically not starting from a blank slate.
+
+10:51 - Jared Cairns So I would say the only difference is that person who's the owner of the contract is not usually the person who's entering this information, they're disapproving it. So the person who fucked up the entry, they would be notified. They're not necessarily associated with that contract. Oh, okay.
+
+11:09 - Jorge Lewis So, so whoever, whoever this bill person is. Yeah. Yeah. Okay. Okay, cool.
+
+11:13 - Jared Cairns And yes, in that case.
+
+11:15 - Unidentified Speaker Yeah.
+
+11:16 - Jorge Lewis Yeah. Is that, is that simple enough or have I. Yeah. Okay.
+
+11:25 - Jared Cairns He's Jerrified it. Jerrified it. The opposite direction. Um, okay, cool.
+
+11:35 - Jorge Lewis So, so that, so the build thing, we'll let me check, make sure it's all up to date. So request a reentry. Thank you.
+
+11:45 - Jared Cairns And then I have an idea for that. It was in the initial oak spec for another report. And it's basically just to track a different type of contract. I think we talked about it like the law firms and any other vendors not on a specific timeline. And I think you can basically Let me just back up. How hard is it to create a dynamic reporting tool similar to a pivot table, where you could say, I want to include this field, this field, in the rows and columns, and they start to populate that way? Is that really difficult? Are there pre-built tools to do that? Is it easy to do? Well, choosing which columns will be displayed Yeah, so you're like, you're like, I want to create a new report. And it's like, Okay, what do you want in it? And you like, the way I've always seen, it's like you just drag information over where it's like, I want to see the vendor's name, I want to see the month, and then it starts basically cross referencing it, and it gives you some output, like what I've most, what I've seen it the most in is in the pivot table in Excel. But um, I'm just thinking about, instead of like going through the pain of building that out, like one time, you could just kind of leave it to people to create their own versions of it.
+
+13:11 - Jared Cairns Like this one we're creating has kind of specific. Has inputs coming in and it has a specific formula. So I think that one you would have to create for somebody, but it's just a thought in terms of creating other cuts of the data. Like a reporting tool where you can just add in what you want and take out what you don't want.
+
+13:34 - Nazif Barassounon I think there's a way to hide some column or include it. So I think it's doable, yeah.
+
+13:45 - Jared Cairns I would say not a priority right now, just something I was just thinking about.
+
+13:49 - Jorge Lewis This thing you're talking about, is it? So how we're on the implementation side, what we can do is, have just a super big table and the users just select which columns to show? Because you're basically saying start with everything and then kind of start with all the columns and then just yeah they sell they're not going to filter it down but they're going to include which ones they want to make it look like they're like in terms of the data is that would that work?
+
+14:16 - Jared Cairns Yeah I'm thinking it would be formatted a little bit differently than the way it is in this one because you would basically have the columns being the dates, like you'd basically be trying to see a trend over six months. And then the vendors would be in the rows. And basically the total that they bill you every single month. But I think what you're saying, Jorge is probably a good start.
+
+14:42 - Jared Cairns I would say that's not a high priority. Just if it's something that's easy to throw together, I feel like that can be valuable. Don't worry about it. Just spitballing ideas at this point.
+
+14:52 - Jorge Lewis We can touch back on that after the reporting thing is done. Okay, all right. And then go from there.
+
+14:59 - Jorge Lewis Okay.
+
+15:00 - Jorge Lewis Cool, cool.
+
+15:04 - Jorge Lewis I think that should... Was that the last one?
+
+15:10 - Jared Cairns Let's see. Anything else in here? I think that's the last one.
+
+15:27 - Jorge Lewis I'm just modifying what happens if the build gets rejected. Actually, how hard is it to implement a draft like a just add a draft is a draft a column for our bills it's it's pretty easy no shoot up because what I'm also yeah I can also I can also envision that When a bill gets rejected, it goes into the system, but it just gets marked as draft. Yeah, that's kind of, yeah.
+
+16:27 - Nazif Barassounon Editable, maybe a boolean that states editable.
+
+16:34 - Jorge Lewis Yeah, what's the term used for, so if the bill gets rejected, what do you call it?
+
+16:45 - Jared Cairns So I've seen it called, I've seen it just called rejected. But you could say like, I've seen a call, it's usually called like, if somebody is actively rejected it and nobody's touched it, it's called rejected. If it's waiting for somebody to do it, if it's been submitted, but just not approved yet, then it's pending approval. It's kind of how I've seen the two split up.
+
+17:07 - Jorge Lewis Yeah, so rejected bills, like they always have to be done again. Yeah, because unless someone dialed the bill.
+
+17:19 - Jared Cairns Yeah, unless you like the one thing that people do sometimes is like you'll enter a duplicate bill or you'll enter a statement and then it's like, okay, in that case, it should be rejected and then like actually deleted. Yeah, so maybe there's a delete button as well, because there's really no risk in deleting it. If it's just a draft, you could just enter it again. Or you can delete it if it's like bullshit. So if that's that could be an option to basically declutter your system.
+
+17:56 - Nazif Barassounon Because what I'm seeing here is that a rejection could be one of two things. Either it is something that needs to be deleted or updated. So.
+
+18:10 - Unidentified Speaker Yeah.
+
+18:11 - Nazif Barassounon Yeah, that seems right.
+
+18:14 - Nazif Barassounon So we need to differentiate the two use cases in some way.
+
+18:23 - Jared Cairns This is why I-.
+
+18:32 - Jared Cairns Could you give an option to the person who submitted it in the first place to delete it at any point before it's approved, like just as a third option, like delete, submit, edit, whatever. Because then, then they can edit it and then they can choose. They can either it gets rejected, it's back to them. They can say, Oh, I fucked up. This shouldn't even be in the system, delete or edit and then resubmit. And then they have, you don't have to worry about logic breaking. You can put the impetus on some person.
+
+19:08 - Jorge Lewis Yeah.
+
+19:11 - Nazif Barassounon I think the approver can actually, so what you're seeing here is that the one who entered the bill could, before it reached the approver, realize that he made an error and delete it. Is that right?
+
+19:31 - Jared Cairns Yeah, because there's really no risk in doing that as long as it's not, as long as it has not reached the approval state.
+
+19:42 - Nazif Barassounon Okay. So on the approver side, the approver can also request that the bill to be deleted or updated, right?
+
+19:56 - Jared Cairns Yes. So if they're like, this is wrong, this is the wrong vendor, this is the wrong amount, then I would just say for them, it's always just a reject option. And then that reject could be, it just puts it back to a rejected state. For whatever reason. And then the person who originally entered it, they make the decision to either resubmit it or delete it.
+
+20:18 - Unidentified Speaker Okay.
+
+20:21 - Jared Cairns Cause then that's pretty typical and it gives you the most flexibility I think. And plus it provides a longer manual audit trail later, which is also more beneficial.
+
+20:36 - Nazif Barassounon Makes sense.
+
+20:38 - Unidentified Speaker Cool, cool.
+
+20:44 - Jorge Lewis Alrighty.
+
+20:47 - Jorge Lewis That should be it, I think. What do you guys think?
+
+20:56 - Jorge Lewis Should be, yeah.
+
+21:00 - Jorge Lewis So before we say done, so let's finish the call and then take another look or two everybody and then if anything's missing, we can bring it up. And once all the implementation is done, I can just copy it to scope for the summary.
+
+21:20 - Jared Cairns Okay.
+
+21:23 - Jorge Lewis Okay, cool.
+
+21:24 - Jorge Lewis So yeah, once that's done, hopefully by end of today, I'll send the new contract with the invoice.
+
+21:32 - Jared Cairns Okay, do you need me to say like, I approve the scope or anything? Or are you guys just going to look at it internally?
+
+21:39 - Jorge Lewis Yeah, the contract will refer to it as Exhibit A and it'll be attached there. Okay, cool. And then you just email us back with the signed contract. Okay, gotcha.
+
+21:52 - Jorge Lewis I got it. Cool, cool. It sounds good.
+
+21:55 - Jorge Lewis Thanks so much for your time, man. Have a good night. And thanks for joining us. I'll see you guys later.
+
+21:59 - Jorge Lewis Yeah, I'll see you guys.
+
+22:01 - Jorge Lewis Take it easy, guys.
+
+22:02 - Jorge Lewis You too. Bye-bye.

@@ -1,0 +1,492 @@
+Meet Meeting 
+Fri, Jul 26, 2024
+
+0:11 - Unidentified Speaker Yes.
+
+0:18 - Jonas Lindberg Yes.
+
+0:38 - Jonas Lindberg Thank you very much.
+
+1:19 - Unidentified Speaker for more.
+
+1:45 - Jonas Lindberg you Hello?
+
+2:08 - Jonas Lindberg Can you hear me?
+
+2:13 - Will Vincent Parrone Hello, hello. Do you hear me?
+
+2:15 - Jonas Lindberg Yeah, I hear you. How's it going?
+
+2:20 - Will Vincent Parrone Okay, doing great. Let me just find my earphones so that I can listen. Better because I can hear you guys.
+
+2:29 - Will Vincent Parrone Yeah no problem.
+
+3:26 - Cuan Mulligan Hey, how's it going?
+
+3:27 - Cuan Mulligan Yeah, I'm just trying to sort out my webcam. Hold on a sec.
+
+3:33 - Will Vincent Parrone Yeah, no problem.
+
+3:37 - Will Vincent Parrone How's the trip to Spain going?
+
+3:52 - Cuan Mulligan Cool. Can you guys see me now?
+
+3:55 - Jonas Lindberg Yeah, I can hear you. The camera seems to be off sync with your voice. It's fine for me.
+
+4:04 - Cuan Mulligan Yeah, you guys are slow as well.
+
+4:10 - Cuan Mulligan Yeah.
+
+4:11 - Cuan Mulligan Cool. I've just woken up, so bear with me.
+
+4:19 - Cuan Mulligan Yeah.
+
+4:22 - Cuan Mulligan What I'm concerned about is that we're getting into a very explicit neutral.
+
+4:31 - Cuan Mulligan saying the conversation will always be exactly these steps and it'll never deviate. That's not what we've talked about as a product here. And I want to check in. Is that where we're going or is that my bad assumption?
+
+4:46 - Jonas Lindberg I think that was more of a bad assumption, because we need an explicit example to be able to work and get to what your vision is. If we're just working with words you say, it's extremely difficult to discern what a session should look at. If you're teaching a human how to do life coaching or teaching a human anything, you need to give a human examples of how it works. If you're going to learn how to do a surgery, it's going to be different every time, but you should learn the procedures. You should learn fundamentally how things work.
+
+5:25 - Jonas Lindberg So I think just examples are the best way to move forward. And it slowed us down a lot that we've just had to work from concepts within our heads. And we've never seen practical examples until what we're beginning to have now.
+
+5:41 - Cuan Mulligan OK. So can we go through? Shall I bring up the moral or do one of you want to bring up, sorry, the figma? Which way do you want to do it?
+
+5:54 - Jonas Lindberg I'm in Figma right now. I think we can follow each other by clicking on the profile picture top right. I'm following you right now.
+
+6:05 - Jonas Lindberg So.
+
+6:06 - Cuan Mulligan Will, are you seeing?
+
+6:08 - Cuan Mulligan This section here. Yeah, you're there. I can see you there. This section here is just setting out all of the components that we would talk about in a diagram. So any questions on this?
+
+6:22 - Jonas Lindberg No questions.
+
+6:25 - Cuan Mulligan Will, you're very low. I can hear Jonas quite well.
+
+6:31 - Jonas Lindberg Yeah, your volume is very low.
+
+6:34 - Will Vincent Parrone OK. How about now? Better?
+
+6:36 - Cuan Mulligan Much better. Much better.
+
+6:38 - Cuan Mulligan OK. No questions from me.
+
+6:41 - Cuan Mulligan So the idea here is at a high level trying to capture the fact that you don't have an existing user. This is a new user. Becomes aware of the website through Instagram, advert, whatever. Or they sign up to the newsletter on the website, they become aware, they've signed up, I shouldn't say becomes, and then on the website, can sign up for a newsletter, or it can just, how do I do that?
+
+7:31 - Cuan Mulligan Yeah.
+
+7:38 - Cuan Mulligan They see, on the website, they see the Discover Why workshop. That pushes them to the mobile.
+
+7:48 - Cuan Mulligan On the mobile, there'll be some invitation to do the Discover Your Why workshop, whatever wording we come up with. Will, you've got a questionnaire. If we start on Discovering Your Why workshop first, is it okay if we still start the workshop?
+
+8:02 - Cuan Mulligan Why would that be a thing, Will?
+
+8:09 - Will Vincent Parrone Oh, this is an earlier... I asked this question because the Discover Your Why question is still being spec'd out in IntelliJ, so...
+
+8:19 - Will Vincent Parrone I remember asking this if we work on the onboarding first while the IntelliAgent is working on the create your Y workshop.
+
+8:28 - Cuan Mulligan So my understanding is just on that JP has changed that now.
+
+8:37 - Jonas Lindberg to a unique value proposition workshop instead of a brand purpose workshop? Yeah. You mean? Yeah. Yeah. That's also where we're a bit misaligned. So do you know if it'll be a unique value proposition workshop or if it'll be a brand purpose workshop?
+
+8:56 - Cuan Mulligan Well, JP said it's a unique value proposition. I think that's what it is. It's his product, don't mind.
+
+9:04 - Jonas Lindberg If the brand workshop is a pound and the value proposition workshop is 5,000 pounds, well, that's a different conversation.
+
+9:08 - Cuan Mulligan Yeah.
+
+9:25 - Cuan Mulligan So fundamentally, no, we're not onboarding. This is about giving people the experience of our product to convert them to a sale. So the answer to that is no.
+
+9:38 - Jonas Lindberg Got it.
+
+9:41 - Jonas Lindberg So just one question I had here is, where in the process would the user tell the program, I already have an account?
+
+9:52 - Cuan Mulligan Sorry, Jonas. I got the first part of that, and then you broke up.
+
+9:55 - Jonas Lindberg Okay. Where in this process would the user tell the program that they've already signed up? Just to get that out of the way.
+
+10:06 - Cuan Mulligan So they haven't signed up yet.
+
+10:10 - Jonas Lindberg Yeah, but the user could also have signed up. When they open the app, if this is how the conversation starts immediately, where will the user be able to tell? Let me make this more clear.
+
+10:27 - Cuan Mulligan So let me, let me, let me, let me finish. Let me finish. So on the mobile app, there's obviously going to be the ability to sign in. I haven't done an existing user workflow yet. This is just a new user workflow. I want to get that lined in.
+
+10:43 - Unidentified Speaker Okay.
+
+10:47 - Jonas Lindberg So what sign in the, before the workshop star starts or where, like where just in between her, what does sign up process be?
+
+10:55 - Cuan Mulligan So, so this is a I'm new to the product.
+
+11:01 - Cuan Mulligan I'm experiencing this to decide whether I sign up or not. Now I could skip all this and just sign up or I can skip all this and sign in.
+
+11:10 - Jonas Lindberg Okay. So you should be able to skip the workshop and just sign up if you want to. It will not, I will not this workshop be essential to, like why one would, like this workshop, the output from this workshop will be used in all conversations and everything moving forward to make the application more efficient, right?
+
+11:36 - Cuan Mulligan Not necessarily more efficient, but more relevant.
+
+11:39 - Jonas Lindberg Yeah. More relevant, more valuable. Yeah.
+
+11:42 - Cuan Mulligan But I don't think we need to be so literal, right? They could be 20 minutes into this workshop and they might need to go out shopping and they stop it. They never finished the workshop. So the next time they come in, there would have to be the option to continue the workshop, sign up, sign in. Maybe they signed up on the website and they're already logged in.
+
+12:04 - Jonas Lindberg The workshop is required before you start the program, right? To finish the workshop.
+
+12:13 - Jonas Lindberg Sorry?
+
+12:15 - Jonas Lindberg Finishing this URY workshop is required before continuing with the program, right?
+
+12:22 - Cuan Mulligan Before continuing with the program, yes, we would need to have it. But it doesn't have to be a precursor to signing up.
+
+12:31 - Will Vincent Parrone OK. So we're going to have, OK, from what I'm hearing, we're going to have a Y workshop where the user can opt in to participate or skip and just sign up, right?
+
+12:45 - Cuan Mulligan Yeah, we don't want to be hard-coding this, that you must do these things in the earlier days. You should be able to drop out of the process and go, hey, this is really cool. Yeah, I want to sign up. Fine.
+
+12:56 - Jonas Lindberg But then after you sign up, do you continue your Y-Workshop? Yeah. Yeah. Technically, that's just kind of more difficult to implement then, because then we have to track when the user signs up and how the program should be continued.
+
+13:16 - Cuan Mulligan Um, my concern, I understand what you're saying, but my concern is, is that I think people might just be messing around with the product and not do a real workshop. Um, in the pre sort of, they're just testing us and they go, ah, this is pretty cool. Okay. Now I'll sign up. They don't know that this is a step one of the actual program.
+
+13:40 - Cuan Mulligan I think there's a different experience when someone hasn't paid for something and when someone has paid for something.
+
+13:48 - Cuan Mulligan So I think once you sign up, we could then ask them, Hey, you know, are you happy to use the, the, you know, the, why the existing one, or do you want to do a new one? Maybe we could do it that way.
+
+14:04 - Cuan Mulligan Yeah.
+
+14:05 - Cuan Mulligan So, okay. Do it that way then. Okay.
+
+14:07 - Jonas Lindberg So, uh, that's possible. It's just, uh, yeah, just with introducing more flows, more like directions where the user can sign off and start this program and all of that, uh, that will increase the scope of it.
+
+14:23 - Jonas Lindberg Well, compared to just having one hard code and stuff where they sign up.
+
+14:26 - Cuan Mulligan So Jonas, once you sign up, it's literally a question. Do you want to use the existing why workshop or do you want to do a new one? You do a new one, you just run the workshop again. That doesn't seem like a colossal feature.
+
+14:47 - Jonas Lindberg From my experience, go on Jonas.
+
+14:51 - Jonas Lindberg Sorry, go on Will. I'll say mine after.
+
+14:57 - Will Vincent Parrone yeah from my experience there would be we would have to invoke this is from a tech a bit technical perspective but we would need to create a way in which the first Y Workshop is already stored in the mobile device's internal storage so that it could be used again.
+
+15:20 - Cuan Mulligan That might be a little difficult. Sorry, Will, can you turn your video off? Or can we all turn our video off? Just because I think my signal is not great and it's struggling.
+
+15:28 - Will Vincent Parrone Oh, OK.
+
+15:31 - Will Vincent Parrone OK. So from my experience, in order to implement what you're saying, I think we might need to create a way to save the user's first Y Workshop results into the mobile device or the device the user is using, and that might add in additional complexity because we're going to have to save the device.
+
+15:59 - Cuan Mulligan Well, it has to be saved anyway. How can you not save the workshop?
+
+16:08 - Jonas Lindberg Yeah, I don't think that's the issue. The issue I'm more seeing is just the state management. When, like, creating the process, there is always a state going on. Creating disruptions to the state where the workshop can and can't exist at the same time just creates more scenarios we have to account for in the code, basically. So that's more so what can come...
+
+16:30 - Cuan Mulligan Which means the workshop cannot exist.
+
+16:34 - Jonas Lindberg When the user has signed up, if we ensure that the workshop has been completed before they sign up, we know we'll always have that. When they're signed up, we'll never have to account for them not having done the workshop. Meanwhile, if they can have done it, can have partially done it, and can have not done it at all, then those are all three scenarios we have to account for. When it's in the signed up UI, if that makes sense.
+
+17:00 - Cuan Mulligan I understand that, but you've also got to look at what is the customer experience here, right? We all know that when people try something for free, they mess around.
+
+17:09 - Jonas Lindberg I understand that that would be a better customer experience. I'm just informing you that that can lead to an increase in scope. We'll have to estimate that properly after, but yeah.
+
+17:25 - Cuan Mulligan I mean, what sort of impact? I mean, technically, yes, it's an increase in scope. But are you talking like it's an hour's work, it's a month's worth of work? What are you talking about here?
+
+17:37 - Jonas Lindberg Hours, maybe days. But yeah, it shouldn't be too much.
+
+17:45 - Cuan Mulligan This is becoming very frustrating just from my point of view. We're getting into this massive analysis paralysis where we're losing weeks and weeks to spinning wheels.
+
+17:56 - Unidentified Speaker Yeah.
+
+17:57 - Cuan Mulligan Just to let you know, I'm getting quite frustrated.
+
+18:02 - Cuan Mulligan So can we go back onto the app now?
+
+18:05 - Unidentified Speaker Yeah.
+
+18:08 - Cuan Mulligan So then there's an introduction section.
+
+18:15 - Cuan Mulligan cities and let me know when you're ready to start. Let me just see.
+
+18:28 - Cuan Mulligan I just don't know whether.
+
+18:44 - Cuan Mulligan I think actually that's probably the right, I think that text goes in there. But anyway, it doesn't really matter. Those texts are just an example. And I'm assuming when the client says ready, it could be any form of positive confirmation. And that could be, they might ask questions, they might, you know, I can't possibly speculate the array of questions that a customer might ask here.
+
+19:16 - Unidentified Speaker Yeah.
+
+19:17 - Will Vincent Parrone Yeah. We'll take it into consideration too.
+
+19:20 - Cuan Mulligan I mean, they might say, how do I make popcorn?
+
+19:28 - Will Vincent Parrone Yeah. I think there's some kind of prompt engineering we could do to like invalidate those kinds of questions, but that's a thing we might discuss with the technical team, but I'll include it in this.
+
+19:45 - Will Vincent Parrone Yeah, like with regards to questions like that, how to make popcorn, I think it's a technical question, technical implementation problem and not necessarily a product problem. What do you think?
+
+20:02 - Cuan Mulligan Well, everything's a product problem and everything's technical, so I don't really need to fix things.
+
+20:09 - Jonas Lindberg It also depends on how much you want to invest into accounting for users that don't seriously use the platform. For example, we could have one agent just list listening in the background, that's whose sole job is just detecting bullshit. And when it detects bullshit, it can ask the user to get serious. But I think it largely just depends on how much time we want to invest in accounting for users that aren't seriously using the program.
+
+20:35 - Cuan Mulligan Well, I think with every chatbot that's out there, there is a subject matter that it's related to. And then there is stuff that it's not prepared to talk about. So if it goes in and says, um, can you give me some medical advice on how to have an abortion? We, we can't answer that question. That's not bullshit. It's just not a question. So any product that doesn't have a scope of what it will talk about and what it won't talk about, there is no product. I mean, I spoke to George about this from the very get go. You have to be able to talk about things and not talk about things.
+
+21:17 - Cuan Mulligan Yeah.
+
+21:20 - Jonas Lindberg Yeah, it's very possible to filter out messages that aren't in the subject.
+
+22:12 - Cuan Mulligan So they're doing the introduction. They've then handed over to the coaching agent. Is that clear?
+
+22:21 - Cuan Mulligan Yep. Yeah.
+
+22:22 - Cuan Mulligan This is the same chat window. The mentor is still present, but now it's been run by Maria, the coach.
+
+22:33 - Unidentified Speaker Yeah.
+
+22:35 - Cuan Mulligan Now, this first section, again, we explained the background. That could be multiple conversations. I didn't want to be laborious about it here, but I can break that out if you need me to.
+
+22:53 - Jonas Lindberg No, this one is fine. The introduction is good.
+
+22:58 - Cuan Mulligan Fine.
+
+23:00 - Cuan Mulligan And then across the top here, there's two different major scenarios. They either know their issue or they don't know their issue. And so I've broken out one flow for weight loss.
+
+23:17 - Cuan Mulligan There's a billion different ways to say weight loss. I want to get into a dress. I have a wedding coming up that I can't fit into. I want to look good on the beach. All of that is weight loss.
+
+23:30 - Jonas Lindberg Yeah.
+
+23:31 - Cuan Mulligan And then this section here.
+
+23:41 - Jonas Lindberg Just to clarify, so these are purely measures of success, right?
+
+23:47 - Cuan Mulligan They are the goals. It's what the user would call goals. But then, yes, we would then tell them that they are actually what we call them in the program are measures of success.
+
+23:57 - Jonas Lindberg In addition to this measure of success, are we also looking to get their core why, like these up here, something deeper than fitting into a dress?
+
+24:09 - Cuan Mulligan No, because that's pretty deep for people, that is. So be really clear. Most people will call golds, like I want to lose my weight. That is the goal. I want to lose weight. So I need to put some tags on this. Hold on a second.
+
+24:26 - Jonas Lindberg So these are your Ys then. And I want to do losing weight as a measure of success.
+
+24:44 - Cuan Mulligan How do I get this down?
+
+25:17 - Jonas Lindberg I think you can also press S on your keyboard to make like sticky notes.
+
+25:23 - Jonas Lindberg Sorry?
+
+25:24 - Jonas Lindberg I think you can press S on your keyboard to make like sticky So this is their initial user goal.
+
+25:37 - Jonas Lindberg Yeah.
+
+25:38 - Cuan Mulligan We then go deeper and we tease that apart. And so what would that feel like, And there's loads of different questions here. You just go deeper and deeper and deeper. These are more deeper emotional insights into the user goal. So what happens when you have those things, all of these things, for example, when they struggle with the program, we might be saying, Hey, remember that passion that you had for traveling? Yeah. This is why you're doing this. So these are things we're going to call upon later in the program. When people should start getting challenged, this is the fuel that's going to help them do the hard things.
+
+26:17 - Unidentified Speaker Okay.
+
+26:18 - Jonas Lindberg Yeah, I got it.
+
+26:22 - Jonas Lindberg Does that make sense?
+
+26:24 - Jonas Lindberg Yeah, it's clear.
+
+26:26 - Cuan Mulligan So at some point this process finishes and I'm not entirely sure how I can tell you when that finishes. It's quite subjective. Like you don't want to ask 50 times and, and it's sort of, it comes to a natural ending. That's something that you just feel as a, you know, I haven't explicitly said to you that we're moving to the next point. You just haven't had more questions and it just sort of felt like it was time to move on. I don't know how to codify that, but that's something that I would assume has to come through the training.
+
+26:57 - Unidentified Speaker Yeah.
+
+26:59 - Cuan Mulligan Will, you've got a question. If I remember correctly, there's an emphasis on making sure that the goals of the user...
+
+27:19 - Cuan Mulligan I wish I'd never used smart because it's not useful. Um, it is, and it's not useful. Um, we're not reinforcing the user's goals. That's what they're coming in with potentially. They may not have a goal and that's something that's a separate workflow. Uh, I'll come into, but this is, I know, I know I want to lose weight. We then go deeper into what will be the benefit of all of that. So this is more emotional. We then are educating them about the benefit of converting this user goal into a, uh, what we call measures of success.
+
+28:02 - Jonas Lindberg Yeah.
+
+28:06 - Will Vincent Parrone Okay, if I'm getting it right, basically, if the issue is known, we ask deeper and deeper to determine their core motivations, like what motivates them to this specific goal and create measures of success. So for example, if I want to lose weight, I'm motivated because I want to, let's say, run at a marathon. And so my measure of success is losing 10 pounds, something along those lines.
+
+28:37 - Will Vincent Parrone Yes.
+
+28:39 - Will Vincent Parrone Okay. Got it.
+
+28:43 - Jonas Lindberg Yeah. Uh, then the question, what if the response is something like I have just been diagnosed with prediabetes? Do we turn that into a measure of success or where does the arrow go from here basically?
+
+28:57 - Cuan Mulligan So again, it will go into this process here again. So the, Well, you tell me, given something can be an initial user goal and an emotional insight or a measure of success, what is pre-diabetes initially? What is pre-diabetes?
+
+29:17 - Unidentified Speaker Emotional?
+
+29:19 - Cuan Mulligan It's an initial user goal.
+
+29:21 - Cuan Mulligan Okay.
+
+29:23 - Cuan Mulligan Then we would talk to them about saying, you know, really sorry about that. You know, that that's, that's not a, you know, for me, if I would say, I would say, OK.
+
+30:56 - Cuan Mulligan But this is a very different initial response because prediabetes is not something I chose where weight loss is.
+
+31:06 - Unidentified Speaker Yeah.
+
+31:08 - Cuan Mulligan And so you have to acknowledge where the customer is.
+
+31:13 - Jonas Lindberg Yeah.
+
+31:25 - Cuan Mulligan And then you might do something like...
+
+31:55 - Cuan Mulligan You might say something like this.
+
+31:59 - Cuan Mulligan You might say something like,
+
+32:04 - Cuan Mulligan Yeah.
+
+32:14 - Cuan Mulligan Walk through.
+
+32:38 - Cuan Mulligan I'm just making up all these different examples. I don't know. There's all sorts of different questions I would do.
+
+32:44 - Cuan Mulligan Yeah.
+
+32:45 - Cuan Mulligan And all of this is just going deeper and trying to get the emotional insights behind the user goal.
+
+32:59 - Jonas Lindberg OK.
+
+33:07 - Jonas Lindberg And we're still seeking measures of success, like achievable, measurable measures of success with these Ys? What Ys?
+
+33:26 - Cuan Mulligan Well, I have just been diagnosed with diabetes.
+
+33:30 - Cuan Mulligan Guys, we've got to be consistent. We've just called them. We've just established they're called user goals, and then you're calling them all these different things.
+
+33:38 - Jonas Lindberg This is not a goal saying I want to get rid of my diabetes. That's a goal, no? I have been diagnosed with it. It's not a goal.
+
+33:50 - Jonas Lindberg I'm sure it's a hint to what the goal would be, which I imagine is getting rid of it or coping with it. But it's not a measurable goal.
+
+34:02 - Cuan Mulligan So how do I...
+
+34:15 - Cuan Mulligan So...
+
+34:21 - Cuan Mulligan That's a fair point, so.
+
+34:29 - Cuan Mulligan Maybe it's something like this.
+
+34:59 - Cuan Mulligan something like that.
+
+35:01 - Cuan Mulligan Okay.
+
+35:03 - Unidentified Speaker Yeah.
+
+35:06 - Jonas Lindberg Um, yeah.
+
+35:07 - Jonas Lindberg So yeah, we're still trying to turn this into measure. Yeah. Go measure. Do we want measurable, achievable, realistic?
+
+35:14 - Cuan Mulligan I mean, I'm going to take back what I said then. And Will, I think you were on the right path.
+
+35:36 - Cuan Mulligan I think in order for this to be a measure of success, the quality of a measure of success is that it's smart. So it's specific. I think that's what you've just done.
+
+35:48 - Cuan Mulligan We assess whether it's achievable. Can you wait? I mean, if they want to go from 200 pounds to one pound, that's not achievable.
+
+35:55 - Cuan Mulligan Yeah.
+
+35:56 - Cuan Mulligan It's not realistic. It's not measurable. And time-bound, there are different variations of what time-bound means. It's like, in what period of time will you hope to achieve this by? So if they're reversing the prediabetes, he thinks sort of like, yeah, I think I'm going to do this in a month. We're like, no, you're not. This is at least probably a three to 12-month journey, depending on where you are and how diligent you are in what you do. So you're right, there is possibly a... Okay, so there's probably a phase here to here.
+
+36:42 - Cuan Mulligan Make sure the user goal is specific, measurable, achievable. So if it's achievable, it has to be like, can we actually do it? Is it technically possible?
+
+37:06 - Cuan Mulligan Now, we would assess that if they say, you know, can people lose weight 100%? So we wouldn't have to ask them that question. If they want to go to the moon, that's not a goal that we can help you with. Sorry. And Realistic and time. So the measurable, achievable, realistic.
+
+37:37 - Cuan Mulligan So I think specific is a set of questions that we do here to get it specific. I think there has to be a timing question is like, you know, So I want to lose weight. That's fine. But I think, actually, it's possibly. Cool. So do you mind sharing your existing weight and target weight?
+
+38:12 - Cuan Mulligan Oh, shit. What just happened there?
+
+38:16 - Jonas Lindberg Looks like the entire box was moved.
+
+38:24 - Jonas Lindberg Could I ask one question more about the process order here? The high-level process order?
+
+38:31 - Cuan Mulligan Yeah.
+
+38:33 - Jonas Lindberg So if I was partaking in this, or how I've been imagining it, is this second step here is what I expect to come first. First, we want to figure out the core, the deep emotional insights of the goal. And after we've figured that out, I'd go forward with trying to turn that into a smart goal. Instead of first deriving the smart goal and then trying to find a deeper emotional connection.
+
+39:07 - Jonas Lindberg I could be wrong there. I'm not a life coach, but that's just.
+
+39:12 - Cuan Mulligan Yeah. I mean, how important is it that the sequence of these things are locked in because you're, you're right. There will be different times, the path you'll do each of these steps, but the sequence might not be the consistent from one client to another client. Because you're right, because they might just go, they might come in going, fuck me, I need to lose weight. And you're like, Oh, I can see this is really important for you. And because they're so emotional, what you just said is absolutely the right thing to do. Yeah. But it might not always be. So how prescriptive do we need to be in the sequence here or the order of things?
+
+39:53 - Cuan Mulligan I suppose maybe if it's if it's voice, you could probably insinuate some of the emotion. But if we don't have that option, we're not going to be able to do that.
+
+40:05 - Jonas Lindberg I guess it would just be being able to tell when to move on. But if you were doing coaching and someone said, I want to lose weight, or I have been diagnosed with prediabetes, or any of these four, really, would you start with trying to get the emotional connection? Or would you start with trying to turn it into a smart goal?
+
+40:33 - Cuan Mulligan I'm going to ask Sonia that. I don't want to skip my opinion. Give me two seconds. Yeah, go ahead.
+
+41:20 - Jonas Lindberg How's it going, Darwin?
+
+41:24 - Will Vincent Parrone Yep. Doing great. Chinmay is asking me a lot in private messages.
+
+41:38 - Jonas Lindberg Well, first of all, as George always says, we shouldn't really be communicating in private messages. It should be in the public channel so that we're all synced up.
+
+41:47 - Jonas Lindberg Yeah.
+
+41:51 - Will Vincent Parrone Let me just message him.
+
+41:55 - Jonas Lindberg I'll leave you to that.
+
+42:17 - Will Vincent Parrone Oh, yeah, well, Q&A is still out. I remember a story in one of my company wherein a different team of ours destroyed a prod because they were chatting privately.
+
+42:37 - Jonas Lindberg Wow, yeah.
+
+42:38 - Will Vincent Parrone Basically, the whole story is this other team, they're managing a pizza chain that's in peak hours, that was running in peak hours, and then one of the junior developers messaged a server admin if they could push the changes without the project manager's approval. They said it was like a small bug fix, and it was on a Friday too.
+
+43:05 - Jonas Lindberg It sounds like you're describing what literally just happened with the crash. Yeah. Yeah. It's on a Friday. It's just this little bug fix that they're pushing without testing.
+
+43:20 - Jonas Lindberg So I am.
+
+43:33 - Cuan Mulligan I think your instincts are spot on. I'm speaking to Sonia. She's got to pop out to a friend of hers, unfortunately, who's got cancer. So she hasn't seen her in a long time. So she's going out to see her now for the day, and I've got the kids.
+
+43:51 - Cuan Mulligan you're, you're right. And her view would be is when the customer comes in with, I want to lose weight, I want to reverse pride pre-diabetes. The next thing is you want to start visualizing life or what life will be like about when you fix this problem. So it's all about sort of pumping them up, getting them massively excited, getting deeper into that emotion. And once you've done that, then you'll start saying, okay, so that's really important. We've got that energy now. We're going to use that because it's going to get tough at times. So now let's just get specific and figure out the SMART aspects of it. So you're right, we need to reverse these around.
+
+44:31 - Cuan Mulligan So this section, this section here.
+
+44:40 - Cuan Mulligan Why can't that move down?
+
+44:47 - Cuan Mulligan goes there.
+
+44:59 - Jonas Lindberg I accidentally moved it back.
+
+45:03 - Cuan Mulligan Okay, so I'm just going to go.
+
+45:12 - Jonas Lindberg So okay, so this is the I feel like there's almost a section before this again, which is clarifying what the goal is. So for example, if I have just been diagnosed with prediabetes, we need to turn this into a goal before being able to visualize the future when the problem is fixed.
+
+45:46 - Jonas Lindberg Or maybe I'm wrong there. Maybe making them visualize the problem being fixed helps find out what the goal is.
+
+45:55 - Cuan Mulligan Yeah, I mean, I sort of made an assumption there that someone saying I've been, I've been diagnosed with prediabetes that they're coming to us to reverse it. Right.
+
+46:07 - Cuan Mulligan Yeah.
+
+46:08 - Cuan Mulligan Um, and I think this is the challenge, right? Someone said to me, you know, yeah, yeah, you might want to do that. So, um, any clarifying.
+
+46:29 - Jonas Lindberg But yeah, then I'd be like afraid of it sounding too much like you're speaking with a robot writing rather than a human. If I come in and I say like, my doctor just said I'll die in two years because of my weight. And then the bot asks me So do you want to get rid or fix your weight problem? Then it's like, if that was a human, of course, that's obvious. I kind of think where it's like, it sounds like I'm speaking to a bot where it's just kind of disregarding my problem and my emotions and rather just trying to clarify for clarification sake.
+
+47:08 - Jonas Lindberg could be a concern, but could also be good to get it clarified. Because if it's not their concern, or if they don't have the gold yet, or they're trying to figure it out, then it could be different.
+
+47:19 - Jonas Lindberg Yeah.
+
+47:22 - Cuan Mulligan What do you think?
+
+47:22 - Cuan Mulligan No, I think that's, that's exactly what we want to avoid in terms of, you know, the idea that It doesn't sound human or humane is probably more important rather than human.
+
+47:44 - Jonas Lindberg Yeah. I like this way of phrasing it though. What do you do? What do you hope to achieve from working with that? Because then it's more of an open question.
+
+47:53 - Cuan Mulligan Yeah. We tend to try, certainly coaching tends to ask very open, open questions because early stage, you don't know where the customer wants to go. So the open questions allows them to give us more context rather than us trying to be very specific at the outset.
+
+48:08 - Jonas Lindberg Yeah. I think that probably handles the concern I have for the most part.
+
+48:16 - Cuan Mulligan So any clarifying questions on the problem to a goal on the problem?
+
+48:27 - Cuan Mulligan I'll try to ask open questions to establish the user go.
+
+48:44 - Cuan Mulligan My laptop is about to run out of battery one moment.
+
+48:48 - Jonas Lindberg Okay.
+
+48:54 - Jonas Lindberg You need to go or?
+
+49:07 - Jonas Lindberg I'll just have to run and get my charger. It's saying 0%, so if I suddenly drop out, then you know what happened.
+
+49:16 - Jonas Lindberg Yep, take care. Success, it's plugged in.
+
+49:18 - Will Vincent Parrone Run like the wind, I guess.
+
+49:23 - Jonas Lindberg Huh?
+
+49:24 - Jonas Lindberg Run like the wind.
+
+49:26 - Jonas Lindberg Yeah, I'm back now. I got it. Yeah, sorry about that interruption.
+
+49:40 - Cuan Mulligan Guys, I need to drop off for a little bit. I'll reconnect with you in a couple of hours. Well, probably not less than an hour and a half when I come back.
+
+49:50 - Cuan Mulligan Okay.
+
+49:51 - Cuan Mulligan But I think this is useful to tease it apart, but I'm concerned that I'm doing this in isolation to Sonia. I think I need to bring her more into this process, but she won't be around until later today. But we can continue this journey when we come back. Or if you guys, now I understand where your head's coming from If you guys do want to put questions into this, I can answer when I come back, and then we can jump back on a call.
+
+50:14 - Jonas Lindberg Yeah, I don't have any immediate questions right now. OK. But it seems like we're moving in the right direction now, though, where a lot of things are being cleared up. Perfect. Yeah.
+
+50:29 - Jonas Lindberg Cool. All right.
+
+50:30 - Jonas Lindberg Yeah, I'll see you then. Bye bye. Have a good day.
+
+50:36 - Cuan Mulligan Have a good day.

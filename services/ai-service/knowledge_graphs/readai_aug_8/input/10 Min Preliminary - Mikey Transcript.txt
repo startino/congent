@@ -1,0 +1,214 @@
+10 Min Preliminary - Mikey 
+Fri, Jun 28, 2024
+
+0:23 - Mike John Eviota Can you hear me?
+
+0:27 - Mike John Eviota I can't hear you, sir. Lately, I can't hear you. I don't. Yeah, I can't hear you, sir.
+
+0:52 - Mike John Eviota Um, you can hear you, sir, Jorge.
+
+0:56 - Unidentified Speaker Hello.
+
+1:10 - Jorge Lewis Doesn't work. Does it work?
+
+1:20 - Jorge Lewis I'm sorry.
+
+1:21 - Jorge Lewis Does it work now?
+
+1:26 - Mike John Eviota Hello, sir. Can you hear me? I can hear you now.
+
+1:32 - Jorge Lewis Just a quick introduction. This is Jonas, the co-founder. Yeah, I can't hear you. Yeah, I'm Jonas.
+
+1:39 - Mike John Eviota Can you hear me? I think I'm having a internet connection. Okay, okay. Let me, let me connect to different network.
+
+1:53 - Jorge Lewis Okay, okay.
+
+2:00 - Mike John Eviota I don't like this. What is happening?
+
+2:11 - Mike John Eviota What is happening?
+
+2:25 - Mike John Eviota I think my internet is stable now, Sir Jorge. I believe it's stable now. I can hear you, yeah. Thank you.
+
+2:40 - Jorge Lewis Nice to meet you, Mike. Technical difficulties out of the way now.
+
+2:48 - Jorge Lewis So, how are you?
+
+2:51 - Mike John Eviota I'm good. I'm actually just... Doing what makes me happy, like coding.
+
+3:03 - Jorge Lewis So where in the Philippines are you?
+
+3:05 - Mike John Eviota I live here in Kainta, Rizal. Mostly it's a province, Rizal province, but almost in a city. It's in the boundary of a city like Pasig and Taytay.
+
+3:19 - Jorge Lewis Okay, cool. And how do you know Will?
+
+3:25 - Jorge Lewis Pardon?
+
+3:27 - Jorge Lewis How do you know of Will?
+
+3:30 - Mike John Eviota Sir Will is my... I met him in a Svelte community where me and him started studying Svelte when Svelte was in Svelte Tree at that time. It was in a not really stable release. So, me and Sir Will, quite late, I believe Sir Will joined I joined Svelte community that time when Svelte is in very stable stage now. And me and him shared some insight about compiler and some libraries like React because that time React is very problematic and we both have the same issue that I think finding a new library will make the productivity much Much better, and I believe I worked with Serwil in some front-end job, like it was a CMS-based application where I built the front-end, most of the front-end, and he was in charge with the back-end. The back-end is mostly AI powered, like machine learning stuff, just like that. Where I'm just, yeah, he built the entire API, and I'm fetching the endpoint. I'm just calling the endpoint and doing some transformation from the server to the client, then just front-end stuff when I was working with Zervil. And yeah, that's it. Most of my experience is just based in locally here, where I'm building capstone projects and websites for businesses and some local um, enterprise business, such as finance or unfinanced financing.
+
+5:20 - Mike John Eviota That's cool.
+
+5:22 - Mike John Eviota That's cool. Yeah. All of it is built in. I'm the only one using in here in my country. Then later on, I realized that there's a community.
+
+5:31 - Jorge Lewis Yeah. How big is the community?
+
+5:33 - Mike John Eviota I'm not really, maybe just only 10 is active. Maybe me. I'm only the active there sometimes. Yeah, the community here in the Philippines is not so big, but it is there. It is there. This is a big community and most of them are very skilled and have an entitled job outside the world, nationwide.
+
+5:55 - Unidentified Speaker Nice.
+
+5:57 - Jorge Lewis My co-founder, he plans on moving to the Philippines like when? Like January? I think like three months after. Which dialect of the Philippines are you speaking?
+
+6:12 - Mike John Eviota The problem is I'm only staying here at home and I'm not really socializing. So I'm really not familiar in some places here in the Philippines. But yeah.
+
+6:26 - Jorge Lewis Cool.
+
+6:27 - Mike John Eviota Pardon, I can't hear you again. Did I lose my connection?
+
+6:41 - Jorge Lewis Sorry, yeah, I don't know how I turned I was muted by exit So I was saying I took a look at your profile. I like I liked the way they looked really nice projects You should see n all the time, right?
+
+6:54 - Mike John Eviota yeah because that time using a built-in components can take a lot of time since building from scratch is quite repetitive and the colors and such behaviors is most of them is very repetitive so why not let's just use cn we can just back forward programming it since the component is already given to us the the it is headless so we have the ability to modify it from scratch again but The ShedZine is enough. The ShedZine design is enough to bring us the design what we need. So, yeah, I use ShedZine. But sometimes I use, sometimes I copy from Daisy. Sometimes I use Skeleton. There's a lot of UI library in Svelte. There's Beats. There's a Melt. Melt is come out recently, but it was... It is good for Scratch component. But for me, I use Shard because sometimes ShardCN gives a lot of productivity since you can decide if you want to modify it from Scratch or not. If this behavior is enough, then why not? Let's just change the color. And since it's built as a compiler, we can just ignore the bloated stuff ShadCN gives us, since it's underdeveloped, it gives us the JS, plain JS. Yeah, exactly.
+
+8:21 - Jorge Lewis Our stack is the exact same. We use SelfKit, ShadCN, Tailwind. We tried Daisy UI for a little bit, but I don't think we're using it right now. Are we using any at all? No, none right now. We did try it. The idea is nice, how it's very minimal and it's pure. But in terms of functionality, when you need to make a lot of apps, when you need to work in a team, ShadCN makes more sense. Yeah, ShadCN.
+
+8:49 - Mike John Eviota Actually, ShadCN the best.
+
+8:53 - Mike John Eviota I agree.
+
+8:55 - Mike John Eviota Yeah, you know Hunterbyte?
+
+8:58 - Mike John Eviota Hunterbyte, yeah, yeah.
+
+8:59 - Mike John Eviota I watch his stream always when he was building ShadCN. It's more fun. I can finally quit React.
+
+9:06 - Jorge Lewis Yeah, yeah, he's a legend. Hunterbyte. I want to meet him one day. I want to tell him thank you, because what he's helped with is so much. He introduced Svelte to so many people.
+
+9:19 - Mike John Eviota He's the only one making this build kit a battery framework like Laravel or NestJS.
+
+9:24 - Jorge Lewis He's the only guy doing it more fun.
+
+9:28 - Jorge Lewis More like him.
+
+9:29 - Jorge Lewis Yeah, yeah. Cool. Okay, so I want to go into a little bit about What you would be doing with us. I haven't introduced myself. Sorry My name is Jorge. I've been programming for about six years. I started this consultancy with Jonas last around like eight months ago I I'm from the US and Mexico. I grew up in Hong Kong, but I'm currently traveling around I live where I'm staying in Thailand right now I Our consultancy is a, we help entrepreneurs and startups make their MVPs and prototypes. We've gotten a lot of demand for the AI ones recently. Um, so the project that you would be working on initially would be a life coach Bob, but there's another aspect of the project, which is an LMS. So we would have you work on that most mostly, um, Yeah, that's kind of the idea. And the idea is that what we really value is being able to work long term with our team members. We want to build a team instead of an assembly line. So we want to make sure that the connection between our team is very strong, and we're able to just kind of be honest and be very transparent with our team, have clear communication, and enjoy working with each other.
+
+10:47 - Jorge Lewis I think for me, what I value most is being able to grow with each other. If we both start from a low level and then we continue to grow together, for me, that's very nice to see. It's something that I love to see. Even if you grow beyond our company and you choose to work at another company, that still makes me happy to see that our team has grown. So that's what we're looking for.
+
+11:13 - Jorge Lewis Yeah, so that's kind of my introduction and what we're looking for and what we do.
+
+11:24 - Mike John Eviota Is it okay to ask a question, Sir Jorge?
+
+11:27 - Jorge Lewis Please do, please do. Yeah, please ask.
+
+11:30 - Mike John Eviota So our backend mostly will come from Python, right? Since we're dealing with AI stuff.
+
+11:36 - Unidentified Speaker Interesting.
+
+11:38 - Jorge Lewis So we moved, we used to use Python, but then we transitioned it to TypeScript because that's what SvelteKit is amazing at. It is a little bit tricky because Python is stronger, it's better for AI stuff, but there is enough support for the TypeScript that we decided to move for it. So now all of the project is done in TypeScript or Svelte. So that'll mean it'll make it a lot easier for you to probably understand and to work with. We no longer have the distance between an API and the database and then the front end. It's all just one project, so we don't have to worry about that. Yeah, does that answer?
+
+12:23 - Jorge Lewis Yes.
+
+12:27 - Jorge Lewis I can go a little bit into about our existing team. So currently, as of like right now, we are four members. So me, Jonas, and then two other developers. And then we're in the process of interviewing three or four other candidates for AI as an AI role. And then for SvelteKit, we're also hiring for a SvelteKit role. I initially was looking at Will, but he referred me to you. So, and I saw your projects and I really liked them. So, so yeah.
+
+12:58 - Mike John Eviota Actually, I do have more projects. I build a lot of stuff, but that's the projects recently I made. So I just showed it up since ShadCN was recently introduced. So yeah, that project is made in ShadCN, but most of my projects made from scratch. It was in my GitHub, but I don't know if you will like to see it. It's just there.
+
+13:18 - Jorge Lewis I'll take a look sometime. I'll have Jonas take a look as well, yeah.
+
+13:24 - Jorge Lewis Cool.
+
+13:27 - Jorge Lewis Do you have any other experience with programming other than web development?
+
+13:32 - Mike John Eviota Yeah. I am just focused in web development because I tried to study mobile development, but the demand that time where the clients is really high. So I have no time to study Flutter, but I do. I can read Flutter. Just a basic Dart. I don't know if I can have the skill enough to market it in the team, but I do. I can read Flutter language, but I can't really market it as a skill. So that's why I'm confident to market my skill in SvelteKit and Svelte.
+
+14:12 - Jorge Lewis Same for us. We went through a little phase where I was learning Flutter and Dart. We were going to try to make an app, a mobile game for it. But so that's how I learned Flutter and Dart in that. But yeah, we don't know. I liked Dart. Dart was fun. But yeah, cool, cool. Yeah, OK, so I have a, yeah?
+
+14:34 - Mike John Eviota Yeah, Flutter Dart is not really matured enough since it was really used only for Flutter. I don't see any use case for Dart.
+
+14:41 - Jorge Lewis The ecosystem was very tight.
+
+14:44 - Mike John Eviota Yeah, yeah. It is quite new. So I think it's, I'd rather learn Go than, Okay, I have a question.
+
+14:55 - Jorge Lewis So this is related to your goals. So I kind of want to ask where do you see yourself being in a couple of timeframes? So like six months, one year and five years. Where do you see yourself? Where do you want to be?
+
+15:10 - Mike John Eviota I want to see myself as a most learned full stack developer, so I can share my knowledge to other beginners. And yeah, I think I can bring a lot of experience in the team, hopefully. But one thing I am really quite unsure is that sometimes I question myself that I am really have the ability to do this task, but then after that, later on, oh, I can do it. I have that kind of behavior that sometimes, that's why sometimes will curse me like, hey, why you always think like that? So my motto is just, I want to be better and share my knowledge someday, sometime, someday to other beginners that wanted to be in this type of field.
+
+16:08 - Mike John Eviota I see myself maybe in one year or more as maybe an experienced full-stack developer in this field, hopefully in this project. Starkino, right? I think it was in Starkino when I tried to research it, and I see they were using FastAPI and purely spelled from scratch.
+
+16:32 - Jorge Lewis Yeah. Yeah. We, yeah, we need to, that's funny. We need to update our website. Yeah. We, we were using fast API, but now we use, uh, just, just okay. Um, cool. So, so in, in the future, like you want to like coach, maybe do some coaching for felt kid or like maybe YouTube, like tutorials and help share your experience or what were you thinking?
+
+16:53 - Mike John Eviota I am actually, actually have a YouTube channel, but it is full of cringe. If you see it, you will see it. Yeah, you will see my learning journey with Svelte and you will find it sometimes very cringe, very cringe of like, more of, why do this, why you do this?
+
+17:13 - Unidentified Speaker Suddenly, yeah.
+
+17:17 - Mike John Eviota Yeah, sometimes when I see my code three months earlier or a year ago, I think to myself, oh shit. But I can't delete it because, Is it okay, Jem? Maybe it's full of cringe, actually.
+
+17:34 - Jorge Lewis No, it's fine. That's how, like, everyone had to start someplace. If they didn't start when they were cringed, then they wouldn't have started later.
+
+17:41 - Mike John Eviota It's actually full of guides. That time before, in my country, I was the only one trying to force the, force the beginners to study Svelte than study React because it is a very good, um, have a very good, uh, understanding in how, how the, how should the DOM manipulates and we should get rid of virtual DOM. And, but yeah, that's why I make a channel so I can share my knowledge with Svelte. And I think I failed to, to persuade some of them. So, because, uh, The React power in my country is very huge. The demand is so high that when even you have the skills like making to-do list, you can actually land an actual job just with the to-do list skills in React. That's how high demand React in my country. But I still use this belt because I love this belt. It is very the future.
+
+18:43 - Jorge Lewis I think SvelteKit is definitely going to keep growing. Fundamentally, it's a really good framework. It's an amazing framework to work with.
+
+18:51 - Jorge Lewis Yeah, the SveltePack also is game-changing.
+
+18:55 - Jorge Lewis Yeah, personally, I only used Svelte until SveltePack came out and I was doing business tasks, so I haven't tried it really.
+
+19:03 - Mike John Eviota Yeah, we can actually use SveltePack, which is stable.
+
+19:08 - Mike John Eviota The candidate release is just waiting for the documentation to be finished because Rich Harris, I see Rich Harris, they were just only building the new web dev website. So I think that is the only left. So if the website is finished, they will officially release this belt pipe as official stable release. But the candidate release is enough. That's why Hunter Biden is rewriting the library to his belt pipe. He's starting it now, if you see.
+
+19:38 - Jorge Lewis We're using Svelte 5 in our projects right now, right?
+
+19:41 - Jorge Lewis Yeah.
+
+19:42 - Jorge Lewis Svelte 5 has good legacy support for Svelte 4. Yeah, we are using it, but I don't think we're using any of the new features, like runes or stuff like that.
+
+19:52 - Mike John Eviota Yeah, that's cool. I use Svelte most 5 of my projects I build in Svelte 5 now, and I don't find any breaking changes. Everything is working. It's just with that.
+
+20:06 - Mike John Eviota Class-based activity is very unique than the store, than using store. You derive things in the server and bang, the server crash. But in Rooms, you can just get the state in the class, then it works even in the server, even in the hooks, even in the sequence, it works. That's so cool.
+
+20:30 - Jorge Lewis That's great. Well, I've got to go soon. It was amazing talking to you, Mike. Is it Mike or Mike? Which one?
+
+20:39 - Mike John Eviota They call me Mike. Mike is actually my nickname. They call me Mike. But my full name is Mike John. Mike John, but you know, maybe you're not.
+
+20:50 - Jorge Lewis Mike John, maybe you're not. Yeah. Okay. I'll call you Mike. Do you know Mikey Bustos?
+
+20:56 - Mike John Eviota Yeah. He's a streamer here in the Philippines. He's very famous. Yeah, Mike Bustos.
+
+21:04 - Jorge Lewis That's funny. I know him because, you know, he does, uh, he's Ants Canada, right?
+
+21:10 - Mike John Eviota Yeah, he's, uh, multinational. I think he's Canadian. He's Canadian, right? Yeah, yeah, yeah. Calma si Mikey Bustos, eh? Yeah, I think, uh, he's a multinational because I see his blog, but most, most of his blog now is here in the Philippines, maybe. Yeah, yeah.
+
+21:29 - Jorge Lewis He was a lot in Canada before, but now I think he's staying more in Philippines.
+
+21:33 - Mike John Eviota He's quite exotic. He has some ants. He has channel for ants.
+
+21:39 - Unidentified Speaker Cool.
+
+21:41 - Mike John Eviota All right, man.
+
+21:43 - Jorge Lewis It was great meeting you, Mike.
+
+21:45 - Jorge Lewis Great to see you.
+
+21:48 - Jorge Lewis I'll send you a message over the weekend to let you know how we can move things forward. Do you want to stick with Upwork or do you want to move off of Upwork?
+
+22:00 - Mike John Eviota I think I will be sticking with where are you more comfortable because in Upwork I have no problem or in Discord I have no problem. Actually, I have no problem but it's the best.
+
+22:14 - Jorge Lewis The only thing is just Upwork, I think they take a percent from you, right? I think 10%?
+
+22:18 - Mike John Eviota Yeah, they have a percentage deduction.
+
+22:22 - Jorge Lewis Yeah, but then they also provide you with security as well, so maybe how we can do it is we can start on Upwork, and then if things are going really well, we can move off of Upwork. Does that work with you?
+
+22:34 - Mike John Eviota It's okay, it's okay. Or if you want to send it directly to PayPal, it's okay. Or if not, Upwork, no worries.
+
+22:44 - Jorge Lewis Yeah, we can see. Yeah, not a problem for us. We don't have to work through Upwork. Before when we first started, we believed that Upwork, the benefit to us was that we could track the screen and the hours very accurately. But now we've kind of had to have a more just holistic approach where we should be able to feel that our team is working all hard enough to what they're saying they are. And I feel like if we're tracking their screen or their hours, then it doesn't feel too transparent. And it kind of promotes behavior that isn't the kind of desire. So yeah, I mean, we'll work with whatever we're both comfortable with. If it's off of Upwork, I'm fine with that.
+
+23:29 - Jorge Lewis And you get to keep more of the money, so.
+
+23:32 - Jorge Lewis That's good. That's a good idea.
+
+23:34 - Jorge Lewis All right, Mike. Thanks for chatting, man. I'll see you around.
+
+23:40 - Jorge Lewis Thank you, sir. Bye-bye.
+
+23:46 - Jorge Lewis Bye.

@@ -1,0 +1,942 @@
+Finalize Adapt Spec and Estimations 
+Wed, Jul 31, 2024
+
+0:00 - Jonas Lindberg here earlier, whoops. Okay, yeah, to continue on that, the goal of the application is to turn the user from wanting...
+
+0:08 - Francisca Soto Wait, Jonas, Jonas, wait, wait. I want to try something. Rude.ai, this video is about the Startino team going through the BigJam specification and trying to conclude a specification that we can bring to Kuen and then finalize to bring some cost and timeline estimations to him. All right. Let's see how well that works.
+
+0:29 - Unidentified Speaker Fantastic.
+
+0:31 - Francisca Soto Because it just seems to suck at summarization.
+
+0:35 - Jonas Lindberg Yeah. Kuhn's vision for the application is to have it turn the user's goal from a measure of success into a long-term sustainable goal. Like, I want to establish healthy habits so that my life will be a higher quality, and I will live longer, basically. As you can see under here on the wrap-up, it says the first line, reach search shows that when people have a goal of weight loss, 95% of people put the same or more weight on within a year. We want to ensure that does not happen to you. To maximize your success, we call your goal your measure of success. This shifts from weight loss being the goal to it being how you measure success.
+
+1:22 - Jonas Lindberg Basically, we want them to invest in their health so that their future is better. That is the goal of how we want their mentality to be turned into.
+
+1:34 - Unidentified Speaker Yeah.
+
+1:43 - Jonas Lindberg So after a goal is ensured to be smart, it's just a pretty hard-coded explanation of just what's the purpose of this application. And then it's handed off from the coach, which is in the green text. I think it's Maria. Let me see. Yeah, it's Maria.
+
+2:03 - Jonas Lindberg Yeah.
+
+2:04 - Jonas Lindberg Off onto the mentor again. Do you know the key difference between, well, for that specifically, this isn't an actual definition, but for that, do you know the key difference between a mentor and a coach?
+
+2:22 - Francisca Soto I can go or Will, you can go.
+
+2:26 - Jonas Lindberg I've already asked Will.
+
+2:29 - Francisca Soto Okay. The coach, I would say, is the person that's involved in the day-to-day improving the small things, and the mentor is involved with the higher level things.
+
+2:46 - Jonas Lindberg The mentor is the person that will be interacting with the clients from day to day always. And the coach is the one that's delegated to when a coaching session or a workshop needs to start. But that is just what it does. The key difference between the mentor and the coach is the coach acts more like a therapist. It tries to make the user realize something about themselves, while the mentor is giving more actionable advice. So you can see in this entire Understanding Your Why workshop, it's really just asking the user trying to come to the core reason why they're using this application, what their measures of success what their vision of the future is. It's just like a therapist asking, why, why, why? Meanwhile, a mentor is more of the person that goes, hey, you're not fucking conforming to this. You need to do this and this and this, or you're not going to achieve your vision. The coach helps you realize what your vision is and why it's important to you. The mentor helps you keep you accountable and refers back to that and tells you what to do to achieve it.
+
+3:53 - Jonas Lindberg Yeah, it sounds like that.
+
+3:55 - Jonas Lindberg Yeah. I hope it's apparent that I've done a lot of meetings with Kevin.
+
+4:00 - Francisca Soto Yeah, I remember there was one message that was similar to that as well. How he related to coach being like a therapist.
+
+4:09 - Jonas Lindberg Yeah. That's kind of a conclusion I came to more individually, but yeah. It doesn't surprise me that he made the same comparison. But yeah, the goal of... That's also why later on when we get to the check-ins, if the user is not conforming to the habits they've established, it gets forwarded to the coach because there's a more fundamental reason here. Reasons the person is using the application is not enough to make them conform to their habits, which means the coach needs to figure out or needs to help the user figure out more why they're even using the application, you
+
+4:54 - Francisca Soto know? Yeah. So the coaches is more so like an escalation step.
+
+4:59 - Jonas Lindberg Yeah. It's the coach kind of establishes a baseline which the mentor works on, which is required for the mentor to be able to do its job. And when the mentor isn't able to do its job, it's likely because one of the results from coaching is incorrect now, or something has changed, or there's a new underlying thing that's blocking the user that the user needs to realize for themselves, in addition to the program to realize so that the mentor can use it for motivation. For example, this vision of the future, if the coach never asked the user to imagine their future without or with the problem being solved, the mentor would never have this thing to refer back to to keep the user accountable, right? If the user is not keeping up with his habits, the mentor will just be able to say, hey, do your habits. It's better for you. But if it knows the user wants to be able to travel more in the future, it can refer back to that. You know, guilt trip the user a bit.
+
+6:05 - Jonas Lindberg Pretty much that.
+
+6:06 - Jonas Lindberg Yeah, pretty much.
+
+6:10 - Jonas Lindberg Well, that makes sense. Will, are you there? Yeah, I'm still here.
+
+6:21 - Jonas Lindberg Yeah. Yeah. And then it's the wrap up. It gets handed back to the mentor again, which kind of can like, And this is all very straightforward, right? Yeah, it's just hard-coded text. And then it asks, like, do you want to sign up? Wait.
+
+6:39 - Will Vincent Parrone I think we shouldn't mention to Q1 that we're going to hard-code the wrap-up because he wants everything to be very laid-out.
+
+6:49 - Jonas Lindberg Yeah, I have not mentioned that to him.
+
+6:55 - Francisca Soto The second you mention hard, he's like, whoa, buddy, hey.
+
+7:00 - Jonas Lindberg I'm on safety only. Can't get hard anymore, bro.
+
+7:03 - Francisca Soto Yeah. So we need to... Yeah, I mean, in essence, we're going to hardcode it, but of course there's an LLM that's going to be doing it. So it is dynamic. Like it's, it's dynamically hardcoded. That's a prompt. That's what a prompt is.
+
+7:33 - Francisca Soto It's kind of funny, nowadays even LLMs can be considered hardcoding because their prompt is hardcoded.
+
+7:43 - Jonas Lindberg It's just function approximation again. It's just predicting the next most probable word.
+
+7:51 - Francisca Soto Literally everything is hard-coded. It's just a matter of how many...
+
+7:57 - Jonas Lindberg It's just kind of funnily hard-coded in a way, where there are so many butterfly effects happening at the time. If you get enough butterfly effects, then it's not that dynamic.
+
+8:13 - Francisca Soto Dynamic in quotations.
+
+8:15 - Jonas Lindberg Yeah. The only thing that's not hardcoded is the quantum level black matter specs that pop up to generate random numbers.
+
+8:26 - Jonas Lindberg Quantum computing, not quantum physics.
+
+8:29 - Jonas Lindberg Quantum physics, that's the only thing that's not hardcoded.
+
+8:34 - Francisca Soto Alright, so on a high level I got it understood. So now what we want to do is A backlog or?
+
+8:48 - Jonas Lindberg We want to boil this down to an outline. The outline will have features and capability requirements of those features. For example, in the introduction or in the discovering your Y workshop, there's a start button in the front. An introduction to the workshop. The capability requirements of the introduction is getting across what the point of the workshop is. Pretty basic. Handling questions from the user about the workshop, and it should identify when the user is ready to proceed. We need to basically make sure, this one is pretty straightforward, which is why I referenced it as an example. It's very easy to understand. All the ones I'm not sure are perfect. This is what we're trying to make perfect now so we can present it to Akun.
+
+9:34 - Francisca Soto Yeah. So just to double check, I see the keys on top, but the gray ones are capabilities and then the blue ones are features.
+
+9:40 - Will Vincent Parrone Yeah.
+
+9:41 - Jonas Lindberg Yeah.
+
+9:42 - Jonas Lindberg Okay.
+
+9:43 - Jonas Lindberg Or use for experience points more so, or like milestones.
+
+9:50 - Francisca Soto Yeah, okay. And then the capabilities, can we use that as use cases for deliverables? So if we want to better track our deliverables, we can use those grey cards.
+
+10:04 - Jonas Lindberg That's exactly the plan. So that's why I was proposing moving the Backlog to Pigtam, because then I could literally just copy-paste all these gray boxes into the Backlog. And then each of these features is a feature, and then the categories here are the epics. It's pretty easy to categorize.
+
+10:23 - Francisca Soto So the to-do now is to just finish this, fill it out.
+
+10:27 - Jonas Lindberg Yeah, that's our job for today.
+
+10:30 - Will Vincent Parrone And probably estimate the tool rate.
+
+10:33 - Jonas Lindberg Oh yeah, estimated.
+
+10:44 - Francisca Soto By the way, it's gigabyte here, $6 so let me get my laptop.
+
+10:52 - Will Vincent Parrone $6 gigabyte, wow. What?
+
+10:56 - Jonas Lindberg You mean the internet?
+
+10:57 - Jonas Lindberg His own mobile data.
+
+11:00 - Will Vincent Parrone What kind of mobile data?
+
+11:02 - Jonas Lindberg He's on Western mobile data, bro.
+
+11:05 - Will Vincent Parrone Wow. I think, I think for about two bucks, I'm getting about 18 gig already.
+
+11:14 - Jonas Lindberg Yeah. I'm getting, uh, I'm getting 88 gigabytes every eight days for two bucks.
+
+11:25 - Jonas Lindberg But Brode decided to move to, wait, are you in Mexico now or USA or Hong Kong?
+
+11:30 - Francisca Soto Yeah.
+
+11:33 - Francisca Soto Well, I mean, Mexico and the US are super big into provider lock-ins. You have to choose a provider. There's Telcel, and then there's AT&T. If you're not with one of those, you're paying premium prices. And if you lock into one of those, it's a three-year contract minimum.
+
+11:55 - Unidentified Speaker Damn.
+
+11:56 - Francisca Soto That was exaggerated, but...
+
+11:59 - Will Vincent Parrone Yeah, but still, data there is very expensive. You should live here in the Philippines.
+
+12:08 - Jonas Lindberg Compare anything there to the Philippines and you'll be shocked, man.
+
+12:15 - Francisca Soto In Hong Kong, I was paying 10 bucks for like, I think it was 20 gigabytes. So it was a normal plan, 5G. So Hong Kong's got good prices as well.
+
+12:24 - Will Vincent Parrone Yeah. It's a bit expensive, but I get it.
+
+12:30 - Jonas Lindberg Compare anything to like Thailand and the Philippines and it'll sound expensive. And you're like somewhat Western or like a progressive country.
+
+12:43 - Will Vincent Parrone Yeah, because we have very cheap labor here. Anyways, let's proceed.
+
+12:52 - Jonas Lindberg Glad to have you, Erwil.
+
+12:56 - Will Vincent Parrone Someone's joining, what's this? Chinmay, I'll admit him.
+
+13:02 - Jonas Lindberg I guess better timing than not.
+
+13:09 - Will Vincent Parrone This is the best timing because we're going to be discussing the new features now, Chinmay.
+
+13:12 - Jonas Lindberg I don't know, it would have been good to get him a rundown on the high level overview. Should I run through it again quickly or should we jump right into the outline? What do you think, Jorge?
+
+13:26 - Francisca Soto How about Chinmay run it through us?
+
+13:31 - Francisca Soto Chinmay, you there, my guy? Come in. How are you?
+
+13:36 - Chinmay Pandya I'm here, yeah, I'm fine. How are you?
+
+13:38 - Francisca Soto Great, great. I'm doing hot. It is like 45 degrees and I'm outside because it's too loud inside. Okay, so what we'll do is we'll do a little practice session for Chinmay. Chinmay, pretend we're Kuin and JP and Arif. Those are the three people on Adapt. Pretend like we're them and explain our own product there on the screen, the FigJam. And do it within five minutes.
+
+14:09 - Jonas Lindberg Oh wow.
+
+14:11 - Chinmay Pandya Brutal. Is this a test?
+
+14:15 - Francisca Soto No, it's a workshop. It's an exercise.
+
+14:18 - Jonas Lindberg It's like a test?
+
+14:20 - Jonas Lindberg No, it's a test. If you fail, you get fired.
+
+14:22 - Jonas Lindberg Yeah, of course.
+
+14:23 - Jonas Lindberg You're promoting the customer.
+
+14:29 - Unidentified Speaker Okay.
+
+14:35 - Chinmay Pandya Did you delete my changes?
+
+14:39 - Will Vincent Parrone Oh, I think either, um, wait, wait, your changes. I think, did you change the workflow?
+
+14:50 - Jonas Lindberg We need some version control on that.
+
+14:53 - Jonas Lindberg Yeah. I'll help you. My changes are gone.
+
+15:06 - Jonas Lindberg I'm not sure you should roll back in virtual version history here. Like this is the current version.
+
+15:18 - Jonas Lindberg What are the changes that are missing?
+
+15:20 - Chinmay Pandya Yeah, this is the discovering your why workshop, right? I created a flow for what happens after the workshop, like the onboarding for the user.
+
+15:38 - Chinmay Pandya The collection graph, you mean?
+
+15:41 - Chinmay Pandya Yeah, the flow for collecting the graph, authenticating and either authenticating the user or creating a new user.
+
+15:50 - Francisca Soto Oh, let's put that in here.
+
+15:53 - Chinmay Pandya No, I did make it here. I don't know why it's not here.
+
+15:59 - Francisca Soto Can someone make a clone so that we don't lose anything and we can roll back to when we had those changes?
+
+16:09 - Jonas Lindberg I'm going to view only and we'll copy over.
+
+16:17 - Chinmay Pandya Where is it?
+
+16:24 - Jonas Lindberg Can you guys see the same as me when I roll back?
+
+16:31 - Will Vincent Parrone We can still see anything that you're doing.
+
+16:37 - Will Vincent Parrone Let us know if you've rolled back already.
+
+16:41 - Jonas Lindberg Uh, I'll rather just copy over to the modern version. I won't roll back.
+
+16:46 - Will Vincent Parrone Oh yeah. Fair point.
+
+16:48 - Unidentified Speaker Okay.
+
+16:51 - Francisca Soto Um, yeah, just know that I'm back on Chrome or, or brave. I don't know what the actual difference is. It's much better than Firefox.
+
+17:06 - Jonas Lindberg Yeah, I'm using Brave too. I've used Brave for a while now.
+
+17:10 - Francisca Soto Just the integrations are so much better.
+
+17:11 - Jonas Lindberg Yeah, I'm not seeing it.
+
+17:22 - Jonas Lindberg I'm seeing two coaching sessions, workshops, which you made some modifications to, but it's collecting the user details. Like, did you just add some gray boxes or did you create a whole feature workload?
+
+17:48 - Jonas Lindberg Chinmay.
+
+17:50 - Chinmay Pandya Yeah. What did you ask? Can you repeat again?
+
+17:58 - Jonas Lindberg It looks like you basically only added two gray boxes which say collecting user details, generating new user profile and then yeah, those two gray boxes seems to be the only...
+
+18:09 - Chinmay Pandya I added more boxes which included like How do I phrase it? Taking the user through the process of the daily chatting. What is performance reviews? What are timely posting sessions?
+
+18:34 - Chinmay Pandya Like, what's the next process forward after onboarding? I even included that in the flow. How should the user update about his activities?
+
+18:48 - Chinmay Pandya And how will his performance be assessed?
+
+18:53 - Chinmay Pandya At what time of the day can he review or like how?
+
+18:58 - Chinmay Pandya What day did you make this? The check-in?
+
+19:03 - Chinmay Pandya I don't remember. I kept making modifications little by little each day, but I don't remember.
+
+19:11 - Francisca Soto Maybe you accidentally cloned it.
+
+19:13 - Francisca Soto I don't know.
+
+19:16 - Francisca Soto Yeah. Maybe.
+
+19:19 - Jonas Lindberg Maybe it looks at the wrong document. There's a one.
+
+19:22 - Chinmay Pandya It's the exact same link, but I can create the copy. Oh, where did you post the link?
+
+19:38 - Chinmay Pandya In discord, when I asked Will to review my changes.
+
+19:53 - Chinmay Pandya Because there was, I also reduced some inconsistencies because there were duplicate entries in the boxes.
+
+20:05 - Will Vincent Parrone Oh, wait, wait, wait. Chinmay.
+
+20:16 - Will Vincent Parrone Which file are you referring to? Maybe it's a different file. Because we have to adapt specs file, right?
+
+20:26 - Jonas Lindberg That's what I was wondering, but I looked at the other one and it didn't have any updates. I'm looking at the last update you made, and it doesn't include the things you're mentioning.
+
+20:42 - Will Vincent Parrone So it didn't get, oh, wait, wait. Those stuff happens though. Like sometimes you thought you saved it, but the system doesn't save it.
+
+20:56 - Will Vincent Parrone Although I'm not sure, it only happens when the internet is shaky.
+
+20:59 - Chinmay Pandya No, I definitely created a onboarding flow and then taking the user through the daily processes flow.
+
+21:14 - Jonas Lindberg And then you can scroll down and click on the last one by GMA. Can't you zoom out more?
+
+21:35 - Jonas Lindberg Yeah.
+
+21:37 - Jonas Lindberg That's like coaching something and onboarding session.
+
+21:42 - Chinmay Pandya Yeah, I did.
+
+21:43 - Unidentified Speaker I made changes in the onboarding. Is it this?
+
+21:46 - Jonas Lindberg Uh, I'm going to send the screenshot. The other one. We can see your stream.
+
+21:52 - Chinmay Pandya The one right, the one right side.
+
+21:55 - Will Vincent Parrone Here? Yeah. Is it this? Yeah.
+
+21:58 - Chinmay Pandya But where is, where is post-workshop flow? I also add that.
+
+22:04 - Will Vincent Parrone Uh, how do you search here?
+
+22:08 - Chinmay Pandya There was a box between workshop core and session. No, sorry, not the between, like after this session wrap up.
+
+22:20 - Jonas Lindberg There is no change by you after July 29 that I can find.
+
+22:27 - Chinmay Pandya The fuck?
+
+22:34 - Chinmay Pandya You're going back in time, Will.
+
+22:36 - Will Vincent Parrone Yeah, I misread my name to Chinmay's.
+
+22:44 - Jonas Lindberg Yeah, I think this could be a...
+
+22:45 - Jonas Lindberg Yeah, you guys should add like profile icons to your accounts by the way, so that it's easier to recognize.
+
+22:59 - Jonas Lindberg But yeah, there isn't any change after this one.
+
+23:06 - Chinmay Pandya I think we're, I can't read what, uh, what is the text in the boxes under workshop core? Can you read them out?
+
+23:16 - Will Vincent Parrone Okay. Text under workshop core, collecting user details, generating user profile.
+
+23:23 - Chinmay Pandya I deleted the user's goals, measure of success. I deleted this. It should not be.
+
+23:31 - Will Vincent Parrone Hmm.
+
+23:33 - Will Vincent Parrone Okay. I think we will be wasting a little bit of time here because we're going to be identifying what was in the past and what was not. So my suggestion to speed things up, how about we run through the current features now and then provide us with your insights, Xinmei, as to what you have included. So basically, we layer on what we currently have now.
+
+24:04 - Chinmay Pandya Yeah, OK.
+
+24:06 - Jonas Lindberg Jorge, are you back by the way?
+
+24:07 - Francisca Soto Yeah, I'm just chilling here. Yeah, OK. Doing some Read.AI sales.
+
+24:14 - Jonas Lindberg Did you figure out the mobile or how to reduce costs or whatever?
+
+24:20 - Francisca Soto I'm just hoping fake gem just doesn't take up all my data.
+
+24:25 - Jonas Lindberg It would more be watching the stream, I think.
+
+24:28 - Francisca Soto Well, that's why I'm using my grandma's phone because I'm using her SIM card for her. But she doesn't have hospital on her phone. So I'm using my data from my laptop.
+
+24:39 - Francisca Soto Yeah.
+
+24:42 - Will Vincent Parrone Okay. Okay. So I'll let you take the lead again, Jonas.
+
+24:48 - Jonas Lindberg It should be Chen Mei. If Chen Mei is doing the presentation that Jorge talked about.
+
+24:59 - Will Vincent Parrone No, I was thinking.
+
+25:03 - Francisca Soto I think it's a great exercise.
+
+25:06 - Unidentified Speaker Okay.
+
+25:06 - Will Vincent Parrone I'm very great at presentations.
+
+25:08 - Will Vincent Parrone No worries.
+
+25:11 - Jonas Lindberg Jorge, should he be presenting the example or the almost exclusively me and Will have been making?
+
+25:23 - Francisca Soto Maybe the outline as in like this here.
+
+25:26 - Jonas Lindberg Because that's not the features and capability requirements or the conversation history.
+
+25:31 - Francisca Soto Like, like, like what we just went through before, like the whole kind of concept.
+
+25:37 - Jonas Lindberg Yeah. Uh, tell me, you shouldn't be going through the part you're looking at now. You should be going through the whole other parts, the whole day example, basically.
+
+25:48 - Chinmay Pandya So the big vertical flow chart. Yeah.
+
+25:50 - Unidentified Speaker Yeah.
+
+25:57 - Chinmay Pandya So just what is the point of the discovering your why workshop?
+
+26:05 - Chinmay Pandya What do you mean?
+
+26:08 - Chinmay Pandya What do I have to present right now? Oh, no, like just discover your why workshop.
+
+26:15 - Will Vincent Parrone Basically, the goal of you presenting, if I remember correctly, is an exercise for you on how to present the flowchart to the user. So yeah. Basically, I think if I get Jorge's intentions right, he wants you to present the user flow in a way you understand it so that it serves as a practice for your communication skills as well. And to know how much you understood of the program.
+
+26:49 - Francisca Soto Perfect.
+
+26:55 - Chinmay Pandya So just give me two days?
+
+26:57 - Unidentified Speaker Yeah. Okay, fine. We'll wait.
+
+27:02 - Jonas Lindberg There's a kind of a main thing behind the program to understand.
+
+27:16 - Francisca Soto Well, I guess I'd be fair. Do you understand the main idea of the project?
+
+27:21 - Francisca Soto Yeah.
+
+27:23 - Francisca Soto Yeah. Okay.
+
+27:32 - Jonas Lindberg Yeah, we've been kind of out of sync. Oh, yeah, I haven't mentioned to you at all. I just kind of mentioned to everyone in the call, which I haven't been able to do. Moving forward, I'll usually be like online between, like... Okay, I should be doing it a little bit more.
+
+27:54 - Francisca Soto I think just general times.
+
+28:02 - Jonas Lindberg So like around this time I'll be available to call and everything, probably an hour before now, but otherwise I'll be shifting my morning schedule more forward because no one else is on them anyways and adding two hours in the midnight for me to 2 a.m. For me so I should be able to sync up a lot more with you Jimmy and get you more aligned in the program on the because lately it's been hard communicating with you and getting us aligned when we've just been talking on text pretty asynchronously.
+
+28:47 - Jonas Lindberg We haven't been able to go back and forth much.
+
+28:51 - Chinmay Pandya Yeah, like, I'm... Mostly because my academics are from morning to evening, so...
+
+28:57 - Chinmay Pandya Yeah.
+
+28:58 - Chinmay Pandya Yeah, for meetings, I like, after 9.30... 9.30 12, 12.30, whenever you call me.
+
+29:05 - Unidentified Speaker Yeah.
+
+29:07 - Jonas Lindberg Bro, I wish the shisha place was open from midnight till today.
+
+29:10 - Francisca Soto Bro, my new phone... My new phone, the X, is overheated. That's how hot it is right now.
+
+29:20 - Chinmay Pandya And it's like, here we are, phone.
+
+29:33 - Chinmay Pandya Whenever you're ready. Yeah, that's what I was saying.
+
+29:40 - Chinmay Pandya Is it okay if I explain the flow piece by piece? I'm not good at remembering the entire flow at once.
+
+29:50 - Jonas Lindberg You should give like more of a high-level overview and then dig into the specifics more and more over time. You shouldn't be going into specifics to start off with and you certainly shouldn't just be reiterating what's in the flow. You should be more explaining the concept behind it.
+
+30:09 - Chinmay Pandya I'll just read the flow and explain the high-level stuff as I understand it.
+
+30:16 - Francisca Soto Yeah, one tip is just try not to read from the the cards, since that's usually seen as not very efficient, nor is it very impressive on our side of view.
+
+30:31 - Jonas Lindberg I've reiterated this with Zanin quite a few times lately with the IntelliAgent video he's been making. Basically, when you're presenting, when you're explaining stuff by voice while also showing a graphic on your screen, the graphic on your screen is usually showing how you're doing something, but what you should be saying with your voice is why you're doing it, what it's trying to achieve. So you should be explaining what you're trying to achieve while the graphic is showing how it's achieved.
+
+31:02 - Francisca Soto Yeah, when I go about like the diagrams usually that have like quite a bit of content I only use them as talking points and I try like I really don't even look at my screen when I'm speaking I'm more just going off of my imagination and what I understand the project to be since that's what they want to they wants to know like how you perceive the project and It feels a lot more natural to them And if you're unsure about some part say just like just you can hit the line, correct me if I'm wrong, and then give your interpretation of whatever you might be worried might be wrong.
+
+31:37 - Chinmay Pandya Yeah. So I should not explain the flow, but why the flow is created, right?
+
+31:47 - Jonas Lindberg I think that's correct. I'll mention it and I notice that like the interpretation is wrong, but yeah, that sounds correct.
+
+31:57 - Chinmay Pandya Yeah. Okay. So I'll try. Let me start with, uh, I think I can skip the introductions. Yeah. Yeah.
+
+32:12 - Chinmay Pandya So users can, uh, use this application in either two ways. I think that's not necessary either.
+
+32:28 - Francisca Soto Just don't worry, don't worry too much. Just feel natural. Just kind of like, all right, yeah, let's go through this. Yeah, okay.
+
+32:37 - Chinmay Pandya So there's two ways in which a user can use the ADAPT program, either by a website or a mobile application, which can be discovered when the user signs up for a newsletter, or he can be referenced to by someone else.
+
+32:56 - Jonas Lindberg Right now, you're explaining what it's doing, not why it's doing this. Just like a note.
+
+33:05 - Chinmay Pandya There is no why in website and mobile.
+
+33:09 - Jonas Lindberg The why is this diagram explains how the user comes to discover the application and the workshop. That's what this diagram is outlining. We didn't need to go into each card.
+
+33:26 - Chinmay Pandya Okay, so what should I have said?
+
+33:30 - Jonas Lindberg For me, when I presented this to Jorge for this entire discovery section, I just said, okay, so yeah, this just shows everything before they even start using the application. So that's not much for us to worry about, but yeah, it shows how they come to know of the application, what the process is. That doesn't even touch upon a single card in this diagram. It's just explaining why this exists.
+
+33:57 - Francisca Soto So think of it like this. Your goal for this is to tell us what this project is going to do. The whole onboarding day, what it looks like, Use the diagram only when necessary. Ideally, you're not even using it on the problem. You can close your eyes and just think alright So I know that there's gonna be two ways that you just can interact is that there's an after this website But first gonna you know, we can also use it We're gonna use the onboarding or the understanding or why is a lead magnet just kind of going off your memory and it's okay if you say And wait like five seconds between going on to your next point since that shows
+
+34:34 - Chinmay Pandya more that you're actually thinking rather than going off of a diagram Yeah Got it Okay, so the first diagram, I think it shows how users can be aware of this program and they can use that either using a website or a mobile application.
+
+35:07 - Chinmay Pandya The first thing which happens when the user logs in is a discovering your why workshop. This workshop intends to reason with the user on why he is signing up for the program, what are his goals, what are his motivation behind certain changes that he wants to make in his life and try to really understand the deeper psychological aspects of his life, which affect his current situation and why he wants to make it better. So this is a workshop where, yeah, Was it good?
+
+36:08 - Francisca Soto Yeah, that was good. That's exactly what Khun wants to hear. Your side of things, but put in his kind of format.
+
+36:18 - Chinmay Pandya Yeah, I didn't look at the graph at all. I thought I was saying something wrong.
+
+36:25 - Jonas Lindberg You should start every presentation at the absolute highest of levels. Not at the start, but at the highest of levels looking at everything exactly like you did. You just explained the entire graph kind of just haphazardly in a high-level perspective. You should always do that and explain kind of the purpose of what you're going to be explaining before delving into any specifics at all.
+
+36:51 - Chinmay Pandya Yeah, in order.
+
+36:55 - Chinmay Pandya So, continuing my presentation, the workshop starts with a brief introduction. And the user will be asked about his goals and why has he signed up for this program the goals can be general goals like maybe somebody wants to lose weight maybe somebody's going through diabetes maybe somebody wants to gain weight so there are there can be different sets of goals but every set of goal has a measure of success and why they want to implement that into their lifestyle. So, the reason behind this workshop is to get to that detailed reason and the change that they want to inhabit in their lifestyle and how would their lifestyle change after they achieve that particular goal. And the other factor for this workshop is also to really understand the motivating factor for the user.
+
+38:10 - Chinmay Pandya Which the user can be reminded and held like the user can be held accountable for. Yeah, just, you know, everybody needs a small reminder when they're not performing well. Everybody needs to know why they started. So this workshop, uh, does two things. It defines your measures of success, your goals. And it also kind of, uh, tries to find out the remember why you started thing for the users. Because the most important thing for any activity is not the details, but consistency. Even if you're lacking in some things, but if you're being consistent, it does show results. So that's why the reason why you started is really important.
+
+39:03 - Chinmay Pandya For an example, if a user says I want to lose weight, there can be multiple reasons. One of the reasons is like maybe he wants to, like maybe he wants to just look better or maybe he wants to better fit into his clothes. Maybe he has been bullied for being overweight before. There can be multiple reasons for a user's past.
+
+39:42 - Chinmay Pandya This process makes sure to create a connection with the user to understand his situation and be I don't know how to, like, I'm lost here. I don't know how to start.
+
+39:59 - Jonas Lindberg I will say absolutely great. Like, you've nailed this so far. Like, the improvement now you've been, like, going about presenting this has been amazing. What do you think, Jorge?
+
+40:11 - Chinmay Pandya Yeah, thanks.
+
+40:12 - Francisca Soto Exactly. Yeah. And if you go on a tangent, if you go on a tangent where you're kind of lost for words, so, like, you say N, and then you have no clue kind of what to say after that, you just say, yeah, just, yeah. Just say, yeah, and then you go, but in your case, this specifically, it's not important, but you could just say, yeah, it's to go deeper. Then I just move on. You can say something arbitrary and they won't really notice.
+
+40:38 - Chinmay Pandya Because I think I said everything that I had in mind about this workshop. So I didn't know what to say anymore. Yeah.
+
+40:45 - Francisca Soto Yeah. Oh, well, I mean, you could go into the, you continue following along with the graph and just going into the, the smart goals, just mentioning how that's an aspect of how we want to make sure that the goals they set, we want them to be...
+
+40:59 - Jonas Lindberg From what I'm hearing, you're mostly aligned with the vision of the project from at least a high level of perspective. I could probably run you through basically what I ran Jorge through earlier, just as an entire graph in my way, but a fair bit faster since you already have quite a grasp of how it's working. What do you think, Jorge?
+
+41:20 - Francisca Soto Yeah, I mean, I think he's touched on everything. Just the last thing I want to hear him and he can practice a little bit more is the smart goals and then the wrap-up. So, in a minute, he can go through all those.
+
+41:38 - Chinmay Pandya Yeah, okay. I'll take some, like, a few minutes to prepare, I think.
+
+41:45 - Francisca Soto No, no, no. Don't prepare. Don't prepare. Just go straight into it.
+
+41:47 - Chinmay Pandya So, just scroll down to the smart goals ensure measure success down there and just kind of explain like what's yeah okay so this workshop the one of the main goals for this workshop is to get smart measures of success for user what do I mean when I say smart this workshop tends to be realistic with the user and it tends to get goals which can be measured in time which can be time bound which has a certain deadline and which can be measured with like which can be measured quantifiably. Like if you want to lose weight, we ask, how much weight do you want to lose?
+
+42:37 - Jonas Lindberg If you're going a bit too specific now, like, yeah, you haven't explained what the purpose of this is yet. Like why you're going into these details.
+
+42:49 - Jonas Lindberg I'll just try again. There's no problem.
+
+42:58 - Francisca Soto So what does smart goals help with?
+
+43:01 - Chinmay Pandya I think it helps the user to be more clear about his goals.
+
+43:06 - Unidentified Speaker Yeah.
+
+43:08 - Chinmay Pandya So the smart goals are the goals, which are time bound. No, sorry. That's again, the details. Okay. Okay. So One of the main goals for this workshop is to get SMART measures of success for the users in order to clarify his visions of success. And SMART goals, basically what they do is they give a sense of achievement to the user, clarity and a roadmap for the user on what can be done, what is feasible, what can be achieved and like a vision of a future achievement.
+
+43:59 - Chinmay Pandya So smart goals To summarize, smart goals actually give the user on what he's going to be able to do in the coming future. What changes will he have made? How far will he have grown and how better will he have become?
+
+44:34 - Francisca Soto I think going into the details would be okay. I was following you, I don't know what's on your screen, but I was seeing the visualize the future. I think you're also on there, right?
+
+44:47 - Francisca Soto Yeah, but I'm not looking at it.
+
+44:49 - Francisca Soto So it's great that you're going off the top of your head, that's perfect. But use the resources, which we have here, the black card, which lists some of the things. And Jonas, I think it would actually be okay if you mentioned some of the things. All I would do is be like, yeah, one of the aspects is we want to make sure the goals are smart. So we want to make sure that they're very specific. We have some numbers, if we want to lose weight, how much weight and how much time. Those are things that help the user have a very clear roadmap in terms of achieving their goals. It's a proven framework to make goals more achievable.
+
+45:20 - Unidentified Speaker Yeah.
+
+45:21 - Chinmay Pandya One of the main factors of smart goals is also to give the user a realistic approach to whatever he wants to achieve.
+
+45:30 - Jonas Lindberg Yeah, I want to touch on that, Jorge. I was more commenting on that he immediately started with the details, so Jonas, it's okay to dive into the details, but you have to give an overview first of explaining why you're going over something.
+
+45:48 - Jonas Lindberg Also, the second time when you started to explain explaining the smart goals, you noticed it yourself, but you basically just immediately dived into time bound. What does that mean? But instead, you went into giving general overview. The overview was great. And after you've given that great overview, then you can dive more into the specifics. And the people that are listening will actually understand what you're talking about.
+
+46:16 - Chinmay Pandya Got it. So I think if I had looked at the flow and like, you know, I had prepared like before the presentation, if I had prepared a page for it, then maybe I would have been, I would have been explained it.
+
+46:33 - Francisca Soto Yeah. I think not having that page of preparation is exactly what we're trying to do though.
+
+46:40 - Francisca Soto Since if you have a page of preparation, I think we'll be able to tell. I think we'll be able to tell. You want it slower, which is fine.
+
+46:46 - Chinmay Pandya No, I'm not expecting from the page of preparation, but at least I'll be know which points I need to cover. Just that.
+
+46:55 - Francisca Soto I don't know. Jonas, for you, how do you like to work? Because for me, for example, if I've looked at this graph twice and I understand it, I don't want anything else because then it'll kind of steer me like it'll It gives me too much restriction. I'd rather just go through it and explain the thought process, like how I did for the smart goals. One important thing is to make sure the goals are smart, making them achievable.
+
+47:18 - Jonas Lindberg Before I answer that, could I ask you, what did you think of my presentation to you of the general example graph that I went over earlier?
+
+47:27 - Francisca Soto The only thing that I would improve is making a little bit faster pace. Sometimes when you go slow and you went into a couple of examples, which is good, but I think we stayed on those examples for too long, the flow was kind of lost.
+
+47:42 - Jonas Lindberg For that whole presentation, I basically just used my understanding of the project and intuitive sense that I've gotten over the past few weeks now of how to present something properly, and just kind of winged it, just explained each part how I saw best fits. It's an important skill to have to intuitively understand how much detail to go into at what stage, which parts you should be explaining, when you should be explaining the why compared to the what. So, for example, why is it doing it compared to what is are doing. These are things you need to know intuitively. And when you know them intuitively through doing ad hoc presentations like this and getting key feedback, you can make much better planned presentations. If you want to plan your presentation, you should have this intuitive sense.
+
+48:39 - Francisca Soto I had one friend that would, like literally every second sentence, he would say, I diverge.
+
+48:47 - Francisca Soto So for example, If you're going, if I'm starting off like, okay, so discovery, there's two ways that the user can become made aware of The first one is the website. Website, there's gonna be a newsletter. Okay, sorry, I diverge. There's just two ways that the user can use the app, and that's how they get on board. They start with the understanding your why workshop, and then you go. So if you go too far into details, you just say, I diverge, or anyways, just kind of going back, it's, Understanding you went too deep is a great skill as well. Like you did when you said tie-bound, and then you're like, oh, wait, that's too specific. So when you start off, you just say, oh, wait, actually, and then just start again.
+
+49:30 - Francisca Soto Yeah, so it was great awareness that you corrected yourself there already. So progress. The explanation for me, the understanding your why workshop was great. He was explaining exactly why we were doing that workshop.
+
+49:45 - Chinmay Pandya Yeah, I think I had some repetitive points.
+
+49:55 - Jonas Lindberg had like fundamentally understood what how you should be presenting it it's just more I think a lack of uh delving into the capable like the requirements of the projects that like i've just been way more meetings about it's uh been funking over it a lot more so I have more context to build off of but if I had your context I would probably be in the same position yeah with practice it'll it'll be great yeah Yeah, thanks, thanks
+
+50:24 - Chinmay Pandya for making me doing this.
+
+50:28 - Francisca Soto Yeah, no problem.
+
+50:30 - Francisca Soto One thing, this isn't, this isn't in specific, this is just kind of in general. One thing I've noticed, I don't know if it, I think it's technical people. Or, I don't know, I've just noticed that I think it's maybe more so when they're under any sort of pressure is they start to ramble way too much. Like for example, I'm talking to a video editor and He and we got into a meeting and he went on he was able to go on for an hour Rambling like it was it was pointless ramble. Like he was explaining the YouTube algorithm and He and I knew he was rambled because he felt he feels like he had the need to keep talking like he would say yeah, so Talking more of this aspect, like it was very clear that he was trying to... He felt the need to speak about something, whereas sometimes you just don't need to.
+
+51:27 - Unidentified Speaker Yeah.
+
+51:28 - Francisca Soto So... Something like that? Oh, sorry? Did I do something like that?
+
+51:34 - Chinmay Pandya No, no, no.
+
+51:41 - Jonas Lindberg I think the fundamental aspect I've realized is there's such a clear difference between explaining why compared to what you're doing. So if I have planned a technical implementation for a program that I'm about to develop for a client, when I'm talking with the client, I only explain what I'm trying to achieve, not how I'm achieving it. If that makes sense. It should be up to them to trust us on the technical implementation. What we're doing to achieve it, how we're achieving it, that's up to us. What we're trying to achieve and why we're achieving it, that's what we have to align with them on.
+
+52:27 - Francisca Soto Yeah, and to kind of expand on that, that's not to say we don't need to go into technical things. For example, the reverse supervisor or the subvisor architecture, we can explain that in a way where we're explaining why we're doing it. So we're doing this because by doing them all, by having all the agents respond to every message, we can make it so that we get all of their input and none of their input is disregarded. For example, if we, and this, I'm pretending I'm talking to Chinmay, and I'd explain kind of, using metaphors is great, or like analogies, so like, oh yeah, imagine we're in a room. The subvisor design is a way for everyone to speak without anyone kind of speaking over each other. Sorry, I didn't explain that very well, by the way. Now I'm very clearly rambling. I don't know if you guys can...
+
+53:17 - Jonas Lindberg It's probably, I'd just say, so what we're trying to achieve with this graph is we're trying to achieve an atmosphere where anyone can speak up at any moment, where they have the most relevant information to say.
+
+53:30 - Jonas Lindberg That's what it's trying to achieve. I haven't said anything about how it's achieving it. I can then go afterwards, after explaining what it's trying to achieve, I can go into elaborate with how it's achieving it, which is having every agent speak at once and then having the subvisor pick out who can speak. Who said the most relevant thing. But what our client cares most about, at least in the introduction, the introduction may fascinate them enough to inquire about how it's done, but the introduction needs to be what it's trying to achieve, not how it's trying to achieve
+
+54:06 - Francisca Soto it. The end-to-end user experience.
+
+54:17 - Jonas Lindberg Yeah.
+
+54:19 - Jonas Lindberg I'd like to get this moving along though with the outline because it's currently 2 a.m.
+
+54:24 - Chinmay Pandya for me or like about to be so yeah and I'd like to have my beauty sleep sometime soon yeah I also have to get to bed yeah I need to wake up at 6.30 or 7 I guess In the evening, there's just too many people who come to the gym. I don't know why they come to the gym.
+
+54:56 - Francisca Soto In the evening? Yeah.
+
+54:58 - Chinmay Pandya In my hostel, the gym is open in the morning and in the evening.
+
+55:04 - Jonas Lindberg Sounds like everyone wants to get moving forward. Shall we get started?
+
+55:12 - Jonas Lindberg Yeah, so we have the outline then that we're trying to derive from the whole example that we have, basically separated into three parts for now. We may separate it more into like, or the understanding your why into more, but basically just introduction and the wrap up and the core, the mentor wrap-up and the mentor introduction to be specific. Inside the Discovering Your Why, there's the coach introduction and coach wrap-up too, which have kind of similar points. I don't know if we should be including these perfectly similar points, but yeah, that should be able to basically be copied over as far as I know. Sorry, now I'm diverging into specific stuff, just like I've been talking.
+
+56:02 - Jonas Lindberg So yeah, we need to go over this general thing, get it all sorted out so that it's ready to present to Kuhn. And what do you think, Jorge? Should we have it estimated today? That's kind of what we told him we would have.
+
+56:21 - Jonas Lindberg Well, his Tuesday... Or what I told him. Tomorrow we'll be trying to get the design spec and estimations finalized and ready. Yeah, and estimation.
+
+56:31 - Francisca Soto Will, if we have it done by Wednesday, by his Wednesday morning, we should be fine, which means you guys all have tomorrow morning until afternoon to finish it, right?
+
+56:43 - Jonas Lindberg For just the afternoon, it's like around when everyone comes online, so.
+
+56:51 - Francisca Soto Will, are you working tomorrow morning?
+
+56:55 - Will Vincent Parrone I'm not sure if I'm going to wake up tomorrow morning because it's late already.
+
+56:59 - Jonas Lindberg Yeah, it's 3am for Will and 2am for me. I'm guessing midnight for Chinmay.
+
+57:10 - Unidentified Speaker Yeah, but...
+
+57:10 - Chinmay Pandya Yeah, 1234.
+
+57:14 - Will Vincent Parrone If ever, I'll probably still provide my estimations tonight. You can just add up what I think.
+
+57:21 - Francisca Soto Kun wakes up at, like, we just need to have it done by midday his time. So that's 7, wait what? Yeah, that's like 7 p.m. For you guys. So we definitely have enough time.
+
+57:35 - Will Vincent Parrone Okay, we can do it post meeting. Go on, sorry.
+
+57:42 - Francisca Soto Let's try to get it done by 5 p.m. In Thailand time. So 6 p.m. Philippines time and...
+
+58:01 - Francisca Soto 3pm, yeah, India. 3.30
+
+58:08 - Francisca Soto I'm going to have a great skill of converting time zones.
+
+58:13 - Jonas Lindberg Me and you both. I was just waiting for you to say quite a 3.30 while there. What we're missing here is any of the discovery, like how they download the app and all that. We're kind of just jumping directly into the introduction by the agents. So if there's any, we need to figure out if there's anything we need to estimate before that. Otherwise, after the mentors wrap up, we need to also introduce another section, which is the payment and the whole onboarding, uh, onboarding session. Uh, and by onboarding, I mean, the like collection graph.
+
+58:51 - Francisca Soto Right. By the way, Stripe uses, um, accepts Apple pay and Google pay.
+
+58:55 - Will Vincent Parrone Okay. Nice. Oh, okay.
+
+58:57 - Will Vincent Parrone It's nice.
+
+59:02 - Jonas Lindberg Yeah. Oh, bro. Implemented in this version of the program.
+
+59:10 - Will Vincent Parrone Who's mouse should I follow, by the way, for the screen record?
+
+59:14 - Francisca Soto Uh, just hang on the outline, I guess you could probably zoom out on the whole thing. Yesterday, when I was like about to sleep, I saw a message, something saying like, if we have user, oh, here it is. If we have user auth in a paywall in the depth, why would we not lift it? We need to make sure we reuse the common elements. That alone. I was, it was very frustrating because yes, we've done it already many times. We know how to do it. It's not, we're not, we're not innovating here, but it's like a, it's like an interconnected web, all the user often payment integration. So all the unique edge cases and things. So it's just, yeah, we're lifting our experience and knowledge, which should make it as efficient as we can. But those assumptions need to be the, um, Yeah, because now because if we say oh, it's gonna take realistically user often and payment integration will take at least a week I think Just like kind of at least but for him. He's I'm very certain. He's gonna ask why on earth Is this gonna take a week when we've done it? When we've gonna when we've already done it for a death or like for example if I'm coding for intelligent, so Those are the times which I don't shouldn't be you in there But this is those are the times where we just need to talk I'm gonna tell them Hey, we're not here to explain to you how we do things. We're going to do things as efficiently as we can, of course, and you're going to have to trust us on those. I don't want to explain why I have to integrate a super-based authentication here and here.
+
+1:00:44 - Chinmay Pandya Yeah, I mean, I think, I don't know why, I don't know what to answer to this, but definitely, even if you're doing the exact same thing for another project, but it is another project, so you will charge according to another project.
+
+1:01:01 - Francisca Soto Yeah, I'll be overhead and just... It's learning and placing is like...
+
+1:01:06 - Jonas Lindberg With saying something like that, we're not just charging it because it's another project. We want to be the most efficient developers out there. If we can spend all our time on just business logic instead of all this like... If we could just click a button to implement Authentication. We wouldn't charge for it because that gave us a big like lead in terms of just development Like we could sell ourselves on that like we we want to be developing the exciting stuff We don't want to be developing the boring stuff. We're charging him for the boring stuff because it takes time Yeah, exactly.
+
+1:01:38 - Francisca Soto It's just realistically like it does take time It's like trying to transplant a heart and saying just put it like it's a safe heart We're just trying to move a heart like it's not that hard It's kind of dangerous
+
+1:01:53 - Jonas Lindberg with the screenshots that he sent me from your DMs. I don't know if you remember them, but it's the... Where did I send it?
+
+1:02:07 - Chinmay Pandya I think he doesn't know that even if you use the same logic, but you still need to design a different graph with different mentors and different prompts. And to test that it takes time, especially for a framework which has not been out there even for a year.
+
+1:02:27 - Jonas Lindberg He says, I want to ensure the work product is reusable for Intelligent. The workshop capabilities are very similar. If you feel differently, I need that explained. That last sentence is like the one that me and Jorge, I think, I think we agree. That's the one we have the biggest issue with.
+
+1:02:48 - Francisca Soto You don't need anything explained, mister.
+
+1:02:50 - Unidentified Speaker Yeah.
+
+1:02:52 - Jonas Lindberg Respectfully, of course.
+
+1:02:56 - Jonas Lindberg You were going to address it in the call we were going to do with Kuhn, and then Kuhn's internet went bye-bye. And then he went to his ice bath, so no more meeting with Kuhn. We had a much nicer meeting with Kuhn.
+
+1:03:10 - Chinmay Pandya You know what we say in India when somebody does the same thing when they're asking for something?
+
+1:03:20 - Unidentified Speaker No.
+
+1:03:22 - Chinmay Pandya It's like if somebody is trying to, you know, tell you how to do your job or something like that. Like we say, it means that if you know already so much, why don't you do it yourself?
+
+1:03:45 - Francisca Soto That's exactly what my friends say, like when we're playing football and we make fun of them for messing up a shot, they say exactly that. I can't even say it though, I've tried many times.
+
+1:03:57 - Jonas Lindberg Nice.
+
+1:03:59 - Francisca Soto How do you suppose we won't hold you up on that, Jorge?
+
+1:04:02 - Jonas Lindberg Because we still haven't clarified that with him to the point where we can... Would, like, everyone can say it. We haven't had the arguments that I'm expecting us in front of us in the previous call that we were in the middle of
+
+1:04:18 - Francisca Soto Well, I mean, it shouldn't be much of an argument. It should be me saying, Chinmay, you have to trust us. Because I'm not going to explain it to you. Like, I... I'm not going to explain how I do what I do, I'm going to tell you why I'm doing things. And why I'm doing things is, I'm trying to save you money. That's the why. How I do that, that doesn't matter. To explain to you every little thing how I'm doing that, that's going to take way too long. And, you know, your time is very valuable, so is mine, so I'm going to respect that.
+
+1:04:52 - Francisca Soto he can't say much, like, anything he says to that, I'm just gonna circle back to the main point of, no, I'm not going to explain it, like, if you want more updates, that's okay, if you want, like, we can do more updates, that's perfectly fine, but I'm not going to explain to you before we're even getting started why we can't do this thing.
+
+1:05:10 - Chinmay Pandya Yeah, because we're not responsible for making reusable features, right?
+
+1:05:17 - Francisca Soto To make what? We're not making reusable features, like, Yeah, if we were designing our things to be used in multiple projects, this would be a totally different story, but we're trying to just look in place, which is faster and cheaper than trying to design it to be reusable.
+
+1:05:42 - Jonas Lindberg Yeah.
+
+1:05:42 - Jonas Lindberg I think it's dangerous talking about creating like, uh, or like, I mean, in front of Kuhn saying like, we're not trying to make it reusable because he'll just say like, why this should be reusable.
+
+1:05:55 - Chinmay Pandya Uh, because reusable things are pricely. The one, the one time things are cheap because the fact that you can use it again and you do not need to, you know, reusable thing twice as expensive. Yeah.
+
+1:06:12 - Jonas Lindberg Yeah, it is, but will he believe that?
+
+1:06:18 - Jonas Lindberg But then we come back to the fundamental point again, he shouldn't need to believe that, that's what we tell him.
+
+1:06:24 - Francisca Soto He doesn't need to believe anything other than trusting us, hence he should believe everything because of course if we tell him, hey buddy, it's going to cost you 50 grand, then of course that's a but We're charging very little like these are like these are one of our first kind of official AI projects So we're giving him extreme if he went to any other agency like to build these apps He would be at least a multiple app at least three. I think of the total cost So he's already getting a great price and I would say the best experience like the other guys would probably Be terrible to work with in my like from what I've heard This is our first time in our Like all the product management things but like in just because we haven't we're great people and like we're a new agency We don't have all that that baggage that all those other agencies have Let's decide this So What what's left of this outline? To add more features or do we have to add estimates? What our timelines are?
+
+1:07:34 - Chinmay Pandya Oh Can you elaborate on that? Guiding the user through the daily processes. What are the daily processes? And what is a check-in? I think the user needs to be...
+
+1:07:58 - Jonas Lindberg That doesn't sound like it should be part of the current scope.
+
+1:08:08 - Francisca Soto Yeah, that's important because we're going to build that and Kuhn has been asking for like a high-level thing and if you ask us, okay, because we've been so focused on this as soon as like the other ports are still very relevant like we can we have to make sure those are included.
+
+1:08:26 - Chinmay Pandya Yeah, so just providing the user the awareness about the daily updates and the check-in, what is a check-in?
+
+1:08:33 - Jonas Lindberg This should realistically be the same graph as introduction wrap-ups, right?
+
+1:08:41 - Jonas Lindberg Because it's more of an explainer. Like, we can make this like a more general graph, the explainer graph, which explains something, then answer the question until the user is ready to proceed.
+
+1:08:56 - Francisca Soto Wait, so you're talking about like, as in explaining to the user the rest of the app?
+
+1:09:03 - Chinmay Pandya Yeah, like after the onboarding, how we can use the app and what is a check-in. Specifically, what is a check-in?
+
+1:09:12 - Francisca Soto I don't think that's... We can ask Kun about that. We can include it if we want. But I was kind of more referring to the rest of the app.
+
+1:09:22 - Chinmay Pandya Yeah, that's what I mean. The check-in, end-of-the-day check-in, chatting graph, analyzer. This is the rest of the app, right?
+
+1:09:30 - Jonas Lindberg So it's not just...
+
+1:09:34 - Chinmay Pandya Yeah. But the reason why they like the thought process behind is that, you know, whenever you, whenever you're using an LLM, your query prompts, if they are, you know, designed or asked in a particular way, it gives better outputs. So if we provide a guide or a manual to the user, not a long manual, maybe two to three to four lines of a guide to the user, maybe he can use the app better. Because even when you're using chat GPT, you need to enter better programs.
+
+1:10:13 - Jonas Lindberg Where do you want this guide? The explanation you just gave was almost purely how, no why we're doing what you're explaining.
+
+1:10:24 - Chinmay Pandya Yeah, so this happens after the discovering your why workshop, right?
+
+1:10:30 - Jonas Lindberg Yeah, now you're explaining how it happens. It happens after discovering your why. Why is it happening?
+
+1:10:38 - Chinmay Pandya Yeah, so the why is it happening is just to provide the user, to provide him with what prompts he can use to interact, like, with the LLM.
+
+1:10:51 - Jonas Lindberg Do we need that to be part of the current scope?
+
+1:10:56 - Chinmay Pandya I don't know what the current scope is.
+
+1:10:59 - Jonas Lindberg The current scope we're trying to focus down on is establishing the first day onboarding basically completely.
+
+1:11:10 - Chinmay Pandya Yeah. So it's not the rest of the app, but it's awareness about the rest of the app and how the user can have, be aware about different roms. Like it's a one-time thing. So it needs to happen after onboarding post-onboarding.
+
+1:11:27 - Jonas Lindberg This sounds like it could be part of like the wrap up in the yellow hair has bottom.
+
+1:11:32 - Chinmay Pandya Yeah. Yeah. Like, uh, post onboarding, post wrap up.
+
+1:11:36 - Jonas Lindberg post wrap, post sign up. Sign up happens after the year Y workshop and after the year Y workshop is summarized or like wrapped up.
+
+1:11:52 - Jonas Lindberg So the user opens the app. They're introduced to the app. They're handed over to the coach, which runs the ROI workshop. After the workshop is done, it's handed back to the mentor, which concludes it, wraps it up, and asks the user to sign up for the application. After which point, the user will sign up, pay for the application, and then be taken into the core of the application.
+
+1:12:16 - Chinmay Pandya I'm assuming when they're taken into the core of the application is when you mean This, I mean, after the payment request, this, this needs to happen after the user has paid for the program.
+
+1:12:27 - Jonas Lindberg Yeah. So what do you think Jorge?
+
+1:12:46 - Jonas Lindberg This is something completely new, which we haven't talked with Kuhn about implementing in this iteration at all. I don't think we're at the stage today when we're supposed to be delivering the outline that we want to be adding more stuff to the outline.
+
+1:13:01 - Chinmay Pandya Yeah, no, I mean, this feature is, you know, just three texts. It doesn't require human interaction at all.
+
+1:13:13 - Chinmay Pandya These can be just the LLM providing like prompt examples or chat interaction examples.
+
+1:13:25 - Francisca Soto That's a small task that we can kind of put on paper and see later. But right now I want to figure out what's the scope. So after the payment is made, Yeah, what are we? We're tasked with building the rest of the app. I'm pretty sure that otherwise he has this this lead magnet they sign up and then they pay for nothing like It's great that he's he's using this as a lead magnet now, and it's a great onboarding cool, but He still wants the rest of the app and we've made some half of the rest of the app, but the other rest the app is Missing so we and we don't have the I missed was maintenance diagram of the rest
+
+1:14:06 - Jonas Lindberg of that after this current iteration or during the current iteration so that we get a more holistic view of the rest of the app and a similar way into how we've done for this onboarding day. The reason we're doing the onboarding day first is because it's a lot more specific and measurable. It's also has a very clear end goal, like compared to the rest of the app, which is more arbitrary, it'll change from day to day and it's a lot longer lasting, which means it's harder to define. But it'll be easier to define once we have the onboarding stuff that we've outlined here down in PayPay.
+
+1:14:46 - Francisca Soto Which we do.
+
+1:14:49 - Jonas Lindberg Well, okay, sorry, down in code.
+
+1:14:54 - Chinmay Pandya On code. Don't you think that...
+
+1:14:56 - Jonas Lindberg Or do you want to halt the estimations and continue with planning the rest of the application?
+
+1:15:03 - Francisca Soto There's a middle ground, which is sending this to him, sending the onboarding date back to him, getting his feedback on that, and make the specification for the rest of the app. I don't think Chinmay wants to have a question mark.
+
+1:15:21 - Jonas Lindberg The specification for the rest of the app will take more time.
+
+1:15:29 - Francisca Soto We have four people on this. I don't think a lot more time like we meetings with him vision alignments and the rest of the
+
+1:15:38 - Francisca Soto Well, we can get started on this while we're doing that then. But the biggest thing is that he doesn't want a big question mark on the rest of the app in terms of price, which it is. He, he has no clue what he's going to be paying for the rest of the app since we, since no one has a clue what it is, the rest of the app is.
+
+1:15:57 - Jonas Lindberg The only, like, the proper way to solve that is taking another week to the vision alignment and all of that on the rest of the app, and then properly diagramming it up like we have now with the current one.
+
+1:16:10 - Francisca Soto That's the way to... Don't we have a good idea on the rest of the app though? Like, the rest of the app is the original concept of the app.
+
+1:16:20 - Jonas Lindberg Kind of, but not really now, considering he's changed the vision of the rest of the game.
+
+1:16:34 - Francisca Soto interpretation is going to be a great head start and it shouldn't take long it's just putting what we already know and then he can insert different things here and there which is the time-consuming part.
+
+1:16:45 - Jonas Lindberg Yeah that's the thing if we insert that now I think he's gonna be quite like he's gonna have even more stuff that he's able to disagree with which will slow us down even more.
+
+1:16:56 - Francisca Soto But it's it's not about slowing us down because we're we're gonna like it's just we can't move forward without knowing the rest of the app like it's It's like building a... Sorry?
+
+1:17:11 - Jonas Lindberg That will slow it down.
+
+1:17:13 - Unidentified Speaker Sorry?
+
+1:17:14 - Francisca Soto It'll slow... It'll slow it down, but...
+
+1:17:22 - Francisca Soto We have to know what the rest of the app is. Like, we can't build this first part and not know what the rest of the app is.
+
+1:17:28 - Chinmay Pandya I think without designing the... At least either the awareness or the rest of the app is going to question what we were doing all this time.
+
+1:17:37 - Francisca Soto Yeah, exactly. There's definitely a big worry in case if we don't, like if we only have this onboarding workshop, it's a big worry. There's a lot of reasons. I think you could probably see them.
+
+1:17:50 - Jonas Lindberg I know, but we don't have infinite time to continue with this diagramming and speculating and meetings.
+
+1:17:57 - Francisca Soto We're going to be doing it in parallel while waiting for his response for this one. So we finish this onboarding day outline and we say, hey, here's this onboarding outline. Hopefully everything looks good. In the meantime, we're going to be migrating or we're going to be putting on paper in the same format the rest of the year. We're going to send that to you tomorrow or the day after of whatever we send this day.
+
+1:18:21 - Jonas Lindberg Do you expect them to agree with that estimation that we send them?
+
+1:18:27 - Jonas Lindberg estimation like, uh, or with the spec that we send them for the rest of the application, because I very easily foresee that taking several weeks of vision alignment and meetings before we're aligned.
+
+1:18:40 - Francisca Soto We don't, we don't need to, we don't need to agree to a T. The idea is that, okay, is the main idea of the app within kind of what we've put here. And he's going to say, not really. And I'm going to say, okay, are these blue cards correct? Is, are these the things you want? And he's going to say, yes. So then we're going to say, OK, so the price range is within this and this. So at least we have something on paper. We have something to go off of, rather than we need a coaching session, we need check-ins, we want to chat with the user. So we don't need to go very detailed. It's something on paper that he knows, OK, the price range is within here. We can go into detail while we build the onboarding stuff. So we're not really wasting, like, We're not wasting time, Nico.
+
+1:19:34 - Jonas Lindberg So this is a plan for after we send it tomorrow.
+
+1:19:39 - Francisca Soto Yeah, so we send it to them and say, here's the onboarding day spec, take a look, hopefully all is aligned, and that includes the estimations and stuff.
+
+1:19:51 - Jonas Lindberg This discussion shouldn't change what we're working on today, so I think we should just move forward with finishing up. What we need to do today.
+
+1:20:00 - Francisca Soto Yeah, well, I mean, we needed to discuss all that to figure out the actual plan, though.
+
+1:20:03 - Jonas Lindberg So if the plan is good, yeah.
+
+1:20:09 - Francisca Soto Yeah, so we got all the fun then.
+
+1:20:13 - Jonas Lindberg I mean, yeah, like even if it's a yes or no to that, it doesn't change what we're doing today. So we'll just move forward with what we're doing today.
+
+1:20:21 - Francisca Soto Well, I mean, today we don't need to finish this today. We have all of tomorrow. Like all of today. Will you be on tomorrow?
+
+1:20:29 - Jonas Lindberg Like during the time we're on?
+
+1:20:32 - Francisca Soto I'm taking a look at it like these things now. What's my value? Like what's my input into the system here?
+
+1:20:47 - Francisca Soto What do you mean?
+
+1:20:49 - Francisca Soto Like, what am I, what am I going to be contributing to it? In what way?
+
+1:20:57 - Jonas Lindberg Making sure it's aligned up, like with what you'd think Kuen would expect out of an outline spec. Just giving your general input value at, like helping finish up the spec in a nice way.
+
+1:21:11 - Francisca Soto Yeah.
+
+1:21:23 - Francisca Soto for time. Those are two things. I think those all can be done async.
+
+1:21:33 - Francisca Soto For all the cards on paper, I can put it onto this one version we have here. And then for the estimates, so that you guys don't get biased. What was that?
+
+1:21:46 - Francisca Soto Hello? Yeah.
+
+1:21:49 - Francisca Soto Did someone join? Really?
+
+1:22:01 - Francisca Soto So we'll do both the estimating and finalizing the cards can be done async. I'll copy and paste the outline to make my own version so I can give estimates without biasing your guys' estimates.
+
+1:22:18 - Jonas Lindberg But is this the finished outline? This is like what Min will mock up earlier today.
+
+1:22:26 - Francisca Soto Yeah, so just adding the rest of the cards, like if we see any gaps, right? That's one of the tasks that I mentioned, right? OK.
+
+1:22:36 - Jonas Lindberg Will you be able to sync up with us like PM IST, like India Standard Time, like 5 PM? 3 PM?
+
+1:22:45 - Francisca Soto I don't know. No, that's that's like 2 a.m. Wait, what is that? That's a.m. No, no, that's the 3 a.m. For me. It's way too late. I'll be able to do it. Latest is probably like, um, probably Uh, yeah, 12 noon for you guys.
+
+1:23:05 - Jonas Lindberg That's like when I'm waking up.
+
+1:23:18 - Francisca Soto All right, well, we'll see if... All right, so everyone can... Let's make sure we add all the cards, look for missing links. And then from there, we can each make our own estimates. You guys can probably do it in a call if you guys are all online at the same time.
+
+1:23:36 - Jonas Lindberg When will you be sending them? Since you'll be asleep by the time we're waking up.
+
+1:23:43 - Unidentified Speaker Hello?
+
+1:23:45 - Jonas Lindberg Yeah, can you hear us?
+
+1:23:49 - Jonas Lindberg When will you send it? Because you'll be asleep by the time we're getting off.
+
+1:23:54 - Jonas Lindberg Send what?
+
+1:23:56 - Francisca Soto Your estimates.
+
+1:23:58 - Francisca Soto I'm just going to put them on the FigJam.
+
+1:24:02 - Jonas Lindberg Like in this one? Right here? Where everyone's?
+
+1:24:04 - Unidentified Speaker Yeah.
+
+1:24:07 - Francisca Soto Like I said, I'll copy and paste the whole thing and put mine below with the estimates.
+
+1:24:13 - Jonas Lindberg Okay.
+
+1:24:16 - Chinmay Pandya What do you guys need me to know?
+
+1:24:25 - Francisca Soto So there's no actual technical, there's no, there's no, um, designing of software and solutions in this, right?
+
+1:24:37 - Jonas Lindberg So all the estimates, uh, we're assigning a discovering your why workshop. Which is a software. We're designing this during your live workshop.
+
+1:24:48 - Francisca Soto Like the actual solutions.
+
+1:24:54 - Jonas Lindberg Yeah, this is the solution. I don't know what's sticking with the code.
+
+1:25:01 - Jonas Lindberg Like there's no coding right now.
+
+1:25:06 - Francisca Soto We're not thinking, okay, we're going to write this code. That's going to interact with this code.
+
+1:25:11 - Francisca Soto No.
+
+1:25:13 - Francisca Soto Yeah, so the estimates are just kind of from experience and in our imagination. Oh, this is how we could implement it. So that would take like this, right?
+
+1:25:23 - Francisca Soto Yeah.
+
+1:25:24 - Francisca Soto Yeah.
+
+1:25:24 - Unidentified Speaker Okay.
+
+1:25:28 - Jonas Lindberg And if we did have like an implementation plan, we wouldn't be having it on this fake gem. It would be more of like an internal private one.
+
+1:25:48 - Jonas Lindberg That's why I duplicated it and made another one for estimations earlier, because I didn't want to put the estimations on the public one with Kuhn, in case he jumped in and looked at them and got scared or something.
+
+1:26:07 - Francisca Soto Alright, so... Okay, so sounds good then. I'll... Spending my available time today adding any cards that seem missing. Does the order of the grey cards, like going from top to down, matter?
+
+1:26:20 - Will Vincent Parrone No.
+
+1:26:21 - Will Vincent Parrone No.
+
+1:26:22 - Jonas Lindberg Okay.
+
+1:26:24 - Jonas Lindberg Errors in between are just because I've been too lazy to click on them and select no error.
+
+1:26:30 - Chinmay Pandya Okay.
+
+1:26:35 - Francisca Soto I think I destroyed this arrow. It's okay.
+
+1:26:40 - Will Vincent Parrone It's just for decoration purposes anyways.
+
+1:26:45 - Jonas Lindberg Oh, now you destroyed it.
+
+1:26:46 - Francisca Soto Alright, so I'll see you guys hopefully This is the most annoying part of the time zone, so I'll see you guys later. Yes, later.
+
+1:27:03 - Jonas Lindberg Well, like tomorrow, you mean?
+
+1:27:08 - Francisca Soto I'll see you as soon as possible.
+
+1:27:10 - Will Vincent Parrone Next meeting. We'll see each other at next meeting.
+
+1:27:13 - Jonas Lindberg Yeah.
+
+1:27:13 - Jonas Lindberg How many hours? Like over 24, I'm thinking, right?
+
+1:27:17 - Francisca Soto hopefully not well maybe exactly 20 or like 23 if we're getting on at this time again tomorrow think 21 yeah I can get on with with will and um Chinmay may like probably 10 p.m your time jonas okay sounds
+
+1:27:38 - Chinmay Pandya good yeah that's that's the time I go for dinner oh roughly 8.30 p.m. My time. There's a fixed time for my dinner.
+
+1:27:54 - Jonas Lindberg I think it's 8.30 p.m. Your time, Chinmay. He wants to meet up.
+
+1:27:58 - Chinmay Pandya Yeah, and that is the time I go for dinner.
+
+1:28:01 - Francisca Soto Oh, okay. Roughly that time. After dinner or whatever.
+
+1:28:07 - Chinmay Pandya Like, it can be available an hour after that.
+
+1:28:11 - Chinmay Pandya Yeah, okay.
+
+1:28:16 - Chinmay Pandya I'll let you know if I'm available exactly at that time.
+
+1:28:21 - Francisca Soto Also, what will be our goals for tomorrow? With the estimates, I believe.
+
+1:28:45 - Chinmay Pandya So everyone should copy and paste and enter their own estimates?
+
+1:28:50 - Francisca Soto Yeah, that's after we have all the cards on paper, all the cards down there. Right now, first place is make sure all the cards are there. We don't want to miss any. And then...
+
+1:29:02 - Will Vincent Parrone What's the deadline for that, by the way? The making sure the cards are there?
+
+1:29:09 - Francisca Soto So I mean, yeah, just since the whole, we want to send it to Kuhn by like 5 p.m. Jonas's time. So we want to have the card is down. I would say it takes like an hour to like 30, yeah, I'd say an hour to estimate. So 4 p.m. Roughly Jonas's time.
+
+1:29:28 - Chinmay Pandya Okay. 2.30 my time.
+
+1:29:34 - Jonas Lindberg yeah and then five for will all right sounds good guys I'll see you guys have a nice day have a good night good morning to me yeah to me too to be honest good morning you

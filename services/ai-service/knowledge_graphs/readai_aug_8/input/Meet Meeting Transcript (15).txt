@@ -1,0 +1,160 @@
+Meet Meeting 
+Mon, Jul 29, 2024
+
+1:51 - Jonathan Phillips you Good morning, afternoon, or evening. Hello.
+
+2:06 - Jonathan Phillips Can you hear me? Yes, I can hear you.
+
+2:12 - Jonas Lindberg Now I should hear you.
+
+2:17 - Jorge Lewis I'm going to keep my camera off because the bandwidth ain't the best where I am right now.
+
+2:28 - Unidentified Speaker Great to see you.
+
+2:29 - Jorge Lewis I'm doing great. How about you? Yeah, very good.
+
+2:32 - Unidentified Speaker Very good.
+
+2:34 - Jorge Lewis Nice. Great. So how have things been with making that new UVP document coming along?
+
+2:44 - Jonathan Phillips Yeah, I've not finished it yet. I didn't do anything over the weekend with it. So I've still got a little bit to do. But hopefully, I will have it today, hopefully. What I want to do is make it detailed and specific enough so we wouldn't be going backwards and forwards too many times, rather than give you a brief overview and then try and build it. I thought if I can build it first and then you can try and take it apart, it might be a bit quicker.
+
+3:12 - Unidentified Speaker Yeah.
+
+3:14 - Jorge Lewis One thing that is super useful for us, and Jonas has mentioned this to you guys previously, is just examples do us tons of good because Like, like that's how humans learn naturally. Right. So giving us a couple of examples of how these things look in person, not only we can learn, but also there might be a chance for us to create some, uh, to train these, I mean, to train the actual agents on it. Um, one of the, one of the trickiest part that I can foresee this, um, the whole system being is, well, the whole thing in essence is trying to put you in this and the system. The hardest part of that is having what you guys did with Jonas, where you guys were kind of drilling questions and saying, really, really trying to get behind why he's doing what he's doing right now. That is hard to get into an LLM. To have it reflect and have it really ask deep questions, trying to guide the user is something that's be quite hard. There's been a lot of research papers published on exactly this, like reflection and planning for LLMs, so hopefully those work out for us.
+
+4:20 - Jonathan Phillips So from my perspective, I'm very different to Koen, so my philosophies and the way I work, we're very different. Obviously we get on very well, we're colleagues, we get on well, but my perspective is different. So I'm not as say not as worried is maybe not the right term, but I've already replicated LLMs doing what I want. So I'm relatively relaxed in that there is technology there, not exactly what we want, the technology is already there to let them do it, so to speak. It might not be accurate, it might not be as clean but it exists so in my mind it's not going to be difficult to do it it's going to be tricky to train it so I think the training is the hard thing because ultimately we will get a response from the agent every single time that's not an issue but is it the response we want and is it leading to the outcome that we want so I I am not as worried about um detail at the moment I'm more worried about the word is not the right term I'll stop using that I'm more sort of like excited because that's probably a better term about putting putting the framework together and then working hard to train it and get it right so that that's my perspective um in in marketing it's very much I'll use the term common sense. Marketing is common sense. You need a framework, you need a model, a system, but it's common sense. And a lot of it is communication. So it is exactly what we're trying to do, a conversation between the AI and the human. And it's just a case of having a conversation and getting an outcome. It's really not rocket science, this.
+
+6:14 - Jonathan Phillips There's also, in a lot of cases, no right answer, which is really good for us because there won't be a user at the end. It's not a mathematical equation. The user's saying, hang on a minute, you've got it wrong. So there will be instances where they say, this doesn't feel right, or I don't think this is the best answer, but there's no right or wrong answer, which is really good, which is a great starting place.
+
+6:35 - Jorge Lewis That's one of the things with AI actually, like for example, Tesla, they will never, like they need 99.99999 for their systems to be considered correct. For us, it's like a much, much more gray area.
+
+6:50 - Jonathan Phillips Absolutely absolutely and that's what's great about marketing marketing is a lot of the time opinions rather than more facts so if we if we put a table in and it starts to spew figures out there incorrect that's a different issue but ultimately if somebody says this is my business this is what I want to do and the AI says well this is the best approach it's like hey you know it could be it might not be But what we're trying to do, what I'm trying to do is very much give them something they don't have initially. So the good thing again is that my target market are those people who don't really know what they're doing. So even if we give them a little something, it's better than nothing. Um, so I'm not saying that's good enough and I'm not saying that is the goal, but we are starting at quite a low level. Yeah. So I'm not, as far as the responses go and as far as conversations go, like I say, I've mimicked it already and had some really good outcomes and when I say mimicked it, I've even asked various engines to simulate it themselves or I've got the three main engines and had conversations with each other and one pretending they're human and just to see what they would do pretending they're human. So I've tried a lot of scenarios and most of the time the answer is sufficient, in fact it's more than sufficient, it's actually quite good. So what I'll do is, going back to the initial request, I will put in quite a few examples just to give you a flavour and again the baseline is quite low so we are talking potentially to bakers, we're talking to landscape gardeners, people do cleaning services, these are people who never sit at laptops, they don't understand computers much so if we could have them talk to their smartphone and just have a conversation and get some output. Initially, that is incredible. And obviously we want something a little more credible with the document, et cetera, at the end. But ultimately we're saying to them, Hey, if you take your business in this direction, you're going to have a lot more opportunity than you would by just sitting at your desk at home, not knowing what to do. Yeah.
+
+9:02 - Jorge Lewis Makes perfect sense. Um, I re-read that document you sent, I think, probably a few weeks ago now, related to the market size. It looked quite promising. And just to double-check things, you're targeting non-tech-savvy people that don't have any marketing in place, relatively small, zero to 50 employees, roughly, that want to get their marketing somewhere.
+
+9:33 - Unidentified Speaker Absolutely.
+
+9:34 - Jonathan Phillips So that's my target market, which is an incredible hard market to get to. Because like I say, these people aren't originally.
+
+9:41 - Jonathan Phillips Yeah, exactly.
+
+9:42 - Jonathan Phillips So I've got a few methods, channels to do that, especially getting to organizations that they talk to banks, you know, all that sort of stuff, real world stuff. But I don't think most of these will be the likes on LinkedIn and Instagram looking at the latest How you can 10x this and how you can do this, which is all gibberish. Anyway, none of it works.
+
+10:03 - Jorge Lewis Absolutely My feed on LinkedIn like for I think it was like a full month. It was just the most absolute garbage like lead gen sales marketing and I and it was just I'm not an expert you definitely are I'm not but I do know I I guess you could say common sense. And what they were saying was GPT spitted stuff formatted in a way that they would say it. And it was just so repetitive. Thankfully, nowadays, I've replaced it with some AI stuff.
+
+10:34 - Jonathan Phillips So yes, sadly, a lot of people out there who believe it, and it's It is, unfortunately, it's an opportunity for people who aren't necessarily good at their subject matter, but they are great salespeople. So what they managed to do is sell anything they could, they could. Exactly in the short term because there's no longevity so they pop in on a I've got a course or I've got a system and they'll make a shed load of money in the days weeks after that and then they realize that people find them out and then they'll change into something else morph into a different being and start to sell something else and that's what that's what social media is full of but anyway my target market isn't necessarily the people looking at those however that said I want it to be so easy to use and so effective that anybody can dip in. It doesn't matter what level you're at, you will benefit from it because even I, I'm learning all the time. I'm learning every day. I love reading. I absolutely love listening to people who have great minds, brilliant thinkers. So no matter how experienced you are and how many years you've been doing something, there's always opportunity to learn. So even the people who are, I would say, relatively experienced will be able to benefit because I'll be putting things into the framework that are quite up-to-date and modern thinking, and maybe stuff they already know, but they forgot. And we do it all the time. We read stuff, we look at the way of doing things, and then we forget, and then we see it again and think, why have I not been doing this? I know it already. So there's lots of reasons why people might dip into it and use it, even if they are quite experienced. So I'm not going to rule anybody out. It's quite a large market. However, marketing-wise, we've got to focus a message into a specific target niche to start with. We can't spray for everybody.
+
+12:29 - Jorge Lewis Out of curiosity, would door-to-door work for this? Like going in person to these small stores?
+
+12:35 - Jonathan Phillips Door-to-door might work except that it's frowned upon a little bit now because again the noise is there. You've got people being hammered all the time on their screens, in person, on the telephones. It's just constant noise. So the way that marketing works now, or the way that modern marketing thinkers position it, is that you don't go and sell your product. What you do is you build a brand, you build a framework, you build a business that people come to you when they need you.
+
+13:10 - Jonathan Phillips And then what you do is you put out content and signposts and all bits and pieces out there so that if somebody wants what you offer, they will find you. And although that's scary to a lot of people, and the reason it's scary to a lot of people is because they don't really have a proposition. And people won't come to them, and they won't do any business. So they fear that their proposition isn't good enough and not required. Therefore, they can't just put it out there and let people come to them. And yes, there is a little bit of awareness and making people aware and maybe interrupting them a little bit. But the interruption people don't want anymore. They know if they've got a problem, they will go and try and find a solution. So the best businesses are the solution. This is why people won't have longevity on social media, shouting about all their great services, because really it's not a solution to the problems.
+
+14:12 - Jonathan Phillips We are talking long term though so when I say long term I don't mean forever but you can't start a business and start to create revenues instantly unless of course you have something that people are demanding and almost knocking on your door or you're going to a festival and selling beer. You're not going to be able to get that instant sort of revenue stream. So you've got to put the foundations down. You've got to create the brand, which isn't just logos and typeface. It's all about a feel and how people interact with you and the way they feel when they take your services. So it's building that brand and it's also putting yourself in places that when they realize they have a problem that you're front and central. Whether it's a Google search, whether it's a referral from a friend when they have a conversation and say I've got a problem, you've got to be there front and center and that's the hard graft you've got to do over the years in order for your business to be making a nice revenue, growing really nicely, acquiring new customers, but not necessarily throwing out advertising left, right and center, which is quite expensive and the return advertising isn't very good.
+
+15:21 - Jorge Lewis Yeah, I mean, thank you so much for all of that actually. It's we we've been what since I've been kind of out of sync in terms of time zone with everybody. I've been able to kind of deep dive into content marketing, and it's something that we're going to be kind of going into because, number one, it's a great avenue to to learn, we'll get to learn. We're going to be making content based on like technical videos, non-technical videos, so that people trying to build products like you guys, we're able to share our experience through platforms like there and kind of just offer value and put our brand out there.
+
+15:56 - Jonathan Phillips Exactly, exactly, that's the right way of doing it. So the content is the way to go obviously digitally. You've got to provide content whether it's podcast infographics, thought leadership pieces and that's what I'm going to be doing with the whole story framework soon. I've I've just built a website. I'm going to get a newsletter out. And then hopefully, my goal will be to have tens of thousands of followers by the time we get to the point of delivering any technology. So you've got a captive audience already. So that's the plan. Whether it works or not, that's in the lap of the gods at the moment.
+
+16:30 - Unidentified Speaker But I'm going to try very hard to get there. Yeah. Cool.
+
+16:34 - Jorge Lewis Well, that's great. So I want to go into, just briefly, I don't want to make this too long, just putting me back into place onto this project. I've been watching all the meetings that you guys have had. I've watched the long one with all six of you guys. But I guess, let me explain how I see IntelliAgent, at least the first step and then also the subsequent steps. And then you can correct me wherever I'm wrong or wherever I'm missing something. Sure. First phase, we're going to build one workshop that's going to have an output of the unique value purpose of a specific of the user and their company. And to accomplish that, we're going to have a team of AI agents collaborating and trying to extract all the necessary pieces of information. So for example, we're gonna have the facilitator bot, which his main job is to kind of facilitate through the different phases, which you're going to deploy. And it was in on on the document, then there, there might then I think there will be a like, for example, an analyst agent that might search the some sort of search the web, in short, for companies that might have similar value propositions or competitive research, those things. There might be another agent that is focused on branding that the brand expert, the what do you call the you call the brand agents a name?
+
+18:11 - Jonathan Phillips I don't know. But yes, specifically what you said so far is perfect. Absolutely. Bang on. Yeah.
+
+18:19 - Jorge Lewis So the brand agent that just kind of aligns with the brand. Okay. And then they come to the UVP and that's the end goal. There's also the right side of the screen, which is going to be kind of a persistent screen to keep the user to allow for a better UX, to keep, the left side will be a chat interface where the user will be chatting with the agents, and the right side will be a way to present the, now I'm guessing it's going to be the UVP, as well as, what else is on the right side?
+
+18:56 - Jonathan Phillips So yes, so if we look at this specific workshop, the UVP's kind of made up into, let's just say three areas. Firstly, the category you're playing in, so are you a software company, do you make garden tools, maybe specific garden tools, maybe you're a rake manufacturer, or maybe you do left-handed rakes, if you're going to be really specific. So the category you play in, then your unique offering, which is hopefully different to even the closest competitor, otherwise what are you doing it for? And then the last section is whom. So your target market, your audience, your niche that you're playing in. So you've got a category which is kind of high-level software company, but your niche might be coders that don't use keyboards and only voice input. For example, that might be your target audience. Might be a bit weird, but there's a group of people out there. And the thing about marketing is that if you are very good in a small niche, you're probably more profitable than you will be spraying to the whole world and trying to sell to everybody. So sometimes you think by reducing your niche to a small, succinct segment, of people you're doing yourself a disservice but quite often it's the way to go because if people recognize you in that niche as the number one player the most authoritative the most important you get all their business so anyway so that's the idea you're trying to hone everything down so the uvp is basically saying we play in this market we have this differentiator, this is why we're different, this is why you come to us and not the competition and these are the target market, these are the people and that's it. So that's all we're trying to get, this statement with those three elements in and then I'll detail the way the thinking around how we get to those three elements.
+
+20:48 - Jonathan Phillips The output on the right side, my thinking at the moment is a bit like the interface to Claude. I think Claude is one of the best visual representations of what we could have at the moment. So ultimately, if you're talking about the category, then it'll create an artifact as Claude calls it or a document, a statement on the category, and then it will go on to the middle bit, the offering, and then it will go on to the target market. So it then gives you those elements that you can then go back and play with. You can modify one of them, and then it potentially modifies your conversation. And then you end up with an output maybe at the bottom, which is a combined document, and that's it. Simple as that.
+
+21:31 - Unidentified Speaker Sorry, Jonas, go ahead.
+
+21:35 - Jonas Lindberg Yeah, on that note, one of the things that I was most confused about, this was back when it was brand purpose, but I think it's still like remaining there, that question is when should the user transition from looking at the chat and chatting with the bots to looking at the cards or cards or like the choices on the right and using the UI? Underwrite to like pick their favorites because before it was like you talk with the bots until the copywriter was able to like figure figure you out more and give you like two examples and then you chose the one you resonated more with whether that is your dream makers or you bring technology to non-tech people or yeah I don't remember exactly the choices that were brought up then, but you kind of choose between them. How would the user know that they're supposed to be switching over to the right and working on the left side?
+
+22:30 - Jonathan Phillips So that was, I think that was Kuhn's idea, wasn't it? Have a choice.
+
+22:36 - Jonathan Phillips I'm quite easy with that. I don't necessarily need that as such. If it's something easy to do, then I'm happy because it provides an extra level of clarity. But I think most of the conversations can be held in the one interface.
+
+22:52 - Jonathan Phillips I don't think there should be confusion where people look. I think it should be on the right side is output, on the left side is conversation. And if you're doing it from a smartphone, then you don't really have that. On a desktop, yes, you have all the elements you can play around with. And that's a mistake we make when we build websites. We think everyone's looking from a desktop and it looks beautiful. Go on your phone and everything's clogged together. You can't really differentiate between sectors of your display. You very much have a very simple interface. So I'm all about simple.
+
+23:25 - Jorge Lewis Yep. I think great, great question, Jonas. I think JP, you covered up every topic, really staying minimal for this first iteration is what we need. And then also the UX wouldn't be that intuitive. We don't want the user questioning what we should be looking at. Um, but I think I love the idea of, of the split testing me. I'm just in love with general split testing. I just think it's a great way to gather data later down the road for sure.
+
+23:50 - Jonas Lindberg We can have it as like a, like a mini workshop within a workshop to kind of I was thinking maybe one of the agents could have a tool to trigger it, where the agent, basically their message would be, OK, I have some cards for you. And then underneath the message, you can pick between the two cards or something. So it's in the chat. It's in the play instead of on a separate panel.
+
+24:12 - Jonathan Phillips Absolutely fine. It should be in the thread. It should be continuous. They should know where they're looking. And it's one place. And that's simple.
+
+24:21 - Jorge Lewis Yeah, great.
+
+24:23 - Jorge Lewis So yeah, we just need to see it.
+
+24:24 - Jorge Lewis Okay, so on the right side, we need to kind of figure out, I think we'll have it set in stone after you send us what exactly the UVP looks like, kind of what artifacts we can put on there.
+
+24:38 - Jorge Lewis One thing I have, by the way, and I think I want to try it out with you if you're open to it. So what I believe from my experience doing all of these things, I think that examples, like we've been saying, are a great way to help us understand this. But I want to go a step further and have you create kind of as in-depth tree of examples as possible. So you start from one of the first user messages saying, or the agent's message saying, let's start this workshop. And then you kind of go down the different routes, letting your brain just really go for it. Okay, the bot might say this, or it might say this, it might say this. And just keep going down those branches. It'll take time. It might feel tedious after you're getting down to the last few messages. I'm not saying it has to be entirely complete, but giving, just letting your brain go free really gives us as well a way of what's intuitive to you, gives us what comes to your head first when you're having those conversations. So if you're open to that, I'd like you to kind of try that out and see how that works. Absolutely.
+
+25:42 - Jonathan Phillips Not a problem at all. I mean, that's actually quite quick and easy to do. So it's not an imposition. So I will endeavor to give you the framework. Then I will give you as many examples as in a fictional examples of this is the type of thing we want to be doing. And then I'll try and give you some real life conversations as well. Exactly, that was perfect.
+
+26:06 - Jorge Lewis So just to make sure that the examples, ideally, the structure is kind of like a tree. So at the top, we have that one message, right? And then they kind of branch out into the possibilities. For one tree, just having one user profile of whatever, you can define it whatever you want it to be. Okay, perfect. Um, so yeah, kind of to outline the plan moving forward, I think. Well, tomorrow you'll be, or it's actually your morning right now, right? Uh, yeah, it's nine, nine 15.
+
+26:41 - Jonathan Phillips Yeah. Yeah. So, okay.
+
+26:42 - Jorge Lewis So you'll have it to us hopefully by the end of today, you said, right? Hopefully, hopefully.
+
+26:46 - Unidentified Speaker Yeah. Okay.
+
+26:47 - Jonathan Phillips Maybe not the whole thing with examples at the moment, but I'll certainly have the initial sort of, um, piece for you. Yeah. Go ahead, Jonas.
+
+26:56 - Jonas Lindberg Yeah, I was just gonna mention that I think it would be probably really valuable just if you run I don't know how it's done with like Companies like mine Jorge works to co-founders, but run through with one or both of us just through the entire UDP Workshop and have that's like a properly as a prepared, planned, proper workshop, more so than ad hoc one in the middle of another meeting, that we can continuously go and look back on as a source of a very good example, basically.
+
+27:30 - Unidentified Speaker Perfect.
+
+27:32 - Jonathan Phillips As far as I'm concerned, the closer you guys are to what we're trying to achieve the better because you can then use your intelligence and your brilliance and interpret what we're doing better. So what I don't want to do and what I've never liked to do with any development team I've worked with is tell them what to do because It's not my job to tell you what to do. You're the experts. But if you don't have that connection, then you end up listening to what I'm doing because you don't have any other options. So if I can get closer to you and let you know what exactly what's in my head, then I think that works much better.
+
+28:08 - Jorge Lewis Yeah. And then on our part for that to work though, we need to keep you in sync and that involves just keeping you updated a lot. So we need to make sure we keep doing that and do that properly.
+
+28:21 - Jonathan Phillips I think the more comfortable you are, the more communication we will have because you will feel that you are adding value and it's a natural conversation rather than asking a question because you think you should know the answer already and you're worried that you're looking because you don't know what to say or how to ask the next question. So as far as I'm concerned, any question you have, just fire away. Just absolutely bomb me with loads and loads of questions. I'm more than happy to answer all of them because it helps us both.
+
+28:52 - Jorge Lewis Yeah, that's actually a point that I realized. Do you use Obsidian, by the way, by rare chance?
+
+28:58 - Unidentified Speaker Use what, sorry? Obsidian.
+
+29:01 - Jonathan Phillips It sounds really nice, but I don't think so, no.
+
+29:05 - Unidentified Speaker Okay.
+
+29:06 - Jorge Lewis Take a look at it. I don't know if it's made for you, but we personally love it. It's just like a really simple note-taking app. But anyways, I put down a note in there to include in part of our interviews, which is to really drill down on if our team members can ask questions. They don't have to be great questions, but asking frequent questions is super important because the deadliest thing to development from taking development from a client is assumptions. We assume we understand this, we assume we understand this, and that's just where things go downhill. Exactly. Exactly that.
+
+29:41 - Jonathan Phillips So having a whiteboard platform in order to just put questions down without any sort of immediate response required as such, or any pressure, or messing up people's messaging systems. Great.
+
+29:55 - Jonathan Phillips No problem at all. Absolutely no problem. Perfect.
+
+29:59 - Jorge Lewis Thanks JP for your time. Kind of a good coincidence that Coen's Wi-Fi went out.
+
+30:08 - Jonathan Phillips Serendipity, that's what it's all about.
+
+30:11 - Jorge Lewis We'll catch up with him another time. Yeah, so thanks so much. Great clearing things up.
+
+30:16 - Jonas Lindberg One thing I want to note on before we end this meeting, we've, after all of Kuhn's feedback and everything, we've adopted FigJam as kind of our whiteboard application as part of Figma. So we're working on diagrams and getting things we set up visually there so that in future meetings, we can hopefully be a bit more visual when we're planning and have things more on paper by the end of the meeting. Excellent.
+
+30:41 - Jonathan Phillips No, no, it seems to be coming along. You know, it takes time because if you're not used to doing something, you've got to build the whole structure of what you, what you do and what you're comfortable with. But you know, we're all learning all the time. It's never, it's never a problem to learn and do new things.
+
+30:58 - Jorge Lewis Yep, and just that reminded me as well, I should be mentioning the plan. On top of what Jonas said, yeah, we're having, so how we're going to try to do things is having one visual representation of the project, which is on the FigJam, and then one technical representation of the project, which is through a backlog on our project management software, plane.so. And the one on the plane.so is the list of backlog tasks, that one is more formal, You don't necessarily have to understand it on a, like a very technical level, but it's just more of, okay, progress is getting done. Things are getting happening. Things are being done. And then the visual representation is the one that we, everyone understands in and out. So the plan moving, with that said, the plan moving for this week, at least, is since it's going to be your end of day today, that's going to be, we're already going, our team's already going to be asleep. So we're probably going to get started tomorrow, take in that, try to craft up the visual representation, make sure all things are finalized, get the backlog set up. Hopefully Tuesday and Wednesday, all that should be done. We can get any back and forth limbo done. And then I think by Thursday, we could start working on things. Jonas, how does that sound? Of course not a set in stone, but on a grand scope of things.
+
+32:08 - Jonas Lindberg From how you're setting up? Yeah, that sounds good to me, but I haven't looked.
+
+32:14 - Jorge Lewis The thing that would push us back is any kind of delay between questions and answers. So to prevent that, let's, instead of asking, if you, if, if I'm going to make sure we don't ask any questions in the chat, instead, I'm going to say, I'm going to ask the team members to ask you if you have time for a call, because as we know, that's the most efficient way to get things done.
+
+32:37 - Jonas Lindberg So also just like maybe voice messages, I think voice messages are probably very efficient for like simple questions. Yeah.
+
+32:49 - Jorge Lewis Uh, voice call first, then voice messages, then text if on a bill. Yeah. Cool. All right, JP. Um, so yeah, hopefully that fun sounds good to you. Perfect.
+
+32:58 - Jonathan Phillips No, no problem at all. But like I say, just, just bombard me with questions. Don't feel like you can't just any, even stupid questions, whatever you want to ask, just, just go far away. Will do.
+
+33:09 - Jorge Lewis Um, also on all the paperwork, by the way, we have to get that because I believe we signed the the contract for kind of the previous spec that we worked on. So we're gonna, we can kind of avoid all that. We can override it with a new contract and make sure everything's up to date. Yeah, sure. No worries.
+
+33:27 - Jonathan Phillips All right. Thanks JP.
+
+33:29 - Jonathan Phillips Have a good evening.
+
+33:30 - Jonathan Phillips See you later. Have a good day. Bye bye.

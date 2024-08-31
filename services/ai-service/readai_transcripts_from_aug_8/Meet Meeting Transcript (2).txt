@@ -1,0 +1,412 @@
+Meet Meeting 
+Wed, Aug 28, 2024
+
+0:03 - Cuan Mulligan ice bath. So yeah, I'm into the place.
+
+0:07 - Will Vincent Parrone I heard ice baths are good for concentration. I'd love to have those too.
+
+0:12 - Cuan Mulligan Yeah, they're full on, but they're good.
+
+0:17 - Will Vincent Parrone Okay. So basically, my goals here for this meeting is to understand the whys and the whats of the LMS. Sure. So that I can work with it properly. Do you have any other agendas we could add in?
+
+0:37 - Cuan Mulligan No. I think let's keep it to that. I think that's a good one.
+
+0:41 - Will Vincent Parrone Okay. So the way I envision it is that I'm going to show a presentation of the specs including the including the LMS part, and then I'll explain it, how I interpreted it on my end. You interject and tell me whether I got it right or I got it wrong, and then we basically end it with me asking you further questions.
+
+1:11 - Unidentified Speaker Sure.
+
+1:13 - Will Vincent Parrone Okay. Sounds good. Let me share my screen then. Entire screen.
+
+1:27 - Will Vincent Parrone Can you see my screen now?
+
+1:29 - Cuan Mulligan I can, yeah.
+
+1:31 - Will Vincent Parrone Okay.
+
+1:35 - Will Vincent Parrone Can you now see my screen?
+
+1:41 - Will Vincent Parrone Yep. Okay. Let me just find the LMS.
+
+1:51 - Will Vincent Parrone Oh, you're already here. Nevermind then. Okay. So, Primarily, the way I understood it is that our management system is... Sorry. Okay, okay. Let me know when you're ready.
+
+2:11 - Cuan Mulligan I don't think they're charging. They're flush. Now they're charging. So they're not going to work. No worries.
+
+2:35 - Will Vincent Parrone Ok.
+
+2:38 - Cuan Mulligan Okay, so let's go.
+
+2:40 - Will Vincent Parrone Okay. So let's begin. In RLMS, it is comprised of several programs, each with its own duration. Like for example, a mindfulness program starting from August 28 up until September 20.
+
+2:59 - Cuan Mulligan I'm going to connect to these. Hold on.
+
+3:03 - Will Vincent Parrone Okay.
+
+3:08 - Cuan Mulligan I just need to change the audio over. Hold on a second.
+
+3:26 - Will Vincent Parrone Hey, can you hear me now? Yes. Weirdly enough, clearer.
+
+3:31 - Cuan Mulligan Yeah, I'm OK. I'm on my headset now, so this is much easier. OK.
+
+3:36 - Will Vincent Parrone Do you want me to restart again?
+
+3:39 - Cuan Mulligan Would it be useful if I gave you the overview?
+
+3:42 - Will Vincent Parrone Actually, even better. Yeah, you give me the overview, and then I ask you questions. I'll just follow you right now.
+
+3:50 - Cuan Mulligan So the point of this is to fundamentally provide content on a daily basis to users over a set period of time.
+
+4:06 - Cuan Mulligan That's basically it. So with that, we can create a program. A program has a start and an end date. A program could have a fixed start date. So let's say we might do a program that has an intake three times a year. So we are running the program three times a year. Or alternatively, it's a static program where if you sign up today, you can start this program. It's your program. You started on Monday.
+
+4:36 - Will Vincent Parrone Okay. Do the users sign in multiple programs?
+
+4:40 - Cuan Mulligan Um, that's a very good question. Yes, because we would have the basic program and we could have an advanced program and a very advanced program and level three, level four, level five, level six. So you can have multiple programs over time. Um, we would have, that's a, that's a good point actually. Um, Let's take this and add it in here. Challenges program also has progression of a one, two, three, four, something like that.
+
+5:26 - Cuan Mulligan But I think you can only do one at a time.
+
+5:29 - Will Vincent Parrone One at a time, at least for our prototype, for the time being. Got it.
+
+5:37 - Cuan Mulligan Yeah. So a program has duration and calendar. Those challenges I'll come back to. I don't know if that's the right place for them. So they can start, that's not the right thing. So they can start at set dates by adapt or, We have a user-driven start, something like that. So does that make sense around the program element?
+
+6:17 - Will Vincent Parrone Yes, I can understand still.
+
+6:19 - Unidentified Speaker OK.
+
+6:23 - Cuan Mulligan Then again, this is an optional sentence. This is optional in that it doesn't have to be mandatory in every program. Um, so in the first eight week program, right, this is all about habit formation. So we will probably have a theme for the week. So week one might be all about habit formation. It doesn't actually really mean anything. Like it doesn't make, there's no rules that the LMS needs to implement because of this. It's just a, it's, it allows the agents to understand where they are in the overall program, what the theme of the week is.
+
+7:04 - Will Vincent Parrone Okay.
+
+7:05 - Cuan Mulligan So it's a grouping construct, that's all it is.
+
+7:10 - Cuan Mulligan A week may have an event, like a live event scheduled, but we will run that event outside the LMS, but we might just be able to talk about it. Like, if someone was looking at the calendar, they would see that there is an event, but the event isn't, we're not asking for the LMS to orchestrate that event, if that makes sense.
+
+7:31 - Will Vincent Parrone Okay.
+
+7:34 - Cuan Mulligan A question for you. If I, as the admin person, want to send everybody a message, like, hey guys, sorry, we're gonna have to shut the service down for Sunday to do a release, something like that, and that message was to go out to everybody's chat, would that be something in the LMS or would that be something in admin?
+
+7:55 - Will Vincent Parrone I think that can be something in admins. Do you want some kind of a notification?
+
+8:03 - Cuan Mulligan Yeah, from the owners, from the founders, the message from us.
+
+8:11 - Cuan Mulligan That's something in admin.
+
+8:14 - Will Vincent Parrone Okay. Can you let me know what's the end goal of this? Why is there an assumption that it is in the LMS, like the notification?
+
+8:24 - Cuan Mulligan I'm asking you if it's in the LMS. I wasn't saying it was. I was asking the question, should it be?
+
+8:31 - Will Vincent Parrone Okay, okay. Misunderstood it. Thank you for clarification. Yeah, but that sounds like an admin thing.
+
+8:57 - Cuan Mulligan Let's put that there for now, okay.
+
+9:02 - Cuan Mulligan So we're clear for now?
+
+9:05 - Will Vincent Parrone Okay, yeah. So we basically just went through weekly themes.
+
+9:11 - Will Vincent Parrone With regards to weekly themes, the question I'd like to ask is when does a week start? Is it up for the admin to decide or is it like we have a set start of always Sunday or something like that?
+
+9:30 - Cuan Mulligan I think that's something that needs to be set in the admin panel for a program.
+
+9:35 - Will Vincent Parrone OK.
+
+9:39 - Will Vincent Parrone So a weekly team will also have its duration, got it.
+
+9:44 - Cuan Mulligan Start day under program.
+
+9:48 - Cuan Mulligan Most likely, certainly for the first 8B program, it's a Monday to Sunday cadence.
+
+9:54 - Unidentified Speaker Mhm.
+
+10:02 - Cuan Mulligan Um.
+
+10:07 - Cuan Mulligan I understand what we have to do here. It's annoying that comments don't go with the boxes.
+
+10:49 - Cuan Mulligan Okay, so let me explain this. So you come on to ADAPT, you sign up, it's a Wednesday and we say great. There's a number of things you need to do first. You need to confirm that you have your trainers, that you're able able to walk, that you've done your food shopping, that you've done X, Y, and Z, you're ready to go. That might take some people an hour, because they might have it all, and it might take people five days. Until they've done that, you can't start. So if you come in on the Monday and say, I've just got my trainers, I'm ready to go, we would say, well, OK, you've missed today's start window. You're going to start next Monday, which is fine. But if you came in on the Thursday and you have everything done, you can start on the Monday, no problem.
+
+11:41 - Will Vincent Parrone Oh, wait, wait, I think I might have to re-digest that. So basically, if what I'm getting, if what I'm understanding is correct, in each program, we have an onboarding process to something like a to-do list, right, that the user has to do. With regards to this activity, how do you visualize them happening? Like, for example, if we do just like a set of, you know, checklists, the user can just click, check, check, check.
+
+12:17 - Cuan Mulligan No, no, no. It's part of the onboarding conversation with the mentor.
+
+12:23 - Will Vincent Parrone Oh, so basically, okay, okay.
+
+12:25 - Cuan Mulligan So the mentor agent will go in here and saying, so Will is on the basic, on the program level one. Level one has this criteria to start. The mentor agent will then work with that user in order to get that checklist done.
+
+12:45 - Will Vincent Parrone That might. OK. I would have to connect with Chinmay on this one with regards to the mentor agent, but
+
+12:56 - Cuan Mulligan Yeah, I mean all that's all that would be in the LMS is a checklist.
+
+13:01 - Will Vincent Parrone Okay.
+
+13:02 - Cuan Mulligan And then how that's manifested and tracked is up to the mentor agent.
+
+13:07 - Will Vincent Parrone Okay. Okay.
+
+13:10 - Will Vincent Parrone And then we start the program proper after the onboarding, right?
+
+13:14 - Cuan Mulligan Yeah. Now they could lie and say, I have all of that stuff ready to go today. We're not looking for, we're assuming people are telling us the truth, so we're not trying to do any validation on that.
+
+13:25 - Will Vincent Parrone Precisely. That's what I'm worried about too with the onboarding, but yeah. For the sake of the argument and the prototype, let's assume they're telling the truth.
+
+13:36 - Cuan Mulligan Yeah. These aren't prototypes.
+
+13:39 - Will Vincent Parrone I mean, this is a live product. Yeah. Sorry. Sorry. For the sake of like the product moving forward, we assume for now.
+
+13:51 - Cuan Mulligan Yeah. We were assuming positive intent from people. We're not looking to try and challenge that.
+
+13:55 - Unidentified Speaker Correct.
+
+13:59 - Cuan Mulligan Okay. So you ready to move on?
+
+14:01 - Will Vincent Parrone Yep. Ready to move on.
+
+14:02 - Unidentified Speaker Okay.
+
+14:03 - Cuan Mulligan So, um, with all of these things, this is my assumption at the moment. And as we use it, or as you build it, you may suggest things that might need to change. But the idea, the idea is that on a daily basis, um, maybe to show you this, where is this conversation? Can you see? Where I am now? Yes.
+
+14:34 - Will Vincent Parrone I'm following you right now.
+
+14:37 - Cuan Mulligan This is an example of a daily conversation. So you get a notification or you come into the app and you have this quote. So we are what we repeatedly do. Excellence then is not an act, but a habit. And there's a message saying, hey, morning, Carl. Welcome to day 10. Today we're going to focus on the killer skill of forming new habits. So the day we're on would come from the LMS, where the user is. And the skill of forming new habits would be the topic for the day.
+
+15:09 - Cuan Mulligan Actually, that's a very, where is the LMS gone?
+
+15:24 - Cuan Mulligan Daily content has a type. It has a topic.
+
+15:34 - Cuan Mulligan It has a daily team.
+
+15:44 - Will Vincent Parrone OK.
+
+15:50 - Will Vincent Parrone Is the daily team optional, like weekly team? No. OK.
+
+15:59 - Cuan Mulligan There has to be a team for the day.
+
+16:00 - Unidentified Speaker OK.
+
+16:03 - Will Vincent Parrone And this is set by the admin, right?
+
+16:05 - Cuan Mulligan Yeah. Yeah. All of this is set by the admin.
+
+16:08 - Will Vincent Parrone Okay.
+
+16:10 - Unidentified Speaker Sorry.
+
+16:10 - Cuan Mulligan Where have I gone? Okay.
+
+16:12 - Unidentified Speaker Okay.
+
+16:15 - Cuan Mulligan So this is just another example saying, Oh, I forgot to enter my data yesterday, blah, blah, blah. We don't need to do that for here. And then it goes to Sonya is one of the founders. Sonya has a quick message for you to get your day off to a great start. Watch it here. So this would be a recorded video that comes in from the LMS, which is what we're calling it is the good morning message. Just a video, just a video. Again, from your point of view or the LMS's point of view, it doesn't really matter. It's just a video.
+
+16:46 - Cuan Mulligan Then there's, yeah, so there's like some, notifications around milestones, potentially there's some data capture around bedtimes. And then we have the next piece of content, which is the bottom line video. So this is the main piece of content every day that if they consume all of the content, then they're going to get a better mind score because we're helping their mindset. This is the educational piece. And there may also be an article for them to read. There could be a link we send them to, to a website, you know, stuff like that. It could be a blog post on our website for them to read something like that.
+
+17:34 - Unidentified Speaker Okay.
+
+17:41 - Will Vincent Parrone Okay. I can still, I'm still hearing you.
+
+17:45 - Cuan Mulligan Yeah.
+
+17:50 - Cuan Mulligan And then there's more daily updates. And then, yeah, that's just the whole daily process. So if I go back now to the LMS, so you have content that has, it could be text, it could be video, it could be an audio, docs, links, worksheets. Actually, it also could be an image. Image is missing.
+
+18:25 - Cuan Mulligan There is a drip fed, so it's not available till the date. It has a shelf life. So you release it on the Monday, and it may be available to the user for three days, and then it disappears.
+
+18:44 - Unidentified Speaker Yeah.
+
+18:47 - Will Vincent Parrone Content. I know.
+
+18:52 - Will Vincent Parrone So basically, the drip fed and shelf life is basically the start and end dates, right?
+
+19:02 - Cuan Mulligan Of a content.
+
+19:05 - Will Vincent Parrone Or other dates of availability.
+
+19:09 - Cuan Mulligan Yes.
+
+19:13 - Cuan Mulligan And then a piece of content can be scheduled. So for example, the quote could be First thing in the morning, so that's available from 6 a.m. For example.
+
+19:30 - Cuan Mulligan I need to move some of these on. Conditional of other content first.
+
+19:47 - Cuan Mulligan So I'm just trying to move your thing down here.
+
+19:52 - Will Vincent Parrone Yeah, put it a little bit away. That's basically for me while I'm conceptualizing everything.
+
+19:57 - Cuan Mulligan Yeah. So you could have, for example, what you don't want to wake up in the morning is you come in, you've got the quote, the morning message, the daily message. You don't want to spam the user. This is supposed to be a simulated conversation with somebody over the day.
+
+20:22 - Unidentified Speaker Uh-huh.
+
+20:24 - Cuan Mulligan Are you making me yawn now?
+
+20:28 - Will Vincent Parrone Sorry.
+
+20:29 - Cuan Mulligan Yeah, so you can schedule content. So this first, second, schedule conditional sequence. So this content, then this content, then this content a day.
+
+20:40 - Unidentified Speaker OK.
+
+20:43 - Cuan Mulligan These things were supposed to be examples. So text could be the daily quote aligned to the team. The quote might also be an image.
+
+20:54 - Cuan Mulligan Links, just URLs, docs, things to read, PDF, PowerPoint. Don't need that, that doesn't make sense. Audio is an audio file, video is a video file.
+
+21:08 - Cuan Mulligan Yeah, worksheets. This was an idea of like a PDF, something to fill in. I think we'll, We'll park that for now. And what we would do is, if there's a worksheet, we will create something on the website and have a link to the website, as opposed to having anything in the LMS. I think it just becomes too complex.
+
+21:33 - Cuan Mulligan OK.
+
+21:34 - Will Vincent Parrone I have a question. Since we're here in the daily content already, Do we have content that once you display it once, you're never supposed to show it again? Like, can only be viewed once? Like, for example, the way I'm thinking about this is, if I received already the morning message, I don't want to receive it again, right? Like, that's my logic. So does that same logic apply to other daily content?
+
+22:13 - Cuan Mulligan Possibly, remember, this is going to be a chat, so I could just scroll back and I might want to see it again. But some of the videos I might want to see again as well, like the, you know, there's the chat, but there's also in your profile, you can look at the program in terms of where you are. And I might want to go, what did we do last week? And refresh myself on that content. That's the idea here of having a shelf life for how long that piece of content is available. So something might be available for the entire program. Something might just be available for that week. And some of it might be available just for that day.
+
+22:52 - Unidentified Speaker Correct. OK.
+
+22:56 - Cuan Mulligan So for example, the quote's probably going to be available for the whole program.
+
+23:02 - Cuan Mulligan some videos to create some sense of urgency for people to say, this video is only going to be available for the next two days. You need to watch it. Once it's gone, it's gone.
+
+23:14 - Will Vincent Parrone Got it.
+
+23:23 - Will Vincent Parrone And I believe, lastly, the tags, they're pretty self-explanatory already, right?
+
+23:29 - Cuan Mulligan Sorry, which switches? Say it again?
+
+23:33 - Will Vincent Parrone I just need to put a tag in each daily content, whether they're related to eating, moving, the mind, and sleeping, right?
+
+23:41 - Cuan Mulligan Yeah, I mean, in theory, every piece of content could be tagged against all four. So you could have a piece of content that's eat, move, mind, and sleep.
+
+23:52 - Will Vincent Parrone Ah, so multiple tags per daily content should be the norm. OK.
+
+23:59 - Cuan Mulligan The reason being is that this is more for the agents to be educated about what ADAPT is. And it says, oh, so this is move content. And if someone has a question, they could go into the LMS and say, give me all the educational videos for movement or habits or whatever. Now, we might want to tag up content beyond these four.
+
+24:21 - Cuan Mulligan And then free text. So if someone says, can you show me all the content for, like, I'm really struggling with new habits. So everything that we've tagged as a habit, or maybe we don't need tags, by the way, because maybe the LLM can actually work that out for a space in our content.
+
+24:43 - Cuan Mulligan This tagging is a legacy. It's how we would have done it like 10 years ago. So I would speak to Jonas to say whether this is actually needed because maybe the agent will just understand it.
+
+24:57 - Will Vincent Parrone OK.
+
+25:13 - Will Vincent Parrone Anything else? Okay, let me try to review You wrote something here in admin in section 7 down here. What does this mean?
+
+25:32 - Cuan Mulligan Okay, it's not Well, I was gonna start going in to doing all the admin controls but the admin needs to allow me to do all of that so I didn't I stopped specifying it because I You'll figure it out.
+
+25:47 - Will Vincent Parrone Yeah, it's basically like common sense that everything should be controllable with admin. OK. Yeah.
+
+25:59 - Will Vincent Parrone Is it OK if I view this for about a minute or so, just to make sure I don't have any questions?
+
+26:05 - Cuan Mulligan Yeah, of course. Fire away.
+
+26:07 - Will Vincent Parrone OK.
+
+26:10 - Will Vincent Parrone Ok. Here in the events and live session, I believe your goal here is to have like the customers engage with the human agent, right?
+
+26:27 - Cuan Mulligan A human- Yeah, so we might do a group call on Facebook. We're planning to do a live session once a week, a live call. Again, all that might be is a URL to a Facebook call or a Teams call or a Google Meet with a schedule. And so the agent would know, oh, upcoming events, and it would promote it. The agent, the mentor, would basically be telling you about it. So it's a schedule of events with a URL.
+
+26:55 - Cuan Mulligan So we can actually get rid of live session. Live session and events are the same thing.
+
+27:00 - Will Vincent Parrone Ah, thank goodness. I was actually a little bit confused there, too.
+
+27:06 - Cuan Mulligan We didn't talk about challenges. So let me explain the point of challenges, and you can tell me where you think the best place for them to go is.
+
+27:14 - Will Vincent Parrone Okay.
+
+27:15 - Cuan Mulligan So if someone's doing really well, um, we might go, we think you are able to do something like take on a challenge, a challenge sort of sits parallel to the program. It's undetermined when like you don't, you, you may, you may do the program and never see a, never get offered a challenge.
+
+27:37 - Unidentified Speaker Okay.
+
+27:39 - Cuan Mulligan An example of my challenges. So generally we ask people to walk, um, An hour, oh fucking hell, hold on a second. I've just forgotten. Daily content, daily actions. I completely forgot this. Whoa, okay. We've got to come back to that in a second.
+
+28:05 - Cuan Mulligan So the idea is that we're asking people to walk an hour a day.
+
+28:11 - Cuan Mulligan and hit their calorie targets and watch all the content. That's their actions that they need to do on a daily basis to be considered good.
+
+28:22 - Cuan Mulligan A challenge might be, you know, you're doing really, really well. I think you can take it up another level. So we want you to start having cold showers. Start with the first three days is 10 seconds and you work your way up to a 30 second cold shower every day. That could be a challenge. Another challenge might be to do a 10K. A really big challenge, if you've lost loads of weight, would be to do 5K, but with a bag on your back with the weight that's missing. So let's say you've lost five kilos. Now you're going to do a 5K with five kilos on your back, so you can remember what it was like to carry that extra weight.
+
+29:04 - Will Vincent Parrone Ok.
+
+29:05 - Cuan Mulligan So these are just challenges that we haven't made up yet. That we'll work with the AI to figure out when we might offer them to people. So there will be eating, moving, mind, and sleep challenges.
+
+29:20 - Cuan Mulligan I think they're part of the program because they're not necessarily explicitly linked to a week or a day. It's something that the agent will decide, the mentor might decide, hey, would you like to take on a challenge? And they might go, no. Fine.
+
+29:39 - Will Vincent Parrone Okay. Okay. Wait, before we go to the challenges, I think challenges are deeply related to daily actions. So they're not, is it? Okay. They're not.
+
+29:51 - Cuan Mulligan I don't think so. No. How's having a coat? Well, I suppose it's a new type of daily action.
+
+30:01 - Will Vincent Parrone Yeah.
+
+30:01 - Cuan Mulligan Because if I get gone, you're not going to do a 10 K every day. It's a one-off challenge.
+
+30:10 - Will Vincent Parrone Oh yeah, Fairpoint.
+
+30:13 - Will Vincent Parrone Okay, let's see.
+
+30:17 - Cuan Mulligan Now the daily actions, I don't know whether they're part of the LMS or they're part of the agents, but daily actions, I need to move the LMS on a second.
+
+30:35 - Cuan Mulligan Why is that not moving?
+
+30:50 - Cuan Mulligan So daily actions would be walk time, you need to walk a certain amount of time, eat, which could be calorie or Low carb.
+
+31:38 - Cuan Mulligan Sleep is just tracked.
+
+31:45 - Cuan Mulligan mind is consume content an example so these things are are in yellow because I don't know if they live in the LMS or they live elsewhere. And that's something I think you need to catch up with Jonas or George on in terms of what the right architecture is.
+
+32:17 - Will Vincent Parrone Yeah, I feel like structurally this has the same idea as check-ins do right now. But I'm guessing there's a little bit of a difference. In terms of how it's calibrated, but I need to have a meeting with them about this. I'm not confident that this is related to LMS. Yeah, it needs to be somewhere.
+
+32:46 - Cuan Mulligan It might be an admin in the LMS.
+
+32:51 - Will Vincent Parrone Okay. Just to make sure, I want to know the intentions behind this. So you want daily actions because you basically want to record whether the user that we have is doing something that's good for their health, right? Like walking, eating properly, sleeping properly, and consuming good content. Is that correct?
+
+33:16 - Cuan Mulligan The, you know, if you ask the question, what does it mean to do this program?
+
+33:24 - Cuan Mulligan If you're not walking and you're not eating differently and you're not consuming the content, you're not doing the program.
+
+33:33 - Cuan Mulligan So the LMS is the LMS is only content at the moment. The program is beyond that. It's like, how do you walk? So the eat, move, mind, sleep. Actually, that's not walk. That's move.
+
+33:46 - Will Vincent Parrone Okay.
+
+33:47 - Cuan Mulligan So Eat, Move, Mind, Sleep are the four pillars of ADAPT, and you need to be doing stuff across those four pillars in order to change how healthy you are, basically, to invest in your longer-term health. So what do we mean by move? Well, you've got to walk an hour a day. I mean, this is basically the fundamental ADAPT program in the first. So if you're looking at the level one program, This is the intention behind, this is the core aspect of, this isn't here, this is the program. The program, so, has a duration, it has challenges, and I think this now needs to move here. Because a program has intentions, has actions.
+
+34:44 - Cuan Mulligan And these all go over here now.
+
+35:02 - Will Vincent Parrone OK.
+
+35:04 - Will Vincent Parrone Okay, I understand where you're getting at. So basically, like, the whole goal of ADAPT is basically for people to actually do stuff and not just to like consume content and...
+
+35:16 - Cuan Mulligan Exactly.
+
+35:17 - Will Vincent Parrone And what?
+
+35:18 - Unidentified Speaker Okay.
+
+35:19 - Cuan Mulligan Yeah, we're not interested in people just consuming content. If they haven't, if they're not walking and they're not actually changing their reasoning, nothing's going to change.
+
+35:25 - Will Vincent Parrone Okay, okay.
+
+35:42 - Will Vincent Parrone Yeah, I'm gonna have a meeting with George and Jonas later about this.
+
+35:47 - Unidentified Speaker Perfect.
+
+35:50 - Will Vincent Parrone Now, back to the challenge.
+
+35:53 - Cuan Mulligan None of this is new. I think it's just trying to find where it gets explicitly defined. Is it in the LMS or is it in admin?
+
+36:05 - Will Vincent Parrone Yeah, okay.
+
+36:06 - Cuan Mulligan Yeah.
+
+36:13 - Will Vincent Parrone And for the challenges, basically, if the user does a lot of stuff, you want to provide them with a challenge. Like, for example, the user is consistently walking one hour a day. You basically want to tell the user, hey, since you're doing this already consistently, why not try jogging for 15 more minutes on top of it to improve your Yeah, going back to your point, it's a progression.
+
+36:43 - Cuan Mulligan It's a progression of the actions, I suppose.
+
+36:46 - Will Vincent Parrone OK.
+
+36:49 - Will Vincent Parrone OK.
+
+36:52 - Will Vincent Parrone So. Then we probably.
+
+36:58 - Cuan Mulligan should have levels like for example here in this move in move we have levels one maybe but my concern is for example if we say to somebody hey how do you feel about taking ice baths or how do you feel about doing a breathing exercise um they're not progressions of anything in the baseline they're just new challenges ah okay okay that's why they are a separate entity from the actions itself? I think so.
+
+37:37 - Will Vincent Parrone Okay. I don't have any questions. I think that you can answer. A lot of them is on the architectural side of it already. Okay.
+
+37:51 - Will Vincent Parrone Oh, no, no, no. Let me undo. Okay. This seems like a pretty productive meeting. Do you have questions?
+
+37:58 - Cuan Mulligan No, not at all. That's really good.
+
+38:01 - Will Vincent Parrone Okay. Pretty good meeting. Would you like a copy of the summary or no? No, no need. I'll just leave it with them.
+
+38:08 - Unidentified Speaker Okay.
+
+38:10 - Cuan Mulligan Perfect. Thanks a lot.
+
+38:12 - Will Vincent Parrone Short meeting. Have a nice day. Bye-bye.
+
+38:14 - Cuan Mulligan You too. Bye.

@@ -1,0 +1,176 @@
+Meet Meeting 
+Wed, Jun 5, 2024
+
+0:09 - Cuan Mulligan Let me let me show everybody can see my screen All right, I can see it Okay, cool. So, um, I sort of took this as inspiration. I to be honest, I I Didn't know how to read it. It needed it felt like it needed a voiceover But what I did was I've taken this as inspiration to do my own version. Not necessarily saying this is what it needs to be, but as a way of trying to understand what I think it was trying to achieve. So the idea here is that you have, um, a user message and then you'd have the adapt response so that the user sees the context and then add a question as like, does the user need to see more than one message to understand the context of what we're engaging with? And then what I think you're trying to, or we're trying to say is, okay, what was good about the response? What was wrong with the response? What was missing? Do I want to restrict knowledge? So for example, let's say the message was, give me a recipe for 500 calories, as an example. If there's something to do with recipes, we might want to restrict that to some specific content in our knowledge base, as opposed to the entire LLM data. And then follow on is, this would be where we would want you to take the conversation forward. I just made all of these up, by the way. You might go, that's not the way it works. And then I was thinking, as we train this, we may want to have new categories or rows. So this would just be a new row where you'd have a label and then a content. So am I correct in thinking that all these things, all these are just doing is creating a prompt that then goes into the system and there's just, don't do this, but do do that. Is that broadly sort of how it does?
+
+2:18 - Jorge Lewis Yeah, exactly. So how familiar are you with Reg? You mentioned it, you brought it up last time.
+
+2:26 - Cuan Mulligan I know the concept, I've obviously never built it or applied it.
+
+2:30 - Jorge Lewis All right, so just an overarching view. So RAG, it converts a document like you described last time into a vector database. That part's not important. But what it does is when you ask it a question, it'll query that vector database for something similar, as similar as possible. And it'll just add that piece of text to the prompt and then reply based on that. So what we're going to do is going to use RAG for examples. So we're going to make a large document full of examples. We're going to have one document perhaps for the good ones and one for the correct ones. And for the correct ones, it's going to be all the data you pretty much listed. Well, right now the data we're thinking of using is the
+
+3:08 - Jorge Lewis Usually, we're still debating whether it's going to be better to provide more context, so more than one message prior, but at least the last message. So in this case, when should I take showers? And then the ideal response. The interesting thing is that language models don't perform well at all if you provide an example of a bad response, which is kind of a nuisance, but oftentimes what happens is if you get a bad response.
+
+3:35 - Cuan Mulligan What do you mean by a bad response? Like you don't, so you don't tell us what not to do. You tell us what it needs to do.
+
+3:42 - Jorge Lewis Yes, yes, exactly. Right. So, so in, in our, in the data that we'd be giving it, like in the example data that we'd be giving it, we don't want to include the bad response. We can try experimenting and see what happens, but from our experience, that always doesn't end up well. Um, So we're able to fit more data just by skipping that part out and providing the ideal response.
+
+4:04 - Cuan Mulligan So what's the difference between good and corrective?
+
+4:10 - Jorge Lewis So this corrective was just us trying to make it not seem negative. Those are the bad examples.
+
+4:17 - Cuan Mulligan So the context is for both of them. So the bot says things, user goes, when should I take showers? So what we don't know is what did the bot say to that question?
+
+4:29 - Jorge Lewis So we do. What the bot responded was, once a month is good. So that's where it went from Okay, and then the bad because like in the next in the what you showed me is In essence that your one is actually more well-informed, but it's just give a reason why it was bad It could be the reason it could be it's it hallucinated information. It didn't take into account the users chat history it's it It was insensible like these things like this and over time after you complete a couple of examples You'll be able to create like standards of just copy and paste this reason this reason this reason for a couple of prompts What does there does the reason what was wrong?
+
+5:15 - Cuan Mulligan Would that be better off to have a selector box of the reason why it was wrong hallucination? So it's controlled or is free text better?
+
+5:25 - Jorge Lewis I was also thinking about having like a dropdown for all of them. I think free text for now is good. Later down the road, if we switch it to a dropdown, like after we do free text and we see all of the options, then we can probably convert it to a dropdown. Converting the data isn't hard.
+
+5:38 - Cuan Mulligan So like if you do free text now and we can- Yeah, you probably wouldn't do dropdown because you're going to most likely have multiple selections because it could be this and this and dropdowns don't work. But you can just have a list out and you can just select all areas.
+
+5:51 - Cuan Mulligan Like hard code. Yeah.
+
+5:53 - Cuan Mulligan But just- So the reason why I wanted to do this, this sort of tries to tell a story. The user said this, you responded with that, and then we're giving you our judgment of whether that was a good, bad, or what we would have done differently.
+
+6:06 - Jorge Lewis But something to note, quite importantly, is that if you go back to the second slide.
+
+6:14 - Jorge Lewis Or well, the one before that, sorry. So in this one, what we're going to provide the bot at first is going to be the last, this is what I'm thinking, the last message. So when should I take a shower? And then the next line will be when your wife says you stink. That's what we'll be providing to the bot right now. The reason we're trying to collect the other data like context and bad response is for later down the road. If this, if the simple solution doesn't, isn't high quality enough, we'll be able to use this data that you're inputting later down the road. Even if it is good enough, we can still use the data you're inputting now, later down the road to even improve it further.
+
+6:52 - Unidentified Speaker Okay.
+
+6:54 - Cuan Mulligan Cause I, when I'm reading this screen, it doesn't, I don't understand how to read it. Because the context is universal to good and corrective. There shouldn't be a context that's for good and correct. There should be one context, and you're just giving it a, what went well, what didn't go well. I mean, so given what I've done, is this format something that we could work with? This sort of more--.
+
+7:23 - Jorge Lewis And the message I sent, the left and right form, those should be two different forms. We were just sketching it out, so I forgot to, I should have separated them.
+
+7:31 - Cuan Mulligan And what's this one? Is this basically the same?
+
+7:34 - Jorge Lewis So this is so to just to Go through with it. This is so if you click on the page Examples or something. This is where you get get led to the top two ones Those are the two tabs so you can pick which one you're viewing and then if you click on a row like of the open button For example, it'll open the form here like one of the forms. Yeah, not both of them.
+
+7:56 - Cuan Mulligan So basically this is this will be a list of responses It doesn't necessarily need to be a bad response. These are just a list of responses, because I'm assuming if a response is perfect, we might want to go more of this. This is excellent. Do this more.
+
+8:11 - Jorge Lewis That's what the ideal examples are for. So when you see something that's like a plottable, we want you to save it.
+
+8:18 - Jorge Lewis Yeah.
+
+8:20 - Jorge Lewis Yeah. So I understand. Correct me if I'm wrong, but I think this is pretty true. You want to be as implicit as possible with this bot. You want it to tell it how to behave, not how to respond.
+
+8:33 - Cuan Mulligan Yeah, so basically, you're saying more of this or less of this response. So each response comes in, and you're saying more of this, less of this, what was good about it, what was wrong, what was missing, restrict knowledge, follow on. And I think if you have that for every message, and then this page would just be a list of messages. And you have, was this something that you wanted more of or less of
+
+9:03 - Jorge Lewis So what we're, okay, I'll touch on that in a second. But what I was saying earlier was just the, to make it so by providing it examples, that's explicit, we're giving it explicit examples of something and then how to react to it. But then if we give them enough examples over time, it'll inherently understand more implicitly what it should be behaving as. That's what a language model is. It's just, if you provide it with a good context, it'll respond more like that. That's, in essence, what a language model is.
+
+9:38 - Cuan Mulligan Because you're basically saying, you know, something like this. This is a more. This is a more.
+
+9:48 - Cuan Mulligan This is less. Let's call this just red for now.
+
+9:58 - Cuan Mulligan which is basically just a list of, these are all the messages. And you're saying, this was a good one, good one. This was the last one. And so.
+
+10:09 - Jorge Lewis So is just that left column is supposed to be bots, right? Like bot message or? Those should be bot messages, right? Yeah. Yeah.
+
+10:21 - Cuan Mulligan Now, what becomes potentially interesting is filtering these by the different types of message. Was this a nudge? Was this about eating, mind, sleep? There might be subsections of where it's struggling or doing really well. So eat messages, mind messages, nudges, reminders, check-ins. There will be different categories of these as well.
+
+10:52 - Jorge Lewis Not yet, but we're actually, for the bot, it's going to be a combination of LLMs or, it's gonna be a combination of bots behind the scene. It's going to, but behind the scenes, it's going to be multiple bots. Each bot is going to be dedicated for one thing. And we're gonna have a thing called a router, which makes sure that Or it's gonna check the message and say which bot is best fit answer this message so for example, one of the bots will be the check or one of the Personas they'll all have the same personality. It'll act like the same person, but it's going to have different behind the scenes like functionalities yeah, one of them is going to be for Doing the check-in one of them is going to be for motivation. One of them is going to be Analyzing the the behavior or the tracking data that's going to be doing that. So behind the scenes, that's what it's going to be doing. So that way, we're going to have much more fine-grained control over the prompts of each microbot or module. And then, yeah.
+
+11:59 - Cuan Mulligan So this is what I've done up here on the top is there is going to be topics for conversations. So maybe they were talking about something to do with eating, or sleeping, or moving, or the mindset, or coaching, or nudges, or data tracking. So they would just be groups of these chats. And so we would filter by that, because in theory, each one of those blue boxes responds to a microbot or a microagent, which is focused on a particular area.
+
+12:27 - Unidentified Speaker Cool.
+
+12:29 - Jorge Lewis But OK, let's backtrack a bit. Let's stay on the topic of the other ones. So the user interface that we're thinking what we're going to do is have it so that you cop. So if you go back to slide two. Here, the context is going to be, there's flying ants everywhere.
+
+12:51 - Jorge Lewis So we were thinking you're going to copy the text from the chat room and then paste it into here for the examples that you think are good or bad.
+
+13:02 - Jorge Lewis But the way you've described your solution makes it sound like you really want to be grinding these out, right? Like for every single message.
+
+13:12 - Cuan Mulligan I mean, what you could have then, let me just see if I understand. So this is a record of, I mean, let's say this is the last, this is just a log of all of the messages.
+
+13:27 - Cuan Mulligan And I would, actually, let me just get rid of that. And let's say these are going to just go into Amber.
+
+13:35 - Cuan Mulligan And then here is, I'm just going to call it process. I've got no idea what that means yet. So there's a page here of all chats. This is just an audit log of all chats. And I'm going, right, OK, this one here, I don't know this one. I'm going to process this. I process it. It takes me to this page.
+
+14:02 - Cuan Mulligan Once I've saved it, it will be available here in process chats. So let's say this one I've done wrong. It's actually it's overly influencing it I can obviously go in and edit it or I could delete it. But this is basically a list of unprocessed chats. I see Would you be able to filter this by topic? Would we do this by user? Maybe because it could be as we scale the users that could be quite noisy. But yeah, I mean you could Do you know this? This is all obviously not necessarily for day one, but I think it just gives an idea. So this is by user.
+
+14:37 - Jorge Lewis It's good. It's good. Yeah. Let me think.
+
+14:41 - Cuan Mulligan By date. And then these are topics.
+
+14:58 - Cuan Mulligan This is just basically some filtering.
+
+15:05 - Jorge Lewis Something like that.
+
+15:06 - Jorge Lewis I think, OK. All right.
+
+15:11 - Cuan Mulligan I think that's the flow in my head, where you've got a list of all chats. We decide which ones we want to pick up to process. You process. You go in here. You figure out what's good, bad, more of this, less of this, whatever the right feels are. And then this would be a page of reviews.
+
+15:32 - Jorge Lewis So like the screenshot I sent, the second one I sent, right? Like that one. It's going to be the exact same as what I sense under slide three.
+
+15:41 - Cuan Mulligan So slide three, yes. With a few different fields, but yeah. Yeah, OK. That's the same as this one here with the 10.
+
+15:48 - Jorge Lewis Yeah, gotcha. So OK, so that part's good. The list, the viewing them and managing them is just CRUD. So just being able to add, remove, and yep. Yeah, the the one that's more concerning is the other one. So the other one three, so So for three, yeah, so three before you process There's a couple that's just same as this page from a UI point of view. It's just unprocessed ones yeah, so from the from the UI point of view, but there's a couple things that I'm The number one concern is context. Right now, we most likely will not be using anything other than the direct message before it, or the series of messages before it, since the last bot's response. But later down the road, we might require context for the bot to be able to use the data more efficiently. And to just solve that, we could add a buffer of negative 10 to just get the last 10 messages.
+
+16:50 - Cuan Mulligan It depends on where do you pull the thread on a conversation, because actually the seventh response to the sixth message might actually be really dependent on the first question. So the context might actually be all messages. It's not just one line.
+
+17:08 - Jorge Lewis So I think the best we can do for storing context for data, it's just purely data store or data managed for long term, is to just get the previous 50 messages or maybe that's too much, but we can shorten it, but we'll never be able to give the data once it's gone through this system. So probably 50 just to start. And then the other concern is that if you're looking through it here, it's going to be, if you're looking, so let's suppose this is just an unfiltered chat log for all the users. The first message and the second message might not, like, you might require some context to understand if a message is, if the response is good. Obviously, we need the, for sure, we need the message before and then the bot's message.
+
+18:00 - Cuan Mulligan Yeah, but the messages here would always have to be at minimum by user, because these are conversations. So the conversation that I have is contextual. I can't just see a stream of every single message by time. That would make no sense. So by user is a default grouping. You could only ever see a conversation by a person. You wouldn't be able to see it by everybody. That would make no sense.
+
+18:30 - Cuan Mulligan So it's always at least one user. And you can just filter by user. And then days could be today, tomorrow, all time. And then you have by topic. So these are the three. Actually, I was clicking on the wrong screen. So those three at the top are actually the, let me just move these all the way over there.
+
+19:05 - Cuan Mulligan So that's that date, let's call that purple, and let's call this pink. So those topics are, the blues are just topics. By date will be by date, and by user, by user.
+
+19:27 - Jorge Lewis Yeah, that could work.
+
+19:29 - Jorge Lewis These are just filters on the chats.
+
+19:32 - Jorge Lewis Yeah, then the concern would be how do we check if the response has been added already, if that specific response.
+
+19:44 - Jorge Lewis What does that mean? Say that again.
+
+19:47 - Jorge Lewis So, okay, let's say you're reviewing one user's chat log and there's A bad example up here and then another bad example down there. You want to mark, you want to be able to analyze them both because you don't want the first one to happen and you don't want the second one to happen. And to, to, we can't do them at the same time because the LLM would be, that'd be too confusing for it. So we're using this system. Hmm.
+
+20:20 - Jorge Lewis Okay. Okay. So for each bot message, we'll just add a property for if it's been, um, reviewed or not.
+
+20:32 - Cuan Mulligan Yeah. But are you saying like, there's one, one, the first problem is scope. Like if I've had a 15 minute conversation with the boss, right. You could basically say a conversation is the first boundary. And a conversation is something that has had, I'm being crude now, but let's say if there's been no updates in five minutes, let's consider the conversation finished as an example.
+
+21:05 - Cuan Mulligan Or if you said, has the question been answered? So there'll be some level of discernment that a conversation is finished. So within a conversation, you could have good things and bad things. So you might want to, let's say there's 25 messages in a conversation. There might be bits of the conversation that you want to reinforce as positive. And there might be bits of the conversation that you want to reinforce as corrected, needs to be corrected. So by that, within a conversation, you might need to be able to break it up into sections and go, right, this bit is good, this bit's corrective.
+
+21:48 - Cuan Mulligan But I don't think you want to be able to have a piece of the conversation being identified as both good and corrective. So therefore, a sentence Let's say, Converse, that the lines 20 to corrective, but they need lines one to 10 context.
+
+22:11 - Jorge Lewis I think it's actually, for us, it doesn't sound like it makes sense, but I think it would, because LMs are really good at being very tunnel-visioned. So if we're telling them very strictly, here's the context, which includes entire conversation, and then reiterate, this is what we're looking at, they won't learn from the context. They'll be only focusing on the example we're referring to, the corrective or good one.
+
+22:42 - Cuan Mulligan Yeah, I mean, maybe actually you look at the conversation and you are able to say, the introduction was really good, but the second half of the conversation was bad, or it could have gone better.
+
+22:58 - Jorge Lewis Yeah. So I think now that we're separating each bot into different, or let's make a term here. So we have the chatbot.
+
+23:10 - Jorge Lewis let's call them modules. So in this case, we have the sleep module, the move module, nudges, blah, blah, blah. Each one should have its, they're all going to undertake the same personality and the same tone of voice. There are so many, there's the answer falling out of my hair now. They're all going to take the same personality prompts, all of the human prompts, and then the rest are going to be more specific. That way, we get a lot of fine-grained control, and we don't have to do what we're explaining here, where we have to say, in this conversation, the intro was good, but this one wasn't. We just have to say, this response was unacceptable. This is how we fix it. But yeah.
+
+23:51 - Cuan Mulligan So there's probably going to be some form of base prompt, which is tone. I don't know.
+
+24:07 - Cuan Mulligan brevity, like do we do verbose, non-verbose? And again, this could be by topic, it could be, you know, we can refine the base prompt, which is available for everything. But again, there's also We talked about one person being responsive to an Arnold Schwarzenegger in your face personality, as opposed to the cheerleader. So that would just be, a user might choose that, but that's something for later. I don't think that's part of the first, what we're doing today.
+
+24:43 - Jorge Lewis Actually, I think it might be better on our side, we're going to do that to help us. Because right now, to be able to test some of the things we're implementing, we need to test the bot. And of course, if it's telling us absolute horseshit, then it's useless. So we're actually going to kind of start you off and provide some prompting. So I guess we can start with that.
+
+25:09 - Jorge Lewis I can't say his name. We'll start with, we could try his personality.
+
+25:12 - Cuan Mulligan Okay.
+
+25:15 - Jorge Lewis Yeah. Um, yeah, for the, for the UI, I'll run it again. Um, on, have you, have you used Excalibur by the way?
+
+25:26 - Cuan Mulligan Have I used what?
+
+25:28 - Cuan Mulligan Excalibur.
+
+25:30 - Jorge Lewis No, what's that?
+
+25:31 - Jorge Lewis Nah, it's like a... It's a whiteboard, I guess.
+
+25:36 - Cuan Mulligan Yeah, we use Miro and stuff like that.
+
+25:40 - Jorge Lewis Okay. Excalibur, I really like it because it has a perfect blend of features and simplicity, because the other ones are just too... They have too much features, so if they feel, like, too bloated and slow, this one helps me because it doesn't align things and give you the grid lines and everything, which is good, because if not, I spent too much time trying to align things and all that.
+
+25:59 - Cuan Mulligan Okay, I'll have both of them.
+
+26:01 - Jorge Lewis Yeah, so that's what I'm going to use. So I'll make, I'll make another little mock-up and then give it to you and we can double check that.
+
+26:08 - Cuan Mulligan I need some food.
+
+26:10 - Cuan Mulligan Yep. Sounds good, man. Take care. Good night.
