@@ -21,7 +21,7 @@ dotenv.load_dotenv()
 
 api_key = os.getenv("SWEDEN_AZURE_API_KEY")
 
-def global_search(query: str)-> GlobalSearchResult:
+async def global_asearch(query: str)-> GlobalSearchResult:
     """
     Search a knowlege graph for a given query using the global search technique.
     The configuration for the local search is loaded from a local config file
@@ -84,7 +84,8 @@ def global_search(query: str)-> GlobalSearchResult:
     )
 
 
-    result = asyncio.run(search_engine.search(query))
+    result = await search_engine.asearch(query)
+    
     return GlobalSearchResult(
         query=query,
         response=result.response,

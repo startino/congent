@@ -1,6 +1,6 @@
 root:
-  input_dir: "./knowledge_graphs/pair_programming_old/artifacts"
-  lancedb_uri: "./knowledge_graphs/pair_programming_old/artifacts/lancedb"
+  input_dir: "./knowledge_graphs/readai_aug_8/"
+  lancedb_uri: "./knowledge_graphs/readai_aug_8/artifacts/lancedb"
   community_report_table: "create_final_community_reports"
   entity_table: "create_final_nodes"
   entity_embedding_table: "create_final_entities"

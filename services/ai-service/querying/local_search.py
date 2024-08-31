@@ -33,7 +33,7 @@ dotenv.load_dotenv()
 AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-def local_search(query: str) -> LocalSearchResult:
+async def local_asearch(query: str) -> LocalSearchResult:
     """
     Search a knowlege graph for a given query using the local search technique.
     The configuration for the local search is loaded from a local config file
@@ -115,7 +115,7 @@ def local_search(query: str) -> LocalSearchResult:
         response_type=local_search_config["response_type"],  # free form text describing the response type and format, can be anything, e.g. prioritized list, single paragraph, multiple paragraphs, multiple-page report
     )
 
-    result = search_engine.search(query)
+    result = await search_engine.asearch(query)
     
     return LocalSearchResult(
         query=query,

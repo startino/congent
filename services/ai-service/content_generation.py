@@ -13,8 +13,8 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, START, StateGraph, MessagesState
 from langgraph.prebuilt import ToolNode
 from langgraph.prebuilt import create_react_agent
-from querying.global_search import global_search
-from querying.local_search import local_search
+from querying.global_search import global_asearch
+from querying.local_search import local_asearch
 from models import GlobalSearchResult, LocalSearchResult
 from psycopg.rows import dict_row
 from psycopg_pool import ConnectionPool
@@ -32,7 +32,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DB_URI = os.getenv("DB_URI")
 
 @tool
-def search_graph(query) -> GlobalSearchResult:
+def search_graph(query: str) -> GlobalSearchResult:
     """
     Search a knowlege graph for a given query.
     It uses an agent to search the graph and return the results.
@@ -43,8 +43,8 @@ def search_graph(query) -> GlobalSearchResult:
     
     """
     
-    global_result: GlobalSearchResult = global_search(query)
-    local_result: LocalSearchResult = local_search(query)
+    global_result: GlobalSearchResult = asyncio.run(global_asearch(query))
+    local_result: LocalSearchResult = asyncio.run(local_asearch(query))
     
     final_result = f"""
     The RAG Agent has returned the following results:
@@ -81,11 +81,15 @@ llm = openai_llm.bind_tools(tools)
 
 inputs = {"messages": [("user", "what OS does jorge use")]}
 
-config = {"configurable": {"thread_id": "1"}}
+config = {"configurable": {"thread_id": "4"}}
 
 connection_kwargs = {
     "autocommit": True,
     "prepare_threshold": 0,
+    "keepalives": 1,
+    "keepalives_idle": 30,
+    "keepalives_interval": 5,
+    "keepalives_count": 5,
 }
 
 pool = ConnectionPool(
@@ -94,24 +98,23 @@ pool = ConnectionPool(
     kwargs=connection_kwargs,
 )
 
-print(f"dburi: {DB_URI}")
+print(pool.check())
+print(pool.get_stats())
 
-with PostgresSaver.from_conn_string(DB_URI) as checkpointer:
-    graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
-    config = {"configurable": {"thread_id": "3"}}
-    res = graph.invoke({"messages": [("human", "what's the weather in sf")]}, config)
-
-    checkpoint_tuples = list(checkpointer.list(config))
-
-# with pool.connection() as conn:
-#     checkpointer = PostgresSaver(conn)
-
-#     # NOTE: you need to call .setup() the first time you're using your checkpointer
-#     checkpointer.setup()
-#     graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
+with pool.connection() as conn:
+    print("\n Connected to the database... \n")
     
-#     res = graph.invoke(inputs, config)
-#     checkpoint = checkpointer.get(config)
+    checkpointer = PostgresSaver(conn)
+
+    # NOTE: you need to call .setup() the first time you're using your checkpointer
+    #checkpointer.setup()
+    graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
+    
+    res = graph.invoke(inputs, config)
+    checkpoint = checkpointer.get(config)
+    
+
+print("Completed.")
 
 
 def invoke_agent(query):
