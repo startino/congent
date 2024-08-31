@@ -82,7 +82,7 @@ llm = openai_llm.bind_tools(tools)
 
 inputs = {"messages": [("user", "who is biwas?")]}
 
-config = {"configurable": {"thread_id": "41"}}
+config = {"configurable": {"thread_id": "f18be584-05b2-45ab-9537-861a0d5edaec"}}
 
 connection_kwargs = {
     "autocommit": True,
