@@ -18,4 +18,5 @@
   })
 </script>
 
+<a href="/account/chats"> click me </a>
 <slot />

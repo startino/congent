@@ -4,6 +4,8 @@ from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 
+import graphrag_agent
+
 app = FastAPI()
 
 app.add_middleware(
@@ -21,9 +23,11 @@ def redirect_to_docts():
     return RedirectResponse(url="/docs")
 
 
-@app.get("/send-message")
-def send_message():
-    return {"response": "Hello World!"}
+@app.get("/chat")
+def send_message(thread_id: str, user_message: str):
+    result, checkpoint = graphrag_agent.invoke(thread_id, user_message)
+    
+    return {"result": result, "checkpoint": checkpoint}
     
     
 

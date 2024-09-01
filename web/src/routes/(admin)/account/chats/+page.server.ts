@@ -6,10 +6,11 @@ import { zod } from 'sveltekit-superforms/adapters';
 import { messageSchema } from "$lib/schema";
 
 export const load: LayoutServerLoad = async ({params,
-  locals: { supabase, session },
+  locals: { supabase, safeGetSession}
 }) => {
+	const { session } = await safeGetSession()
 
-  const forms = {
+	const forms = {
 		message: await superValidate(zod(messageSchema)),
 	};
 

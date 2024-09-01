@@ -1,33 +1,30 @@
 <script lang="ts">
 	import ChatBox from './ChatBox.svelte';
-	import type { Tables } from '$supabaseTypes';
+	import type { Checkpoint, Tables } from '$lib/supabase';
 	import SvelteMarkdown from 'svelte-markdown';
 	import { onMount } from 'svelte';
+	import { checkpointsToMessages } from '$lib/checkpoints';
 
-	export let checkpoints: Tables['checkpoints']['Row'][];
+	export let checkpoints: Checkpoint[];
 	export let profile: Tables['profiles']['Row'];
 
 	let isTyping = false;
 
-	let messages: BaseMessage[] = []
-  for (const checkpoint in checkpoints) {
-    messages += checkpoint.metadata["messages"]
-  }
+	let messages = checkpointsToMessages(checkpoints);
 
 	onMount(() => {});
 </script>
 
 <div class="items-between flex flex-col justify-start gap-2 overflow-y-scroll pt-2">
-	{#each [messages] as msg, i (i)}
+	{#each messages as msg, i (i)}
 		<div class={`flex ${msg.name === 'user' ? 'ml-16 justify-end' : 'mr-16 justify-start'}`}>
 			<p
-				class="prose prose-main rounded-lg border border-primary/30 bg-primary-container/10 px-2 py-1 text-primary-container-on marker:text-primary"
+				class="prose prose-main text-white rounded-lg border border-primary/30 bg-primary-container/10 px-2 py-1 text-primary-container-on marker:text-primary"
 			>
 				<SvelteMarkdown bind:source={msg.content} />
 			</p>
 			<div class="relative flex flex-col">
-				<small class="opacity-30">name: {msg.name}</small>
-				<small class="opacity-30">type: {msg.event_type}</small>
+				
 			</div>
 		</div>
 	{/each}
