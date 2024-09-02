@@ -1,5 +1,5 @@
 <script>
-  import "$styling"
+
   import { page } from "$app/stores"
 </script>
 

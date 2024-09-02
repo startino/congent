@@ -6,9 +6,8 @@ import { zod } from 'sveltekit-superforms/adapters';
 import { messageSchema } from "$lib/schema";
 
 export const load: LayoutServerLoad = async ({params,
-  locals: { supabase, safeGetSession}
+  locals: { supabase, user}
 }) => {
-	const { session } = await safeGetSession()
 
 	const forms = {
 		message: await superValidate(zod(messageSchema)),
@@ -17,7 +16,7 @@ export const load: LayoutServerLoad = async ({params,
   const { data: profile, error: eProfile } = await supabase
 		.from('profiles')
 		.select('*')
-		.eq('id', session.user.id)
+		.eq('id', user.id)
 		.single();
 
 	if (!profile || eProfile) {
@@ -51,8 +50,21 @@ export const actions = {
 		}
 
 		const content = NodeHtmlMarkdown.translate(form.data.content);
-
-		//await run(form.data.profile_id, content, form.data.useExamplePrompts);
+		let res = fetch('https://localhost:8080/chat', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+				'Authorization': `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
+			},
+			body: JSON.stringify({
+				session_id: form.data.profile_id,
+				user_message: 150,
+			}),
+			})
+		.then((res) => res.json())
+		.then((json) => {
+			console.log(json);
+		})
 
 		return { form };
 	},

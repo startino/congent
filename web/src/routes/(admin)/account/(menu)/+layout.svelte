@@ -1,5 +1,4 @@
 <script lang="ts">
-  import "../../../$styling"
   import { writable } from "svelte/store"
   import { setContext } from "svelte"
 

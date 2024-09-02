@@ -4,7 +4,7 @@
 	import SvelteMarkdown from 'svelte-markdown';
 	import { onMount } from 'svelte';
 	import { BaseMessage, AIMessage, ToolMessage } from '@langchain/core/messages';
-  import supabase from '$lib/supabase'
+  	import { supabase } from '$lib/supabase';
 
 	export let events: Tables['events']['Row'][] = [];
 	export let profile: Tables['profiles']['Row'];

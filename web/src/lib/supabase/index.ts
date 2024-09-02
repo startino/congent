@@ -1,6 +1,7 @@
 import { createBrowserClient } from '$lib/supabase/clients';
 import type { Database, Json } from '$lib/supabase/database.types';
 export { createBrowserClient, createServerClient } from '$lib/supabase/clients';
+
 export const supabase = createBrowserClient();
 
 type Tables = Database['public']['Tables'];

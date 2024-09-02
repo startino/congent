@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '$styling';
+
 	import { Toaster } from '$lib/components/ui/sonner';
 	import { invalidate } from '$app/navigation';
 	import { onMount } from 'svelte';
