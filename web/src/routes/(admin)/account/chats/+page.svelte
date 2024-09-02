@@ -8,7 +8,7 @@
   let {
     profile,
     events,
-  }: { profile: Tables["events"]["Row"]; events: Tables["events"]["Row"][] } = data
+  }: { profile: Tables["profiles"]["Row"]; events: Tables["events"]["Row"][] } = data
 
   
 </script>
