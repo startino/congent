@@ -50,17 +50,16 @@ export const actions = {
 		}
 
 		const content = NodeHtmlMarkdown.translate(form.data.content);
-		let res = fetch('https://localhost:8080/chat', {
+		const res = await fetch('http://localhost:8080/chat', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
-				'Authorization': `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
 			},
 			body: JSON.stringify({
 				session_id: form.data.profile_id,
-				user_message: 150,
+				user_message: content,
 			}),
-			})
+		})
 		.then((res) => res.json())
 		.then((json) => {
 			console.log(json);

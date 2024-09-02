@@ -1,3 +1,4 @@
+from pydantic import BaseModel
 import uvicorn
 
 from fastapi import FastAPI
@@ -23,14 +24,18 @@ def redirect_to_docts():
     return RedirectResponse(url="/docs")
 
 
-@app.get("/chat")
-def send_message(thread_id: str, user_message: str):
-    success = graphrag_agent.invoke(thread_id, user_message)
+# Should this be in a model folder?
+class ChatRequest(BaseModel):
+    session_id: str
+    user_message: str
+
+
+@app.post("/chat")
+def send_message(chat_request: ChatRequest):
+    success = graphrag_agent.invoke(chat_request.session_id, chat_request.user_message)
     
     return {"success": success}
     
-    
-
 
 def run():
     uvicorn.run(app,host="0.0.0.0", port=8080)

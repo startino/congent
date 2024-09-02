@@ -8,7 +8,9 @@
   export let data;
 
   let { forms } = data;
+
   setContext('forms', forms);
+  
 </script>
 
 {#if $navigating}

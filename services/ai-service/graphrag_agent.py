@@ -9,7 +9,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.checkpoint.postgres import PostgresSaver
 from langgraph.graph import END, START, StateGraph, MessagesState
 from langgraph.prebuilt import ToolNode, create_react_agent
-from psycopg_pool import ConnectionPool
+from langchain_core.prompts import ChatPromptTemplate, PromptTemplate, MessagesPlaceholder
 
 from supabase import create_client, Client
 
@@ -40,10 +40,16 @@ def search_graph(query: str) -> GlobalSearchResult:
     Args:
         query (str): The query to search the graph. Should provide as much
         context as possible.
+        
     """
     
-    global_result: GlobalSearchResult = asyncio.run(global_asearch(query))
-    local_result: LocalSearchResult = asyncio.run(local_asearch(query))
+    async def run_searches():
+        global_task = global_asearch(query)
+        local_task = local_asearch(query)
+        global_result, local_result = await asyncio.gather(global_task, local_task)
+        return global_result, local_result
+
+    global_result, local_result = asyncio.run(run_searches())
     
     final_result = f"""
     The RAG Agent has returned the following results:
@@ -57,50 +63,83 @@ def search_graph(query: str) -> GlobalSearchResult:
     return final_result
 
 
-connection_kwargs = {
-    "autocommit": True,
-    "prepare_threshold": 0,
-}
-
-pool = ConnectionPool(
-    conninfo=DB_URI,
-    max_size=20,
-    kwargs=connection_kwargs,
-)
-
-print("file called")
-
-
 def invoke(session_id: str, user_message: str):
     tools = [search_graph]
 
-    tool_node = ToolNode(tools)
-
     openai_llm = new_openai_llm()
     
-    llm = openai_llm.bind_tools(tools)
-
-    inputs = {"messages": [("user", user_message)]}
-
-    def chatbot(state: MessagesState):
-        return {"messages": [llm.invoke(state["messages"])]}
-
-
-    # graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
-
-    graph_builder = StateGraph(MessagesState)
+    prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            """
+            You are an agent in charge of querying a knowledge graph to retrieve information.
+            You have the choice of choosing to search the graph, or reply to the user.
+            You should provide as much context as possible in the query.
+            When receiving the result from the tool, you should reflect on the result.
+            Then you can choose to search the graph again or reply to the user.
+            You may rephrase the user's query if you believe it will help.
+            If the user has not given enough context, you may ask for more.
+            
+            GOOD Query Examples:
+            query = "Tell me about Jonas"
+            query = "What does Jorge think about Linux?"
+            
+            BAD Query Examples:
+            query = "Jonas"
+            query = "Jonas information"
+            query = "Jorge Linux"
+            query = "Jorge Linux opinion"
+            """
+        ),
+        MessagesPlaceholder(variable_name="messages"),
+    ]
+)
     
-    # The first argument is the unique node name
-    # The second argument is the function or object that will be called whenever
-    # the node is used.
-    graph_builder.add_node("chatbot", chatbot)
-    graph_builder.add_node("chatbot2", chatbot)
-    
-    graph_builder.add_edge(START, "chatbot")
-    graph_builder.add_edge("chatbot", "chatbot2")
-    graph_builder.add_edge("chatbot2", END)
-    graph = graph_builder.compile()
+    llm = prompt | openai_llm.bind_tools(tools)
 
+    # Define the function that calls the model
+    def invoke_agent(state: MessagesState):
+        response = llm.invoke(state)
+        # We return a list, because this will get added to the existing list
+        return {"messages": [response]}
+
+    # Define the function that determines whether to continue or not
+    def should_continue(state: MessagesState):
+        messages = state["messages"]
+        last_message = messages[-1]
+        # If the last tool call was search_graph, we send it back to the agent for reflection
+        if len(last_message.tool_calls) >= 1 and last_message.tool_calls[0]['name'] == "search_graph":
+            return "continue"
+        # Otherwise we end the conversation
+        else:
+            return END
+
+    # Define a new graph
+    workflow = StateGraph(MessagesState)
+
+    # Define the two nodes we will cycle between
+    workflow.add_node("agent", invoke_agent)
+    workflow.add_node("tools", ToolNode(tools))
+
+    # Set the entrypoint as `agent`
+    # This means that this node is the first one called
+    workflow.set_entry_point("agent")
+
+    # We now add a conditional edge
+    workflow.add_conditional_edges(
+        "agent",
+        should_continue,
+        {
+            "continue": "tools",
+            END: END,
+        },
+    )
+
+    # Default the tool to go back to the agent for reflection
+    workflow.add_edge("tools", "agent")
+    
+    graph = workflow.compile()
 
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
     
@@ -115,6 +154,7 @@ def invoke(session_id: str, user_message: str):
     
     for event in graph.stream({"messages": message_history.messages}):
         for value in event.values():
+            print("Value: ", value)
             new_message: AnyMessage = value['messages'][-1]
             
             if last_message_in_db is not None and new_message.id == last_message_in_db.id:
@@ -122,10 +162,7 @@ def invoke(session_id: str, user_message: str):
                 print('Duplicate message skipped successfully!');
                 continue;
             
-            print("New message: ", new_message.content)
-            
             if isinstance(value["messages"][-1], BaseMessage):
                 message_history.add_messages([new_message])
-                print("Assistant:", value["messages"][-1].content)
 
     return {"success": True}

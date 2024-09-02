@@ -47,7 +47,6 @@
 				if (payload.new.name === 'user' || payload.new.event_type === 'tool') return;
 
 				events = [...events, payload.new as Tables['events']['Row']];
-				isTyping = false;
 			}
 		)
 		.subscribe();
@@ -86,7 +85,7 @@
 			<p
 				class="rounded-lg border border-primary/30 bg-primary-container/10 px-2 py-1 text-primary-container-on"
 			>
-				. . .
+				I'm cooking bro, hol'up...
 			</p>
 		</div>
 	{/if}
