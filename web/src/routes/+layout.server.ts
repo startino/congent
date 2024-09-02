@@ -1,14 +1,6 @@
-import { messageSchema } from '$lib/schema';
-import { superValidate } from 'sveltekit-superforms';
-import { zod } from 'sveltekit-superforms/adapters';
+import { error } from '@sveltejs/kit';
 
-export const load = async ({ url, locals: { session }, cookies }) => {
-	const forms = {
-		message: await superValidate(zod(messageSchema)),
-	};
+export const load = async ({ cookies, locals: { user, supabase } }) => {
 
-	return {
-		session,
-		forms,
-	};
+
 };

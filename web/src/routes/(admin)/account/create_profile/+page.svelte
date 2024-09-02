@@ -1,5 +1,5 @@
 <script lang="ts">
-  import "../../../../app.css"
+  import "../../../$styling"
   import { enhance, applyAction } from "$app/forms"
   import type { SubmitFunction } from "@sveltejs/kit"
 

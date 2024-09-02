@@ -4,7 +4,7 @@
   import * as DropDownMenu from "$lib/components/ui/dropdown-menu"
 
   import { WebsiteName } from "./../../config"
-  import "../../app.css"
+  import "../$styling"
 </script>
 
 <div class="flex py-4 bg-primary text-primary-foreground container mx-auto">

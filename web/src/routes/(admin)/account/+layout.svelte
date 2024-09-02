@@ -1,22 +1,26 @@
 <script lang="ts">
-  import { invalidate } from "$app/navigation"
-  import { onMount } from "svelte"
+	import '$styling';
+	import { Toaster } from '$lib/components/ui/sonner';
+	import { invalidate } from '$app/navigation';
+	import { onMount } from 'svelte';
+	import { cn } from '$lib/utils';
+	export let data;
 
-  export let data
+	$: ({ user, supabase } = data);
 
-  let { supabase, session } = data
-  $: ({ supabase, session } = data)
+	onMount(() => {
+		const { data } = supabase.auth.onAuthStateChange((_, newUser) => {
+			if (newUser?.expires_at !== user?.expires_at) {
+				invalidate('supabase:auth');
+			}
+		});
 
-  onMount(() => {
-    const { data } = supabase.auth.onAuthStateChange((event, _session) => {
-      if (_session?.expires_at !== session?.expires_at) {
-        invalidate("supabase:auth")
-      }
-    })
+		return () => data.subscription.unsubscribe();
+	});
 
-    return () => data.subscription.unsubscribe()
-  })
+
 </script>
 
-<a href="/account/chats"> click me </a>
+<Toaster />
+
 <slot />
