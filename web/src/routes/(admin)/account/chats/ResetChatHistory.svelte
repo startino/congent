@@ -6,8 +6,8 @@
 
 	export let profileId: string;
 
-	const resetCheckpoints = async () => {
-		const { error } = await supabase.from('checkpoints').delete().eq('', profileId);
+	const resetChatHistory = async () => {
+		const { error } = await supabase.from('events').delete().eq('', profileId);
 
 		if (error) {
 			toast.error('Error deleting history');
@@ -19,6 +19,6 @@
 	};
 </script>
 
-<Button on:click={resetCheckpoints} variant="destructive" class="aspect-1 p-1">
+<Button on:click={resetChatHistory} variant="destructive" class="aspect-1 p-1">
 	<Trash2 class="h-6 w-6" />
 </Button>

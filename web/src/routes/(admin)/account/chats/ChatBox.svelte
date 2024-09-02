@@ -31,10 +31,10 @@
 
 			const newEventPlaceholder: Tables['events']['Row'] = {
 				id: crypto.randomUUID(),
-				profile_id: $formData.profile_id,
+				session_id: $formData.profile_id,
 				created_at: Date.now.toString(),
 				content: $formData.content,
-				ts_object: {},
+				message_object: {},
 				event_type: 'human',
 				sources: {},
 				name: 'user'

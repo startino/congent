@@ -26,7 +26,7 @@ export const load: LayoutServerLoad = async ({params,
 		throw redirect(303, '/');
 	}
 
-  const { data: events, error: eEvents } = await supabase.from("events").select(`*`).eq("profile_id", profile.id)	
+  const { data: events, error: eEvents } = await supabase.from("events").select(`*`).eq("session_id", profile.id)	
 
 	if (!events || eEvents) {
 		const message = `Error getting events: ${JSON.stringify(eEvents, null, 2)}`;

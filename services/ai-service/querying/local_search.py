@@ -26,7 +26,7 @@ from graphrag.query.structured_search.local_search.mixed_context import (
 from graphrag.query.structured_search.local_search.search import LocalSearch
 from graphrag.vector_stores.lancedb import LanceDBVectorStore
 
-from models import LocalSearchResult
+from models.graphrag_search import LocalSearchResult
 
 dotenv.load_dotenv()
 

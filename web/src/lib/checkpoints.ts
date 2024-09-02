@@ -31,7 +31,7 @@ export const checkpointsToMessages = (checkpoints: Row[]): Message[] => {
         sender: uglyMessageObject.kwargs.name,
         content: uglyMessageObject.kwargs.content,
         type: uglyMessageObject.kwargs.type,
-      };);
+      });
     }
 
 

@@ -3,7 +3,6 @@
 	import type { Checkpoint, Tables } from '$lib/supabase';
 	import SvelteMarkdown from 'svelte-markdown';
 	import { onMount } from 'svelte';
-	import { checkpointsToMessages } from '$lib/checkpoints';
 	import { BaseMessage, AIMessage, ToolMessage } from '@langchain/core/messages';
   import supabase from '$lib/supabase'
 
@@ -43,7 +42,7 @@
 			'postgres_changes',
 			{ event: 'INSERT', schema: 'public', table: 'events' },
 			(payload) => {
-				if (payload.new.profile_id !== profile.id) return;
+				if (payload.new.session_id !== profile.id) return;
 				console.log(`got ${payload.new.event_type} event`);
 				if (payload.new.name === 'user' || payload.new.event_type === 'tool') return;
 
@@ -53,10 +52,10 @@
 		)
 		.subscribe();
 
-	// filter events by profile_id
+	// filter events by session_id
 	$: shownEvents = splitEvents(
 		events
-			.filter((msg) => msg.profile_id === profile.id)
+			.filter((msg) => msg.session_id === profile.id)
 			.filter(
 				(msg) =>
 					msg.event_type === 'ai' ||

@@ -15,7 +15,7 @@ from graphrag.query.structured_search.global_search.community_context import (
 from graphrag.query.structured_search.global_search.search import GlobalSearch
 import yaml
 
-from models import GlobalSearchResult
+from models.graphrag_search import GlobalSearchResult
 
 dotenv.load_dotenv()
 

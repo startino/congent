@@ -25,9 +25,9 @@ def redirect_to_docts():
 
 @app.get("/chat")
 def send_message(thread_id: str, user_message: str):
-    result, checkpoint = graphrag_agent.invoke(thread_id, user_message)
+    success = graphrag_agent.invoke(thread_id, user_message)
     
-    return {"result": result, "checkpoint": checkpoint}
+    return {"success": success}
     
     
 
