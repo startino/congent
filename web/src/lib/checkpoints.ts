@@ -1,6 +1,5 @@
-import type { Checkpoint } from "./supabase"
+import type { Checkpoint as Row} from "./supabase"
 import type {
-  BaseCheckpointSaver,
   Checkpoint,
   CheckpointMetadata,
   CheckpointTuple,
@@ -8,76 +7,33 @@ import type {
 } from "@langchain/langgraph";
 
 
-export type Message = {
-  id: string[]
-  lc: number
-  type: string
-  kwargs: {
-    id: string
-    name?: string
-    type: string
-    status?: string
-    content: string
-    tool_call_id?: string
-    tool_calls?: any[]
-    usage_metadata?: {
-      input_tokens: number
-      total_tokens: number
-      output_tokens: number
+type Message = {
+  sender: string;
+  content: string;
+  type: string;
+};
+
+export const checkpointsToMessages = (checkpoints: Row[]): Message[] => {
+
+  let checkpointsMetadata: CheckpointMetadata[] = checkpoints
+    .map((checkpoint: Row) => checkpoint.metadata as unknown as CheckpointMetadata)
+    .filter(metadata => metadata.writes); // Filter out undefined values
+
+  let messages: Message[] = [];
+  for (const metadata of checkpointsMetadata) {
+    if (metadata.writes?.agent) {
+      const writes = metadata.writes;
+      // usually "tools", "agent", "__start__"
+      const writesChild: string = Object.keys(writes)[0];
+      const uglyMessageObject: any = writes[writesChild];
+      // Add the children to the messages array
+      messages.push({
+        sender: uglyMessageObject.kwargs.name,
+        content: uglyMessageObject.kwargs.content,
+        type: uglyMessageObject.kwargs.type,
+      };);
     }
-    additional_kwargs?: {
-      refusal?: any
-    }
-    response_metadata?: {
-      logprobs?: any
-      model_name: string
-      token_usage: {
-        total_tokens: number
-        prompt_tokens: number
-        completion_tokens: number
-      }
-      finish_reason: string
-      system_fingerprint: string
-    }
-    invalid_tool_calls?: any[]
-  }
-}
 
-export type WriteObject = {
-  messages: Message[]
-}
 
-export type Writes = {
-  tools?: WriteObject
-  agent?: WriteObject
-  __start__?: {
-    messages: [string, string][]
-  }
-  [key: string]: any
-}
-
-export type CheckpointMetadata = {
-  step: number
-  source: string
-  writes: Writes | null
-  parents: Record<string, any>
-}
-
-export const checkpointsToMessages = (checkpoints: Checkpoint[]): Message[] => {
-  let checkPointsMetadata: CheckpointMetadata[] = checkpoints.map(
-    (checkpoint: Checkpoint) => checkpoint.metadata as CheckpointMetadata,
-  )
-  const messages: Message[] = []
-  checkPointsMetadata.forEach((metadata) => {
-    if (metadata.writes) {
-      if (metadata.writes.agent) {
-        messages.push(...metadata.writes.agent.messages)
-      }
-      if (metadata.writes.tools) {
-        messages.push(...metadata.writes.tools.messages)
-      }
-    }
-  })
-
-  return messages
+  return messages;
 }

@@ -4,7 +4,7 @@ import dotenv
 from typing import Annotated, Literal, TypedDict
 
 from langchain_core.tools import tool
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import HumanMessage, AnyMessage, BaseMessage
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.checkpoint.postgres import PostgresSaver
 from langgraph.graph import END, START, StateGraph, MessagesState
@@ -70,26 +70,72 @@ def invoke(thread_id: str, user_message: str):
     tool_node = ToolNode(tools)
 
     openai_llm = new_openai_llm()
-
-
+    
     llm = openai_llm.bind_tools(tools)
 
     inputs = {"messages": [("user", user_message)]}
 
     config = {"configurable": {"thread_id": thread_id}}
 
-    with pool.connection() as conn:
-        print("\n Connected to the database... \n")
-        checkpointer = PostgresSaver(conn)
+    def chatbot(state: MessagesState):
+        return {"messages": [llm.invoke(state["messages"])]}
 
-        # NOTE: you need to call .setup() the first time you're using your checkpointer
-        # checkpointer.setup()
-        graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
-        
-        res = graph.invoke(inputs, config)
-        
-        new_checkpoint = checkpointer.get(config)
+
+    # graph = create_react_agent(llm, tools=tools, checkpointer=checkpointer)
+
+    graph_builder = StateGraph(MessagesState)
+    
+    # The first argument is the unique node name
+    # The second argument is the function or object that will be called whenever
+    # the node is used.
+    graph_builder.add_node("chatbot", chatbot)
+    graph_builder.add_node("chatbot2", chatbot)
+    
+    graph_builder.add_edge(START, "chatbot")
+    graph_builder.add_edge("chatbot", "chatbot2")
+    graph_builder.add_edge("chatbot2", END)
+    graph = graph_builder.compile()
+    
+    lastMessageInDb = memory.chatMessageHistory.getMessages()[-1]
+    
+    for event in graph.stream({"messages": [("user", user_input)]}):
+        for value in event.values():
+            newMessage: AnyMessage = value['messages'][-1]
+            
+        if newMessage.id and newMessage.id == lastMessageInDb.id:
+			# This is caused because no new message was generated run running a node (like the supervisor node).
+			console.log('Duplicate message skipped successfully!');
+			continue;
+		
+            
+            print("New message: ", newMessage)
+            if isinstance(value["messages"][-1], BaseMessage):
+                print("Assistant:", value["messages"][-1].content)
+
+    res = graph.invoke(inputs, config)
 
     return res, new_checkpoint
 
-# pnpm dlx supabase --experimental --project-ref oampjdurcoprcjifbnhn postgres-config update --config max_connections=120
+
+# lastMessageInDb = memory.chatMessageHistory.getMessages()[-1]
+
+# console.log('Finished loop');
+
+    
+	
+# 	for await (const value of stream) {
+# 		// console.log(value);
+# 		const newMessage: AnyMessage = value['messages']?.at(-1) as AnyMessage;
+# 		console.log(newMessage);
+
+# 		if (newMessage.id && newMessage.id == lastMessageInDb.id) {
+# 			// This is caused because no new message was generated run running a node (like the supervisor node).
+# 			console.log('Duplicate message skipped successfully!');
+# 			continue;
+# 		}
+
+# 		// if (newMessage.name === 'supervisor') continue;
+
+# 		const newlyPostedMessage = await memory.postChatMessage(profile, newMessage);
+
+# 		if (newlyPostedMessage) lastMessageInDb = newMessage;

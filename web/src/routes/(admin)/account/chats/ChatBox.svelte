@@ -11,7 +11,7 @@
 	import ResetChatHistory from './ResetChatHistory.svelte';
 	import Textbubble from '$lib/components/ui/textbubble/textbubble.svelte';
 
-	export let checkpoints: Tables['checkpoints']['Row'][];
+	export let events: Tables['events']['Row'][];
 	export let profile: Tables['profiles']['Row'];
 	export let isTyping: boolean;
 
@@ -29,7 +29,7 @@
 			$formData.profile_id = profile.id;
 			$formData.content = reply;
 
-			const newCheckpointPlaceholder: Tables['checkpoints']['Row'] = {
+			const newEventPlaceholder: Tables['events']['Row'] = {
 				id: crypto.randomUUID(),
 				profile_id: $formData.profile_id,
 				created_at: Date.now.toString(),
@@ -40,7 +40,7 @@
 				name: 'user'
 			};
 
-			checkpoints = [...checkpoints, newCheckpointPlaceholder];
+			events = [...events, newEventPlaceholder];
 
 			replyBackup = reply;
 			reply = '<p></p>';

@@ -1,10 +1,10 @@
 import asyncio
-from querying.global_search import global_search
-from querying.local_search import local_search
+from querying.global_search import global_asearch
+from querying.local_search import local_asearch
 
 query = "What operation system does jorge use"
-local_search_result = local_search(query)
-global_search_result = global_search(query)
+local_search_result = asyncio.run(local_asearch(query))
+global_search_result = asyncio.run(global_asearch(query))
 
 print(f"-LOCAL SEARCH RESULT- \n {local_search_result.response} \n\n")
 print(f"-GLOBAL SEARCH RESULT- \n {global_search_result.response}")

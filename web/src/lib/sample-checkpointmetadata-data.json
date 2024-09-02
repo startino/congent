@@ -1,0 +1,91 @@
+{
+    "id": [
+      "langchain",
+      "schema",
+      "messages",
+      "ToolMessage"
+    ],
+    "lc": 1,
+    "type": "constructor",
+    "kwargs": {
+      "id": "bfe0cb55-5125-4f06-9bc3-2ad4c6bf7db5",
+      "name": "search_graph",
+      "type": "tool",
+      "status": "success",
+      "content": "Error: KeyError('reports')\n Please fix your mistakes.",
+      "tool_call_id": "call_Q2L0hQySjsuP8ZQDYxbAZbyT"
+    }
+  }
+  {
+    "id": [
+      "langchain",
+      "schema",
+      "messages",
+      "AIMessage"
+    ],
+    "lc": 1,
+    "type": "constructor",
+    "kwargs": {
+      "id": "run-99a45207-9524-43c7-904c-e40dada405d4-0",
+      "type": "ai",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_iUPrEBzwKUsUlodO1ujJNAOF",
+          "args": {
+            "query": "Jonas"
+          },
+          "name": "search_graph",
+          "type": "tool_call"
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 202,
+        "total_tokens": 217,
+        "output_tokens": 15
+      },
+      "additional_kwargs": {
+        "refusal": null,
+        "tool_calls": [
+          {
+            "id": "call_iUPrEBzwKUsUlodO1ujJNAOF",
+            "type": "function",
+            "function": {
+              "name": "search_graph",
+              "arguments": "{\"query\":\"Jonas\"}"
+            }
+          }
+        ]
+      },
+      "response_metadata": {
+        "logprobs": null,
+        "model_name": "gpt-4o-2024-05-13",
+        "token_usage": {
+          "total_tokens": 217,
+          "prompt_tokens": 202,
+          "completion_tokens": 15
+        },
+        "finish_reason": "tool_calls",
+        "system_fingerprint": "fp_157b3831f5"
+      },
+      "invalid_tool_calls": []
+    }
+  }
+  {
+    "id": [
+      "langchain",
+      "schema",
+      "messages",
+      "ToolMessage"
+    ],
+    "lc": 1,
+    "type": "constructor",
+    "kwargs": {
+      "id": "d4f4a21a-2347-4246-9428-d739acdef262",
+      "name": "search_graph",
+      "type": "tool",
+      "status": "success",
+      "content": "Error: KeyError('reports')\n Please fix your mistakes.",
+      "tool_call_id": "call_iUPrEBzwKUsUlodO1ujJNAOF"
+    }
+  }

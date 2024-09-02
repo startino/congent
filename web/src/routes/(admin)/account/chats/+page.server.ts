@@ -26,16 +26,16 @@ export const load: LayoutServerLoad = async ({params,
 		throw redirect(303, '/');
 	}
 
-  const { data: checkpoints, error: eCheckpoints } = await supabase.from("checkpoints").select(`*`).eq("thread_id", profile.id)	
+  const { data: events, error: eEvents } = await supabase.from("events").select(`*`).eq("profile_id", profile.id)	
 
-	if (!checkpoints || eCheckpoints) {
-		const message = `Error getting events: ${JSON.stringify(eCheckpoints, null, 2)}`;
+	if (!events || eEvents) {
+		const message = `Error getting events: ${JSON.stringify(eEvents, null, 2)}`;
 		console.error(message);
 		throw error(500, 'Error getting events.');
 	}
 
 	return {
-		checkpoints,
+		events: events,
 		profile,
 		forms,
 	};
