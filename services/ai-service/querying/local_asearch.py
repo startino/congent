@@ -1,9 +1,12 @@
 import asyncio
+from io import BytesIO
 import os
 import yaml
 import dotenv
 import pandas as pd
 import tiktoken
+
+from pyarrow import BufferReader
 
 from supabase import create_client, Client
 
@@ -29,6 +32,7 @@ from graphrag.query.structured_search.local_search.search import LocalSearch
 from graphrag.vector_stores.lancedb import LanceDBVectorStore
 
 from models.graphrag_search import LocalSearchResult
+from knowledge_graph_loader import KnowledgeGraphLoader
 
 dotenv.load_dotenv()
 
@@ -53,43 +57,33 @@ async def local_asearch(query: str, project_name: str) -> LocalSearchResult:
     """
     current_dir = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(current_dir, "config.yml")
-
+    
     with open(config_path, "r") as f:
         config = yaml.safe_load(f)
         
+    loader = KnowledgeGraphLoader(project_name, supabase)
+    
     root_config = config["root"]
     local_search_config = config["local_search"]
 
-    entity_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_nodes.parquet") # might be wrong path?
-    entity_df = pd.read_parquet(entity_file)
-    
-    entity_embedding_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_entities.parquet")
-    entity_embedding_df = pd.read_parquet(entity_embedding_file)
-
-    entities = read_indexer_entities(entity_df, entity_embedding_df, root_config['community_level'])
-
+    # Load the knowledge graph data
+    entities = read_indexer_entities(loader.entity_df, loader.entity_embedding_df, root_config['community_level'])
+    relationships = read_indexer_relationships(loader.relationship_df)
+    reports = read_indexer_reports(loader.report_df, loader.entity_df, root_config['community_level'])
+    text_units = read_indexer_text_units(loader.text_unit_df)
+        
     # Load description embeddings to an in-memory lancedb vectorstore
     description_embedding_store = LanceDBVectorStore(
         collection_name="entity_description_embeddings",
     )
     description_embedding_store.connect(db_uri=root_config['lancedb_uri'])
     
-    entity_description_embeddings = store_entity_semantic_embeddings(
+    # `entity_description_embeddings =` was in the original code, but it's not used anywhere else...
+    store_entity_semantic_embeddings(
         entities=entities, vectorstore=description_embedding_store
     )
 
-    
-    relationship_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_relationships.parquet")
-    relationship_df = pd.read_parquet(relationship_file)
-    relationships = read_indexer_relationships(relationship_df)
 
-    reports_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_community_reports.parquet")
-    report_df = pd.read_parquet(reports_file)
-    reports = read_indexer_reports(report_df, entity_df, root_config['community_level'])
-
-    text_units_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_text_units.parquet")
-    text_unit_df = pd.read_parquet(text_units_file)
-    text_units = read_indexer_text_units(text_unit_df)
 
     llm_params = local_search_config["llm_params"]
 

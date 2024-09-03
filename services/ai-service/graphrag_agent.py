@@ -11,8 +11,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 from supabase import create_client, Client
 
-from querying.global_search import global_asearch
-from querying.local_search import local_asearch
+from querying import run_both_asearches
 from models.graphrag_search import GlobalSearchResult, LocalSearchResult
 from openai_helper_classes import new_openai_llm
 from memory import SupabaseChatMessageHistory
@@ -41,13 +40,7 @@ def search_graph(query: str) -> GlobalSearchResult:
         
     """
     
-    async def run_searches():
-        global_task = global_asearch(query)
-        local_task = local_asearch(query)
-        global_result, local_result = await asyncio.gather(global_task, local_task)
-        return global_result, local_result
-
-    global_result, local_result = asyncio.run(run_searches())
+    global_result, local_result = asyncio.run(run_both_asearches("graphrag", query,))
     
     final_result = f"""
     The RAG Agent has returned the following results:

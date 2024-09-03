@@ -22,10 +22,12 @@ from supabase import create_client, Client
 dotenv.load_dotenv()
 
 SWEDEN_AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
-url = os.getenv("SUPABASE_URL")
-key = os.getenv("SUPABASE_ANON_KEY")
+EASTUS_AZURE_API_KEY = os.getenv("EASTUS_AZURE_API_KEY")
 
-supabase: Client = create_client(url, key)
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY")
+
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)
 
 
 async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
@@ -50,9 +52,9 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
     global_search_config = config["global_search"]
         
     llm = ChatOpenAI(
-        api_key=SWEDEN_AZURE_API_KEY,
+        api_key=EASTUS_AZURE_API_KEY,
         model="gpt-4o",
-        api_base="https://startino.openai.azure.com/",
+        api_base="https://startino-eastus.openai.azure.com/",
         api_version="2023-03-15-preview",
         api_type=OpenaiApiType.AzureOpenAI,  # OpenaiApiType.OpenAI or OpenaiApiType.AzureOpenAI
         max_retries=20,

@@ -1,10 +1,10 @@
 import asyncio
-from querying.global_search import global_asearch
-from querying.local_search import local_asearch
+
+from querying import run_both_asearches
 
 query = "What operation system does jorge use"
-local_search_result = asyncio.run(local_asearch(query, "readai_aug_8"))
-global_search_result = asyncio.run(global_asearch(query, "readai_aug_8"))
 
-print(f"-LOCAL SEARCH RESULT- \n {local_search_result.response} \n\n")
-print(f"-GLOBAL SEARCH RESULT- \n {global_search_result.response}")
+global_result, local_result = asyncio.run(run_both_asearches("graphrag", query,))
+
+print(f"-GLOBAL SEARCH RESULT- \n {global_result.response}")
+print(f"-LOCAL SEARCH RESULT- \n {local_result.response} \n\n")
