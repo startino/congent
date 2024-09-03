@@ -27,7 +27,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_ANON_KEY")
 
 @tool
-def search_graph(query: str) -> GlobalSearchResult:
+def search_graph(query: str) -> str:
     """
     Search a knowlege graph for a given query.
     It uses an LLM agent to search the graph and return the results,
@@ -40,7 +40,7 @@ def search_graph(query: str) -> GlobalSearchResult:
         
     """
     
-    global_result, local_result = asyncio.run(run_both_asearches("graphrag", query,))
+    global_result, local_result = asyncio.run(run_both_asearches("readai_aug_8", query,))
     
     final_result = f"""
     The RAG Agent has returned the following results:
