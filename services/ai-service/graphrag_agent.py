@@ -1,5 +1,6 @@
 import os
 import asyncio
+from uuid import UUID
 import dotenv
 from typing import Annotated, Literal, TypedDict
 
@@ -63,7 +64,7 @@ def search_graph(query: str) -> GlobalSearchResult:
     return final_result
 
 
-def invoke(session_id: str, user_message: str):
+def invoke(session_id: UUID, user_message: str):
     tools = [search_graph]
 
     openai_llm = new_openai_llm()

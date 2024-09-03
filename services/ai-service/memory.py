@@ -1,4 +1,5 @@
 import json
+from uuid import UUID
 from supabase import Client
 from typing import Any, Sequence, Union
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage, AnyMessage, BaseMessage, message_to_dict
@@ -8,9 +9,11 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from models.event import Event
 
 class SupabaseChatMessageHistory(BaseChatMessageHistory):
-    def __init__(self, supabase: Client, session_id: str):
+    def __init__(self, supabase: Client, session_id: UUID):
         self.supabase = supabase
-        self.session_id = session_id
+        
+        # Convert UUID to string to make it JSON serializable
+        self.session_id: str = str(session_id)
 
     @property
     def messages(self):

@@ -9,13 +9,10 @@ readme = "README.md"
 python = "^3.11"
 langchain = "^0.2.14"
 fastapi = "^0.112.2"
-uvicorn = "^0.30.6"
-langchain-experimental = "^0.0.64"
 langchain-openai = "^0.1.23"
 langchain-core = "^0.2.36"
 langchain-community = "^0.2.14"
-neo4j = "^5.24.0"
-langgraph-checkpoint-postgres = "^1.0.5"
+hypercorn = "^0.17.3"
 
 
 [build-system]

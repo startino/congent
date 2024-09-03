@@ -1,3 +1,4 @@
+from uuid import UUID
 from pydantic import BaseModel
 import uvicorn
 
@@ -26,7 +27,7 @@ def redirect_to_docts():
 
 # Should this be in a model folder?
 class ChatRequest(BaseModel):
-    session_id: str
+    session_id: UUID
     user_message: str
 
 
