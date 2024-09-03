@@ -89,7 +89,7 @@ msal-extensions==1.2.0
 multidict==6.0.5
 mypy-extensions==1.0.0
 networkx==3.3
-nltk==3.8.1
+nltk==3.9
 numba==0.60.0
 numpy==1.26.4
 openai==1.43.0
