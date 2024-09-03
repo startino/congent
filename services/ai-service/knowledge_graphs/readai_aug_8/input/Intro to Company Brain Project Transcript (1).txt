@@ -1,36 +1,0 @@
-Intro to Company Brain Project 
-Wed, Aug 7, 2024
-
-0:01 - Jorge Lewis So, we're building the company brain project. The point of this is to combine all of our resources into a chatbot, pretty much. We have all these sources here. We're going to have our gathered conversations, so whether it's a minute or an hour, our Google Meets, Google Calendar, and our Notion, as well as anything else we can get our hands on and put into our storage of We're putting it as a Discord bot, just to reduce the front-end scope. And yeah, long term, ideally, if it works great for us, which I hope it will, then we can be able to sell it, since this will be saving a lot of time, it'll be providing a lot of value. It's not technically too innovative, it's just kind of combining things here and there, connecting to things, and then lastly, using some AI stuff. Yeah, so we have to figure out who should work on this.
-
-0:57 - Jorge Lewis To start us off, I'll be leading it. I'll be spending some time in the development, but probably not a lot, depending on how much other stuff I have to work on.
-
-1:06 - Jorge Lewis Jonas is out of the picture, he's going to be working on the spec as well.
-
-1:13 - Jorge Lewis The other considerations we have... Adapts that we're working on, IntelliAgent is no longer going to be work done right now. It's going to be paused until Jonas finishes that POC. So, how do we do this?
-
-1:37 - Jorge Lewis It's fine if I head out for lunch now, and then we can sync back up after.
-
-1:42 - Jorge Lewis Yeah. Okay, I'll see you guys. I'll send a nice GIF on the Twitch channel to say hi. So, what I would like to do, since this is mostly a kind of back-end problem, we don't have to worry about any Svelte stuff. I think, and since Biwas, how does it sound to you? We put you on this project, and then Hasnain, maybe depending on how we try to format and organize, adapt, then we can put you on this as well.
-
-2:14 - Biwas bhandari yeah for me it's okay pretty much because right now i've been tasked to run the adept mobile spec version or something like that so this project is in no rush um I believe so the for the read for the
-
-2:35 - Jorge Lewis gather aspect by the way um since gather doesn't have a build or I don't think it has the api um if even if it does we're not going to use it meaning For that, we're going to, where is the
-
-2:48 - Unidentified Speaker file?
-
-2:52 - Biwas bhandari Sorry, where's the
-
-2:53 - Biwas bhandari Actually, we can do like this. In gather, we'll just talk about this stuff. And when we have to do something like brainstorming or any other, we can just come to Google Meet.
-
-3:09 - Jorge Lewis Because you said that actually, it makes me believe I missed the point when explaining it. The point of this is to make it really kind of natural to interact with our data. Because if we have to go into a Google Meet every time, that's three minutes, I would say, of kind of setting it up, saying, hey, let's go into a Google Meet, setting it all up, adding the read AI. Those three minutes for me and for you guys is expensive on a daily basis. Not only that is is the read AI currently. I don't it's not connected to any chat bot. So I can't Access we can't none of us can access the resources there. So if I wanted to do slash ask what's be with the schedule? Ideally gives me be with the schedule from that screenshot that you sent a while back and all of our chats So that is to make this really intuitive and make it zero work for all of us to have to worry about adding a a note-taking bot. So for gather, since we don't want to use the API, we're going to add a server with instances of gather running. So those will just be bots scattered around the gather office. And you just join them automatically, and it starts note-taking and adding it to the database. We'll have someone else. I think Leon, Nazif, you remember Leon? Leon will be, you're muted, but yeah. So I think we'll have Leon working on this if he's interested. So this is more what he likes to do, which is architecture. But yeah, so we'll start with Bebos. Bebos, I'll onboard you sometime. I understand you have that ADAPT task for mobile thing. And then for Nazif, we're going to have to figure out the plan for ADAPT sometime later. I'm going to go off for lunch now.
-
-4:52 - Jorge Lewis Sounds good.
-
-4:55 - Jorge Lewis Yeah, also we need to share the IntelliAgent flow with Jonas, just so he has it in mind.
-
-5:05 - Jorge Lewis Yeah, so I think what I would like to do is have Since for adapt, I want to go I want to get into a group call with everyone for sorry So Nazif Chinmay has nine and will four of you guys and see if there's enough things that we can do on that project to have four people But from the adapt spec we can take a look and see that I There's not too many AI features, so I don't know if we need two AI developers on that project. So it can take some planning. I'll wait until Xinmei's feeling better. We can discuss that. Well, I'm going to go out for lunch now. I'm really hungry. I will give you an update in a bit.
-
-5:50 - Unidentified Speaker OK. OK.
-
-5:53 - Biwas bhandari See you. Cool. See you guys.

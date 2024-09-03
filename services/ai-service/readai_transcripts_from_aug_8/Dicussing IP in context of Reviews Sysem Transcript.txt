@@ -1,380 +1,0 @@
-Dicussing IP in context of Reviews Sysem 
-Thu, Aug 29, 2024
-
-0:08 - Jonas Lindberg Test test.
-
-1:36 - Jorge Lewis You want to invite them over?
-
-1:37 - Unidentified Speaker Yes.
-
-1:40 - Jonas Lindberg But are you going to answer what I said in our internal chat?
-
-1:44 - Jonas Lindberg In where?
-
-1:45 - Jonas Lindberg Our admin chat, the one I have to be in.
-
-1:48 - Unidentified Speaker Oh.
-
-2:01 - Jorge Lewis Just both work.
-
-2:04 - Jorge Lewis Okay.
-
-2:06 - Jorge Lewis I talked to David, he said, yeah, there's no really legal concerns.
-
-2:13 - Jonas Lindberg Okay, that's nice.
-
-2:18 - Jonas Lindberg I've sent the link, by the way, so they can join in. Hey, how's it going?
-
-2:30 - Cuan Mulligan Welcome.
-
-2:32 - Jorge Lewis Good morning.
-
-2:37 - Cuan Mulligan How goes it?
-
-2:42 - Jonas Lindberg Is JP joining?
-
-2:44 - Cuan Mulligan Should be, yeah.
-
-2:52 - Jorge Lewis How do you split your calls? Like, your schedule?
-
-3:00 - Jorge Lewis In what regard?
-
-3:02 - Jorge Lewis So for me, having calls every single day, like where there's like 10 minutes between a call, 30 minutes between a call, between a call, it's not very productive. So what I'm trying to do now is, oh, JP's here. Now we can talk about another time. Hey, JP, you there?
-
-3:20 - Jonathan Phillips Morning. Morning. Or evening.
-
-3:26 - Cuan Mulligan Cool.
-
-3:26 - Cuan Mulligan So we've only got 10 minutes, so this obviously feels like a Birmingham issue for you guys. Um, so if you can explain and give me the context, um, obviously from, you know, where my head's at is I don't want to present risk to, to, to my startup and my business. That's, that's the, that's the bit I'm trying to do. And I think, There is, I don't think you're intentionally ever trying to do that, but there might be unintended impacts that we need to explore. So appreciate the transparency as it should be. Yeah.
-
-4:09 - Unidentified Speaker Yeah.
-
-4:09 - Jonas Lindberg You want to lead in Jorge?
-
-4:12 - Jorge Lewis Yes. I mean, our point of view is for this review feature, we'd like to be able to make a number one, make a better version of it. That's, um, that's more modular that we can implement into different projects more easily. Um, but also open source it.
-
-4:31 - Cuan Mulligan So those two things are, are, are separate, um, things. They're not the same. So making something open source or not is, is one question. And then you, you as a company, um, taking this capability that we've created, what's your intention behind creating a modular version? What's the point of doing that? Are you looking to put that out on the market? Are you looking to open source that? What's the intention behind it? Is it to build reputation? Is it to make revenue? What's the purpose behind it?
-
-5:09 - Jorge Lewis So a couple. Number one, open sourcing. We're passionate about the open source community. We feel pride being able to publish things to GitHub. So there's that. But also we'd be reusing it in our projects. For example, REST. There is a version of reviews in there already. Sorry, REST is the Read.AI tool that I use for sales. There's already a version of reviews that we have existing in there since I made it that we'd like to spend some time improving. And since we realize all of our apps use a form of reviews, we can standardize and make a version that's more modular for all of our projects.
-
-5:43 - Jonathan Phillips So can we just define reviews, please? I'm a bit lost with what documents.
-
-5:49 - Jorge Lewis So with LLMs, there's something called few shots, which is where you give it examples to tell it, hey, here's an example. I want you to bathe in this way. And that's very standard across LLMs. And yeah, so that we've pretty much made in.
-
-6:05 - Jorge Lewis For that, we've made a custom interface for providing reviews. We call them reviews since we have an example message and then we can provide, hey, you did a good job here. You didn't do a good job here. Pretty much.
-
-6:17 - Jorge Lewis And it's a way to provide feedback to the system.
-
-6:24 - Jonathan Phillips So from my perspective, I fully understand having worked with software companies for many moons, open source, proprietary, call it what you will, and know exactly what you need as a business in order to enhance your reputation, but also just join in with the community because it feels good to help the community. It feels good to contribute to, let's face it, you get a lot from the open source community given to you. So it's nice to give back because you're taking a lot. So fully understand that. I think the only reservation that we have is ultimately that we create something let's say we create some IP and that IP then gets used by other people to gazumpas basically. So we put all the effort in to create something and then another company sees something and says right okay I'll use that in my project and bang they're up to speed with us yet they haven't thought about it before yet they didn't have a way to implement it before. So all these reservations may be unfounded we may be sort of like what you're trying to propose is something that is not going to harm us at all. But our reservation is immediately defensive, so we want to protect what we have. But that doesn't necessarily mean we're right. So we just have to work through what elements we are sharing and what potential harm they can do to us. So I think that's in a nutshell.
-
-8:01 - Cuan Mulligan So a couple of questions I have, and I like that. I think JP encapsulates perfectly where my concerns lie.
-
-8:13 - Cuan Mulligan The idea of you guys creating a modular version that then gets extended over time and we benefit from, which I think is one of your messages.
-
-8:24 - Cuan Mulligan How does that work in reality? Because if that, you know, a positive upgrade can have all sorts of breaking changes. So there's no guarantee that we could actually take advantage of any new feature because it might- Why would it have breaking changes?
-
-8:39 - Cuan Mulligan Sorry?
-
-8:40 - Jorge Lewis If it has breaking changes, then it doesn't fulfill its purpose. If we're making an improvement, it's to improve. I don't get what you mean.
-
-8:48 - Cuan Mulligan Yeah, but if you've got a review thing in Adapt, in IntelliAgent, in Workshop Builder, in five of your products, let's say we're on eight products, the chances of you making an upgrade to that and it working seamlessly across all eight products is unlikely. So therefore, every time you make a change, every integration, Or maybe I'm misunderstanding how software works these days. But my understanding is, as you'd enhance a core component independently of the applications that they're used in, there is a risk that you add a new capability and it breaks something in the app if it was deployed.
-
-9:28 - Cuan Mulligan It's not like you're deploying to an operating system where it's known. You're deploying to an application. And all those applications are not the same. Sorry, Jonas, your hand's up, mate.
-
-9:39 - Jonas Lindberg So we'd be creating a separate application, which has basically an API that can be called for creating reviews, modifying reviews, and using reviews in those agents. And through our projects, REST, ADAPT, and Workshop Builder now, it's a very similar use case, and like all of them, how it's implemented and used, and those endpoints would remain the same. So that's not really a concern since creating reviews, which have the examples, the properties, they can be optional properties that won't conflict across the projects. And for the time it takes to modify, adapt, or workshop builder to work with the new system, we'd be like implementing that no cost to you.
-
-10:29 - Cuan Mulligan So from your own company point of view, are you going to open source every single thing you build for yourselves?
-
-10:44 - Jorge Lewis The term open source, we like to use the word open source because it's very popular, but most likely business sourcing a lot of things using the business source license. That just prevents other people from using it from a business capacity. For sharing the source code publicly, I'm pretty comfortable for sharing our own code for things we make publicly because I understand that if people want to use my code, the I provide really very little value for my code, because it's so custom to what I'm doing, and to my tech stack, and to the way I do things, that if they wanted to apply in a business sense, they're better off making it themselves. And I understand that from a technical point of view. I've tried using other people's GitHub repositories. It's just not very practical.
-
-11:29 - Unidentified Speaker Yeah.
-
-11:32 - Cuan Mulligan Could we separate out the decision into two stages? And I've got to go in literally a minute. There's the agreement between us and your company to work collaboratively together is one aspect. And I think there is value that myself and JP as consumers of your services and your products could contribute to ideas to evolve this review panel because we're in theory part of your customer base in terms of what we could do. So it would be certainly interesting to be part of that journey to understand how we might extend it and build it and work collaboratively. The second part is about making that open source. My concern is just unilaterally making everything open sources. Do you guys know the origins of Slack and how that came about?
-
-12:24 - Jorge Lewis Not the origins, no. I know Salesforce acquired them, that's about it.
-
-12:28 - Cuan Mulligan They were basically a remote dev shop, quite a bit bigger than you guys, but they were a remote dev shop and they found that they were struggling with communication, So they built a little console just to make it easier for them, because they couldn't find anything on the market. They got into significant financial trouble, and the CEO basically said, right, we're fucked. Is there anything we've built for anybody or ourselves that we think there might be an opportunity to market it? And that's where Slack came from They were basically, they had to pivot the organization away from being a dev shop into a product company that had built something for themselves and very fortunate. Had they open sourced that they'd be in quite a bit of trouble as a company. They would have like exposed themselves. So I suppose I'm taking, I'm, it's an interesting, we're coming at it from very different points of view, which I think is good. I think it helps the, you know, you, you guys have been brought up on open source. I work in organizations where like you're spending 15 million buying software. What the fuck do you think I want to open source? There's no way you're going to open. If you build something for a consultancy, they're like, there's no fucking way. If you even suggested open sourcing, they'd fire you. Because you've just given away my IP. No way. And so there's two parts of the conversation for me. I'm sorry, Bob. I need to go. If you're happy to stay on, can you guys continue the chat and see if we can jump back? I might not. This call is due for an hour. It might only be 15 minutes. But I'll let you guys know.
-
-14:01 - Jorge Lewis Sounds good. Thanks for putting us in. See ya.
-
-14:09 - Jonathan Phillips Yeah. I say it's tricky because we all have our own interests at heart. We all want something. And it's just a case of merging those things together to get a compromise that everyone's happy with because a couple of them might be competing. So we just need to make sure that we're all happy going forward.
-
-14:32 - Jonathan Phillips But go ahead, Jonas.
-
-14:34 - Jonas Lindberg Yeah, absolutely. Just to address the concern that Cuan had, that's one we've had before, especially for like Itino, the platform we were building before. We want to be able to develop open source without the scare of a big company just taking our solutions and placing more developers on it. That's why It's technically not open source, it's available source, which means the source code is available and anyone can run it privately. But if you're a company and you want to deploy the codes we've available sourced in production, you have to get our permission, basically.
-
-15:14 - Jonathan Phillips So that's where I'm very cynical. So I'm Mr.
-
-15:21 - Jonathan Phillips I see people doing nefarious things all the time. So in that respect, what I would do as a bad actor, as someone who has sort of mischievous, I would take that code and currently, I don't know if it's possible, but certainly with AI tools, you can say, can you manipulate that code to make it different enough to do the same, provide the same output, but modify the code. And then I could say, what's my code? It's not your code, and I'm going to use it in my business. So that would be an element of, we need to guard against that, because I don't believe that everybody out there is fair and honest.
-
-16:00 - Jorge Lewis To even go on that step further is they don't even need to change the code. The chances of me asking for an audit of their code is like so slim, especially at a big level.
-
-16:11 - Jonathan Phillips I'm just talking about, for example, if we developed a system, a platform, and then the competitor who came from nowhere launches the platform a month later, And you go, hang on a minute, that's very similar to ours. You couldn't have built it that quickly. And then we see certain legal papers, we get to inspect their code, and it's delivering functionally everything that we've got. And they just got up to speed in minutes. So that's the guard that we just want to make sure that we don't get into that position. And I completely sympathize where you guys are coming from So I'm not like suggesting that what you're doing is wrong or incorrect at all, because it's what you want to do. So we're happy with that. It's just a case of how we go about and maybe what we actually deliver. I don't know. I don't know what the answer is. My brother started coding many years ago and he basically built most of his platforms on open source. So he came into my business and we had hundreds of customers, hundreds of platforms we built based on open source code. So I fully comply with the whole ethos of open source. But from a selfish perspective I want to have a chance to maybe build a couple of platforms that will be commercially successful and one of the checks against that is competition and barriers to enter so that they can't enter quickly and of course people copy straight away and I fully appreciate that people could reverse engineer something quite quickly, but they don't have to take the code, I realise that. It's just, I think, giving them a head start, I think that maybe is the concern. But again, it depends on, like you say, if you modulise it and you can't necessarily make anything from that module, then that's fine, because because all you're doing is sort of improving the function rather than the platform itself. And I fully understand that. And I think that's where the compromise will be. There'll be elements that can be used in isolation that you can't necessarily build from quickly to create an equivalent platform. So that's where my head is.
-
-18:21 - Jorge Lewis My opinion on this is that, and I think it's reflected in the fact that A lot of companies right now are making their projects open source, especially, which is obvious, developer-focused companies, but even non-developer-focused companies. And so my thought, just a little thought experiment is, if you're targeting developers that know how to code, and your project's open source, so what's stopping those good developers from just copying your code or taking your repository and doing the exact same thing? Nothing really, the only thing is just that, what makes that startup, that startup is not the code itself because if you put enough men and enough money behind something, you can get the same code, like the same outcome. But it's really the people behind it, I believe. And I think that opinion is reflected in the fact that all these companies, one of my favorite ones are just like Superbase, for example, where they're completely open source and they're still very profitable.
-
-19:25 - Jonathan Phillips I agree, I agree and I'm not suggesting that open source is the wrong direction at all, it's just the way we do it. But just to give you a silly example of where sort of my cynicism comes in, so a couple of years ago I stopped with this business but for 17 years I had a business selling reflux wedges, not very exciting, pops babies up in cots so the baby doesn't regurgitate milk and acid so basically they sleep at an angle. Simple as that. Nothing too exciting. We ended up manufacturing foam wedges with different covers on, different properties, etc. Very good business and we ended up being pretty much the biggest in the world for what we did. So quite successful. And then a company in the UK took our website seriously took the website and all the words and started their own business a few miles down the road. So we obviously had to stop that from happening, but they made a lot of money quite quickly by just dipping in, stealing what we had and immediately operating and then stopping. So that's where the cynicism comes with comes from And I'm not suggesting that that's possible with what you're suggesting at all. Absolutely not. But it's just that the mindset and the same with Cuan as well, we've seen people misbehave. So we just have reservations to start with. That's all.
-
-20:51 - Jonas Lindberg Go ahead, Jonas.
-
-20:55 - Jonas Lindberg With how we'd be open sourcing it, as you mentioned, it will be in quite a modular way. Our company will always be the ones that know the code we've open sourced best. We know how to implement it. How to implement it won't be too obvious to anyone else. There's quite a lot of effort into turning those modules into something that's practically usable in something like a Turning a review system into a marketing workshop thingy is quite a lot of effort. The review system, it took us a week to develop the one that is currently working in the depths. If there's a bigger company than ours, they won't have an issue. It's more like, as Jorge mentioned, the developers behind it. Understanding behind it. If we're able to create this review system in a unified way, which we use for all our projects, I think it will be a much better review system than what other companies will be able to create trying to mimic us compared to copying our code, which I don't think they do successfully in any way. And if it's a big company, they don't want to risk the legal issues behind breaking our license and all of that.
-
-22:13 - Jonathan Phillips I agree. And in theory, I think we just have to maybe see an example so that it sort of appeases Cuan's concerns, etc. I mean, I think the skill in what we're doing anyway is the input, not necessarily the coding, not even the development, it's the input to make it special, the system prompts, the codifying the expertise, that is the, to me, the differentiator so as you say people can just turn up and get a team of 50 developers together and say okay over the weekend we're going to create this platform and it's possible and it would be very similar to another platform so I understand completely that it doesn't even by not releasing it it doesn't mean that someone can't copy your website, your application when they see it because they can just reverse engineer it. I don't understand that at all but I just think we need to maybe, you propose an example to us and show us what's being shared for example and then we go hey that's fine, that's not a problem at all. So I think that might be the way forward.
-
-23:20 - Jorge Lewis So to answer that actually right now, so for the reviews for example, reviews is a pretty traditional approach to, or sorry, few short examples. So providing examples to LLMs has been done for a while. The front end, we do it. It's just the way we've done it. There's like, you can do it anyway, really. But the reviews itself is not what gives like the value. It's your, it's the fact that you are giving these reviews. So the reviews, It's actually a great example because it's not the reviews functionality that's powerful. It's the actual data that goes into them.
-
-23:59 - Jonas Lindberg Yeah, I think it comes all down to the whole reason we kind of went with this angle as a business where we're targeting to work with subject matter experts because me and Jorge and our developers, we can sit down and implement systems all day, but if we're not collaborating with someone that has how much experience you guys have in your fields that can help us formulate these products, then the technology isn't providing any value, it's how it's implemented to make your guys' solutions, which are the proprietary solutions. Which provides the real value. The review system provides no value unless you have a combination of the subject matter experts being you guys and a team of technology guys being us that can help implement it together.
-
-24:48 - Jonathan Phillips I completely agree and what makes sense the most is that as a collaboration you guys have got to achieve your goals as well so we're not here to stop you sort of achieving your dreams you've got to go for that and the better you are at doing that the better our product because we're working together. So that helps us. So what we don't want to do is stop your, reduce the passion, stop the momentum. We want you to build sort of your future together, so to speak. And that's something that maybe we haven't discussed in more detail, you know, what you guys want. Over the next year, over the next five years, et cetera. So, so there's stuff that we can do to help you and springboard you guys forward. Cause obviously you're building something for us, which is brilliant. Thank you very much. But you know, at the same time we can help you more.
-
-25:43 - Jorge Lewis Yeah, I appreciate that very much. Um, yeah, totally agree. Um, it's like we, we've got your guys's experience, but we've got our experience and it's just, it's a combo, you know, little one, two, Make some money.
-
-25:57 - Jonathan Phillips Yeah, that's the bottom line, isn't it? Obviously, we need to make some money. But, you know, I always say it's the journey, not the destination. So making the money enables us to have a better journey. But we've got to enjoy this ride because, you know, you don't realize it's gone. Until it's gone. So, you know, this, this is, we're all doing something we love and that's, that's important. And we unfortunately won't be able to do that every day of our lives. Um, you work on projects that are a bit boring. You work on projects that are going down a dead end. So in the moment, I think we're all doing something that we think is really beneficial and enjoying and really enjoying it. So I think that we need to sort of tap into that and we need to all make sure we're, we're achieving our goals, but really enjoying the ride as well.
-
-26:45 - Jorge Lewis Precisely.
-
-26:48 - Jonathan Phillips Cool. Okay. Um, I mean, I've got nothing more to say really.
-
-26:51 - Jorge Lewis I think, um, we can, if you've got time, we can go through those questions that you put up.
-
-26:57 - Jonathan Phillips Yeah, sure. Yes. Do that. Yeah, of course.
-
-27:00 - Jonathan Phillips Yeah.
-
-27:02 - Jonas Lindberg Want to find them now.
-
-27:04 - Jonas Lindberg Okay. Yeah.
-
-27:07 - Jorge Lewis Okay, so so just pretty much get an idea of of milestones really I think that's the goal.
-
-27:12 - Jonathan Phillips Yeah Yeah, so let me give you an overview again because we we've been dipping in and out of lots of things So let me just tell you from my perspective Um So I had this idea years ago. So this is not new for me. I wanted to codify my expertise. And originally, we're going back years now, the way that I tried to do it was through traditional HTML development and do a wizard. So I called it a wizard at the time. That's what websites called them, but people throw in some information, it then branches and you end up with something at the end. So that was the top technology. You couldn't really do much more than that. So now the whole AI thing is just mind-blowing. It enables to do some amazing stuff. So that's all very exciting. But in order to do that, we've got to have something that is a little bit unique. So I developed the marketing frameworks which are not necessarily completely unique because what I've done is I've pulled together what I think is the best way to approach a small business to approach their whole marketing business strategy. So I've cobbled together all my thoughts, modern thinking and I'm ripping away the traditional way of working. So nearly all companies go out there and they go like you guys would, you go online and look for a template for a marketing plan or business plan or look for traditional models and start filling them in. Really boring, really tedious, you get halfway, you stop doing it, you've got work to do, you get bored and also a lot of these rely on data and small businesses don't have data. You have a bit of maybe website sort of stats, sales stats. You don't have data on the industry or your competition. You really don't. You're making it up. So I've tried to build a system that doesn't rely on all the traditional things. So immediately, it's a different approach. Which hopefully will be unique enough for people to jump onto. And my whole theme is storytelling. So the whole thing from beginning of your marketing plan to the end of your plan is all about narrative and storytelling. And I managed to create every single level of marketing and business within it have a storytelling, not a theme, because it's not like once upon a time, but the whole ethos and principle is of telling your story, telling your product story. So there's various elements of that. But anyway, I won't go into the detail. So we have this unique platform. And I want to target organizations that don't do marketing or business. So, your landscape gardener, your cleaning service, people who have a passion for the business they want to start, but have no clue. They might not even have a laptop. So, they really don't know where to start. They start by talking to people saying, or going door to door, do you want my service? So, I want to build something that will enable them to give them a strategy of how to go out there and do things they don't know about now. So, that's the idea. So I just simply want the ability for somebody to go onto the web, whether it's a smartphone or a laptop, and start to talk to a system. And they don't have to fill a template in. They start talking in their terms, in their language, and it helps them along the journey. So all I need is these various bots or agents to work in unison to give them, for their individual personalized lifestyle, what they need. And on top of that, obviously the gubbins at the back, the whole agent system, is a wrapper that looks relatively attractive. It doesn't have to be amazing.
-
-31:04 - Jonathan Phillips That's the goal, the whole goal, but in the short term I need to have something to go to prospective partners, to even customers, just to try and refine things. So at the moment it's difficult because it's conceptual and I talk to them and they go, yeah it's great, don't really know what you're talking about, but hey I'll buy into it. Something to go, hey, you have a go. You type in or speak into it and see what you think and that's what I need. And I've spoken to a number of people a few months ago when I was trying to get some buzz around and some support as in like, is this a good idea or not? And those people are now coming back to me saying, hey, how are you getting on? Can I have a go? I kind of like, I'm getting itchy feet. I just really want to show them something. So my sort of opinion at the moment is the workshop builder needs refining and that's fine. So what I want is a refined version of what we have now with a wrapper on top, a window that looks semi-attractive, just your standard chat GPT, Claude type thing, you know, nothing flash at all, where I can go to someone and say, right, go and type in. And then at the end of the conversation, they will get their unique value proposition. So there's no documents to output as such. We're not doing chain of, um, sort of workshops that build together to build a plan at the moment. That's obviously downstream. I just want the conversational window so that at the end, because the, the, the output is the conversation. And at the end, they come up with a UVP or the agents do so to speak with the user. So that's, that's all I want. And I know it's a big ask, so to speak, but at the moment that I've really sort of tried to refine my requirements so we can get it done as soon as possible.
-
-32:55 - Jonas Lindberg Now that we have the workshop builder, instead of building the workshop custom for you, I have one thought after also going through the workshop, a very tiny version with you and Cuan. I think it may be smart with trying to, in the workshop builder, design the brand purpose workshop first, because it's much simpler in terms of paths it can go down. And it may be, I think it's easier for you to get a refined version of the brand purpose workshop that you can start going around and demoing than the UVP workshop, which will probably require more complex segment switching and more complex, mostly everything.
-
-33:40 - Jonathan Phillips I understand. I fully understand. Although I think the UVP workshop has 10 times more value than the brand purpose workshop from a business perspective. So for example, every single business out there needs a UVP. And if they've got one, or they think they've got one, it's probably wrong. They need a better one. So I could approach any business or any company founder and basically say, Hey, I want this tool here. It's going to improve your business like that. I say, we've got a brand purpose workshop. Some people don't even know what brand means. They don't have, or they have their logos and they have what they think their brand is. And they're not going to be able to take anything from the output and improve their business with it. So from my perspective, that's what you VP was quite useful.
-
-34:34 - Jonas Lindberg To comment on that, when you first presented the brand purpose workshop, I was in the same position, which almost made it, when running through the tiny version with you guys, even more impactful, because it's making me realize stuff that I didn't even think about. Everyone thinks about the UVP. No one really thinks about a brand purpose. So when you're running for a workshop and understand, wow, this, this hair, this is really important. I think that's like a special feeling, which I've never gotten from, like, would be very impressive to get from AI, if that makes sense.
-
-35:09 - Jonathan Phillips Sure, sure. No, no, I take that on board, fully take that on board. Um, my, my, my perspective is that obviously I wouldn't call it a UVP because that is jargon and technical term. I would build it into a, your, your, your business meaning or have it parted up. I'd have it sort of more enticing than that. Um, but let me have a little think about that on how we approach it. And if you could, if you could give me some, just some very rough, um, indication of How long the brand purpose workshop will take to build and how long the uvp workshop? Would help be useful.
-
-35:49 - Jonas Lindberg I don't think it's up to us to Like we're adding the features to the workshop builder and we'll eventually make a front then specifically for the work for intelligence uh uvp workshop But until we're starting with making the specific content for IntelliAgent, I think it's like you can get, just using the workshop builder, you can get a demo-able version of the brand workshop, brand purpose workshop, without losing any time on the UVP workshop. The goal with IntelliAgent's development can be the UVP workshop, but in the meantime, using the workshop builder, you can make a demo of the brand purpose workshop that you can present.
-
-36:31 - Jonathan Phillips Yeah, I mean, my sort of I use the term demo, which is useful because obviously if I'm in person, I can show them and take them through it. But I also want something to sort of broadcast. I want something to say to someone so it works in its entirety without me there. So that's also a short-term goal. So I can basically get hundreds of people to test it, if not thousands, and even use it as a sort of lead magnet to get more interest for when we develop the system further. So I know that this is all sort of building blocks to achieving the end goal. And it's a case of, at what point do we want to say, that's the milestone, that's what we're aiming for, and we've completed it. So I know the milestones are moving like this. And every time we suggest something, it's something more complicated or less complicated. And it's moving all the time, which isn't helpful, I understand.
-
-37:27 - Jonathan Phillips I think you're right. So the key is for us to put the data in, the information in, the knowledge in, in order with the existing structure to make it more powerful. And that's absolutely fine. And something I'm doing at the moment is the On the segments, Kuhn had this chart with the various sort of system inputs, system prompts. I'm going to take that apart. So at the moment, it's not good enough because it's pretty much a lot of generic sort of...
-
-38:00 - Jonathan Phillips I think the agents aren't smart enough. To actually deliver what we want. I need them to be a lot more granularity, a lot more layers of complexity with their thinking and what they're trying to achieve. And I don't think we have that at the moment. So that's what I'm going to, hopefully by the end of today, I'll have something for you and Cuan to have a look at.
-
-38:22 - Jonas Lindberg I agree with that, but I think it's also can be harmful to try to go too deep into the details of getting the granularity to begin with it without even having like the foundation of the building in place kind of I think it's easier to add granularity over time afterwards than try to be super specific, for example, in the prompts to begin with, and then that's much harder to debug which fundamental aspects are wrong if you've already put in every single piece of detail.
-
-38:50 - Jonathan Phillips It's easier to add detail than remove it. But what I can do is if I produce what I think is the end goal, you can then maybe chunk it and say we'll try this first and try that and try that because at least you'll have a vision of where we want to go to because it's a lot more complicated than what we have at the moment. So what we want to do is produce something that is difficult to emulate so someone else cannot come along and have agents as intelligent as ours and as expert as ours, because ultimately, there's going to be hundreds of these systems. There's going to be hundreds and hundreds. And we want to have the one that everybody goes, wow, that is so accurate and so perceptive and so clever. And all the others I've used are just generic. They just don't seem to deliver something special. And it's that X factor that I think we can do by engineering the agents to be a lot smarter.
-
-39:45 - Jorge Lewis I want to go into this, I guess we can call it the first version of the app that you want to send out to users. So you mentioned as a lead magnet, is that where you're leaning towards?
-
-40:00 - Jonathan Phillips I want everything tomorrow. So what I'm trying to do is I'm trying to basically shoehorn anything we can do in our journey and make use of it.
-
-40:09 - Jonathan Phillips To build some momentum.
-
-40:15 - Jonathan Phillips Yeah, yeah.
-
-40:17 - Jonathan Phillips When I say lead magnet, even if it's not a lead as in like they're going to buy it as such, it could be a lead magnet as in like they want to use it in the future or they want to partner with us or they want to use the technology or they just want a conversation because it's interesting. So all that will generate generate momentum, as you suggest, and that will get the project going. And at the moment, we're kind of a little bit stalled because I'm talking smoke and mirrors to people, and they can't really get a grasp and a physical presence of what the app's going to do. So that's where I'm sort of dancing between at the moment, talking a load of, well, excitement to people, and I want them to see something and have something as soon as possible to say, hey, yes, I see what you're talking about.
-
-41:07 - Jonas Lindberg I think it's smart to run the mission and mission workshop probably as soon as possible, because when we have that end goal, it's easier to create a roadmap of the versions, not with dates or anything, but just like how to hop from version to version with how much more complicated features per version. So from that, we can figure out, will the first version literally just be a shared interface with this workshop or these two workshops? Or how much to add per version? What speeds up the process? What slows down the process?
-
-41:42 - Jonathan Phillips Exactly, exactly. And I said this all along and this is where sort of Incura may differentiate in our our philosophies let's say he's from a corporate background I'm not so I'm very much from small startup and we have something we want to do we go and do it we don't look for problems we look for solutions and we just build whacky the popcorn machine. So lots of ideas, lots of things flying around and you've got to actually sort of manage that. So a lot of Cuan's skills I admire because he helps me manage my ideas but he's also sometimes a little too strict and a little too formal on what he wants. So I see the idea of having a roadmap and saying hey we want an amazing platform at the end and this is how it's going to look. So that's okay that's no problem where he's very reserved about the journey and he doesn't want to get too far ahead but me I want to see the end goal and how do we get there and how do we then sort of like chunk it in order to get there and you learn so much from that because you find halfway through that there's actually a shortcut to the end which if you didn't have the end point you'd never get to there because you don't know where your shortcut is to. So yes, I think that's exactly what we need to do. We're getting ahead of ourselves, but I do think we need a vision. And I think we need, and you guys certainly need it, because how can you help with the initial development not knowing where it's going to end up? That goes without saying.
-
-43:28 - Unidentified Speaker Yeah.
-
-43:30 - Jorge Lewis Do we do an hour?
-
-43:34 - Jonas Lindberg All stakeholders should be present in the mission.
-
-43:38 - Jonathan Phillips Yeah, I mean also another thing is that the way I work personally is I like to go away and think. And report, so to speak. So Cuan's very much in the moment, let's do a workshop, let's bash it out, et cetera, whereas that isn't necessarily my style. I don't mind talking through things, but I also feel that at the end, and I go away and think, and I think, well, half of that isn't relevant, or I've got so much more to add to it, and what I like to do is just do it once. So it just needs a bit of thinking time, and then we can sort of go through it, so to speak.
-
-44:11 - Jonas Lindberg Yeah, absolutely. I'll send you the recording of our mission, the prep workshop I did, because it's quite a while since it now, in case you need a refresher. Yeah, cool.
-
-44:24 - Jorge Lewis Just so I can go away and think as well, what's missed? Because I haven't used the Workshop Builder in depth yet. What's it lacking for it to be able to produce a UVP workshop?
-
-44:42 - Jonathan Phillips Nothing. I mean, except because I tried to do that, but we've had a few technical issues, um, which are anything to do with the workshop itself, but to do with the platform. And once we through the little technical issues, there's nothing, absolutely nothing that will stop us.
-
-45:01 - Jorge Lewis Okay. So, so like, cause the way I thought of, I heard it from before is that we're kind of like, pretty far off to reaching the capability to make the UDP workshop, but it's just bugs and technical problems.
-
-45:14 - Jonathan Phillips Absolutely. So, so, so ultimately I just want a process which we have with our steps or segments. Um, we throw in a number of specialist agents and that's it. I mean, that's fundamentally where I'm at. And then if we built something, a little window, a little wrapper on it so that people could look at it and not see the Let's say behind the scenes, then that's it. That's really, and that's, and that's what I was saying about the fact that we're nearly there. We're actually so nearly been able to show people something in its entirety. Um, and it's almost just, it's within reach. So that's why it's exciting. Um, and it doesn't have to be perfect by any means. It can be just as long as good enough. That's, that's the key thing. Um, and then I can get people excited about the ideas. Um, and hopefully, you know, we can then sort of get that momentum going on a business sense.
-
-46:10 - Jonas Lindberg Yeah, when you mentioned that, I think a lot of the granularity, I think you'll be looking for in the agent responses and in their expertise and how basically not sounding like AI. I think a lot of that will come from when the review system is also implemented. But before the review system is implemented, I think you can get down at least the foundations of how the workshop runs through. They may sound like AI. Certainly, I can do that for you. The classics sound like Shachipiti. I think Cuan told me, like you also mentioned to him, it very much sounds like Shachipiti now. I think that's where the review system will come in, because that's when you can just speak into a microphone and give examples of the improved responses, how they should sound.
-
-47:00 - Jonathan Phillips Yeah, exactly. I mean, that's another thing that we differ on. My approach is conversational with an AI engine. I talk to it as if it's human, as if it's an assistant or a friend next to me, whereas Cuan talks to it like a machine. And by talking to it as a machine, he gets the machine back. So what I try and do is talk to it as a person and then get the personal, because AI is not dumb, as we know, and it will respond in a manner that it thinks it's been spoken to. So I use please and thank you. Even when I'm talking to Alexa, I'll use please and thank you. It might not functionally be a massive difference, but it helps my approach. It helps my psyche when I'm talking, that I start to give the human element to it, which it'll then hopefully mimic that back.
-
-47:56 - Jonathan Phillips So, so, so yeah, I think the key thing of the system prompts, which we put in the fields anyway, it doesn't matter about the coding as such. So those system prompts are what I'm really trying to hone down. So the agent has a set of instructions. So that's really what I think is a massive differentiator, but that doesn't, that's independent of the coding. You know, it doesn't really matter. It's the training, the tweaking, the expertise we give it is really where it becomes special.
-
-48:24 - Unidentified Speaker Yeah.
-
-48:25 - Jorge Lewis Okay, so then the last part is just figuring out how we would make it into its own app. So the workshop builder is its own thing. Jonas, how hard would it be to just kind of put on its own URL or where it's just the chat interface?
-
-48:41 - Jonas Lindberg Well, it's going to be a bit of work, which will be exposing the like endpoint, well, basically just the send message endpoint and connecting it with the profiles unique to the application. But that's work that's going to be, uh, have to be done anyways. And once that's done, it's done for the workshop.
-
-49:00 - Jorge Lewis Like the, the project injection dependency injection thing where we have to interact with the actual projects database and stuff like that.
-
-49:08 - Jorge Lewis Yeah.
-
-49:09 - Jorge Lewis Yeah.
-
-49:09 - Unidentified Speaker Okay.
-
-49:10 - Jorge Lewis Um, Okay.
-
-49:11 - Jonas Lindberg So basically just that, but after that, it's just copying over the chat interface, adding in the Intel agent logo instead of the logo, adding in the colors of Intel agents instead of a depth and then just exposing the chat so that they can't accidentally wander into that panel. And then we're done.
-
-49:29 - Jorge Lewis Yep.
-
-49:30 - Jorge Lewis Um, JP, do you have, do you use Dribbble?
-
-49:36 - Jonathan Phillips I know of it and I probably have downloaded it or used it and registered and then not used it again. So the answer is no, but I am familiar with it.
-
-49:47 - Unidentified Speaker Okay.
-
-49:48 - Jorge Lewis Well, you could use a tool like that, like any platform to get inspiration. You can send, you can make a mood board on the FigJam. So we can get an idea of what you're aiming for in terms of that. The UI framework we're using is pretty rigid. It looks like very app-like, system-like UI. We can make it look a little bit towards what you're trying to get. Obviously, that will be done later in the end. But just to get an idea, I think it would be helpful.
-
-50:16 - Jonathan Phillips Sure, sure. So originally the idea that we'd have something similar to Claude where you have your chat and then your artifacts and your documents on the right. What I want initially is forget the right hand side, no artifacts, no documents and just a window. So ultimately that's really our first, let's say our first draft, that's going to be something that we can take and people can play with and Ultimately, like chat GPT, you delete the chat. It's gone. You know, we don't want people necessarily to do anything with it. They just got to play with it and go, wow, maybe, maybe they'll copy the UVP statement at the end or whatever the output is. And then it's done.
-
-50:58 - Jorge Lewis Yeah.
-
-51:01 - Jorge Lewis Cool. What are your thoughts on the, just the current chat interface though?
-
-51:06 - Jonathan Phillips There's no, there's no, no problem. It's black. I'm not a big fan of black.
-
-51:15 - Jonathan Phillips I think that's a generational thing. I like it to be light and airy. That's my go-to.
-
-51:26 - Jonas Lindberg Do you want plain white or do you want a slight tint of white?
-
-51:30 - Jonathan Phillips You're going to spoil me now with a few shades, are you? That's nice. At the moment, I don't know, but what I can do is I can find some examples, some very simple examples and say, I like that. That'll do. So I can't explain it, but I know what it's like in my head, kind of
-
-51:47 - Jorge Lewis We'll do some few shop reviews with the examples you give us.
-
-51:53 - Jonas Lindberg Yeah.
-
-51:54 - Jonas Lindberg Yeah. No worries. No worries.
-
-51:57 - Unidentified Speaker Yeah.
-
-51:58 - Jorge Lewis So should we schedule the vision and mission workshop for some time?
-
-52:05 - Jonathan Phillips Yeah, we can do that.
-
-52:07 - Jorge Lewis Okay, cool.
-
-52:10 - Jorge Lewis Jonas, I'm wondering if there's anything we can start working on other than the workshop builder to try to see if we can move IntelliAgent faster.
-
-52:23 - Jonathan Phillips So just quickly as well, I've spoken to a number of people and We've decided, or I've decided, that it's Intel-agent rather than Intelli-agent, just on the virtue that there's no I in the middle.
-
-52:39 - Jonas Lindberg That's how we've been pronouncing it internally.
-
-52:45 - Jonathan Phillips Because ultimately, it's Intel-agent, and that's what the whole idea is. So I'll have a word with Cuan about that, because Cuan's, I think, the prime candidate for getting it wrong.
-
-52:59 - Jonas Lindberg I think you can switch the I and the A if you wanted to sound like a lot of tech terms, like IntelliSense, Intelli-whatever. There's a lot of words for tech, which is Intelli-something, IntelliJ, IntelliSense.
-
-53:16 - Jonathan Phillips Yeah. Yeah. It's the AI in the middle, which is quite clever.
-
-53:20 - Jonas Lindberg The pronunciation of intelligence is also like basically intelligent, but intelligent.
-
-53:26 - Jonathan Phillips Well, that's the whole idea behind the brand. That was, that was my sort of purpose to try and have a clever word that just described the whole thing. And then I thought, Hey, it's got agent in as well. Isn't that clever? Oh, if I put an extra letter in, it has AI in as well. So it becomes lots of things, which is quite nice.
-
-53:47 - Jonas Lindberg Yeah.
-
-53:48 - Jonathan Phillips Cool. So if you, if you want, if you want to throw over any dates, times, whatever, then, then do so. And, um, we'll, we'll get on with it.
-
-53:57 - Jorge Lewis I think, uh, what, yes. Around between what times are you free? Like nine to on a, on an average day.
-
-54:07 - Jonathan Phillips I'm a free, I'm free all the time, unless I'm not, that makes sense. So unless I've got something scheduled in my times are just anytime.
-
-54:16 - Jonas Lindberg I'Ve got a schedule for 9 a.m. Someday.
-
-54:21 - Jonathan Phillips Not Sunday morning.
-
-54:23 - Unidentified Speaker Someday.
-
-54:27 - Jonathan Phillips That night is good for me most days. But obviously, you're the ones who we've got to sort of jig around because we're bright and breezy sort of first thing in the morning and you're getting tired. So I think it's best if you're not so tired and fired up Nine works, I think.
-
-54:54 - Jonas Lindberg Yeah, nine on Monday, maybe.
-
-54:57 - Jonathan Phillips Right, let me have a look. This will be a nine on Monday that I can't do. Let's have a look.
-
-55:01 - Jonas Lindberg Yeah, or Tuesday. That also works.
-
-55:11 - Jonathan Phillips Yeah, nine on Monday for me. So this is the second, yeah?
-
-55:17 - Jonas Lindberg Uh, I'm guessing you're correct.
-
-55:21 - Unidentified Speaker Yeah.
-
-55:22 - Jorge Lewis Yeah. How many people from your side would you be bringing?
-
-55:25 - Jorge Lewis So J.P. Cuan.
-
-55:32 - Jorge Lewis Sorry, say again.
-
-55:33 - Jorge Lewis How many, how many people would be there? So you J.P. So you Cuan.
-
-55:38 - Jonathan Phillips What would be the agenda? What would you want the agenda to be?
-
-55:43 - Jonas Lindberg The agenda is figuring out the mission statement and the vision statement and getting everyone aligned with why the idea was conceptualized and where the end goal would be.
-
-55:54 - Jonathan Phillips So are we talking across everything or one particular area?
-
-56:01 - Jonas Lindberg Across everything. We may run like mini versions of it for specific features that we want to get aligned on. But this is for the whole intelligence as a concept.
-
-56:19 - Jonathan Phillips I'm just thinking if Arif needs to be involved, but we could invite him to obviously participate because he's been a bit out of the loop. But I don't think it's necessary that he's there, but it'd be nice to have him there too.
-
-56:33 - Jonas Lindberg It's always nice to have some people in the Mission Visions workshop, because then you get everyone's input. Sometimes you realize stuff for yourself and everything. We've been starting to run it internally for our own projects, and it's been wonderful.
-
-56:45 - Jonathan Phillips Yeah, OK. So let's try both of them. But again, they're the ones who have more formal meetings than I do, so we'll have to maybe work around that. But let's go for 9 o'clock on Monday morning. And if they have an issue, then we can maybe tweak it a little bit.
-
-57:06 - Jonas Lindberg Could you send the meeting invite for just 9 a.m. On one of the days next week when everyone is free?
-
-57:11 - Jonathan Phillips Yeah, yeah. Let me sort that out.
-
-57:16 - Jorge Lewis Just a little note, I have a project idea that I... Have you heard of... Actually, this is a good question for you. Have you heard of Essence Writing?
-
-57:24 - Jonathan Phillips Essence Writing? Yeah.
-
-57:27 - Jorge Lewis And it was just this writing exercise to be able to distill your thoughts. I have a project idea where it helps you learn how to articulate yourself better using a chatbot, ideally a voice interaction. So I'll let you know how that goes and if I can move forward with that in any regard and we can see if we can implement that into IA or adapt to that.
-
-57:49 - Jonathan Phillips No, I like that. I like that because I do everything dictation wise everything I do is dictated unless obviously there's people in the room where I've got a type But I think that's the future. It really is the future that I mean, we know it's the future, but it really is the future It's good to be people who don't talk now are gonna be talking.
-
-58:08 - Jorge Lewis Do you super whisper on your phone as well?
-
-58:11 - Jonathan Phillips I do I've started to only recently, but I've used things for years as far as dictation, like Dragon Dictate and all the old school stuff. So I like the fact that the Apple sort of devices have a built-in dictation, but it's not great. That's the problem. It's easy to use. It's just not good. Yeah, so I'm trying to integrate and the problem I have is that it doesn't always it's the active window thing So with super whisper you end up saying it and it's not in the window and you're gonna paste it
-
-58:44 - Jorge Lewis in I know it's not a big job, but it's like Every time is all like so Because I prefer dictation as well, but just it's inconvenient with iOS Hope the I the Apple AI when it comes out should be
-
-58:59 - Jonathan Phillips including all of that stuff I'm looking forward to what is it the announcements on the 9th the new phone and then I think about the 20th They start to release the products don't they and then they operate the new
-
-59:11 - Jorge Lewis Operating system will come in a week or so later Maybe yeah Yeah, I think the same date as the actually I'm not sure This year might be a little bit different considering. It's pretty big. Can't on my phone and I've got 13 so I can't use user I've got the only model right now that can use it the 15 pro or 15 pro and 15 pro max That's why I'm buying a
-
-59:34 - Jonathan Phillips 16 month But that's exciting for me the whole AI stuff on the phone is going to be hopefully It'll be a bit clunky to start with I imagine but once it gets going another app start to build into their whole frameworks It's gonna be so good Yeah.
-
-59:54 - Jorge Lewis Cause if they're going to just improve it over time and I feel like at some point it'll be just, it's going to be super practical, practical.
-
-1:00:03 - Jonathan Phillips It is. You're not going to have apps anymore. You just can have a device you talk to and it does it for you as just a box. And that's, that's really what we want.
-
-1:00:12 - Jonas Lindberg Uh, remember mentioned like, uh, maybe we can just have a part of the experience in the beginning of the app, be just a little bit tutorial on how to use voice dictation, iPhone for the people that are trying it out on iPhone before we get the properly integrated.
-
-1:00:30 - Unidentified Speaker Yeah.
-
-1:00:31 - Jonathan Phillips There's a whole, there's a, there's a whole art and science behind it. It's not something that is pretty fundamentally straightforward talking to a device, but it's not.
-
-1:00:44 - Jonas Lindberg Yeah. When you're writing messages into your phone to talk with the workshop compared to when you're talking and it's dictating it into text, how you speak is way different. And of course, the AI will take how you're speaking as inspiration for how it's speaking. So it can quite change how the workshop feels.
-
-1:01:07 - Jonathan Phillips Yeah, yeah. I'm looking forward to having that element as well, because the whole idea is that it's like a human talking back to you. I know that's what AI is supposed to be, but it's not. If we can get it as near as possible, it then gives us a differentiation as well.
-
-1:01:24 - Jonathan Phillips Yeah.
-
-1:01:26 - Jonathan Phillips Cool. All right. Well, I'll go and try and sort some dates out, and we'll reconvene on that next week. Cool, cool.
-
-1:01:32 - Jorge Lewis Sounds good. Thanks.
-
-1:01:35 - Jorge Lewis Enjoy the rest of your evening. You too.
-
-1:01:37 - Jonas Lindberg Enjoy the rest of your day.

@@ -1,176 +1,0 @@
-Meet Meeting 
-Mon, Jul 29, 2024
-
-0:00 - Jonas Lindberg for you on DM and Discord.
-
-0:15 - Jonas Lindberg How attacked am I going to be during this meeting?
-
-0:50 - Jonas Lindberg We might want to formalize that the previous agreement is canceled, like the previous estimation. Can you hear me.
-
-1:12 - Unidentified Speaker Yeah.
-
-1:15 - Jonas Lindberg Did you hear what I said.
-
-1:20 - Jonas Lindberg We might want to formalize that the previous design spec is canceled, like that it's terminated the contract.
-
-1:38 - Jorge Lewis Yeah, I can bring it up and just say, how should we move forward with the paperwork?
-
-1:47 - Jonas Lindberg Yeah.
-
-2:02 - Jonas Lindberg Do you have, like, admin capabilities in this meeting? Because it's, like, under company, which you're, like, an admin of
-
-2:17 - Jorge Lewis My personal email, so I don't know.
-
-2:21 - Jonas Lindberg You should start using your company email.
-
-2:31 - Jorge Lewis Yeah.
-
-2:34 - Jonas Lindberg I recommend just on Brave or whatever, create a profile, a browser profile for work where you're just logged in on all the work accounts, no personal accounts. Because Google is kind of annoying where it's like, there's like a default user, the user zero, which it just goes into no matter what, if you click links and stuff. And you can't change what user that is without logging completely out and then again, I mean, Yeah, I'm using my personal one because I need to start transitioning.
-
-3:13 - Jorge Lewis All right, JP should be joining in a second.
-
-3:15 - Jonas Lindberg Let me get on my lo-fi beats to relax.
-
-3:26 - Jonas Lindberg Has really helped me with current meetings.
-
-3:55 - Jonas Lindberg Did you send a link to Kurt? Your camera's frozen for me, by the way.
-
-4:07 - Jonas Lindberg Your audio also seems to be incredibly delayed.
-
-4:33 - Cuan Mulligan Hey, how's it going, Cuan?
-
-4:35 - Jonas Lindberg Hey, guys.
-
-4:38 - Jonas Lindberg Just waiting on Jorge to join back in. I think he had some camera issues or mic issue.
-
-4:44 - Cuan Mulligan Okay. I can't see anything on my screen. My Wi-Fi is really low, so.
-
-4:48 - Unidentified Speaker Okay.
-
-4:50 - Cuan Mulligan You guys are just joining in now. So yeah, I got to kill my camera just because of bandwidth.
-
-4:59 - Unidentified Speaker Okay.
-
-5:06 - Jonas Lindberg Should I turn mine off too?
-
-5:10 - Cuan Mulligan Yeah, maybe I don't know. Let's see. See if it works.
-
-5:13 - Jonas Lindberg Yeah.
-
-5:24 - Cuan Mulligan Hey, guys.
-
-5:25 - Unidentified Speaker Hello?
-
-5:28 - Cuan Mulligan Hey, man. Sorry, I'm just keeping my camera off because bandwidth here is a bit rubbish.
-
-5:37 - Jorge Lewis I think I'm going to have to do that in a second as well. Where are you at right now?
-
-5:43 - Cuan Mulligan I'm in the north of Spain where my family's home, my wife's family home.
-
-5:50 - Jorge Lewis Oh, nice. Is your Spanish? Yeah. Hablas espanol?
-
-5:59 - Cuan Mulligan A little bit, not much. I get to have a holiday. Come on. I don't need to speak so I can just not, I disengage my brain while I'm here, which is nice. I don't have to do anything.
-
-6:18 - Jonas Lindberg Yeah, I think turn the camera off. I think that's a better idea than...
-
-6:22 - Jonas Lindberg Cool.
-
-6:24 - Jonas Lindberg Virg, your bandwidth seems to be suffering.
-
-6:27 - Jorge Lewis Sorry, what was that?
-
-6:29 - Jonas Lindberg Your bandwidth seems to be suffering right now.
-
-6:31 - Jorge Lewis Yeah.
-
-6:36 - Unidentified Speaker Yeah.
-
-6:37 - Jonas Lindberg Is it, like, audible, though?
-
-6:39 - Jonas Lindberg It's audible. There seems to be a huge delay and you're kind of cutting in and out, but it might be fine now with the cameras off.
-
-6:49 - Jorge Lewis Yeah, let's try it out. Um, cool. So, so yeah, it's been around like three weeks since we've last chatted, I think doing right.
-
-7:00 - Cuan Mulligan Cool.
-
-7:05 - Jorge Lewis So kind of, yeah. Well, what is there, what can we go over? What is there anything top of mind?
-
-7:12 - Cuan Mulligan Um, Yeah, obviously we did. Jonas has been doing a lot of planning, but I'm not sure what the plans are. The status updates are very sporadic in terms of them actually happening versus the usefulness to an end user like me, as opposed to technical updates. So there's definitely some work to be done there. I think you guys are starting IntelliAgent in Angular today as well.
-
-7:45 - Cuan Mulligan Just wanted to see how do we make sure that we've got consistency in communication and we've got clarity in terms of what's going on. I'm a little bit lost on, I mean, obviously we're more than a few weeks into the project now and I'm not really clear on where we are. I mean, we had that first big release and we've not really had anything since.
-
-8:14 - Cuan Mulligan I'm not trying to suggest that there's no work going on. I know there is, but it's just, it's not tangible to me.
-
-8:21 - Jorge Lewis Yeah. Um, okay. So, so pretty much since our last, the last time we chatted was roughly the same time that we had that, that release where you guys were able to kind of play around with it since then, from what I've gathered, gathered is that the, the, the vision has changed quite a lot. All right.
-
-8:41 - Cuan Mulligan Not really.
-
-8:44 - Jorge Lewis Um, I mean, I don't think I can agree on that. It's just things have changed so much in terms of what you're trying to make the product like, for example, the focus before was making the user check in having the the coaching session, having the coach coach on things before we We introduced the entire new concept of mentor, separating the personas, introducing coaching workshops, and now we're more so focusing on the entire onboarding session, onboarding workshop, whereas before that was not a thing at all. So I would say that things have changed quite a bit.
-
-9:18 - Cuan Mulligan So let's take those things one at a time. So coaching was always there, as you just said. Wrapping it around a workshop doesn't really change the fact that there is coaching going Yes, there is a split between the mentor and the coach. You know, the guy's already gone down the path of having an eugenic system. So that's, yeah, I think there is a difference between a mentor and a coach just for the user experience point of view.
-
-9:52 - Cuan Mulligan The onboarding was, if you look at the original mural, it is there, the onboarding piece.
-
-10:01 - Cuan Mulligan But, I mean, we can rake over the coals on this, you know, and myself and Jonas spoke about this a little bit, and yes, there's definitely a delta from what we originally agreed. I don't think of it as big as certainly your words were just alluding to. But what I don't understand is what's the so what of all of that?
-
-10:24 - Cuan Mulligan you know, regardless of what I think or what you think, there is a difference, whatever words you want to use, but I'm not I've no one's told me what the consequences of that are. Like, is it now another day? Is it another hour? Is it another seven years? Like, there's no there's no, there's no update on consequences of this and what we're doing. So I'm completely lost in terms of where we are on the project and what's next.
-
-10:50 - Jorge Lewis Yeah, we're trying to get a really a whole bird's eye view of the project now, because at least on our side, whether it was clear in your head, I'm not sure. But on our side, there's a lot of new things that we're introducing on and now kind of focusing on before we knew there was onboarding. The onboarding for us before was, okay, we're going to gather the user's data. That was, we're going to, we're going to gather their why, why are they doing this? We didn't understand that it was a full. Really 60 minute workshop potentially longer less than it is a really now it's a really deep workshop that we've gone into details of which weren't discussed before. There's all these little things that I just go to us so right now we're you could say prior to all this planning that we had so let's say three weeks ago we had our last call. We were still, we were very clear on how we wanted to move things forward. But as we introduced things and went further into things and how you, the mentoring thing was, like you said, there is some similarities, but in terms of actual tech work, there is more work to be done. But the biggest thing is introducing the understanding your why workshop and having the whole onboarding session was new to us. So we're trying to figure out, we're trying to put our foot down and figure out how is the project looking on our side?
-
-11:58 - Cuan Mulligan So you're saying a lot of things here. That's not necessarily useful to throw so many things, topics without talking about any one of them. So the why workshop should be exactly the same scope as what's IntelliAgent. So yes, I get that that's new, but we want to be doing that in a way that reuses and repurpose that for IntelliAgent. What I do not want to be doing is building for IntelliAgent and ADAPT separately because they're functionally, sorry, conceptually the same thing. So they need to be done very tightly coupled. The onboarding, it sounds like that's a really big thing. It's asking a couple of questions like, what's your name? What's your date of birth? I mean, I don't understand how onboarding has now suddenly become a big thing. If you're saying onboarding and the Y Workshop, yeah, I get that. But then you've just talked about the Y Workshop. So you can't use it twice.
-
-12:57 - Jorge Lewis Like you said, the, okay. So kind of put you where we're at, like on our side, how things look, it's just things are changing so much. And I don't think it's very fair of you to always, it feels like you're all the time interpreting things, small changes, things that perceived to be, Oh, just add a button here to be not a lot of extra work, but you're very experienced in the IT field. So I'm wondering why you have all these assumptions. Why things shouldn't take this long. I understand from a point of view in the startup world, you need to get to market as fast as possible. You don't care if the code is clean, reuse as much as possible. If it works, that's great. That's what we want. That's also what we understand. We understand that's how the software world is for startups. But this assumption that things, that these small things, simple, seemingly simple things don't add a lot of overhead is incorrect.
-
-13:48 - Cuan Mulligan Well, so are you trying to equate, so in the wording that you used, it was insinuated that onboarding, which is asking a couple of questions, is the same as the why workshop. Just all my experience says that they are not the same.
-
-14:10 - Jorge Lewis The onboarding process, as to my understanding, it includes getting the users onboard across this. So the onboarding day, so this includes gathering the user's information. So now you guys are using the understanding your why as kind of a lead magnet, right? That's the plan?
-
-14:28 - Cuan Mulligan Yeah, we just moved it at a different part of the process before the payroll.
-
-14:32 - Jorge Lewis So now the understanding your why is the lead magnet. So that's always going to be the first part of the journey, user journey. So after the complete understanding your why, then we have the asking the very simple questions, getting the information, right?
-
-14:48 - Unidentified Speaker Yep.
-
-14:50 - Cuan Mulligan The onboarding, I'm assuming.
-
-14:57 - Jorge Lewis Sir?
-
-15:04 - Jorge Lewis Hello?
-
-15:08 - Jonas Lindberg Have I cut out or?
-
-15:10 - Jonas Lindberg No, I think it's going to cut out.
-
-15:46 - Cuan Mulligan And that feels like a year.
-
-16:01 - Jonas Lindberg You still there Jorge?
-
-16:03 - Jorge Lewis Yep, Rita is here by the way.
-
-16:05 - Jonas Lindberg Yeah I know.
-
-16:36 - Jorge Lewis His network is down.
-
-16:46 - Jorge Lewis Well, I guess things will sit and stir.
-
-16:55 - Jonas Lindberg Do you know if he's coming back?
-
-17:03 - Jorge Lewis Hello?
-
-17:06 - Unidentified Speaker Yeah.
-
-17:09 - Jorge Lewis Yeah.
-
-17:11 - Jorge Lewis He's gone. He said going out, going to have for a swim and be back later. Oh, okay.
-
-17:19 - Jonas Lindberg Uh, just me and Gavin.
-
-17:24 - Jorge Lewis Uh, well let's get JP on now.
-
-17:27 - Jonas Lindberg Oh, okay.
-
-17:30 - Jonas Lindberg Okay, so I think meeting on new one.
-
-17:31 - Jonas Lindberg So that three day I kind of like separates the meetings. Yeah, let's start a new one.
-
-17:37 - Unidentified Speaker Bye.

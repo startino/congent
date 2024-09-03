@@ -1,192 +1,0 @@
-10 Minute Preliminary Interview between Jorge Lewis and Hasnain Sayyed 
-Sun, Jul 7, 2024
-
-0:01 - Jorge Lewis Tuesday, so busy week.
-
-0:05 - Jorge Lewis Nice, nice.
-
-0:06 - Jorge Lewis Yeah, what about you?
-
-0:08 - Hasnain sayyed Yeah, I'm doing good. It was a rainy day at my side, so yeah.
-
-0:14 - Jorge Lewis Are you in Pakistan?
-
-0:16 - Jorge Lewis No, no, I'm from India.
-
-0:18 - Jorge Lewis Okay, in Pakistan, it's raining really hard right now.
-
-0:21 - Hasnain sayyed Yeah, yeah. In India, basically, Mumbai is the main attraction of rain.
-
-0:27 - Jorge Lewis Yeah, it sucks. Does it affect the Wi-Fi and the power often?
-
-0:33 - Hasnain sayyed No, no. It's a city area, so it's not been affected much.
-
-0:40 - Jorge Lewis Yeah, so just a quick little call to introduce each other. I know we kind of gave introductions through the interview, but just a one-on-one in person or real-time one, so we can kind of get to feel each other out. Yeah, sure.
-
-0:59 - Jorge Lewis Yeah, so I can start us off just real quick. Once again, my name is Jorge. I'm the CEO of Sartino. We started about a year ago. I myself have about six years of experience programming. We started with making very simple business websites, but transitioned into MVPs and prototypes a couple months ago. So recently we've gained a lot of traction for the AI specific ones and luckily for us, that's something we're That's something we really like to do. We really like making innovative things with things like Lionchain, so that's something we're kind of niching down towards.
-
-1:36 - Jorge Lewis Where we look to go is just continue doing AI projects, looking to take on more clients. That's it.
-
-1:46 - Hasnain sayyed Yeah, great.
-
-1:48 - Jorge Lewis Do you want to just say a little something?
-
-1:55 - Hasnain sayyed Yeah, yeah, sure. So, hi there. My name is Hasnain. Talking about my education, I have completed my Bachelor's in Information Technology. And apart from my studies, I have a key interest in participating in hackathons to solve the real-world problems. And talking about my experience, I have completed two internships. So, the first was with AWS Innovate, where I was working under a project called CodeMate, which is a VS Code extension. So I was working under Lanchain Technology and integrating a vector database as a RAG model. And the second internship was with Mericor, which is a US-based startup. So it was a quite long internship of six months where I was building S2S shoes, which is a sneakers e-commerce platform. Yeah.
-
-2:50 - Unidentified Speaker Cool.
-
-2:50 - Jorge Lewis What do you like to do in your free time?
-
-2:54 - Hasnain sayyed Yeah, actually in the free time I like to upgrade my skill set and read books on medium or daily.dev. I like to explore new things in the technology domain. Nice, nice.
-
-3:07 - Jorge Lewis Do you play any sports? Do you play any video games? Anything?
-
-3:14 - Hasnain sayyed Yeah, yeah. I'm a very great fan of cricket. I like to play cricket in my free time.
-
-3:22 - Jorge Lewis Nice, nice. In Mumbai, is it popular? Yeah, yeah. In India, it's like a festival. Yeah, yeah. I'm aware. India won last week, right? Against South Africa? Yeah, yeah.
-
-3:36 - Hasnain sayyed Right, right.
-
-3:37 - Jorge Lewis They usually mess up the finals, don't they? But they pulled through this time. Nice, nice. You play any video games?
-
-3:48 - Hasnain sayyed Actually not because I have a MacBook so you know like Apple doesn't allow gaming.
-
-3:55 - Jorge Lewis Where's my MacBook?
-
-3:59 - Jorge Lewis My one's from 2016. I can't do anything. I haven't used this in like years. When I'm traveling, I use my... You're looking for a new laptop? Okay, one of the Mac, the one from ZenBook.
-
-4:24 - Jorge Lewis So you said you finished your bachelor's last year or?
-
-4:30 - Hasnain sayyed No, no, this year, recently, 2024 graduate.
-
-4:35 - Jorge Lewis Oh, yeah. So like, yeah, okay, cool. Dude, I graduated, I finished my school year last year and I keep forgetting that it's already been a full year. It's crazy. It's already July. Sorry. Yeah, cool.
-
-4:50 - Jorge Lewis No problem.
-
-4:50 - Jorge Lewis Do you plan on doing a master's at any time soon?
-
-4:54 - Hasnain sayyed Not yet, but in the future I might be. I want to upgrade my technology and in the degree perspective as well.
-
-5:06 - Jorge Lewis What are the two arguments for getting a master's now or waiting and then pursuing a career already? What do you think about when you decide that?
-
-5:16 - Hasnain sayyed Yeah, currently, I feel like I want to explore more into the industry itself, like working closely with the light projects and building cool stuff. And in the future, I might be doing masters to get a master in computer science degree, because that will unlock much more opportunities in the future. Yeah.
-
-5:40 - Jorge Lewis That's great to hear.
-
-5:46 - Jorge Lewis What else can I ask?
-
-5:49 - Jorge Lewis Not much. Do you have any questions regarding the company, how it works, or myself? Anything?
-
-5:56 - Hasnain sayyed No, not now. I have visited the Startino website. I have got the introduction within that website itself. I don't have any questions right now.
-
-6:11 - Jorge Lewis I'll kind of just speak a little bit regarding it and then also as well as to wrap up I can show or I can talk about the three options how we can move forward after this. So Startino, yeah it's the business we started about a year ago. Currently we have, so like a week ago we had four developers, now we have six. So with this new position I'm hiring for, which you're applying for, it'll be seven. But we're also hiring one or two more web devs. So hopefully within a month or two, we'll have seven to 10 members. We're going really fast. Hopefully, we can keep up the rate of business. If things go well, great. If not, then we'll slow it down. Just trying to make sure not to go too fast, since otherwise the team feels a bit too scattered. We want to really feel tight with everyone. Because if we bring on two new people every week, they'll start working on a project and never have time to have fun with the rest of the team. It'll always feel like things are too busy. So we're trying to make sure we take it slow, not burn people out, and enjoy the time.
-
-7:21 - Jorge Lewis Yeah, so how things could look moving forward from here, there's three options. Dude, I hate these. Do you have the AirPods, or what earbuds do you have?
-
-7:31 - Jorge Lewis AirPods.
-
-7:32 - Jorge Lewis Yeah, I bought these Sony ones, the Sony XM5, a couple days ago, but they just keep falling out.
-
-7:42 - Jorge Lewis So, anyways. Yeah, so the three options is, number one, we say no, we both go our own ways. Second option is we say yes, but give us some time. We found another candidate that we'd rather have on at this time. And third option is just yes, let's get started. Can you start today, tomorrow? And also for my message, I don't know if you remember, but we adopted just a trial methodology where we just put you in the team, see you work, see if we enjoy working with you, see if you enjoy working with us. That's the most efficient way we feel like, Yeah, so those are the three options. We'll probably give you an answer today is Sunday, give you an answer probably I'm looking for a full-time job.
-
-8:53 - Hasnain sayyed With that said, any questions?
-
-8:56 - Hasnain sayyed No, not yet. I will ping you if I have any questions.
-
-9:00 - Jorge Lewis Anything at all, let me know. Do you use Discord?
-
-9:05 - Jorge Lewis Sorry?
-
-9:06 - Jorge Lewis Do you use Discord? Yeah, yes. Okay, send me over your Discord and I can add you. We use Discord for all of our communications.
-
-9:17 - Jorge Lewis Yes.
-
-9:20 - Jorge Lewis were cool like that, Fox Slack.
-
-9:33 - Hasnain sayyed So you're like 22 then?
-
-9:34 - Hasnain sayyed Oh yeah, right.
-
-9:38 - Jorge Lewis Nice, nice.
-
-9:43 - Jorge Lewis Oh, I want to know a little bit more about the US startup you worked for. So it was an e-commerce company, right? Selling shoes.
-
-9:49 - Hasnain sayyed Yeah, yeah, right. It's Estere Shoes.
-
-9:54 - Jorge Lewis How are they doing now? Are they doing good?
-
-9:58 - Hasnain sayyed Actually, they are doing well. The co-founders are working in a very MNC based company. So yeah, they are running their startup side by side.
-
-10:08 - Jorge Lewis Nice, nice.
-
-10:22 - Hasnain sayyed Can you send me an invite of the Discord channel? I will just accept that.
-
-10:42 - Jorge Lewis You don't have it on your computer, I'm guessing?
-
-10:46 - Hasnain sayyed No, I have the Discord ID.
-
-10:56 - Hasnain sayyed Yes, I have joined the channel.
-
-11:10 - Hasnain sayyed Do you have any feedback for me?
-
-11:15 - Jorge Lewis Regarding?
-
-11:19 - Hasnain sayyed regarding application or any in general, anything you want.
-
-11:26 - Jorge Lewis In general, let's see.
-
-11:31 - Jorge Lewis No, I mean, things went pretty well. Communication was clear. Things were very smooth.
-
-11:39 - Jorge Lewis Yeah, I mean, if anything comes to mind, like at this point, I'm just trying to provide feedback so you can improve, right? That's the goal?
-
-11:47 - Jorge Lewis Yeah, yeah.
-
-11:49 - Jorge Lewis So if anything comes to mind, I'll be sure to let you know. We're all about just kind of being straight up honest and providing feedback to help everyone grow. Just no ego, just straight up. If there's feedback for anyone, it's always appreciated. If you don't know something, asking is always the best.
-
-12:14 - Jorge Lewis Cool, cool. All right, man, it was great. I created a group chat with you.
-
-12:19 - Jorge Lewis Yeah, thank you.
-
-12:23 - Jorge Lewis So the other person there in that group channel is Jonas, my co-founder.
-
-12:29 - Jorge Lewis Yeah.
-
-12:32 - Jorge Lewis So yeah, cool. It was lovely meeting you. Okay. You're going to have to, you're going to have to help me out here. So Has. Not like, not.
-
-12:43 - Jorge Lewis Okay. Hasnain or Hasnain?
-
-12:47 - Hasnain sayyed Hasnain. The second one. Which one?
-
-12:50 - Hasnain sayyed House name, okay.
-
-12:51 - Hasnain sayyed Yeah, right, right.
-
-12:55 - Jorge Lewis You know, it's so weird. From high school, all my friends were Indian, and they all had Indian names. But now that I'm interviewing a lot of Indian people online, I don't know if it's the microphone, but I'm struggling so hard with the names.
-
-13:08 - Hasnain sayyed By the way, are you from USA or are you living in Hong Kong?
-
-13:15 - Jorge Lewis So I'm half Mexican, half American, but I spent like four years in Egypt, and then I grew up the rest of my life in Hong Kong. And now I'm traveling around.
-
-13:26 - Hasnain sayyed Oh, that's great.
-
-13:32 - Jorge Lewis Jonah is my co-founder. He's living in Thailand right now. We do kind of have some goals long term, like maybe like within five months to bring bring some of the team members down to Thailand? Would that be something you're down and you're interested in? Of course, you don't have to give a yes or no answer, but does it sound cool is kind of the goal.
-
-13:53 - Hasnain sayyed That sounds cool, actually.
-
-13:57 - Jorge Lewis Yeah, great. Get you a visa and fly you down here. Cool, cool. All right, man. It was great talking to you. If you don't have any questions, I'll see you around. See you soon.
-
-14:08 - Hasnain sayyed Yeah, yeah. OK.
-
-14:11 - Jorge Lewis Make sure you get notifications for Discord by the way, since I've noticed a lot of people don't. So whenever we message them on Discord, they don't end up replying.
-
-14:20 - Hasnain sayyed Okay, I will turn on the notification for Discord.
-
-14:24 - Unidentified Speaker Yeah.
-
-14:26 - Jorge Lewis Great, great. All right, man. Take care. See you around. Thanks for your time.
-
-14:28 - Hasnain sayyed Take care. Yeah, nice.
-
-14:32 - Jorge Lewis Bye-bye.
-
-14:36 - Jorge Lewis Oops. That's the first time someone's left too early. Usually it's too late. It's like, yeah, take care. And then they look for the butterfly.

@@ -1,696 +1,0 @@
-Meet Meeting 
-Tue, Aug 27, 2024
-
-0:02 - Cuan Mulligan Hey, man.
-
-0:08 - Cuan Mulligan Can you hear me? Yeah, I can hear you now. Cool.
-
-0:15 - Cuan Mulligan I have far too many windows open, and I've got no idea where anything is anymore. So give me a moment.
-
-0:25 - Cuan Mulligan I've been going down rabbit holes on note-taking apps and voice-to-text apps. Because JP, for example, he doesn't type anything anymore, and he hasn't for years.
-
-0:39 - Cuan Mulligan So actually, that's a really good point.
-
-0:43 - Cuan Mulligan Give me a second. Where the heck is my thing?
-
-0:52 - Cuan Mulligan Pricing Obsidian.
-
-0:55 - Cuan Mulligan Nope, that's not it.
-
-0:58 - Cuan Mulligan Don't need that. Sorry, give me two seconds. I'm just trying to find where all my stuff has gone. Yeah, no problem. It's not that one.
-
-1:10 - Cuan Mulligan It's not that one. Yeah, it's not that one.
-
-1:19 - Unidentified Speaker Fuck's sake.
-
-1:23 - Cuan Mulligan Sorry, I've just, it's...
-
-1:29 - Cuan Mulligan I cannot find, I bloody, no, that's not it. Is that it?
-
-1:49 - Cuan Mulligan No, so put that in a different window.
-
-1:54 - Cuan Mulligan This works.
-
-2:00 - Cuan Mulligan I just had it, and I don't know where it is. Sorry, I've got far too many windows, and I cannot find the...
-
-2:08 - Jonas Lindberg Yeah, no problem. I'm just going through some stuff in the meantime.
-
-2:17 - Unidentified Speaker Bye.
-
-2:50 - Cuan Mulligan Hmm.
-
-2:55 - Cuan Mulligan I think I have, I can search tabs. Oops.
-
-3:02 - Cuan Mulligan Yeah, so OTT.
-
-3:06 - Cuan Mulligan Okay, found it. All right. Okay, first of all, where are you? You are here. Sorry, I just want to track. I'm going to try and do a, I'm going to record a new meeting and I'm going to see how this does it.
-
-3:29 - Cuan Mulligan Otter, otter.ai, because one of the things it has is an AI agent that's listening to the chat, and you can start asking it to track decisions that are made throughout the meeting. So as I'm running a meeting, I can start referring back to saying, oh, right, by the way, we've made all these, just want to clarify, these are the decisions we've made. And so it can be a companion for me. So usually myself and Arif would need to co-run a meeting, I'm hypothesizing that that might allow us to run meetings in parallel.
-
-4:01 - Cuan Mulligan Yeah.
-
-4:03 - Cuan Mulligan Right. OK. So let me, I now have what I need. OK. So does it make sense what I'm explaining? That it now seems to be really polite at the end of a step, and then the start of the next step is a duplication of the previous message.
-
-4:26 - Jonas Lindberg Yeah, did you just get that issue right now? Because that's what I think I kind of solved.
-
-4:31 - Cuan Mulligan Okay, let me, can you see my screen?
-
-4:34 - Jonas Lindberg Yeah, it's coming up.
-
-4:36 - Cuan Mulligan Okay, so let me let me clear this down.
-
-4:46 - Jonas Lindberg Oh, yeah, this example. Yeah, I think I commented on it in Discord. I think it's just a result of the step coming up being the playback step, which the instructions in the playback step is to repeat the conclusion you arrived at. And when the conclusion has arrived at in one confirmed sentence, it doesn't really have much else about that to say.
-
-5:13 - Cuan Mulligan OK.
-
-5:19 - Cuan Mulligan But for example, in the initial goal, it's actually summarizing. It's doing step three, and then step three happens. Let me show it to you. So if I say, what's your name? Cuan.
-
-5:36 - Unidentified Speaker Whatever.
-
-5:38 - Cuan Mulligan I'm done making mistakes. It doesn't really bother me anymore.
-
-5:50 - Cuan Mulligan I need help losing weight. I've become too fat.
-
-6:02 - Cuan Mulligan I'm also using a lot of text-to-speech tools now. I'm using one called Super Whisper. That's quite powerful.
-
-6:09 - Cuan Mulligan Super Whisper?
-
-6:10 - Cuan Mulligan Yeah. It's very, very clever.
-
-6:11 - Unidentified Speaker OK.
-
-6:13 - Jonas Lindberg Is it based off the OpenAI Whisper?
-
-6:15 - Cuan Mulligan Yeah. OK.
-
-6:19 - Cuan Mulligan I'm just concerned as I get older that it's going to cause all sorts of complications. So I think if I lose weight now, it'll be good for me.
-
-6:29 - Jonas Lindberg Wow. That's fast.
-
-6:31 - Cuan Mulligan Yeah. And you can give it prompts so that it can change the text format. So if you want to put it into an email, spit that out into the proper template. So by addressing this goal, you'll OK, it's fixed that. It's not summarized it. It's gone straight into playback, which is good.
-
-6:50 - Unidentified Speaker Nice.
-
-6:53 - Cuan Mulligan So I did my job?
-
-6:55 - Cuan Mulligan For now. And then I'll give you another glass ceiling in a few minutes.
-
-7:00 - Unidentified Speaker Thanks.
-
-7:03 - Cuan Mulligan I'm looking forward to it.
-
-7:05 - Cuan Mulligan So this took myself and JP probably an hour to see if it was something wrong with the prompts. And then we decided to stop. The phase I think we're in now, as much as possible, I think we need to work with you, almost hand in glove. So we're going to do something. It'll start to break. And then we need your guidance to say, ah, that's a side effect of the way it's coded, rather than it being an error. Exactly what you've just done here, as opposed to it being a prompt. So I don't actually think this was a prompt issue. So we've now got step. Also, it's really good, because it's I don't want to say yes yet, because there's no step four and it'll crash. So what I'm going to do now is, so we've played it back. So we've confirmed what the initial goal is, right?
-
-8:00 - Cuan Mulligan Now I want to do the visualizing step one.
-
-8:23 - Cuan Mulligan Also had quite a few alternate strategies for the how you provide prompts. Because he said, it's almost the more prescriptive you are, the more it will go wrong. It's a balance. Okay, let's see if I can get to this stage.
-
-8:59 - Cuan Mulligan So this is where I was getting confused earlier on as well. If I can, once I get to this, I need to do one more step just to the future score.
-
-9:20 - Cuan Mulligan A tiny feature request, if at all possible.
-
-9:27 - Cuan Mulligan Could we change the icon, just different colors, one red and one beige, just between the chat interface and the admin interface? It just makes it super easy finding it in the top which one I need to click on, because they're identical, so I get confused. Because everything is optimized around testing.
-
-9:51 - Jonas Lindberg I mean, that logo was a logo I just generated with cloud or no, but what was, yeah, I generated it using Gemini for that. I just make a local with me. Yeah, it's perfect.
-
-10:04 - Cuan Mulligan It doesn't, it doesn't really matter. So hi.
-
-10:12 - Jonas Lindberg I think you can do it. Hi, my name is this, and then it'll like catch that you did it in one sentence.
-
-10:31 - Cuan Mulligan I really need help losing some weight.
-
-10:39 - Cuan Mulligan That's interesting. I didn't copy and paste that. I need help losing some weight. Yeah, I think sometimes the focus gets lost out of this box quite easily.
-
-10:52 - Jonas Lindberg Yeah, it's if you click outside it.
-
-10:57 - Cuan Mulligan This feels a little bit quicker than it was I'm not sure.
-
-11:04 - Jonas Lindberg It may just be that because it's open, well, it's on Azure's open AI servers in Sweden. So it may just be sometimes there are less people using it. Sometimes there are more people using it, especially because it's like almost midnight now in Sweden. Or wait, no, that doesn't look bad. It's been out here, not in Sweden.
-
-11:26 - Cuan Mulligan Yes, the challenge we have is that sometimes it's taking 15 to 20 seconds for it to respond. And that's a challenge.
-
-11:41 - Cuan Mulligan I'm concerned as I get older that carrying weight is going to give me all sorts of complications. I really don't want to ever lose mobility.
-
-11:57 - Cuan Mulligan Yeah, the sooner we can get voice into this, the better.
-
-12:02 - Cuan Mulligan Okay, so you see here, why is it given two messages there?
-
-12:13 - Cuan Mulligan And see this time, it has, at the end of step two, it is now clarifying what's in step three. It didn't do that the previous step we just did.
-
-12:30 - Cuan Mulligan So for me, where it says Step 2, I think that's Step 3.
-
-12:36 - Cuan Mulligan Yeah.
-
-12:38 - Cuan Mulligan But if I go yes, I think we'll go into Step 3 now, and it'll do a better job.
-
-12:43 - Jonas Lindberg What if you said no there? That would really confirm it if it was Step 3, because then it wouldn't try to go into Step 3 it was not correct. Yeah.
-
-12:54 - Jonas Lindberg Now it's in Step 3.
-
-12:57 - Jonas Lindberg Okay. Yeah. So it was in step two, I think previously.
-
-13:01 - Cuan Mulligan Yeah. But again, it didn't do that the last time I showed it to you. So let me just try that one more time.
-
-13:28 - Jonas Lindberg And it's done the message either way, apparently. Next.
-
-13:42 - Cuan Mulligan Yeah, there's a couple of rough edges.
-
-14:00 - Jonas Lindberg I wonder if that would be a rough edge in the real use case, though, because after your first message, if you say, hi, my name is something, you'd expect to get a greeting back and not just, what is it that you see that's helping you even though the condition was fulfilled.
-
-14:16 - Cuan Mulligan Yeah, it seems to be a weird handshake there. OK.
-
-14:21 - Jonas Lindberg I wonder if it would be a natural handshake, though, if you went from a natural perspective, hi, my name is Hello, Cuan. My name is Maria. It's great to meet you. It's great to meet you too, Maria. And then what is it that you see that's helping you?
-
-14:35 - Cuan Mulligan So now we've just done it. This is the third time we've done it. And now it's deciding to suddenly ask me more questions. And that's exactly the same answer I gave it.
-
-14:51 - Jonas Lindberg I guess just the inconsistency of large language models have to refine the prompts. That's what I'm guessing.
-
-15:04 - Jonas Lindberg It's trying to get clearer about the goal.
-
-15:07 - Cuan Mulligan Ever lose mobility.
-
-15:10 - Jonas Lindberg Yeah.
-
-15:21 - Cuan Mulligan I think if we don't get these edges out of the system, I don't think it's ever going to be useful. I think people are going to get annoyed with it.
-
-15:30 - Jonas Lindberg Yeah. I'm just wondering if the edges here are in the prompt or in the infrastructure. And I think it's in the prompt currently.
-
-15:39 - Cuan Mulligan Okay. So now it hasn't summarized and now it's gone to step three.
-
-15:54 - Cuan Mulligan So step three.
-
-15:58 - Cuan Mulligan So the goal has been shared back to the user, and we're stuck.
-
-16:13 - Cuan Mulligan I'm not sure why it's not going to step four.
-
-16:14 - Jonas Lindberg I think it's like it's completely leading its own goal and the first message it's sending in step three, which is a bit of like an edge case.
-
-16:39 - Cuan Mulligan Ok, let's move to four. So that's an edge case. Can you track that as an issue that it can artificially stop?
-
-16:48 - Jonas Lindberg I think, I mean, I think in step three, you can, in the prompt, tell it to advance that immediately.
-
-17:00 - Jonas Lindberg Okay. So where would this be?
-
-17:02 - Jonas Lindberg In outcome, instead of saying user got shared back or user goal got shared back to the user, just say advanced step now or something like immediate advanced step in the same message immediately or always.
-
-17:18 - Cuan Mulligan Okay, let me go back and start again.
-
-17:32 - Cuan Mulligan My AI is not recording my humming.
-
-17:39 - Jonas Lindberg How much does the super whisper cost?
-
-17:42 - Cuan Mulligan There's a free version for 25 minutes. Then there's eight euros, eight dollars a month or eight euros a month. Something like the 70 year or 250 lifetime.
-
-17:58 - Jonas Lindberg Well, um, yeah. Yeah. I mean, it's, it's good.
-
-18:04 - Cuan Mulligan Yeah.
-
-18:11 - Jonas Lindberg Just how many years would buying yearly compared to lifetime? I imagine that amount of years there would be a better system out there.
-
-18:24 - Cuan Mulligan True.
-
-18:27 - Cuan Mulligan So that looks like it's done step three. As I'm reading that, that is a step three action. But it's asking for compensation.
-
-18:39 - Jonas Lindberg I think it's still part of step two. It's just the natural way of the language model is confirming with you after talking about something.
-
-18:48 - Cuan Mulligan Yeah, so I said, do not summarize the step back to the user.
-
-19:05 - Jonas Lindberg Maybe say, like, do not summarize or ask for confirmation of the step back to the user. Just advance that if the user has shared their goal.
-
-19:22 - Cuan Mulligan Should I put that in the outcome?
-
-19:29 - Jonas Lindberg I am not sure how much it matters.
-
-19:34 - Cuan Mulligan So under the hood, is the whole purpose and outcome actually an artificial split?
-
-19:40 - Jonas Lindberg Well, if you scroll down, it's kind of just two variables that you can put where you want it in the facilitators prompt.
-
-19:56 - Cuan Mulligan One of the things I was speaking to JP earlier on, which might make things very complex, he is saying that we're probably going to need step branching.
-
-20:13 - Cuan Mulligan Depending on an answer, you might want to go off to another branch.
-
-20:18 - Jonas Lindberg Yeah.
-
-20:21 - Cuan Mulligan So this is what happened earlier on. See? It just gets stuck.
-
-20:30 - Jonas Lindberg Nice to meet you, Kevin. Nice to meet you, too, I guess. I'm guessing this will come down to refining the outcome prompt to make sure it advanced that at the proper time.
-
-20:49 - Jonas Lindberg Advanced that immediately or something afterwards.
-
-21:00 - Cuan Mulligan It seems weird just to, you had that in the facilitator prompt already. And it feels like we're reinforcing it in there. Seems a bit weird.
-
-21:47 - Jonas Lindberg Hmm. Fine.
-
-22:06 - Jonas Lindberg But it didn't advance that in the same message.
-
-22:09 - Jonas Lindberg Yeah.
-
-22:22 - Cuan Mulligan Any ideas how we?
-
-22:24 - Jonas Lindberg I can give another shot at rephrasing the step. I can give a shot at rephrasing the step for the outcome. Can I try? Sure.
-
-23:01 - Jonas Lindberg Well, yeah, formats work later. You may have to reload. It doesn't seem to have synced back to you.
-
-23:41 - Jonas Lindberg Maybe a message like that can work.
-
-23:54 - Jonas Lindberg Here we go again. Hi.
-
-24:00 - Jonas Lindberg Check one thing will be useful.
-
-24:04 - Cuan Mulligan Yeah.
-
-24:06 - Cuan Mulligan So we can keep the log back to a certain number of the steps we can...
-
-24:10 - Jonas Lindberg Actually, I can provide a delete button next to messages and deleting messages will just effectively just erase them from the memory.
-
-24:21 - Cuan Mulligan So you can go back within the chat, the live chat.
-
-24:25 - Jonas Lindberg Yeah, like at least for now, because it's, I think it'll, I can implement that in like 10, 15 minutes, just hit the delete button next to each message so that you can just hit delete, delete, delete instead of having to Uh, yeah. I can't hack at it.
-
-24:43 - Cuan Mulligan That's not really what I wanted to tell it. Okay. So that's really interesting. Yeah. So that's a, that's a SQL injection type thing, isn't it? Uh, yeah.
-
-25:04 - Jonas Lindberg That's just like, you can mess with any AS kind of ever, it's just, As long as, I mean, they can ruin, people can ruin their own experience, but that's kind of a given. You can't do anything to prevent people from ruining their own experience, I guess, except for having like a guardian bot that's trained at catching those messages.
-
-26:00 - Cuan Mulligan OK.
-
-26:07 - Cuan Mulligan Any ideas why that is?
-
-26:14 - Jonas Lindberg Oh, on the right, you can see an error occurred with your deployment.
-
-26:21 - Jonas Lindberg There's an error within an error.
-
-26:27 - Jonas Lindberg I've never seen that one before. It's to 504, which is the gate we've tied now.
-
-26:32 - Cuan Mulligan The gateway does time out every so often. I think it may not deal with that very gracefully. Now, see where? So it's skipped. Because of that, it's got confused, and it's skipped step three.
-
-26:46 - Jonas Lindberg Yeah, I see. I'm wondering how that's happened technically. Did it post a message which didn't show up in the front end, maybe?
-
-26:58 - Cuan Mulligan Maybe.
-
-27:05 - Jonas Lindberg I'll see if I can get the delete message button in for you.
-
-27:12 - Cuan Mulligan That would be a big win on time.
-
-27:16 - Jonas Lindberg Yeah.
-
-27:19 - Cuan Mulligan I'll just hack at that.
-
-27:21 - Cuan Mulligan Is there a way that, for example, if I click one above here, it deletes everything underneath it?
-
-27:29 - Jonas Lindberg That's a bit more advanced, because I don't have it. But I'll just get the Delete Message button in for now, and then we can look into improving it after.
-
-27:40 - Cuan Mulligan So it's stuck again.
-
-27:43 - Cuan Mulligan So that message didn't work.
-
-27:47 - Cuan Mulligan I think there is a fundamental assumption here that the user gives an action.
-
-27:58 - Cuan Mulligan The user has to give a response. Because you see here, it's agent, person, agent, person, agent, person. Here, we're saying it's an agent, agent.
-
-28:09 - Cuan Mulligan So we're asking it to go to step four. And I think there's something either in the facilitator script here where we've basically gone, where is?
-
-28:22 - Jonas Lindberg For debugging purposes, I've removed the advanced step word from the messages, which I think just at the moment is making it harder to debug. So if you think it's fine, I can just not remove it from the message, which of course doesn't work.
-
-28:41 - Cuan Mulligan We put all these brand bots and strategy, but where did all these come from
-
-28:50 - Cuan Mulligan Let me check something.
-
-28:51 - Cuan Mulligan I didn't create those.
-
-28:52 - Jonas Lindberg They're in the front end of every workshop. There's some error there.
-
-29:05 - Jonas Lindberg I'm going to delete them. Be a bit careful because, yeah, don't delete them. I think they're only in the front end, but it's JP's bots. They're just in his workshop right now. OK.
-
-29:22 - Cuan Mulligan So I deleted one of them anyway.
-
-29:27 - Cuan Mulligan Work on this purpose until there is no need to summarize the existing step. Well, sometimes there is.
-
-29:37 - Jonas Lindberg Well done. I'm just saving JP's brand bots.
-
-29:51 - Unidentified Speaker OK.
-
-29:52 - Jonas Lindberg Yeah, don't delete the agents. That just deletes it from JP's workshop.
-
-29:59 - Cuan Mulligan But they don't have it there. Could this issue here be to ask a maximum of one question at a time, never more than one? Ensure the user has attempted to answer your question before asking new ones. Do you think this statement here might be causing it to stall, that it thinks it's asked a question and it's waiting for the user to do something?
-
-30:20 - Jonas Lindberg It could be.
-
-30:25 - Jonas Lindberg Yeah.
-
-30:27 - Cuan Mulligan If you have not asked an explicit question, move on.
-
-30:56 - Cuan Mulligan Yeah, that delete button could be gold dust.
-
-31:00 - Jonas Lindberg Yeah, I just noticed that even if you delete, it won't go back in step, which makes it a little bit more complicated.
-
-31:08 - Cuan Mulligan Oh, because if it thinks it's at step five and you delete all the way back to step three, it'll think it's at five.
-
-31:17 - Jonas Lindberg Even if you reload the page?
-
-31:19 - Jonas Lindberg Yeah, it's got a step stored in the the database. So I thought, what if it goes back to the step on the message before the message you delete? But that also doesn't work, because if you just delete the message in the middle of chat, it'll not work properly. But if you just don't delete the message in the middle of chat, it should be fine.
-
-31:44 - Jonas Lindberg Should be.
-
-31:45 - Jonas Lindberg So I'll just do that for now.
-
-31:48 - Cuan Mulligan Yeah, it's getting stuck here all the time.
-
-32:46 - Cuan Mulligan Yeah, it feels pretty good. I'm really happy about things and I'm proud of all the weight I've lost.
-
-33:13 - Cuan Mulligan I'm not sure, maybe some butterflies in my tummy or I'm wearing a smile, but I'm not entirely sure.
-
-33:26 - Cuan Mulligan When it gets in long, by the way, you can see it forces the text bit off the page.
-
-33:31 - Jonas Lindberg Yeah. I haven't focused much on the UI yet. I think Will has been working on some on it. So instead of the whole page kind of being in a box, it's just the chat that's in a box and the input field remains at the bottom.
-
-33:49 - Cuan Mulligan I think I'll probably take on a 10 kilometer run. It's not something I've been able to do for a couple of years.
-
-33:57 - Cuan Mulligan I think the voice of this is so important because how I talk is not how I type.
-
-34:07 - Unidentified Speaker Yeah.
-
-34:12 - Cuan Mulligan Probably immense joy and pride. Hopefully my family are there to experience it with me.
-
-34:21 - Cuan Mulligan Oh, why does it say bye? I think I heard you say something.
-
-34:38 - Cuan Mulligan Keeps on doing these physical things. I think that's possibly...
-
-34:47 - Cuan Mulligan No, I don't think I'd have any physical sensations apart from just being really tired.
-
-35:03 - Cuan Mulligan That's definitely a prompt.
-
-35:11 - Cuan Mulligan Why is it doing this? Let's lock in this vision. Your initial goal is to lose weight to avoid future health complications of intimidation. Isn't important to you because you want to ensure a healthy and active future. Imagine the immense joy and pride you feel, especially with your family by your side, when you achieve this goal and take on a new challenge or challenge.
-
-35:31 - Cuan Mulligan Why is it doing this? I don't fucking know. Step four, why is it doing this?
-
-35:48 - Cuan Mulligan And I've done it because I've asked it to do that. Okay, fine.
-
-35:58 - Cuan Mulligan It's doing what I've asked it to do, that's why. Yeah, I feel pretty cool.
-
-36:10 - Cuan Mulligan I wonder how...
-
-36:18 - Cuan Mulligan I wonder if we can, because there is dictate on the phone, the Apple one, and it's pretty good. So I wonder whether we could tell the bot to teach people how to turn that on.
-
-36:43 - Cuan Mulligan It'S now stuck again.
-
-36:50 - Cuan Mulligan OK.
-
-36:53 - Cuan Mulligan So there's definitely still whatever you've done with the advanced step has improved one issue, but it's now not naturally advancing.
-
-37:06 - Jonas Lindberg Yeah.
-
-37:09 - Jonas Lindberg Yeah, so it's not advancing in the same message. Something gets completed.
-
-37:14 - Cuan Mulligan Yeah, and also, but this is better now because it was getting It was asking me this 1 to 10 about my future state, not this. So this is really good.
-
-37:26 - Unidentified Speaker Yeah.
-
-37:44 - Cuan Mulligan What I don't want to say is visualize. So remember that version of you 12 months from now.
-
-37:51 - Cuan Mulligan Okay, let's say give it a nine.
-
-38:15 - Cuan Mulligan Rather than let's, so for example, you see where it says, let's make that nine out of 10 a reality. What I'd like to be able to do is say there's nothing wrong with that message, but rather than let's make that a nine out of like 10 with adapt, we're going to make that nine out of 10 a reality. Yeah. So I don't understand how to do that in a where I have a chat and I can highlight the text and I'd say, this is a better way to say it. How do I do that in the workshop?
-
-38:44 - Jonas Lindberg Well, we haven't implemented the review system into the workshop builder yet.
-
-38:48 - Jonas Lindberg Okay.
-
-38:48 - Jonas Lindberg So when that's in, you'll be able to do that.
-
-38:51 - Unidentified Speaker Okay.
-
-38:56 - Jonas Lindberg By the way, I think tomorrow, probably with George, at some point, probably 9am or 8am again, we should probably go in a deeper discussion about just how we should move forward with the Workshop Builder, what you're guys' plans are, if you want to invest more into the workshop builder and expanding that, or where do you want to move? Yeah, yeah. Basically, yeah.
-
-39:19 - Cuan Mulligan I mean, the answer is yes. We need to at least probably get another two weeks of your time to start building into it. So just assume two weeks approved.
-
-39:29 - Jonas Lindberg OK. Yeah.
-
-39:32 - Jonas Lindberg I'll inform George of that. Yeah, we'll talk with him tomorrow. But I also think, yeah, we should probably have a poll just to get things on paper and everything.
-
-39:42 - Cuan Mulligan The problem is that I think we're at a phase now where it's going to be a little bit like this, where we're going, I need to do something, and I'm blocked. So I think there's probably a bit of a roadmap that we know we want. But I think there's going to be really important emerging things, which is like going, stop the roadmap. Give me the delete button, give me the review button, because that allows me to test this. So for me, what I'm trying to do, and I've almost got to a happy path now. Now I want to go, there's still an issue with the step, need to fix that issue.
-
-40:20 - Cuan Mulligan One question I'd have is, is there any value in putting more people on this? Because this is the secret sauce. Having LMSs and all the other shit, honestly, if we can't get this really, really good, there is no product. So I'm almost not interested in the LMS and everything else yet until we can get this humming. So obviously, I know that too many cooks spoil the broth as well. You have too many people as well. It doesn't always make things go faster. But just you, I'm wondering if we can put more people onto this and divert them, if it makes sense.
-
-40:59 - Jonas Lindberg Yeah.
-
-41:08 - Jonas Lindberg I think it would probably be mostly like AI developers on this then.
-
-41:14 - Cuan Mulligan Yeah. Yeah. There's no UX issue. Cause again, if we can get the review elements from adapt into this, rather than rebuilding it, that would be really positive. Um, The thing that JP feels like this is good, but it's not insanely different from what you could do with other things. It certainly doesn't look like it. We know under that is the real thing for him is having the multi-agents. So for me, just the path. So, you know, where my head is, we go happy path with facilitator. Yeah. I then start going more robust and trying to break the facilitator.
-
-41:54 - Cuan Mulligan Then there is incorporating multi-agents. And also in parallel is the review system, so we can start tweaking individual messages and get that better. But there's definitely, I mean, it's definitely good. I think we do need to improve the transition from a step to another step.
-
-42:18 - Cuan Mulligan Yeah.
-
-42:20 - Cuan Mulligan But yeah, for me, I think these sessions are becoming insanely powerful to make progress and understand what the next, because you can, I think when you're seeing this, you can see our frustration, like, oh, we want to do this. So those things I think need to be fixed first. But I think, for example, if we could give incorporating the review stuff, it's a known feature. It's already built. Give that to another engineer to bring over rather than wasting your time. I'd rather do some of the more sort of reactive things here, because I think you're a more senior engineer. And you know this inside out. You're getting to know what we need better as well.
-
-43:02 - Jonas Lindberg Yeah. Yeah. Well, definitely was discussing with the others, yeah.
-
-43:10 - Cuan Mulligan Cool.
-
-43:14 - Cuan Mulligan Right. It's better. It's better.
-
-43:19 - Jonas Lindberg I'm trying to figure out. Let me see now. I may have just completed the delete button. Oh, wow. They're huge.
-
-43:28 - Cuan Mulligan Let me see if it works.
-
-43:30 - Cuan Mulligan But won't the delete button cause problems if it doesn't reset the step?
-
-43:35 - Jonas Lindberg It does reset. It's not working correctly, but it just resets the step to what the step of the previous message was, which means if you're deleting from the bottom up, it'll work perfectly. But if you're deleting a message in the middle, it'll reset to completely the wrong step, because it's like, what step would you use?
-
-43:56 - Cuan Mulligan That's fine. If you delete bottom up, that's fine.
-
-43:58 - Unidentified Speaker Yeah.
-
-44:02 - Jonas Lindberg But it didn't work too perfectly.
-
-44:06 - Jonas Lindberg Oh, it's deleting you.
-
-44:07 - Jonas Lindberg people.
-
-44:43 - Jonas Lindberg It is working. I just forgot that messages when their new paragraph are split into two messages, but if you hit one of the two delete buttons, it deletes both, which is expected behavior.
-
-44:57 - Cuan Mulligan OK. So do you want to start that now? Is that pushed?
-
-45:05 - Jonas Lindberg I'll push it now. It looks kind of ugly, but I hope that's fine.
-
-45:10 - Cuan Mulligan Aesthetics are totally fine.
-
-45:18 - Jonas Lindberg Okay, it's push should be deployed in like 30 seconds or a minute or something, however long the result takes.
-
-45:27 - Cuan Mulligan Right, so how do we, how do you debug this, this stepping issue? Like what can we do to test that?
-
-45:38 - Jonas Lindberg Well, my hope is that by the time you're awake tomorrow, it's fixed. Or at least I've figured out a reliable way to solve it.
-
-45:49 - Cuan Mulligan OK. So the Y2 workshop is pretty good in terms of how deep it goes. It doesn't complete it, but it's pretty deep.
-
-45:57 - Unidentified Speaker Yeah.
-
-45:59 - Cuan Mulligan So if I'm just looking at the Figma jam, where is this?
-
-46:05 - Cuan Mulligan So visualize the future. So the next step will be to start doing the smart aspects and then wrap up. So I might actually start adding those bits in now.
-
-46:20 - Cuan Mulligan Where is this?
-
-46:25 - Cuan Mulligan OK.
-
-46:57 - Jonas Lindberg The very ugly delete button is deployed.
-
-47:04 - Cuan Mulligan Just going to see if we can.
-
-47:07 - Cuan Mulligan Go the whole way down.
-
-47:18 - Cuan Mulligan I think also JP. Sorry. Is much better at sort of, cause he's not being an engineer. He's not an engineer. So he doesn't code. Um, I, have, and I'm talking to this programmatically, where he's speaking more prose, like he would speak to a person.
-
-47:44 - Cuan Mulligan And I think his way might be more successful.
-
-47:49 - Jonas Lindberg That's quite interesting.
-
-47:53 - Jonas Lindberg like a form of programming where it's almost flipped on the head because it benefits from natural speech. Yeah. Why don't we reload the page now, see if the delete buttons are there.
-
-48:11 - Jonas Lindberg Cool.
-
-48:14 - Cuan Mulligan I just copied the one from the bottom left.
-
-48:18 - Cuan Mulligan Can't read properties of undefined.
-
-48:21 - Cuan Mulligan What?
-
-48:23 - Cuan Mulligan It's a...
-
-48:27 - Jonas Lindberg Oh, well. Your steps have numbers in them, right?
-
-48:32 - Cuan Mulligan Pretty sure.
-
-48:33 - Jonas Lindberg I cannot read properties of undefined.
-
-48:44 - Cuan Mulligan Oh, we had C-H-A.
-
-48:50 - Jonas Lindberg C-H-A-R. Yeah, OK.
-
-48:57 - Jonas Lindberg I know why that's happening. Let's do a little bit of a fancy null check.
-
-49:30 - Cuan Mulligan Does it make sense what's happening to you? Yeah. I'm just going to get some fruit. Yep. You So, Okay.
-
-52:41 - Cuan Mulligan Right, I'm back.
-
-52:44 - Jonas Lindberg The error was that I was getting the previous message to see the step there and the first message doesn't have a previous message.
-
-52:56 - Jonas Lindberg But the fix is pushed now, should be there in like 20 seconds or something.
-
-53:14 - Jonas Lindberg You can give it a try now. Did you reload? Yeah.
-
-53:35 - Cuan Mulligan Maybe too soon.
-
-53:53 - Jonas Lindberg I think I'm able. Hold on.
-
-53:59 - Jonas Lindberg I'm going to fix it a bit more.
-
-54:57 - Jonas Lindberg Okay, published a proper fix now should be live in like 30 seconds. Okay.
-
-55:49 - Jonas Lindberg Yeah, it's deployed. And probably control on hard reload.
-
-56:28 - Jonas Lindberg I wonder if you reload the page now, if the first message you sent will show up again.
-
-56:35 - Jonas Lindberg Trying that. Yeah. I don't know.
-
-57:27 - Cuan Mulligan I think one of the aspects that JP wants is a lot of these answers at the moment are stock OpenAI answers. Yeah. And it's how do we make it ours?
-
-57:37 - Jonas Lindberg Yeah.
-
-57:40 - Jonas Lindberg I think the reviews system will probably be one of the main big contributors there. Because when the review system is in place, it'll just be like pumping the chat, like the AI, with so many examples of how it should respond that the nature of its responses should mimic those examples.
-
-58:11 - Cuan Mulligan Yeah. So it's still getting stuck.
-
-58:17 - Jonas Lindberg But now does the delete button work? I mean, that's not a sharpie. Does the delete button work at least?
-
-58:30 - Cuan Mulligan So sometimes it says this is one message and sometimes it splits them out into three.
-
-58:36 - Jonas Lindberg That's just the separate. When there's a new paragraph, it's getting split into a new message instead of actually having one big message with new paragraphs.
-
-58:45 - Cuan Mulligan You should be able to. On the last iteration, it just sent the middle one. It didn't set the first one. And in this message, it included this part.
-
-58:56 - Cuan Mulligan Oh, yeah. OK.
-
-58:58 - Cuan Mulligan So it's inconsistent on the granularity.
-
-59:18 - Jonas Lindberg With the granularity, I think that'll be fixed with just reviews.
-
-59:24 - Jonas Lindberg Because you should, by the time you're launching or by the time a workshop is in proper use, I imagine you've posted many reviews for every single step to the point where these sections should be consistent.
-
-1:00:02 - Cuan Mulligan you of So I think it's rather than keep these feelings, it's like he's giving me the job. It's like, it's really important that the coach realizes that they're going to be with you on on the way. So I said, these feelings are really important. So the message is right. We're going to use these as a powerful motivation as we go through the ADAPT program. If you hit a blocker, this is what we're going to do. So that what I'm assuming will be a review rather than a prompt.
-
-1:01:26 - Jonas Lindberg Yeah, and on top of that, it'll probably be part of the defining the outputs of a workshop, like the desired outputs of a workshop that saved variables, if that makes sense. Yeah. This will probably have some way of, or I imagine the bot will respond in a different way when it knows it is saving it to its live memory. But yeah, in the review, that's something you can find to Unipower, definitely.
-
-1:01:55 - Unidentified Speaker Yeah.
-
-1:02:05 - Cuan Mulligan So that's good. So it's incorporated some of the 10k. That's clever. It's incorporated some of the visualization statement there. That's good.
-
-1:02:15 - Jonas Lindberg Nice. Yeah.
-
-1:02:24 - Cuan Mulligan OK. Great job. Great job. That's one of the things that the AI response to it's too, it's too pleasant.
-
-1:02:38 - Cuan Mulligan Okay. It's stuck. It's getting, it seems to be almost stuck at every, at the end of every step.
-
-1:02:45 - Jonas Lindberg Yeah.
-
-1:02:56 - Cuan Mulligan We said, only ever ask one question. It's asked two there.
-
-1:03:01 - Jonas Lindberg Didn't you? Or did you remove that section? I mean, yeah. I think that's just LLM's not being perfect, to be honest.
-
-1:03:12 - Cuan Mulligan One question at a time.
-
-1:03:15 - Jonas Lindberg Never mind one shorter.
-
-1:03:19 - Cuan Mulligan So I'm only going to give it one answer and see what it says.
-
-1:03:23 - Jonas Lindberg It may count as one question with two outputs.
-
-1:03:28 - Unidentified Speaker Sorry?
-
-1:03:29 - Jonas Lindberg It may count as one question with two outputs because it's technically one sentence.
-
-1:03:34 - Cuan Mulligan Yeah, I know. That's why I think it's weird. One question mark. I think it's been true.
-
-1:03:40 - Jonas Lindberg Yeah.
-
-1:03:53 - Cuan Mulligan So it's fine, but I don't want it to say this. It's assuming, anyway, so eight weeks.
-
-1:04:09 - Jonas Lindberg Yeah, I hope those problems you have with specific responses, to me, they sound like more so things that are bound to be fixed through reviews, more so than things that are fundamentally wrong, if that makes sense.
-
-1:04:28 - Cuan Mulligan Yeah. So it's saying to adjust your time frame, but it should be the time frame or the weight.
-
-1:04:34 - Jonas Lindberg Yeah.
-
-1:04:41 - Jonas Lindberg But yeah, for me, with those kinds of problems, I'm pretty confident because that also is another thing where I can imagine you just clicking on it, clicking bad response, and then correcting it to an improved response.
-
-1:05:45 - Cuan Mulligan Once we get this done, I'm assuming there's no logic changes to converting these texts into a conversation.
-
-1:05:58 - Cuan Mulligan Voice conversation?
-
-1:06:00 - Cuan Mulligan Yeah, so voice in, voice out.
-
-1:06:03 - Cuan Mulligan Yeah.
-
-1:06:05 - Jonas Lindberg As far as I know, no.
-
-1:06:10 - Jonas Lindberg Converting voice to text and text to voice again. Of course, the concern I remember you had with that is that AI won't be able to tell the sentiment from the user's voice. So that's kind of the main differentiator with the mood or the tone, intonations, the pauses, and the voice can't come through pure text. But I imagine there's some way of encoding that.
-
-1:06:36 - Cuan Mulligan Whisper does support sentiment analysis from OpenAI. My concern is that text does not convey sentiment, not the voice. Because I know with the OpenAI demo, it was able to see concern and happiness in a face. So if you're stuttering or pausing, I think it does have some sentiment intonation or analysis in it by default. When you convert it to text, all that gets taken out. That's the issue.
-
-1:07:11 - Cuan Mulligan So rather than my voice going to OpenAI converted to text and text going into the system, my voice would have to go over to OpenAI. OpenAI would then have to give that text plus sentiment.
-
-1:07:28 - Cuan Mulligan And that will be then taken to the system to do something with. But we're at the end now. I haven't done this step nine. But we've got down to step nine. Pretty robustly. I think that the challenge now is the, I'm going to try and, I need to go into the garden for a second because a tree has fallen down or a branch has.
-
-1:07:50 - Cuan Mulligan Yeah, I need to look at this. I think this is good. It's definitely more happy path. I'm going to see where I can start breaking it again in the morning when I wake up. But I think we're certainly at a place now where we can go through it. I think getting the reviews over will be really good.
-
-1:08:08 - Cuan Mulligan And I think, I'm trying to think, what else? The transition from one step to the next. I think the transition seems to be a bit buggy.
-
-1:08:23 - Jonas Lindberg Yeah. Yeah, I think we're aligned there.
-
-1:08:28 - Cuan Mulligan Cool. Right. Well, I'll see you bright and early.
-
-1:08:32 - Jonas Lindberg Yeah. Before you leave, could you just test that the delete buttons work?
-
-1:09:10 - Cuan Mulligan Let me go up a bit more. I'm not too sure.
-
-1:09:19 - Cuan Mulligan Well, that's weird.
-
-1:09:22 - Cuan Mulligan So it's on stage eight.
-
-1:09:26 - Cuan Mulligan I'm going to get rid of step eight. I'm going to get rid of this last step. And then I can go, I can. And maybe that's correct. Yeah, now it's gone into step nine. I think that's fine.
-
-1:09:46 - Jonas Lindberg Yeah?
-
-1:09:47 - Jonas Lindberg Yeah.
-
-1:09:48 - Jonas Lindberg Yeah, I wonder now, just for fun, what will happen if you just deleted some message in step six and then send another message. I think it'll reset the step to step five or six, and then I'll confuse to all the bots.
-
-1:10:17 - Jonas Lindberg No. There may be a bug in the step resetting then. If you delete up until I usually lose weight quite fast and just repeat that message, I wonder if it will be at step 9 or step 8 when you send that message.
-
-1:11:07 - Jonas Lindberg I also want to get rid of that full page reload every time a message is deleted.
-
-1:11:13 - Jonas Lindberg That deleted two messages.
-
-1:11:16 - Jonas Lindberg It wasn't actually two messages. It was one message with a paragraph between. That's what confused me too when I said like, Oh, wait, it isn't working. And then I realized, oh, yeah, it was one message, but two paragraphs.
-
-1:11:28 - Cuan Mulligan OK.
-
-1:11:37 - Jonas Lindberg Yeah, it's all set now.
-
-1:11:39 - Unidentified Speaker Yeah.
-
-1:11:43 - Jonas Lindberg So it's not going back in step correctly.
-
-1:11:48 - Cuan Mulligan But it's acting, it's acting as step eight. It's still, it's still acting this questions.
-
-1:11:59 - Cuan Mulligan Hmm.
-
-1:12:08 - Jonas Lindberg Yeah. Uh, will you be continuing to like test it throughout today?
-
-1:12:14 - Jonas Lindberg No, I'm done now.
-
-1:12:15 - Jonas Lindberg I'm gonna yeah, then I think I'll just leave it for tomorrow morning and get at Fixing that plus the other bugs tomorrow morning.
-
-1:12:23 - Jonas Lindberg Perfect. Cheers, buddy.
-
-1:12:25 - Jonas Lindberg Yeah, I'll see you

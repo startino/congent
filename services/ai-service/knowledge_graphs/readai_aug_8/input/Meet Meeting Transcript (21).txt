@@ -1,334 +1,0 @@
-Meet Meeting 
-Wed, Jul 17, 2024
-
-0:23 - Jonas Lindberg Let's see if there are any questions. In your microphone.
-
-0:51 - Jonas Lindberg Yeah, turn your mute on.
-
-0:56 - Jonas Lindberg I think.
-
-0:59 - Cuan Mulligan Hey, can you hear me?
-
-1:01 - Cuan Mulligan Yeah, I can hear you. Can you hear me?
-
-1:03 - Cuan Mulligan Yeah, yeah, yeah. Yeah, good.
-
-1:05 - Jonas Lindberg Yeah, perfect.
-
-1:06 - Cuan Mulligan I'm just telling JP to come in. I think he was waiting for the invitation.
-
-1:11 - Jonas Lindberg Oh, OK.
-
-1:15 - Cuan Mulligan Hey Nazif, I don't know if we've met yet. Hey, how are you doing? I am living the dream, I'm living the dream.
-
-1:28 - Jonas Lindberg Yeah, so yeah, this is Nazif. He's been with us for the longest time now. He's helped us out on I've got a few projects now, mainly a large part of the web of IT now, especially in the start, and also has helped develop a contract management, sorry, contract lifecycle management platform called Up. You think it's helpful?
-
-1:58 - Nazif Barassounon Cool.
-
-2:01 - Jonas Lindberg How's it going, JP?
-
-2:02 - Jonathan Phillips Very good, thank you.
-
-2:03 - Jonathan Phillips Very good. Everyone good?
-
-2:06 - Nazif Barassounon Yeah. I like the meeting, a lot of faces. A lot of faces, fantastic.
-
-2:13 - Jonas Lindberg Yes, so for this meeting, since Will will be taking on the lead role in the project, he will be facilitating the meeting.
-
-2:24 - Jonas Lindberg Would you like to get started, Will?
-
-2:28 - Will Vincent Parrone Yes, is everyone okay to start?
-
-2:35 - Will Vincent Parrone Okay, that sounds like a thumbs up for everyone. So, hi, I'm Will and I'm one of the developers here in Tino. I'm going to be working with IntelliAgent, as Jonas had told me how to pronounce it. And for this meeting, we're going to be talking about the vision and primarily the potential backlogs of IntelliAgent. What we want after this meeting is we're going to be taking a few days to create, to refine the backlog based from your feedback and create estimations for IntelliAgent. So those are our agendas. Are those okay with you guys? Q1, Jonathan, Biwas, and Mr. Nazif?
-
-3:38 - Will Vincent Parrone Okay. Sounds good. So let's start. I'll start by asking you, Mr. Tiwan and Jonathan, what is the vision behind Intelligent? So what's the core idea behind it?
-
-3:59 - Cuan Mulligan Can I just, before we answer that, I just want to set some context in terms of the different roles and responsibilities that we have on our side. So IntelliAgent, JP is the main stakeholder. He's the one with the vision. He's the champion. Myself and Arif, who are running ADAPT, are working with JP on different things in the background. And so we're helping advise him. But ultimately JP is the visionary behind this. Where I sort of sometimes play, and JP can sort of keep me honest as I say this, is sort of the, sometimes the translation of the vision into something that's tactically, tactile or tactical that we can then go and build. I also taking like the things from ADAPT and going, oh, hold on a second. If we did this to your vision, we could get that for free from Adapt. Would that work? Yeah? Cool. So that's sort of the role that I'm playing, is how do we repurpose and reuse everything from Adapt and see these as completely separate products as opposed to really seeing one being an extension of the other?
-
-5:07 - Cuan Mulligan So one question I have is, are these actually separate code bases? Are they the same code base? But that's still something to have in the back of our heads when we go into this. But I just wanted to set that context so it's useful as you hear myself and JP speak. I'll shut up now.
-
-5:24 - Jonas Lindberg I think your audio cut out.
-
-5:31 - Will Vincent Parrone Sorry, sorry. Thank you for that, Q1. Maybe for the technical questions related to the code base, we can answer them later.
-
-5:44 - Will Vincent Parrone So, can we start, Mr. With your vision behind IntelliJ?
-
-5:49 - Jonathan Phillips Yeah, of course. So, some background about me first. My background is marketing business strategy. So, I've spent many, many years working with businesses to help them with their strategy. So my main focus in the last or so 20 has been smaller businesses and there's a big problem with smaller businesses when they try and create business. So they start day one, they have products, they have services but they don't really know how to get them out to their target audience and they don't know really maybe who their target audience is. They've got an idea that their vision works but they don't know how to execute it. So I've gone into all sorts of businesses and tried to help them so what i've got is um sort of many years of marketing frameworks methodology systems etc but the last couple of years have given us an opportunity to try and automate that and ai is a fantastic platform to be able to Not necessarily get rid of resource, but to utilize resource where it was impossible to use otherwise. So small businesses can't afford marketing agencies. They can't really afford necessarily anybody to help them. So AI gives us the ability to emulate marketing expertise. So what we want to do really is to put all the marketing expertise into a box, give it to the small business owners who don't really know where to start and it will enable them to have a whole sort of marketing platform to project their business forward and to enable them to acquire new customers and to increase revenues.
-
-7:45 - Jonathan Phillips Does that make sense to most people?
-
-7:47 - Jonas Lindberg Yeah, it makes sense to me. It looks like Will is having some internet issues. He began lagging out. Now his camera's off.
-
-8:13 - Will Vincent Parrone Hello, everyone.
-
-8:17 - Will Vincent Parrone Yeah, can you guys hear me again?
-
-8:19 - Will Vincent Parrone Yes, we can hear you.
-
-8:25 - Will Vincent Parrone The internet is not kind to me. It was working well a few minutes ago. Okay. Nonetheless, I get what you're saying. Thank you for providing your vision, Jonathan.
-
-8:40 - Will Vincent Parrone Specifically, we would like to ask you to break it down a little bit. We have prepared questions in mind. So, let's start with the story framework. I saw it in one of your documents about story framework. Can you tell us more about it? Like, how it goes, basically?
-
-9:08 - Jonathan Phillips Yes, it's just basically a system whereby the business owner or the marketing professional takes a concept, starts to build some flesh around that concept with how are they going to position it in the marketplace, how are they going to brand it, the target audience. They then create a a series of messaging and communications around that, and target their target audience with different platforms, different methods, and then ultimately measure what they do, see how well they do. If they're not doing too well, they change things and modify things, then it loops all the way back to them sort of creating again a number of campaigns around that. So the framework itself is something that they need to go through from sort of A to Z, but then they will be reiterating coming back, maybe back to D or coming back to L and then going through to Z again, and they can revisit any time they want. But ultimately when we talk about the technology what we want is an interface that allows the person to go very easily With no confusion from the beginning from the concept all the way through execution And then allows them to
-
-10:22 - Will Vincent Parrone question and nip back in any time to try and maybe change and modify what they're doing Okay, I see so In line with that, I saw in one of the requirements, particularly in rollout and adapt and growth, that we are going to be measuring performance, as you have said. Can you give us basically an idea on what you mean by measurement, like are we talking about establishing KPIs, establishing numbers to determine if the marketing strategy recommended by the AI is working or not? What's the entire vision?
-
-11:20 - Jonathan Phillips Yeah, all those things. So whatever the objectives are for that organization. And then they have micro-measurements. So when they go through campaigns, they might be looking at leads, website visits, number of opens on emails, whatever the metrics are. So there's various elements along the way, how they actually are measuring their performance. But just go back, one element that we didn't mention was the sort of multi-agent model, which is quite important to what we're doing. So we want to replicate a, let's say a marketing agency, so a marketing resource where You can imagine if there's a marketing agency with 10 members of staff or with their own areas of expertise, then what we want is a different, call them a chatbot, although we won't call them a chatbot to the marketplace, an agent who's expert in one area, and then they all work together, just like a marketing agency would, in order to help the founder, the business owner, to create their whole marketing ideology. So that's key to us. So we have this, it's something that there are other organizations globally we know working on these things, but we want to make it not only sort of better than them, but something that has certainly a unique angle.
-
-12:49 - Will Vincent Parrone Okay, okay. That is duly noted.
-
-12:59 - Will Vincent Parrone How, yes, given that this is going to be a business of yours, how do you intend for it to work financially? What's its business model?
-
-13:15 - Jonathan Phillips A subscription model where people pay monthly but they can also potentially have services on top of that. But until we start to get to play with the technology, we're not going to know exactly what levels we're working at there because we don't know what the cost is going to be. So once the technology gives us an idea of the cost behind it, we can then start to work out exactly the pricing model.
-
-13:42 - Unidentified Speaker Okay.
-
-13:42 - Will Vincent Parrone Got it.
-
-13:44 - Will Vincent Parrone With regards to cost as well, we actually have some small, small concerns. So with regards to certain aspects, particularly if we plan rollout and adapt and growth, we have a discussion wherein the scale might be a little bit too big for division, like the technical side, it's gonna be a little bit of an endeavor. Do I get it right, Jonas? Before that, maybe Q1, you can talk first.
-
-14:31 - Cuan Mulligan Yeah, I just want to sort of speak about the nature in which how we're running this meeting, right? So we've talked about a very, very conceptual vision from JP, and then you're dropping down into very specific points like what's the story framework? What's your go to market strategy? What pricing are you using? I'm personally a little bit confused. I'm not saying they're not valuable things, by the way. There's nothing wrong with the question whatsoever. I'm just not sure. Why we're talking about these things now. You're now suddenly talking about the scope being too big. We haven't even talked about the scope. There's a story to all of this, right? Stories have a beginning, a middle, and an end. And it feels like we're talking about specific chapters or paragraphs in a book. And we're like, we haven't all read the book. We sort of know what the book's about, but we don't really know.
-
-15:29 - Cuan Mulligan I think I would take this back a level and make sure everybody's aligned at a high level about what we're actually talking about, and then start bringing this down and understanding the scope, and then specifically what parts of that scope you have questions or concerns about.
-
-15:46 - Will Vincent Parrone Ah, good point. That's a good point of criticism towards how I handle things. Basically, the flow of this is I'm asking for a vision and pinpointing some of the edge cases because after that, we're going to be jumping straight into the backlog.
-
-16:11 - Will Vincent Parrone But more or less, So basically outside of that, maybe we can skip the costs because you're right, it's a backlog type of discussion. So before we go to the backlog, I'd like to ask the developers, do you guys have any confusion or questions with regards to the vision by Jonathan? Just to make sure we're on the same page.
-
-16:49 - Nazif Barassounon Mongo too.
-
-16:52 - Unidentified Speaker Yeah.
-
-16:57 - Will Vincent Parrone How about Biwas? Do you have any other question?
-
-17:02 - Biwas bhandari So yeah, I have one question.
-
-17:06 - Biwas bhandari I want to know about the target audience. I mean, are we targeting a business or someone having a marketing agency? For example, a marketing agency would also want to check their marketing strategies, from what you said. And... Okay, my internet is quite slow.
-
-17:29 - Jonathan Phillips No, no, I got that question. It's a very good question. Targeting a marketing agency or a business? Yeah, so we're targeting businesses with 0 to 49 employees. So it might be a solopreneur, it might be an individual who wants to start a business, or all the way up to sort of around 50 employees. But it's not exclusive. It's not a case of someone who's got 51 employees can't use it. It's just obviously we've got to target our messaging somehow. Any organization could use it. It could be used within a large organization by a marketing professional. And it could also be used by a marketing coach or a marketing agency. So there's no limit to who can use it, but we are specifically going out at the beginning with a sort of core strategy to target smaller businesses because they're the ones who predominantly don't have a marketing strategy, even some very large multi-million pound businesses don't have a marketing strategy. So there's a lot of opportunity there to get into those organizations and start to get traction on the product.
-
-18:39 - Will Vincent Parrone Okay, does that answer your question?
-
-18:44 - Biwas bhandari Yeah, pretty much.
-
-18:47 - Will Vincent Parrone Okay. All right. Thank you, JT, for that. Now we're going to be jumping into this scope. Actually, we're supposed to ask questions, but I got a little bit too carried away. I asked them immediately, so I'd like to apologize.
-
-19:06 - Will Vincent Parrone Here is the current scope that we've created. Let me try to share my screen.
-
-19:22 - Will Vincent Parrone You guys see my screen or no?
-
-19:27 - Will Vincent Parrone Yeah, it's coming up.
-
-19:29 - Jonas Lindberg It works.
-
-19:35 - Will Vincent Parrone No, I'm sorry, I've just served as it works today. Okay.
-
-19:41 - Will Vincent Parrone Right. So, basically we have four main epics, so to speak. Epics are like a collection of features that have So, for example, in the sales interface, it's related to sales features, admin interface, all the features an admin has, user interface, all the features that a user has, and chatbot, that's all the features that a chatbot has.
-
-20:27 - Cuan Mulligan I'm going to have to interject because this is a really expensive meeting with the number of people that we have on this. And I'm just reading through that backlog. And it's not aligned to the needs of JP at all, really, from based on what we've talked about and things we've shared in the past. I think there's a quicker way to do this and get us aligned much, much quicker on actually what this product is supposed to do. It feels like you guys have gone off and done a lot of work without getting aligned first. You've read documents, but I don't think you've spoken with JP and really understood what he's trying to achieve. So I don't mean to, well, I don't mean to take over this meeting, but I'm just concerned at it being a very expensive meeting. We've got one, two, three, four, five, six people on this meeting. So every hour is basically a day of time. And I think we could spend a huge amount of time doing that. And if you guys, by the way, if you guys are fine with this, I'm happy to jump off because I don't think this is a great use of my time because I don't think this is actually the right level of detail in the backlog. But if you guys want to crack on, fine. I've got too many other things to be doing. But if you agree with me...
-
-21:40 - Jonas Lindberg How do you propose we move forward, Cuan?
-
-21:43 - Cuan Mulligan I can. I think I have an idea, but I'm also conscious that I can sometimes hijack things, which I'm not trying to do, but I felt I'd be doing a disservice to say if other people feel this, and predominantly JP, I want to make sure JP's time isn't wasted and we get to a conclusion here today. I think it's really important we get that.
-
-22:04 - Will Vincent Parrone Okay.
-
-22:05 - Will Vincent Parrone Okay. I love this energy, Q1. I do love keeping meetings short and simple. So let's start first with you. What do you think should be the best way forward based on your experience?
-
-22:25 - Cuan Mulligan Ultimately, JP is the customer here, right? So JP, is this format working for you?
-
-22:31 - Jonathan Phillips So what is the objective of the meeting today? By the end of it, what do we want to have achieved?
-
-22:38 - Will Vincent Parrone Okay, good question. What we want to achieve is basically for all of us to have an understanding of the features to see if what we have in mind is the same as what you guys have in mind. So that within a few days we can... Provide you with an estimate and potentially a quotation on how expensive the app would be. Did I get it right, Jonas?
-
-23:05 - Jonas Lindberg Yeah, sounds correct to me. It's trying to align with the vision, getting all the developers or most the developers that will be working on Intelligent synced up with the vision, at least from a high-level perspective like we did in the beginning of the meeting, and then also making sure in kind of a shotgun method that all the backlog features are aligned as well as we can. This is just a first revision. It's like, the backlog took us an hour, two. So not too much time has been spent on it. This is an expensive meeting, yes, but it'll be for all the developers. So hopefully just getting what we have out there and aligning ourselves as quick as possible with what you guys want.
-
-23:58 - Cuan Mulligan Yeah, I mean, there's a lot of stuff here that I think is important, and it's not... Everything that you have on the page, by the way, is useful. It's just missing the main point, which is the purpose. Like, what are the actual functionalities that we really care about? Like, subscription, authentication, all that stuff is super important. I'm not saying it's not, but it's sort of missing. We need to step through from the eyes of the customer. What is the experience here? And I would, when you present a big verbiage like this for people like myself and JP, who were not in the conversations that you guys went through, we don't know the evolution of this. It's very difficult. So there's a better way to take them. Like as a user, I need help to define buyer personas. No idea what that is. I genuinely don't even know what that means. So like in these sorts of meetings, talking about land chain and graphs, it's got no business here. That's an implementation issue. This is where we're looking right now is what are the outcomes JP needs for a product to be viable? That's the exam question we should be looking to answer, right? So would you mind if I just showed, rather than me talking at you, would you mind if I showed you what I think the answer is? And how we might make this a more effective meeting.
-
-25:24 - Will Vincent Parrone Okay, is everyone okay with that? Jonas?
-
-25:31 - Jonas Lindberg Yeah, absolutely.
-
-25:32 - Cuan Mulligan Yeah, okay.
-
-25:35 - Cuan Mulligan Let's go. To put in a link to the mural, people can join in and start creating in this at the same time if they want to, but I'm just going to start showing you guys what I mean, first of all.
-
-25:49 - Cuan Mulligan Can you see my screen?
-
-25:58 - Cuan Mulligan OK. Yeah, I can see your screen. At a very high level, there is definitely a sales website that you sign up to, and then you get access to run workshops or to participate, basically participate in a workshop. That's fundamentally, at a high level, the entire scope of the project. And there will be multiple workshops. So it's probably...
-
-26:24 - Jonathan Phillips Let's just say for argument's sake, the number of workshops or activities or tasks or whatever within the story framework might be 400. But the tasks don't matter, because we're just building the infrastructure, the framework, to put anything we want in and modify it on the fly. So it doesn't really matter. And to have an example of a workshop, great, because it gives us the scope of what we need to build. But ultimately, we need the provision to modify the framework when we want. And the framework may have 400 tasks. And the one example we have here about the brand Where was the workshop name?
-
-27:07 - Cuan Mulligan Yeah, I'll come back to that. I've got an example of that in a second.
-
-27:13 - Cuan Mulligan Cool. Sorry. Go ahead.
-
-27:20 - Cuan Mulligan Right. And so we have there's JP as the company owner. You have the customer who signs up and you have the agent who lives in the system. So they're they're all the actors that are currently it's actually agents. OK. So in a in a workshop.
-
-27:47 - Cuan Mulligan So a customer, let me just look at this. So a customer, that's going to annoy me because the arrow is not straight. So JP designs workshops. Can I write on this? Yeah.
-
-28:08 - Cuan Mulligan A customer needs a workshop and agents run workshops.
-
-28:21 - Cuan Mulligan There we go. Does that make sense so far, in terms of the ecology of all the actors and the... Does that make sense so far? Sorry, Will, did you have a question? I didn't...
-
-28:40 - Will Vincent Parrone Oh, no, no. I don't have any questions so far. Okay, so...
-
-28:48 - Cuan Mulligan When a customer is running, oh, sorry, go on, Vivas.
-
-28:54 - Biwas bhandari Yeah, by workshop, what do you mean? Can you give some examples, some workshops?
-
-29:03 - Cuan Mulligan Oh, give an example of the workshop?
-
-29:06 - Unidentified Speaker Yeah.
-
-29:07 - Cuan Mulligan Yeah, I will absolutely do that. I'm just going to explain one thing in a second. So have any of you used Claude?
-
-29:20 - Cuan Mulligan So what's really good about Claude is, for example, if I said here, design me a wireframe for a health chat application, whatever. I'm just giving that as an example. So what's great about this now is that we now have a two-paned interface.
-
-29:49 - Cuan Mulligan The left-hand side, which is the interactions or the conversation to running something. And on the right, you have the output. So imagine I was talking to Claude AI for an hour. This chat window will be incredibly long. But my content will always be here on the right-hand side. So as I'm doing things, and that's evolving, so I could basically say, right, make the top Banner red doesn't really make a difference. But I can now do things to the chat, and the output of the workshop is updated in real time. This sort of multimodal interface. And I think this is really important that we understand this, because now I've got versioning control. So I could go back to the blue one and start again, or I can enhance the red one. And our vision, or I think JP's vision for this is that the workshop itself, and I'll give an example of the type of workshop in a moment, the workshop will get carried out through chat, through a user and multiple agents playing different roles.
-
-31:03 - Cuan Mulligan And then the output is produced on the other side of the page. So this chat can go up and down for as long as it wants. But the output that a particular workshop generates is on the right-hand side. I think this is really important. This is the crux of the product. This is the bit that we need to get really right.
-
-31:22 - Unidentified Speaker OK.
-
-31:29 - Cuan Mulligan So I'd love loads of questions around this, because Almost the nature of the workshop, which I'll bring to life in a moment, doesn't really matter because it's the ability to do something on the left and see something on the right that gives us, as JP said, we need capability that we then customize and codify, as opposed to you designing a particular workshop, if that makes sense.
-
-32:04 - Will Vincent Parrone So basically, it's similar to Cloud in that manner that we're focusing on the marketing side of things, right? And also, they have multiple agents compared to Cloud.
-
-32:21 - Cuan Mulligan Exactly. So if we, sorry, Biwas, it looked like you had a question.
-
-32:27 - Biwas bhandari No, you can continue. Great.
-
-32:33 - Cuan Mulligan So if I go back to here, for example, the first, where is it here? So there are two types of companies that could come in here and be customers. You've got the startup or an established company. There is a little bit of difference, but we're going to park that for a moment. We will deal with that difference later. So the first workshop would be, we're going to call this a brand purpose workshop. What that means is helping a small business figure out their reasoning for existing. So Jonas's company, why do you exist? What is your mission statement? What's your purpose? Now, this may not be something you ever communicate externally, but do you and George have a mission statement that you guys talk about together, like why you started this company?
-
-33:25 - Jonas Lindberg It's not why we started this company, but it's why we're doing the avenue we're doing now. And that's to help subject matter experts that have a lot of experience within their specific field solve problems within their fields using our, us as like technical experts.
-
-33:43 - Cuan Mulligan Okay. So that, that sounds like, by the way, I'm sort of running the workshop now, just as a bit of an example. That sounds very much like a what you do. It's not why you do it. So you do that, what's different in the world for you?
-
-34:00 - Cuan Mulligan What's your actual motivation? Why do you get out of bed to do this?
-
-34:07 - Jonas Lindberg And you're not allowed to say make money.
-
-34:09 - Cuan Mulligan So I'm just going to pause the process there for a second. I'm asking one set of questions. Just came in as another agent there and is asking, he's holding the rules. I'm absolutely correct. So this, what we're doing right now, is what we would love the end vision to be, where each of your boxes, like me and JP, are actually AI, where we have avatars speaking like this, and you're all the customer. This is where we would love to. But we recognize that fully animated avatars is probably too difficult. Maybe we can do speech with a fixed head, like Will's picture's gone, but I can still see Will, and Will's still participating. That could work. Or it could just be pure text. So we can figure out what that journey is. But ultimately, the end-to-end vision is to do a session like we're doing right now, where we've got a group of people talking, trying to achieve an outcome, and some visual assets being created in real time on the output of the project.
-
-35:20 - Cuan Mulligan So we are talking and I am creating something visual as a record of what we're agreeing. And as you're saying something, I'm going to change this in real time.
-
-35:35 - Cuan Mulligan And I think, forget about authentication and sign up and registration. All that's important. But none of that matters if we don't mail this. This is the product. What is that amazing interface that allows people to talk about something and then, in parallel, produce an output?
-
-35:55 - Cuan Mulligan And I think this is the thing that we've got to get absolutely, totally aligned on, that you guys imagine and can understand what the product is meant to do. Yes, there's loads of important things that have to happen in the background, but land chain, authentication, all that stuff. That's just hygiene. That's not the product. This is the product. Now, whether this looks like Claude, and over here there's boxes on a page, or it's a document, or it's a sentence, whatever, we will figure this out. But at a high level, I sort of want to get this into your bones on what the product actually is supposed to do. So when you're making this, in the back of your head, you're trying to recreate the exact experience we're having right now. Where there's a dynamic conversation and then a fixed output.
-
-36:50 - Cuan Mulligan Does that, I just want to check, does that align to your vision as well?
-
-36:52 - Cuan Mulligan Yeah, perfectly.
-
-36:54 - Cuan Mulligan Okay. So this is the bit where I want to spend some time making sure, Will, Biwas and Azif and Jonas, that you guys can ask all of your questions because this is the bit we need to swim in and get absolutely aligned on.
-
-37:11 - Jonas Lindberg Please.
-
-37:13 - Jonas Lindberg How do you turn this into a backlog? That's what I'm trying to figure out.
-
-37:17 - Cuan Mulligan We'll come back to that. That's not the difficult part at all. Making sure that we are aligned on where this goes is most important. And then we can figure out the backlog. I can make the backlog of this in minutes. That's not an issue.
-
-37:33 - Jonas Lindberg OK.
-
-37:36 - Cuan Mulligan Sorry, Biwas.
-
-37:40 - Biwas bhandari So far what I have understood is, what you are referring is to something called generative UI. So for example, I want a simple roadmap for my startup and in the right side, the AI chatbot will create a flowchart in a visual representation, right? So, and if I do not like the flowchart or roadmap, then I can just simply tell it to update it and it will give me a new interface. I think that's.
-
-38:10 - Biwas bhandari That's what we are trying to do.
-
-38:16 - Cuan Mulligan Possibly. Hold that idea, because I want to give you, I think what is presented or what is produced for each workshop could be subtly different. So if you look at the Cloud interface, it basically is HTML. It's JavaScript and HTML, and whatever you ask it, it produces there. I don't actually know. If I basically say here, go Cloud, new chat, Design me a logo for a health company. I don't think it produces the side panel in this context. I think it keeps it in the main chat.
-
-38:56 - Cuan Mulligan To revise some details of the company name, it's called Adapt.
-
-39:07 - Cuan Mulligan Oh, no, it does. Oh, what are they doing over there? It's creating it. OK. So it's actually just creating JavaScript logos rather than creative stuff. So not very clever, but it's got one mode of interface, and that's fine.
-
-39:28 - Jonathan Phillips So just to clarify as well, the output, Ultimately, what the business owner wants is a roadmap, a blueprint of what to do. They will get this with a, let's call it a plan for argument's sake. And let's just say it's a PDF. That is the final output. But all the workshops, tasks, and activities are creating content. And then all these pieces of content will be then built into this final plan. And the final plan is something that could be printed out and presented let's just say for argument's sake. What will be useful as well is that as time goes on things change so if they go back to do a number of tasks and activities workshops that are halfway down the process it then changes a lot of other things and then the final output is changed but ultimately the final output is just a combination of all the other activities. So in Claude terms, you have your artifacts. So the artifacts are the output for each of the workshops, and then they will then culminate into one of the project documents, so to speak. So that's what we're trying to do. We're trying to create lots and lots of little pockets of data intelligence, knowledge that then contributes into a final plan and a roadmap for the business owners to take forward. But at the same time, they might just want to come in on one morning and say, I want a campaign idea. And then that will go straight into the framework at the right point and start to generate things again, which will then output in a different document.
-
-41:08 - Cuan Mulligan So I don't know if that's for phase one, or do you see that as phase one?
-
-41:22 - Jonathan Phillips Until we get an idea of the technology and the capabilities, we're going to have to work that out on the fly. Because if it's a difference between one month and eight months, that's a massive issue. So we need to know time scales, how long this is going to take.
-
-41:38 - Cuan Mulligan Cost obviously as well and then we can start to build the phases in accordingly Okay, so if I look at this you've basically got the Workshop one Workshop two Workshop three and you have the You've got the output from every workshop.
-
-42:25 - Cuan Mulligan There's a sequence in the story framework. There is a sequence of workshops. And every workshop has an output. And then when you finish one workshop, you can go on to the next workshop. So JP, when you said there, workshop two, could that go back and change the output of workshop one?
-
-42:47 - Jonathan Phillips It won't change it. But for example, if you then go through the process and you're on workshop 37, and you go back to workshop might 17, then alter things going forward. But we need to work out the logistics of how that works.
-
-43:04 - Cuan Mulligan OK. So the output of one workshop feeds into the next workshop and so forth.
-
-43:09 - Unidentified Speaker Yeah.
-
-43:11 - Cuan Mulligan Ok. So if I go back to this for a second, This is just a single workshop with no relationship to any other workshop. This is just a standalone workshop for now. So if we were running that workshop today, a little bit like what I did was I set the context. I'm trying to explain what I'm doing. So one of the agents would be doing that. So we would have a facilitator agent that is running the workshop like Will started to do. Will open the meeting really well, set the context why we're here. So there's a Will facilitator type agent who runs the meeting. There's then two distinct phases where we're information gathering. We're asking questions. What are you doing this, da, da, da. And the workshop will have a list of those probes or questions. But ultimately, in the background, JP has told the agents, in this meeting, you're trying to get this learning. You're trying to achieve this outcome so that you can do the next step. So for example, when I go to any LLM and I say, right, create me a content plan for my health startup. If I don't ask another question, it'll just give me stuff. Ask me any clarifying questions so that you can best enable to answer this question, then we'll proceed. It will start asking me questions to a point where it's suddenly comfortable to answer the first question. Does that make sense? If you've used LLMs where you ask to say, ask clarifying questions. So the agents all know what it's trying to achieve here, because there will be a prompt in the background that says, when running the brand purpose workshop, the outcome or the output we're looking for is x. So everyone knows where we're trying to get to. But we don't have all the relevant information. So the first thing is the agents all asking questions to get information about the company. Like, why do you set up the business? Exactly why I asked Jonas. A little bit like a what, not a why. Then says, don't give me an answer about money because that's not useful for you. It's not a motive enough. So JP, could you ask more questions and pretend we're back in the workshop for a moment. What other questions would you ask Jonas? And just so everyone knows, we're sort of in the information gathering part of the workshop at the moment.
-
-45:36 - Jonathan Phillips Yeah. Well, we start off with what, why did you set the business up? Obviously again, money can't be a motivation. What gets you out of bed? What makes you content in life? What is it you're doing that makes you content?
-
-45:49 - Jonas Lindberg Yes. Yeah. The, the unique problems that are presented by like subject matter expert, like there are fun problems to solve.
-
-45:59 - Jonathan Phillips Okay. And, um, Do you have an idea of what you want to do with the business? Do you have an idea with the type of product and service you want to provide?
-
-46:12 - Jonas Lindberg Could you clarify, like, what structure is or what...
-
-46:24 - Jonathan Phillips So, I mean, we're talking holistically here. So what are you delivering to your customers?
-
-46:34 - Jonas Lindberg technical solutions for non-technical people.
-
-46:40 - Jonathan Phillips Okay and when you say that do you do you envisage having anything beyond the technology for them? So what are you trying to position your business as? So is it just someone who says here here's some technology or is it trying to is it trying to facilitate anything else?
-
-47:07 - Jonathan Phillips So that's a leading question. So what I'm trying to get at is that the, what I'm trying to do is get you to say, I'm actually trying to give the customer what it wants, what it needs, rather than you say, I'm doing to provide technology tick box. It's a case of customer. Does this deliver what you had in mind? Does it deliver your, your vision, your, um, your concept? So it would be. What the workshop would do, it would sort of go back to you and go back to you and try and sort of get out of you exactly what it needs for a final statement, which is pretty much... Sorry Jonas, you're out of the workshop now, haven't you?
-
-47:50 - Cuan Mulligan Because you're now, it seems like you're, I just want to, because I want to be really clear with the guys, it doesn't feel like you're, it feels like you've now talked about the workshop rather than being in the workshop.
-
-48:00 - Jonathan Phillips I've got into guide mode. So yeah, I was guide bot then. So guide bot was then just advising you to try and modify some of the answers to try and drive you to a solution which it already has in the framework. So it's I don't expect a lot of the users to have any clue what they're doing, any clue. I mean, you're very clued up in what you do and what you've started with your business. But I expect a lot of these business owners to have never done business before, to have no clue what they're doing. I have to try and tease out of them the right answers to put in the framework. So there's a lot of iterative going backwards and forwards and saying, that's really good. I understand what you're saying. However, and it'll be this type of conversation in order to get that output at the end of the workshop.
-
-48:49 - Cuan Mulligan So for example, Jonas, there's another question I would ask. And I'm going back into the workshop now, for example. I might say, so what harm comes to the world if your company didn't exist?
-
-49:09 - Jonas Lindberg I think a lot of places in industries where there are very specialized workers which don't have the facility to develop using massive budgets.
-
-49:29 - Jonas Lindberg It's hard to answer such a broad question.
-
-49:34 - Cuan Mulligan So what I'm hearing is that You're actually driven to help bring people's dreams to life that are reliant on technology, that they don't have the skills to do. So in a way, if I was going to be very emotive about this, you're a dream maker. You're trying to help people bring their dreams to life.
-
-49:55 - Jonas Lindberg Yeah.
-
-49:56 - Cuan Mulligan Right. So again, I played two different bot agents there. I was the question bot, but then I'm the imagination bot. I'm starting to pick up on these pink post-it notes that were nuggets that you were saying that were relevant. So there's going to be an agent that's listening and going, oh, that's interesting, that's interesting, that's interesting, that's interesting. And then there'll be another agent who's going, now that I'm hearing the entire conversation plus the nuggets, can I start imagining ideas? So in the ideation phase, what we're imagining, if you can see Where is this? Imagine this screen here. This is a really shitty wireframe, but hopefully it gets. Can you all see this, by the way?
-
-50:45 - Cuan Mulligan We'Ve had the chat over here. And actually, that would be maybe a different color because it's a different agent. There's a whole chat. Oh, don't be green. I'll do that to be purple. There's a whole lot of conversations in the workshop over here. And at some point, we start producing at least two brand purposes. And what we're then saying to Jonas, hey, is it more the one on the left or the one on the right? So that wouldn't be there right now, right? Is it this or that? So let me take that box down. So there'd be now on the right-hand side a bit of a workshop going, hey, Jonas, As we're producing stuff, we're going to see stuff appear on the right-hand side. Tell us which one is more resonant for you. So I just said there, hey, you're a dream maker. You fix problems. As an example, I would be saying, which one of those is more resonant for you? And you might go, I'm a dream maker. Now we might do 20 of these. And you're going left, right. No, it's a bit of that, a bit of this one, that one, this one, that one, this one, that one, this one. And by giving us that feedback, the bot then, another bot, is actually, who's a copywriter, is taking all that feedback and then coming up with, you are a startup that brings to life people's dreams who are reliant on technology to do that, or something like that. So you know what? And again, you're the only one who gets to decide whether this is a good purpose statement or not. No one else does. But we understand the qualities of a good one. It's ultimately something that is a t-shirt that you're going to wear every day, and you've got to be comfortable.
-
-52:43 - Cuan Mulligan When you get old enough and you have children, you get to choose what the names of your kids are. But your friends, if you want to call your kid Hitler, You might love that, but people are going to give you feedback saying, that's a really fucking stupid idea. That kid's going to get the shit kicked out of them in school. Or if the acronym of all of their letters of their name spells out something funny, you might like the name, but somebody will give you feedback to say, I'm not so sure that's the right, still ultimately your decision, and the same way for this. And then when we start this workshop, there may be like, one of the first things you might ask you is, hey, Do you have any brand guidelines? You've done anything like this before? Give us your website. And we would scrape all that information, maybe do some competitor analysis. And all of that comes into play to the agents who are coming up with this. So I mean, the stuff that myself and JP did there, we are not just taking the context of the conversation with you. We're taking every conversation we've had with you before, everything we know about startups, everything we know about you, the change of intonation in your voice, your body language, all of this at some level is feeding into us. For me to come up with fucking, you never mentioned the word dream maker. I just, something happened where I just came up with it.
-
-54:01 - Cuan Mulligan Yeah.
-
-54:01 - Cuan Mulligan Cause it felt emotional and it felt powerful. You might go, no, not interested. It's not that, or you might go, yes, it doesn't really matter. And at the end of the workshop, we have something that you're comfortable with and you're saying, yeah, that's it. Cool. And then that's it. That's the end of the workshop, right? Now, there's many, many workshops, and one workshop goes to another workshop.
-
-54:26 - Jonathan Phillips So, for example, in this example here, if you Presented that part of your brand purpose was to be a dream maker then going forward with messaging and going forward with your campaigns It will be orientated towards you being a dream maker So for example, would it be better for you to say to your customers on your websites and your communications? I make your dreams come true, or I build the best line chain grass in the world bear in mind They don't know what that means or they don't know understand technology So what you're trying to do is is put some empathy and emotion And if you can get that emotional resonance with the customer, then all of a sudden you're communicating with them on their level. And that's what we try and do with the workshops. But as I say, the output then takes over into the next phase of workshops and activities to then build a bigger picture.
-
-55:19 - Cuan Mulligan So if we go back to this, I'm going to just do these two, two, two. I'm going to put those as gray for now.
-
-55:35 - Cuan Mulligan So the backlog, right? What do we need to do?
-
-55:40 - Will Vincent Parrone Well, JP needs to be able to So with regards to the backlog, basically, from the looks of it, yeah, we are going to keep some of the minor important parts like authentication and all that stuff.
-
-56:34 - Will Vincent Parrone I'm creating the backlog with an emphasis on the core product features, particularly the workshops.
-
-56:44 - Cuan Mulligan Well, what I'm trying to say to you is I'm creating the backlog in front of you at the moment. This is the backlog.
-
-56:57 - Cuan Mulligan Everything on that page is the backlog at an epic level.
-
-57:11 - Cuan Mulligan It'S potentially harmful to create a text-based list disconnected from the customer journey. So what you're seeing on the screen here is the journey the customer goes on and the experience the customer has. In terms of workshop one, that epic is, I need to be able to run a workshop. In order to run a workshop, I need to be able to design it. And the workshop has a workshop, and it has an output. We've talked about what the user experience is. It's probably something like this. It's a multimodal window. Fine. So with the sales website and signing up, well, signing up implies authentication. So each of these boxes. Is the epic, and each of these epics then needs to get broken down into the lower level activities that you need to do in order to bring this stuff to life.
-
-58:10 - Cuan Mulligan So if you do this, I mean, the question is, so JP, are you going to take care of the sales website? Do you want the guys to do it, or are you going to do that?
-
-58:21 - Jonathan Phillips I can do that. That's not a problem.
-
-58:23 - Cuan Mulligan So outside of scope, sign up. Yeah, OK. So we're now going to break this down. And I'm just going to create yellow tickets. So you need to have authentication.
-
-58:38 - Cuan Mulligan That's not how you spell authentication. So I'm just going to call auth. I can't spell right now. You're going to have authentication. You're going to need to have user management. You're going to have to here. If I put this here, I'm going to just scale this out so we can stuff like this. So you're going to have to do the UX UI of this.
-
-59:06 - Cuan Mulligan Fucking hell. UX. Is that something you're going to do? Are you going to design the UX of this? Or how do you want to do that?
-
-59:13 - Jonathan Phillips Well, I think it's a collaborative thing. I think I have an idea in my head, and I can draw that out. But if the technology doesn't facilitate what I want, then we have to compromise. So I'm more than happy to work on those, but obviously with you guys to bring it to reality.
-
-59:30 - Cuan Mulligan So I'm just putting IR around that, because that's going to be an iterative process. It's not going to be defined. So that's going to be very difficult to say a cost on that, because how long do you iterate on? Don't know. So if I was in your shoes, Jonas, what I would say, hey, I think the Claude interface, we understand what you've asked for. You want a multimodal interface. We've got these high-level wireframes here. Once we understand the exact scope and behavior in the first workshop, we will design a basic interface that allows that. We could over-engineer and polish that interface for the next 10 years. In the interest of doing something, as long as it's functional, as long as it doesn't break, I think we'll go with that in order to control the costs.
-
-1:00:13 - Cuan Mulligan So JP needs to be able to design a workshop. So basically here, you've got workshop creation, You've got Workshop, Outposts.

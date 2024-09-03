@@ -1,614 +1,0 @@
-Meet Meeting 
-Fri, Aug 23, 2024
-
-8:40 - Unidentified Speaker Hey, Jimmy.
-
-8:43 - Cuan Mulligan I can't hear you, buddy.
-
-8:44 - Unidentified Speaker How are you?
-
-8:47 - Cuan Mulligan Can you hear me? I can hear you now, yeah.
-
-8:49 - Cuan Mulligan How are things?
-
-8:49 - Unidentified Speaker Sorry?
-
-8:53 - Cuan Mulligan How are things?
-
-8:54 - Cuan Mulligan Are you feeling better?
-
-8:56 - Chinmay Pandya Yeah, yeah, I recovered last week, and I'm feeling way better. Thanks.
-
-9:09 - Cuan Mulligan Cool. So what are the things you want to cover today?
-
-9:13 - Chinmay Pandya Yeah, I wanted to talk about things that you also wanted to have a chat about, the daily mentoring, regarding daily mentoring. The check-in session, the long-term analyzer, and the, I think, part of milestones, if you want to cover it.
-
-9:32 - Cuan Mulligan Well, it's more important what you want to cover and what you need. Yeah, I want to cover majorly the check-in session.
-
-9:40 - Unidentified Speaker So.
-
-9:40 - Chinmay Pandya Yeah.
-
-9:47 - Unidentified Speaker OK.
-
-9:50 - Cuan Mulligan So do you have the link tomorrow? What I'm going to do is I'm going to rebuild the conversation in Figma Jam with you now.
-
-10:00 - Cuan Mulligan But what I need, first of all, is the mural just to have reference. Actually, no, let's do it without the mural, because then we can see based on what is real today.
-
-10:15 - Unidentified Speaker Yeah.
-
-10:18 - Chinmay Pandya OK.
-
-10:26 - Cuan Mulligan Do you want me to share my screen, or do you want to follow in Figma Jam as well?
-
-10:31 - Chinmay Pandya I think I'm fine with if you share your screen.
-
-10:42 - Chinmay Pandya I can follow you on Figma Jam, but my internet connection is not as good. So I think I'll get disconnected in between.
-
-10:51 - Cuan Mulligan Let me know when you can see this.
-
-10:56 - Chinmay Pandya Yeah, I can see your screen. Go ahead.
-
-11:18 - Cuan Mulligan We'll just use those three colors, one for the mentor, the coach, the user. All right.
-
-11:31 - Cuan Mulligan Just give me a second. I'm gonna see if I can find the mural.
-
-11:34 - Chinmay Pandya Do you want me to share the link? Yeah, that'd be really useful.
-
-11:40 - Unidentified Speaker Yeah.
-
-12:03 - Unidentified Speaker I think I have it here.
-
-12:33 - Unidentified Speaker Yeah.
-
-12:54 - Cuan Mulligan How do I change the... Oh, there it is, finally.
-
-12:59 - Unidentified Speaker Okay.
-
-14:20 - Cuan Mulligan So what are we going to do?
-
-14:42 - Chinmay Pandya Yeah, so we can cover the conversation for the daily mentoring and then move to check-in session.
-
-15:23 - Chinmay Pandya Will every, does every day, like each daily session, how many points would be same for every day for the agents to cover and how many would be different? If you can provide an insight on that. I don't know what you mean. I mean, does each daily session look the same?
-
-15:51 - Cuan Mulligan I think the structure is broadly the same.
-
-15:56 - Chinmay Pandya Because we have established some to-dos or the tasks to be performed for each day.
-
-16:06 - Chinmay Pandya I mean, are there some things which which like there's a system where each day is the same. And then there's a system where something new happens at intervals in terms of tracking items.
-
-16:27 - Unidentified Speaker I'm not following.
-
-16:30 - Cuan Mulligan So let me just do this and then we can ask specific questions as we go through. How about that?
-
-16:36 - Chinmay Pandya Yeah, sounds good.
-
-16:40 - Unidentified Speaker Yeah. Yeah.
-
-17:10 - Chinmay Pandya Thank you so much.
-
-18:30 - Unidentified Speaker you.
-
-20:36 - Unidentified Speaker It's getting warm. Gosh.
-
-20:47 - Cuan Mulligan So let me, are you still there?
-
-20:54 - Unidentified Speaker Yep. Okay.
-
-20:56 - Cuan Mulligan So, um, So I would imagine the user waking up, looking at their phone, there'd be the quote of the day, which basically is aligned to the theme or the intention of the day, right?
-
-21:16 - Cuan Mulligan Then there's like, we'll agree there'll be some type message when we know that there's, you know, so basically, This would basically be displayed on user reading the quote. So good morning, Carl. Welcome to day 10. Today, we're going to focus on the killer skill of forming new habits. Now, the day number and what they're focusing on comes from the LMS.
-
-21:57 - Unidentified Speaker Okay. Does that make sense? Yep.
-
-22:08 - Cuan Mulligan And then there'd be like, there's some, you're the morning, the morning video where again, that comes from the LMS.
-
-22:20 - Chinmay Pandya Got it.
-
-22:31 - Cuan Mulligan Like that's an example of an optional video that might not be there every morning. And they can watch it here.
-
-22:39 - Cuan Mulligan And they can watch that in the app. They don't need to go anywhere. That content has been served to them in the chat interface.
-
-22:46 - Unidentified Speaker Got it. Makes sense?
-
-22:47 - Cuan Mulligan And then once that's finished, so actually, what I might do is, is there a way? Yeah, like that. Why isn't that?
-
-23:01 - Cuan Mulligan Yeah, I'm going to make that red because I don't know when we just. So imagine then I've watched the video. I'm now going about my day. The next thing we want to know is because you slept last night. The first thing I would want to ask you or you're able to tell me is how was your sleep last night? That's a red arrow just to say I don't know when that displays yet. We'll figure that out. And the idea is that, how was your sleep last night? And rather than waiting for them to type it in, we'll give them these two input buttons so they can just type in the time and the wait time.
-
-23:42 - Cuan Mulligan Pre-populated with previous value.
-
-23:59 - Cuan Mulligan And then that basically, so.
-
-24:18 - Chinmay Pandya What do you mean by pre-populated with previous value?
-
-24:23 - Cuan Mulligan So I make up that most people's bedtimes and sleep times are going to be very similar. So if I'm going to bed at nine o'clock every night, bedtime should say nine and I'm just confirming what it was.
-
-24:38 - Unidentified Speaker Okay.
-
-24:39 - Cuan Mulligan So it's the previous night's value.
-
-24:41 - Unidentified Speaker Right.
-
-24:45 - Cuan Mulligan Same here, did you wake at all during the night? Yes, no. If it's yes, then how many times?
-
-24:52 - Cuan Mulligan Now the question is, if they haven't done these things and we want to show the video, I don't know the UX of that yet. I think that's something we're going to have to play with and figure out what's the best way of showing the user. Because otherwise, there's a very small window of what we can show a user, right?
-
-25:18 - Unidentified Speaker Yeah.
-
-25:18 - Cuan Mulligan And I don't want necessarily to say you have to have done the sleep before you watch the video. That's not true.
-
-25:40 - Chinmay Pandya So the video can be shown before any activity has been updated.
-
-25:46 - Unidentified Speaker Potentially, yeah.
-
-25:48 - Cuan Mulligan It's not hard. It's not like a this, then that. And that's why I haven't put arrows in here, because it's not a sequential flow.
-
-25:57 - Cuan Mulligan And then at some point during the day, we say, when you've done your walk, drop in your updates, your distance, your time. Drop in your calories. Drop in your carbs. Now, these might all be like they're there.
-
-26:12 - Cuan Mulligan And yeah, I don't know how this works. So that's the, I'm imagining that as we go, every time the user updates or opens the app, there would be either a notification that drives them in or yeah, there might be.
-
-26:34 - Chinmay Pandya It's possible they open the app to notify, I mean, by themselves to update a tracking item.
-
-26:46 - Unidentified Speaker Yeah.
-
-26:51 - Cuan Mulligan And so that would be, I think, a standard daily flow.
-
-26:58 - Cuan Mulligan Now, at the end of the day, I might not have entered any of the data. I might have watched all the videos, but I might not have watched the data. I might not have watched the video. Yeah. Now, the most important thing is, on the day, I'm watching the video and I'm using the content.
-
-27:16 - Cuan Mulligan So it could be a video, it could be a picture, it could be a PDF. It's like, watch the video, read this, do that.
-
-27:26 - Unidentified Speaker Yes.
-
-27:32 - Chinmay Pandya Do the nudges have, like, will the nudges include the text that, here's a video for you?
-
-27:42 - Chinmay Pandya Or like, here's a picture for you if you want to watch notifications like that for the user.
-
-27:51 - Chinmay Pandya If they haven't even opened the app at all.
-
-27:55 - Cuan Mulligan Yeah, we would want to notify them to start driving them into the application 100%.
-
-28:00 - Unidentified Speaker Yeah.
-
-28:05 - Cuan Mulligan And then periodically throughout the day, you've got notifications for You've got nudge notifications, you've got reminder notifications.
-
-28:35 - Cuan Mulligan Do reminders could be examples of...
-
-28:46 - Cuan Mulligan As an example, let me just do in here. So hi, Carl.
-
-28:51 - Cuan Mulligan Hope you had a great day, a good day. How was your walk today?
-
-29:04 - Cuan Mulligan For example, if we haven't had any updates from them, How was...
-
-29:24 - Cuan Mulligan Last we spoke you were struggling with sugar. How did your eating go today?
-
-29:48 - Cuan Mulligan just these are example messages okay and so I suppose if they you might go What did we do? What's that called?
-
-30:38 - Chinmay Pandya This will come from the Streaks, right?
-
-30:41 - Unidentified Speaker Yeah.
-
-30:46 - Chinmay Pandya Also, to be clear, are there any minimum criteria for streaks or any activity can be included in a streak?
-
-30:59 - Unidentified Speaker Sorry, two seconds.
-
-31:16 - Cuan Mulligan Um...
-
-31:48 - Chinmay Pandya So let's say you have a minimum criteria for a user. The user has to walk 15 minutes a Even if he doesn't walk for 15 minutes and he only walks for let's say 5. Will that be counted in his streak or he has to walk more than 15?
-
-32:10 - Cuan Mulligan So this is what I was trying to convey to George. I don't think he was picking it up so I'm really glad you've asked the question. So if I've agreed a target for example of 1200 calories and I'm hitting 1300 calories Oh, that's not bad. 14 to 1500, you need to do better. You're eating 2000. So a streak has two qualities. One is the recording of the activity. And then two is the integrity of the of the of the habit to the goal. So there's like, I ate 1200 calories. I'm absolutely on track. Then there'd be a buffer. So let's say a hundred calories, which we'd still consider it to be good. Then there's slipping, which is maybe a certain percentage over. And then there's, okay, you're doing it, but like everyone eats every day. So on eating, you're going to overeat. I'm walking. Yeah. I walked to the car. It doesn't count. Like you did it. You're recording it, but you're not achieving it. So there is absolutely a quality of the, yeah, to the agreed mile, to the agreed measure of the habit.
-
-33:26 - Unidentified Speaker Got it.
-
-33:27 - Chinmay Pandya I think he was pretty clear on this. He said the exact same thing which you said to me, that within a range it can be accepted, but below or above that range, if it's something that has to be achieved above a minimum amount, then I think it won't be accepted if the result is below.
-
-33:46 - Cuan Mulligan Yeah, but whether you lose the streak, this is what I mean.
-
-33:53 - Chinmay Pandya Yeah, that's what I wanted to ask. I mean, the milestone won't be achieved, but there's a streak for walking every day. But is it just walking every day, or is it walking 15 every day?
-
-34:06 - Cuan Mulligan Yeah, I don't have an answer. I think we need to figure out what we think is the right way to do this. Because if one way, I think there has to be a consequence for not doing your thing.
-
-34:19 - Cuan Mulligan Yeah.
-
-34:20 - Cuan Mulligan So I think there's some tolerance. So if you basically walk 50 minutes a day, yeah, I think we give you the day. If you don't walk at all because of your son was sick, that's different than I didn't walk because I can't be arsed.
-
-34:36 - Cuan Mulligan Yeah.
-
-34:36 - Cuan Mulligan So there's always those contexts where maybe over the course of the program you get three freebies, you get three misses. After that you start to lose stuff.
-
-34:51 - Chinmay Pandya Yeah, I got you.
-
-34:53 - Cuan Mulligan And I think we have to come up with a framework which basically says, for example, Let's see here. So I think if you're here for calories, and the target is 1,200, then we'll have a...
-
-35:37 - Unidentified Speaker Uh...
-
-36:19 - Cuan Mulligan I'm just making these things up right now, the exact amounts, but those figures should be in admin, so we can set these variables. Now, the question is, I think here for target, you should be allowed There has to be some form of a trigger event. So we might say, basically, Does that make sense? We're saying, if you're green, you're green. If you're amber, you can do that for five days in a row. And then we would say, you need to be, again, we might say trigger event one, two days in a row, coach to green.
-
-37:47 - Cuan Mulligan And then five days in a row, coach to green.
-
-38:00 - Cuan Mulligan Escalate to form going to lose your streak.
-
-38:20 - Cuan Mulligan Five days in a row, streak lost.
-
-38:26 - Cuan Mulligan Something like that. Does that make sense?
-
-38:30 - Chinmay Pandya So to confirm with you, even if the user performs bad, it will still be added as a streak, but it will be marked as a warning zone. I think if we divide a streak in safe zone, warning zone, danger zone, I'm just making labels up. So it will be added to a warning zone. And if the warning zone is greater than 5, then the streak will be back to 0. Or if the danger zone is greater than 1, then the streak will be back to 0. Am I correct?
-
-39:03 - Cuan Mulligan I think so.
-
-39:03 - Cuan Mulligan Something like this. Got it.
-
-39:08 - Chinmay Pandya So we're clear. I think I'm clear on the streaks because I was working with PR on how to implement this. And then we had a chat that the first thought that came to my mind that if something is below not expected, it shouldn't be added as a streak. That is why I asked this question.
-
-39:28 - Cuan Mulligan So I think we can have the same framework here that if we can put this in admin, then we can set what the threshold for amber and red is and then what's the threshold for days. So you've got a matrix of off-target and then number of days and then that triggers the event. Got it.
-
-39:46 - Chinmay Pandya Can you add a note here highlighting that this needs to be added in the ad?
-
-40:04 - Unidentified Speaker Perfect, thanks.
-
-40:19 - Cuan Mulligan So that would apply to sort of both of them. And so, you know, the original theory when we were looking at this was that this was a combination of a website. It wasn't just a mobile app. So with a mobile app, the chances of you, like, so there's a couple of scenarios. You've had a load of notifications, and you haven't gone into the application.
-
-40:52 - Unidentified Speaker You've received a notification.
-
-40:53 - Cuan Mulligan You've gone into the application. You've seen the invitation to track your walking, whatever. You either, you've either filled it in or you haven't filled it in. So I'm sort of wondering whether the end of day check-in makes sense anymore, because that's when there was going to be a website that you went to to fill it in.
-
-41:17 - Unidentified Speaker Yeah.
-
-41:18 - Cuan Mulligan Because if you, if you haven't at the end of the day, you basically get a reminder notification. So these could be like, End of day, which is basically saying, fill in your stuff.
-
-41:40 - Cuan Mulligan What did I have in Mural?
-
-41:52 - Chinmay Pandya Do you want to add a feature which would automatically disable any more updates for the day? Let's say after 10 p.m. You should be done by our updates. Now is the time for checking.
-
-42:06 - Cuan Mulligan Don't think so.
-
-42:13 - Unidentified Speaker Interesting.
-
-42:15 - Cuan Mulligan I was really busy yesterday. I did everything.
-
-42:20 - Unidentified Speaker I wake up in the morning.
-
-42:22 - Cuan Mulligan And I want to put in yesterday's data.
-
-42:26 - Unidentified Speaker Yeah.
-
-42:31 - Chinmay Pandya I don't think that's happening right now. No, but we have to be able to support that.
-
-42:36 - Unidentified Speaker OK.
-
-44:52 - Unidentified Speaker Okay.
-
-45:01 - Cuan Mulligan So that's, yeah, I want to do something for yesterday. Okay.
-
-45:13 - Cuan Mulligan And that's a normal day flow. I wonder if these are, I don't know what the best UX is.
-
-45:29 - Chinmay Pandya Also, there has to be a limit in this new feature. I mean, we cannot allow a user to fill in data for more than one day.
-
-45:41 - Chinmay Pandya Because that seems like a very personalized and very good UX, but it increases complexity by so much.
-
-45:51 - Cuan Mulligan Is yesterday OK, but not beyond that?
-
-45:54 - Chinmay Pandya Even yesterday, beyond that, I'm for sure it will increase complexity. Yesterday, I cannot say for sure, because it's hit and try. Because right now what happens is, as soon as you open the app, your session is being created. So any time you open the app in the same day, you always update to the same session.
-
-46:23 - Cuan Mulligan So alternatively, what we can do, you just say, pop over to your profile, and you can make the updates. Yeah, yeah. Click this link.
-
-46:41 - Cuan Mulligan I will take you.
-
-46:43 - Cuan Mulligan I'll just do this.
-
-46:49 - Cuan Mulligan Shall I take you? So I get rid of all of this.
-
-47:05 - Chinmay Pandya So then would it happen manually?
-
-47:08 - Unidentified Speaker No, it would just redirect.
-
-47:09 - Cuan Mulligan It would update the app and just redirect the page. It would load the new page.
-
-47:15 - Chinmay Pandya So it should still happen via chat?
-
-47:19 - Cuan Mulligan Well, it's in the chat, but now I'm on the profile page. I'm not on the chat page anymore.
-
-47:25 - Unidentified Speaker Oh, OK.
-
-47:26 - Chinmay Pandya I thought it would redirect to a page where you have a form, and you can just fill it in. Yeah, but not on the profile.
-
-47:34 - Unidentified Speaker Yeah, OK.
-
-47:35 - Chinmay Pandya Where you have all of your the program content the previous days all that stuff okay I need to confirm this with George as well because this was not part of the current scope and it's George around I think I think he's out for dinner. Maybe.
-
-48:12 - Chinmay Pandya Yeah.
-
-48:20 - Chinmay Pandya Also, the note which you have added in the notifications about the badge. If a milestone is achieved right now, then and there, if you update about something, and I see that you have a streak, you will be rewarded that milestone in the chat. So if you want, I want to be clear on this. If you want milestone notifications only on chat or only on notifications or on both, Because if he's already awarded that badge in the chat, it doesn't make sense to award that again in the notifications.
-
-49:07 - Cuan Mulligan Yeah, so for me, if I'm not in the app and I haven't been served the badge, then I should get that through a notification.
-
-49:17 - Unidentified Speaker Yeah, makes sense.
-
-49:18 - Cuan Mulligan And then the notification is driving me into the chat, and then it would have more information. Well done, Carl. You've done this, blah, blah, blah. Now, the question is, where do I see all of this outside of the chat? There needs to be the LMS pages where I can go through all the previous, what I've done, my reports of my health and that sort of stuff. But that's the whole LMS page.
-
-49:41 - Unidentified Speaker Yeah, got it.
-
-49:45 - Chinmay Pandya So if they haven't opened the app, it would happen through notifications. But if they have done, they will be rewarded the batch the same moment they enter or update about an activity.
-
-50:02 - Chinmay Pandya So about the end of the day check-in session, let's say you've had a busy day.
-
-50:13 - Cuan Mulligan So I'm just turning on the fan.
-
-50:15 - Cuan Mulligan It's a bit hot in here. Yeah, no worries.
-
-50:26 - Unidentified Speaker Yep.
-
-50:28 - Chinmay Pandya Let's say you have a busy day, but you want to update all of your activities when you get back home or when you open the app later in the day. So there's still an option where you can enter all your activities at once or one by one. It depends on the user. And then the user can move to the check-in session.
-
-50:49 - Cuan Mulligan Well, this is where I need some help with you guys in terms of how the UX is going to be. Because if you think about it, so Um, uh, I've come in. I've seen that message. That message is now gone. This, this message here is how was your sleep? If I just watched the video and I stopped, is that the message that I've seen? Is that the first message? Cause like, Maybe the notification is just driving me into this message and saying, hey, thanks for coming back. Thanks for coming back in. Let's track your sleep.
-
-51:33 - Cuan Mulligan See here, so all of these messages here could actually, where is it?
-
-51:56 - Cuan Mulligan I'm just trying to get this figured out.
-
-52:04 - Cuan Mulligan I should know, that would basically say, so end of day. So the end of day notification, it was, how was your walk? So if I had the sleep, so if you think about it, what are the things that I want?
-
-52:24 - Cuan Mulligan So there is bed time, wake time, wake count, We have walk time, walk distance, And carbs and calories, right? So there are all the metrics that we want to track.
-
-53:47 - Cuan Mulligan So if I've done some of them, like if I've watched the video and I put in the bedtime and the wait time and the weight count, then this message would be appropriate, because I'm coming in at this point here.
-
-54:05 - Cuan Mulligan If I've done all of them, but this one, then that would be the message. If I've done all of them, it's here.
-
-54:14 - Cuan Mulligan Because whether I filled in all of these, so let's say I've done all of those are, does that make sense? If these are all filled in, this one isn't, then I'd see this. If these two are filled in, then I'd be seeing this. If they're all filled in, then I'd be seeing that message.
-
-54:35 - Chinmay Pandya Yeah, makes sense.
-
-54:38 - Chinmay Pandya Let me just check.
-
-54:40 - Chinmay Pandya How about you have a general message for user to prompt like Let me think of an example. Hey, let's make sure that we get your tracking items. You haven't updated yet. Just a general message, not referring to any particular activity.
-
-55:02 - Cuan Mulligan Well, I think it should always be relative, like say, hey, thanks for your sleep earlier on. How did your eating go? The notification has to be sensible. But I think what's important is This sort of end of day notification isn't such a formal thing anymore.
-
-55:31 - Cuan Mulligan I'm going to take her through this and see what she thinks differently.
-
-55:48 - Chinmay Pandya I think there are some edge cases where the user doesn't update about some of the activities. And there's an edge case where user doesn't even open the app. But there's always the case that user has updated most of the activities. A few are remaining. And we can start with the check-in session.
-
-56:15 - Unidentified Speaker Hold on a second.
-
-56:19 - Cuan Mulligan So here, so we're on the toilet forming habits. Actually, let me put that back in.
-
-56:31 - Cuan Mulligan Here, then I would say here.
-
-57:17 - Unidentified Speaker Yeah.
-
-57:20 - Cuan Mulligan 027.
-
-57:36 - Cuan Mulligan Something like this. So, Jemai, Sonia's just popped in, so I'm just going to give her a catch up on what we're doing just to see if she's any thoughts on it, OK? Yeah.
-
-57:45 - Unidentified Speaker Hello.
-
-57:46 - Cuan Mulligan Hi.
-
-57:48 - Cuan Mulligan So what we're trying to figure out is the entire conversation of the day. And beforehand where we had bits on the website, bits on the phone, chat, this is now predominantly a chat interface. So imagine you've opened up WhatsApp or Telegram and you're having a conversation with me or Chinmay, whatever. So you wake up at the top of the page there'll be a pinned theme message quote which is basically the theme of the day which is from our point of view is around I'm making it up it's day 10 and Aristotle, we are, but we repeatedly do accidents, then it's not an act, but a habit, something like that. And then you get a message, morning call, welcome to day 10. And that could also be a notification.
-
-58:42 - Cuan Mulligan So if you're not in the app, we want to drive you into the app. So that's the morning notification. And then I'm saying, I forgot to enter my data yesterday. Can I do that now? You pop over to your profile, and you'd have to fill it in, not through the chat. So chat is only today. Profile is anything else. And then there is, like, Simon's got a quick message for you to get your day off to a great start. Watch it here.
-
-59:07 - Cuan Mulligan This is an optional video, and it comes from the LMS. And then I'm saying, hey, Carl, you're smashing it. On your walk today, you will have walked over half a marathon. Nice job. Good luck today.
-
-59:22 - Unidentified Speaker Yeah.
-
-59:32 - Cuan Mulligan And you might have things like...
-
-59:34 - Cuan Mulligan Do we want to talk about the weather? I'm giving you an example, yeah. Just people can be all over the world.
-
-59:55 - Cuan Mulligan It's going to be contextual to where they are.
-
-59:57 - Cuan Mulligan OK.
-
-1:00:00 - Cuan Mulligan So this ad hoc message here, Chinmay, is basically, we now know that this person, if they do their walk, is going to achieve a milestone.
-
-1:00:09 - Unidentified Speaker OK.
-
-1:00:10 - Cuan Mulligan This would be an upcoming milestone match notification. So that could be for, you know, You're going to lose your pound of sugar. It could be you're going to achieve a milestone, both streaks and achievements.
-
-1:00:25 - Cuan Mulligan Then after that, we now need to track your data. So how was your sleep? And then these are input buttons, bedtime, wait time. Did you wake at all? Yes, no, how many times? And sleep for me is the first one, because you'll have already done that. That's what you did last night.
-
-1:00:40 - Cuan Mulligan And you want to capture that before you forget it. Yeah.
-
-1:00:43 - Cuan Mulligan But we don't know. Again, that's going to have to be a notification.
-
-1:01:04 - Cuan Mulligan Actually, that's another thing we need to have.
-
-1:01:08 - Unidentified Speaker Where did I have that?
-
-1:01:09 - Cuan Mulligan Oh, here it is.
-
-1:01:33 - Unidentified Speaker Okay.
-
-1:01:35 - Cuan Mulligan So they may or may not fill this in. So they would have had a notification on their phone. They may ignore it. They may not go to it. But if they do that, then there's another notification which is saying, hey, here's your bottom line video. You need to watch that.
-
-1:01:51 - Cuan Mulligan at a, or a PDF, whatever, when you've done your walk, drop in your updates, when you've done your calories or your carbs. And the idea is towards the end of the day, if they've done this, this, actually, let me, can I do this?
-
-1:02:07 - Unidentified Speaker Yeah.
-
-1:02:15 - Cuan Mulligan So they've done that, they've done that, they've done that, they've done that. Then wait time would mean you would get this message. Hey, Carl, hope you had a good day. How was your walk today? Because you're prompting them to put in the walk. Because they've done all the others. They haven't done walk. Or for example, they've done walk time and distance, but they didn't do carbs. Hey, hope you had a good day. Last you spoke, you were struggling with sugar. How did your eating go today? Or he did everything, Carl. You've been smashing it. You've recorded all your habits for 10 days in a row. Awesome job. You've unlocked the calorie commander badge, as an example.
-
-1:02:59 - Cuan Mulligan If I go back to the mural, so this is all capture. We talked about if someone's on a streak, and then there is the, this is the, End of day wrap-up.
-
-1:03:49 - Cuan Mulligan Right.
-
-1:03:50 - Cuan Mulligan So, So that's the end of day.
-
-1:03:55 - Cuan Mulligan And then I think there is a, this is the analyst bot, which is basically somebody is a regular, regular behaviors.
-
-1:04:25 - Cuan Mulligan And you say, right. So I'm just going to move this down.
-
-1:04:54 - Unidentified Speaker Okay.
-
-1:05:19 - Cuan Mulligan These are just examples of irregular messages. So this is the other thing I posted in here. So if their target for calories, for example, is 1,200, it's actually like that.
-
-1:05:37 - Cuan Mulligan So their calories is 1,200. It's green if it's within 5%, target 5%.
-
-1:05:44 - Cuan Mulligan 10% it's amber. If it's more, again, 5-10, we don't know what the numbers are. And then if they do it for two days, if they do it two days in a row, we want to coach them to green. If they're doing it four days in a row, you're going to lose your streak. And the fifth day they'd lose it. They'd lose their streak as an amber. On red, one day of red, you coach to green, you're about to lose your streak. And the second day they've lost their streak. And that would be the same for calories or carbs. You can't do that for sleep. Yeah. But for the formation of the calories. Would you do that for walk? Yeah. It's walking and eating. Yeah. OK. Walk and eat are the two. Yeah. So actually, let me do that now for just so that we have it here. So we have that for calories. And we have walking, which is one hour a day. We can't commit to distance. We're doing one hour a day.
-
-1:06:42 - Cuan Mulligan you know, 50 minutes plus is great.
-
-1:06:50 - Cuan Mulligan They do 40 minutes plus is amber and then anything under 40 maybe 30 something like that.
-
-1:07:07 - Cuan Mulligan So we have those two there.
-
-1:07:11 - Cuan Mulligan So we have irregular behaviors. So that's the analyst bot, which is looking at everything and saying, okay, we now have your data. If they're irregular, we're doing this. And then we have disengaged behaviors.
-
-1:07:30 - Cuan Mulligan Shemai, are you following all of this still?
-
-1:07:40 - Cuan Mulligan And this will be a notification like... No, this is a chat.
-
-1:07:46 - Unidentified Speaker It could be a notification.
-
-1:07:48 - Chinmay Pandya So this is the check-in session, right?
-
-1:07:56 - Unidentified Speaker Most likely, yes.
-
-1:08:02 - Chinmay Pandya So it is, if I got it right, the check-in session is all about the user patterns and how regular he is.
-
-1:08:12 - Unidentified Speaker Yeah. Got it.
-
-1:08:26 - Chinmay Pandya So how does this sound? The moment the check-in session starts, this like today's overall performance will be evaluated and added to the streaks in categories of course if it's good then green if it's not then amber and if it's bad then in red and then a report kind of will be generated which will again divide the conclusion in three parts either regular or trying their best almost there and the third one is irregular I think so.
-
-1:09:04 - Cuan Mulligan If you're going to have a coaching session, it's probably an hour, isn't it? You're running another workshop with somebody. An hour's a long time, because these things aren't...
-
-1:09:20 - Cuan Mulligan minutes, let's say.
-
-1:09:21 - Unidentified Speaker Yeah.
-
-1:09:23 - Cuan Mulligan Trying to find an hour of someone's free time, you don't want to do it in two weeks' time when they're free. No. You're better off getting in 20, 30 minutes, like today, tomorrow. Because it's not deep stuff, like what I do now, and I get through loads of stuff.
-
-1:09:43 - Cuan Mulligan And this will be very specific, like while you record and what's going on, it's about getting them back on track.
-
-1:10:20 - Cuan Mulligan And is that happening on the chat as well? Yeah. OK.
-
-1:10:24 - Cuan Mulligan This is the agent coach, not the human coach. Yeah, I know.
-
-1:11:28 - Cuan Mulligan Okay, something like that. So this here, so you've got your morning start. We provide content. We have ad hoc data capture. At the end of the day, we're checking in. So this really is the end of day check in from here.
-
-1:12:15 - Cuan Mulligan If they're a regular, you'd have this session. If they're disengaged, you'd have this session.
-
-1:12:23 - Cuan Mulligan And then eventually you end up what your end of day is.
-
-1:12:30 - Unidentified Speaker What happens if they're regular?
-
-1:12:35 - Cuan Mulligan If they're regular, they will have entered something in and you would just go down to here.
-
-1:12:41 - Cuan Mulligan Well done, you've recorded everything. Yeah, well, actually, where is the...
-
-1:12:50 - Cuan Mulligan What you'd have to have here, which is... They'd have some level of their milestone achievement message, because we now have all of their data.
-
-1:13:13 - Cuan Mulligan And then you have your wrap-up daily message.
-
-1:13:17 - Chinmay Pandya Yeah, got it. So I think there's an ambiguity in my understanding here because I thought that irregularity or disengaged would be decided on their performance. So if irregularity or disengages depending on the tracking items updated?
-
-1:13:50 - Chinmay Pandya Because they can still be irregular even if they have all the tracking items updated.
-
-1:13:55 - Cuan Mulligan Yeah, so that's what we're now saying that to be irregular is more... Sorry, I don't know where it is here. Irregular is amber and red is... Disengaged, but over time. So this is for one particular metric. But the analyst needs to decide whether somebody is interacting with this regularly, irregularly, or they're disengaged. And we need to agree what that means. So if they are green on their tracking of the data, and they're good data, then they're regular.
-
-1:14:33 - Cuan Mulligan So there's tracking and good data, because it could be tracking and bad data. Yeah.
-
-1:14:39 - Cuan Mulligan So that's what Amber. Yeah. If they are not tracking.
-
-1:14:46 - Cuan Mulligan So there's well, there's two.
-
-1:14:47 - Cuan Mulligan Well, irregularity is more engaging with the platform. You're not watching the videos. You're not filling it in. Yes.
-
-1:14:55 - Unidentified Speaker Right.
-
-1:14:55 - Cuan Mulligan So that's red.
-
-1:14:57 - Cuan Mulligan You're not engaging with the program. You've paid for this. You're not engaging it. That's a red. That's disengaged. We want to speak to you and understand why. We want you to get the best out of the program. If they're sometimes doing it, sometimes not doing it, we need to figure out what that threshold is. If they miss the day, but if they're missing one day a week.
-
-1:15:18 - Cuan Mulligan If it's on the third day, then that will be red. They'll become disengaged.
-
-1:15:23 - Cuan Mulligan Depends, but these are individual metrics. This is like, how are they engaging with ADAPT? If they're not doing the program, They're not doing the habits. If they're recording the data, but the data is shit, that's also a problem. If they're doing the activity, but they're not recording it, that's also a problem. So I'm calling it engagement. So that irregularity or disengaged is an engagement metric. Does that make sense?
-
-1:15:59 - Chinmay Pandya Yeah.
-
-1:15:59 - Chinmay Pandya So there's a performance metric and also an engagement metric.
-
-1:16:06 - Cuan Mulligan I wonder whether engagement is just a combination of all of the things like, do they read the content or they use in the app? We need to have agree. What are the, what, what does it mean to be engaged? And either somebody is regularly, I think regularly engaged is they're filling in all the data. They're watching all the videos. You know, that's easy. Disengaged is also very easy. They're not watching the videos. They're not entering data, or they're entering data, and it's just really bad data. The bit in the middle, that's the how long's the piece of string. We need to figure out what's the right threshold to say somebody is irregular and needs help.
-
-1:16:48 - Unidentified Speaker Yeah.
-
-1:16:50 - Chinmay Pandya Also, so you mean that there are three categories right now in the check-in, regular, irregular, disengaged? All activities updated, but bad data is still disengaged?
-
-1:17:05 - Chinmay Pandya Or no data is disengaged?
-
-1:17:08 - Cuan Mulligan Yeah, OK, let me create something here.
-
-1:17:14 - Cuan Mulligan So we have regular, irregular, and disengaged. I always think with these things, Shamay, it's really better to do visuals than just talking about them in words. I think it makes it a lot easier. So what do we have? So we have consumes content.
-
-1:18:03 - Unidentified Speaker Updates, dragging items.
-
-1:18:04 - Cuan Mulligan Enters good data.
-
-1:18:11 - Cuan Mulligan Just enters data.
-
-1:18:13 - Unidentified Speaker Yeah.
-
-1:18:18 - Cuan Mulligan So, to be regular, you consume data and you enter good data.
-
-1:18:25 - Cuan Mulligan And you're disengaged if you don't consume the content.
-
-1:18:34 - Cuan Mulligan If you're not consuming the content, you don't enter good data.
-
-1:18:39 - Cuan Mulligan So you've got does not enter data. We've done it with that. If you don't enter data, you either have that.
-
-1:18:54 - Cuan Mulligan You either have this.
-
-1:18:58 - Unidentified Speaker You're entering good data.
-
-1:19:02 - Cuan Mulligan You're doing it sometimes.
-
-1:19:05 - Cuan Mulligan So this is what disengaged is.
-
-1:19:24 - Cuan Mulligan and irregular is sometimes consuming data, sometimes entering, sometimes like that's the irregularity is somewhere in between.
-
-1:19:45 - Cuan Mulligan Make sense?
-
-1:19:47 - Chinmay Pandya Yeah, although still confused on the criteria for irregularity. Because if sometimes is also included in disengaged, then I think we'll have ambiguity over irregularity and disengagement.
-
-1:20:05 - Cuan Mulligan Yeah, so irregular might be, shall we say, They've missed three days of content, or three days missed. So if either one of those is true, they become a regular, and that would cause the coaching session.
-
-1:20:36 - Cuan Mulligan If they don't consume the content for five days, or they don't enter data for five days. Yeah, so that's five days and that's three days, something like that.
-
-1:20:57 - Chinmay Pandya Okay, so for the user to be irregular, they have to miss three days of good data.
-
-1:21:09 - Chinmay Pandya Not just three days of data, because that will go to disengaged.
-
-1:21:15 - Cuan Mulligan Well, no, five days would be disengaged.
-
-1:21:17 - Unidentified Speaker Okay.
-
-1:21:19 - Chinmay Pandya So even if they do not enter anything for three days, they're still irregular.
-
-1:21:25 - Unidentified Speaker I think that's it there.
-
-1:21:29 - Unidentified Speaker Got it.
-
-1:21:31 - Chinmay Pandya So it depends on how many days they missed, the difference between irregular and disengaged. I think so, yeah.
-
-1:21:38 - Unidentified Speaker OK.
-
-1:21:42 - Chinmay Pandya Got it.
-
-1:21:48 - Cuan Mulligan Does that make sense so far?
-
-1:21:50 - Unidentified Speaker Yep.
-
-1:21:53 - Cuan Mulligan I'm wondering whether we pause there because I think to do another topic right now might flood the brain.
-
-1:22:00 - Chinmay Pandya Yeah, I agree. I think we've covered a lot of topics. We've covered some notifications. The possibility of a new feature for entering previous day's check-ins or tracking items. We have covered the streaks. We have covered the check-in session. I think you'll also give more feedback on this with irregularity and disengaged and more feedback on the UX regarding the notifications and the daily flow.
-
-1:22:34 - Unidentified Speaker Cool. Yeah.
-
-1:22:40 - Cuan Mulligan Well, let me know if you have any questions. I'm sure that's going to digest. And you've got questions as they come up. Let me know.
-
-1:22:45 - Chinmay Pandya Yeah, I mean, I've asked most of the questions while you were making the diagram. So I'm pretty clear. Up till here, I'm pretty clear.
-
-1:22:56 - Unidentified Speaker Sounds good, man. Thanks. Thanks, Kevin.
-
-1:22:59 - Chinmay Pandya It was very insightful. Cheers, buddy. Talk to you soon.
-
-1:23:03 - Unidentified Speaker Talk to you soon.

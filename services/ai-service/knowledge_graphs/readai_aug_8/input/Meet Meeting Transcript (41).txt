@@ -1,294 +1,0 @@
-Meet Meeting 
-Thu, May 23, 2024
-
-0:19 - Jorge Lewis Dude, you should. You can pop on by.
-
-0:22 - Jorge Lewis Oh, yeah.
-
-0:23 - Jorge Lewis Hopefully, by the time the app's live, we can just deliver it in person, you and I. Definitely. That'd be better.
-
-0:54 - Jorge Lewis Okay, I will share my screen. Can you guys see it?
-
-1:15 - Nazif Barassounon Yes, sir.
-
-1:17 - Nazif Barassounon Okay, so this is a login page where I will login as the admin of a particular organization.
-
-1:27 - Jorge Lewis I'm going to take a little credit for that picture that's there of the oak trees.
-
-1:40 - Jared Cairns Oh, cool. Yeah, smart.
-
-1:43 - Nazif Barassounon So after logging in, we are redirected to the actual app where the admin can manage the organization data. That is the vendors, the departments, the accounts, projects, and spending category. And the admin can also add, all of the employees and boss of the organization, as you can see here.
-
-2:18 - Nazif Barassounon That table show them all and you can filter the table by the names, as if for example, or by the role.
-
-2:35 - Nazif Barassounon You can also add a new user.
-
-2:41 - Nazif Barassounon Let's see.
-
-2:46 - Nazif Barassounon I'm gonna...
-
-2:51 - Nazif Barassounon Can you propose, I don't know, can you propose a username? Maybe yours?
-
-2:59 - Jared Cairns Yeah, please man.
-
-3:00 - Nazif Barassounon Yeah, there you go.
-
-3:01 - Unidentified Speaker Okay.
-
-3:02 - Nazif Barassounon And for the email?
-
-3:06 - Jared Cairns Would my real email cause any problems? Let me see if it'll go through. It's just karensjared1 at Gmail. Oh, yeah. It's how my last name is spelled. So it's C-A-I-R-N-S at the beginning.
-
-3:54 - Nazif Barassounon yes and next I can give you some rule here here is the available rule from now employee admin and sign a user can be an admin and also be a signer that will allow the actual boss to manage the account if you want.
-
-4:23 - Nazif Barassounon After that I can select a default department as you requested like molecular biology.
-
-4:35 - Nazif Barassounon Given that the current user is I don't think we should assign to him a supervisor so we can let it as it is. I don't know what you think.
-
-4:50 - Jared Cairns Yeah, sometimes there's people, yeah, if you have admin rights, that's kind of irrelevant if you have a supervisor for pretty much any use case, so I think that's okay. As long as it's okay to leave blank, I think that works.
-
-5:02 - Jared Cairns I guess the one situation would be If this person is submitting a request, so I guess just put in. I guess in the situation this person be submitting a request, they should have a supervisor because their request should go to somebody. I mean, I feel like you would coach most people to just not do that, but in a small organization, sometimes those roles might overlap.
-
-5:29 - Nazif Barassounon OK, so a signer can have another signer, for example, as a supervisor.
-
-5:35 - Jared Cairns Yeah, that would probably be how it would work. Okay. And if I was like in the admin role, you could just, I mean, yeah, I guess you could have a signer to a signer. I don't think that would happen often, but it could.
-
-5:51 - Nazif Barassounon Okay. So let's do that. I know that Sophia Davis is a signer, so I will assign to you.
-
-6:03 - Nazif Barassounon so as a signer should we have an approval threshold too or the signer can just sign the contract that he had yeah so there should always be another level basically no matter what and I'm assuming that's what this is
-
-6:22 - Jared Cairns it's approval threshold or that's if I received something on the second level or more. And then this would just be based off whatever my job title level would be. I would just put like 10,000 in there for now. Okay.
-
-6:40 - Nazif Barassounon So let's submit it. You should get your credential through that email.
-
-6:48 - Jared Cairns Okay, I have it open right now.
-
-6:52 - Jorge Lewis Yeah, here we go. Got it.
-
-6:57 - Nazif Barassounon So the thing is, I'm in the local version of the app.
-
-7:09 - Nazif Barassounon Oh, yeah. No worries.
-
-7:11 - Nazif Barassounon So you can just use the credentials in the live version.
-
-7:16 - Jared Cairns Yeah, that's easy.
-
-7:23 - Nazif Barassounon And of course, after confirming the email, there is actually a link for that.
-
-7:34 - Jared Cairns Try to log in on the library. Oh, here we go.
-
-7:47 - Jared Cairns Okay, yep, that login just worked, so I'm in now.
-
-7:51 - Nazif Barassounon Okay, so in the contract page, you can see all of the contract. My actual user is only an admin, so we don't have the ability to add new contract for now. But you should have the possibility to do it. I can see it, yeah.
-
-8:21 - Nazif Barassounon So at the right, the top right, you can just pop up to the form and add the contract.
-
-8:32 - Nazif Barassounon Yeah, you want me to add one right now?
-
-8:56 - Jared Cairns There we go, that's the kind of bullshit I can catch.
-
-9:20 - Jared Cairns Okay, it's just making me attach something. Let me just save something down.
-
-9:34 - Unidentified Speaker Peace.
-
-10:11 - Jared Cairns me to attach a PDF and I'm just trying to save like a blank.
-
-10:20 - Jorge Lewis Oh, I see what I'm doing wrong.
-
-10:56 - Jared Cairns Okay, I just submitted it now.
-
-10:59 - Unidentified Speaker Okay.
-
-11:03 - Nazif Barassounon It should appear in the list of contract. So at the beginning, we assigned to your account a supervisor called Sophia. So I will just log in as Sophia and see if I can just approve it.
-
-11:45 - Nazif Barassounon of that after so now I'm logged in as Sophia and as you can see there is a toggle here when you can see all the pending approvals when you toggle it I can see your contract here so let's view it I can take a look at your contract here it is if all is good and done I can just sign it because I'm actually a signer so you are it doesn't need to go through many people because I'm a signer so I can just sign it directly The contract is signed you should be able to See it if you refresh the page. Yeah, and that's active for me Okay So you can also check out your email. I think there is a notification when The contract is approved or signed.
-
-13:17 - Nazif Barassounon Oh Yeah, I got it, okay cool, okay OK, so the other use case I want to show you is when you have an employee that is under you and he adds a new contract, you should get also a notification by email saying that you have a new contract to be waiting for approval. Do you want to see the flow?
-
-13:55 - Jared Cairns No, I think it makes sense. I would just see it with me submitting. Do you have an account that shows that same thing? Because I just submitted one to whoever Sophia's email would be. But I'm not too concerned about that. I mean, it seems like it makes sense.
-
-14:16 - Nazif Barassounon Okay. So...
-
-14:23 - Nazif Barassounon Let me login as a admin again.
-
-14:44 - Jorge Lewis Those are some nice oak trees.
-
-14:46 - Unidentified Speaker So this is basically it.
-
-15:13 - Nazif Barassounon In the demo I just made, it was just one user. For the contract approval flow, it was between two users.
-
-15:29 - Nazif Barassounon I was able to sign because I was granted the signer roles. If it was actually just an employee, An email will be sent to each supervisor.
-
-15:49 - Nazif Barassounon And if this supervisor is also an employee, it will just send an email to each supervisor, so on, until it reach and sign. This can just sign and the approval form is completed that way. I don't know if that makes sense.
-
-16:13 - Jared Cairns Yeah, so it basically is following up through whoever your approver or your supervisor is assigned until it reaches somebody who's a signer. And they're basically set up now. Yes. And is there anything? So what is this approval threshold feed off of right now?
-
-16:29 - Nazif Barassounon Is this? Yeah.
-
-16:31 - Nazif Barassounon Is this functional right now?
-
-16:34 - Nazif Barassounon No, no, it's not functional right now. But I think the logic behind it should be kind of, let's say if at the beginning, the contract is set to $10,000 the current approver have a threshold of $6,000 I can have it subtracted to the amount and it will be left another $6,000 right and if the next approver have let's say a threshold of $10,000 and it's only left $5,000, I think we should sign directly the contract without moving it to the next approver, right?
-
-17:55 - Jared Cairns Like let's let's say it's a three-person team. Let's say first person has 5,000 second person has 10 third person has 20. Let's just say that's their thresholds that they can approve If the first person puts in a $25,000 contract it's gonna go through 5,000. They don't have enough to approve it and it's their own first person is always zero basically because you can't just submit a contract without any supervision so it goes up 10,000 still too low third person 20,000 still too low so it needs to go to even that person's boss now most companies wouldn't have those bands so small just because everybody would be bogged down doing this bullshit all the time but that's basically the logic so basically once it And let's just, for example, say that between this low level employee with 5,000 and the signer, let's say the signer is the CEO, let's say there's 10 employees in between. And you get to that fourth employee, they have enough to approve the $25,000 contract, they approve, it skips everybody and goes to the signer at that point. Somebody with the threshold to approve on behalf of the company has improved all the way up. But otherwise, yeah, the role, basically the employees skipping to the signer, that part's right. The only part to implement is the threshold piece, I think, which is like another layer on top.
-
-19:19 - Jorge Lewis Okay, I see now. Yeah, I think, yeah.
-
-19:24 - Jared Cairns For some logic that you build, there could potentially be negative contracts if you're cutting back a contract or canceling it. So you might have a contract that's negative $100,000 So just something to keep in mind that I would say in that case They should always just default to one person submits next approves and then sign so like one two three But they don't need to go up through high amount of changes Those Yeah, it should be able to scale up basically indefinitely. So it shouldn't be an issue. It's basically initially driving off the approval threshold that each person has and then up to being successful. At the very end. And if there's steps to skip in between, that's kind of the trickier part, I guess.
-
-20:46 - Jorge Lewis Yeah, yeah.
-
-20:48 - Jorge Lewis I'll send it to you in the group chat. We can work on it afterwards.
-
-20:56 - Unidentified Speaker Cool.
-
-20:59 - Jared Cairns Otherwise, it makes sense to me.
-
-21:03 - Nazif Barassounon OK. So this is where we are currently at.
-
-21:10 - Nazif Barassounon I'm planning to work on the build section next.
-
-21:16 - Nazif Barassounon So if we can just have a refresher around this feature, that would be really great.
-
-21:25 - Jared Cairns Okay. Yeah. Do you want me to just top to bottom or is there anything specific you guys want a refresher on? Top to down would be good. Yeah, so let's say, I guess we could use, if there's that contract I just entered in here, I guess these are users, but let's just say I had a contract that I just entered for the $15,000. So let's say that bill has come and let's say that it's, let's say half of the bill is due, so $7,500. I want to be able to, and this one should have a start and end date in here as well. Not necessarily important right now. But basically instead of, as you have all these contracts, you want to be able to track how much you spent against them and how much is remaining left on them. So in this case, $7,500 bill for 50%, let's say just came in. So I'm the person who wants to pay bills and I'm going to go in and enter it and make sure that one, it's recorded somewhere to this bill for $7,500. I don't know anything about this contract. I've never seen it before. I want to see that it exists at all, that it's a service that our company has agreed to, that somebody has an idea of what it is. And because I've already entered this information, when I entered the contract, I'm the owner. This should basically populate what's in the bill field. But the bill part is really only It's really only important because we need to afford most of the reports that we run later. So when we go to look at doing financial adjusting entries and reporting out financial statements, based off these contracts and the periods that we're incurring the expense in, we need to know how many bills we paid and posted. I won't bore you with all the details, but we need to know how many bills there have been for what amount to adjust for those to make sure that our calculations are correct on the financial side. So basically we just need a listing of those as they come through and an easy way to track them back to this contract.
-
-23:35 - Jorge Lewis I think a good way to wrap our heads around it again is the CSD file or the Excel sheet that you sent.
-
-23:46 - Jorge Lewis Yeah, let me see it.
-
-23:48 - Jorge Lewis When you sent it before, Oh, that doesn't seem like it.
-
-24:34 - Jared Cairns Oh yeah, here we go. Okay, so look at what you just sent.
-
-24:40 - Jared Cairns Yeah, so on the left is essentially what the bill entry form is looking like, So a lot of that stuff, basically everything that's blue, is being fed directly from that contract entry form. So that should basically just be a one-to-one. Once you select the contract, you're billing it to. And the pieces you would input below are kind of as described to be. Date the invoice is sent, when the payment is due, the amount of the invoice.
-
-25:12 - Jared Cairns I guess currency would be good to add in here, but accrual period, posting period, PDF at the bottom, and then simple submit and reject button.
-
-25:25 - Jared Cairns But I know this is basically when we were talking about this very early on, we were talking about instead of having this importing this data, but it was just it's just so much easier, I think, to just have this module built into the system. Instead of having to worry about all these different billing systems that come in, I think it's a lot easier to tackle the problem of entering the billing data and then figuring out how to get those bills paid later, because there's a million tools to do that versus bringing it in, which is a way bigger pain in the ass. So Basically, this is just to kind of help organize and approve these bills. And then, you know, on a weekly basis, whatever 50 bills or whatever getting paid out and approved by that's a that's a downstream function that we're not is not really in the scope of this project right now. But this is really just to make the calculation on the contract reporting easier, make the bill entry easier, and kind of all the approvals related to the contract within the same system, same interface. Consistent and easy is kind of the goal.
-
-26:32 - Nazif Barassounon And what should actually happen when a bill is rejected?
-
-26:39 - Jared Cairns Yeah, it's a good question. So usually the person entering the bill at the very beginning is usually not has not been associated with the contract. At any point in the past, they're usually in the accounting department, different department, they're not a part of a chemistry contract that gets rejected. It could just go back to that person and notify them that it's rejected and sit in a queue to be resubmitted, or deleted, I guess. And then if there was reject with a little notebox where they could say, this amount is wrong, or this work was never performed, or something like that, that's useful too. But basically reject it, send it back to the very beginning of the queue to be resubmitted again would be great. And then when it's in that queue, Basically, be able to have to edit it, resubmit it, and or just delete it. If it's a fraudulent invoice, for example, you would just want to delete it and not enter it.
-
-27:38 - Nazif Barassounon Okay, so given the notes that will be associated with the rejection, the user should act accordingly, right?
-
-27:54 - Nazif Barassounon Yeah.
-
-27:56 - Nazif Barassounon So can we say the same for the contract? If a contract is rejected, should it restart all the approval flow and grant the user the ability to edit it?
-
-28:09 - Jared Cairns I think so, yeah. And then you can just restart it. It can just basically start the approval workflow again, give them the ability to edit, and then restart it once they hit submit.
-
-28:22 - Jared Cairns OK.
-
-28:23 - Jared Cairns And then any of the old data, that was entered the first time doesn't need to be saved. I know we're doing that on another part of the project, kind of saving versions of it, but we don't care about, for this case, we don't care about any of those draft versions. It can just be completely reset and then submitted again.
-
-28:40 - Unidentified Speaker Okay.
-
-28:42 - Nazif Barassounon All right.
-
-29:06 - Jorge Lewis How's the new job?
-
-29:11 - Jared Cairns It's pretty easy so far. Knock on wood. It's been pretty decent. There's actually this really fucking sweet gym downstairs that has like this as like an outdoor basketball court like a overlooking this huge valley in San Diego. It's like a fucking, what's that?
-
-29:31 - Jared Cairns Yeah.
-
-29:33 - Jared Cairns And the same building. And then right out behind is just this full outdoor basketball court, literally like caged in overlooking this valley. It's like crazy. It's like, it's like, um, right next to this big app, like the big Apple campus in San Diego. So it's like all these, thousands of Apple employees or whatever. And then this literally tiny little like shotgun building that we work in. Hilarious. And then the one company in between us just shut down. They literally are relocating their employees to Japan if they want their job.
-
-30:27 - Jorge Lewis You guys want to go through the Excel sheet?
-
-30:40 - Jared Cairns Yeah and I can… I probably know it a little bit better. I can share. Hold on one second.
-
-31:03 - Jared Cairns That's basically just what I'm imagining would be needed on like a database level. Like I'm imagining that's what it looks like on the back end. I'm imagining that's kind of the listing that we'd get from these forms, but let me share this.
-
-31:31 - Jared Cairns Give me a second here.
-
-31:37 - Jared Cairns Okay, my computer's frozen momentarily, but hopefully it comes back.
-
-31:49 - Jared Cairns Windows.
-
-31:50 - Jared Cairns Oh, here we go.
-
-31:53 - Jared Cairns Yeah, literally. Okay, let's see here.
-
-32:03 - Jared Cairns Okay, can you guys see this? No. Now we can. Okay. Yeah, so essentially this other form just turned on its side, kind of
-
-32:21 - Jared Cairns But I really just line the data up like this because it's easier to create these other reports in Excel when stuff is aligned this way. But really, this is just basically the data fields that I would imagine that I would need sitting somewhere to be summarized from But yeah, this is just all the same data from the bill, from this bill form or the updated bill form that I showed you. I know we've made some changes since then.
-
-32:53 - Jared Cairns Yeah, that's really all there is to this. I really created this just because to help populate some of the example reports and the other stuff that I had in here. Like this one is just based off the build data.
-
-33:27 - Jared Cairns But really, the reason the bill data is important is because, yeah, I mean, boring accounting bullshit, right? But let's say we have a contract that's fully incurred, $60,000 contract, and we want to book $60,000. To our financial statement. I think your screen is frozen.
-
-33:56 - Jorge Lewis Is it for you guys?
-
-33:59 - Jared Cairns Oh, it is. I can see it's frozen here. Let me stop and then try again.
-
-34:08 - Jared Cairns Let's see this guy.
-
-34:14 - Jared Cairns Okay. This one better.
-
-34:22 - Jared Cairns So basically, the reason that the build data is important to have. So for example, we hide all of this for now. Ignore all this for now. And we just say, we have a contract.
-
-34:39 - Jared Cairns And in our tracking of it, we want to be able to track the amount, copy of the contract, have the dates, the account it goes to, department it goes to, kind of all this data that we want to have.
-
-34:54 - Jared Cairns which is all well and good. We also want to be able to book this. We also want to be able to basically attach it to our financial statements and present this data. To do that, we need this total contract, like I said, the dates that we have it, and how much we want to book to. So in this case, in this example, we're running, saying, all contracts as of 6-30-24. In this example, this contract is ending 6-30-24. So 100% expense, $60,000.
-
-35:31 - Jared Cairns So if we build $40,000, basically when those bills come in, they create a journal entry in your system, basically.
-
-35:42 - Jared Cairns I don't want to bore you with the double entry bookkeeping because it's going to just bog it down more. Basically when a bill goes through it's creating something you have to adjust for Usually it's it helps you in some cases in every case you have to adjust for it. Usually it's helping you So really, we need to know the bill amount so we can calculate this amount, which is what we need to book to, this 20,000, which is the reason we need the billing in the first place. Because every company enters bills, pays bills, every single system on the earth makes these adjustments from the bills. So we need to be able to make these adjustments from our system on the contract side. But that's basically the reason the bill data is necessary.
-
-36:37 - Nazif Barassounon What do you guys think?
-
-36:38 - Nazif Barassounon I'm a little confused by the last two columns, the booking amount and the open amount.
-
-36:50 - Jared Cairns I don't really know what it means. Yeah, so the open amount is really a really easy calculation. It's basically here's your contract. Here's how much has been billed against it. Assuming no changes. Here's how much you're expecting to bill. So pretty simple. You have a $60,000 contract. You've been billed $40,000. You're expecting to still be billed $20,000. What's the practical use for knowing this? If you had 300 contracts and your CEO wants to know what's our open liability balance? How much are we going to pay out on all the contracts we have? You can just say this much. Basically, the total of this column. This one is a little bit confusing because it is the same right here. But if I do this, if I have this hooked up right, this changes. We try to make this first one really simple. Basically, it's $60,000 for six months of fees, basically $10,000 every single month. So easiest way to think about these bills would be you have $10,000 billed. Let's say these are the bills that are getting entered for January, February, March, and April. And you're closing the books for May. You don't have time to chase down every single vendor, get all this shit posted. You basically have to close this down so you know what your adjustments are that you need to make. There's basically so much stuff going on. You need to close down posting your bills so you can make these adjustments, report financials, and move on to the next period. So you'll notice the open is still 20 because we still have a $60,000 contract. We've still paid 40. We still have 20 open. So that's not going to change if we change the accrual amount. This is moved to 10,000 because we're basically accruing for this one extra month, May, which is not represented in this 40,000. We're missing it here. So because we know, in this case, six months of chemist fees, and we have got bills for four of them, it's the end of May, which we know from this right here. It's the end of May. We know we have a contract for a bill every single month. We're missing May. We're missing this 10,000. Basically what this is being booked from this. So we have this report. We know we need to book 10,000 more. And this is kind of the underlying logic right here. But then, as you can imagine, explode that up to 300 contracts. And that's kind of the daily struggle that people have in booking this stuff regularly. And as you can imagine, it's never quite as simple as six months for an even flat 10,000. It's never as simple as they've sent you a bill every month. It's the same amount. It's usually a lot bigger of a pain in the ass.
-
-39:54 - Jared Cairns And then I guess just to drive it home a little bit more, let's say we were doing this as a 430 at the end of April, then this amount will be zero because we've already captured those four bills. We don't need to worry about May, that's in the future. We have basically four months worth, four bills worth, so there's no accrual at all.
-
-40:15 - Jared Cairns I don't know if that helps at all, but I know this part's the most confusing part.
-
-40:23 - Jorge Lewis It's the simplest equation. Like, it can't be explained with one equation, but it's the most confusing part somehow.
-
-40:29 - Jared Cairns Don't worry about it. It's definitely the most confusing.
-
-40:35 - Jared Cairns It's why a system doing it is really useful. It's why a system doing it is very useful.
-
-40:43 - Nazif Barassounon So...
-
-40:47 - Jared Cairns Do we need to suppose each time that it will be a monthly basis billing No, so all you need is the summary how much has been billed total So basically this just needs to be a summary of all the bills against this contract and the tricky part that we talked about on the last call was that like I said, I You need to know when to cut it off. I would say just make basically, you know, if you're running this as of 5-31-24, any bill that has a final approval timestamp 5-31-24 or before, bring in. Anything 6-1 or after, leave out, is what I would say. Because otherwise, this number will continue to change as your operations go on in your business.
-
-41:41 - Nazif Barassounon So basically, when we have an interval for a contract, we should make sure that all of the billing that is entered respect this interval, right?
-
-41:59 - Nazif Barassounon What do you mean by interval?
-
-42:01 - Nazif Barassounon The beginning of the contract and the end of it.
-
-42:07 - Jared Cairns Yeah.
-
-42:10 - Jared Cairns It's hard because there's sometimes where you'll have a contract that like in biotech, you see this in manufacturing where you're basically signing a contract to get a spot to start manufacturing in six months. And so let's say, The start date would be 12-1-24 if we were doing it this year. But you're paying on 6-1-24. But this is when manufacturing starts. This is when payment is due. So you may have a bill that's paid way in advance of basically the start of the interval of the contract that you still need to account for. In our world, we'd call this a prepaid. It's a prepaid asset for that contract. But the nice thing is you can capture it the same way just by having...
-
-43:05 - Jared Cairns So like if I did this, this negative would be like a prepaid. So in the same example, let's say I'm looking at this as of January 31st and in this case I've still paid $40,000.
-
-43:25 - Jared Cairns But because I've only you know, I'm only one month into the contract. I'm way over in this case. It's negative From a financial perspective.
-
-43:32 - Jorge Lewis That's an asset That's right or or before but yes exactly. Okay.
-
-43:35 - Nazif Barassounon Oh I think That doesn't make sense, actually. Okay, perfect.
-
-45:08 - Jared Cairns This part's the most confusing. And I mean, like, you guys aren't alone. Like I said, the only reason this software be valuable is because nobody really understands this, even though you're required by law to do it every single month, you're required by law to report it to your investors. CEOs, I've been in CEOs explaining this in boardrooms with CEOs. It's just not that intuitive. It's pretty fucking confusing actually. But you are required to do it by law. Every investor that you've ever talked to in your life wants to see basically this and the underlying piece. So yeah, no worries. Like I said, I'm happy to explain this stuff.
-
-46:04 - Jared Cairns This is the crossover, exactly, and this is really the main selling point of the software, I guess, is this, along with being able to update.
-
-46:16 - Jared Cairns If it's not clear, these dates also drive this calculation. If I were to change this right here, that's going to change. These dates, in reality, change all the time.
-
-46:30 - Jared Cairns You know, just that's how shit shit happens. Yeah, exactly. Shit. Do we do it and make it longer than start working about in the application or do we just have to understand how to calculate it?
-
-46:44 - Jared Cairns Yeah. And I think the calculation itself is simple because I would say if you were getting to, so this is like, this part right here is like truly the final, final, Like the final final output, but I don't think like to get to this point You probably need to understand a little bit more. I don't think we need this if you spit this into Excel by itself you could just like a pivot table could get you that like it's not a big deal anybody that does accounting can do that in five seconds so that's not the end of the world that's more like a like a nice way to look at it but this yeah I think it's a good point As long as you're following know how to calculate it I don't think you necessarily need to understand it because it's really just for this one report. Yeah, and It's basically just straight lining all this information. So for every single one, it's basically the same. Oh poking around yeah yeah for the billing part so we can introduce a new role like accountant yeah I think that would be That's good. Or like...
-
-48:38 - Jared Cairns Account would be good, I guess, yeah. And then they have the ability to enter bills. For roles, you could probably just make a list of each role you want and which permissions they should have. Which responsibilities they should have. Yeah, I think this would be the only other one that I could think of Maybe just one more for... I mean, even if you just gave this permission to the employee, I mean, it wouldn't be the end of the world to do this. Plus, if there's approvers, you're protected from downside risk. So I don't think it's that.
-
-49:22 - Nazif Barassounon So if I understand it correctly, if an employee, for example, adds a bill, it will be the same approval process as the contract, or should we separate it?
-
-49:37 - Jared Cairns Same approval, same approval process, same approval thresholds.
-
-49:44 - Jared Cairns So if it's like in our example earlier, if it's 5, 10, 20 it's 25,000, same thing for the bill. If you're entering the bill, it goes through those people, it's running off that same threshold. The only difference is that it doesn't have to go to a signer at the end. So basically once it reaches somebody with enough threshold, then it's approved or posted or whatever.
-
-50:18 - Jared Cairns on if needed.

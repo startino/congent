@@ -1,90 +1,0 @@
-Tomasz x Jorge - Planning content strat  
-Mon, May 6, 2024
-
-0:30 - Jorge Lewis Thank you all for coming. Then we've got the microwave, and then the computer.
-
-1:34 - Tomasz Chwesewicz you you big hubs for the week so Yeah, I can tell you what I have in my notes, what strategies we could go forward with, what I think is the best solution. I have notes about the competitors that you have listed. I can give you all that. And yeah, you can just decide what to go forward with. I also, yeah, because next week we want to go on with the postal rally, right? So I do have some ideas for the posts. Well, that's it, I think. I mean, I don't think there's much talking... We will present the team, I want to present the company a bit, but I wouldn't focus on selling so much. That's the key point. To gain traction, to gain followers early on is when you share your posts in groups and you can't really do it when you are making an ad, right? I think it will flow more naturally as we talk about posts, I mean we work together and then I get to know everything in and out, right? Because it's just natural, I won't have to, you know, just try to, yeah, like learn everything in one go, right, because it doesn't make any sense, it doesn't be knowledge. So, what I would like to do, and I think we would both benefit from it, is that we work on posts together, I mean, I come up with ideas, we discuss the ideas, and then I just do the copywriting. So I make it the best post possible. I can send it to you later for verification, right? So what I would talk about firstly are some organizational matters, I would say. I mean, the first thing that has to be addressed, right, is the way of people contacting you. Because if you want people contacting you through website, through your email, you need to fix the website. That's a big problem.
-
-6:51 - Jorge Lewis It should be ready now, actually. Let me double-check. But we've already added the contact section to the website, the pricing, and updated some of the sections. So, it should be good by two minutes, and we can check it out after it's up.
-
-7:36 - Tomasz Chwesewicz goal is to focus on social media, to focus on the content so that it leads to the social media, right? So that would be the focus. Work on that's in my notes but you know it's probably sometime else in the future. Okay, so I think this is done. Yeah, so then I want to talk about the topic ideas concerning the articles themselves. So, what is amazing, what sells great is those are people's experience, right? I'm guessing that at this point you cannot provide any kind of human experiences, human stories.
-
-8:24 - Jorge Lewis Like that?
-
-8:52 - Tomasz Chwesewicz Could we share it, just change the name, or anonymize everything? Could we make this a lot easier?
-
-8:59 - Jorge Lewis Is it, um, cause I think he likes... No, mine will change his name, so is that something that's usually better or better anonymous? Like, completely unethical?
-
-9:21 - Tomasz Chwesewicz What I was thinking is coming up with a list of top 10, because list articles are amazing when it comes to visibility, so just top 10 mistakes made by non-tech funders, something like this, then I could reach out to the guy I know, maybe he would want to be a part of this article.
-
-9:55 - Jorge Lewis Do you use Google a lot? Like, their tools, their apps? Google Docs, you know, you use it on a daily basis. Yeah, I use Google Docs all the time, like Google Drive and everything.
-
-10:41 - Tomasz Chwesewicz I would do it. I will send you a list of my 10 I will come up with after research. I'm not sure if I can manage today, but tomorrow definitely. Then we will bounce some ideas, come up with a final list.
-
-11:30 - Jorge Lewis Buh-bye!
-
-12:25 - Tomasz Chwesewicz That's kind of an aggressive strategy and sometimes this kind of marketing is not beneficial. But if we do it in a calm, toned down way, that's definitely something I would go forward with. So that's one of the types of content, of articles we want to rotate it with some educational content, right? So what I would start is with, you know, explaining some notions that non-technical funders may be not familiar with. Maybe, I mean, they have definitely heard about, I know, technical debt, for example, but we can go deeper into it, you know, explain what exactly does it mean for them and why they should avoid it, why they should be afraid of it. Being educational, and what's amazing, you can actually share these articles on groups have a bunch of technologies listed there and a lot of people, non-tech funders will go in there and will have no idea what that's about, why should I choose TypeScript, why I shouldn't go with something else, right? So explain one by one and maybe all of them, one article, maybe devote one article to each of them, that's something to be discussed and then compare some of them, say when each one of them is better. So that's just something. As I said, rotated and we have to know what's the article about in advance so that the rest of the posts that we post this week are cohesive.
-
-14:06 - Jorge Lewis As cohesive as possible.
-
-14:07 - Tomasz Chwesewicz I mean, we don't want to talk about the same thing for the whole week, but to repeat stuff is good. When it comes to the posts, oh yeah, when it comes to the tone of the articles, where are you thinking of something? Like tone, voice, everything. I would like to, I mean I have my own idea.
-
-15:06 - Jorge Lewis BUS!
-
-15:21 - Tomasz Chwesewicz and passwords and stuff like this because that's what AI does right now. So what I opt for is a very human voice right now. Kind of like a YouTuber mixed with Hemingway. So you're trying to be as short as possible, you're trying to be human and actually talk to people and not trying to be all smart and useless because no one will understand you. You're also aiming at people from different countries. Soon comes use words like I don't know kerfuffle or whatever because no one will understand you make it clearly AI-made, right? You actually have some of them in your copy on the website as well. But it's also that I sent to Farfetch, I believe, which I think is something more or less I would go for. Maybe just a bit of sarcasm here and there. There are also two ways we can go, right? We can either embrace the LinkedIn jerking cycle or we can go away from it, right? You can say something like, people are doing this, but if we say that, well, those people are apes, try to the first try. In the first week, I would like to make a post presenting the company itself, you know, follow with an infographic with highlights. I will also do this. And then, so the first week, actually, I would go with the post presenting the website, then pin it, I mean, presenting the company, then pin it to your social media, to your LinkedIn, so that it stays there. Top ten mistakes. On Friday I made something, I actually wrote it down, I lost it. Jesus Christ, why is my writing so chaotic sometimes? So look between the letters on your keyboard, you probably saw that. Pretty annoying but also pretty funny at the same time. Look between Q and R on your keyboard, that's who can help you with those issues. So a little bit of a nod, but a bit light-hearted and funny. And that's kind of a scheme I would like to roll with for a few next weeks until we get what works and what doesn't. So Tuesday, present the team one by one, if you're okay with that. Just a few questions you're going to answer, like what's your position at the company, obviously experience, the thing you're the proudest of, Good things to do because of our business. Be honest and funny, but not reckless. Do not go into being funny too much, like I think Sam Rush does on the business side. I love the guys, but still. So yeah, the presenting thing, then the article, and Friday either a tech tip or something a bit on the funnier side. I would also rotate it a bit. Yeah, just check in a month what works. You can tell me. Yeah, if there's a threat, obviously we're jumping on it. If there's a way to attack anyone, we're doing it. I would say it takes longer when it comes to the word count. The important thing is to have a good relation with the person who's editing that, obviously.
-
-22:52 - Jorge Lewis But if I would have ended, that would take me like the whole day probably for one group. But I mean, I can do it.
-
-23:00 - Tomasz Chwesewicz I did it and that's not a problem really. And also, you don't have to hire anyone for voiceovers because that's practically, you know, The main problem that they face is well, first of all, it's a I copy that people are really allergic to, you know, And the second thing is that they're not being concrete enough. They're being very vague. That's also something you have in your copy, is that you're not exactly saying what you're offering. One can get lost in what's in that and have no idea what it's about. So, yeah, being concrete is definitely something. We're going to be writing this first post as well. Oh yeah, also I have written down is that, yeah, setting cheat sheets, you know, anything that people can say on the drive is precious. My notes are a bit chaotic but, you know, more of a writing thing than I was going. Oh yeah, also commenting, I was thinking, yeah, about a bit of casual witty but Normally, I just look manually. I've never used tools, you know, competitor research, especially because I think the niche you're working on is not really rich and full of effort. That's how I would sum it up, I think. One of the links also that you had in your competitors, right? I don't think they worked because the link to the meeting didn't work. You couldn't set up a meeting yet. Not with the content itself and the post itself, just describe what I mean. I will forward it to you and yeah, we can just bounce ideas, I'm guessing.
-
-27:31 - Jorge Lewis Yeah, is that Google Doc or Google Calendar?
-
-27:39 - Tomasz Chwesewicz Usually I just put it on a Google Doc. Yeah, I mean, I know what you mean. I tried using it briefly, but the company I work with right now, they didn't care about the content, so it was just for me. I can as well have it on Google Doc, because I also have it in my mind. Sure, I can set it up in Google Calendar.
-
-28:09 - Jorge Lewis No, no, it's up to you. I'm just suggesting. Maybe it will be helpful.
-
-28:15 - Tomasz Chwesewicz Although, if we are to have a discussion on the content, it's much better on Google Doc, because you can comment. Usually I don't do a lot of calls, but if you are bored and want to have a chat once in a while, I'm fine with weekly. I could report what is going on, but at the beginning it will probably be very little. From the United States. So when I'm going to be putting the content calendar together, let's do it like this. Let's do Google Docs with dates. It will be a little hard to read, but will allow us for more conversations. And then when we set up ideas, I will make a calendar. Sometimes I will just write something like a hint here, just because I will give myself the time to think of a hint and I will share it with you, okay? Yeah, sounds good.
-
-30:36 - Jorge Lewis Great. So, I think that's it.
-
-30:41 - Tomasz Chwesewicz Oh, when it comes to payments, I will just send you a voice if that's alright with you.
-
-30:46 - Jorge Lewis Yeah, bank transfer could be PayPal, whatever you prefer really, it doesn't matter. Okay, do you take crypto? Oh, I would rather not. Okay, okay. Okay, so I think we'll probably just do a bank transfer for PayPal, so I'll let you know. Just let me know what you think of that, we'll get started.
-
-31:11 - Tomasz Chwesewicz Okay, yeah, I mean for this week we are on the, that will be a surprise, I mean we're going to be, we're going to be calculating for three weeks, right? I will calculate the payment only for two weeks of work in this month. Because we will be posting content for two weeks. I feel like this is honest.
-
-31:46 - Jorge Lewis No, that's what I mean.
-
-31:52 - Tomasz Chwesewicz This month I want to do it for half a month. Because I will be working for half a month only. I usually do the last just because I do have to confirm the invoice Sorry for the chaos by the way Are you stressed about it? Honestly, how do you feel about it, you know, starting to post content?
-
-32:43 - Jorge Lewis If I could ask you for something I actually forgotten about is that because any posts with human beings help human beings help.
-
-33:10 - Tomasz Chwesewicz So if we could think of something like, do you attend any events? Are you meeting up together, the whole of you, or not? Are you just working remotely? Yeah, yeah, your whole team. From a meeting, do you have game nights together or not? Experience because I used to work for a gaming studio. We used to play games Friday nights, it was for some of us, or Sunday Is there anyone who could say something about yourself, a quote, anything? Any kind of pre-testimonial, let's say.
-
-36:02 - Jorge Lewis with very good LinkedIn professionals.
-
-36:38 - Tomasz Chwesewicz It's way more probable they would trust you if you have something like this. If there are people, as you said, LinkedIn professionals that can comment, that can share the post, that will also be a tremendous help. If you feel like asking them, like you can ask them to do it. I don't know what you're doing just yet so I'm not sure how I can improve it but I mean if you were to need someone to edit your message like you're doing some inbound calls or whatever doing some cold messaging I could take a look at that. I think I think that's Alexandru Stantek I sent to you. It's actually a great idea of what people love. He's the guy that provides very little content, very little educational content. It's just being annoying for most of the people, but actually it works for founders because he just educational stuff, but he just posts just people, pictures of people.
-
-38:45 - Jorge Lewis So it's kind of like that.
-
-38:46 - Tomasz Chwesewicz I would say, yeah, it's also argued more this way, that if you post people, it's actually more probable to be high. If you go to, I don't know, Quest website or whatever, sold with the top posts, you're going to be probably think of that's a bit of homework as to say one more thing is that did you buy happens is that when you log in it will just throw me out vice versa so it doesn't really matter and the other thing is that do you want me to post, do you want me to be an admin on your LinkedIn
-
-39:48 - Jorge Lewis business page or do you want me to forward you the post and just post it your I can see the messages but the extra thing is that at the beginning what's a great idea to gain followers is that you
-
-40:03 - Tomasz Chwesewicz go on a group, you invite a bunch of people that you think may like your next post and you just invite them to follow the page when they accept your request. So I can also do that when I'm an admin, but that's up to you, obviously, if you don't want me to see the messages. I think there is a way, because I never made anyone an admin or whatever, I was just made an admin. There could be a way to just restrict some access.
-
-40:39 - Jorge Lewis Okay, restrict access to messages and just allow me to post and see the It's gonna take me a while to figure out. Do you know how I can go to the... I'm like on the company page, but I can't see how to add people. Manage add-ins, there we go. So, let me know if you guys have found that there's any lack of permissions there. I've added you. Alright, let me send in chat here. So this is the password.
-
-42:18 - Tomasz Chwesewicz I always admire people who have passwords like this. Huh, sorry? I always admire people who have passwords like this and actually remember them, not have them saved in some kind of app or whatever.
-
-42:33 - Jorge Lewis Yeah, that is, um, important, so. Got it. Password manager. Cool! You see? Poland's better sometimes.
-
-42:50 - Tomasz Chwesewicz Now I wish I was in Thailand right now.
-
-42:53 - Jorge Lewis I mean, I can go to a river, you know, there's a river nearby.
-
-43:18 - Tomasz Chwesewicz Actually, I would have to look up because the temperature in this room, I mean, right now, it's usually lower. It's 21 centigrade.
-
-43:29 - Jorge Lewis 21. That's pretty nice. That's amazing.
-
-43:32 - Tomasz Chwesewicz Yeah, probably will be terrible. Okay, so we are all set up. Yeah, whatever comes up, we'll just talk about it, I guess. Whatever you need, I'm here. Working together actually as I said, it's amazing. I've talked to people who believe in marketing despite being technical Okay, so I will send you I will send you this few articles You can take a look at them. You can say which one of them do you think works for you the best? Don't voice and style not the content itself Jesus.

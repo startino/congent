@@ -1,206 +1,0 @@
-30 Minute call with Nasim, AI consultancy owner 
-Mon, Jul 8, 2024
-
-0:22 - Jorge Lewis Thank you very much.
-
-1:53 - Nazim Girach Hello, hello.
-
-1:54 - Nazim Girach Hello. Hi. Hey, how are you, man? Do I call you Jorge or something else?
-
-2:02 - Nazim Girach Jorge. Jorge works. I met a Spanish guy with the same name. It was Jorge or something like that.
-
-2:09 - Jorge Lewis Yeah, yeah. My name when I was born was supposed to be Jorge. Jorge. But since I live in an English-speaking place, it's usually Jorge.
-
-2:17 - Nazim Girach Got it. Thank you. So you're from Europe?
-
-2:21 - Jorge Lewis So my mom's from Mexico, my dad's from the US. But I grew up in Egypt and in Hong Kong.
-
-2:28 - Nazim Girach Interesting. So what are you up to? Travelling for your wedding?
-
-2:35 - Jorge Lewis Yeah, I got back last night. My clothes are everywhere. But I'm leaving again on Tuesday.
-
-2:44 - Jorge Lewis Yeah, brother's wedding in the US. I wasn't planning on going to the US, but just brother's wedding, so can't miss that. But for me, I'm mostly traveling. I like to stay in one place for like three months at a time. Just came back from Thailand. Next step is probably China or Japan.
-
-3:04 - Nazim Girach Oh, interesting. So you're like other so-called digital nomads. You keep going to different places and keep working parallelly.
-
-3:13 - Jorge Lewis Yeah, yeah. It's great. I love it. Sorry?
-
-3:18 - Jorge Lewis What are you working on?
-
-3:20 - Jorge Lewis I have been working... So our most recent project is a life coach, Chapo. It's aimed at helping people keep habits. Yeah, so we've been working on that.
-
-3:35 - Jorge Lewis But now, I'm more kind of just taking a step back and doing things like hiring and looking to get some more client acquisition going. Yeah, just more high-level things.
-
-3:45 - Nazim Girach So, you're targeting smaller businesses or you're working with, let's say, medium-larger enterprises?
-
-3:51 - Jorge Lewis No, we're working with startups. For example, our three clients right now are just entrepreneurs. They're people with full-time jobs that they either quit or are working right now. And they just decided, you know what? I've got all this experience. Let's build an app that solves this problem that I've been facing.
-
-4:12 - Nazim Girach So, yeah. So, you're focused on AI or you're taking work as general?
-
-4:19 - Jorge Lewis Yeah. Initially just work as general, but now that we have two projects to AI projects that we're working on I feel like I mean, it's something that we enjoy as well So if we're able to kind of go in that direction more than happy to it's kind of where we're going And we've we've seen the demand for it.
-
-4:35 - Nazim Girach So I don't think it's much question really There's a lot of people wanting to build different things in AI. At the same time, I think enterprises also are putting aside budgets for investing in AI. So that's where I think, currently for myself, we are also focusing more on, so I started out, I'm a business owner. Startup warehouse automation company called Clockers. We did our 2 million in sales last year when I quit. And after that, again, I come from a computer science background and I really, when I saw GPT-4, I was like, hey, this is something that will shoot off and I need to change my domain. So I switched off, I quit my earlier startup, started working with my brother for a fashion AI company. We We did about six months of time building it. What we were doing is we were trying to get data from Instagram, Facebook, news channels, fashion shows, processing it in different ways and making like a data bank. And then using that plus company's historical data, we were trying to project how much each particular new design would sell in each store. So, we spent 6 on that, we built a POC, got good feedback, made an MVP, went to the companies for partnership or sales, realized there was no product market fit, we needed to spend more time inside the company, inside the fashion industry to get more understanding of the fashion working sense and then we improvise the product. And given how fast the tech was moving, I wanted to build more things and get my hands dirty. So we tried to keep that aside and there were a lot of people coming to us for projects with AI. So yeah, I started taking up projects on AI. So I worked with a couple of people from UAE, a couple of people from the US. Now I have a major client, Matthew Cassioli from Australia. So right now that's what we're doing. We're trying to target consultants and And people who have already projects in their hands from a lot of enterprises. And we like the back office where we build all the projects inside Azure cloud, AWS cloud, using Lanchain and other data extract. So that's what we have been doing.
-
-6:49 - Jorge Lewis So these clients that you guys are working with, they were referred to you by consultants or if I understood correctly?
-
-6:56 - Nazim Girach No, no. Consultants keep the client. So what right now consultants are doing is they are basically helping companies analyze their own company and see where the gaps are. Help them with a strategy, give them an action plan of how to do it. And then they tell, hey, I can build that for you as well. Like, if you want me to, this is what the charges are. Most of the companies, because it's the same consultant, they give it the order to them and then these consultants give the order to us to execute these programs, build it in their infrastructure and execute them.
-
-7:25 - Jorge Lewis Is it kind of white-labeled? Does anyone know about your company's name or is it kind of behind the scenes?
-
-7:32 - Nazim Girach It is not white-labeled. So usually a lot of enterprises, let me give you a little bit of example. So all the companies who are say maybe above 100 dollars, they want to keep the data with themselves. They want to keep the AI solutions inside their own cloud. They don't want to keep it outside the cloud. There are a lot of AI products like meeting review, meeting summarizers, or LinkedIn post generation, all those things. Companies like smaller startups and smaller companies are experimenting with that, but enterprises are not. Because what has happened in the last couple of years is, a lot of AI startups have gone bust. So these enterprises are very scared on adopting these products. They are like, hey, if I adopt this product across my organization and it goes bust next year, we are screwed. And because it takes about six months or more than that for them to adopt this product as well. So for them to switch a new product immediately is very difficult. So what they do is they try to build the same kind of similar solutions inside their own cloud. For example, a lot of people I work with use Azure, like a lot of medium sized companies use Azure. And what we try to do is we try to build whatever logic they need, whatever say AI bots or whatever knowledge, CAD bots they need inside their own ecosystem, deployed inside their own teams. So what happens is it's not outside, it's in their own Azure cloud and whatever is communicating, communication is happening inside the teams, but nothing is going outside. And so they were comfortable with that. And because it's like a gradual implementation, that's what a lot of enterprises I see are going towards. They're not going towards product adoption. Again, depends on the risk appetite of a lot of companies, but a lot of non-tech companies are very scared of adopting these products that are there in the market. So that's one thing we are seeing in the market.
-
-9:14 - Jorge Lewis Yeah, that's great. Thanks for sharing. Kind of what you mentioned how you guys work is kind of similar to how I think we might end up going one of our clients Is a he's been working in the IT industry for like 15 years now Uh-huh, and he's he's quit his his job at his consultancy for to start his own AI kind of strategy consultancy So he's talking with a lot of big companies like kind of enterprises to see how could how can they reduce their costs with and just other things how to how to use AI and another tech to improve their business. And then he's going to refer them to us or kind of just pretty much what you guys are doing where they're just like, yeah, these guys can build it. So that's kind of one angle. And if that doesn't work, if the clients he brings to us aren't kind of like the ideal clients or if just he isn't able to close any, then we would just go down the same route we're going down now, which is just startups and entrepreneurs. So it's quite fun working with just these really passionate individuals and they have a vision. And it's like always, usually we only take on the very interesting projects, but of course, if they have the money, then if, and if, if the business model makes sense, then if it's just copying a software, that's very simple, but changing one thing that'll make it better than the other one, then that's okay with me.
-
-10:33 - Nazim Girach What's the tech stack you're using right now? Like what do you usually work with?
-
-10:36 - Jorge Lewis We use Vercel for hosting, Cellkit for the frontend and backend. We did use Python beforehand, but we moved our line chain stuff to TypeScript. So now everything is done in TypeScript. What else? Superbase for the database.
-
-10:54 - Nazim Girach So you're deploying AI solutions in a web interface?
-
-10:59 - Unidentified Speaker Yeah.
-
-11:01 - Nazim Girach It's more of a chatbot kind of solutions or it's more like complex ones with knowledge?
-
-11:07 - Jorge Lewis One of them is a chatbot. So the life coach one, it's an advanced chatbot. I'd like to think about it. We wouldn't be happy building just something very simple. It's something that we're going to hopefully be really proud of It's using a whole bunch of different systems like RAG on the data source that he's given us. A whole bunch of analysis on data, just a whole bunch of cool features that I'm quite excited to... I started the development myself, the first two weeks of the Lanchain dev was me, but now I'm pushing it to the rest of my team to take over. So, hopefully they're inspired by my code.
-
-11:50 - Nazim Girach Nice. So, you have a team working with you or it's different developers remotely working with you?
-
-11:58 - Jorge Lewis Our team as of last week was four, but then now we are six. I'm currently hiring for, and they're going to be seven next week and then hiring for eight right now. Still undecided though.
-
-12:13 - Nazim Girach Yeah. But you're the only owner in the company right now?
-
-12:16 - Jorge Lewis It's me and my co-founder. My co-founder is Jonas. He lives in Thailand. Yeah. So where we just were.
-
-12:24 - Nazim Girach Oh, interesting. So these developers, you're keeping them on freelancing, or you're hosting them full-time?
-
-12:31 - Jorge Lewis We're hosting them full-time, but all the paperwork's under as a contractor. It just keeps it really simple and lean for us and for them as well.
-
-12:40 - Nazim Girach So again, one maybe feedback or input I would need from you. I had a question basically. How is your marketing strategy right now? What's your main lead source? How are you getting your work?
-
-12:55 - Jorge Lewis Our first client in the MVP and prototype area was a referral from my co-founder's friend. So that one was just super lucky. The second one was from Read.AI. He put a post, something technical related to chatbot. And I told him, yeah, try a link chain or take a look at it. And then he ended up asking, hey, Could you could you coach me on this because he's a tech guy, but he hasn't yet coded for like 15 years So he was like, hey, can you coach me how to close this myself? And then so he looked into it at his own time and then realized yeah, probably not the best idea So he ended up just hiring us to help him build it and the third one that we're planning on and in the planning phase right now Was from the second client so they're they're really close buddies those two Yeah But I think in the future after we finish, because during the onboarding and development of that second client, I spent all my time doing the developments. But now that our team has increased a little bit, I'll be able to take a step back again and do what I do best, which is sales and marketing. The areas I'm looking at or going down are probably just going to be, I'd like to take on a new approach, I think. I don't know if it's new actually, but I think it is, which is just Ads and content marketing. I noticed since dev houses are so traditional, they kind of stick to the cold outreach methods, which of course works. We'll definitely try it out. But I want to try out other strategies, which is through just Google Ads, Reddit Ads, some Facebook Ads as well, but our ICP is in there. And then just some content as well would be cool to make.
-
-14:40 - Nazim Girach I think LinkedIn also is a very good source for getting leads. So again, I have not been very extensive in marketing on LinkedIn, but I have a pipeline set up which I want to start churning out projects. Because what I've realized is there are a lot of posts about hot leadership on LinkedIn, like people in AI space, this is what could be done in AI, this is what you can do with AI. Show like in a sense you know hey this is a team's app this is where you can say maybe upload your HR policies and you can have an HR bot that talks to your system gives you interview packs gives you questions to ask certain questions or you know how to terminate an employee all those things so when you have such videos or projects made and you publish it on LinkedIn I think that could give good traction as a So that's what I'm thinking right now. I've got good leads till now. And I think I've mentioned to you, I messaged you about the AI Hackerspace episode. So like, how I operate is I spend 70% of my time and whatever extra time we have, if we don't have clients. So we only book 70% of our time for clients and the remaining 30% put on developing new things, learning new projects, developing new demo projects. And there's this Saturday, Friday Hackerspace, where I just demo the project that we built. And yeah, it gains some traction. People message me on LinkedIn, and some of them book a meeting. And I think that's one good way as well. So maybe if you're looking to advertise a bit, try LinkedIn. LinkedIn also is pretty good.
-
-16:03 - Jorge Lewis Yeah, that's great like I feel like yeah these new routes were just like doing other things and then cold outreach and like email marketing think like these things where it's just producing some content that is interesting but also provides more practical insights into how AI can be used because like everyone's like oh yeah so much potential you can do this and that but who's doing it like no one no one's getting told who can do it so yeah that's cool I'll definitely give that a shot we're definitely on the same page about like we want to make sure our team is not fully like booked up because then we can't have time doing what we love which is like work we'd love to work on some like of our own projects and open source stuff we'd love to improve the documentation around langchain.js since it's it's terrible I don't know if you do you guys use langchain.js?
-
-16:48 - Nazim Girach Not js, I use langchain. Langchain has become better like over the past year but yeah I know how it was probably a year ago. And we work a lot with Microsoft, Microsoft Azure, Microsoft Bot Framework, Microsoft Copilot Studio, Microsoft AI Studio. We build a lot of Microsoft stack. It's horrible out there for Microsoft. There's not a single article I found about implementing Bot Framework systems with Teams. Not a single one. So it's very bad. So I also want to write some articles, documentation to help others out as well.
-
-17:22 - Jorge Lewis It's just what we enjoy and also as a side bonus, it'll bring traffic. If you're building things that people can check out that's open source, it helps a lot I feel like, And especially for image, it does a good thing as well. How big is your team? How are you guys working right now?
-
-17:41 - Nazim Girach So right now, it's me and my brother who are the main developers. We have an intern full-time who is again, who's learned LinkedIn for the last couple of months and now he's building projects. Whatever I want to know, demo now. He started out this month, building projects. He was learning before that. I have three more interns who are just doing smaller work. I have two full-time developers who are having a full-time job. But I did join in, you know, just come in if the work is needed. And I'm now trying to hire two more freshers because I want to expand as well. I'm seeing a lot of demand coming in. So probably potentially end of this month and next month as well, I might be closing a few more deals. So I'm also expanding my team right now, especially with Python developers right now. So that's what we stand for.
-
-18:24 - Jorge Lewis I've got it.
-
-18:27 - Jorge Lewis Since we're looking for LangChain.js developers, and in my search for the LangChain.js developers, I've come across quite a lot of Python ones. I can send them your way as well, if you want.
-
-18:39 - Nazim Girach Oh, sure. That would be quite helpful. Are they Indian, or where are they based out of
-
-18:44 - Jorge Lewis Yeah, mostly India or Pakistan.
-
-18:47 - Nazim Girach Got it. Because it'll be expensive for me to hire someone from outside India.
-
-18:52 - Jorge Lewis Yeah, yeah. How much should the interns I'm guessing are either free or like super cheap?
-
-19:01 - Nazim Girach My interns are kind of my brothers and my cousins so I'm like hey guys I'm starting this you want to join so all of them are really excited so I'm like why not? They'll learn. I'll get some free labor. So that's what we are at right now. And I don't mind paying them but for them but it has to be like a for a paid contract so I've made it clear with them like if I have a paid contract you're working on a paid contract you'll be get paid but I think it'll be not much at the same time for full-time developer I am planning to hire somewhere around of you usually do dollars right so let me listen dollars yeah dollars So somewhere around $15,000 per annum.
-
-19:53 - Nazim Girach So that's, I think you can find a refresher.
-
-19:56 - Jorge Lewis Yeah, yeah, probably. For our first developer, it was our first developer that we hired. He was a web developer, first of all. Best developer I've met so far, apart from my co-founder Jonas, maybe even better, I don't know. He was super talented, but we got him for like, Math.
-
-20:21 - Jorge Lewis For like $520 per month. Absolute legend, that guy. We're now paying him like $800 a month.
-
-20:29 - Nazim Girach That's pretty good, I would say. And is he in India or Pakistan?
-
-20:34 - Jorge Lewis He's from a place called Benin in Africa. It's a country. Yeah. Yeah.
-
-20:41 - Jorge Lewis I think it's even cheaper in there than in India, which is crazy. And his English is great as well. He is absolutely phenomenal.
-
-20:50 - Nazim Girach That's interesting. Where did you find him though?
-
-20:53 - Jorge Lewis Upwork. I was so shocked. Usually, on Upwork, you don't get the best people.
-
-20:59 - Nazim Girach Upwork is expensive as well sometimes.
-
-21:02 - Jorge Lewis Yeah, because they get charged a fee as well. And they are always increasing it every few contracts. So, it was like a needle in a haystack.
-
-21:13 - Nazim Girach And you got lucky with that, huh?
-
-21:15 - Jorge Lewis Yeah, super. I think he was like out of three people as well. We have an intern that we are kind of paying.
-
-21:31 - Jorge Lewis 400 a month just kind of like as a just we don't want to feel like we're wasting your time But he's mostly just doing a lot of learning. Yeah, but he lives in Sweden so it's like it's it'll never work out long term in terms of like cost which we're both aware of but hopefully we're able to build up his portfolio and get him a lot of work experience and then Maybe later down the road, if he grows enough, he can take a management position, but he's just way too expensive. His minimal salary is like the top 1% India or Pakistani developers.
-
-22:06 - Nazim Girach Yep, that's the case. So, again, one last question maybe. Maybe you can opt to not transfer that as well. In terms of pricing, how are you charging your customers? Is it for hourly basis or are you taking project basis?
-
-22:19 - Jorge Lewis Sorry, I got these new headphones or these new earbuds.
-
-22:24 - Nazim Girach That's clear though, I can hear them clearly.
-
-22:27 - Jorge Lewis That's my microphone. These earbuds keep falling out and every time I have to fix them, this side changes the noise transparency and this side pauses the video in the background. So super annoying, sorry. Yeah, so we're still trying to figure it out. We first started off with just doing project-based.
-
-22:46 - Jorge Lewis And then, for some reason, I had the idea to do a weekly basis, like a weekly retainer thing. And then, that kind of ended up working okay, more or less. But then, with the clients that we were going to first adopt that with, we kind of ended up just going into, you're going to pay this amount for the project, so really just project-based. We gave them the context of this is kind of our weekly rates So I think in the future we'd kind of like to stick to mostly project based with just telling them Hey, this is our weekly rates. So if the scope changes, this is kind of what you're expecting Since since hourly I feel like is too fine-grained and like really no point in tracking maybe at a much larger scale for sure But for us with with us, I think working with weekly just makes a lot more sense web dev estimating does not work and or sorry, development estimating does not work. So we're at this point, we're just like, just, yeah, just whatever.
-
-23:44 - Nazim Girach Got it. Yeah, interesting. But I think that's eventually, like, I would say it's a good spot to be at doing project based. But my only concern with project based is our timeline, like a lot of times, there's client expectation that's different from what you have set them. And then it takes longer than what you expect.
-
-24:01 - Jorge Lewis So Yeah, that's the biggest thing I've learned in the past two months is just expectation management. It's the most taxing thing of doing development, really. And it's something that you just have to get good at, and it's something you have to really set early on and say, hey, we're good at what we do, but we haven't done this exact thing before, so things change. Yeah, the timeline thing is just kind of, I feel like when you do project based, more of what they care about is knowing that, okay, this is how much the project will cost. And this is roughly the timeline. But I think telling them, hey, the timeline is The timeline isn't the important part. The important part is that you're paying this amount. The timeline is up to us. We'll discuss this. We'll try to stick to it, of course, but that's not what you should be focusing on. The point of the project base or the best benefit of the project base is probably the fixed cost for the client because when you go into hourly billables, the clients, especially when they're depending on the company really, it can range from like three to four times the initial price.
-
-25:04 - Jorge Lewis Although, like I said, that one client that could bring us some enterprise clients, he was asking for our hourly rate. I had no clue what to tell him. For our new developers, for the freshers, we give them $800 a month. So that's I think $10 hour.
-
-25:30 - Jorge Lewis So, I had no clue what to charge or what to tell our clients what to price us at. I told him 40 is where we want to start at, but later down the road I think in the UK, he's from the UK, in the UK I think the average price for a senior I think is around I'm 100 not mistaken.
-
-25:50 - Jorge Lewis Dollars, I believe. I might be totally wrong, I'm not sure.
-
-25:55 - Jorge Lewis So yeah, I think that's what I'm pricing at, I don't know if that's low or high or anything.
-
-26:01 - Nazim Girach I kind of think it depends on the client as well. A lot of clients don't research a lot. For example, if you know someone and he doesn't have time, he's maybe willing to pay $50, $100 well. But if you have a client who has enough time, who knows the market well, he could know.
-
-26:20 - Jorge Lewis Our client, he's been in the IT space for 15 years, he's managed like 50 developers before, so he knows usually the rates, so we can't tell him anything random. And also the clients for his consultancy, they've done development outsourcing multiple, many times.
-
-26:41 - Jorge Lewis He was laughing at it because he didn't belong at the table, but he was talking to the head of NVIDIA and Dell UK sector, and he was getting a lot of insights from them. Yeah, those companies are investing tons of money into AI. Dell is doing, I think, web AI consulting as well. So like for enterprise level, that's kind of where their money's going at right now.
-
-27:06 - Nazim Girach So yeah, let's see. So right now, that's my whole goal to niche down to things where I become a commodity, our service becomes a commodity, become do things that are more rare. So right now we're moving more towards agentic work. I'm experimenting a lot with agentic workflows and we grew AI.
-
-27:23 - Jorge Lewis I definitely think that's the future. Like for me, I personally believe chaining and just being able to chain different steps of a generative AI model is just where all the future is at because Exactly.
-
-27:40 - Nazim Girach I don't understand.
-
-27:41 - Jorge Lewis I don't know how though, like it just, it makes so much sense, but people aren't using it. I don't know.
-
-27:46 - Nazim Girach No one is using it. And when there are very few developers who are developing it, like, you know, working with it and this itself, like there are few developers inside tech company who are doing it for their own tech company. There are very few, like, you know, agencies, I would say, what focusing on agentic stuff. It's all focusing on drag and, you know, simple Java application. That's what I'm trying to niche down and go in that direction.
-
-28:05 - Jorge Lewis Yeah, exactly. One of our projects that's in the planning phase is a multi-agent marketing team. There's two projects that exist out there, but they haven't gotten anything. It's just all smoke and mirrors. They haven't gotten anything down yet. So our goal is to make sure we produce the best stuff. And I think with the tools we're using and our team behind it, I think it's possible.
-
-28:28 - Nazim Girach Okay then Jorge, I think I'll have to call my day.
-
-28:31 - Nazim Girach It's 10pm here.
-
-28:34 - Nazim Girach I'll have dinner and take rest some. But yeah, it was nice talking to you. Likewise man. Good conversation. Let's be in touch and maybe our paths cross or maybe we can discuss some ideas as well. That'll be helpful. For sure, yeah.
-
-28:45 - Jorge Lewis I'll be down to have another talk sometime. I've met actually quite a few people doing what we're doing, which is like a generative AI consultancy.
-
-28:57 - Jorge Lewis What I'm thinking is we can maybe work all together. You're the first person I've met.
-
-29:04 - Nazim Girach Maybe we can do a meetup, a joint call to see where everyone stands, exchange ideas. Maybe if we need someone with a helping hand, we can help each other. That's one thing we can do.
-
-29:19 - Jorge Lewis I think community is something I'm missing in what I do because for all the other businesses like social media and all these other businesses, they have communities where they can share their learnings and experiences. But for dev houses, it's pretty hard. I don't know.
-
-29:32 - Nazim Girach And I think that if we're doing it and catching all of them and building a community is the critical part. I think I'll be open to it. If we're able to arrange maybe two or three more people, I'll be ready to get involved with discussing. Yeah, cool. Sounds good, man.
-
-29:44 - Jorge Lewis Thanks so much for your time. Let's keep in touch. Do you have Discord? Do you use Discord?
-
-29:49 - Nazim Girach I used to, but I've been super busy off late, so I haven't opened Discord yet for like two months now.
-
-29:55 - Jorge Lewis We use Discord as our main communication, so that's where we chat. We can keep in touch on LinkedIn, but later down the road we can use Discord if you don't mind.
-
-30:04 - Nazim Girach Sure, no issues. And let's see, if you're able to arrange the call, I would really love to come on a networking call. I love talking to people, exchanging ideas.
-
-30:12 - Jorge Lewis Yeah, for sure. But otherwise, I'd love to have another call just me and you, if you don't mind just kind of going into a few more things. Now that we have like the background of each other, we could probably prepare some questions that we might have.
-
-30:22 - Nazim Girach No issues. They can do that. And we will have some interesting projects, which might be interesting to you as well. Like I found like this one I'm working on where it's an consulting project where we gather company's information. There's a few government websites in the US who have detail about each job roles that are present, about 1000 plus job roles. We populate that info with company and make a virtual organization tree, analyze each task, see where AI can be implemented, build a deep report for the top three to five tasks, make it visualizing, make it look pretty, and then give you the output. So before you go into a meeting, you have a report in your hand. Like that's a lot of attention from a lot of consultants I've met. So that's one thing I'm working on. Probably next week I'll be able to finish it up. But yeah, next time we meet, we should be able to see that as well.
-
-31:09 - Jorge Lewis See, even if we can't, even if we've spoken everything about our businesses and we know each other's businesses in and out, we can still always discuss these AI ideas because there's so much potential, like just brainstorming.
-
-31:21 - Nazim Girach Because again, we only had half an hour. If we had an hour or so, that's what usually I do. I go first half, we just discuss about things, where you come from, some ideation from your thought process, what you're seeing in the market. Next half, I try to focus more on discussing ideas, brainstorming, what are some ideas you're seeing. In the market, what ideas I am seeing in the market, what ideas we are building, we are building, what you want to build. We can brainstorm some ideas. So I love doing that. So probably some other day. Right now, our brain is really exhausted. We have worked a lot over the weekend. So let's see. We'll catch up probably next to next week. I think Monday or three. And yeah, looking forward to it. Love it. Cool. Thanks, man. Have a good one. Bye-bye.
-
-31:54 - Jorge Lewis And sorry or not, have a good dinner. Take care. Bye-bye.
-
-32:09 - Jorge Lewis Cool, yeah.

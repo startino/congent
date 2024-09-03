@@ -1,208 +1,0 @@
-Discussing Stori architecture 
-Thu, May 16, 2024
-
-0:01 - Jorge Lewis Hello. Hey, how are you?
-
-0:04 - Jorge Lewis Yeah, good. Very good.
-
-0:08 - Jorge Lewis Perfect. Give me two seconds. I'm going to try to connect to my iPad. It's the first time I've done it through Google Meet, so let's see if this is going to work.
-
-0:39 - Jorge Lewis All right.
-
-1:14 - Jorge Lewis So this is what I've come to just now. You take a look, I can run it down. So we start from the idea of phases that isn't necessarily, it doesn't have to be like a strict boundary for between the different parts, but it really improves the performance and it makes it a lot easier for the agents to understand what they're doing. And also it makes it more modular. Like, for example, onboarding can be done, you know, if we can check, has the user been onboarded before in a workshop? If so, then skip this step for different workshops. So we start with onboarding. I'm not sure what that will include. Maybe just run down the user, introduce them to the workshop. Then the first exercise will be finding the mission statement. For this one, you mentioned you wanted an analysis bot. This bot's only going, his only job is going to be researching, pretty much.
-
-2:07 - Jorge Lewis I sent the link to Perplexity. Also, I think you asked a question regarding it, but I think we just kind of went over it.
-
-2:21 - Cuan Mulligan So let me share my screen with you. So I was helping JP come up with a name for his marketing thing while the working place was story. And I said, in essence, what you're doing is you're giving a company a marketing team. So crash the two words together and you have marketing. Marketing and he does say to search for it and There's a company already about to launch called marketing to market team dot AI which is Exactly what he's trying to achieve exactly They're launching in July. So we are behind the cash We're trying to have we're trying to decide whether he wants to pursue or hold work I think he'll he will pursue it. But if you go to market team that AI Let me put it into discord I think I found it by chance. Yeah. And then there's also a, um, a very impressive video. Uh, I'm putting it in there.
-
-3:25 - Cuan Mulligan Now, a lot of these things that we're seeing are the, the, if shit, like they, they, they have a great shop window, but they have no substance. So like Dante had a great shop window, but once we actually got into it, it couldn't do what it said it did.
-
-3:45 - Jorge Lewis Yeah. I need there. So off the gate, first impressions is it looks like there. I think they're probably an Asian team. The, those, the AI images you're seeing there, there there's another company. Well, not necessarily a organization in China. That's working on multi-agent teams. I think it's called meta GPT. It's probably the least well the least Evolved version for multi-agent frameworks But it looks like it took the inspiration for the avatar directly from that the websites very similar Yeah, I think they're an Israeli company like I think they've
-
-4:26 - Cuan Mulligan pivoted about five times to what you see today Yeah, oh I see a github perfecto So maybe I'm misunderstanding something, and you can try and educate me on this. So in my head, you would give us the raw capability to have a buff that does something, and we're just going to label that analytics, and another one that does facilitation, and we call it facilitator. But when you give us that buff, Doesn't really know what to do so jp will then have to train it and say right here step one here step two this is the objective you're trying to do so there will be some. How to be some engagement from jp to teach these bots what it's supposed to do. So does your job sort of finish with the sort of, here's an interface where you can go in and teach three bots. That's where I was thinking in my head, your job is finished. Once you do that, now you might advise him better ways to write prompts, to get the outcome he wants, but fundamentally, once you give him the raw capability, he cracks on. He has to do the work to actually turn the analyst bot into a bot that knows what he wants it to do, and the facilitator bot knows what he wants it to do. Is that sort of right?
-
-5:56 - Jorge Lewis That's actually a good question. I haven't thought this through yet, but this is kind of where my thought process goes. With language models, it's really easy to get them to do what you want to, Like anyone without experience could do that, but then making it really accurate and, you know, good quality, like, uh, following instructions, the instruction set, anybody can write the prompts, but I feel like, What we do best with, with JP is probably hopping a call with him and him explained to us pretty much in a call live. He can tell us the bot should the steps of this process or this, this, and this, and we could write it in the, or he could send it over to as tech.
-
-6:41 - Cuan Mulligan Yeah, I mean, I suppose, in my head, does that mean that you sort of hard code?
-
-6:47 - Jorge Lewis It looks like my computer shut down. You there?
-
-6:51 - Jorge Lewis Yeah. All right.
-
-7:02 - Jorge Lewis I'll speak from the iPad for now. So yeah, I was saying that I think it's not necessarily he's going to teach the bot because I feel like it's going to be a lot more efficient if we help him in that process. And something for like the analysis agent, specifically the analysis agent, he's not doing much marketing. Like he doesn't, the marketing, the analysis agent doesn't need much marketing knowledge.
-
-7:27 - Cuan Mulligan No. So for example, if you look at the video on marketing, um, that about halfway down the page, you can see that they have a bath that's going out. And as they're talking about the brand statement, it's going out and doing some market analysis and bringing information back to the meeting, which is fundamentally what we want to do as well. Um, so yeah, they haven't, they haven't gone live yet. So we've got no idea what the substance is, but this is sort of what we wanted, what JP wants to create.
-
-8:03 - Jorge Lewis I mean, there's things that the analysis bot is going to be told what to look for, and JP is going to tell us that precisely, but it's not much. I think it's pretty close to accurate how we would make some sort of framework for JP to really make the bots do what he wants them to do.
-
-8:24 - Cuan Mulligan Yes, I would imagine like if we were to have a conversation about this, the facilitator boss, like there might be seven steps in the workshop and so there would be a piece, there would be some part of the profile Of the vault where you say right this is a process bot and a process bot needs to achieve these seven steps Okay, how what you want me to do to get from step zero to one and then it would train that Okay, when that's finished, how do I go from one to two and two to three and three to four?
-
-9:00 - Jorge Lewis Yeah, yeah pretty much that I want to ask JP this. How was he able to transfer his skill set to us? Because I feel like these processes are very straightforward. Workshops are quite straightforward. Where does his knowledge set come into play?
-
-9:31 - Cuan Mulligan So this is a very small use case where it's a little bit of hygiene factor where his particular skill set is in analysis of strategic marketing plans and also in creating relevant content plans and the generation of ideas and then the expression and the ideation of stories to bring those contents to life. Not necessarily an execution, but coming up with the ideas. The platform is going to help him go beyond that into implementation, understanding the analytics, and then feeding back like, hey, we thought this idea worked. It didn't work here. Here's why we think it didn't work. Let's remake the content in a slightly different way and go again, as opposed to going back and changing the plan. So this is about, you know, overall allowing JP to become a The equivalent of a 50 person marketing agency, rather than just a one man band.
-
-10:29 - Jorge Lewis Yeah. So I guess to put it in, into this scenario, his knowledge set would come into play by telling the, because the instructions are straightforward, but he would be telling, he would have to find a way to tell the agents how to, to brainstorm like he does. The things he does that are unique to his skill set. So for example, like going from one idea to another because that last one was too much this. What is the thought process for that?
-
-11:01 - Cuan Mulligan I think that will be a conversation that what I would imagine is once you give us the, or give him the basic capability, we would step through an actual workshop and we would go, okay, why did you decide that, JP? What did you think about? What did you do? Let's try to prompt to do that. Okay, let's do that step again and see if the bot now does what you would have done. Okay, cool. Let's go to the next step. So we would, over time, run a workshop in increments end-to-end where we would get JP to do it, pause, go back, code it, see if the bot does it. Okay, right now let's move to the next stop. A lot of this facilitation, I've run these workshops for years, so I would probably be a better facilitator than JP in this particular workshop, but he would have better knowledge of what good content is within the workshop, if that makes sense. So there'd be a partnership between both of us.
-
-12:00 - Jorge Lewis Better content as in the actual like contents, the texts that you guys are coming up with.
-
-12:05 - Cuan Mulligan Yeah. So for example, if there was like three sentences of the mission statement, he would have a better view of how to rank them or decide which one to help the customer choose.
-
-12:19 - Cuan Mulligan Yeah.
-
-12:19 - Cuan Mulligan Like, for example, um, you know, there's very unfortunate brand names that when you put them in the domain, because it's no, there's no casing and there's no spaces. You can start getting inappropriate words because our brain sees them rather than the words we want them to see. So he would be testing for things like that, saying, you know, I can't remember, there's a couple of domain names that are very funny. Like it's sort of, oh yeah. So when you have, it was something like Dr. Something, Dr. Jane, no, Dr. John.
-
-12:54 - Jorge Lewis My iPad disconnected there, so sorry.
-
-12:58 - Cuan Mulligan Sorry, can you hear me?
-
-12:59 - Cuan Mulligan Yeah, there we go.
-
-13:00 - Cuan Mulligan Sorry about that. It was Dr. John therapist, but when you read it, it looked like Dr. John the rapist because the way the brain separates out the words. So he would be picking up on things like that where I might not pick up on things like that.
-
-13:19 - Jorge Lewis And those things, do you think it's realistic to be able to turn that into a prompt so the bot could use to kind of act like JP?
-
-13:30 - Cuan Mulligan I certainly think that's the intention. I think once we have the raw capability, we would want to be able to, in exactly the same way in the coaching bot for ADAPT. There's going to be scenarios that are new and unique and have edge cases that I as a person are going right. What I don't realize is I've just now decided across 50 subconscious things about what the white thing next to say is and then how do I tease that apart and tell the bot what I've just thought about and why I suggest we would now do this as opposed to that. And that's the That's the real challenge here. Like when we used to work with high-end consultants, some of these guys have been doing this job for 35 years. They've never had to explain what they do to anybody. And so, I don't know, I'm assuming you're far too young to have kids. So believe it or not, I'm able to tie my shoelaces without a problem. I don't even think about it. When I was trying to teach my kids this, it was really difficult because doing something and explaining something are fundamentally two different things.
-
-14:37 - Cuan Mulligan on how to tie the shoelaces. I just found a YouTube video and outsourced it, so it was a lot easier. But that's what the challenge here is, is when someone is good at something, the bot knows nothing. How do you go back to beginner's mind and, in essence, educate that in incremental steps through prompts to get that bot to do stuff? Now, what we want to try and do is do a first pass, and then you can just layer on more and more insight and personality in different scenarios.
-
-15:06 - Jorge Lewis Yeah. Is by chance, do you guys have a large data set of JP's meetings? No. Okay. Cause I can, I feel like the one solution would be to do that, to generate a data set with JP of him doing his work, his best work, and then using that.
-
-15:29 - Cuan Mulligan What would that data look like,
-
-15:31 - Jorge Lewis The transcript of the workshop.
-
-15:34 - Cuan Mulligan I actually think that could be detrimental because you'll have no context to why something gets said. You just know that something was said. I think it's better to understand and like, if I was watching, if I was facilitating JP or sorry, if I was analyzing JP and say, right, JP pause, why did you think that? Why did you say that? Okay. What led you to that? So I would, as a business analyst, I put my business analyst hat on and I would be like microanalyzing, why are you doing that? Why are you doing that? Because understanding the why of something rather than just the outcome, I think is more informative because it would allow the bot to adapt to more scenarios rather than just going, if you see this, then do that.
-
-16:17 - Jorge Lewis Yeah, it's two sides of the same stick, really. On one hand, with your one, if you understand the why, you're able to fundamentally understand all the scenarios. But then again, if you just know from, if the bot can know from experience, i.e. It's trained into the model, how to behave, it can interpret in another scenario how to behave similarly, but with this new scenario. It's just the thought one versus thought two. That's the idea. We'd be trying to train it so that it could have a foundation of a thought process similar to JP. But of course, it would be, that would probably be a really hard one, we'd have to really look into it. Especially like, me personally, I have no clue what goes on in a workshop with JP. So I have no clue what the transcript looks like as well. But that was kind of an idea that I wanted to potentially put out there because I feel like the prototype doesn't necessarily need to be JP in a bot, it needs to be the to guide the like, I feel like putting JP in a boat is way down the line. I feel like the, these language models are probably too simple for that. And especially we don't have, like you said, it's like teaching someone how to tie a shoelace. It's very hard. We need to break it down.
-
-17:28 - Cuan Mulligan Quite a bit and with marketing there's so much stuff to Remember there's there's all sorts of issues here and that There's a level of where the juice is no longer work squeezing because it's too much effort to get something out of it But we what we're trying to do with this proof of concept is prove that the model works on that This isn't a question of you codifying the bot to become JP we want to know whether the model works where you give us the raw capability and JP can then codify the bot and teach the bot to do not him, but to do something that's good enough that it makes the process move forward. And then over time, we could go back and refine it. Because again, if you cross all of the stages of marketing, whatever that means, like you're probably looking at coding up 50 bots.
-
-18:22 - Cuan Mulligan So better off that some of them are, you can flow through, and then there might be a couple of areas that he's going to go super deep on to have a unique position against.
-
-18:35 - Jorge Lewis Yeah. So how does it sound if we can get JP in a call and we can do a mock-up workshop of the mission statements and value propositions?
-
-18:50 - Jorge Lewis It should be back this evening or tomorrow.
-
-18:55 - Jorge Lewis I couldn't think of why we should use multi-agents in that. There's not much dancing, is probably the way to put it.
-
-19:04 - Cuan Mulligan There absolutely is. Absolutely 100%.
-
-19:08 - Jorge Lewis Where would the dancing be? Do you see it then?
-
-19:11 - Cuan Mulligan So I'm going to make something up. This is to try and bring what my example of dancing is, but we'll see. So let's say we start the workshop, and it says, right, you've got two words on a screen, and everyone gets to vote. It's this one or this one. And so you might have honesty, integrity.
-
-19:38 - Cuan Mulligan Humor, serious, whatever it is. And so they're choosing all these things. Now, we already know. Let's say we're doing this for Adapt.
-
-19:51 - Cuan Mulligan In real time, let's say the bot is looking, it knows, OK, adapt, weight loss, health coaching, stuff like that. So I'm going to do a bit of a market analysis. And I'm going, OK, what you don't know is that you're copying your competitor. You're going to sound exactly like your competitor. So these, FYI, these values might be true to you, but you are now, you're at risk of not differentiating your intentions or your values from your competitors, because this is what I would do. So when I run these in person and you're running these workshops, Part of the job of the facilitator and consultant is to bring all of your experience from other events to this meeting and go like, hey, did you know? Or what about this? So what I used to start my workshops, one of the things I would do, I would go into big banks and I'd run a workshop. I'd say, well, before we start, I've given you a blank envelope. I want you each to write down two words for how you're going to measure success of whatever this is. And invariably, if you've got three stakeholders, you're going to have 17 different measures of success. We're like, great. Not saying any of these are wrong. But for example, if we're only working with Carl day to day, what do you think the solution is going to optimize for? What Carl wants? So the first thing is, before we do the scope of the project, we need to get you aligned on what the one key metric is. And what is that measure of success that we can all rally around? Because if you don't have that, we as suppliers to you are going to get pulled left, right, and center and won't do a good job. So it's things like that. And then, as you say, I'm trying to think of another scenario. So let's say, for example, we were an ecological startup and we were about selling solar panels. And we ended up with a mission statement that was exactly the same as Tesla's. I'd expect the analyst bot in real time to say, that's too close to Tesla, guys. That's silly. So it's not waiting until we finish and then doing something. It's like, oh, hold on a second. They're coalescing around this. I'm going to go and do a market review to see if anyone else has something. Have I ever seen something like this before? And we would say, hey, there's a bit of a red flag here. Do something. Oh, shit. How do we know we called the Tesla? So for example, right now, I just told him marketing.ai. I had no idea that already existed. So he went away and did some due diligence and said, already there? Wow, shit. Imagine a bot going off and doing that for him.
-
-22:26 - Cuan Mulligan And that's what I mean by dancing. It's not like A, then B, then C. There's the facilitator doing A, B, C, D, E. But as you're going through that, content is coming up. And as content's coming up, the bot is analyzing that content for different things. There'll be the marker perspective. There could be the vulgarity perspective. There could be the sort of, do we think it's effective to your strategy of perspective? I'm trying to get the door open.
-
-22:58 - Cuan Mulligan Thank you, my friend.
-
-23:28 - Jorge Lewis Thank you.
-
-24:54 - Cuan Mulligan That makes sense.
-
-24:59 - Jorge Lewis Yeah.
-
-24:59 - Unidentified Speaker Okay.
-
-25:00 - Jorge Lewis So I wouldn't, so I can't see the dancing in that.
-
-25:07 - Jorge Lewis I can, I can try to walk through it myself. So the user gets on boarded with the facilitator or let's use that as an example. And let's say you are the, the user, you come into this, this workshop, let's, let's pretend it's a Google meets. Does that make that be realistic later down the road? If like you guys made it real time.
-
-25:28 - Jorge Lewis Maybe, yeah.
-
-25:30 - Jorge Lewis Okay, so let's say I'm the facilitator bot, you're the user, and read.ai is the analysis bot. The way multi-agent systems, or at least the ones we've worked mostly on, are conversational. They have the structure of a conversation. So this would be me saying, welcome, Cuan. Today, we're going to figure out what your one sentence is. We're going to start with this, this, and this. Let's get into it. And then the first phase, I'm going to call it phase for now, is finding the mission statement. What are, write 20, what would be the example in this case? He writes five mission statements or?
-
-26:09 - Cuan Mulligan I have an idea.
-
-26:11 - Cuan Mulligan I'm going to run a brand values exercise with my wife for ADAPT with you and JP either tomorrow or Monday to bring this to life. And let's just keep it to that focus and then see how, how would you, based on what you've seen, what are the, how would we architect it? Would that make sense?
-
-26:33 - Jorge Lewis Yeah. Um, yeah, but also on that note of the analysis spot, so you, The analysis bot's pretty much only feature is to do research, right? Research what, though?
-
-26:46 - Cuan Mulligan It will have one job to keep an eye on something and check that. Now, in theory, you could have a market watch bot, you could have a competitor bot, you could have every particular problem statement, you could have a bot really honed in, fixing that one problem. So if you look at what's the difference between a senior consultant and a junior consultant, they just work on more clients and they've got more stories to tell you. So if you think about the facilitator guides you through the process, but the participants are the ones who add value to that process. And so obviously there's the human one, the client. Which you're trying to generate outside from But if the other ones are going, oh, wow, that sounds like a really good idea. I've seen this work over here. Actually, that sounds really something that I saw in the automotive industry, that that could work here because this is health. So you're looking at, how do you cross-pollinate ideas? And so all these bots would have different objectives or different problem statements rather than having one bot doing all of it. So maybe it's not multimodal. But it's the idea that there are multiple bots working concurrently. So if me and a bot are having a conversation, there's another bot aware of that content and is responding to something in that content and going away and doing something anonymously and coming back and contributing to that conversation, which then changes it. So if that's not multimodal, fine. I'm just using that because of my ignorance. But that's the objective.
-
-28:27 - Jorge Lewis Okay. Yeah. So. Well, I think what, yeah, what'd be perfect is you get that example over to us. That would be one. And then is this the ideal example to be using as a, as a prototype or perhaps have, is there a better one that we've just kind of forgotten? Cause we've already gone down this path.
-
-28:47 - Cuan Mulligan Maybe, but I mean, the principle here is can we run a workshop? Cause everything's basically a meeting or a workshop at the end of the day. And can we have a bot guide a person through a process? Can we have other bots participate? Can we have other bots watch, observe what's doing, and contribute? So that's the exam question. It doesn't really matter, the meeting topic, because once you prove that this dance can work, this interaction can work, then you just change the scope. You may have more bots, or it's a different process, but it's fundamentally the same building blocks.
-
-29:26 - Jorge Lewis Yeah, the reason I'm asking is just because I can't see the dancing that you probably are. And that's just lack of, you know, dancing.
-
-29:36 - Cuan Mulligan What I mean by forget about the word dancing. A facilitator is running a process. Something is said in that conversation that another bot is listening and going, you can't do that, or here's some information. Oh, I read this the other day. Oh, I do this. That's what I mean by dancing. There's a bot who's independently observing the content, the output of a bot to human engagement and contributing to that autonomously. That's what I mean. OK, yeah.
-
-30:09 - Jorge Lewis I can see that. So do you want to continue with this example or you guys, I recommend just making a couple other examples and we can look through those as well just so that it's clear. But I do understand, I do understand now the idea you're going for. And it's, it is what I thought of, but the word dancing probably made it a little bit more abstract. So.
-
-30:27 - Cuan Mulligan Okay, cool. Yeah. I just, I messaged JP. I'll see when he's back online. I know he's taking care of his mom now, so then we'll figure something out for Tuesday or Monday.
-
-30:34 - Unidentified Speaker Sorry.
-
-30:34 - Jorge Lewis Yeah.
-
-30:35 - Jorge Lewis Tomorrow or Monday.
-
-30:36 - Jorge Lewis Jonas and I are going to be available tomorrow over the weekend. We're going to be quite busy. We're traveling. So on Monday, we'll be back on our feet.
-
-30:45 - Unidentified Speaker Okay.
-
-30:46 - Cuan Mulligan Where are you going back to? Where are you traveling to?
-
-30:48 - Cuan Mulligan We're going to Vietnam.
-
-30:50 - Cuan Mulligan Oh, nice. So are you both traveling all the time?
-
-30:54 - Jorge Lewis Yeah. Well, yeah, we travel together. We just started this year. So yeah.
-
-30:58 - Cuan Mulligan Nice. How long are you going to be traveling for?
-
-31:02 - Jorge Lewis So in, what is it? In the first week of July, I have to go back to Hong Kong. And then on the second week of July, I have to be in the US for my brother's wedding. And then I'll be visiting family in Mexico for a while. And then from there, we don't know. So.
-
-31:19 - Cuan Mulligan Cool. All right, listen, I'll let you know when I know about JP and then we'll get that set up.
-
-31:22 - Jorge Lewis Yeah, so just just so by the way, for the phases aspect, What is the negative thing that's in your mind when I say phases?
-
-31:34 - Cuan Mulligan Because in my head, there were no phases. There is just the capability of having different bots. And then he would train them. So there is no phase. It's just a scope of the process.
-
-31:49 - Jorge Lewis But then the workshop could be broken down into phases.
-
-31:55 - Cuan Mulligan But what does a phase mean?
-
-31:58 - Jorge Lewis It allows the bot to focus on one specific task more, more accurately.
-
-32:03 - Cuan Mulligan Like if, for example, I don't actually know if it matters because I don't, you're using, I'm using the word dance that hasn't translated. You're using phrases, not trying to listen. What I, what I want to avoid is the sense of something being hard coded to only do something and to actually build innate capabilities that can be trained for a person to do a job.
-
-32:29 - Cuan Mulligan Because if you basically have us, if you can give JP the ability to run workshops, and workshops have facilitator bots and participant bots, and participant bots can do different jobs. Then it's up to him to train it because then he can once you give him that capability He could say I'm doing a new workshop, right? I need a facility. I need but one facilitator type but to Market review and this is its job and we could have templates of prompts in the library so they can prime each of those bots But you're just giving Lego as opposed to
-
-33:03 - Jorge Lewis solutions You're saying we shouldn't hardcode the bots, but the prompt of the bots is usually technically hardcoded. But you mean as in just, he can send us a revision and we can update it, or he can do it himself somehow?
-
-33:23 - Cuan Mulligan Well, my understanding is that in the same way I'm going to have an interface to teach the bot. How is that any different to this?
-
-33:33 - Jorge Lewis Um, it's pretty similar, but the difference is that yours is going to be providing feedback to the bot. His is probably going to be changing the actual prompt of the bot. His one's like going to be barebone at prototype. We shouldn't be trying to, if there, if the interface isn't necessary for the prototype, who's he showing the prototype to?
-
-33:49 - Cuan Mulligan I don't know.
-
-33:52 - Jorge Lewis Is it? It doesn't matter. I mean, yeah, if it's it's no one, then he can work with us to produce a prompt that gets good results, because we shouldn't be spending extra work trying to build the interface for for the system if that part if the initial part doesn't work.
-
-34:15 - Cuan Mulligan Maybe.
-
-34:15 - Unidentified Speaker Yeah.
-
-34:19 - Jorge Lewis Anyways, yeah, so that's so Yeah, I'll get, by Monday we can start with this. Do you think JP will be good to go by then?
-
-34:32 - Cuan Mulligan We'll see, yeah. It's not typical to run one, so.
-
-34:37 - Jorge Lewis Yep.
-
-34:38 - Jorge Lewis All right, cool. Well, thanks so much, Kevin, for your time. I'll get back to you regarding the contract probably going to be sent over tomorrow for Adapt. No worries. And for Story, we'll be just designing some more architecture. Probably the example would really help if you could get that. You think you'll be getting that by probably Monday, right?
-
-34:59 - Jorge Lewis Sorry, which example?
-
-35:01 - Jorge Lewis For the workshop.
-
-35:04 - Cuan Mulligan I've got to see when JP's available. I'm going to let you guys know. We'll schedule a time.
-
-35:07 - Jorge Lewis Okay. Okay. That works. Yeah. Cool. Cool. That's good.
-
-35:10 - Jorge Lewis Thanks.

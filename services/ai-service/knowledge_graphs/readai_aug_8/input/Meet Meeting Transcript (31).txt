@@ -1,408 +1,0 @@
-Meet Meeting 
-Mon, Jul 1, 2024
-
-0:00 - Eksno Yeah, I can.
-
-0:01 - Eksno You cannot.
-
-0:03 - Eksno I noticed during that archival, literally if I'm facing towards you. Yeah, I can hear my echo when I look towards you. I went back and just turned around when I was talking during the call earlier, because then it wouldn't echo. It's like a cardioid mic or something.
-
-0:26 - Eksno So no echo.
-
-0:28 - Eksno Very tiny in the background.
-
-0:33 - Eksno Maybe if you moved one chair to the right, there wouldn't be any.
-
-0:38 - Jorge Lewis I can go to that table. Okay.
-
-1:00 - Jorge Lewis Yeah.
-
-2:08 - Eksno Yeah, very good.
-
-2:15 - Jonathan Phillips Very good.
-
-2:15 - Jonathan Phillips What time is it over with you?
-
-2:18 - Jorge Lewis Is it just on nine?
-
-2:19 - Jonathan Phillips Have a good day.
-
-2:44 - Jorge Lewis Is anyone else joining?
-
-3:00 - Jonathan Phillips I'm just going to get my volume up here. I'm not quite hearing you.
-
-3:06 - Jorge Lewis Sorry, go again.
-
-3:10 - Jorge Lewis Is it my mic?
-
-3:13 - Eksno Your mic is fine.
-
-3:14 - Jorge Lewis OK. I was just asking if anyone else is tagging along today.
-
-3:20 - Jonathan Phillips I've asked Kieran if he wants to join us, but he's got a busy day, I think, at the office. Let me just have a check.
-
-3:31 - Jorge Lewis It is recorded, so I could send it to them as well.
-
-3:34 - Jonathan Phillips Cool.
-
-3:39 - Jonathan Phillips Right, I mean basically nothing sophisticated, just wanted to give an overview of what I see the project being as a whole, just so that you can start to position in your minds what you need to do, sort of what the end goal is. And what we're trying to achieve because it's probably a mistake if I keep everything in my head and then expect you to know it. So that's not going to work very well. So hopefully this will just give you a quick overview of what the concept is. I prepared sort of like four or five quick slides and they are just basically mock-ups of the way I think things could be done. And again, I have no prescribed idea. This is just a complete sort of sandbox for discussion. I have an idea and a vision of what I think we can achieve. But obviously, I'm very happy to take your knowledge and the direction that you think it could go in as well.
-
-4:42 - Jonathan Phillips Great. Sounds good.
-
-4:44 - Jonathan Phillips Right. So if I just show you these slides, Well, I've got so many windows up here. Let's try this one.
-
-4:58 - Jorge Lewis I can see it.
-
-5:11 - Jonathan Phillips Right, so if I...
-
-5:17 - Jonathan Phillips I'm going to stop something because I'm doing the whole window there. Let's try it again. Technology failure. All right, so.
-
-5:42 - Jonathan Phillips The way I see things, we're targeting small businesses and people who aren't very marketing or business savvy. So we want something that's very, very simplistic. If we can get everything onto one screen, I think all the better. This doesn't account for the likes of the admin screens and the backend stuff. This is just purely usability-wise. So originally I thought maybe we could have the journey of the framework on the left-hand side, a chat area, guides and supports, and obviously any output together. But it does kind of crush everything a little bit together. So what I thought was that we could then move over to something slightly different. Which has a toggle feature at the bottom on the left hand side.
-
-6:43 - Jonathan Phillips So basically we can have the chat area expanded, it's possible to have a better discussion and then when you want to look back on where you are in the frameworks you can toggle.
-
-6:57 - Jorge Lewis Can you just go back and forth between one and two?
-
-7:00 - Jonathan Phillips Yes, sure. So So as far as the toggling goes, the toggling will be more like this. So it wouldn't go to a new window on the left. It would pretty much take up the chat area. So you can have a look at where you are, and then you go back to the chat area again, rather than have another column, so to speak.
-
-7:20 - Jorge Lewis Yeah, I just have a suggestion. This is all pretty, I mean, this is not really important information, but this is just a suggestion for Laying Down the Road, since we're just kind of throwing things out there. An idea is having the left, like having it as a column on the left, where only the letters of story are shown. And then if they hover over it, then it expands into saying what they're doing, or like an arrow button where they can toggle it.
-
-7:47 - Jonathan Phillips Absolutely, absolutely. Again, this is just an idea so that you can get in your head what we're trying to achieve. So as far as the cosmetics, the base functionality, again, it's not been thought through that clearly. So again, when we're talking about multiple agents, so that the user knows where they are, we could have something where they have a little avatar, so they know in the chat window who they're actually talking to. And it also personalizes the whole journey so that they feel like they're actually talking to a person rather than just the machine itself.
-
-8:24 - Eksno I think I recognize that avatar.
-
-8:27 - Jonathan Phillips I think you do.
-
-8:30 - Jonathan Phillips So the last one here, again, on the left-hand side, the chat area, but on the right-hand side, more detail on the two sections, the top section. So this would just be guides and supports on the particular area you're on with the framework. It might include a couple of templates or a spreadsheet you might need to download. And again, this would be stored here. You'd have the opportunity to download or view depending on what it was you're looking at. It might just be a guide, an A4 page of thinking, so to speak. So you have a read of it and it gets you thinking, and then you can actually discuss with the chatbot how to actually take that forward. The output at the bottom right Again, it's just a, we're gonna have so much sort of output as far as bits and pieces, we have a scrollable window, and then the cumulative plan, and again, we won't call it a marketing plan, we'll call it something else, but just for sort of a positioning at the moment, we have a plan that everything comes into, so at any point, you are building this one document at the bottom, And then that is your output, so to speak. And again, if you manipulate any of the documents, it will then change your output at the end.
-
-9:52 - Jorge Lewis Is the cumulative marketing plan, is it literally just all of the pieces put together or are they combined in a sneaky way?
-
-10:04 - Jonathan Phillips Again, open to suggestion for both. If we can combine it with some lead in and lead out for each one, all the better. We just want to make it easy to use. But again, we are sort of wanting to decrease the amount of functionality that will extend the development period. So we have a list of brilliant things we'd like to do, but the reality is it makes sense to have something that works and then build on that as we go along, I think.
-
-10:33 - Jorge Lewis Yeah. Okay. One big thing that I want to make sure We go through and then also you separately on your own time is how we're going to be better than the other competitors because I, we still don't know if it's a smoke and fog and mirrors for the other companies, but what they're showing is quite promising. Like marketing. Have you had the chance to try them out or are they? Yeah.
-
-10:58 - Jonathan Phillips So, so, so they, at the moment, all they have released is a single box doing social media. So they talked about having this virtual marketing agency with all these bots talking to them, but it doesn't exist at the moment. And I think it will take them a while to do that, as it will for everybody at the moment, unless somebody saw a vision many months ago, which no one else did, which I don't believe. However, this one bot that they have at the moment isn't very good. It is a very poor implementation of what they should be doing. Considering the person who starts the business is a marketeer, and their background isn't a software company or development. They have built something that has missed the point. It really has. So I feel good the fact that they haven't built this all singing, all dancing bot that does fantastic stuff. And then the next level is they're going to integrate it with other bots. They're not there yet. They really aren't. So they haven't perfected it. And even if they bring them together, the bots, I don't think they're going to do it properly at the moment. So kind of a relief.
-
-12:06 - Jorge Lewis showing how they did the first step, I can see there's a bit of a dilemma they're going to have, which is, should we transition the entire thing or should we try to continue with this and having separate bots and try to combine them? They're going to have a dilemma on the tech side.
-
-12:22 - Jonathan Phillips However, again, one of the key requirements for me is to go to market as soon as possible, as it is with every business. So I thought maybe there's the possibility of the first phase actually building a single bot that mimics multiple bots. It wouldn't necessarily have the technical functionality of a multi-agent system. But for the purposes of what we're trying to achieve, it will probably achieve 80% of what we want. And as a first get out to market, it might be good enough. I don't know. But I've put some thought around it and I can send you some thinking if that makes any sense. I don't know how quick I don't know if it would reduce the development time by half or by 25%. I don't know. But I think it would be something worth considering. Because again, once the interface is done and the bot, we can do the multi-agent thing simultaneously once we get moving.
-
-13:37 - Jorge Lewis So in terms of the tech side, I hope Jonas, I think, I don't know if you're okay, I think you're frozen. In terms of the tech side, Jonas correct me as well if I'm wrong, but I don't think that'll save us time since behind the scenes, we're better off doing the multi-agent thing from the start. Like what I can see is, maybe this is what you're referring to or I'm mistaken, but just a single bot that goes through the workshop.
-
-14:03 - Jorge Lewis Yeah.
-
-14:05 - Jorge Lewis Okay. Um, I don't, I think the multi, I think we should go for the multi-agent off the bat. I don't think it's, I don't think the work, the difference in work is worth it because this one won't be very capable. It's not going to be very impressive. And I don't, I don't think it'll, I don't think it'll be able to achieve kind of the purpose of this, which is to, to really build a strong marketing plan and to educate the user. Maybe, but I think the effort that's going to be put building that and making sure that's working like to our quality is going to be the same as if making a multi-agent system out of the box.
-
-14:46 - Jorge Lewis You wanna say something Jonas?
-
-14:49 - Eksno Yeah, I think it will actually take longer optimizing a single agent to be anywhere close to the quality that we want out of it. How I like to think of multi-agent systems currently is basically taking one big bug that's trying to do, for example, five different tasks with this huge prompt, and just taking each of those prompts, separating them, and then having them... It's basically calling the LLM using one prompt at a time. It makes it easier for us to implement, actually.
-
-15:32 - Jonathan Phillips I mean, it was just throwing the idea out there. Obviously, if it was something that would decrease development by a considerable margin, then it would be worth, I think, at least having a discussion about how we implement that.
-
-15:45 - Cuan Mulligan Bye, Brian. Hey, guys.
-
-15:47 - Cuan Mulligan How's it going?
-
-15:48 - Cuan Mulligan Hey, how's it going?
-
-15:52 - Cuan Mulligan So I didn't add this in the calendar, so I didn't.
-
-15:55 - Jorge Lewis I forgot it was calendar.
-
-16:00 - Jorge Lewis Yeah, JP's just gone through the four slides, kind of the UI, to show what it should look like, And then we discussed if we should start first with a single agent or a multi-agent. We're leaning towards multi-agent, just the way JP described it feels like that's the better route to go.
-
-16:18 - Cuan Mulligan I don't see a proposition. I don't see the single agent proving anything.
-
-16:22 - Cuan Mulligan I don't see any learning.
-
-16:27 - Jorge Lewis Um, yes. Okay. So now that we've gone through that, uh, is there, is there anything before that? Cause I do have, I kind of want to update in terms of our side, what's been going on, but anything else you want to kind of share?
-
-16:40 - Jorge Lewis Cool.
-
-16:40 - Jorge Lewis Uh, so yeah, the past week or two weeks, I can't remember. We've been looking for new developers for AI developers specifically. Uh, actually what line chain, which is the framework reason. So they're, they're experienced with lynching. We found two that were kind of, what do you call it when you're just paying them or paying them pretty much like a trial where we're doing like a trial with them.
-
-17:08 - Unidentified Speaker Yeah.
-
-17:08 - Jorge Lewis Just testing them.
-
-17:10 - Jorge Lewis Yeah. Just, just testing them. Really. One of them is super promising. Um, The other one hasn't clicked yet. We're still waiting to see is there potential, is there not potential, and how much effort would it take to get it. And then on the other side for the website, which JP, this is not kind of relevant to you more for Kuwin, but just for the website, we're onboarding one web developer. So we're going to be testing him with LMS. And if he doesn't work out, we'll have Nazif work on LMS. And he's going to be done on the project he's working on in a couple weeks, two weeks.
-
-17:47 - Jorge Lewis Um, yeah, so with that said, I do think we do have the capacity now to, to take on story for, um, for an MVP, but also I'm still thinking that. I think we should still move forward with the POC as the goal, because with that in place, then we can decide to move forward or not. Um, what do you guys think? Because I think to reach the MVP, we're going to have to reach the POC regardless. There's a little bit of overlap that we want to avoid if we were trying to go straight to the MVP.
-
-18:24 - Cuan Mulligan Apologies if you've already covered this. Can someone like yours or Janos, can you guys paraphrase what the difference between the MVP and the POC is? Three letters.
-
-18:35 - Jorge Lewis Yeah. The POC would just be one, well, like three pages, the user's chat page, the admin page to change the prompts. And then we'll just leave it at those two, really those two main ones, maybe some accessory ones, but those are the two main ones. And then the MVP would be some...
-
-18:57 - Cuan Mulligan Sorry, forget about the solutioning of the, of the, of the MVP. What can I get? What can I do?
-
-19:04 - Cuan Mulligan What could we do as a, as a, as a IntelliAgent?
-
-19:09 - Jorge Lewis With a POC, you'd be able to let people try it out. You'd give them the URL, and they can go try it out. No sign up, nothing like that. Users would be able to sign in, pay for it, the user onboarding stuff.
-
-19:21 - Cuan Mulligan Does one do the other? Is one the first part of the same path? Because a lot of POCs are disposable. You're not intending to build upon it. Because I can see a legitimate case where the first phase of the MVP is functional because sign up, blah, blah, doesn't prove anything. It's necessary, but not sufficient.
-
-19:45 - Jorge Lewis And those things are added on as well. They're not something where you need to throw away the smaller thing to add those on.
-
-19:53 - Cuan Mulligan Yeah, because a POC can be self-contained and completely disposable. It's purely just to prove something. If you're doing an MVP approach, the first phase is functional, and then you would add on the necessary reg pages, sign up, blah, blah, afterwards. Then that's just the sequencing of the MVP as opposed to a POC or MVP. So I think I just want to tighten up on the language there. No one's wrong. By the way, it's just a difference. I just want to make sure that we understand.
-
-20:21 - Jorge Lewis Yeah, it's a good point. What's the main difference behind the MVP and the POC for you, JP? Is it more of just you're trying to say, let's let us move forward with this, or is there actually something that specifically you're thinking of
-
-20:37 - Jonathan Phillips When we originally commissioned the proof of concept. It was a little while ago and we were sort of dabbling with the premise that a multi-agent model might work, might not work. We wanted to see it in action. I think now it's not as important because I think we're pretty comfortable with where the market is and who's doing what and it's moving forward very fast and I don't think we need to prove the concept as such.
-
-21:08 - Jonathan Phillips However, we would like something to show people that we're really nice. If it deflects from us moving on with the MVP too much, then it might not be worthwhile.
-
-21:24 - Jorge Lewis Okay, so I don't think it'll deflect too much, Jonas, you might want to correct me, but what I think would happen is we'd build something very similar to the POC and be able to reuse most of it for the MVP. The big thing that I don't think we'd be able to reuse is something like designing, going from kind of hard coding one workshop into trying to make it so that giving you the capability to create all the workshops, something like that. And then also the different, these are the things that would be added on, but they're kind of, they need to be integrated, which are things like the, uh, the file management that you showed us in those slides, like the file management, the, what was the top one? Just the, those two on the right side, I can't remember.
-
-22:08 - Jonathan Phillips Yeah, the guides and the references are top right and the output at the bottom.
-
-22:14 - Cuan Mulligan Apologies, I don't know what you showed them. Is this the same thing that we were talking about the other week or have you evolved it?
-
-22:21 - Jonathan Phillips I've evolved it a little bit. Let me get it up again.
-
-22:28 - Jorge Lewis So is marketing trying to be, are they trying to execute the plan they make as well?
-
-22:37 - Jonathan Phillips like automated?
-
-22:39 - Jonathan Phillips Yes.
-
-22:42 - Jonathan Phillips We can only go by what they've explained in their marketing blurb. There's nothing to show that there's any reality with it yet. It's just a lot of marketing screens.
-
-22:54 - Jonathan Phillips Can you see that, Curran? Yeah. Right. So, so originally the idea was potentially something on the left with the, uh, where you are in the, in the journey through the framework, chat area in the middle. Guide and support to the particular area of the framework you're in top right and then the outputs bottom right. And then I thought maybe it'd be better to have a toggle at the bottom of the chat screen rather than have an extra column so that you could toggle up and down the framework whereabouts you are. Then the thought was we'd have some avatar so that we could personalize which bot or coach you're working with, because then it would feel more of a personal experience than you were actually working with people. And then lastly on the right hand side, Just elements there where you're able to download or view various templates or spreadsheets, depending on where you are in the framework with the top right bit, or maybe it's just a reference sheet. And then the bottom right, the outputs, a scrolling number of documents that you're creating as you go through the journey, and then accumulative documents at the bottom, which is pulling all that in together.
-
-24:14 - Cuan Mulligan Cool. What are the other screens? Are they just variations of the same thing, or?
-
-24:17 - Jonathan Phillips Yeah, yeah. I mean, basically, it's just my thought process of originally having the three areas, and then having a toggled area on the left, and then personalizing it a little bit, and then having more detail on the right-hand side.
-
-24:31 - Jorge Lewis I have a question.
-
-24:34 - Cuan Mulligan How I mean In one way me shutting up now is probably a good thing because you guys will probably get alignment and another way It's a really dangerous thing because I could open up doors box with the level of questions. I have What do what do you want to do?
-
-24:52 - Jorge Lewis I Just have a question for the It didn't look like it but it looked like you only wanted to one bought to try to the to chat to the user at the same time Ideally, I'd like a Zoom screen
-
-25:09 - Jonathan Phillips with nine human-looking people all talking together, but we're not there yet. So I wanted to keep the simplicity to start with. If we have multiple bots all there at the same time, I would imagine it adds another level of complexity, which will take us longer to go to market.
-
-25:31 - Jorge Lewis I think I think for what you're trying to prove with intelligence, I think that should be what we're trying for. Because it's what you described to me the last time we spoke was how it's like a tape, you're sitting at a table where anyone can chime in at any point where they think they have something important to say. And if it's only one part at the same time, then you don't have that.
-
-25:51 - Cuan Mulligan Yeah, I mean, from a level of excitement point of view. I like the layout and the style, but having one bot, for me, I can go and do that. From an experiential point of view, I can go and do that on our tropics right now or Chachi BC. I think the multi-agent thing is that there's two things I would add to that. If you could just bring up the screen for two seconds, JP. And by the way, guys, JP, shut me down if you don't want to go down this path, by the way.
-
-26:23 - Jonathan Phillips No, go for it.
-
-26:26 - Cuan Mulligan So can you go to the one slide four with the bot? Personally, for me, the framework is a nice guide, but it was taking up too much retail space. So the fact that you brought in that toggle, I think is the right thing. I think in this chat or this workshop chat window, you have to see the team you're working with. I think it's really important that the team is there. I think the other thing that's really interesting on the guides and support, I think there are other bots that are sitting over there offering you dynamic guides and going, oh, imagine a load of junior consultants who don't say anything in the meeting, but are busy working away. And they give the partner, I just found this, because that's their job. They don't say anything in the meeting, but they make the partners look good. So if you look at the partner grade bots being the ones that are talking to the client, but they have bots in the background doing research on other names, other, I keep on going back to this mission statement thing. Like let's say this workshop was getting towards their mission statement and another bot is out looking at, oh, that sounds very similar to Tesla as well. And so it would pass that information or it would provide a tip. In the guides and support. For me, the multi-agent is the thing. That's the killer punch. Without that... I think so as well. I think it's a real...
-
-27:47 - Jonathan Phillips I agree, but I think this is probably my mistake for dumbing it down. I think what I need to know is if you were going to develop something similar to what I've sort of suggested there as a first draft, If we're going into a sort of environment where it's really dynamic, you've got multiple bots doing different things on the screen at the same time, what are we talking in development time between the two? I know it's a piece of string, but...
-
-28:19 - Jorge Lewis So your goal is to minimize the development time while introducing the main feature, which is building a marketing plan while educating the user, right?
-
-28:35 - Jorge Lewis Okay. Okay. Could you ask the question again? I just wanted to make sure that was clear. Sorry.
-
-28:43 - Jonathan Phillips Yeah. It's basically the dumbed down version I've given you. What's the difference in development time and effort for something like that, as opposed to a very dynamic environment with lots of bots working together visually on the screen? What elements are we talking of differentiation? Are we talking months?
-
-29:05 - Jonathan Phillips Many months? It's very difficult because it's how long is a piece of string, but what in your eyes is the difference?
-
-29:16 - Cuan Mulligan Can I have a time to extend that question a small bit? So as I understand it, IntelliAgent is about having multiple bots that can interact to achieve an outcome. And that workshop has an outcome and potentially a process associated with it.
-
-29:45 - Cuan Mulligan If you have those building blocks, I think you can do lots of shit with it. So I try to genericize things as much as possible. If you take ADAPT, what does ADAPT give IntelliAgent as a core capability? It's to have a bot and to have an administrative screen that can give that bot feedback to do something. What's missing is the ability for another bot to interact with those bots and for that interaction to be refined at scale for multiple bots. And then the third part that's missing is the sense of a workshop, where a workshop might have guides, it might have an outcome, and it might have a process, some steps to do there. So I think if you give us those building blocks, or you give JP those building blocks, Like, I don't know, technically, you might say, well, actually, 1 to 2 working together is one problem. 2 to is fine. Actually, 50 bots is a real problem. What's the scaling issue on the number of bots versus the workshop capability in terms of having an outcome and then the process to achieve it? Because I think there's some capability already in Adapt that we would be looking to enhance around this. So we're not starting, IntelliAgent really isn't starting from ground zero.
-
-31:04 - Jorge Lewis Okay. I'm going to answer JP's question first, which was, what's the difference between what he showed and what we would try to make, which is the multi-agent? I think there are two, behind the scenes, I think there are two different, like, Very different designs, two different branches. If you go down the single agent, you're going to really spend time trying to refine that one. If you go with the multi-agent ones, you're going to really go down the branch, trying to refine those ones. So I don't know if you're really minimizing anything by picking the one that looks more complicated.
-
-31:37 - Jonathan Phillips Sure. The screens I showed you was still multi-agent. It was just discussing with one at a time. So that wasn't single agent. It was just showing on the screen. But is it just an interface thing with multiple bots talking to each other, or does that lead to a lot of complexity in the back end? As a visual, that is.
-
-32:01 - Jorge Lewis From the visuals, I don't know. How would you have a multi-agent with just one bot at a time?
-
-32:08 - Jonathan Phillips I mean, ultimately, the idea of the multi-agent model is that they all have a very niche area of expertise. So when you are in a certain, let's say, marketing area, you need a certain bot because it knows that area inside out. Of course, there's the potential for them to talk to each other in the background and come up with a solution, which is then presented to the user. If it's presented in one dimension, as in, I've spoken to the bots, this is what we thought of, that's the presentation back to the user. But if it's in real time with them talking to each other and having a conversation and then presenting, that's obviously a whole different interface.
-
-33:05 - Eksno I don't think it's a question of if it should be multi-agent or single agent really, since I think it's definitely multi-agent. We're using multi-agent in the dApp now because it's easier to make the processes like check-in to be complete and be accurate when it's multiple agents because we're able to refine the prompt so much more to what the situation is. So I don't think it's a question of whether we should go down the multi-agent path or the single agent path. It's just how we should model the multi-agent path.
-
-33:39 - Eksno So of course, levels of complexity, we could have as low as two or three bots, one strategy, one researcher, up to having a full team of juniors working asynchronously from the main team, which has their underlings. I think it's more of a question of how deep should the, how many bots should there be, and how we should model that structure.
-
-34:09 - Jorge Lewis I'm going to answer Cuan's question before I forget, or before it gets blown away. I don't know, I think it has. Okay, yeah. So what's the difference between going from 2 to 3 bots compared to like 10? What I can imagine is that once we have a system made where, for example, for the first workshop, understanding UI, I believe, right?
-
-34:38 - Jorge Lewis For that one, let's say there was like three or four bots. I think that can be scaled to any number of bots because the system that we'd be using or the design of the graph that we'd be using would be irrelevant to the number of bots. The system would be more of what we call the supervisor, which is determining who should speak. That's the main thing, depending on if there's a group of three people and 10 people, it'll always be who should be speaking now. That's the main issue. So I think in terms of bots, it'll be scalable.
-
-35:10 - Cuan Mulligan You mentioned something there around the workshop, like the values workshop. Why does it matter the nature of the workshop? Can we not just design the attributes of a workshop, whether that be it has an outcome, it has guides, it has a process. I'm making shit up, by the way. I'm not saying that. And so process our steps. You have to train, there's a facilitator bot that would always understand the process of their holding court in terms of how you move through it. Because then we have the capability, because we know we're going to have multiple workshops or steps, whatever you end up calling it.
-
-35:53 - Jorge Lewis So what I think is if we're able to lock in the supervisor, or the system that determines who should be speaking, Then from there, we can say, OK, now the easy part is giving JP the access of which agent should be in this workshop, which prompt should they be using, and what is the workshop? Describe the workshop. Then we can do that. But before we're able to get a system that gives us that capability, I don't trust just trying to mix and match.
-
-36:31 - Jorge Lewis Make sense?
-
-36:34 - Jorge Lewis Sorry, I'm really tired by the way.
-
-36:39 - Eksno That sounded very arbitrary to where I'm not sure where I want to apply those statements you said.
-
-36:48 - Jorge Lewis So we want to experiment with one workshop first so that we know the system we've made and we apply it to multiple other ones. And even then, let's say we I don't think it's a big issue with JP spending a couple hours a week making new workshops with us, in terms of hard-coding. In terms of scalability, of course, that's not the goal in the next year, but for the first few months, I think that's also doable.
-
-37:18 - Jonathan Phillips Why do we need to hard-code the workshops if we are going to train the bots on delivering them? Can we not just train the bots with documents and say, this is the workshop, please deliver it in this way.
-
-37:35 - Jorge Lewis In case there's a difference between one workshop and another where the graph has to be different, something like determining who should speak, if that has to be different between one workshop and another, that's for example, when something has changed or when in one system or one workshop compared to another, let's say the analyst agent should be given an extra tool to search an extra database or something like that. There's quite a few things, small things, perhaps.
-
-38:00 - Cuan Mulligan I think we need to understand what are the attributes of a workshop. And maybe it starts with those three outcome guides and steps, for want of a better word. Let's try and run the first workshop and then see what attributes are missing so that we can enhance that. So we're building a workshop capability as opposed to just hard coding it in. And then the problem is as soon as you start going down the hard coded path, They'll be like, oh, people are excited to see this. Let's hard code another one, and then another one. And then you overinvest in that path. And I think we should be able to do a reasonable bit of brainstorming architecture to figure out what do we believe will be the starting set of attributes to describe a workshop so that you have a workshop designer page, for want of a better word.
-
-38:56 - Cuan Mulligan Because you're going to have to have it anyway, more or less.
-
-39:03 - Jorge Lewis Or we could also have JP describe. We could format. So in the same way, we figure out what is a workshop, what are the different aspects of it. Sends us the documents, and then we code it. You're saying that won't work, but why?
-
-39:24 - Jorge Lewis Say that again?
-
-39:26 - Jorge Lewis So instead of giving you the workshop designer. Inputs the data just in regular text that he would in the workshop designer page. And then we make it in code. That's assuming that making the designer would take a lot more time than it's worth in the first initial few months than to just hard code them. Because also by hard coding them, our team also learns how they should be interacting better. We also figure out workshops better.
-
-39:59 - Jorge Lewis So yeah, is it really a big deal that we can't, that they're hard-coded or?
-
-40:07 - Cuan Mulligan I don't believe hard-coding is part of the longer-term solution. I think we're trying to find a workshop capability. So if you're basically saying there's a learning process and we're going to hard-code stuff just to get it functional so we can understand the attributes, But that means that's all disposable, and we would not have that in the second workshop. I'm just trying to challenge the approach by trying to preemptive. Knowing that we want to get to the fact that we have a workshop building or designer capability, I think we could have a, like, if we spent an hour brainstorming the components of a workshop and what you need to do, I think we'd have a reasonable go for a V1.
-
-40:51 - Cuan Mulligan Which I think you're going to need to do anyway to design a workshop. I just think we're going to be controlling it through variables, which then ultimately will come into a screen just to design it. I might be oversimplifying it.
-
-41:06 - Jorge Lewis Jonas, you can raise your hand using the button, by the way.
-
-41:09 - Jorge Lewis Yeah, but that's so much harder.
-
-41:11 - Jorge Lewis It's kind of funny seeing Jonas just raise his hand over there.
-
-41:14 - Eksno It's so much easier to do this than go to my track pad and go like, OK, where's the button?
-
-41:18 - Jorge Lewis There it is. I get a noise when you click the button, though.
-
-41:24 - Eksno Yeah. You haven't failed to do loads with me. Anyhow. I think the first one, we should definitely hardcode. I think hardcode is a bit of a misleading term because what we make while hardcoding will largely be copy-pasted over to the next workshop, and then we just change what we need to. And for doing that a couple of times, we should have a very a very clear vision of exactly what needs to change per workshop, at which point we should be in a very good position to create a workshop designer. It will be a whole lot better than if we just created a workshop designer off the bat without having created workshops individually by hand first. It's like trying to create Photoshop without ever having edited a photo.
-
-42:16 - Jonathan Phillips So when you say hard code, sorry, when you say hard code, where, where are you hard coding? What elements of the, of the tech is being hard coded? Does that make sense?
-
-42:29 - Jorge Lewis The connections between the agents, the tools the agents have, um, those are the two main ones. Anything I'm missing?
-
-42:40 - Eksno No, I don't think so. Yeah, it's connections between the agents, how it's decided which agents speak, who the agents speak to, and how the dynamic works, along with what tools they have. So like what codes they can execute, for example, create this thing, create this PDF file, and such.
-
-42:59 - Cuan Mulligan So the question, and I go back to this, JP, as well, is the values workshop I understand sequentially that makes sense to be the first one, but in terms of a wow factor and something that's discreetly usable, is that something that people are going to go, I'd use that tomorrow and I'll wait for the rest of it to come?
-
-43:23 - Jonathan Phillips Well, I mean, it's not going to be a commercial proposition anyway, really.
-
-43:32 - Jonathan Phillips So just from my basic understanding, when we do the element of hardcoding, it's still a free conversation between user and agents? We're just hardcoding the process, how the bots interact. Is that right?
-
-43:49 - Unidentified Speaker Yeah. Okay. Yeah.
-
-43:53 - Jorge Lewis So I think just kind of to summarize, To summarize, it's no doubt we'll do the first workshop hard-coded to understand what is a workshop and the system behind it, and then from there we can re-evaluate.
-
-44:11 - Eksno It's not only understanding what is a workshop, it's understanding what is the way to implement that workshop. And doing it hard-coded inherently will give it a lot more quality because we can, like, form it to the shape of the workshop a lot more accurately. And over time, figure out what's more generalized to where we eventually can create, like, a workshop designer where the graph is automatically generated or something like that.
-
-44:43 - Jonathan Phillips And rough timescales on that, I know it's again a tricky one, but what are we talking about days, weeks, months?
-
-44:50 - Jorge Lewis I'm gonna be totally honest. Kewin's project has made me realize I suck at estimating, so I'm not going to give a number without thinking about it. So I mean months, yeah, not years for sure, but with their new So I noticed one cool thing, by the way, about the presentation you had was that there was a document kind of manager there. So the agents would be able to read and manage and help work on those actual documents. That's a cool feature. But anyways.
-
-45:34 - Eksno Jonas, how about you give a number?
-
-45:41 - Cuan Mulligan So Jonas, I'm going to ask you a slightly different question. If everything goes as absolutely phenomenally good as it could go, how long do you think it would be? And if everything goes tits up, how long do you think it'll be?
-
-46:01 - Eksno And it will depend on a lot of those integrations. For example, the document manager that Jorge mentioned, then we'll have to code in the tools for it to open those documents, always check up, make sure it's validated with those documents so they don't just make up something that's conflicting. With the documents, something like that could add a lot of time and remove that lagging. I planned first, but yeah, I think months for the final products, but I don't know how long until you'd have something you can start playing with.
-
-46:38 - Jorge Lewis I would say...
-
-46:38 - Cuan Mulligan Sorry, did you say two months?
-
-46:42 - Eksno As in months, I don't know how many, but less than six, I'm pretty sure.
-
-46:51 - Jorge Lewis Okay. I was going to say best five, tits up 10.
-
-47:01 - Unidentified Speaker Months.
-
-47:02 - Cuan Mulligan Yeah.
-
-47:05 - Eksno from the final release with two users, like with monetization and everything, or the scope of that estimation?
-
-47:15 - Jorge Lewis Yeah, yeah, just everything.
-
-47:18 - Cuan Mulligan Yeah, just everything.
-
-47:19 - Cuan Mulligan So what I'm going to suggest is, I'm not disagreeing with your time, but taking learnings from ADAPT, I think what we need to do is actually have some very detailed architectural brainstorming sessions together to really start taking this out. I guarantee, and this is not a blamey thing, I guarantee you you're making assumptions that are making this bigger. I guarantee you we're making assumptions that are making it smaller. And I guarantee you we're all not talking about something that's really important. That's what I do know. So interesting ballpark. I would actually say we probably need a good half day going in whiteboarding in real time the architecture and actually forming a proper backlog on the back of this. Taking this inspiration from JP and actually forming a proper project backlog. Breaking that down into similar sized chunks of work and say, right, we think that thing is a day's worth of work. You've done three of them. Actually, they're about two days each. So now you've just doubled your backlog in terms of duration. That's the best way I would advise you guys to start managing the time for other things.
-
-48:34 - Cuan Mulligan Broadly at five months, how big a team are you putting on that?
-
-48:42 - Jorge Lewis Probably two pairs or even one. It depends.
-
-48:50 - Jorge Lewis What's the burn rate of that on a week?
-
-48:58 - Jorge Lewis We'd have to go back at the numbers since there was a... Yeah, we'll have to go back at the numbers for that one.
-
-49:05 - Cuan Mulligan But broadly, you should have an idea of what a team costs per week.
-
-49:12 - Jorge Lewis We used to, but we're going to change it up, and I don't want to set expectations anywhere, so...
-
-49:20 - Cuan Mulligan So when can you give us a heads up? Because, you know, suddenly five months, is a significant investment.
-
-49:29 - Jorge Lewis Yeah, we do project-based. So that time is going to be proportional to the cost. But we prefer to do project-based rather than anything else. So the final quote that we usually give is project-based. But I'd be able to give you a number. Well, I mean, for the quote of the project, it would have to be after we do the outlining and figuring out what are the actual features of this.
-
-49:54 - Cuan Mulligan Yeah, I think that in the live coding session, But ultimately, no matter which way you skin the cat, you have a basic burn rate per team per week. Whatever we work out, whether that workshop pushes it to two months to 10 months, whatever it is, you're still doing a week multiplied by a cost per week multiplied by number of weeks estimate, that's the only variability. And then you've got scope. So your maths, the maths, like whether you understand more or you understand less, the only thing that increases the number of weeks, not the cost of the team per week. So the cost of a team per week is static. What's variable is the number of weeks.
-
-50:36 - Jorge Lewis So what we need from you- I'm telling you, we haven't calculated a number for the price of a team yet. That way we're going to price it up.
-
-50:44 - Cuan Mulligan When do you think you can come back to us with a price per team for a week?
-
-50:48 - Jorge Lewis One to two days. All right, fine, cool. Tomorrow night or?
-
-50:52 - Cuan Mulligan That allows us to understand what the investment is going to be, what we think the potential contingency budget we would need and timelines. My gut feeling is that I think there's some really nice features here and I think that we could properly prioritize them and kick some of them out into post MVP and actually do a more refined version. I'm very, very hesitant to start going down hard-coded solutions in a five-month project That's because you're talking a significant investment of time, a significant investment of money. Honestly, five months is painfully long. I'm not saying that you're slow. I'm just saying the market's moving so quickly.
-
-51:41 - Cuan Mulligan The market, yeah.
-
-51:43 - Cuan Mulligan So that just doesn't seem feasible to me. And that's what I would want to do in the next session is to start coming up with approaches and brainstorms that gets something out sooner that allows us to start showing people and getting investment potentially, or at least getting excitement. Something has to be usable.
-
-52:05 - Jorge Lewis And also just getting things on paper, really. That's also a big part of this.
-
-52:08 - Eksno Yeah. I don't think by the end of five to 10 months, we'd have one hard-coded workshop. I think that would be further along the time. Like I said, less in six months he said five to ten months so we haven't estimated that at all really like we still need to get the scope like what it would probably be better to do more like milestone because there are going to be a lot of milestones in this project where they're like first workshop, second workshop, workshop designer, just having the functional aspects down, having more necessary but slight functionality down that isn't more of proving that this works. There's going to be a lot of things, uh, the, uh, just prioritizing everything like that. And then being able to give you an estimate on when each step is going to be finished instead of just when is everything going to be finished? Because everything is so.
-
-53:12 - Cuan Mulligan So are you guys in a position to run that workshop? When, when do you want to run it?
-
-53:20 - Jorge Lewis Like the, the, um, I understand your one.
-
-53:26 - Cuan Mulligan So JP's asked for a product. It's very big in scope. You need to give us a quote. We've agreed that we need to run a workshop to take that high-level feature set down into a lot more version of reality while also looking at technical execution. That needs to be run so we can say, right, here's phase one of the MVP, and this is how much it's going to cost.
-
-53:50 - Cuan Mulligan you know, in that meeting, we will discover whether it's, you know, the nature of the workshop should be irrelevant.
-
-54:02 - Eksno So Jorge, it's a workshop we're doing with them. It's not a workshop we're creating.
-
-54:08 - Jorge Lewis It's the workshop to come up with a plan for intelligent. Yeah.
-
-54:13 - Jorge Lewis Yeah.
-
-54:15 - Eksno Okay. Is it the mix with this project?
-
-54:21 - Jorge Lewis I mean, the word workshop is not very, yeah. Anyways, okay, yes, we could probably do it some, today's Monday, sometime this week. Let's do between maybe Wednesday and Friday, second half of the week. Does that work for you guys?
-
-54:52 - Jorge Lewis Um, is there anything else we should go over?
-
-54:54 - Jonathan Phillips I'm good for the moment. No problems.
-
-55:01 - Cuan Mulligan Yeah, I won't be around. I'm around Thursday and Friday. I'm not, I'm not around Wednesday.
-
-55:05 - Unidentified Speaker Okay.
-
-55:08 - Jorge Lewis So we'll try for Thursday then.
-
-55:11 - Cuan Mulligan Well, I mean, I don't necessarily need to be there. You guys can crack on. Um, but happy to be there if you feel it might add value.
-
-55:24 - Jorge Lewis Yeah, sounds good. We can plan it out in the chat. Yeah, cool. Sounds good. Thanks for sharing the slideshow, JP. And thanks, Gwen, for your insights and your useful questions. No worries.
-
-55:41 - Cuan Mulligan Do you, oh, I don't know whether JP's, I don't know whether we've lost your audio, JP.
-
-55:46 - Jonathan Phillips No, I'm still here. Oh, OK. Can you hear me?
-
-55:48 - Cuan Mulligan Yeah, cool.
-
-55:51 - Cuan Mulligan Do you guys want to talk about the Adapt LMS, or are you burnt out, Jorge? I know it's late where you are.
-
-55:59 - Jorge Lewis Let's do it another day, because I also want to include the web dev that will be on that.
-
-56:04 - Cuan Mulligan OK. Can I just put something in your noodle for two seconds to sort of percolate and just sort of see when we come back to it tomorrow or later in the week?
-
-56:17 - Cuan Mulligan One of the questions, and JP, I welcome your thoughts on this as well. So the legacy thinking is, or the thinking to this point is, is that there was a web page mobile app with pages that you had your ADAPT program week one. And in the week one, day one, and you had all of your content for the day, videos, images, whatever, and you track your information. And then there's the bot. And we've been doing some role playing today, this morning, going, OK, well, I wake up, what happens? Well, I get a notification on my phone to say, hey, you've got stuff to do today, whatever the notification is. So I'm going to click that notification. That's probably going to take me to the chat for the bot. And it goes, hey, the weather's shit today, so make sure you wrap up warm. Let's say we can do that.
-
-57:07 - Cuan Mulligan And then at some point, I'm sort of thinking, I think if we're pushing the bot, I think the chat becomes the main interface, not the legacy clicky pages type thing. And then the question is, I was going, OK, so I think we're going to have to create a hybrid approach. And I had a really interesting shit experience with a bot recently, but actually it gave me some ideas for this.
-
-57:30 - Cuan Mulligan If, for example, I want to track my calories, I'd log in. I'd click on Eat. I'd enter 500 calories, 500, 500, Save. That's 500, Save, whatever, four clicks.
-
-57:48 - Cuan Mulligan If I want to do that through the chat.
-
-57:49 - Jorge Lewis But also the first one, eat.
-
-57:51 - Cuan Mulligan Yeah, so it's five clicks or six clicks, right? If I have to type that through the bot, hi, I've eaten this many calories, it's a lot more engagement. That doesn't feel like the most effective use of chat. However, let's say it's in the morning. We know you've probably done your walk now. I'm thinking about putting above the chat window some of these quick link buttons, which you might just be able to go, hey, If you haven't done your walk yet, what distance did you walk? And you can just put the number directly in there. So you have these floating input boxes. So a little bit like the sports app here called Sky Sports. They've just changed the UI. I don't know if you can see. Can you see down here the way they have those sports?
-
-58:40 - Cuan Mulligan Like on LinkedIn, right?
-
-58:41 - Cuan Mulligan These are floating. This is a floating menu that's always present if you want to navigate around the sports. So I can go up here on the page, but I've got this floaty navigation down here. So imagine the chat being down here. And this could be enter your calories, do your walk, these static things that are just quick inputs as opposed to having a chat. I think chat is much more powerful for other things. But we've got to try and figure out this sort of hybrid interface. And then I was thinking, like, Do we then, if we can do that really well, do we even need the LMS pages? I know we know that LMS for content management in the background, but in terms of presenting it, do we need it? Just a question.
-
-59:25 - Jonathan Phillips Well, my perspective is that you reduce the LMS as much as possible. That's the way that the industry is going. That's the way that the the way that people are inputting data, that's the way it's going. It's all going to go into chat soon.

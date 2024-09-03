@@ -13,6 +13,7 @@ langchain-openai = "^0.1.23"
 langchain-core = "^0.2.36"
 langchain-community = "^0.2.14"
 hypercorn = "^0.17.3"
+python-dotenv = "^1.0.1"
 
 
 [build-system]

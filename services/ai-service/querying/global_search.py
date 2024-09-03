@@ -47,6 +47,8 @@ async def global_asearch(query: str)-> GlobalSearchResult:
     )
 
     token_encoder = tiktoken.get_encoding("cl100k_base")
+    
+    
 
     entity_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['entity_table']}.parquet")
     report_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['community_report_table']}.parquet")

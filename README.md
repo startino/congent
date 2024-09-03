@@ -4,16 +4,17 @@
 
 # **Congent**
 
-**An open-source platform that allows for the creation of social media content from unstructured text, like transcripts of conversations.**
+**An open-source platform that allows for the creation of social media content from unstructured text, like transcripts of conversations**
 
-### ~~[Home Page (coming soon)](https://congenti.no)~~
+### ~~[Home Page (coming soon)](https://congent.starti.no)~~
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/startino/congent)](https://github.com/startino/congent)
 
 </div>
 
 ## What is Congent
-TODO
+Congent aims to provide a platform for creating social media content from unstructured text, like transcripts of conversations.
+It uses [GraphRAG](https://github.com/microsoft/graphrag) to analyze the
 
 ## Python Setup
 

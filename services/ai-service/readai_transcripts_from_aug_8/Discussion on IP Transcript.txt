@@ -1,244 +1,0 @@
-Discussion on IP 
-Sun, Aug 4, 2024
-
-0:00 - Jorge Lewis You're a dick.
-
-1:03 - Jorge Lewis Bye!
-
-1:34 - Jorge Lewis Good evening. How are you guys?
-
-1:36 - Unidentified Speaker Doing good.
-
-1:44 - Jonathan Phillips Excellent, excellent.
-
-1:46 - Jonathan Phillips How has the week been?
-
-1:49 - Jorge Lewis Long.
-
-1:52 - Jorge Lewis The weekend, I started travelling on the 2nd, the morning of the 2nd and it's now the evening of the 4th and I haven't slept yet. I don't know, I'm not tired yet. It's been 40 hours and we're still going good. So hopefully like 30 minutes in, I'm not just like, it just hits me. So we can hope for the best.
-
-2:12 - Jonas Lindberg We've got two North Lakers now.
-
-2:19 - Jonas Lindberg Jonathan's no taker on redeye.
-
-2:24 - Jorge Lewis That's not your guy?
-
-2:26 - Jonas Lindberg No.
-
-2:27 - Jonas Lindberg Wait, huh? I assumed it was yours, since your name is Jonathan Phillips?
-
-2:34 - Jonathan Phillips Yep. No, I don't know where that's from You want to remove it from the call?
-
-2:41 - Jorge Lewis Well, I mean, we could have...
-
-2:43 - Jonas Lindberg the fifth And then it's just like some bot that scans through like Google Meet meetings and just joins what run of the people's random usernames as meeting notes, trying to like get into internal meetings.
-
-3:03 - Jonathan Phillips Crazy, crazy. I don't know if Colin's going to join us. He said he wasn't feeling well a few hours back. So I think we should obviously move forward without him at the moment. And if he feels a bit better, he can join us and catch up a bit later.
-
-3:19 - Jorge Lewis Yeah, we do have our meeting, our note guy, so no problem.
-
-3:24 - Jonathan Phillips And that's the real one. Yeah, that's the real one.
-
-3:27 - Unidentified Speaker Yeah.
-
-3:30 - Unidentified Speaker Cool.
-
-3:31 - Jorge Lewis Okay. Imagine you just turn, the camera turns on and it's like this.
-
-3:36 - Jorge Lewis It is.
-
-3:39 - Jonathan Phillips Cool. Okay. So, discussion on IP. So, Coen raised the point.
-
-3:53 - Jonathan Phillips I don't know what he discussed with you. I don't know what has gone on previously. So I think the best thing to do is if you guys just start from your perspective and what's in your heads, so we can just sort of roll from there.
-
-4:06 - Jorge Lewis Yeah, so for sure. So for us, we have two. So our main goal is that we want to make really cool stuff. That's the main goal. And to do that most efficiently across multiple projects, the easiest way to do that is reusing components, right? But of course, reusing components still has overhead and there's a lot of things related to this. So what I want to do, what I want to start with is our goal, your goals and our goals. And I want to reiterate what I think is your guys' main concern. Because if we don't understand your guys' main concern, then we're going to be going in circles. So I'll start off with the main concern to check that we have that and then we can go into the goals. So if we understand it correctly, the main concern is that we're going to give, or is that we don't want to give anyone else the ability or the capability to kind of use what we make here to make them a competitor for Adapt or IntelliAgent.
-
-5:13 - Jonathan Phillips I mean, in a nutshell, it's twofold. So one, and this has happened millions of times before, so this is why people build this into contracts. So ultimately, As a completed project, as a client, the concern is that the completed piece will be taken and touted to other competitors, our competitors, so that you say, hey, we've got a completed platform here. Do you want this? That's obviously something that does happen in the world. So that's something that is kind of protected from a client perspective. OK.
-
-5:54 - Jonathan Phillips The other sort of thing that happens is that major components of the project, so we're not talking necessarily about the deep-seated code here and the libraries as such.
-
-6:13 - Jonathan Phillips protection is for the client, us, not to have, again, the developer sell elements of what they've built to other customers in a commercial sense. So using them yourself to create other things isn't necessarily an issue as such. It's kind of almost boxing them up and then selling them on. I think it, does that make sense? It's not very good at explaining it. So I apologize.
-
-6:46 - Jorge Lewis So I think, I think, I think both of them can kind of wrap around to that. You don't want anyone using what we make. Any in any way to kind of shortcut or to as a shortcut or as a complete solution to become a competitor?
-
-6:59 - Jonathan Phillips Sure. Sure.
-
-7:00 - Jorge Lewis So in a nutshell, yes so So I mean also example example If we were to take an example, let's say we built the UVP workshop, the whole system, we have it all done.
-
-7:26 - Jorge Lewis And we're able to extract the graph, the architecture of the AI agents, and we change the prompts and everything. So that it's not a marketing system anymore. So there's no relation to marketing anymore. And we perhaps put that on our GitHub as an open source repository.
-
-7:51 - Jorge Lewis Would that bother you? And if so, why?
-
-7:55 - Jonathan Phillips Potentially that could bother us because we might want to use the code and say, hey, we're going to attack 20 of the markets using the same principle, the same platform, but in different categories, in different verticals. So that might be part of our commercial plan to take the whole platform and then to say, let's do, roll out five, 10 products from that in order to utilize the sort of infrastructure, the architecture.
-
-8:30 - Jorge Lewis Makes sense, yeah. Okay, and then another example, so that one that I gave has good reason why you wouldn't want us putting it out there. Another example would be, and this is the one that we want to kind of focus on, are the very small components, something like the typing UI, or the typing animations that make the chatbot interfaces, and I don't I'm not a IP lawyer here, but I think those, for example, if we build it for IntelliAgent, and we build it from scratch again, that's no longer your IP, but our IP, the new one. Because number one, it's so generic, those components, and number two, it's done from scratch. So those are the two big components into determining that. So those are the main components. Jonas, do you have any other examples that we can use as good reference points.
-
-9:27 - Jonas Lindberg I think the one that came up, the fake streaming, basically literally copying how chat GPT looks when it's typing out as a feature.
-
-9:41 - Jorge Lewis Yeah.
-
-9:52 - Jonathan Phillips See ya.
-
-9:53 - Jonathan Phillips So my perspective, I don't want to be the big bad wolf or anything like that. So as far as I'm concerned, you guys are partners, we collaborate, we try and make great things, we try and have fun doing it. So it's not a case of trying to be greedy and have everything. Is just a business protection sort of conversation. My perspective may be different from Cohen's, his background is different to me and he's more technical. As far as I'm concerned you guys have got to make a living, you guys have got to build on what you're doing week by week, month by month and you don't start from scratch every new client. It doesn't work like that, and I fully understand that you'll be building things that are your intellectual property. So I think as far as the IP lawyers would be concerned, they'd say if you were building something on the client's time, then that belongs to the client. So if you were building building something for another client, even at the same time as our project, that's their IP. So what I'm saying is that everything you do isn't necessarily ours because you're building it for us. But when you're building something for us, that kind of falls within the project remit, which is kind of the IP of the project. I don't know exactly. I don't know the exact granularity and the detail that we get to where we decide where the line is. I don't know. That's open for discussion, completely open for that. And again, I'm not necessarily anal about everything that you do. I mean, to me, it's more of a big picture. I think Kieran might be a little more interested in the granularity. But I just want us to get on. I want us to all enjoy what we do. I want us to make some exciting projects together and go forth and hopefully have successful opportunities to commercialize everything we do. You guys and us, because if you're not successful, and you're working with us, then we're not successful either.
-
-12:11 - Jorge Lewis Am I cutting out? Yeah, that's a great way to put it. I would say I totally agree. For us, it's a matter of, I think it doesn't need to be wrapped onto papers. It can be more of such. We understand that we don't want to introduce competition to you guys, number one, because we prefer you guys as clients than hopefully other guys. But of course, that's going to be in hindsight. But the idea is that, at least from a logical standpoint, other competitors, the market, we're partnered with you guys, then you guys do better and hence we do better. It's the same example that you gave.
-
-12:53 - Jorge Lewis And in terms of granularity, I think we'll always have to respect that what we make during the duration of your project has to respect your We can go into the fine-grained details, but I think there's a mutual agreement that, on our side, don't introduce competition, and that is backed by the obvious things being under your IP. In the contract, there is a section regarding that the code does belong to you guys.
-
-13:38 - Jorge Lewis Am I cutting out or?
-
-13:39 - Jorge Lewis Yeah, you're cutting out.
-
-13:40 - Jorge Lewis Let me turn off my video.
-
-13:51 - Jonas Lindberg Yeah, maybe we should turn off the cameras. Try to speak now, Jorge.
-
-13:58 - Jonathan Phillips Hello?
-
-14:09 - Jonas Lindberg Is it still lagging?
-
-14:17 - Jonas Lindberg I think it's getting better now.
-
-14:21 - Jonas Lindberg Maybe. It's better now.
-
-14:24 - Jonas Lindberg Cool.
-
-14:25 - Jorge Lewis Alright, Jeff, are you still with us?
-
-14:27 - Jonathan Phillips Yeah, we're with you.
-
-14:27 - Jorge Lewis Alright, cool.
-
-14:34 - Jorge Lewis So yeah, so under the contract, I don't think we've signed it with you yet. Actually, no, we have, I believe. Have we?
-
-14:44 - Jonathan Phillips I don't think we have. No, I think because we've kind of muddled through from a proof of concept to MVP to whatever, I think we've kind of missed a few stages. And obviously you've been working with Kuhn on other things. It's not a major issue whatsoever. The way things are going at the moment, you know, I'm absolutely fine with. So I think it would be good at some point to have some documentation in place, protects both sides. It's a very positive thing, not a negative thing. So maybe we can put something together in the next week or so to just to make sure everybody's comfortable with where they stand.
-
-15:27 - Jorge Lewis Yeah, so with QN we sent the contract over and there's a section for that for the IP stating that most of what we make belongs to QN. The copyrights, patents, all that. I think how we can move forward is just being really open about everything we do. So asking, hey, is it cool if we reuse this? We believe this and this. Sound good?
-
-15:57 - Jonathan Phillips Yeah, I'm happy with that. I mean, obviously, I haven't seen the documentation, the IP clauses, etc. But by the sounds of it, most of it's in place. I'm not really sure, you know, over and above that, what we need to do. Obviously, I need to see it first. But if it's pretty much what we've been discussing, then yeah, on a case by case basis, let's discuss what granularity, what levels we need to potentially have a discussion over.
-
-16:29 - Jorge Lewis I don't think I explained it very well at the start. What we want to do with reusing the code is, number one, the obvious one is reusing it for other projects, but number two is also we're really big into open source stuff. We want to be at the forefront of this AI stuff and do it with open source stuff. We've always been big into it. We'd be ideally publishing these repositories. With these code components that people can use. For example, one of the repositories could be a templates project for a chatbot. That's nothing fancy, it's very basic. Another example, Jonas, if you want to help me out, let's see. Another example is I have a Read.AI tool that I use to help scrape Read.AI or listen to Read.AI posts and determine if they're leaks or not. That's open sourced on our post, I believe, or it's going to be when I clean up the code. But just things like this, we're really big into it. The license we put that source code under, could be either under a business or a license that allows people to use it for commercial use or not. So that's also another thing we can discuss.
-
-17:49 - Jonathan Phillips Yeah, so my perspective on that sort of thing, at that level, I don't personally have a major issue with that. Obviously, you could tweak the licenses to make it possible people to use for their own use rather than to, or even build into projects but not actually sell it on themselves. I don't know. Again, different levels of...
-
-18:19 - Jonathan Phillips of usage. I think the major thing that, from my perspective, is we want to protect is anything that differentiates the product. So what would give somebody a shortcut into building something that will be equivalent to what we have? I mean, that's an obvious statement, but that's the kind of level that I think we're talking about.
-
-18:40 - Jorge Lewis Yeah, yeah, that makes sense. One solution that we thought of was instead of worrying about kind of like all these granularity levels, is we have kind of a general clause where it's a non-compete. The main idea is that it's a non-compete, where whatever we publish, whatever we do with code from your guys' projects that we made during the development of your project, then we can, as long as it doesn't lead to someone competing with your guys' products.
-
-19:19 - Jorge Lewis That's also an idea.
-
-19:22 - Jonas Lindberg Basically that we won't engage with clients and deliver them products if they have a similar business to yours. So like right now with just the regular IP clause, if another marketing agency saw the work we did for you, they could come to us and pay us to make a similar platform or a slightly different platform. And we could cleverly avoid it, but with a non-competes clause, we'd just engage with other businesses. We could still do a lot of what the core aspects are from the other application, but we'll make sure that none of our clients are competitors of yours, if that makes sense. More so than focusing on specific code segments.
-
-20:00 - Jonathan Phillips Absolutely, absolutely. I mean, ultimately, there's levels of trust. And that is something that you build up over time with partners, and you become close collaborators. And I think that there's got to be certain levels of trust within the relationship. And you can't necessarily document all that. So I think there's a balance there between what we document and the way that we act as as decent humans.
-
-20:29 - Jorge Lewis Yeah, one concern, Jonas, that I'm thinking of now, that non-compete thing, is if a client, if a prospect would come to us saying, I want to build pretty much IntelliAgent, but for business development or something for another industry. That would bother JP, like you said, what if they have plans to expand into different industries using all the same tech. So that would be something to consider as well. Thanks for watching!
-
-21:05 - Jonas Lindberg Yeah, absolutely. The one problem with that is like, I think if it comes down to something like that, it's very hard to put in a contract, even with the current one we have, where it's basically you own, like the client owns all the code. We could just cleverly make the same solution in a slightly different method. Same thing with the non-compete, we could argue it's not a compete, so I think that's where it comes more down to the trust more so than regulation.
-
-21:36 - Jorge Lewis I should actually ask, so I've spoken to quite a few people, most like people that outsource development, like you guys are. And they post their stories on Read.AI and I ask them and I have a chat with them. And they do have IP, they have the contracts in place with IP sections. I'm gonna ask them to send it over if possible. But they always end up, it always ends up coming down to, does the development agency value your relationship more than you know, making a buck, a big buck with another client potentially. So yeah, like, like JP said, just trust is kind of what it all comes down to because with IP and cover, it's so, so gray area, whoever has more money and better lawyers, it's like, you can, you can argue your way out of there.
-
-22:22 - Jonathan Phillips It's also tricky because like you say, what level do you, do you include as the IP? So for example, We're discussing there about which category or industry that the platform is used in. However, we might say the IP is on the chatbot. So you guys can't sell a chatbot to anybody. And then it gets to a silly level where you then can't run your business. So, and even if we have an IP in place to protect what you've done, you could build it slightly differently and say, Hey, that's not the same. Thing. So it does come down to a level of understanding and a level of collaboration and I think we need to maybe discuss that a little more in some areas but I do think that we started well in the relationship and there's no reason at the moment to change the course what we're doing maybe we can tighten down some of the IP contract but ultimately there's always a way around something so it's just a I think a discussion on
-
-23:26 - Jorge Lewis how we're going to conduct ourselves I think is the key thing yeah yeah I agree with that yeah So how we can move forward then is, what we can do is do more research on these contracts, what's kind of the norm in the business and the usual pitfalls for both sides related to those contracts. And I think we'll also consult with an IP lawyer and see if they can help us.
-
-24:04 - Jonathan Phillips In my experience, a lot of the projects I've worked on, what happens is the bigger organisation come in with their lawyers and say you can't do anything at all and then the smaller organisation tries to negotiate looser terms and then you come to an agreement in the middle and it does depend on how big, obviously with guys and us there's no big company involved but ultimately the the bigger the lawyers you suggested before and the more knowledgeable IP rights lawyer they're the ones who hold the power ultimately because they're the ones who can put the loopholes in and can wiggle out of things let's say so we can put as much down as we want on paper which I think we should and I think we should because at least it gives us an understanding then to start from but ultimately it is based on trust While we were speaking, I just had a little idea.
-
-25:03 - Jonas Lindberg I haven't searched into it at all or anything, but I just thought, what if we just splice one lawyer that mediates with us and we pay that lawyer just equally? And then have him come up with the fairest clause, basically. I wonder how that would work, where both of our parties present their own concerns, and then the lawyer helps come up with the fairest clause possible, where both parties are happy.
-
-25:36 - Jonathan Phillips That's a good scenario. Let me speak to Kieran first because he might, he's got a little more experience with the corporate world as far as the legal aspects and then we can sort of move forward and we just want to come, like I say, to an understanding. It doesn't really matter how, where, what. We just need to be able to be comfortable that we're all covered and you guys move forward and you're happy and we're happy.
-
-26:04 - Jorge Lewis Yeah, I think it's important to understand that on our side, the risk is very low. We have little to lose in terms of this because if we were to, there's a lot of loopholes that we can exploit, whereas for you guys, it's very risky. You guys have something that's supposed to be yours. We have built something that's supposed to be yours.
-
-26:31 - Jorge Lewis You guys are the ones with the more risk, so it'd be definitely prudent for you guys to be looking into this. I had a point where I was going into this, but I think I lost it.
-
-26:41 - Jonas Lindberg Give me a second. Confident to say we don't have the funds for lawyers.
-
-26:53 - Jonathan Phillips There are lots of templates and examples online. I mean, ultimately, we don't need to be paying Too much to third parties. I think we can do some research and cobble something together That will satisfy both sides yeah, I Think it's only if any of us have a problem with anything that's documented that we then may need to get some advice on I think but ultimately there's enough out there for us to base.
-
-27:24 - Jorge Lewis I think of very strong Piece of paperwork that we can both be very happy with I think my whole point was just to put it out there that for us, it's a matter of increasing how happy we are. For you guys, it's a matter of not risking something. I think that was just the whole point, just kind of making it, putting it out there that you guys are under the more risky position in this.
-
-27:55 - Jonathan Phillips Yeah, I mean, it is, because ultimately, when this gets put together, I'll have spent a whole year trying to work through it and make it work. And then obviously, you want some return on that. And at the same time, You know, we want to work with you guys longer term. So we hope that there'll be no fallout, but you never know. Not all relationships go on forever. So that's the reason that there is levels of protection. And that's the reason we're talking about it. We hope we never, ever get to the point where we'd have to start to get to the point where we start to quote the paperwork. But it's there for your protection and ours. But ultimately, it's got to be, even though you say it's more of a risk on our side, both sides have got to be equally happy. Because if they aren't, there won't be a relationship.
-
-28:49 - Jorge Lewis Yeah. Relationships need them to be happy, not them to be, what do you call it?
-
-29:00 - Jorge Lewis just married because of the children.
-
-29:03 - Jonathan Phillips Exactly. Very much so. Cool. I don't think there's anything more we can do now.
-
-29:13 - Jonathan Phillips I will have a chat with Kerwin, and we'll take it forward. And ultimately, we'll get some paperwork in place that we're both happy with. But it's not a major deal. I just think it's something it's good to get discussed before we get going too much further, just so that there aren't any problems going forward. And I just think that helps a little.
-
-29:37 - Jorge Lewis Yeah. No, I totally agree.
-
-29:39 - Jonas Lindberg Yeah, absolutely. For this is something we can easily work out.
-
-29:43 - Jorge Lewis Yeah. And it's something that we do have to educate ourselves more on as well. That was kind of what I was suggesting with consulting a lawyer because it's less so the paperwork, more so understanding where both sides stand in terms of general law and ethics.
-
-29:57 - Jonathan Phillips Yeah. Yeah. Very much so. Very much so.
-
-30:00 - Unidentified Speaker Cool.
-
-30:00 - Jonathan Phillips Cool.
-
-30:01 - Jorge Lewis So if you don't, if you don't mind, we can just quickly go over kind of the plan for intelligence. Um, since you sent that last Thursday, I believe.
-
-30:10 - Jonathan Phillips Yeah, yeah, because I've got another 10 minutes before I've got to do some taxing for children. But yeah, if we could go over it, no problem.
-
-30:18 - Jorge Lewis So just, uh, yeah. So you sent it, sent it a couple of days ago, past nine. So last night and as he, for the two main developers on the project, um, you've met, have you met either of them?
-
-30:31 - Jonathan Phillips I think I did on a call. Yes.
-
-30:33 - Jorge Lewis I mean, we met, uh, wait, no, you met, you met in a Zeef not, um, past nine, I believe. I think, maybe. So they're going to be the main developers on the project. I'm of course going to be working on the AI side. Jonas is going to be here and there, all on the dev side. So we're going to go over through the documents. You sent a lot of stuff. Thanks so much. Bye. Helpful over the time, but I think... A lot of stuff, a lot of stuff.
-
-31:04 - Jonathan Phillips Sorry, sorry, let me say first, I don't expect you to read it all and understand straight away. What I want to do is create a level of understanding where you don't have to ask too many questions, you can always revert back to the documentation to start with. There'll be areas that you won't ask questions early doors, I understand that, but ultimately, the more comprehensive it is, the better direction you can go in to begin with, and I think that's important.
-
-31:30 - Jonas Lindberg I'm about to create like a full-ass AI solution and like talk to your documents just to comprehend that.
-
-31:43 - Jonathan Phillips You can stick it into AI and ask for a summary so that might be helpful.
-
-31:50 - Jorge Lewis I went through the one document that I have gone through at the airport the other day was the document for the developers. I can't remember what was the name but A lot of cool stuff in there, you suggested a lot of additional features that are going to be really cool to implement. So what I think we're going to do, since there's so much stuff, I'm assuming there's enough stuff on there that we can go into FigJam and make a lot of visual representations, diagrams, user flows, maybe even some wireframes, and then a capabilities list. And then we can present that to you, you can give us your feedback and hopefully that kind of sets us up near the finish line since you've already articulated so much.
-
-32:28 - Jonathan Phillips Yeah, so the reason I wanted to be comprehensive was that The problem is a benefit and a curse. This sort of project, it can creep massively. There's so much opportunity to do so many other things. So it's important that we understand where the base level is. And I'm happy to get something out that works obviously that's really important to me. I want as many bells and whistles on but I'm very realistic and we need to have something that is timely let's say because if I can get this MVP out and working It can be really important as a marketing vehicle for me because I think I can get lots of usage out of it, lots of organizations potentially partnering, etc. And then obviously we can move on to the larger model while I'm doing all that. What I don't want necessarily is just something that's flashy to show people. I want something that actually works and people can sign up to and see as a finished product. So there's a balance of getting that finished product in place and not having too many bells and whistles because that will delay it. So that's the balance we need to get.
-
-33:46 - Jorge Lewis Yeah, gotcha. So we'll go ahead and make those visual representations. Hasnain and I are going to be working tomorrow on the AI stuff, kind of putting on paper how we think that's going to work.
-
-34:00 - Jorge Lewis So I'm going to finish going through the documents.
-
-34:06 - Jonathan Phillips Like I say, any questions at all, however dumb they might seem, just fire away because the worst thing in the world is not knowing exactly what you need to do. So that's what my job is, to make sure that you're fully clear. So it would be helpful if you have any questions at all, just fire them over.
-
-34:25 - Jorge Lewis Yeah, I didn't say I have access. Oh, yeah, I have access to the right comments. So I'm gonna spam those to you.
-
-34:32 - Jorge Lewis Sure, sure.
-
-34:34 - Jorge Lewis Cool. There you go, Jonas.
-
-34:37 - Jonas Lindberg Yeah, just to circle back to what I was going to mention earlier, quite frankly, after Kuhn set me straight in terms of my project management skills, I've been looking into it a lot, reading up on it, and watching some videos on how to get this set straight. There are a few workshops and stuff I want to get done moving forward with this project, which should hopefully help speed us up with getting it started so that we're not stuck in diagramming hell for the next five weeks.
-
-35:12 - Jonas Lindberg Yeah, the diagramming and analyzing, all of that stuff, hopefully get to development while we're still able to be planning some stuff, you know?
-
-35:25 - Jonathan Phillips While you're still young, yeah. Yeah, while we're still young.
-
-35:31 - Jonas Lindberg Yeah, so just some of the things that like very general things I want to get done is like a mission statement workshop, vision workshop, getting a proper roadmap established because the thing you want mentioned with like bells and whistles, I think that's all solved if you make just a general roadmap prioritized based on like what features you want, then you can just like see how long the timeline is and just cut off spending at any moment when you're happy with the features, or start it again if you want to expand with the lower priority features and all that fun stuff. So we won't have to scope up again and again and again throughout this project. And yeah, we'll be able to have a more dynamic, what's it called, specification.
-
-36:20 - Jonathan Phillips Completely agree, completely agree. It's so important that we get that understanding of where we need to be because the distractions are immense because it's easy to get excited when you start to develop something both on an idea perspective from my side and on a code development from your side to start to think, oh, I can do this, and I can do it this way, and I can do it that way. And that's what really destroys the timeline. So that's something that we've, on both sides, we've got to be very patient with, and we've got to make sure that we are very focused on what we need to do.
-
-36:54 - Jonas Lindberg Yeah, absolutely. I'm aiming for this coming week to try to get some of those workshops going and everything. So could you share me your schedule, just so I know when you're available?
-
-37:08 - Jonathan Phillips Yeah, I'm pretty flexible. I do have things all over the place dotted. They can be moved. So our time is down as an important time. So whatever time you have, I can try and work around it.
-
-37:28 - Jorge Lewis What time do you wake up and what time do you go to sleep at?
-
-37:35 - Jonathan Phillips Yeah, so I'm available I would say from 7 a.m. Time all the way up to 11 p.m. Let's say, but it does depend on the day. I mean, I'm not saying every day, but I am quite flexible. Yeah, yeah.
-
-37:56 - Jonas Lindberg Okay. Yeah, sounds good.
-
-38:01 - Jonas Lindberg All right. Yeah, that's it for me. That's what I wanted to bring in.
-
-38:07 - Jorge Lewis So I think, yeah, Jonas, we can just hop in a call after this and go through some things.
-
-38:12 - Jonathan Phillips Sure. Thanks, guys. Great talking to you, JP.
-
-38:16 - Jonathan Phillips Thanks for your time.
-
-38:19 - Unidentified Speaker Likewise.
-
-38:19 - Jonas Lindberg Take care. I'll be seeing you now. Bye-bye.

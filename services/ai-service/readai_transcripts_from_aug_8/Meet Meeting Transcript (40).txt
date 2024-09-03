@@ -1,180 +1,0 @@
-Meet Meeting 
-Fri, May 24, 2024
-
-0:08 - Jorge Lewis Oh, that's too much British for me. I haven't had it in a long time. How's everyone doing? Great, yeah. I'm struggling with a cold. Can you me?
-
-0:25 - Arif Harbott Yes, yes.
-
-0:29 - Jorge Lewis I wasn't lighting up.
-
-0:30 - Arif Harbott Code's on mute, so I think he's talking to himself.
-
-0:33 - Cuan Mulligan Sorry, did you say Jonas is sunburned and you've got a cold?
-
-0:38 - Eksno Yeah.
-
-0:39 - Eksno Yeah, I'm sure you're gonna see how red my face is.
-
-0:42 - Cuan Mulligan Yeah. I'm tired, by the way. I've been there too many times.
-
-0:58 - Eksno sudden poisoning to yesterday's about bad fever towards the evening, but much better now.
-
-1:07 - Eksno Cool. Cool. Oh, lagging.
-
-1:12 - Eksno I'm cutting out a lot.
-
-1:17 - Jorge Lewis Jorge, I'm lagging.
-
-1:18 - Jorge Lewis A lot.
-
-1:29 - Eksno You can hear me?
-
-1:33 - Unidentified Speaker Okay.
-
-1:37 - Eksno I can hear you like once every five seconds, but apparently you can hear me. So.
-
-1:44 - Eksno Okay.
-
-1:47 - Eksno Uh, yeah. Well then just start stream.
-
-1:56 - Eksno Uh, yeah. Can you guys see?
-
-2:00 - Eksno Yeah, nice. So this is the UI of the application.
-
-2:10 - Eksno landing page is just, hey, Cuan, this is a placeholder. Go to chat, and then there's the chat. That's about it for the UI on the web application. Then there's the API, which we've been working on a lot of the foundation of the application. So basically getting the database up with correct tables and all of that. But we've also got a working chat bot currently, which has a pretty like ad hoc prompt of the responsibilities you've outlined. Yeah, just to get it to be pretending to be an opinionated coach to be a proof of concept until you guys can refine the prompt.
-
-2:56 - Cuan Mulligan Okay. The prompts are not dictating the response. They're dictating the parameters by which they can respond within.
-
-3:08 - Eksno Sorry, could you rephrase?
-
-3:10 - Cuan Mulligan So are the prompts telling the bot, a simplistic version is, if a customer asks what time it is, you must respond this way. Or are they saying, irrespective of the question that gets asked, you need to look at this data, you need to have this tone. So it's setting boundaries as opposed to being explicit.
-
-3:36 - Eksno Currently, the prompt just describes what kind of person it is. So, like, as a holistic performance catalyst, you are the embodiment of tough love. Yeah, just waffle, basically, about how it should behave. It's not dictating the answer, it's dictating the behavior. Yeah. Leon is currently working on implementing RAG, which will be used to dictate the behavior. Basically, you just dump on it a huge document. And when the user asks a question, it looks at that huge document, picks out the most relevant parts of the document, and that will dictate how it should answer. So set the boundaries and set exact examples.
-
-4:21 - Eksno OK.
-
-4:23 - Eksno Yeah, so here I just started a test chat because sometimes it goes on a waffle. But yeah, it's just asking me, like, going through the just steps I outlined here. What's your current fitness routine? I can say, like, I go to the gym two times per week.
-
-4:44 - Eksno Send that.
-
-4:46 - Eksno Then it takes a bit to respond. We're currently just using OpenAI's servers.
-
-4:55 - Eksno Then it completely disses me. That was more of a proof of concept to just make sure it can be opinionated and doesn't just conform to whatever the user says.
-
-5:08 - Eksno As you can see here, it also can send multiple messages in a row, which I think you requested.
-
-5:15 - Cuan Mulligan It's the opposite actually. So if a user gives an update across multiple messages that it's able to Understand that the person is still talking rather than responding to the first message Okay Yeah So, yeah.
-
-5:44 - Eksno I'm wondering what the best way to implement that will be, though, because inherently that'll incorporate some delay in the answers of the bot. So if you type and then it has a wait to check if you're typing again, then it'll have to wait longer, but if long response times don't matter, that's fine.
-
-6:00 - Cuan Mulligan I think there's a... In my head, there's two aspects to knowing that a message is complete. One is time, and one is...
-
-6:12 - Cuan Mulligan a bit more variable and subjective as to the context. Does the sentence, like if I said to you, you know something, I did loads of things this morning, so I was at the beach, The person, you know, based on what I said that you're expecting, you wouldn't say, you would hold back and you'd be waiting for me to say, Oh, and then I did that. Then I watched the car this and I did this like, Oh, okay. So just time is, is, is one aspect, but it's also a bit crude. I think we want to refine it to have this traded over time to have this ability to notice when a, when a point has been made.
-
-6:51 - Eksno Yeah. Do you think we could use like sentiment analysis for that, Jorge?
-
-6:57 - Jorge Lewis So I was thinking initially, we can, because we had the first, the simplest solution is to add a delay. I want to see if the delay is good enough, the quality feels like it's fast enough, and there isn't much of an issue.
-
-7:11 - Eksno The delay plus the like make a custom sentiment analysis, but probably in the future sometime.
-
-8:42 - Cuan Mulligan So, I mean, it's great to see it. I suppose there's two questions in my head. When do you think there'll be a version that we get to play with? And secondly, when will there be an interface where we can start training it? Because both of those things then allow JP's thing to start as well.
-
-9:08 - Eksno Do you want me to take that one or do you want Jorge?
-
-9:11 - Jorge Lewis You can go ahead. I can add on if I need to.
-
-9:15 - Eksno So this version currently we can get up and hosted throughout the next week and hopefully by the end of next week we'll have an admin interface where you can at least edit this prompt and hopefully some form of the rank so you can start building up the document of example questions and answers.
-
-9:34 - Unidentified Speaker Excellent. Yeah.
-
-9:54 - Cuan Mulligan and PDFs and stuff like that. Give it a sort of both from a coaching point of view, these are things that we think are good references versus knowledge of, okay, here's evidence to support this diet recommendation or this movement recommendation.
-
-10:16 - Jorge Lewis Yeah.
-
-10:17 - Jorge Lewis Yeah.
-
-10:26 - Jorge Lewis conversation.
-
-10:32 - Cuan Mulligan Because if I'm a consultant, right, and I read a book, I'm fully expected that I can deploy that knowledge. Obviously, I would never pass that knowledge off as my own. I've used Daniel Pink's book, Drive, in hundreds of workshops that I've been in, and I will talk about it. How is that particularly different? And I know it is different, but it's a very gray line between me having a commercial boss that is We're not trying to plagiarise. We're not trying to say that any of their work is our work. But we're trying to educate a bot. Now, I could, if I wanted to, write all that stuff out. From my own experience, it's just saving me having to regurgitate it. And actually, I would say, if I ask ChatGPT to summarize any of those books, it will, without giving it the PDF or the EPUB file. Because there's enough content online about it. So, I mean, JP, you've got thoughts on this. It's a really big issue in terms of content.
-
-11:38 - Jonathan Phillips It's a massive issue at the moment and there's no solution. There's no right answer at the moment. I mean, what I would suggest is if you want to remain in the boundaries of ethics, then you might say can you reproduce something with the philosophies of or the or the ethos of rather than give maybe sets of pdfs of proprietary information so you're kind of skirting around it a little bit but I mean other people out there will be doing exactly the opposite they'll be putting as much data in as they can to make themselves look good to make their product the best so it's a question of do you want to get it right or do you want to remain within the bounds of ethics?
-
-12:46 - Jorge Lewis to let me.
-
-13:04 - Arif Harbott answer then I don't think you need to. I mean all of humans right we've all learned from someone or something or books or some other people we're not going to cite everything we've ever known. If you're actually giving a quote I think it's really important to do that.
-
-13:17 - Cuan Mulligan If you're saying this is kind of based on these three Yeah, for example, if you look at Zone 2 Cardio, I think it's almost impossible to know who created that. And there's hundreds of people, of experts, who are saying it's good. So we could just choose one and say, hey, if you want to know more, go speak to this guy. We've chosen, for example, Sleep, a guy called Dr. Matthew Walker, who's written a really great book called Why Do We Sleep? So we are choosing that we will pick on his stuff as exemplars of what we think good is. We're not going to try and hide from that. In fact, we're going to be saying, hey, if you want to go deeper on this, here's some really great podcasts of Matthew Walker's. We're going to be referring and driving people to his company. So a bit like if we're writing a blog post.
-
-14:13 - Jonathan Phillips That's completely fine. That doesn't even impinge on ethics. It's when you're suggesting you have a model that someone else has invented and have IP rights and you're passing it off as your own work. I think that's the only time it becomes a little bit sketchy at the moment.
-
-14:29 - Cuan Mulligan And I don't think we're intending to do that at all. Like, for example, we've created, there's loads of books around like atomic habits and all these different habit books. So we're putting that into the coach, but so that it can understand and we'll train it as to which aspects of habits, because, for example, I might like a more forceful, regimental approach, and other people might like more of a cheerleader-y approach. There isn't just one answer to this. And so we've got to give the bot access to flavors of how to fix the problem rather than a way to fix the problem.
-
-15:06 - Cuan Mulligan But we're not passing off anyone's methodology or framework on how to do stuff. That's not what we're doing.
-
-15:19 - Cuan Mulligan When do you sort of just try and set expectations of myself? Like, when do you think that there will be a demo app deployed so I could play with it on my phone?
-
-15:32 - Eksno By next week.
-
-15:36 - Eksno Like, we'll get the current version hosted throughout the next week. And then hopefully by the end of next week, as I mentioned, you'll also have an admin panel where you can edit the prompts and everything. Currently, we have made it so that the prompts are bound to the profile ID, which means that each of you will have your own one to play with, so that you don't have to be afraid to destroy any of JP's work or anything like that. So hopefully, you can just copy and paste back and forth. But if you'd rather have it so that it's shared between everyone, we can also do that.
-
-16:08 - Cuan Mulligan So, I think, well, it's interesting. I think there's one bot serving many people.
-
-16:17 - Cuan Mulligan one personality, one set of approaches, one set of behaviors. Now we might have a common behavior and a common knowledge set, but there might be different personalities. Arnold Schwarzenegger or the cheerleader, you know, you've got a different range of personality types. Sorry.
-
-16:39 - Eksno In the end, it will all be unified. I meant during the experiment and development stage. Do you want to be editing for the same admin panel, so editing the same prompt which everyone shares? Or do you want to have your own so that you don't have to be afraid?
-
-16:54 - Cuan Mulligan No, for the time being, it will be a single admin panel that's controlling one bot that talks to everybody. It might be different.
-
-17:21 - Cuan Mulligan be myself and my wife who will be going in and looking at chat logs and refining the messaging.
-
-17:26 - Eksno Do you want to be editing the same prompt then or do you want to have separate so that you don't have to be afraid of messing up the other person's prompts? Of course you can just share between even like text messages if you have found a good prompt you want to share with your wife.
-
-17:47 - Cuan Mulligan So you tried it?
-
-17:53 - Eksno Yeah, that's what I mean. So you can like experiment locally without it updating the bot everywhere.
-
-18:01 - Cuan Mulligan Okay, fine.
-
-18:13 - Cuan Mulligan I think, yes, you probably want a centralized bot. That is confirmed. But then we might want to iterate independently and say, oh, this was good. OK, put that into the actual live bot, for want of a better word.
-
-18:26 - Eksno OK.
-
-18:27 - Cuan Mulligan So basically being able to publish your changes?
-
-18:31 - Cuan Mulligan To a live bot, yeah. And then that would be the one that people would iterate on. Because again, we're not going to know what a good prompt is. It's going to take a while for us to learn the mechanics of what makes a prompt useful.
-
-18:41 - Eksno Yeah. Yeah, sounds good. I think I know what you want. Okay.
-
-19:30 - Eksno Yeah.
-
-19:34 - Cuan Mulligan And again, if you look at those books, and that's what I meant in one of my earlier questions, like what is quality data? There is 60% of the content in those books are pointless because it's just fast. It's just fast words. It's just, it's just blah, blah, blah. It's page fillers. It's not actually substance. The substance is what's really useful. So we could then go, right, let's generate synopses. I think JP had a really good word out there, like build me a referential version of this book. Give me the 20% of the book that gives me 80% of the value to enable me to do this. Like what are the actual functional bits of the book as opposed to all the, But maybe the back stories are really useful, I don't know. I think we need to figure that out over time. So this was just sort of a first pass, let's get going. And then we'll learn over time what makes it good in terms of the right data.
-
-20:32 - Cuan Mulligan Am I right in saying that all these books and all this data that we have, what happens is that gets parsed down into a vector database and then the vector database is what feeds the bot?
-
-20:45 - Eksno That would be more of a knowledge base. How it works with RAG is more... I'm not sure exactly how Leon is the one currently working on it, but it picks out sections from the book that are most relevant to the question, and then passes those directly as context to the bot through the system prompt.
-
-21:05 - Cuan Mulligan OK. And just to regurgitate that question that I've asked you too many times about the difference between the LLM and the LAM, which I now understand. So in JP's context, we would probably be, for the bot that might be going out and looking at the web for stuff, that would use a LAN in order to know what to do, as opposed to an LLM. Is that correct?
-
-21:41 - Cuan Mulligan So imagine you're doing this mission statement workshop. It's evolving and the sentence is becoming, yeah, we want to increase the adoption of sustainable energy because it's an eco startup. And they're like, oh, that sounds great. That'd be really exciting. If I was in that workshop, I'd be going, that's really similar to Tesla. You can't really do that. That's not useful. So we'd want a bot in real time to be looking at competitors or the market for similarities going, you've just come up with Tesla's, that's not useful. Or you've come up with the Southwest Airlines or whatever it is. So that would just be one job for a bot that would be going out to the web to validate things. When we came up with that thing, marketing, we would then do like, has anyone taken the .com domain? Is that a part website or is it a live website? Simple checks like that where you just go domain's gone, but it's not a live service where marketing dot AI Domain was gone and it's a live service and it's really similar to what you're doing. Okay, that's interesting. I So I was reading an article during the week that with the advent of chat GPT 4.0, that the fact that it can now see is beforehand, you've got to take a video, transcribe it to text, that text goes into a vector database to train the model.
-
-24:06 - Cuan Mulligan Like it's just gone exponential on its potential. Is that something that's limited to chat GPT 4.0? Is that something that we could take advantage of and it's not text and we could start running workshops? Like if JP ran a workshop, could it in essence observe, learn and do it that way? Because it would be far more nuanced than writing a script like you asked him to do for his version.
-
-24:35 - Cuan Mulligan necessarily easier, but it's more nuanced because you don't have to translate it to text. It's able to take it directly from the visual input.
-
-25:20 - Jorge Lewis to think.
-
-25:48 - Jorge Lewis Yeah. Interesting.
-
-25:51 - Jorge Lewis Yeah, I think so. Should we do anything else?
-
-26:28 - Cuan Mulligan Because he sort of speaks a lot of the truth, but yeah, he's he's still he's still a certified psychologist He's he's quite controversial in some of those rules But he's... Yeah, I don't know. I mean, it depends. I think it depends what stage you are at life. I think there's... So Arif and a guy we used to work with, Sam, used to work in the UK government for a lot. And we had this pattern here. So when you're really young and you're a student and you've no money, you support from the people that rich people are. As you get older and you amass money, you tend to go to the other party, the conservatives, which are about not giving things to people because you're the ones who have them at that point and they're taking from you. So I think all of these things have different levels of appropriateness depending where you are in your life and your personal circumstances as opposed to being a ubiquitous universal truth.
-
-27:45 - Cuan Mulligan Interestingly, he has been, his daughter has been a stork. They only eat red meat and salt. It's the only thing he drinks and eats. And has done for years and has reversed multiple diseases. His daughter's hips had been replaced when she was 17 or something. And she had all sorts of problems. But yeah. I like him. There was a very famous interview he did on a TV show over here called Channel 4. And she was like, this woman, she was trying to get on top of him and like really berate him and stuff like that. And she's like, what gives you the right to have these, to like knock on people? And he goes, well, what gives you the right to make me really uncomfortable? This interview has been really, really tough. And she just goes, It was just, it was brilliant. It was a brilliant comeback. I don't know if I've actually ever seen her host another news station since. I think she got really unraveled.
-
-29:02 - Jonathan Phillips If you like Jordan or not, he's very smart, he's very clever, and he's very entertaining to watch. Really entertaining, especially with his debates, he's phenomenal. Very, very clever guy. But whether you agree with him or not, that's another matter.
-
-29:33 - Cuan Mulligan Yeah, I think he's provocative in making you think about things that are maybe uncommon. As JP said, whether you agree with his philosophies or not is probably not the point, but making you think in alternate ways is really important.
-
-29:49 - Jonathan Phillips It's a problem at the moment with the latest generation, with council culture, is that if you don't agree with someone, people just get dismissed, whereas You've got to really bounce out and say, well, I agree with some things and not others, but hey, I respect the person for their opinion. And that's something that I don't think happens so much as it used to, potentially.
-
-30:09 - Cuan Mulligan Yeah. Folks, I need to jump. I've got an 11 that I need to prep for.

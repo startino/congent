@@ -1,396 +1,0 @@
-Meet Meeting 
-Thu, Jun 27, 2024
-
-1:53 - Unidentified Speaker Bye!
-
-2:00 - Unidentified Speaker Hello?
-
-2:01 - Jorge Lewis I think you're muted.
-
-2:12 - Jorge Lewis Yeah, you're muted. You're muted.
-
-2:18 - Jorge Lewis You're muted, bro.
-
-2:22 - Jorge Lewis Can you hear me?
-
-2:40 - Wassay Shaikh Sorry, sorry, I haven't turned on my microphone, my bad. So I was saying that, is my voice is clear because it's a bit noisy here.
-
-2:50 - Jorge Lewis Yeah, I can hear you fine, yeah. Okay, great.
-
-2:54 - Wassay Shaikh So how are you doing, bro?
-
-2:56 - Jorge Lewis Yeah, good. I'm super stressed, man. I've spent the entire day today trying to get this to work. But I only started learning the TypeScript SDK like yesterday, so having a lot of trouble.
-
-3:09 - Jorge Lewis Our clients is in quite a rush. We told him it would be done today, but we're gonna have to tell him Hey, we weren't able to get it done. So So yeah a bit of a bit of a not so good situation, but you know, I see I can understand So what I can do for you guys Yeah, so, okay. So obviously I don't want you to do this unpaid so I think we'll do is I could we could maybe pay for a The, I think it'll probably take you. So your experience with line chain, right? We're in TypeScript.
-
-3:44 - Wassay Shaikh Uh, actually, uh, I haven't tried in a TypeScript yet, but I'm, uh, familiar with it.
-
-3:54 - Unidentified Speaker Okay.
-
-3:54 - Jorge Lewis Um, yeah, because for me, for me, I used Python for, for the time I've used like chain, but TypeScript is quite different in the way it works. So I've had a lot of trouble myself. So, um, Uh, Jorge, can I ask you one question?
-
-4:17 - Wassay Shaikh Yeah. Uh, what is the exact reason behind migrating from Python to TypeScript? Like, Anything?
-
-4:26 - Jorge Lewis Yeah, so for us, for working with Python, it was too much of a, the gap was too big between our front end team and our back end team. And we always had to interact through the API and the database. It was always disconnecting us. So by working with TypeScript, we're able to be a lot faster in terms of everyday development, but getting started is going to be a bit harder because there's less documentation and we're not used to it. I'm not used to it yet, so.
-
-4:52 - Unidentified Speaker Okay.
-
-4:57 - Unidentified Speaker Makes sense.
-
-4:58 - Wassay Shaikh Totally makes sense. So, uh, okay. Uh, well, I can try my best to, uh, migrate from Python to TypeScript because I understand it. Uh, and mostly the error we get in a TypeScript is related to type safety because it's, it's JavaScript basically with just some extra type. Oh, I mean, wait, wait. So you have experience with Lang chain and JavaScript or no, like not Javascript but you can say the TypeScript because I have tried with TypeScript but not too much just the basic things like calling OpenAI and I haven't even tried RAG on the TypeScript but just to test it that's why I didn't even consider that my TypeScript is very strong with in-line chain but yeah I understand it Okay.
-
-5:59 - Jorge Lewis Yeah. So for us, since we're so tight, I don't know if you'll be able to, I mean, it's not, I thought it was going to be easy to learn the TypeScript version, but it wasn't.
-
-6:10 - Jorge Lewis So I'll let, I'll, I'll let you have a go at it, but cause I thought you had experience with TypeScript in LinkedIn. So I'll let you, I'll let you have a go at it. I'll describe the problem to you and I'll go through the project, but There isn't much I want to compensate for it. Is that alright with you?
-
-6:31 - Wassay Shaikh Well, money is not really a problem here. I'm good without it, even without it. But you can pay me whatever you want, if you want. Otherwise, it's good. We can take it as a test, you can say.
-
-6:44 - Jorge Lewis Yeah, it's funny because we were actually going to have a technical interview doing something similar, but this is going to be live, so now there's pressure.
-
-6:53 - Jorge Lewis Okay, okay.
-
-6:56 - Unidentified Speaker Um, okay.
-
-6:57 - Jorge Lewis So the project is on a repository. Um, let me, um, because it uses super base and everything. So have you, have you used super base before?
-
-7:12 - Wassay Shaikh Uh, I, I have tried super base before because it's, it's mainly a postgres, uh, under the hood and yeah. So my main go-to database is also Postgres, that's why. I've searched about it and get to know about it a lot related to Superbase.
-
-7:39 - Unidentified Speaker All right, can you send me your email? It's awasi.
-
-7:47 - Jorge Lewis May I type it here?
-
-7:49 - Jorge Lewis Yeah, go ahead and type it.
-
-8:03 - Jorge Lewis I'm going to give you access to the Superbase table, the Superbase project, and then I'll also add you to the GitHub repository.
-
-8:29 - Jorge Lewis Just so you know, don't share the code. Don't worry about it. Just had to mention it.
-
-8:36 - Wassay Shaikh I will forget about it once the job is done.
-
-8:44 - Wassay Shaikh Yeah, I have received the email.
-
-8:51 - Jorge Lewis Let me quickly All right, I give you access to the...
-
-9:37 - Wassay Shaikh Yeah, I have received the email. I was just joining the organization.
-
-10:09 - Unidentified Speaker Okay, I'm in.
-
-10:20 - Jorge Lewis I'm having trouble adding you to the GitHub.
-
-10:28 - Wassay Shaikh I'm in the Super Beast, I have the access right now.
-
-10:34 - Jorge Lewis Yeah, to the GitHub though. Okay. All right, for the...
-
-10:51 - Unidentified Speaker Yes?
-
-10:52 - Jorge Lewis For the GitHub, it seems like we can't add extra members.
-
-11:04 - Jorge Lewis I think I can clone it and then send that to you.
-
-11:07 - Wassay Shaikh Yeah, that will also work.
-
-11:47 - Jorge Lewis What time is it for you right now?
-
-11:50 - Wassay Shaikh I guess. Yeah, it's 10.30 PM.
-
-11:59 - Wassay Shaikh You're also, you're in Thailand right now.
-
-12:02 - Unidentified Speaker Yeah.
-
-12:03 - Wassay Shaikh For me, it's 12, around You're not enjoying the nightlife in Thailand? Some days, some days.
-
-12:16 - Jorge Lewis Tonight's a busy night.
-
-12:20 - Unidentified Speaker Buzz buzz.
-
-13:37 - Jorge Lewis I'm struggling here. Hold up. Sorry about that. That.
-
-13:41 - Wassay Shaikh No ways.
-
-14:12 - Jorge Lewis I think I'm going to have to send it to you through email. I sent you just the files.
-
-14:23 - Wassay Shaikh Yeah, yeah.
-
-15:04 - Wassay Shaikh Did you get the zip?
-
-15:07 - Wassay Shaikh Not. Till now, I was continuously refreshing it.
-
-15:11 - Jorge Lewis Okay, I think I got a notification saying it didn't go through. Let me try again.
-
-15:18 - Wassay Shaikh No worries.
-
-15:54 - Jorge Lewis Can you double check your emails are typed correctly? Yeah, it is.
-
-16:01 - Jorge Lewis Let me know if you get it because it didn't work the first time, I don't know.
-
-16:07 - Wassay Shaikh Okay.
-
-16:24 - Jorge Lewis Yeah, it's getting rejected every time, I don't know.
-
-16:30 - Wassay Shaikh Is there any other option so that you can share with me?
-
-16:36 - Jorge Lewis I think probably maybe LinkedIn.
-
-16:41 - Wassay Shaikh Will LinkedIn work? Let's try. If it works.
-
-16:46 - Unidentified Speaker Yeah, it does.
-
-16:47 - Wassay Shaikh Yeah, I have received.
-
-16:54 - Unidentified Speaker It'll be cool.
-
-16:56 - Jorge Lewis Let me send you the environment files. Do you have Discord, by the way?
-
-17:00 - Unidentified Speaker I have Discord.
-
-17:00 - Wassay Shaikh Yeah, I have Discord. Yep.
-
-17:02 - Unidentified Speaker Could you send me your username?
-
-17:05 - Wassay Shaikh Let me share it with you.
-
-17:26 - Wassay Shaikh I have sent it in a chat.
-
-17:31 - Unidentified Speaker Okay.
-
-17:35 - Jorge Lewis Oh, wait, where have you sent it? Oh, in the, okay, I see.
-
-17:47 - Wassay Shaikh In the meantime, I will quickly move the folder to the private folder or a separate folder, sorry.
-
-18:04 - Jorge Lewis All right, I sent you a friend request.
-
-18:08 - Unidentified Speaker Let me check.
-
-18:12 - Wassay Shaikh Yeah.
-
-18:14 - Unidentified Speaker Accepted.
-
-18:16 - Wassay Shaikh Cool.
-
-18:42 - Jorge Lewis are essentially the environment keys. That's my API key, by the way, so just be careful for the OpenAI one. You can change the Langsmith API keys as well for yourself.
-
-18:57 - Unidentified Speaker Yeah.
-
-19:01 - Jorge Lewis Yeah, so in that, what I sent you should also be the Python code.
-
-19:06 - Unidentified Speaker Python?
-
-19:08 - Jorge Lewis Yeah, so the old Python code is...
-
-19:13 - Jorge Lewis Is there as well?
-
-19:14 - Unidentified Speaker OK.
-
-19:15 - Wassay Shaikh I was actually extracting the file. And once it gets extracted, I will open it. Then we will go through the overview. Then I will start working on it.
-
-19:26 - Unidentified Speaker Sounds good. OK.
-
-19:28 - Jorge Lewis I have it.
-
-19:39 - Wassay Shaikh Is that core code is in the admin?
-
-19:44 - Jorge Lewis core code, oh the core code is in web, is in web source. Web, okay.
-
-19:59 - Jorge Lewis Which web frameworks have you used again?
-
-20:03 - Jorge Lewis Sorry, which?
-
-20:06 - Unidentified Speaker Which web frameworks?
-
-20:11 - Wassay Shaikh Sorry, I didn't understand what you said.
-
-20:14 - Jorge Lewis Web Frameworks. Web Frameworks.
-
-20:17 - Wassay Shaikh Web. I'm familiar with Next.js for the front-end and FastAPI for the back-end. Okay, so I have your code open in my VS Code.
-
-21:04 - Jorge Lewis All right, let me know. Maybe you can screen share and I can, we can run through it.
-
-21:29 - Jorge Lewis Okay, so I was trying to locate the Python code here So the Python is in is an API Where's your API folder Let me send you the Python code separately because the zip was from alpha and the Python code
-
-22:09 - Jorge Lewis is not in alpha.
-
-22:11 - Jorge Lewis My bad. No problem, no problem.
-
-23:18 - Jorge Lewis I'm gonna send oh, are you get this good on your laptop or no?
-
-23:24 - Wassay Shaikh Sorry, do you have discord on your laptop? No, I I haven't logged in in the laptop yet was on memory Alright, let me send it on LinkedIn then. Alright, sent it.
-
-25:00 - Wassay Shaikh Okay, yeah, I have opened your second code.
-
-25:05 - Jorge Lewis Yeah, so it's not, I'm not gonna lie, it's not the best code. That was like like kind of a prototype, we're still learning with it. The main one is main. The function we're calling is run graph, I believe it's later further down.
-
-25:23 - Jorge Lewis You're familiar with Python code, right? Yeah, yeah.
-
-25:26 - Unidentified Speaker Okay.
-
-25:29 - Jorge Lewis So how about we...
-
-25:34 - Jorge Lewis Okay, I'll run through the kind of what the project is and hopefully that'll give you like a high-level view and then you can see So the project is supposed to be a life coach. It's a bot that's going to help the user every day keep with their habits. So there's a functionality for this called a check-in, which is going to be every day the bot is going to do a check-in with the user. The bot's going to gather some information, like how long did you walk today? Have you watched the informational piece? Along with the chatbot aspect of this app, there's an LMS. Do you know what an LMS is?
-
-26:18 - Wassay Shaikh A learning management system, if I'm not wrong.
-
-26:21 - Unidentified Speaker Yeah.
-
-26:21 - Jorge Lewis So there's a course connected to this app as well. So the bot is going to ask, oh, did you watch the video today? Daily video. It'll ask, what did you eat today? Or things like this. You can check through the code what type of variables there.
-
-26:39 - Jorge Lewis And the architecture we're kind of using is a multi-agent design, but they all act as the same bot. So we pretty much tell them, hey, you guys are all working together to help the user. Your specialty is blah, blah, right?
-
-27:00 - Jorge Lewis So yeah.
-
-27:08 - Jorge Lewis Anything I'm missing, anything obvious I'm missing?
-
-27:13 - Wassay Shaikh Well, it's honestly a great overview. I would say, but it will help me a lot if you tell me about the files. Just give me the basic overview about each file. What are the main purpose of this? Like the main.py, it's definitely the major file here because it have the line graph set up here. I can see it. The state and everything else, but okay. Yeah. Okay.
-
-27:41 - Jorge Lewis So let's start from, let's start from assistant, just the top. Okay. Um, this, this file is, is just a class for the assistant, just really a helper function to make it all, uh, sweet and simple. You're probably familiar with this one. This is, uh, just, it's a role, uh, runnable where they just it calls the call function and it runs. Anything special here is, let me think, nothing really too special. There's some few-shot prompting at the bottom near the middle there, line 35, but that's about it. You don't have to worry too much about that. Actually, don't worry about it at all. So the check-in team is just a module of the graph.
-
-28:30 - Wassay Shaikh Have you worked with line graph before by the way, I haven't asked Yeah, I have like work with language because I basically clone some Projects with my own requirements. But yeah, I Have a deeper understanding related to line graph How does state node and edges work?
-
-28:51 - Jorge Lewis Google So yeah, so this one is just the team the check-in team. Let me let me draw so the I'll describe the layers how they have how we have it so far, so the top one is a we have the router. This guy determines should we start a check in? Or should we just chat with the user? You can see this in in main. Take a look at main.py.
-
-29:19 - Jorge Lewis So we have. In the main function.
-
-29:24 - Wassay Shaikh That's not.
-
-29:28 - Wassay Shaikh I was actually trying to look it from the import file, but OK, no worries.
-
-29:33 - Unidentified Speaker So.
-
-29:35 - Jorge Lewis So here.
-
-29:40 - Unidentified Speaker How about how about I go through?
-
-29:41 - Jorge Lewis Let me let me screen share my screen.
-
-29:43 - Unidentified Speaker Perfect. Alright, are you able to see? Yeah, I can. All right, cool.
-
-30:05 - Jorge Lewis Okay, so we'll start with the high level. So the top layer is the supervisor. We call him the super supervisor. And he determines, should we start the check-in or should we just chat with the user?
-
-30:20 - Jorge Lewis which we call the chatterbox. The chatterbox is going to be replaced later, excuse me, with just other things. But for now, we've just had it as a placeholder so that we can implement the super supervisor.
-
-30:33 - Jorge Lewis This guy is very simple, just a normal agent with a route to next speaker tool. Oh, wait, no. Select next speaker, so it just determines the next speaker.
-
-30:51 - Jorge Lewis Yeah, I won't go too deep into this because it'll it'll take way too long. So this is the main guy Then Yeah, so if the user wants to start a check-in, the super supervisor will route to this team.
-
-31:14 - Jorge Lewis This team consists of these three guys. So the supervisor of this team, the coach, and the data analyst. Data analyst is currently placeholder.
-
-31:25 - Jorge Lewis His prompt is literally like, just make information up. But this is the team structure. The supervisor is the one with the tools to update the database, update the check-in on the database. So I can show you what it kind of looks like,
-
-32:02 - Jorge Lewis So yeah, so here's a check-in and it has these different variables. These will change over time, but don't worry about that right now. So we've got moving, so how much the users moved today, how far they walked today, calories, blah, blah, blah. So just the checkup, right? Daily thing.
-
-32:23 - Jorge Lewis Yeah, the coach is just to provide some guidance. So it'll be like, oh, how to improve if they failed something, for example. And the data analyst will be what the coach will call on the data analyst to provide some deeper insights. It'll analyze the data in a much more complex way.
-
-32:43 - Jorge Lewis Yep, so that's it. We've made it quite tight. There's a lot of normal stuff here that connects the graph.
-
-32:57 - Jorge Lewis Yep, so the user can stop the check-in if they really want to. At the start of the process, they fetch today's check-in if the user has already started it, and then updates with any new data that the user gives. So that's the check-in team.
-
-33:15 - Jorge Lewis The state is quite simple. I mean, this isn't even used, so I could probably delete it, but we have the main thing, which is the messages that stand there, and then next. Profile shouldn't even be here as well, to be honest. The main thing is messages and next. Next just determines who's speaking next in the sequence.
-
-33:37 - Jorge Lewis Um, yeah, that's, that's pretty much the way that we add the team, by the way, is using, uh, we, we pipe them together. So we have the initial builder. Uh, we add the cheddar box on a week. We add the check-in team first to the builder. Um, and then we add the cheddar box to the builder and then the super supervisor. Um, we load the events from the database and then we format them here.
-
-34:08 - Jorge Lewis And then here, this is just a simple check. If the user is already checking in, then we're just going to start with the check-in supervisor instead of the super supervisor.
-
-34:17 - Unidentified Speaker Perfect.
-
-34:21 - Jorge Lewis Yeah.
-
-34:23 - Jorge Lewis And then handle new events just allows us to upload it to the database. Yeah, it just does some checking and uploads it to the database.
-
-34:35 - Jorge Lewis Yeah, so that's the Python. Let me go through, is it all good so far?
-
-34:42 - Wassay Shaikh Yeah, it makes sense.
-
-34:45 - Jorge Lewis Those were kind of the only files you needed to know. I think everything else is useless. Yeah, so really only look at main, assistant, check-in team, and state. If anything else is referencing another file, then it's useful, but otherwise, don't worry. There's probably a lot of unused imports, by the way.
-
-35:07 - Unidentified Speaker No problem, no problem.
-
-35:11 - Jorge Lewis Okay, so for the web part, the code is inside here. So it's web, source, lib, and then server, AI.
-
-35:24 - Unidentified Speaker Perfect.
-
-35:26 - Jorge Lewis So this is where the code lives. Inside here, we just have a couple agents that I'm playing around with.
-
-35:34 - Jorge Lewis So the main file is just graph.ts and this function here, this main function.
-
-35:40 - Wassay Shaikh Your screen is stopped. It was not sharing anymore.
-
-35:50 - Jorge Lewis Let me fix that.
-
-35:52 - Jorge Lewis Yep, there we go.
-
-35:54 - Jorge Lewis Yeah, perfect. So graph is the main file here. This is the function that gets called by the API on Svelte's side. So yep, with just the user message and the profile ID. TypeScript or the JavaScript version of Langtrain uses quite a bit of different naming schemes. So for example, the builder is workflow here.
-
-36:23 - Jorge Lewis Currently how the web part of the project is looking so far is I was still trying to figure out how to make things work. We still haven't imported the actual graph. So I was trying to test with, the problem I was having was really with tool calling and getting it to pass, getting it to pass it to the next agent properly. So that was a bit of an issue I had.
-
-36:56 - Wassay Shaikh Is your Python backend or Python agent is connected to a frontend right now? If you can show me the exact flow on the frontend, if it's connected and working right now.
-
-37:07 - Jorge Lewis It's not currently connected, but I have an example.
-
-37:12 - Unidentified Speaker Yeah, perfect.
-
-37:26 - Jorge Lewis Here's kind of a graph to maybe help understand a little bit. So the main supervisor, if the user wants to start a check-in, it'll go to the check-in supervisor. And then the check-in supervisor will just have a loop with these two other agents until all the data is filled in. So the check-in assistants will ask for new data. The user will give new data. The coach will say, OK, you've done a good job, but you could do better like this. And for every time there's new data, the data analyst will check, hey, is there anything out of the ordinary? Is there any pattern that we can help notify the coach of And then the coach will use that data. So this is kind of a small loop.
-
-38:11 - Unidentified Speaker Well, that's great.
-
-38:12 - Wassay Shaikh If you could share this flowchart with me, it will definitely be helpful.
-
-38:20 - Jorge Lewis Yeah, I'll send everything your way. I'll send it on Discord, so you should probably get Discord on your computer.
-
-38:25 - Wassay Shaikh Yeah, I will definitely download it right now.
-
-38:43 - Jorge Lewis Maybe I think I'll send the... I'll try to find... Oh, here it is.
-
-38:55 - Jorge Lewis So this is kind of an example of one of the conversations that was working with the Python API. So let's check in. Great. Let's start with one step at a time. How did you move? How many minutes did you spend moving? And then the user gives the number. And behind the scenes right here, so like before the assistant gives a response, he updates the database, he calls the tool. And then I pretend like I forgot to give some info, and then the assistant updates it again. You have to note down, he updated the total minutes, so 20 minutes plus 80 minutes.
-
-39:30 - Jorge Lewis And then I just gave more info, he said, okay, cool, that's a bit low. So this is the coaching bit, and then continue to ask for more data, and then it's just that loop.
-
-39:42 - Jorge Lewis Perfect.
-
-39:46 - Jorge Lewis Yeah, the current, wow.
-
-39:51 - Unidentified Speaker Yeah.
-
-39:51 - Jorge Lewis I mean, there's other, this is kind of the example that I think you should be going off of Maybe the cycle that I sent, that I had a picture of earlier is kind of a good way to just visualize it.
-
-40:04 - Wassay Shaikh Yeah.
-
-40:06 - Wassay Shaikh I think you did a great job. You explained it in a best way. And I guess I figured out most of the things. And now just the part remaining is I have to start working on it, I believe.
-
-40:22 - Jorge Lewis Google, if you have any questions, man, do let me know. For sure. If I can help you move faster, that'll be even better. So don't think you're bothering me when you ask a question. For sure, for sure.
-
-40:37 - Wassay Shaikh I will ping you if I get stuck anywhere. Definitely, I will ping you.
-
-40:42 - Jorge Lewis Yep, cool.
-
-40:46 - Unidentified Speaker Yeah, OK. Sounds good.
-
-40:49 - Jorge Lewis If there's anything else, once you get started on the project and you have any straightaway questions, let me know. Maybe I think a good step would be getting started setting up the web server. You've set it up. You've used PMPM before, right?
-
-41:05 - Unidentified Speaker Yeah.
-
-41:07 - Wassay Shaikh Actually, I've used NPM and for the web server, I've used PM2 manager. If you heard about it, it's for the production environment.
-
-41:19 - Unidentified Speaker Yep.
-
-41:19 - Jorge Lewis I mean, if you go into the web folder, then you just run those two commands and you should be set up.
-
-41:29 - Unidentified Speaker Perfect. Yeah.
-
-41:30 - Jorge Lewis If there's any errors, let me know. The errors will probably be related to the environment files, so let me know.
-
-41:38 - Wassay Shaikh for you for sure so perfect it it makes sense yeah I will I will get back to you once I get things done or before if if I get stuck somewhere yeah perfect all right cool thanks so much for
-
-41:52 - Jorge Lewis saying um keep me updated I think if Like for me, one of the things I struggled a lot with when starting out with doing consulting was expectation management. So keeping me updated every few hours would be good. Even if you're having any troubles, letting me know of that would be good so I can know. For sure, for sure. Other than that, yeah, it'll be exciting to see what we're able to pull out because you don't have any experience with TypeScript, BlankChain before. So let's see. A lot of new stuff you're gonna have to learn.
-
-42:26 - Wassay Shaikh Yeah, and I honestly love to push the boundaries because that's what the developers do. All they have to do is search the Google mostly. So definitely that's what I'm going to do for the next couple of hours. So let's see where we end up. It will be exciting.
-
-42:44 - Unidentified Speaker Perfect. All right, man.
-
-42:45 - Jorge Lewis Take care. And thanks so much. Yeah, by the way, we'll for sure, if you're able to kind of pull something out of this and you're able to make something work, we'll definitely compensate you. And yeah, kind of treat it as a test, as an interview. Take our project. Perfect. Again, thank you very much.
-
-43:03 - Wassay Shaikh Let's begin and see you. Bye-bye. All right.
-
-43:07 - Unidentified Speaker See you, Wassay.
-
-43:08 - Jorge Lewis Take care, man.
-
-43:11 - Jorge Lewis It's Wassay, isn't it?

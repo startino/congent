@@ -12,6 +12,7 @@ neo4j_db/
 cache/
 lancedb/
 .lance
+local_kg_projects/*
 
 #########
 # Linux #

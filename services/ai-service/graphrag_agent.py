@@ -2,15 +2,12 @@ import os
 import asyncio
 from uuid import UUID
 import dotenv
-from typing import Annotated, Literal, TypedDict
 
 from langchain_core.tools import tool
 from langchain_core.messages import HumanMessage, AnyMessage, BaseMessage
-from langgraph.checkpoint.memory import MemorySaver
-from langgraph.checkpoint.postgres import PostgresSaver
-from langgraph.graph import END, START, StateGraph, MessagesState
-from langgraph.prebuilt import ToolNode, create_react_agent
-from langchain_core.prompts import ChatPromptTemplate, PromptTemplate, MessagesPlaceholder
+from langgraph.graph import END, StateGraph, MessagesState
+from langgraph.prebuilt import ToolNode
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 from supabase import create_client, Client
 

@@ -1,244 +1,0 @@
-Meet Meeting 
-Fri, May 31, 2024
-
-0:15 - Eksno Bad lighting here.
-
-0:26 - Cuan Mulligan Hey guys.
-
-0:32 - Cuan Mulligan How's the how's the summer it's been much better now Is it is this name Jorge or Jorge Yes So it's pronounced Jorge, but people struggle so he says you can call me Jorge.
-
-0:55 - Eksno I If you ask his dad, it'll be Jorge. If you ask his mom, it'll be Jorge. I think.
-
-1:01 - Cuan Mulligan You're in, Jorge?
-
-1:07 - Eksno Yeah. Can you guys hear me?
-
-1:10 - Unidentified Speaker Yes.
-
-1:12 - Eksno Cool.
-
-1:12 - Unidentified Speaker Perfect.
-
-1:13 - Eksno Yeah. Just discussing your name, if it was Jorge or Jorge.
-
-1:19 - Eksno A complicated one. Yeah.
-
-1:25 - Eksno On Discord, you're called Jorge, Jorge, aren't you?
-
-1:28 - Unidentified Speaker Yeah.
-
-1:32 - Jorge Lewis Let me set up the user for Kuen, by the way. You can start with your local demo, and then I can send it over to Kuen after.
-
-1:41 - Eksno Cool. Yeah. One moment.
-
-2:12 - Eksno Trying to share my screen. Can you guys see?
-
-2:17 - Eksno Yeah. OK, so landing page is just as boring, except there's a new button, Go to Admin. And the Go to Chat is exactly as it was before you can input your profile ID and you'll be able to chat with the bots.
-
-2:38 - Eksno On the admin page, we're kind of just making it as like, what was it called? Any units for now. So you'll have like different pages for each thing, but later we'll probably revise and go over how you want the design to be.
-
-2:55 - Cuan Mulligan Just to briefly align on that, what I would imagine is, is there any interplay between each of the pages, or are they completely isolated from each other?
-
-3:08 - Eksno They are currently completely isolated.
-
-3:14 - Cuan Mulligan But from a technology point of view, would you ever see a point where they might interplay with each other?
-
-3:20 - Eksno If they do, it shouldn't be a problem to combine them. That's why we made them like this, so that later we can combine them without having to worry about them colliding currently.
-
-3:34 - Cuan Mulligan Okay, yeah, maybe JP, you'd have some thoughts on it, but for me, I would just have those as a list on the left-hand side, and as I click, the right-hand side is the area that I'd work in, and I
-
-3:43 - Jorge Lewis can see the other ones. Like a navigation side map.
-
-3:47 - Jorge Lewis Just a very simple side map, yeah.
-
-3:49 - Jorge Lewis we haven't worried about the UI yet, but I think that's the solution for every kind of POC.
-
-3:54 - Eksno We made this in like one minute just to have it so I could have a page for each thing. Then there's the edit system prompts. This one is shared between everyone, so when you edit here it'll be the prompt that every one gets. Here I just have the current prompts. So yeah, it's pretty basic. You can go in here and edit the system prompt that supports like some headers and, oops, apparently control C also works. I'm glad I didn't intend or intentionally make it.
-
-4:36 - Cuan Mulligan So how does one use this? Like you have a section here called responsibilities.
-
-4:42 - Eksno This is just plain text like prompts that is passed directly to the AI. The prompt is just something I used or something I made with AI. It's not crafted at all.
-
-4:58 - Cuan Mulligan Apart from technology for a moment, as a user, what do I need to do to put useful information in here?
-
-5:08 - Cuan Mulligan If I put something in here, what impact does that have on the bot in terms of it engaging with the customer? Is this its personality? Is this the scope? Is this the type of answers, the explicit answer? Because what I don't want to do is have explicit answers because that's just a messaging system and that's not what we want to do.
-
-5:31 - Eksno So this will... Do you want to explain, Jorge, maybe?
-
-5:38 - Jorge Lewis Yeah, I mean, it's all of the above, really.
-
-5:40 - Eksno Yeah, but except explicit answer examples, we'll be using reg for. But this is basically where you craft the core of the bots. This is like the core instructions that the bot is given, if that makes sense.
-
-5:58 - Jorge Lewis So for example, we could, we could, we could separate the, the different aspects you mentioned, like personality, the, the stylish respond if we wanted to. But I mean, of course that's just, you can tell us to do that and we'll do that. But right now we cannot, we put all those things into here. And for the other things, whereas like you will have an example that you'd like, you can use that to, to strengthen it. That's where the
-
-6:19 - Cuan Mulligan But it's, it's so, you know, as a user, like if I was to give this to my wife to say, right, you can now play with the boss. Like, because it's, there's no structure to it. We have to have some sort of guidelines and saying, right, there's good practices to have a, like, I don't know what you say, responsibilities, requirements is not really a, I understand that the definition of the word, but I don't understand the applicability of the word and the context of what we're trying to do here. So I wouldn't know how to put something in here and make it useful for me.
-
-6:58 - Eksno What I'd suggest is just completely getting rid of this prompt, since this prompt is AI generated, except the last part where it describes how it should be shutting, and crafting it from the bottom up.
-
-7:15 - Jorge Lewis But what we could do to help Jonas is give him like a baseline of separating, because there's best practices for prompting, you know, define its personality, the style of writing, the length of the writing, all this stuff that we can use. I mean, I feel like you guys probably know some things like regarding this, since you guys have used ChatGPT quite a bit, but we could separate those into different text editors.
-
-7:40 - Cuan Mulligan So I don't know how good I am, but I understand how to get better things from chat GPT these days, where you say, act as this person, act as this type of a role. I'm having this context, but there's certain, if you look at some of the things that we've looked at in the past, there will be different, categories or different sections to fill in, that if you fill in these X sections, you're going to have a better prompt than if you don't have them. So I could have a prompt right now that just says, be nice. And that is a totally valid prompt. I don't think it's very effective here. So we need help to understand what are all of the categories of inputs that is going to make this more effective. Tone of response. Great. OK. Well, we've already said that we might want to have multiple tones, because somebody might want the Arnold Schwarzenegger or the cheerleader. That's fine. For now, we could just have a tone category. We would have a things you never talk about category. Like if someone says, hey, I had an abortion last week. Should I do this workout? I'm like, I'm sorry. You need to go and speak to a doctor. So we would want to be able to say things to stay away from, things to go on about. I think it just needs some more guidance and it's too nebulous at the moment to say anything. JP, you're probably better at prompting than I am. I wonder whether you've got thoughts on this.
-
-9:13 - Jonathan Phillips Again, I'm relatively new, although I do have an idea. Would we put If you go to list what to talk about, what not not to talk about, would you have that in a separate document and then refer to it from the base prompt?
-
-9:29 - Jorge Lewis I mean, we could just separate them into different, different text editors to keep it simple for you guys. Like, so one of the texts, one of the text fields would be the The style. One of them would be a list of things. Do not talk about like that. Would that work?
-
-9:52 - Jonathan Phillips I don't know the best way of doing it, and obviously management wise, if the list is sort of thousands of lines long for what not to say, would you have that, would it be better in a document or would it be better just as part of the prompt itself?
-
-10:09 - Jorge Lewis either if the list is thousands of lines long, then document. But if it's not, then the text editor.
-
-10:18 - Jonathan Phillips I mean, just to have things in separate documents, it sounds easier to manage that way than have it just in one text file and then leave that to more of the sort of descriptive type of thing for personality, for tone, for direction, for general emphasis of what you're trying to do. I don't know. I don't know. That's what I would do.
-
-10:41 - Jorge Lewis So for that one, you'd have all of the different categories in text files or documents. Yeah. The only downside with that is you wouldn't be able to change or it would be harder to change the text or the prompt on the fly. So like, let's say you're practicing with a bot and he says something that He shows behavior that you really don't like and you want to change it easily. With a text editor, it's a lot easier than changing the document, exporting and uploading it again.
-
-11:10 - Jonathan Phillips Yeah, because when I played with, I think it was Dante's, they had a base prompt and documents. It struggled sometimes to locate things in documents and I didn't have time to play with it too stringently or get feedback from them why things were and weren't working. So I don't know if it's better to load up the base prompt infinitely or to have it separately managed within documents.
-
-11:37 - Jorge Lewis I mean, I think the approach of just separating them into different categories works, we can see from there. Because the main ideas, or there's a couple of things we're talking about here. We're talking about what's more efficient and more functional, like for the bot, and then also what's easier for Cuan and his wife to use as a user interface.
-
-11:53 - Jonathan Phillips Sure. I mean, I'm all about it. Yeah, I'm all about the accuracy, ultimately, for where, obviously, what it interrogates when you put a prompt in, when you question it, the user questions it, what's the most efficient and effective way of getting the data and then manipulating it. If there's no difference, then it's just a semantic sort of organizational job, which is fine. That's not a problem at all. Obviously, we don't know which is the best way.
-
-12:21 - Unidentified Speaker Yeah.
-
-12:26 - Jorge Lewis So I think we'll go ahead and kind of separate it by the different categories, just best practices, you know, personality, like responsibilities, tone, things to never talk about.
-
-12:39 - Cuan Mulligan I mean, for now, just in that text editor, if you basically can give me all of the categories.
-
-12:45 - Jorge Lewis Yeah. That's even faster, yeah.
-
-12:48 - Cuan Mulligan That will just allow us to start playing with it and figuring out, OK, this is not working, that's not working. And then as we start playing with it, we need to figure out what the needs of the interface will be. But yeah. Sorry, I just want to check something. So if I use the bot today, is there an ability to see the chat log and then say, no, don't do that, do this? Is that feature available yet?
-
-13:21 - Eksno Like telling the bot, don't do that? Or how do you mean?
-
-13:25 - Cuan Mulligan My understanding is that once the bot starts something, we have a conversation and it's dialoguing. It may not be responding in the way that we would like, So we would want to say, no, no, that's not a good answer. This is a better answer. Or don't say that, say this. So that's the training, that's what I'm labeling training of the bot. Is that something that we can do?
-
-13:54 - Eksno That is not implemented yet. It'll be, how it'll work is you'll, when you get a bad answer to a question, what you do is copy the question into the admin page, where you'll go to an examples section, which will use a rag to pull out. Because I imagine over time, there's going to be a lot of examples. So you enter samples into that. That's a long list. We'll have to make the UI for that. It's not implemented yet. But one of this, you just give examples there. You don't live do it in the conversation. So maybe we could implement three dots and correct the answer, and then it automatically submits it. The UI can be done in many ways.
-
-14:45 - Cuan Mulligan OK. So again, I can see some progress, but I'm not entirely sure what I can do. That make sense? I'm seeing some buttons on the screen, but I don't know, as a user, what I can actually Currently, you can just edit the core system prompt, which is inherently the last process.
-
-15:12 - Eksno So everything, no matter what process you use, eventually gets compiled into a system prompt. That's a system prompt. Moving forward, we're going to be building on top of it, whether it's just separating it into categories that have been prompted properly, or using Reg to add more context in the system prompt.
-
-15:31 - Cuan Mulligan So there's probably a single use case that I think we should try and coalesce around so that we're actually, we have a tight context by which we're testing things. So the end of day check-in, for example. So what will be useful to have is, right, a number of people, me, JP, all of you guys, whatever, each person, here's our, the categories of things that we're tracking, eat, move, mind, sleep, and what our daily actions are. And then say, right, let's just say I press a button. It knows it's me. And I'll say, I want to do my daily check-in. OK. So again, I know that we would instigate it for now rather than it instigating it based on time. That will come later. And it would go to my profile. It'll see what I have or have not completed, and it will have a conversation around doing that. Because that's a very real use case that we can then refine the bot. Because at the moment, it's just a bot, and there's no context by which I'm engaging it. Does that make sense?
-
-16:40 - Cuan Mulligan Yeah.
-
-16:41 - Cuan Mulligan So I saw you said you had a profile number there. What does that profile number actually do? Does that link to a user's profile with certain things? I mean, even if it was two actions hard-coded for now, that we can start getting into the dialogue, then that will be super useful.
-
-17:02 - Eksno OK.
-
-17:04 - Eksno So what we've been focusing on is mainly getting all the foundation behind the bots that it'll need to be able to complete So we haven't implemented any UI for entering how many calories you've eaten or anything like that yet. What do you think, Jorge?
-
-17:23 - Jorge Lewis I have a question. If I'm not mistaken, I think with like... Two more hours of work, we could have it in the state where he's able to run using his profile ID to run the run and then change the system prompt, I think.
-
-17:39 - Unidentified Speaker Right?
-
-17:39 - Eksno That's how it's currently.
-
-17:41 - Jorge Lewis It's currently like that, right? Yeah. So the system prompt is connected to his account already, right?
-
-17:49 - Eksno Yeah. It's global system prompt. Everyone shares it.
-
-17:55 - Cuan Mulligan Basically go to my profile and see whether I tracked my daily walk, yes or no, distance and time. And what did I track my calories for the day? Just look at those two simple action items. And I have an interface where I can put in data. So I can say that one time it's food, and one time I've done my walk. So I'm going to have it. I can run the scenario. And I'll say, cool, OK, so you haven't done your thing today. Did you do your walk? Yeah, OK, great. OK, fine. So we can have that conversation. I think that will be really useful to try and start testing this. Because otherwise, it doesn't know anything about the context of what we're trying to achieve.
-
-18:36 - Jorge Lewis Yeah, OK. So that's a practical example you want to start working around, right?
-
-18:43 - Cuan Mulligan I think so. I think having a specific use case, I think is super useful.
-
-18:47 - Jorge Lewis Could you tell me the two items again so I can write them down?
-
-18:51 - Cuan Mulligan So having my profile and then under eat, it's how many calories did you eat today? It's a simple one. And under move, did you do your walk? How much, what distance did you cover? How long did you walk for? Just those bits of information. Now, let's say I go in and I enter in yes to my walk, but I didn't fill in the other two. Then it would ask me about those two. I would say, hey, I want to do my daily check-in. That means I go to the profile. I see what they have or haven't done. I come back to you and I say, right, how was your walk today? And okay, cool. And so we'd have that conversation going backwards and forwards.
-
-19:34 - Unidentified Speaker Yeah, okay.
-
-19:36 - Jorge Lewis I'm confused who you're saying you and me. Are you acting as the bot here?
-
-19:41 - Cuan Mulligan No, I will converse with the bot.
-
-19:47 - Unidentified Speaker Okay.
-
-19:48 - Cuan Mulligan Let me say that again because I didn't realize that I was changing identifiers. So I would expect to go into an interface and see my name and then these three action items or tracker items, yeah?
-
-20:04 - Cuan Mulligan As a user, not as an admin.
-
-20:07 - Cuan Mulligan As me, as a user. No, sorry, as an admin for now. But this is just testing. This is not end case at all, right? So they would be blank for this scenario. If I then went to the bot and say, I want to check in today. Now I'm as a customer. And the bot goes, it will go to my profile. It will see that there's nothing in the three trackers. And it will say, cool. Do you know what you track your calories today? No. OK, that's a shame. Tell me what you've eaten or whatever. Figure that out. Or you say, did you do your walk today? No. OK, what does that mean? Or yes. OK, what distance did you do? OK, fine. And then it'll update the profile. Because that loop is, in essence, what we're doing at scale and more refinement. And then, and I know we're not doing multi-message updates at this point, but that That allows me to test the context of this and then gives me a reason to go, right, okay, I'm going to change the persona, the prompt, I'm going to rerun the scenario and I'll see a different experience. That allows me then to go in and change the prompt and see an impact in a very tight construct.
-
-21:15 - Jorge Lewis Yeah, makes sense. So we can work on making that one of the priorities. So that you can start playing with a practical kind of capability.
-
-21:24 - Cuan Mulligan Yeah, at the moment, it's like, I'm not, there's nothing I can imagine.
-
-21:27 - Jorge Lewis You can use it, but there's no practical, like there's, yeah, okay, I get it.
-
-21:32 - Cuan Mulligan With all of these things, I think until you have the context of a use case, it's very difficult to assess it.
-
-21:39 - Unidentified Speaker Cool.
-
-21:40 - Jorge Lewis Jonas, for the, for the global, for the global prompt, is it, so that's everyone that's using it right now will have the same one?
-
-21:48 - Eksno Yeah.
-
-21:51 - Eksno So I can separate that, but when I asked about it last time, I think you said you wanted your wife and you to both be able to edit the same one, so you wanted it to be global and not user-bound, the system prompt.
-
-22:05 - Cuan Mulligan The system prompt, well, again, I think what's more important at the moment is that we have the context in which we can test something under whatever is the least amount of work to get that done, whether it's global or user-based.
-
-22:21 - Cuan Mulligan but the experience is bestowed to a user.
-
-22:25 - Jorge Lewis The thing is, we can't play around with anything if we're changing, like if you and your wife are working with some, trying to experiment a little capability, we can't go in right now and change it ourselves. So Jonas, separate it by profile and we can tell them to use the same profile ID.
-
-22:39 - Unidentified Speaker Okay.
-
-22:43 - Cuan Mulligan Okay.
-
-22:45 - Cuan Mulligan So how feasible, how long will it take You guys to do this next sort of bit of change because there's no point me playing with it today Until we had these other contacts To go over it's the we're gonna
-
-23:00 - Jorge Lewis have the we're gonna have the bots to we can leave out some of the Because there's the bots knowing the profile Stats pretty much and then there's the bot having to mmm I think probably by next week. What do you think, Jonas?
-
-23:22 - Eksno Yeah, the bio is already prompting the user about the four items. But it's kind of doing it just out of whim. It's not doing it in a structured fashion. So the main part of it would be structuring the daily check or the check-in, and also having it get information from the website tracker.
-
-23:44 - Jorge Lewis Yeah, we did set up the profile, the tracking.
-
-23:48 - Eksno Yeah, the profile page, basically.
-
-23:51 - Jorge Lewis And then just connecting it to that bar. So yeah, next week, easily.
-
-23:56 - Cuan Mulligan Okay, so just some feedback in terms of how we're working. And this is just, there's no blame here, but I think certainly my expectations of what I'd be able to do today and what I am able to do today are not aligned. So I think we need to do a better job of getting aligned on what is actually going to be feasible at the end of every week. Because we can see progress, that's fine. But it's just, it's a challenge when, you know, I've got stakeholders who are going, oh, yeah, yeah, great. And I say, yeah, I think we should be able to play with it this week. Technically, yes, you can play with it, but there's no context. So it's not really usable. I wouldn't give it to my wife or my sister, because I think they'd just get lost, and they would just get frustrated, and it would give them a disappointing experience, which I want to prevent. We also said two weeks in that this would be potentially a branching point where JP's work could start on the back of what we've built. It also doesn't feel like we're any way close to that yet. So can we just sort of reset expectations of how do you, I mean, do you think things are going slower or faster than you thought or as expected? Because that is just my, it's a calms gap as opposed to a progress gap.
-
-25:18 - Jorge Lewis I would say slower for sure. Jonas got sick over the weekend. My stomach wasn't doing so well. So for the expectations, I'd say we were on track until then. It wasn't, the best scenario but I think I think what we can't because our expectations were probably accurate but what we conveyed to you was probably the problem so more more communication regarding what you can do within the app and then we tell you what you can do and you ask us what about this can I do this and we'll say yes or no because if we tell you what you can do and then we say okay perfect
-
-25:52 - Cuan Mulligan then there's probably a big chance for miscommunication there Yeah, just from a, again, from a customer point of view, the early days were great. There was a lot of backwards and forwards, a lot of conversations. At the moment, there's very little conversation during the week. I sort of instigate stuff, you guys go off and do your stuff, and I get that. I'm not trying to micromanage you and I'm not trying to look over your shoulders, but I think there is, it feels like the possibility for a divergence is much greater because we're not really checking in. And I think that's evidence in the last two weeks in terms of what you've delivered on the Friday has not been aligned to what was in my head. Again, not blaming, just saying that there's a communication gap. So I'd like to figure out how we make that a little bit tighter.
-
-26:46 - Jorge Lewis Jonas, what do you think about maybe bi-daily text updates? Because in terms of capabilities, it's not every day that there's a new capability that Cuan can work on, but perhaps just the items we're working on. Would that work?
-
-27:08 - Jorge Lewis Not twice a day, every two days.
-
-27:11 - Eksno For up to now, what we've mainly been working on is the foundation of the application, the foundation of the AI, getting all the capabilities in. For me, it's aligned with expectations because we haven't been focusing on everything on top.
-
-27:29 - Eksno to place on top. All of those are things that will rapidly come later throughout the process.
-
-27:40 - Unidentified Speaker Okay.
-
-27:42 - Jorge Lewis So the issue is that we didn't convey that properly with Cuan then, because he was expecting something else. So that is our fault then.
-
-27:53 - Jorge Lewis So do you think doing an update every two days would work, Jonas?
-
-28:00 - Eksno Yeah, but I won't always have too much say, like every two days, but yeah.
-
-28:07 - Cuan Mulligan I mean, I appreciate that when we get to a point where we're building more sort of features rather than foundations, those updates are going to be more obvious and useful. What I think in this phase is more useful is actually getting really, really clear and having some record of a visual will be delivered. So for example when you just say the words You'll be able to play with this next week. And I was like, oh. And I then got potentially carried away with what that actually means. It's not a tightly bound defined object in terms of play means this, not that, but this. And actually, if you're going to play with it, what's actually useful? What's an actual useful thing? So I think if we can do a use case, what I'll do after this is I'll write down in the Discord what I would like it. The thing, so there's a couple of things that once I can do these things, it becomes useful. Not fully functional, but it becomes useful. And the question I need from you guys is when will that be achieved? That might be, it could be on Wednesday, it could be Wednesday next week. So we don't, even though we are working two week in weekly focuses, sometimes things will happen outside of the scope of that. And then the other question, just while we have JP here, is when the world of multi-agent seems to be taking off, and it's just all we're seeing now. When do you guys think you can start looking at JP's solution not wanting to necessarily I mean do we slow down adapt in order to start JP are they both sort of inextricably linked on the first phase and then once you've built enough foundation we can pivot eyes like what's the what's the exercise there I can't hear you Jorge is that just me I think I Yeah, I was saying that I'd probably hop on to the dev bandwagon,
-
-30:17 - Jorge Lewis spend probably half of my time there for story.
-
-30:22 - Jorge Lewis It wouldn't slow down either project. I think they're still, if we did one, it would be the same speed as if we did both.
-
-30:31 - Jorge Lewis But as how soon we can get it done, if the spec that we sent over looks good and there's nothing seems to be missing, then we can start prototyping.
-
-30:43 - Cuan Mulligan Okay. Yeah.
-
-30:53 - Cuan Mulligan Should we leave it there then? If you guys can send over the publicly available, I'll just have a play with what's there anyway, just to see it. And then I'll spec out this afternoon or in the next hour or so once I eat some food, I'll spec out what I think is a useful set of use cases. And once I can do those things, then you can tell me when you think And sometimes where I've gone, it needs to do this. And you're like, well, actually, we could do a hard-coded version that allows you to get to the same outcome without having the finished interface, for example. So I welcome the challenge to figure out alternate ways of getting there quicker.
-
-31:34 - Eksno Yeah, sounds good.
-
-31:36 - Jorge Lewis Thanks, folks.
-
-31:37 - Jorge Lewis Appreciate it. And for JP, we'll get started over the weekend on Monday. Just kick off do the official kickoff by Monday. How does that sound to you? I'll send the contract over probably if Let's get take another look at the spec make sure that it's all good. And then we can once I get the final Okay, I'll send the contract over.
-
-31:55 - Jorge Lewis Sure. I'll do that this afternoon for you Cool.
-
-31:58 - Jorge Lewis Thanks so much JP. Thanks for your time

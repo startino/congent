@@ -1,130 +1,0 @@
-Tracking UI confusion 
-Tue, Jun 4, 2024
-
-0:08 - Jorge Lewis How are you?
-
-0:13 - Cuan Mulligan Yeah, it's up early. Probably bit frustrated with that call.
-
-0:21 - Cuan Mulligan So I'm trying to go through this now. I'm just trying to write it up now. Give me a second.
-
-0:29 - Cuan Mulligan I'll give it a head set.
-
-0:33 - Cuan Mulligan There's a profile to check.
-
-0:45 - Cuan Mulligan Just to do, go to there, just reduce all this down.
-
-0:57 - Cuan Mulligan And then, Do, so let's say this is last to tell item status, tracker, so distance, time, calories, okay.
-
-1:37 - Cuan Mulligan So, what are you working on?
-
-1:39 - Cuan Mulligan I'm trying to do a conversation so that we can move beyond just us having back and forward words. Okay. Because it's not, the text doesn't work as a backwards and forwards conversation. I don't know if you can see my screen.
-
-2:04 - Cuan Mulligan I should put this in a different color. So the blue box is the profile of a user that has a number of tracking items, let's say walk distance or fan calories.
-
-2:26 - Cuan Mulligan When this is fully built, later on, the user may have put some in or may not put some in. So it will be variable from day to day whether the user has, one, done the activity, or, B, then filled in the data. Because they could go to the website and just fill it in. Or they could just proactively say, hey, I've just done my walk to the bot, and the bot will fill it in. So there's a nature of proactiveness. But let's say they haven't done anything.
-
-2:56 - Cuan Mulligan They've not filled any of them in. Now, if they've not filled them in, we don't know whether they've done them or whether they have done them, but just didn't fill it in. So there's those two steps. Yeah. Okay. Yeah. So what you're saying, Yonah, so the user presses the button to start, the bot needs to go to the profile to check the tracker status. In this case, in this scenario, there's all three of them. The bot would then say, Hey, um, so this is just one example. So did you do your walk today? It's the first question. And they go, no. OK. So then I go, right, OK. So then there will be some form of a coaching chat. I'm just going to make it sort of overly simple here for now, coaching chat. OK. So then there is the response around the coaching, blah, blah, blah. That finishes. OK.
-
-3:52 - Cuan Mulligan What can we do? What can you do today to ensure you get to do your walk tomorrow? I have put it in my calendar to do at 11 AM. OK, great. I will check in with you. Shall I?
-
-4:24 - Cuan Mulligan Check in with you beforehand to give you a gentle reminder. Sure, as an example. All right, now I'm not saying this is, I'm just giving you an example of a conversation. I don't think all of these features are gonna be there for this Friday, but for this case then, What I would expect is, is, I'm just going to move this down here. Put these into Amber.
-
-5:10 - Cuan Mulligan Reminder, which is basically, pre-walk, 10.30 AM, something like that. That'll be a reminder that they do the next day. There you go. Cool. OK, great. How many? I just want to check to check how many calories did you eat today? I'm going to keep it simple. And they said about 1,700. Nice.
-
-5:49 - Cuan Mulligan Well done for keeping within your targets. I will update your profile.
-
-6:01 - Cuan Mulligan I go over here and that now has 1,700.
-
-6:08 - Cuan Mulligan So that's the sort of engagement, the bell has added that in. If you were just saying, Right, I press the button to start. The bot goes, what I heard you say was this. Did you do your walk? So you basically just go, let's get rid of all of this.
-
-6:28 - Cuan Mulligan There'd be none of that. So it goes, check the tracker status. Please update your profile.
-
-6:40 - Cuan Mulligan because of missing data, user then goes, user goes to UI and fills in.
-
-6:50 - Cuan Mulligan And let's say it goes, okay, I've done calories, 1700. Then what does it do? We can hear you.
-
-7:10 - Jorge Lewis I could try to speak for Jonas for now.
-
-7:15 - Eksno Can you hear me? Yeah, there we go. So all the fields in the tracker or in the profile would be required to be filled in.
-
-7:29 - Eksno Basically, just after the UI or user has gone to the UI and filled in everything, it would skip the asking for the information step and just go directly to the coaching step. Because the coaching is like the core of the application.
-
-7:42 - Cuan Mulligan If everything's filled in, there is no coaching.
-
-7:45 - Eksno If they filled in that they walked for two minutes and they were supposed to walk for an hour that day, then there is coaching. Like, why didn't you walk today? Do you want to send them a reminder? Like that sort of stuff. The value isn't the question for, like, how many calories have you eaten today? The value is what the bot talks about after related to that data, right?
-
-8:08 - Cuan Mulligan I mean, possibly because with every item that you track, you've either gone below us, above us. So you didn't do us. And if you did do us, you either were above us, below us or on us. So you got variations of that. The, the, the, one of the key assumptions we have is by having this check-in where you are asked, how did your sessions go? Did you do them?
-
-8:43 - Cuan Mulligan That is the sort of, we're introducing an accountability cycle. So at the moment, if you physically have a phone call with somebody, right? So let's say we're speaking to a client every two weeks. On the call, they're really engaged. And then life takes over for the two weeks in between. Then maybe a day or an hour before the phone call, they go, shit, I've got all that shit to do.
-
-9:07 - Cuan Mulligan every 24 hours rather than every two weeks. So the user has that time. So for me, I'm trying to figure out why I'm attached, but I'm very attached to the fact that the bot starts the conversation by figuring out, like, OK, did you do your walk today? No. Or yes.
-
-9:32 - Eksno I think if that's the case, then we shouldn't be implementing an interface for the user to enter the data, because that'll just add more work for us to do. And also, if the user does enter the data, we don't get the scenario that you imagine in your head, where it goes like asking for data and more dynamic conversation. It'll be more, it's just coaching based on the data that was given to us.
-
-9:57 - Cuan Mulligan Well, no, because there's the scenario where For example, I wake up in the morning and I did 5K in an hour, one hour, for example, and I didn't do calories. I just haven't had time to put my calories in yet. So maybe I did do that in the morning.
-
-10:24 - Eksno Yeah, what's the difference then from like when you click like start check-in from just having a pop-up where it's just like, hey, enter these fields. Did you do this like hard-coded compared to the bot asking? With the bot asking, it's more natural and more like, yeah, it feels more like a real conversation. But in practice, the value of the information that comes afterwards, the actual coaching behind the information, I feel will be the same either way. And that's the concept we're trying to prove.
-
-10:53 - Jorge Lewis Also, you're describing a use case. MVPs aren't supposed to fill or suffice for all the use cases, they should be for the primary use cases. Your use case could be implemented later on by inputting half of the data into the input fields, but the primary way into the data is through the chat.
-
-11:18 - Cuan Mulligan I think we're misaligned here. The reason for having the UI at the moment is a testing capability to show variability between, I want to do a check-in when I've entered nothing. I want to do a check-in where I've entered one. I want to do a check-in when I've entered everything. So the point of the UI is a test case variability.
-
-11:39 - Cuan Mulligan Yes, when the app is up, I should be able to do through the UI or chat because different people have different things. Some people don't want to talk to a bot and they just want to quickly just enter in their data as they go along throughout the day.
-
-11:54 - Cuan Mulligan But that's a later issue. For me, the UI for this is a testing inability so I can test different scenarios of no data, some data, all data.
-
-12:07 - Eksno I think we're moving past an MVP there where we're trying to account for like every edge case where we could just like force the user to either enter all of the data or none of we can still prove the concept that the bot can handle having none of the data and having to request it. And inherently, if we have that scenario, then in the future, when you want to implement the capability to enter data for a UI, we'll know that it'll work because we know that the bot works without data and can ask for data.
-
-12:40 - Cuan Mulligan OK, I'll buy that. OK, I'll buy that scenario.
-
-12:44 - Eksno So for me, it's more of an implementation issue. I'd just like to narrow down what are the essential core values that we're trying to prove that the bot can provide. So implementing a UI and all those different edge cases will just add time until you can start playing with it. And it'll also work for you because you have to prompt engineer more.
-
-13:08 - Jorge Lewis I also think you can experiment, the thing you mentioned, I think you can experiment using the chat interface. You just provide some of the data and some of them you don't provide. Because with the chat, with the bots, you'll be able to give data in a pretty flexible way. You'll be able to just say, today I did 1700 calories, 13 KM in 40 minutes. And like, it'll be able to parse it down and you can miss out some of the info the same way you'd miss out purposely in the tracker.
-
-13:39 - Cuan Mulligan OK, so the issue here is that there is only one day, and we don't yet have the ability to look at a user's profile. Maybe they miss every Tuesday, they miss walks.
-
-13:59 - Cuan Mulligan Or Friday nights, they blow their calories. But I mean, that's a later stage. That's where we would go next on the coaching is in terms of understanding patterns.
-
-14:10 - Cuan Mulligan Thursday, you know, tomorrow, Friday is a really bad day for you. So, you know, let's see what we can do to change it. But that's a later feature. So by Friday, what do you think I should be able to do then?
-
-14:28 - Eksno My first interpretation was that all the information was going to be entered through the UI for now, and then the bot would just act and coach based on the information entered through the UI. I haven't evaluated yet how much effort it will be to have all the information entered through the bots or through a conversation yet. But we know it's possible, because that's been done many times before, probably even before LMS.
-
-14:57 - Cuan Mulligan I mean, so we're Tuesday now. I've tried to, because I feel the last two Fridays we've been misaligned in terms of scope and what's being delivered. So that's why I've taken this step to try and write out this use case. I'm appreciating that we're having the conversation on a Tuesday rather than on a Friday. So that's definitely an improvement, but it feels like either this isn't the right format that I've given it in, But it feels like we're misaligned again, in terms of what's going to be delivered for Friday, because just the bot saying, fill these boxes in, is not a conversation.
-
-15:37 - Eksno That would be like free to check and it wouldn't be the bot, it would just be a UI where the user enters the information and then it goes on to a dynamic conversation with the bots about the information that was given.
-
-15:50 - Cuan Mulligan The act of getting the information is the start of the conversation.
-
-15:54 - Eksno Okay, then I don't think there's a value to having a UI for entering the information yet. I think we should just focus on having the bots get the information.
-
-16:04 - Cuan Mulligan I think so as well.
-
-16:07 - Cuan Mulligan Yeah, that's what you said earlier on. That's what I agreed with when you said, actually, if we just assume all of them to be empty, that caters for all scenarios by default.
-
-16:17 - Eksno Yeah.
-
-16:18 - Eksno That makes sense to me.
-
-16:19 - Eksno Then that lessens the amount of work we have to do because then there's less scenarios for us to have to account for at this stage of development.
-
-16:28 - Jorge Lewis Yeah.
-
-16:29 - Jorge Lewis I mean, of course, if we finish a day earlier, we could add it in, right? We want to prioritize, we need to set priorities for the things that are necessary.
-
-16:41 - Cuan Mulligan Okay. Um, okay, cool. Right.
-
-16:46 - Jorge Lewis Well, um, could you send again that Google sheet that you sent with a sample conversations with your, the one that you did with your wife where you guys acted as a ball?
-
-17:01 - Cuan Mulligan Uh, shit. Where is that one?
-
-17:05 - Jorge Lewis I think I can find it.
-
-17:33 - Jorge Lewis Yep, yep. I'll send it in the group chat.
-
-17:38 - Cuan Mulligan Okay, cool. Cool. Cool. I need to jump off, folks.
-
-17:49 - Jorge Lewis Yep. Thanks, Kevin. We'll see you later.
-
-17:51 - Jorge Lewis Take care.
-
-17:54 - Eksno Take care. I'll see you.

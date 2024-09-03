@@ -1,334 +1,0 @@
-Meet Meeting 
-Fri, Jul 12, 2024
-
-4:37 - Unidentified Speaker Am I audible? Hey, how are you?
-
-4:48 - Eksno Yeah, I'm all good. How about you? Yeah, I'm good.
-
-4:51 - Eksno Can you hear me fine?
-
-4:53 - Unidentified Speaker Yeah, nice.
-
-4:56 - Eksno Let me just turn up the volume a little.
-
-5:08 - Eksno Can you try to speak again?
-
-5:10 - Eksno Yeah. Hi. Yeah. Is it fine now? Yeah. Yes.
-
-5:14 - Eksno I just have to turn up the volume.
-
-5:18 - Eksno Yeah. So, yeah. Would you like to introduce yourself?
-
-5:23 - Unidentified Speaker Yeah, sure.
-
-5:23 - Hasnain sayyed So, hi there. My name is Hasnain sayyed. I have done my bachelor's in information technology from Mumbai, New York City. And apart from my studies, I love participating in hackathons. To solve the real world problem. And talking about my experiences, I have done two internships, where at the first I was working with AWS innovate, where under where I was working under the project called CodeMate, which is a VS code extension. Through that project, I was working in lang chain and vector database technology. And talking about second internship, I was working with Mercor, which is a US-based startup. I was building the sneaker e-commerce platform. Yeah, that's my intro.
-
-6:11 - Eksno Yes, sounds good. Yes, for me, I'm Jonas Lindberg or Jonas. I've been programming since ninth grade, took trade school in software engineering. And yeah, after that, I worked for two years and one of the like European style oil industry programming companies, everything C sharp and everything. So I worked on a lot of internal software there, including like a bank applications. Yeah, just working with oil data and such. And afterwards started up this company with George Lewis. And we've gone through a lot of phases in this company, but we seem to have singled in on targeting subject matter experts that want to create AI solutions using the benefits that LangChain provides over just chucking in chat activity. Because yeah, making large language models reliable, basically.
-
-7:13 - Unidentified Speaker Yeah.
-
-7:14 - Eksno Great, great. Yeah.
-
-7:17 - Eksno So how much has George told you about the projects that Can you repeat? How much has George told you about the project today?
-
-7:30 - Hasnain sayyed About the project? He has told me like currently he will be judging me for two to four days for $40 a day. And after that, if it works fine, then I will be shifting to a full-time job.
-
-7:44 - Eksno Yeah. About the project, has he told you anything about the project? No, no.
-
-7:49 - Hasnain sayyed He hasn't informed me about the project. OK.
-
-7:53 - Eksno So Adapt, or Adapt Journey, is a live coach bot that you interact through a chat interface. And on the side of that chat interface, there's a learning management system, so videos to watch and such. There's a to-do application. And just things that interact with the LiveCoach. The LiveCoach is basically trying to emulate our client Kuon's coaching style as close as possible. And for doing that, we use SlangChain to explain very simply. The web technology we use is SvelteKit, along with Taylor and CSS for styling, and ShadCM as a component library. And all the lang chain code, AI code, is all inside the same project in a library folder.
-
-8:55 - Hasnain sayyed Yeah, great, great. So does the chat application also have a rag model like a vector database? For example, the users will try to upload their own custom document. And based on that document, a user can ask a question to LAMP chain. And based on that document, they will be getting the answer. So is such scenario will be applicable in this project?
-
-9:20 - Eksno We currently have a data source reg, which Kuhn uploads PDF files, EPUB files about, for example, live coaching, healthy eating habits and such. And we use that data source reg to fetch information for the agent to use when answering user queries.
-
-9:43 - Hasnain sayyed Yeah, great. So can you tell me which vector database are you using, like Pinecone, Milibus, or?
-
-9:50 - Eksno I'm using Superbasis vector database, which is a PG vector, I think. Yeah, great, great, great.
-
-10:01 - Eksno Yeah.
-
-10:03 - Eksno Let me get a PDF up that's kind of a diagram of the application real quick. Then I can screen share and show you a bit. Yeah, sure.
-
-10:17 - Eksno Oh, actually, it's yeah.
-
-10:37 - Hasnain sayyed And also the code for language should be written in JavaScript.
-
-10:43 - Unidentified Speaker It's in TypeScript.
-
-10:44 - Hasnain sayyed TypeScript. Okay, fine.
-
-10:57 - Eksno Let's see if screen sharing is happy with me today. Sometimes it just doesn't want to work properly.
-
-11:06 - Hasnain sayyed Yeah, yeah. The screen is loading.
-
-11:13 - Eksno It seems to be sharing black. Let me try again.
-
-11:35 - Eksno Thank you.
-
-11:44 - Unidentified Speaker Yeah.
-
-11:44 - Hasnain sayyed Can you see it now?
-
-11:46 - Eksno Yeah, yeah. Now I can see it. Perfect.
-
-11:55 - Eksno Can you see this PDF, the diagram here?
-
-12:06 - Hasnain sayyed Hello? Yeah, yeah.
-
-12:08 - Hasnain sayyed I can see the PDF.
-
-12:10 - Eksno Where did I find it?
-
-12:15 - Eksno So this is basically showing a diagram of one day. So to try to simplify it down to points, because you're completely new to the project, during a day, everything will be building up to what's called on the end-of-day checkup. And during the day, the user will be able to chat with what's called a mentor, which is basically your life coach. It's your dedicated guy. The mentor is actually made up of a lot of bots, but they're acting as the same bot in iGraph.
-
-12:59 - Eksno During the day, they will receive drip feed content. So for example, videos to watch. And they will also be asked to fill in information about how their sleep was, how they've exercised, how much they've eaten, and if they watched the video.
-
-13:23 - Eksno At the end of day, an end of day check-in will be started.
-
-13:29 - Eksno If the fields haven't been filled in, then before the end of day check-in starts, they'll be asked to fill in the remaining fields. On this screen here, you can see that there's sleep emoji and text fields. But it will actually just be the user telling the agent how much they've exercised. If they've filled in all of the information required for the check-in, it'll switch to the check-in graph, which starts going through and analyzing how the user is doing.
-
-14:07 - Eksno Depending on how the user is doing, the mentor will comment on that and coach on that.
-
-14:16 - Eksno The thing that you're gonna, the first task, which is pretty isolated from the rest of it, is that you're gonna be getting to start up is, where is this going? Here. Is creating this new part called a coaching session. So that will be its own graph. Basically, if the user is doing pretty horribly, it will start a new graph, which is called a coaching session. Where it'll act as a completely different persona for the mentor and the coach will basically go through, ask the user questions and try to get to the bottom of why they're doing so horribly, if that makes sense.
-
-15:02 - Hasnain sayyed Yeah, yeah.
-
-15:03 - Unidentified Speaker Yeah.
-
-15:05 - Eksno You don't have to worry about the coaching being perfect or any of that yet. For your first task, basically just implement the structure for the coaching graph so that it's able to go through and simulate the start of a coaching session.
-
-15:23 - Hasnain sayyed Yes. Can you go through again like the task that I need to perform Yeah.
-
-15:34 - Eksno So which IDE do you use? Which editor, text editor, for coding?
-
-15:46 - Hasnain sayyed Visual Coder.
-
-15:48 - Unidentified Speaker OK.
-
-15:49 - Eksno Then this may be a little confusing. But yeah, I use Neovim. You can see the file tree on the left here. Yeah. Yeah.
-
-15:59 - Eksno So yeah, to run you through the structure of the product. Have you worked with SvelteKit before?
-
-16:06 - Hasnain sayyed SvelteKit, not yet. I have worked with Svelte, but not SvelteKit.
-
-16:11 - Eksno Okay, yeah, so the main part of the code is in the source folder, as per usual. In routes, you have all the URL routes, so you can go to like, slash admin, and then you get to this place, admin slash prompt, you get to this place. You don't have to worry about this code too much in the routes. You can ignore the routes folder for now. The folder you need to care about is lib, specifically lib server AI. Here's where all the AI code is, so all the link chain. Yeah, cool. The file that is called to begin with when the user sends a message is this run function.
-
-16:53 - Eksno Okay. This run function creates a graph which is in the graphs folder. It's the index here. This create graph function switch cases depending on the profile state.
-
-17:11 - Eksno and uses the appropriate graph depending on the profile state.
-
-17:17 - Eksno The agents will be given a tool to be able to switch the profile state. So for example, in the coaching graph that you're going to be creating, at the end of the coaching, the agents should call a tool to switch back to the sharding graph.
-
-17:36 - Eksno Does that all make sense?
-
-17:39 - Eksno Yeah, so I've already gone ahead and modified the enum here. So you can see, and have you used Superbase before?
-
-17:49 - Hasnain sayyed Yeah, I have used Superbase. Perfect.
-
-17:53 - Eksno Yeah, here in profile, you can see there's a state and it's basically just an enum of which graph to use. So I've created a new enum coaching here. So yeah, you'll just need to copy one of these switch cases and make it coaching instead.
-
-18:10 - Eksno I haven't updated the superbase types yet, so it's complaining. In graphs here, you can see two folders, chatting and check-in. You'll be creating a new one called coaching, and then you can look at the other two for inspiration. Chatting is the most elaborate one, so that one's probably best.
-
-18:35 - Eksno basically creates this function. This is like the core parts of the graph. It's just a create graph function, which creates all the agents, adds those nodes, adds the edges and returns the workflow. Then it's at the bottom here, where it's returned back to the run file. And we stream through it and upload the messages to the database, which automatically, through Superbase Realtime, streams the messages to the frontend chat interface.
-
-19:11 - Hasnain sayyed Got the clue.
-
-19:14 - Unidentified Speaker Sorry? I got the clue.
-
-19:16 - Hasnain sayyed Yeah. Yeah.
-
-19:18 - Eksno Yeah, it's always scary trying to onboard someone into this complicated, weird TypeScript flow. But hopefully I'm doing all right. Yeah, yeah.
-
-19:31 - Unidentified Speaker Yeah.
-
-19:32 - Eksno So in essence, I think the only files you'll need to care about for today will be creating this new coaching folder and the graph and agents for that coaching graph and introducing this new case to the switch case where it awaits the workflow from your coaching graph instead. Yeah. Then you just import it from graphs slash coaching.
-
-20:09 - Unidentified Speaker Got it.
-
-20:11 - Eksno Make an index.ts, which looks kind of like this and has a function to create the coaching graph.
-
-20:21 - Unidentified Speaker Any questions? No, no.
-
-20:25 - Hasnain sayyed Perfect. The coaching graph functionality, like what it is expected to return the output like under the switch case for the coaching graph.
-
-20:41 - Eksno Can you repeat that?
-
-20:43 - Hasnain sayyed Like under the switch case, like the coaching graph, what functions do I need to create?
-
-20:49 - Eksno Like what sort of conditions it is expecting to This is the function that will be run in the switch case, just with your own agents and own edges.
-
-21:10 - Hasnain sayyed Okay, got it.
-
-21:13 - Eksno So it just returns the workflow that's created, so the state graph objects.
-
-21:19 - Unidentified Speaker Got it.
-
-21:20 - Hasnain sayyed The state graph, then the node creation, then the edges. Yeah.
-
-21:28 - Eksno As for the agents and prompts to use for the agents, I think just kind of wing it. Make it emulate a coaching session. Don't put too much effort into it. The main point of this is to get the structure in place so that we can create tasks out of the structure and delegate it between more people.
-
-21:51 - Eksno OK.
-
-21:55 - Eksno Yeah, I've gone ahead and created a feature slash coaching branch for you. Do you have access to the GitHub repository?
-
-22:05 - Unidentified Speaker No, not yet.
-
-22:07 - Eksno I'Ll go ahead and add you. Could you send me your username?
-
-22:11 - Unidentified Speaker Oh, yeah, sure.
-
-22:12 - Hasnain sayyed Just a second.
-
-22:16 - Hasnain sayyed I have pasted in the Meet chat my profile.
-
-22:21 - Eksno Discord or Meet?
-
-22:24 - Hasnain sayyed The Meet, Google Meet. Yeah.
-
-22:36 - Unidentified Speaker This one?
-
-22:37 - Hasnain sayyed Yeah. Yeah, right.
-
-22:43 - Eksno Their invite has been sent.
-
-22:47 - Hasnain sayyed Yeah, I got the invite.
-
-22:50 - Eksno Yeah, so to inform you a bit while you're accepting the invite and getting the repository on your system, we use PNPN for the web projects, as well as TypeScript, Eastland, and Predia.
-
-23:12 - Eksno Have you worked with TypeScript before or only pure JavaScript?
-
-23:17 - Hasnain sayyed No, I have also worked in TypeScript as well.
-
-23:20 - Unidentified Speaker Perfect.
-
-23:25 - Eksno Yeah, do you have any questions for me now?
-
-23:28 - Hasnain sayyed No, I will ping you in the Discord if I have any.
-
-23:32 - Eksno Yeah, perfect.
-
-23:36 - Hasnain sayyed Thank you very much for explaining the code in very simple terms. Thank you.
-
-23:43 - Eksno Yeah, thank you for understanding them.
-
-23:49 - Eksno It's always like it either takes like 10 minutes or it takes like 10 hours. First time we are heading to the new repository.
-
-24:03 - Eksno Always a bit intimidating. No worries. We're not expecting any perfect implementation. Of course, it's your first days and weeks here. So it's going to take some time getting used to the project, understanding what it is. Because it's basically one giant, super complicated feature, which is the coaching itself.
-
-24:26 - Unidentified Speaker Yeah.
-
-24:29 - Eksno Are you comfortable talking with clients?
-
-24:34 - Hasnain sayyed Yeah, fine. I can talk to the clients as well.
-
-24:43 - Unidentified Speaker Perfect.
-
-24:44 - Eksno I'd like to get you in a meeting with the client pretty soon so that you can discuss with him how the coaching process should work and plan that out with him.
-
-24:56 - Unidentified Speaker Yeah, fine. Great.
-
-25:00 - Eksno Have you used Read.AI before?
-
-25:04 - Hasnain sayyed Which one?
-
-25:06 - Hasnain sayyed Read.ai. Meeting.
-
-25:08 - Hasnain sayyed No, in the previous meeting I have been connected with that technology. It basically translates all the meeting conversation into a text form. Yeah.
-
-25:23 - Eksno When you're doing meetings, which you are handling yourself with, could you please include read.ai in the meeting so that you can send the read.ai notes to us and we can watch the meetings? Yeah, sure, sure.
-
-25:38 - Hasnain sayyed I will add that plugin to my meeting now.
-
-25:42 - Unidentified Speaker Perfect.
-
-25:46 - Hasnain sayyed And also, by the end of the day, I will be telling you my working status, like how much I have implemented.
-
-25:57 - Eksno Perfect.
-
-26:01 - Eksno I'll invite you to the partner Discord. That's where we have our conversation with the clients. There you should be able to post your updates in the public channel. We have a public development channel with the clients because clients really like it when they see that work is getting done even though they don't understand anything about what's being talked about.
-
-26:31 - Eksno Just tell me when you've joined and I will give you the team role.
-
-26:36 - Unidentified Speaker Yes. It's loading.
-
-26:46 - Eksno you Are you able to join the Discord?
-
-27:45 - Hasnain sayyed Yes, just a second.
-
-28:03 - Hasnain sayyed Yes, I have now been added to the Discord. This is working very slow at my end.
-
-28:12 - Unidentified Speaker Like the internet? Yeah, internet.
-
-28:17 - Unidentified Speaker OK.
-
-28:21 - Eksno Yes, I have been added.
-
-28:23 - Eksno There.
-
-28:24 - Eksno You should now have access to the channels too. You can see basically at the top of clients where you have a depth Inside there. There's a depth of where you should become Conversing about about us about the project that's updates and everything like that I Should I go back just more of the main channel where we speak and with the client?
-
-28:45 - Eksno And the others, you don't have to worry too much about yet.
-
-28:51 - Eksno Inside the HashtagAdapt, could you write an introduction message, just introducing yourself to the others, including the clients, as well as saying that you're going to be working on the coaching graph?
-
-29:03 - Unidentified Speaker Yeah, sure.
-
-29:05 - Hasnain sayyed HashtagAdapt, right?
-
-29:06 - Unidentified Speaker Yeah, HashtagAdapt.
-
-29:09 - Eksno In that message, you can also ask Kikun if he'd like to get on the meeting and discuss how the coaching graph should work. Yeah, fine.
-
-29:20 - Hasnain sayyed I will put up the introduction about me here soon.
-
-29:24 - Unidentified Speaker Yeah, perfect.
-
-29:30 - Eksno Also, if you don't mind, it would be nice if you added your photo on Discord as a profile picture. Yeah, sure.
-
-29:37 - Hasnain sayyed Now I will be adding.
-
-29:44 - Eksno Yeah, is there anything else then?
-
-29:47 - Hasnain sayyed No, I will text you whenever I get stuck.
-
-29:52 - Eksno Oh, I totally forgot one thing. We use a virtual office platform called Gathertown. Have you ever heard of it? No, actually not. It's basically a virtual office where you all have your own desks, and you can walk up to each other, which instantly starts a meeting, as well as chat with each other. And it's a pretty cool application. It looks kind of like a video game.
-
-30:23 - Hasnain sayyed Great, great. I would love to connect with that.
-
-30:27 - Eksno Yeah, I'll send you the link right now.
-
-30:32 - Eksno Oh, that was the link that did not copy correctly.
-
-30:52 - Eksno I sent you the invite link.
-
-30:54 - Eksno Yeah, I got the link.
-
-31:57 - Hasnain sayyed Why it's not logging? Yes, I joined the group.
-
-32:23 - Eksno Yeah, so while you're on working, we'd like you to be on GatherTown because then we can see when you are online and we can always walk up to you to start a meeting if we need to.
-
-32:37 - Unidentified Speaker Yeah, sure.
-
-32:39 - Eksno It's kind of to emulate that instead of being in an actual office where you can kind of just go over to another guy's table and start speaking with them without having to go like, hey, do you have time for a meeting? Yes, I have time for a meeting. When would you like to do the meeting? All of that. You can just walk up to their desk and stuff.
-
-32:57 - Hasnain sayyed Yeah.
-
-32:58 - Unidentified Speaker That's great then. Yeah.
-
-33:17 - Hasnain sayyed Okay, then I will start to work and I will update you whenever I get finished.
-
-33:24 - Unidentified Speaker Yeah, perfect. I'll see you then.
-
-33:27 - Eksno Good luck.
-
-33:28 - Unidentified Speaker Yeah. Thank you very much.
-
-33:29 - Hasnain sayyed Yeah.
-
-33:30 - Unidentified Speaker Have a great day.
-
-33:31 - Eksno Have a great night.
-
-33:32 - Eksno Bye.

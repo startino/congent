@@ -1,11 +1,9 @@
-import json
 from uuid import UUID
 from supabase import Client
-from typing import Any, Sequence, Union
-from langchain_core.messages import HumanMessage, AIMessage, ToolMessage, AnyMessage, BaseMessage, message_to_dict
+from typing import Sequence
+from langchain_core.messages import BaseMessage, message_to_dict
 from langchain_core.messages.utils import messages_from_dict
 from langchain_core.chat_history import BaseChatMessageHistory
-from langchain_community.chat_message_histories import ChatMessageHistory
 from models.event import Event
 
 class SupabaseChatMessageHistory(BaseChatMessageHistory):

@@ -1,506 +1,0 @@
-Spec overview pt 1 
-Mon, Jun 3, 2024
-
-0:25 - Jorge Lewis And is he for you?
-
-1:28 - Nazif Barassounon Hello, can you hear me?
-
-1:42 - Nazif Barassounon Are you there, Nazir?
-
-1:44 - Jorge Lewis Hello. Can you hear me?
-
-1:46 - Jorge Lewis I can hear you, I guess.
-
-1:52 - Jorge Lewis Hello.
-
-1:55 - Nazif Barassounon How are you doing?
-
-2:02 - Jorge Lewis It's on my side.
-
-2:06 - Jorge Lewis Okay, now?
-
-2:08 - Nazif Barassounon How are you doing?
-
-2:09 - Jorge Lewis There we go, yeah.
-
-2:10 - Jorge Lewis I love how you've been talking for.
-
-2:45 - Nazif Barassounon Did you return to Thailand?
-
-2:50 - Jorge Lewis No, I'm in Thailand. Gonna go see Jonas later at the office. Here is very, I don't know about in Benin, but in a lot of places here, like in Thailand and in Vietnam, they have a lot of what they call co-working spaces. They're pretty much like cafes, but you can like, you pay to go there and it's like an office, you know?
-
-3:11 - Unidentified Speaker Yeah.
-
-3:13 - Nazif Barassounon There are places here for co-working too, but it's not well spread.
-
-3:21 - Jorge Lewis The ones here, but it's like, you have to really weigh it out because it's a hundred bucks a month for like unlimited access. So if it's more productive there, then it's worth a hundred bucks.
-
-3:38 - Nazif Barassounon It also helps socialize, you know, not being alone all day.
-
-3:44 - Jorge Lewis Yeah, exactly. This was, this is my first time staying in an apartment by myself. And I like it, but it's like, if I worked here, like I did before in the apartment with Jonas, I would, I would go crazy.
-
-3:56 - Nazif Barassounon Yeah.
-
-3:56 - Jorge Lewis It helps with socializing, yeah.
-
-4:05 - Nazif Barassounon On my end, I have no choice but to only be in my apartment. And people here... Yeah, I moved.
-
-4:16 - Nazif Barassounon That's how it is.
-
-4:18 - Nazif Barassounon Very good. There's a lot of space and it's quieter.
-
-4:22 - Unidentified Speaker Nice.
-
-4:27 - Nazif Barassounon And here in my country, people don't know much about working from home. And they think that I'm a scammer, you know, like Nigerian scammer.
-
-4:43 - Jorge Lewis No, I know how you feel, because it's like when I first started, I was like, oh, I do software. And they're like, oh, yeah, it's always very, the misconceptions are very strong for what we do.
-
-4:55 - Jorge Lewis In America, too?
-
-4:57 - Jorge Lewis When I was in Hong Kong, because I was quite young, and I was starting a business. Oh, you're starting a side hustle. It's just people have very strong misconceptions all the time.
-
-5:10 - Jorge Lewis And they don't take it as real work.
-
-5:13 - Jorge Lewis Yeah, it's not their fault. It's just life.
-
-5:17 - Nazif Barassounon Yeah.
-
-5:24 - Jorge Lewis Yeah, Jonas and I are, so he's staying at another apartment. The plan is to just work at the same place because we got tired of each other.
-
-5:37 - Jorge Lewis I called it though, spending the entire 24 hours with someone is just, you just end up disliking them. So now we go to the office and we're happy, but at the apartment, we were just like, it was just too tiring. So our goal is to like, just go to the coworking space and work there together. And it'll be nice because in person, like we're working in person is a lot better. The communication and just things are just nice. Yeah, that's right. I think I need to add Jared. I don't think he gets notifications. That's my guess.
-
-6:59 - Jorge Lewis Are you into investing and stuff like that?
-
-7:05 - Nazif Barassounon On bitcoins or something like that. Yeah Bitcoin or stocks Yeah, but I'm not really I don't know much about it Okay, but like you're investing into it I Think it would be nice But I need to learn more about it hmm like crypto or or
-
-7:37 - Jorge Lewis like stocks?
-
-7:40 - Nazif Barassounon I know more about scriptos, but stock, I don't.
-
-7:47 - Jorge Lewis Yeah, for stocks, it's like, you mean know more about the companies, right? Or more technical?
-
-7:59 - Nazif Barassounon The technical side, you know, how the money flows, how to choose stocks and what should I look for when choosing a stock.
-
-8:17 - Jorge Lewis Yeah, for me, it's just mostly for, I mean, I'm only into crypto right now, but when I want to get into stocks, it's, it's mostly just what companies are good. And I have a couple of people that work at the, uh, they have connections in Nvidia and they, they know that Nvidia is going to keep going up. I don't know if you saw, but Nvidia went 10% one.
-
-8:40 - Nazif Barassounon Yeah. I know that Nvidia is a big thing right now.
-
-8:44 - Unidentified Speaker Yeah. Crazy.
-
-8:49 - Nazif Barassounon But to invest there, the entry bar must be very high, right?
-
-8:57 - Jorge Lewis To invest at NVIDIA? Yeah. One of their shares is worth $1,000, but you can buy partial shares. So if you just have buy $10, $10 worth it. But only some platforms allow that.
-
-9:16 - Jorge Lewis Oh, OK.
-
-9:24 - Jorge Lewis Crypto is expected to go up really high this year to in like November, December.
-
-9:34 - Nazif Barassounon You know, for this kind of thing, it's a lot better if you have, you know, some amount of saving so that you don't put everything in those crypto stocks.
-
-9:48 - Jorge Lewis Yeah, yeah, the yeah for the crypto is just like people the people that are really into it They they go all in everywhere. But for me, I've just put it put all the money like across of quite a few different coins Which clients I can V chain I know V chain XRP Solana, Polkadot, Cardano, and just very little Ethereum and Bitcoin. With the amount of money I've put in, it's not worth with Bitcoin.
-
-10:45 - Jorge Lewis I think what's the target this year is I think 100k, I don't know.
-
-10:53 - Jorge Lewis I heard that but I have no clue how accurate it is. Right now it's at...
-
-11:17 - Jorge Lewis Yeah, this guy's taking very long.
-
-11:19 - Nazif Barassounon Let me message him.
-
-11:51 - Jorge Lewis I hate that I say my message.
-
-12:11 - Nazif Barassounon So the final deadline will be two months from now, right?
-
-12:21 - Nazif Barassounon According to the fact evaluated our specs.
-
-12:29 - Jorge Lewis Yeah, so I said around two months in the voice message, but We could change it to whatever he's about to join. Like, I'm waiting. I can accept it, but we can change it to whatever we want.
-
-12:44 - Jorge Lewis Like, whatever is realistic, of course. I think two months is realistic. Do you agree or? Yeah, I agree. All right, I'm letting him in.
-
-12:57 - Jared Cairns Hello, hello.
-
-12:58 - Jared Cairns Hello. Howdy.
-
-13:07 - Jorge Lewis All good?
-
-13:08 - Jared Cairns Yep, I can hear you guys, how's it going?
-
-13:10 - Jorge Lewis Going good, yeah.
-
-13:13 - Jared Cairns This is mustache era here, I can see.
-
-13:17 - Jorge Lewis Yeah, yeah, where's your one, huh?
-
-13:19 - Jared Cairns Yeah, right, no kidding. I gotta shave this off tonight, maybe I'll do it.
-
-13:26 - Jorge Lewis So, how shall we do this? Got the Oaks back ready, so yeah. Yeah, I guess we can start from my last voice message and the plan moving forward. So to double check, what we're doing is we're going to give you a guarantee that we're going to finish within a time frame. That time frame is looking to be two months to be safe.
-
-13:55 - Jorge Lewis And if we haven't completed the reasonable amount of work that's in the scope, then you can get the $7.5K back. OK.
-
-14:06 - Unidentified Speaker Cool.
-
-14:08 - Jorge Lewis And for the payment, do you want to pay under the weekly structure or we can do bi-weekly as well. I think weekly doesn't really work anywhere.
-
-14:24 - Jared Cairns Bi-weekly is fine. Yeah, bi-weekly should work.
-
-14:28 - Jorge Lewis You paid a $50 for the bank transfer, right?
-
-14:31 - Jared Cairns Yeah, I think it's $45 something.
-
-14:35 - Jorge Lewis Do you have wise?
-
-14:42 - Jared Cairns I've had it. I just got an ad for it through my job. That's why I recognize it. I can probably get it. I can check it out.
-
-14:49 - Jorge Lewis Okay, maybe check it out. Because we could use that as well. I think there's no trend, no fee, but I'm not sure about from you to wise. I don't know if there's a fee. Then from wise to us. It's no fee.
-
-15:03 - Jared Cairns Oh, I see. Okay.
-
-15:07 - Jorge Lewis I hear Jonas.
-
-15:11 - Jorge Lewis Hey, hey, Jonas.
-
-15:15 - Jared Cairns Right now?
-
-15:17 - Jorge Lewis Hello?
-
-15:19 - Jorge Lewis Hello? Can you hear me?
-
-15:22 - Eksno Yeah. I don't know how good my internet is.
-
-15:25 - Jorge Lewis I was gonna say.
-
-15:30 - Jorge Lewis Not the best.
-
-15:32 - Eksno Yeah?
-
-15:33 - Eksno Yeah.
-
-15:36 - Eksno I hear you, at least.
-
-15:37 - Jorge Lewis Can you hear me? Perfect. Sort of, yeah. Half the time. Yeah, we just went into it. We just started. So the guarantee is, we're looking at two months. We can put it on paper as soon as the spec's done. So like two months for the guarantee. And if it's not done, then he gets the last payment back or the last two payment back. We're going to do it bi-weekly. And then we just considered using Wwise, so that's what we've gone through so far. So let's go into the spec, I suppose. I mean, I could share the document and we can all go through it.
-
-16:18 - Jorge Lewis All right, I sensed the link.
-
-16:39 - Jared Cairns There's a link in Discord you said, is that what I'm looking for?
-
-16:41 - Eksno It's in Google Meets. Oh, OK.
-
-16:44 - Jared Cairns Oh, here it is.
-
-17:01 - Jared Cairns Okay, I was taking the L right there. Okay, I see it now.
-
-17:22 - Jorge Lewis Yep, everyone good?
-
-17:23 - Jared Cairns Yep, I can see it now.
-
-17:26 - Jorge Lewis Cool, cool, cool. So I guess we could.
-
-17:36 - Jorge Lewis We could go through this and then I have a section for the just some concerns or things that we need to confirm.
-
-17:52 - Jorge Lewis And then besides everything else, that should be it.
-
-17:56 - Jorge Lewis So the product overview, this hasn't changed, but it's good to get on paper, I suppose.
-
-18:10 - Jared Cairns Okay, yep, I'm good with that. Okay, yep, I'm pretty familiar with the rest of this, I think.
-
-18:22 - Jared Cairns And then, yep, 1.3 good.
-
-18:28 - Jared Cairns Okay, 1.4. Okay, so we're at technical overview now. I think the above makes sense to me.
-
-18:34 - Jorge Lewis Okay, cool, cool. Okay. So yeah, the scope, by the way, this is a, It should be just a dot. Oh It's gonna be it's it's copied from the bottom section of three. So it's like an overview.
-
-18:48 - Jared Cairns Oh, yeah. Gotcha.
-
-18:49 - Jorge Lewis Okay So the technical review, I don't think this is too important. Your friend said that the stack we use is good So this on paper, this is what we use. I don't think we've ever shown it to you So if you want to show your guys, this is this is what you can show What is?
-
-19:07 - Jared Cairns So I'm familiar with TypeScript, I'm familiar with Tailwind. What is SvelteKit? I've heard of this, but I don't know what it is exactly.
-
-19:14 - Jorge Lewis So it's a web framework, pretty much, JavaScript framework that allows you to make web apps. You know NextJS?
-
-19:26 - Jorge Lewis NextJS, yeah.
-
-19:26 - Jorge Lewis Yeah, it's similar to that in a way.
-
-19:32 - Jared Cairns Okay. Talk to me like I'm five. Is this front to back? Is this all JavaScript or SvelteKit?
-
-19:38 - Jorge Lewis Could be anything. Yeah. So SvelteKit helps us write the, combine the HTML with the TypeScript in a nice way. Okay. Yeah. And it makes it really, really convenient for us.
-
-19:52 - Jorge Lewis Okay.
-
-19:53 - Jorge Lewis But also like it's super, This is super biased, but it's the best framework out there.
-
-19:58 - Jared Cairns It's the best. I don't really, like you said, I don't really need to know this, but well, I mean, I do need to know the basics because people ask me.
-
-20:07 - Jorge Lewis Yeah, exactly. Stokke actually allows you, one of the key capabilities of Stokke is that it allows you to do the entire web app, like the backend and frontend in one project. They combine the backend and the frontend. That gives us a lot of flexibility in terms of how we want to do things. Your project is done entirely in SvelteKit, but other projects that use a lot of AI components, we use Svelte for the front end, and then for the back end, we use Python. So it does give us a lot of flexibility.
-
-20:38 - Jared Cairns So you can use it as a whole feature, so you can really do whatever you want. Exactly.
-
-20:45 - Jorge Lewis ShedCN, just component library. SuperBase is the database platform.
-
-20:52 - Jorge Lewis Okay. Yeah. It makes sense.
-
-20:54 - Jorge Lewis Uh, infrastructure of ourselves hosting. Um, there's no, there's no backend or API at the moment.
-
-21:02 - Eksno So I think we could, or yeah, it just, yeah, that's one can be joined the way we don't use a separate pipe and backend. So yeah.
-
-21:13 - Jorge Lewis Super base there. Cloudfire. Okay, cool. Uh, So if you want, we can dive into section three. This is where we're listing the things that actually matter for you.
-
-21:34 - Jared Cairns Yeah, it makes sense to me if you guys are good on the rest.
-
-21:37 - Jorge Lewis Yep, cool. So when we're doing specifications, and especially scopes, the hardest thing is to not miss out anything. The easy part is going through everything and making it correct.
-
-21:54 - Jorge Lewis I think after this meeting, both teams are going to take the time to really go through it and make sure nothing is missing. The missing part is the most crucial because when things are missing, then other things have to be changed.
-
-22:05 - Jorge Lewis Makes sense, yeah.
-
-22:09 - Jorge Lewis I suppose if you want, you can go one by one through the steps and when there's something that's Possibly concerning that it might be incorrect or missing.
-
-22:16 - Jared Cairns Let us know Okay, so do you want me to start with this question section right here? Um, I think we could How about we I can probably answer some of these if it's easier we Okay, how about we do that?
-
-22:31 - Jorge Lewis Yeah, let's do that first. Okay Okay, so so it's modifying a contract date the same as creating a new contract entry or does it exist as a new version?
-
-22:39 - Jared Cairns So ideally it would exist. I mean, I don't know technically what it would exist as. It should be presented as a new version of the same contract. So it should be, you're just changing the date. Because really a lot of times contracts don't have dates in them. The contract is something more dynamic and fluid. So it should just be a new version of the exact same contract. A new contract would be like legal has reviewed it again. It's been signed again. So on and so forth. And the second part of the question, is this what parent contracts are for my confusing parent contracts with versions? That's a good question. So parent contract, basically any contract that exists, at least the way I see this being designed and you guys are the experts. I'm not the way I would foresee it being designed is any contract you sign is basically its own parent. So if it's contract one, its own parent is one. The only time there's a child contract is if you make an amendment to it. So if you have a contract for six months of chemistry services, and then you're going to cancel them, you're going to cancel them halfway through and just to be three months, you'll do a change order a negative change order to that contract.
-
-23:54 - Jared Cairns And it's minus three months. So the parent is six months and then the child is the minus three months. Bringing like one total contract that is three months with an amendment to it, if that makes sense. The parent contract, child contract is separate than that. Now, I will say the nuance and confusing part is you are right in that if you have a situation where there's a parent and child contract, most likely it's significant enough of a change that the dates will also be changing. That is where it gets a little tricky. And to be honest, this exact question right here is kind of the problem that's trying to be solved with all these versions of contracts being out there that are too difficult for people to track individually. So a really good question. So they're sort of related, but not quite.
-
-24:52 - Eksno I see you wrote on child contracts or amendments of amounts and sometimes states. That's not exactly my interpretation. For me, it was just any amendment, which could be like off amounts, which amount, uh, change states.
-
-25:04 - Jared Cairns So sometimes I would say it might not even be of an amount every time. Sometimes you're changing the beneficiary. Sometimes you're changing something, something really, yeah. Something really common in biotech is. You'll book your manufacturing a year out and your drug fails, but you don't want to lose your slot. So you just amend the contract to say, instead of using compound A, we'll use compound B. And then instead of going through all that bullshit, you have one amendment that says replace everything that says compound A with compound B. And that's the change order. Yeah. So it's usually amounts changing, but not always.
-
-25:45 - Eksno Are child contracts in essence, just any amendment, like all amendments?
-
-25:50 - Jared Cairns Any amendment. Usually there's a change of an amount or a change in scope that affects the dates, but not always, not necessarily.
-
-26:00 - Jorge Lewis Do child contracts don't have to be signed?
-
-26:04 - Jared Cairns Child contracts have to be signed. Really the only difference is that ideally when you view it, Cause there can be long-term contracts like at companies I've been at, there are long-term contracts that could have nine amendments to it. That may be a three-year contract. I can think of like a long clinical trial, for example, you could amend it multiple times coming at work at now for their phase two had nine protocol amendments. So in reality basically A parent contract exists as any contract that's signed is basically, I would consider like its own parent, if you have to consider it that way. And then anything amending that contract, whether it's any amendment at all, becomes a child of that contract. And then ideally you can kind of view them all together because otherwise it's kind of truncated and you don't get the full picture.
-
-27:12 - Jorge Lewis Because there's two things, there's two different systems that are kind of overlapping a little bit. There's modifying a contract and then there's creating a child contract, correct? Right. Modifying a contract, the 99% of the times is changing the dates because of some real world delay. Yeah.
-
-27:36 - Jorge Lewis Yeah, that's right.
-
-27:38 - Jorge Lewis Okay. And when you modify a contract, the other 1% the time, what is it? What can it be? Um, in terms of something that's basically not formalized that we're trying to capture, like if, when you modify a contract, you can change the dates, but you can also change the what.
-
-28:00 - Jared Cairns So if you modify a contract in terms of modifying, in terms of what we're looking to do, which is basically send out, here's the contracts you own, send us back any changes. 99.9% of the time it's the dates. Occasionally, what we'd be looking to capture is there may be some niche accounting guidance that we need to track. For example, if the terms of the lease are changing, but they're only being discussed, but haven't been formalized yet, or if you're expecting manufacturing of a contract to maybe push back, but maybe not. That's kind of the context we'd be looking to get within like a notes field, like a free text field as well. But the vast majority, I would pretty much safely say everything we'd be looking to track materially would just be the dates changing. And then any amounts changing would have to be formalized.
-
-28:56 - Jared Cairns would have to be formalized, meaning somebody would have to submit a formal change order for us, from a financial perspective, to feel comfortable taking the liability off our books, for example. We can't just hear you say, we're gonna save $250,000 on this contract without ink to paper somewhere.
-
-29:14 - Jorge Lewis Gotcha, gotcha, gotcha. Yeah, okay, that clears things up. Okay, cool. Thanks, Jonas, for writing things down, by the way. So next one, does the relationship between parent contracts and child contracts have any functional use yet?
-
-29:30 - Jared Cairns Just for the future. So what I would imagine, I mean, what would be great is if you could have one line summarizing all of that, but I don't even know quite how to formalize it, how to present that in my brain.
-
-29:46 - Jorge Lewis Like, it'd be great if I could see like, Like you just said, how it's like just a way to view them all put together without being truncated.
-
-29:55 - Unidentified Speaker Yeah.
-
-29:56 - Jared Cairns Cause right now, so for example, I can see where this would get tricky and I don't have the answer just yet. I think what we back up a little bit, I think where it's presented in the report still needs to be individually. So if you have. To go back to the same example, six months of services minus three months of services. I don't think there's an easy way to combine those on one line to make it clear. I think you still show six months minus three months and then you net them out separately. I just don't know how you would combine it without making it more confusing. I don't know if that answers this question. Does the relationship between parent-contractor insurance have any functional use yet or just for the future? Yeah. So the functional use would really be, um, basically when you're sending out or somebody is having to review these contracts and you can say like, what is this? Like if you have, which is common, you might have a hundred contracts with one vendor and of those hundred contracts, 20 of them might be like change order one, change order one, change order one for all this information. It's really confusing to understand what it's referencing. And that's where the parent contract comes in is you can basically just say, I'm looking at anything with a parent contract of one. Okay. Well, when you do that, you can see the original contract and then the first change order. And then, you know, that that's like a one, two step and you can get all your thoughts out about that contract. And then you can look at parent contract of two parent contract of three or whatever.
-
-31:37 - Jorge Lewis I'm trying to think how that plays into the development.
-
-31:45 - Jared Cairns I would say for now, if it was just a data point, I mean, you guys tell me. I'm just saying, I'm just speaking out loud. You tell me if this is totally stupid or too difficult. I would say when you enter a contract, it gets assigned a number. That number is it's like contract number and also its parent contract number at the same time. So in my example, I'm using the first contract you ever enter is contract one. And it has a separate field saying parent contract is one. And then let's say you're going about your business and then you're entering contract 50. When you enter contract 50, What's the parent contract? It could either be itself, 50, but this is a change to contract one. So again, parent contract is one. So then when you go to look at your 50 contracts, only those two are referencing parent contract one, so you know they're related. That would be my thought. And then when you send it out, you could just sort by that, because then everything will be in order. You sort by your parent contract. Here's contract one, here's contract 50, and then you go to the two. So I think that's the simplest way. There's gotta be a more, I'm sure there's a better way, but I would say don't worry about it.
-
-33:00 - Jorge Lewis Yeah, because on the back end, the linking that you mentioned, the relationship has been done. But the getting functional use is like can be added. We have the infrastructure on the back end to just connect them. They're connected right now. We don't need to do anything with them. Like, for example, sorting them to be grouped somewhere. Is that necessary yet?
-
-33:26 - Jared Cairns Let me ask you this in that report field. Is it easy to make those headers like sortable? Like you see on like a lot of websites if you're like, is it easy to make all those sortable? Because I feel like that if you did that it would basically solve the issue because then you could just bring in parent contracts sort by that and then that would be a done deal.
-
-33:49 - Jorge Lewis So, Jared, you're using a number, by the way, for your contract. You're using 01. Can you remind me if we went with that and are using simple numbers like that for each company?
-
-33:57 - Nazif Barassounon Oh, the contract number?
-
-34:01 - Unidentified Speaker Yeah.
-
-34:03 - Nazif Barassounon So, there's also a clarification that needs to be made there. Is it something that you have by your hand? You know, the contract number, is it something we can generate on our side?
-
-34:22 - Jared Cairns Yeah, you would just generate it on your side and that basically becomes its number because otherwise it doesn't have, it has like, obviously like a counterparty you're agreeing with, it has like a scope of work, but it doesn't have any number that gets sent at any time because usually When these things happen, my company would have a contract number. Whoever I sign with, they have a separate contract number. And that's really just because we both have to have systems to track this. So we'll have different contract numbers that aren't the same. The one thing that is the same that people use to cross-reference is a purchase order number, which That would be like version this software down the road There would be a purchase order number that you can use to reference your billing, but I won't burden you guys with that part just yet Okay So the the sorting part is possible for for the data table Yeah, so I took a look at the super base.
-
-35:24 - Jorge Lewis We are storing the contract number. So just on the back end to give you some context here, each contract in all databases, every row should be unique. It has a unique ID. That one's very disgusting. It's not nice to look at. But we're also storing contract number, which is like And this one's just every new contract, it goes up one, right? So yeah, we can add a column for the contract number and then you can start by that.
-
-35:49 - Jared Cairns Okay, I think that will pretty much solve it because then that makes it pretty easy. As long as it's sortable, you can really, if it's sortable within the instance, like within the software, then I don't think you need to worry about anything else because you could cut it and just, you could, as long as you can either filter within the software and or spit it out to Excel or something and manipulate it. I don't think you guys need to worry about doing anything else.
-
-36:18 - Nazif Barassounon Um, okay. Um, the number, uh, should it be consecutive with being a given organization?
-
-36:30 - Jared Cairns Sorry.
-
-36:32 - Nazif Barassounon Um, does the numbers need to be consecutive? Like, in a given organization, if the first contract entered is one, the second, should it be necessarily two?
-
-36:50 - Jared Cairns It is something that- Yeah, yeah, yeah. No, it's a good question. Yes, and the reason why is if you're a company that has a sufficiently complicated financial corporate structure, that you'll face from both your IT department, your financial auditors, which is like, here's all your contracts, one to 50, or can I see records for all one to 50? If you're missing somebody's gonna say, what the fuck is this? Who signed something and deleted it? This money could be out in the ether, blah, blah, blah. So yes, it should be sequential. And I guess the other piece now that I'm thinking about it is, A lot of companies, virtually every company is going to have contracts existing before they get on with the software. I mean, it'd be amazing if you could completely start from the beginning, but that's just not reality. So the other function would be if it's possible to upload like through a CSV and get all their historical data in and then start new contracts from there. So same example, let's say a company has contracts, you can upload them basically populate the software with data in their instance, and then they can enter a new contract, and then that new contract's 51. And then it just goes sequentially from there, I guess would be a thing to think about.
-
-38:18 - Jorge Lewis I mean, of course it's doable, but it's going to be tough because the table we're looking at that we're trying to import is going to be different across each.
-
-38:33 - Jared Cairns So what I would say is like, Well, let me ask you this. Is it easy if you can get it in a singular format, like in a CSV file? If you can make them conform to a CSV file that matches our fields exactly, is that easy to upload then? I think so.
-
-38:53 - Nazif Barassounon The issue I see here is that in our system, we're using authentication. So each time somebody uploads or enters a contract, the contract is associated with them.
-
-39:12 - Jorge Lewis Could, for that little bit, could we do it manually on our side? Could we?
-
-39:18 - Jared Cairns Yeah, I mean, I feel like it might just be some sweat getting it in for existing people. I've been thinking about offering that as another service. Because this accounting process is already complicated enough. I was thinking about offering that as a service where you also provide the software, but you also just do it for people. And then you basically send it to them for review. I mean, you could do it. The problem is if you grow to companies that are big enough, it just becomes a big...
-
-39:47 - Jorge Lewis At that point, of course, we can find a way to make it more scalable. But for the first few companies you're working with, manually, if they give it in columns, we can associate their organization ID and the user IDs manually.
-
-40:02 - Jared Cairns Yeah. And that's kind of what I, yeah. And I could, I mean, I could probably do that as well. I think like just literally just entering it if needed. But that's just one thing I've, I've thought about the, um, could be a monkey wrench.
-
-40:19 - Jorge Lewis The way, the way I explained that last day, is that correct? We can, if they add, or if we manually add the, some of the IDs, then it should be okay.
-
-40:29 - Nazif Barassounon Yes, it should be given that all the employees are correctly registered with the correct ideas, it should be fine.
-
-40:40 - Jorge Lewis Yeah, so maybe some manual work behind the scenes, but I think you could probably take care of that, Jared, right?
-
-40:46 - Jared Cairns Yeah, let me ask a stupid question here. The issue is that the employees aren't, the employees wouldn't be set up to accept the data. Like they wouldn't, the contract wouldn't know where to be assigned to because employees aren't set up yet. Is that the issue?
-
-41:02 - Nazif Barassounon Um, that's a possible issue, but we can make sure that, um, the admin and, um, registered all of the employees first.
-
-41:14 - Jared Cairns Because what, yeah, what I'm imagining is like an onboarding scenario is that you have to have, If you want to get started, you have to give us a list of your contracts with the amounts, the dates you want to start with, the owners, and then basically with that data, everything gets populated in whichever order we need to do it. All the data would be provided by the client. I've had to do this many times where you provide them pages and pages of shit to get set up through implementation. So if that's the issue that we might not have data, I think we can get past that.
-
-41:49 - Jorge Lewis Yeah, like with MVPs, it's really important to not try to do all these little things, whereas they can be met. There's a common saying that one of the founders of YC said is do things that don't scale in software startups.
-
-42:04 - Unidentified Speaker Yeah.
-
-42:05 - Jorge Lewis The common notion, I think it was Google that was so popular to do things that are scalable, but doing things like this that can be done manually through Google Forms, and you can make the accounts for them, then that's probably the way to go for the first, like the first two clients, three clients, it takes, I think it's worth the manual hours compared to us trying to develop it.
-
-42:29 - Jared Cairns No, yeah, I totally don't give a shit about doing it, even if it was farther than that. I just wanted to think about it in case it was easier now before we get, I mean, before we get any farther, I guess, but no, it's fine with me. I'm not worried about that.
-
-42:42 - Jorge Lewis Yeah. Cool. Cool.
-
-42:46 - Jorge Lewis Okay, cool. Let's double checking that the versions are not functional yet.
-
-42:55 - Jared Cairns Versions have no functional use. And that, and when you're calling a version is we send out data. The dates change, it comes back to us.
-
-43:07 - Jorge Lewis Versions are only applied for when you modify a contract. So change the dates.
-
-43:12 - Jared Cairns Right. Okay. So we're saying double checking the versions have no functional use. So the changing of the versions is key to basically using this as a continuous reporting tool. So the idea is on a monthly or quarterly basis, kind of as you wish, you can send out to get updated information. And with that feedback, you can generate financial accrual entries to put into your financial statement. So I would say the versions are pretty important because they function as basically giving you an up-to-date picture of the operations of your entire business.
-
-44:02 - Jorge Lewis So I would say, But let's say we have a contract and we need to change the date. The date's changed in the new one. The old one, functional, there's no use for the old one. The old one can be removed. It's just the new one we care about.
-
-44:20 - Jorge Lewis Oh, I see what you're saying.
-
-44:21 - Jorge Lewis The old one, in my eyes, is only useful for when we want to look back at history, but at the moment, we don't need to.
-
-44:29 - Jared Cairns Yeah, you would never look at two at the same time, really. I mean, I can imagine my perfect world, there's some uses for it, but once it's updated, looking forward, that's your update. Even if they updated it to the new dates and they're like, oh shit, I want to go back to the old ones, that wouldn't go back to version one, I'd see that becoming version three. A new version, yeah, yeah, exactly.
-
-44:52 - Jorge Lewis Yeah, so what we have now is just we're storing the version number, but there's no functional use yet, which is good because later down the road, if we want to add any use or functionality to the version, it's implemented. These are one of the things that would be hard to add later down the road. Retro, 15 minutes.
-
-45:07 - Jorge Lewis Okay, gotcha, yeah.
-
-45:11 - Jorge Lewis Okay, so is the contract and bill approval flow the same? Yeah, so are they the same?
-
-45:18 - Jared Cairns Yeah, there's no, for the bill approval, there's no signature. So you don't need to, it doesn't need to reach the person with signing authority. It just needs to go to the approved level. Um, and that person's approval needs to be more than what the bill is.
-
-45:33 - Jorge Lewis Yeah. So the, the, they're the same in that they go through the same people or yes.
-
-45:39 - Jared Cairns So it goes through basically. Um, so every bill pretty much should be linked to a contract and then So every bill is linked to a contract, and that owner has a boss, and yeah, so it goes the same way. Contracts end up at the signer, but bills just go up through the exact same chain. Yep.
-
-46:00 - Jorge Lewis But as soon as the bill gets sent to someone with an approval threshold that's above it, then it stops and it's done.
-
-46:09 - Jared Cairns It stops and it's done. Yeah, that's right. Assuming they hit approve, yeah, it stops and it's done.
-
-46:13 - Jorge Lewis Okay, cool.
-
-46:17 - Jorge Lewis Nice, nice. The person reviewing a contract on review day is the owner of the contract. So that's on review day.
-
-46:24 - Jorge Lewis Yep. Okay.
-
-46:27 - Jorge Lewis So review day, I'm thinking, I'm thinking it's just going to be a button, an admin page somewhere, somewhere on the app that just says reviewed, start review day. And it just starts the process.
-
-46:40 - Jared Cairns And it's just, um, it just kicks out every record that you have.
-
-46:44 - Jorge Lewis Every record within a timeframe. You can set that. I think you'll have to configure the timeframe, right? Um, the period.
-
-46:55 - Jared Cairns Yeah. Let me think about this for a second. The one thing that I, now that I think about it, the one thing that we would want to do, can you make it selectable for which contracts, um, that you, that you could send out? Like I can say, you know, of this whole list of contracts, I want these, these ones to be reviewed and these ones not to be like a checkbox or, or anything like that.
-
-47:19 - Jorge Lewis Or it's just all or nothing is what you're... Would that be manually done by the...
-
-47:23 - Jared Cairns I think it could be manual for this version if that's something that's easy to implement. I don't think it would be incredibly time consuming. The one thing I'm thinking of is, let's say you get into a company that has a couple of years of operations and you're sending these out for review. All these ones that are completed and don't need to be reviewed again and again and again, I want a way to exclude those. So either manually selecting or like if the completion date is in the past, if the end date is in the past, maybe not send those ones out.
-
-48:00 - Jared Cairns I don't know.
-
-48:00 - Jared Cairns Of course, of course.
-
-48:02 - Jared Cairns I'm thinking of, or just a button that says completed. And then if the review function ignores that, that would probably actually be best if we could do that.
-
-48:16 - Jorge Lewis And the completed, is that done automatically? What makes it completed when it's out?
-
-48:25 - Jared Cairns Yeah, I would say defaults to completed if the end date is in the past would be good. And then maybe, if the end date's in the past, marking it completed automatically would be good, I think is the best case.
-
-48:41 - Jorge Lewis I think, yeah, it's a good starting point, I think, yeah. I mean, we don't need a property completed. We can just check, just not send the ones that are in the past.
-
-48:51 - Jared Cairns Yeah, that works for me.
-
-48:53 - Jorge Lewis But we do have the easy capability, thanks to ShedCN, to add a checkbox for each row.
-
-49:00 - Jared Cairns I mean, the only reason I think that could be good is if you're running it, let's say you're running it as of 12-31 and a bunch of stuff has 12-31 end dates, you don't necessarily know that those are completed because you haven't gotten the most recent update. And you'd constantly be running into cutoffs like that because everything is like a start of a month or end of a month. So I'm thinking the checkbox could be useful. But like I said, that's if you just, I can see a bunch of different ways to fix this issue. I would rather just hedge on the side of people having to look at a little more stuff and getting it right than too less. Yeah.
-
-49:37 - Jorge Lewis I think, I think what the approach we have is good just to, if they're in the past, don't do them. Everything else, just send them over. And later down the road, we can add some fine.
-
-49:50 - Jorge Lewis The person reviewing. Okay. Okay. Yep. Thanks, Jonas. I think that's Jonas. Yeah. Okay. So, so now those are the questions. All good. Now we're getting into this. I think what we'll do is just, you can read them. Ah, the meeting's almost done. Isn't it? 10 minutes.
-
-50:13 - Jared Cairns Um, you guys have more questions in here. You just want to walk through it.
-
-50:16 - Jorge Lewis These are, these are kind of for you to look at and tell us, no, they're wrong, but I'm assuming none of them are wrong. And maybe, and maybe just to, to check if anything is missing, but the missing part is hard to do because yeah, no, I feel you.
-
-50:30 - Jared Cairns Let me look here. Um, there's not too much here. I can probably probably get through this. Let's see. Contract repository for storing submitted data and finalized forms. Easy access and retrieval. That's good. Entry form allows you to submit contracts. Perfect.
-
-50:48 - Jared Cairns Signed. Yeah. OK. Contract can be rejected when it confirms the repository. Yes. Modification. OK. What's this? Shall we formally call this a delay instead of modification since that's the only functionality? Can be made to a contract by updating the end date.
-
-51:08 - Jorge Lewis Here.
-
-51:14 - Jorge Lewis Oh, you got it. So I brought it to the top. Instead of calling it a modification, let's call it a delay. But now that we've cleared it up, I don't think it's necessary.
-
-51:24 - Jared Cairns Yeah, I think because also there are times occasionally when it's not a delay, it actually gets shortened. I think modification is fine. Modification, updating the end date. I would say also the start date.
-
-51:41 - Jared Cairns So let me read this again. Only most recent version of the contract is presented through the app.
-
-51:59 - Jorge Lewis Yep. So if I get basically the most recent data, I guess we'll just, we just, when I went through, yeah. Yeah. Okay. I got you.
-
-52:07 - Jared Cairns Contracts can be a parent slash child of another contract. That's right. Ability to view the PDF of a contract. Yep, that's right. Ability for a signer to sign a contract using digital signing. This, if we don't have, is not, I would say this is a low priority. This one, if we don't have this, I'm not going to be too upset for the digital signing.
-
-52:33 - Jared Cairns Review day allows contracts to be reviewed by their owners en masse to ensure start and end dates are accurate. Yeah, and then that's ideally triggered by like an email link or something. Basically, it's sent directly to them. They can update it, submit, submit back, and it can be reviewed. That seems right. View days enter contracts.
-
-52:59 - Jared Cairns Yeah, that's right. New days enters contracts alive within a certain time frame. I guess it would basically be anything before a certain date. Or I guess that I should say is after a certain date. Sorry, yeah, after a certain date.
-
-53:19 - Jared Cairns Bill management, restoring and viewing bills, yep. Bill entry form to allow users to submit bills, yes. Newly created bills are sent through an approval flow, yes.
-
-53:32 - Jared Cairns Handling a bill of rejection, remembering a contract, additional deletion, yes. Ability to attach and view invoice PDF.
-
-53:39 - Jared Cairns That's right.
-
-53:43 - Jared Cairns Report page that blends data from the phone counter, bill amount, accrual balance, and open amount. Users can select a specific period the report will be built upon. So I do know this part. I feel like this could be... Difficult to have historical data. There are like enterprise level systems out there that won't give you Historically accurate reports. This is like the problem with power bi and other systems that have like continuously updating data So just looking at the second bullet point on 3.3 Basically it would be it would be really cool if you could run it as of, what date is it today? If you could run it as a 531, you can see the calculation and then you enter new bills, you get new contracts, you change dates, you have all this new information coming in at 630 and you get your number then. But you could still run it for 531 with all that new information and have a way to still get the 531 data. I'm not gonna hold you guys to that. I'm not gonna hold you guys to that one.
-
-54:49 - Jorge Lewis But it would be really cool. It's just like a cutoff. So like let's say I want to see from five days ago. I can do that, right?
-
-54:58 - Jared Cairns Yeah, I think the only thing would be you'd have to have a way to make sure like new bills aren't coming in. The versions that exist at that time are the ones you present when somebody runs it later. I mean from the layman's perspective, I could see like you store a version of that report that's accessible, maybe not through the traditional live reporting number, like you go to like a historical reports tab. And then every time you guys know, like automatically at midnight, it sends a version of it there for you to review or whatever. And maybe there's not dynamic linking or whatever, but
-
-55:35 - Jorge Lewis To me, that sounds simpler because we don't have to track the complication with having it not do that, which that's what is having it create snapshots of every day. The other one is to have it just dynamically check, okay, look from this date and backwards. The problem with that one is that any version changes of a contract have to be taken into account. And that one's more complicated than the creating snapshots.
-
-56:05 - Jared Cairns Yeah, I would say, and the snapshot thing, I would say, doesn't need to be daily. A lot of this stuff does not need to be daily. It's only ever going to be done monthly. So I would say that's another thing to keep in mind is that nobody cares about this stuff day to day. It's month to month and or quarter to quarter. So it may, this review day functionality, like for the company I'm at now, we'd only ever do it four times a year. Even public company, we only do it 12 times a year. So it's not something that needs to be so like refreshing and accurate and all this shit going on every single day. It's more of a month to month thing.
-
-56:42 - Jorge Lewis Just one more concern to put out just to put it out there is that the snapshot one is probably less scalable. Or is less scalable because you're storing more data, but yeah, just a concern. I think with tech nowadays, I don't think it's really an issue at all. I was mostly thinking it was daily.
-
-57:02 - Jared Cairns Yeah, I think eventually that would be a really nice feature, but I'm not worried about it.
-
-57:07 - Jorge Lewis It's a nice to have, right? It's very nice. Definitely. It's sexy. Not stressing about it.
-
-57:13 - Jared Cairns Email notifications. Email notification systems to all user events. Yep, that would be amazing. That's like a really big value add when you get that. It really sells software when you can do that.
-
-57:27 - Jared Cairns User register their company for platform. Sign in to account with my company. Sign with thresholds.
-
-57:39 - Jared Cairns Company account with shared information.
-
-57:46 - Jared Cairns Okay, that makes sense.
-
-57:49 - Jared Cairns Projects, departments, accounts, vendors, spending categories, yes. Each user can manage their personal accounts. Yep, that makes sense to me.
-
-58:02 - Jared Cairns Payment integration, Stripe and API. Organizations can manage their monthly subscription. And is there a way to do, I'm guessing it's easy to do like an option where you can just say pay, pay monthly, pay annual, whatever, and like figure in like a discount for people. A lot of B2B software in this space is paid annually ahead of time. Um, I mean, it would be great to have monthly recurring revenue, but if somebody was going to go annual to start, I was thinking about like, you could just give them a discount for a couple of months just because you're getting the cash up front. But not a high priority item.
-
-58:43 - Jorge Lewis Does he want to answer that one?
-
-58:48 - Nazif Barassounon Yeah, I think it's possible to have both the monthly and annual subscription with some discount.
-
-58:56 - Jared Cairns And just set your price. Okay, that should be easy then.
-
-59:00 - Jorge Lewis Nazif, we were thinking because the Stripe bit is a bit of work on our side to develop and make sure it's all good and dandy. I was thinking that you could set up the payments from any customer initially can be done manually to you or you can create a Stripe link and they just pay and then we create their account manually. Or we give their accounts the access, the payment, like it's just a tick. They create all their accounts like usual, but they don't have any access to anything until you tell us, give them a tick, and we give them a tick. And then that way, because the Stripe thing, it shouldn't delay things, but that's for the case that you want to start moving, you could start making money way sooner.
-
-59:49 - Jared Cairns A lot of people, for contracts like these, at least what I've seen is that, and we might get kicked off the call here, is that it's not really done.
-
-59:58 - Jared Cairns You're gonna get cut off.
-
-59:59 - Jared Cairns Yeah, it's not really done. I'll restart it. Okay. All right.

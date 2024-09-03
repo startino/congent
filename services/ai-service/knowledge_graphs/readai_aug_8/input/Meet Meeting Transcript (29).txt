@@ -1,428 +1,0 @@
-Meet Meeting 
-Fri, Jul 5, 2024
-
-0:42 - Jorge Lewis you I wonder if there's any echoes. It might be using my headset's mic.
-
-1:14 - Jorge Lewis Oh, I'm not connected.
-
-1:46 - Unidentified Speaker Hello?
-
-1:47 - Jorge Lewis I think it's worse.
-
-1:51 - Unidentified Speaker Worse?
-
-1:52 - Eksno Yeah.
-
-1:54 - Eksno I switched to this instead of the webcam.
-
-1:59 - Jorge Lewis Like, now there's an actual echo.
-
-2:01 - Unidentified Speaker Hello?
-
-2:02 - Jorge Lewis I think I was getting used to the... Now I don't hear it. I mean, might as well. I need the light anyways.
-
-2:14 - Jorge Lewis Is ready to join. I'm going to go get some sparkling water.
-
-2:29 - Unidentified Speaker Joined.
-
-2:33 - Unidentified Speaker Hi, JP. Hi, very good. Very good.
-
-2:36 - Jonathan Phillips Let me get the camera on.
-
-2:39 - Unidentified Speaker You have 20?
-
-2:41 - Unidentified Speaker Good morning.
-
-2:52 - Jorge Lewis Jorge is getting a sparkling water. What time is it there with you? 7pm. Good day today?
-
-3:13 - Eksno Yeah, just gotta turn down the volume on the headset a bit.
-
-3:24 - Eksno There should be better now. Yeah, much better.
-
-3:34 - Unidentified Speaker Nice.
-
-3:42 - Eksno Yeah, so you've been testing the application of it.
-
-3:45 - Unidentified Speaker Yeah, yeah.
-
-3:49 - Jonathan Phillips I put the feedback on the thread, and obviously I've gone back in now to let you know whether it was a good or a bad response.
-
-4:00 - Jonathan Phillips So when I'm doing that, If the response that I'm making is about maybe three parts of the conversation, do I just basically make it in one and then just say it's about maybe the next two responses as well? Or do you want me to do everything individually?
-
-4:22 - Eksno When reviewing a response, the most important field that you fill in will be the ideal response where you For example, there's a question asked in one of them, and then the next comment by the agent is another question.
-
-4:47 - Jonathan Phillips response is no response because it should wait for me to...
-
-4:53 - Eksno That is an implementation issue currently. That's saying two questions at once. The thing more that you'd be reviewing is the behavior where... Let me see.
-
-5:08 - Eksno Yeah, where it ignored that you were watching the footy later. Yeah, that's an ideal scenario to make an example, for example, that could be like, hey, you should be paying attention or asking more about what the user is doing if you want the bot to be more engaged. Yeah, cool, cool.
-
-5:30 - Jonathan Phillips No, it's good. It's good to see it taking shape.
-
-5:37 - Jonathan Phillips Do you feel it's coming along quite well?
-
-5:45 - Unidentified Speaker Yeah.
-
-5:46 - Eksno Uh, Jorge, you're ready. My wifi is really, really slow.
-
-5:51 - Jorge Lewis Yeah.
-
-5:53 - Eksno Oh, uh, maybe it's a bit faster now.
-
-6:09 - Eksno Um, I can just connect from the website on the phone. That's better. That's the password.
-
-6:27 - Unidentified Speaker Excellent.
-
-6:41 - Unidentified Speaker All right, I'm back.
-
-6:43 - Jorge Lewis Yes, I was asking if JP is supposed to be joining us, right? Yeah, I believe so. I think it's not in his calendar, so he might have.
-
-6:57 - Jonathan Phillips I've let him know he's just away from his desk, I imagine.
-
-7:02 - Jonathan Phillips Yeah.
-
-7:09 - Jonathan Phillips So the progress is going okay as far as where you think your schedule is on the technology side?
-
-7:19 - Jorge Lewis Yep, we're a little tiny bit more than halfway through now. Things are looking good. We're going to start working on the LMS side of things. We're going to be able to do that in parallel with the rest of the AI features. So no problem in that part. So we just have to spend the rest of the five weeks or four, let's say four, the rest of the four weeks getting the features built in, all the capabilities for the bot. Cool. What LMSing?
-
-7:46 - Jonathan Phillips Are you building your own LMS or are you plugging something in?
-
-7:48 - Jorge Lewis We're using bits and bobs from other places.
-
-7:54 - Unidentified Speaker What do you mean? We're using different tools.
-
-7:58 - Jorge Lewis Like, an LMS is a combination of things like a content delivery system. Yeah, but we're creating the LMS itself.
-
-8:06 - Unidentified Speaker Yeah? Yeah.
-
-8:07 - Eksno The bits and bobs are programming language, CMS, and yeah.
-
-8:14 - Unidentified Speaker Yeah, you...
-
-8:25 - Jorge Lewis Goodwin is here.
-
-8:33 - Unidentified Speaker Hello, hello.
-
-8:34 - Jonathan Phillips Afternoon.
-
-8:35 - Cuan Mulligan Hey, folks.
-
-8:37 - Cuan Mulligan How's it going?
-
-8:39 - Cuan Mulligan Yeah, good, man. Good.
-
-8:45 - Unidentified Speaker Great. Yes.
-
-8:46 - Jorge Lewis Let's get into it then. We were just talking a little bit about that.
-
-8:53 - Unidentified Speaker About what? Oh, adapt. Oh, adapt.
-
-8:57 - Cuan Mulligan Sorry, I didn't hear that word. It was like we were talking about something, and I was like, oh, that's nice.
-
-9:05 - Unidentified Speaker Cool.
-
-9:05 - Cuan Mulligan So how do you guys, what would work best for you guys to run this? I know, Jorge, I took you through a little bit of the high level yesterday. Jonas, you haven't seen anything.
-
-9:17 - Cuan Mulligan I'm happy to run stuff, happy to sit back, observe, whatever. You guys let me know how best you want to run this.
-
-9:24 - Jorge Lewis Yeah, I mean, we're quite flexible. I imagine you have a lot more experience doing these type of things than us. So if you want to maybe guide us and we can see how to go from there. Apart from that, we could go into one of the diagramming platforms along with Google Docs and go from there, just listing the things we're looking to build and then format it afterwards, just putting things on paper first. And then we're going to construct your format.
-
-9:52 - Cuan Mulligan So I think what we want to do, and JP, keep me honest, correct me when I'm wrong here. The point of this is we want to prove and be able to demonstrate something that people haven't seen before fundamentally in the space of marketing. And so in order to tease apart what those generic components are at a simplistic level. And obviously, there's loads of deep devil in the detail. We've taken the purpose of a, or the scope of a brand purpose workshop. And so a brand purpose is like an internal mission statement. It's an alignment as to why we exist as a company, what we want to do. So if we adapt our brand purpose and our mission statement, I've become one of the same thing. But a brand purpose isn't necessarily expressed externally. But in our case, it is. And it's, we want to prevent and reverse diseases that rob people of life. That's why ADAPT exists as a company.
-
-10:57 - Cuan Mulligan Anything you'd build on that so far, JP, or is that sort of broadly right? That's probably it, yeah. Without getting into too much specifics.
-
-11:07 - Jonathan Phillips It's just trying to tease out a statement of why the company exists.
-
-11:18 - Cuan Mulligan Yeah, makes sense.
-
-11:19 - Cuan Mulligan To do that, we're just going to step through the mechanism by which a brand purpose gets created in terms of the logical steps. And then once we agree on the structure, let's discuss how AI plays a part on that. I think it's useful to ignore AI, first of all, in order to understand the flow, and then We'll talk about what a potential interface might look like and how AI plays a part in achieving the outcome. Does that broadly make sense for J&J?
-
-11:57 - Unidentified Speaker Cool.
-
-11:58 - Cuan Mulligan So let me share my screen.
-
-12:05 - Cuan Mulligan Can you see that, guys, now?
-
-12:10 - Cuan Mulligan Yeah. Cool.
-
-12:12 - Cuan Mulligan Are you guys able to draw on my screen? I know certain apps have the ability to draw. Can I allow you to draw? No. There's a whiteboard jam, but I can't. Anyway, it doesn't matter. Actually, I should probably change these into a different color, because they sort of mean something else. So the two orange ones are, we think there's a potential significant devil in the detail issue if you're a startup or an established company. But irrespective, the flow is the same. And we'll get into that nuance difference later in the process. We don't need to get caught up in that at the start. So it's actually quite a simple high-level structure, which is what the white box is for. So we're doing a brand purpose workshop. First of all, like with any workshop, you set the context. Pretty much exactly what I've done on this call. We haven't done anything. You guys haven't even really spoken yet, which is totally fine. Just setting the context so everyone knows why they're here and what the purpose of it is. It's exactly what we would do in this case.
-
-13:16 - Cuan Mulligan Then the next step is about information gathering. And this is where we And that royal way would be JP plus bots would be asking the customer, the user, a lot of questions like, why did you set up the business? What pain points are you fixing? What jobs do your client needs you to fix? Are you global UK?
-
-13:39 - Cuan Mulligan There's an organic number and type of question sets here, but the outcome is to best understand the purpose of the business. And ultimately, for us to get a sense, are they doing this for a passion or is this for profit? Now, in a real-world workshop, that's actually not that difficult to discern, because you can tell it from the tone of voice and the body language and the just, you know, You can ask people who are really passionate about something a single question and you sort of have to shut them up sometimes because they're just you can just see like actually you can leave the fucking room and come back in half an hour and they're still talking because it's so much important to them. You can also get absolute knob ends who do that. They just talk because they're talking and they're not passionate. They're just the filibusters and but we have that innate ability as humans to understand the difference between passion and bullshit, but that's going to be super difficult for technology, but we'll come back to that. So there comes a there comes a point where the information gathering process allows the receiver, so that would be a JP type person, to start formulating ideas in his head of what the statement might be.
-
-14:55 - Cuan Mulligan And there isn't just one answer, but there could be a couple of them. And you could say, hey, how about this or this? And what bits of that one do you like or dislike? And the same for this one. And both of those are actually really useful. Saying no to something is as useful as saying yes to something. In fact, saying no is somewhat more useful in different cases. And through that iterative process of suggesting ideas or concepts around the purpose statement, getting customer feedback saying yes, no, no, yes, bits, I like that, I don't like this. You iterate on it and then that process just naturally comes to a conclusion. You just stop asking questions because you feel satisfied. And then there would be a statement that's in this gray box that we would believe would be a candidate brand purpose, certainly something to start working with. So I'll pause there. I've got more to give, but I just wanted to see if there's any questions for anybody yet.
-
-15:58 - Jonathan Phillips Can you make those two red boxes, can you make the text white so they're easier to read? Thank you.
-
-16:13 - Jorge Lewis the the the fifth other is that for someone like JP, knowing what questions to ask to produce the information that we need is very innate. It's built up over all his experience. So getting the bot to know, okay, we should be asking, considering I have asked these three questions so far, I'm missing this, but this is never going to be, if you don't want it to be explicit, that's going to be going to be tough.
-
-17:34 - Cuan Mulligan Well, I mean, I would, you know, happy to explore the consequences of this a little bit here. But I, in the same way, when I work with chat GPT, one of the questions I ask is saying, hey, generate me x and ask any clarifying questions that you have in order for you to best answer that question. And it will ask me questions. And at some point, it stops. It feels comfortable. So there's some innate ability in the Gen AI LLMs to do this approach already today. Now, my understanding and my feeling is, through the RAG windows that we're creating in ADAPT, we ask questions. Would then say, yeah, that was a good question. But I'd also ask this afterwards. You stopped the process. I would have gone deeper. And through that right process of running this workshop, the same workshop, many, many, many times, I think JP will correct and reinforce the bot to go and ask the sort of questions that he would. Now, the journey from A to B, so where the customer is now to get in their brand purpose, or sorry, for the phase A, which is for JP to understand their world, It's the same outcome. The path there is not the same.
-
-18:55 - Cuan Mulligan And there would also be, you know, JP would know, for example, what client he's talking to. So, for example, when we do our AI talks for an hour, and we're going to go and speak to a travel company, we will A, go and do some market research on them. We'll know about them, where they are, when do they incorporate. We might look at their company profile. We might look at their accounting books. We would look at whether they're in the press. So we would have some what's called outside-in point of view on that. And we'd have to put it in the back of our head. We're not presenting that information. But we're using that to basically say, oh, hold on a second. So you're an eco-startup? Then why are you in the news saying that you're working for Shell? That doesn't tally with me. Why is that? So let's say more about that. We're not judging them. We're getting clarity so there's no contradictions and paradoxes in what we're doing. So that was the intention of these red bots, which we've marked red potentially to put out a scope in the first phase. But the idea is that once we understand the domain name or the company name, the market bot will be looking at externally to try and gather a perspective on that company, or the founders, or both. What do they say on LinkedIn? Do they post? What can we know about them? I think that's potentially very useful.
-
-20:19 - Cuan Mulligan At the ideation stage, that's another bot that is coming up with ideas, and you might have a Generally, when I've worked with clients on this process or similar processes, more realistic, there's all sorts of different games you can play with people to come up with stuff.
-
-20:45 - Cuan Mulligan There's a two-sentence process, and I would come up with the first sentence. And then everyone changes, and someone else has to put the second part of the sentence to make the story wrong because it's funnier. And then from that, some weird shit happens and you, Oh, that actually does a little bit there.
-
-20:59 - Jorge Lewis That'd be interesting. I see what you did there for it to be wrong. And then you said funnier.
-
-21:05 - Cuan Mulligan Yeah, it all works. Um, and that's the whole point is to be creative because some of the, sometimes like JP helped us come up with value stack. His process was a whole load of his experience and his innate ability and his brain does to suddenly go try this. And so. Part of that process is what we want to do here. Now, if I skip over to potential interface, if you can see this screen here, imagine on the left-hand side here, there's a whole lot of chat going on, which is the asking questions, just the running of the workshop. And then there's persistent assets or bits that are getting created. So there's a point in time where you see on this screen here, We have enough information for the bots to start generating potential brand purpose statements. And one of them could be a really creative, out there, risky point of view. One might be a really consultative point of view or a really safe point of view. So you've got extremes. And from extremes, you want almost polarizing statements so people can react to it and say, yes, no, whatever, to bits of it or all of it. And the idea is that you'd be clicking and seeing different versions and saying, it's more this, it's more that, it's this, it's that, it's this, it's that. And again, there might be a values exercise here where you do, are you more this or this, that or that, this or this, that or that? There's a set of, where are they? Let me see. The brand value card deck. Brandec. So this is an exercise that I used to run. I don't know if you can see it. So if I zoom in here, you've got black and white. And so you basically give every, you take two cards and you basically say, let's say you had calm or energetic. And they're completely random what they are. And you say, which one more are you? Do you want to be calm or energetic? We're energetic. Are you historic? Are you everyday? We're everyday. Are we universal or individual? Now we're going to be universal. Are you going to be futuristic or nostalgic? Curious, organic. It doesn't really matter what they are. They're just choices. And so you could do this exercise, again, to start giving people more content into how they see themselves and how they see the world, which then allows us to build this purpose statement. And then at some point, you coalesce on a statement saying, that's what we are. We're happy with this as a first version. We'd also imagine that you would probably, at the start, and this could be pre-workshop or at the very start of the workshop, Upload relevant files like your brand deck, any company information that you have, data that you have, your websites, articles that have been written about you, whatever. It doesn't really matter. There's a whole lot of contextual data that we would say, hey, please add that to give us some insight. Now, once you have this, this is where potentially the scope increases.
-
-24:18 - Cuan Mulligan My view was, if this is something that the customers coalesced and really likes it, but then you do a Google search and you find this is pretty much exactly the same statement as a Tesla or somebody else, and you're in the same space, probably not really good. So if I look here, Randox Health. If you look on the ADAPT website, we have ADAPT your health, your future. And we did that completely independently. Why is that not working?
-
-24:54 - Cuan Mulligan They say help you protect your future, but I was in London the other day and there is a new advert that says, let me see if I can see this.
-
-25:11 - Cuan Mulligan Extend your life. Interesting, someone's sprayed money-making scam.
-
-25:22 - Cuan Mulligan Well, anyway, their new one on the London Tube is Your Health, Your Future. I'm like, fuck. Now, wouldn't it be really cool if, as we're building this, what we have a uniqueness indicator or a conflict indicator based on what's going on in the market? Just an idea to show lots of independent bots working. Because if I was working as a consultancy, You have the lead MD or the partner who's giving oversight and making sure we don't do anything stupid. You'd have the main facilitator, but you probably have three or four other people who are in the background listening to stuff, supplying, if I was the main facilitator, supplying me with information, which I then choose whether to apply or not and say it's relevant or not relevant. And that's sort of the model that we want to mimic. Now, if I bring this to life, And Claude really fucking annoyed me last night. I spent an hour trying to build. I was trying to play with it to try and come up with an interface for Adapt and coming up with it. And I ran out after an hour. It basically said, you can't do anything more. I'm fucking paying for you, and you've stopped me like an hour.
-
-26:37 - Jonathan Phillips It's really frustrating as well, because it's sometimes four or five hours Beyond the time you're at now. It's not even like wait an hour. No. Yeah.
-
-26:46 - Cuan Mulligan No, I was finishing this about 8 o'clock and it said 12 p.m Hmm. So what's good here is that AI breaks, but so you've got nice version control Okay, so there so back to 14. So you have the idea here of having eat move sleep inside the chat window So the idea here is on the left. I have a have a a chat of the workshop and then on the right hand side you you have the output that's persistent. Because if you chat, shit moves off the window. It scrolls up naturally. And so having an active or a persistent pane on the right-hand side makes a lot of sense. Having some form of version control, because we know anything organic inside Gen AI As long as you just keep on going forward and you're happy with the output, it's OK. But if you go forward too far in a way that it doesn't like, So this suddenly just broke. I've got no issues. But if I go into Inspect and look at the console, there's loads of errors. And then I can take those errors, give it into that. And now I'm doing all sorts of shit. So it's actually a bit easier for me to go back into. It seems to be, well, I'll tell you what I was doing. I actually had a version that looked like it was in an iPhone.
-
-28:06 - Cuan Mulligan And yeah, this was quite an interesting one. But then you got the overlap, stuff like that.
-
-28:14 - Cuan Mulligan There was an iPhone, and the iPhone wrapper just fucking broke it. And it couldn't recover. It was using some template or something like this.
-
-28:25 - Cuan Mulligan But having the version control that I could build again from that point was super important, because AI is not tangible enough to, it's not, you can't engage with it enough to do anything about it. But this breakpoint of these version controls do allow you to jump off in different places. So I'm probably going to pause there. There's a million other things that we could add to this, but we want to try and sort of tightly bound the scope to look at this and saying, given this, which, by the way, is not different to what JP was taking you through the other week. It's just a very specific slice of that functionality, tightly bound. So for example, if we decide that there is five bots in this meeting, we don't have the ability to create new bots. We might hard-code them, for want of a better word. The scope of the workshop or the process of the workshop might be hard-coded.
-
-29:25 - Cuan Mulligan If the delta to have this variable is 10% effort, we'll go variable. If making it variable quadruples the timeline on the cost, then we wouldn't do that. So we don't want to presume we're going down the hard-coded route, but there is an underlying assumption that it's cheaper, faster to get a working prototype out.
-
-29:50 - Cuan Mulligan So what does, does that sort of make sense? Any, any, any sort of questions?
-
-29:53 - Jorge Lewis And even, even for, for whatever reason, like if we make, if we've hardcoded the first one and for whatever reason, it's pissing rain.
-
-30:03 - Cuan Mulligan Oh, did you let Shelby in?
-
-30:16 - Jorge Lewis I've always been impressed with JP's background. It's quite modern. It's just a living room.
-
-30:25 - Jonathan Phillips Oh wow.
-
-30:28 - Jonathan Phillips Yeah, my partner collects Emma Bridgewater pottery.
-
-30:34 - Jonathan Phillips I don't get it either, don't worry.
-
-30:44 - Jonathan Phillips What type of pottery was it?
-
-30:47 - Jorge Lewis Sorry? What type of pottery was it?
-
-30:52 - Jonathan Phillips Sorry, I'm losing it a little bit. Is that my audio, or? No, I can't understand it. I was asking what type of pottery it was. Hemp bridge water. Hemp? Hemp bridge water, I got it.
-
-31:12 - Eksno I mean, here I can echo, by the way.
-
-31:16 - Jorge Lewis I'm cooing.
-
-31:20 - Cuan Mulligan Oh, yeah, this is a sister, that's why.
-
-31:25 - Unidentified Speaker Emma Bridgewater.
-
-31:27 - Jorge Lewis Oh, is that the artist?
-
-31:31 - Jonathan Phillips Yes, it's a stylist. She does the...
-
-31:34 - Cuan Mulligan Just like that sort of thing.
-
-31:42 - Jonathan Phillips the sort of thing.
-
-31:44 - Jorge Lewis Hold on, let me put you on full screen.
-
-31:48 - Eksno I tried to do that and I couldn't.
-
-31:53 - Jonathan Phillips It's not cheap, so we've got about 20 to 30 mugs and cups and they're about 15 to 20 pound each.
-
-32:04 - Jorge Lewis Why we need that many, who knows?
-
-32:08 - Jorge Lewis One day she's gonna end up with none. We're gonna wonder where they went.
-
-32:15 - Jonathan Phillips Or 100, don't know, one of the two.
-
-32:17 - Eksno I had one person in my family that bought like a bunch of pots and like, what are they called? Ceramics. And she bought them when they were like really cheap. And then suddenly a boom of like enthusiasts that wanted antique things popped up. And now she's like got a fortune in pots. Wow.
-
-32:40 - Jonathan Phillips That's cool. That's very cool.
-
-32:47 - Jorge Lewis I have muted you by the way. There's a bit of an echo.
-
-32:54 - Cuan Mulligan So, does that sort of make sense? Hello?
-
-32:58 - Unidentified Speaker Hello?
-
-32:59 - Jorge Lewis Can you hear me? There's still an echo.
-
-33:02 - Jorge Lewis Yeah, there's still an echo.
-
-33:04 - Eksno How's that appeared out of nowhere? I think it's gone now.
-
-33:08 - Unidentified Speaker Maybe.
-
-33:09 - Cuan Mulligan Is that any better?
-
-33:09 - Eksno Can you hear me now?
-
-33:14 - Unidentified Speaker I'm testing as well.
-
-33:16 - Eksno Okay. Yeah.
-
-33:17 - Eksno I think it's like a smart noise cancellation thing. That's like taking sampling from many seconds before, because you hadn't spoken in a while. It's called our voices.
-
-33:27 - Unidentified Speaker Wow.
-
-33:28 - Jorge Lewis Anyways, so as I was saying, the worst case is we hard code the first one, and investors or users super love it, and they need another one within a few days. That'll be easier than making the first one, of course, because we'll have something already made. But of course, we have the idea that the first one is just to understand things better, and then we can try to see if it's more viable to make the builder.
-
-33:57 - Unidentified Speaker I agree.
-
-33:59 - Cuan Mulligan So how much of this? So there are like ADAPT has multi-bot, multi-agents. Obviously, they're doing different jobs. So what I want to try and do is just, if you can still see my screen. So I think this is useful for me also to understand how things work and the language that you guys are using. So if I go in here, so the check-in team, again, I might want to change some of the language here because it's not obvious to me, but we'll see. So the team is the root prompts for each agent.
-
-34:45 - Cuan Mulligan Is that right?
-
-34:52 - Jorge Lewis Can you guys hear me? Yeah, Jorge.
-
-34:57 - Jorge Lewis Yeah, the root prompt is applied to all the agents.
-
-35:01 - Cuan Mulligan Yeah, but that's checking a team. So for example, there's a root prompt, there's the coach, there's the analyst, there's the collector, there's the supervisor. So the supervisor, for me, between ADAPT and IntelliAgent, would be persisted in the sense that the supervisor is figuring out who can talk and when, when you've got multiple voices in the system. So that is still useful. The collector could be something that's taking the information from the chat and putting it into the persistent window, like which bits of value versus not a value, as an example. The analyst, not implemented yet, but that could be the market analyst or an A, another functional one. The coach could be the facilitator, and stuff like that. And then the root prompt is just the persona. So I think a lot of that structure can be reused for IntelliAgent. The tools, as I understand it, I don't know why they're not there yet. But tools are the hammers, the chisels, the screwdrivers that are used by the agents to achieve certain outcomes. So am I right in saying there was a weather tool That would be an agent that would then have access to call that tool to understand what the current weather is. Or we might have a tool to go scrape the web for company information.
-
-36:33 - Unidentified Speaker So these are just a few.
-
-36:34 - Cuan Mulligan Cool. So we have tools. So we have that structure now. We can just list out the tools that we want. Manage is sort of the feedback. And training of the bots, which we would do, or what manages the log of the chats that we've given feedback to. And then, yeah. So I think a lot of this gets us a lot of the way there with some enhancements. So the question is, is that true? Does that make sense? And if so, what, when would it make sense to do a logical deviation of the product line? So adapt forks out to do IA because there is still enhancements that we're making to adapt that I think materially benefits IA as well, IntelliAgent. So I actually see in the same way for me that adapt can then become a GCSE bot and can come a English, teaching English in Spain but if you strip out the specifics, there's a lot of raw capability here. I see the same for JP, like from ADAPT to IntelliAgent, I don't see as being 90% new work. I see it as 10 to 15% new work.
-
-37:52 - Cuan Mulligan Because it's just in terms of how you see things playing with each other. So if that's true, then I think we should look at ADAPT's current timeline as the same as the IA timelines. And there'll be a common point where ADAPT matures enough that you then go, right, now we're going to tweak it specifically for IA, if that makes sense.
-
-38:20 - Unidentified Speaker Yeah.
-
-38:23 - Jorge Lewis As we all know, LLMs are pretty stupid. So figuring out, with that said, it's hard to predict how much is going to be able to be, how much is going to be able to, how much is going to be able to be reused.
-
-38:39 - Jorge Lewis Because, for example, if we copy the graph from ADAPT to intelligence, to IntelliAgents, it could be totally whacked, for example. And that's another example is the reviews, instead of providing feedback for one message, we might provide feedback for a set of messages. So these are the things we'd have. So from ADAPT, we'd have to still break down quite a maybe the top 20% things that have been specialized for ADAPT and then rebuild it for IntelliAgent. Like we have all the infrastructure. You asked me this yesterday, Cuan, and I wasn't able to kind of give a clear answer and still yet until we kind of dive into the actual work. It's like, how much can be reused, all the ways we're interacting with the blockchain that can be reused, all of our experience, I would say, is a big part. Because now that we've done this, the experience we've learned in making this, the exact same thing could be applied.
-
-39:42 - Jorge Lewis The main difference between JP's project and Cuan's project is the actual things the LLMs are doing, which is using line graph. And I would say that's the easy part. The hard part is making it all stick together. What do you guys think?
-
-40:14 - Cuan Mulligan Um, I mean, I, I sort of, I, I get that from, uh, I mean, yeah, I mean, the devil's in the detail on a lot of these things. I just, are we, do we agree though, that it's not starting from, there's, there's, it feels like there is a high degree of reusability. Obviously we know that there's going to be, you know, specific instancing on that.
-
-40:42 - Jorge Lewis Um, Yeah, I think 60% can be reused from ADAPT, I think. And that's the idea of 50% IntelliAgent has been built from ADAPT. And the math I'm kind of doing is get ADAPT, break down the specialized part, and then rebuild it up for IntelliAgent.
-
-41:20 - Cuan Mulligan I suppose, what is that point of inflection between both products? Because ADAPT isn't fully mature yet, and there are definitely more things that we're building in ADAPT that I think IntelliAgent benefits from And I don't necessarily want to build them twice on both with the illusion of progress, because the reality is you're a small company. Actually, your company size doesn't make a difference. If you are working on two fronts, you are going slower than going on one. That's the reality. So for me, it makes more sense to everything focuses on adapt while as long as it's serving both products to a point that you then go, OK, this is now totally adapt onward. It's not really benefiting IA. And then that would make it potentially more logical to do a split at that point.
-
-42:22 - Jonathan Phillips So are we saying that none of this is modular? So it's not a case of creating modules that plug together and taking several modules here and moving around. Is it all linear, that you'd have to then go to a point and then stop and then move that across I'd say interconnected modules.
-
-42:44 - Jorge Lewis There's some connections that have to be made between each, but those connections aren't really a big deal. Yeah, not a not a big deal. In terms of being faster working on or the idea is that we can work as much as possible and adapt that into the point where we don't, we won't be reusing anything for intelligent, right.
-
-43:15 - Eksno Remaking, I think to the point where we won't be remaking.
-
-43:19 - Jorge Lewis Um, the onboarding is one system that would definitely be better off making for one. And then. Reusing for the other one. That's definitely one. By the way, JP, the onboarding I'm referring to is for ADAPT is the user onboarding and for IntelliAgent, it's the gathering all the info about the company. So upload all your documents, ask all the questions, and then get all those answers. That's the onboarding.
-
-43:55 - Jorge Lewis So some of that would be reused.
-
-43:58 - Cuan Mulligan If you look at the functional section, that onboarding would just be something that we could lift and shift and plug in. Like it's not part of the, you know, that, that, that shouldn't be something that delays, like in the same way you said, we haven't done authentication yet. Fine. I totally agree with that. It's important for when you start getting money and you start having real customers, but not important for.
-
-44:25 - Cuan Mulligan The demo. The onboarding is not important for doing the initial demos. So if you look at the ability to actually just run the workshop, right? So we want to go in and a bot will then say, hey, ready to start everyone? Great, cool. And it would give some level of information as the context and information so that would just be like the coaching bot saying good morning whatever it would basically introduce step one is introduce the workshop and JP would say here's the seven points that are really important but be creative with how you express it okay cool That's step one. Then we'd start asking questions. Again, the coaching bot would then say, right, here's what I'm trying to do. It would ask those questions. Would be able to go in with the rag, which we could do right now today, and say, no, no, it's this, then that, and I'd ask this, and I'd ask this, and I'd ask this. I suppose the bit that's not there at the moment is good, bad, and maybe there's a new thing called relevant, or like, in an entire sentence, not just that it's a good response or a bad response. That's the orchestration or facilitation of it. When a human says something, we need to be able to say, this bit of the sentence is actually really important and go deeper on it. Or that's actually something to put in the bank of words or ideas that are relevant to then generating the, what you call it, the doodad. The brand purpose statement. So that would be an enhancement to the admin screen to be able to say which of the things that the person has said are something that you want to bank up and keep note of for later. And then the only other thing is we would need to turn one of the other bots into a copywriter bot. And you'd have copywriter one, copywriter two, who would have their own tone like one might be really fucking adventurous one might be a shakespearean one one might be a adam sandler one that doesn't really matter you you just come up with these different variations um jp would you see any value in doing a values workshop in this and so you more this or this this or this this or this yeah I mean it's very much a case of
-
-46:57 - Jonathan Phillips um I don't know if the content matters that much at the moment. I mean, obviously it does for the workshop, but it's the mechanics behind it. I think that's the key. I think we can evolve that. Once we start to get the mechanics together, we can see how far we can push it.
-
-47:19 - Unidentified Speaker Okay.
-
-47:22 - Jonathan Phillips Because what I don't want to do is start to say, yeah, get excited. We do this, we do this, we do this. And all of a sudden, it becomes a long list. So I think it's better to start and see how far we get, and then start pushing as we go. And then try and not cram as much in, but try and build on it. And then hopefully, the minimum output's good enough. But then the extra output we can add on, once we know we've got the minimum in place, that makes it very exciting.
-
-47:52 - Unidentified Speaker Okay.
-
-47:59 - Unidentified Speaker Yeah, I agree.
-
-48:01 - Jonathan Phillips Yeah, I mean, it is easier for me to say, yes, I'd like a long list of stuff. And you go and say, tick, cross, tick, cross, tick, cross. That's manageable. That isn't. That's going to be hard. Then we can do that as well. But what I don't want to do is tie everything down and slow you down by trying to put too many ideas in your head to start with. I don't know how you'd prefer to work.
-
-48:27 - Cuan Mulligan So given that, sorry, go on.
-
-48:31 - Eksno I think it would be good to get that proper long-term vision in our heads so that we can more properly define which of the aspects of that long-term vision with all the features and everything are most core to the application so that we can focus on creating the core of the application while still structuring it in a way that allows for all those future features.
-
-49:01 - Cuan Mulligan I think it's, and let's see if you agree with this, JP. It's the ability to create multiple workshops. What we've talked about here is a single workshop. The ability to create agents with specific tools and jobs to do. And from the output from one workshop to feed into another workshop. Because with that, you can pretty much do whatever the hell you want.
-
-49:36 - Cuan Mulligan And that's what I think what I've just said is what JP took you through the other week.
-
-49:46 - Cuan Mulligan At its most generic level, it's multiple agents working together to run workshops.
-
-49:53 - Cuan Mulligan And for JP to encode his level of expertise in what a good workshop outcome is, There's a level of things that have to be done through code, though.
-
-50:05 - Jorge Lewis And if we want to bring it to an admin through an interface, how do we know what we need to bring to an admin in the interface if we've never built a workshop, if we've never had the agents run a workshop? For example, we might not foresee that one of the agents need one of the agents needs access to tools. If we didn't know that when we were building the workshop builder, then we'd have to replan a lot of things. I think just moving forward, how we discussed is build one workshop, as hard-coded as we want, of course, still giving JP the ability to control the the high level behavior, and then well, no, not the high level, actually, the more concise behavior. And then after there, we'll know what a workshop is, how should a workshop go? What are the aspects that we want to give to the website? What do we want in the website in the workshop builder?
-
-51:15 - Jorge Lewis Because right now we could piece together, as of right now, we can say, yeah, we should have this and that within the workshop builder. But there's going to be, I'm quite sure there's going to be a lot of things that we can't foresee until we build one.
-
-51:35 - Cuan Mulligan So I think then we have to do the first one. And that is the outcome that we're after, we learn through that one. I think trying to speculate it up forward is not feasible, not pragmatic, because once JP starts training the bot, he might go, I need to be able to do X with this. And that might be a feature as opposed to just a prompt.
-
-52:04 - Cuan Mulligan And so I think there's going to be that sort of iterative way. So I suppose back into the question, given what we have in ADAPT today, would now be the right time to fork? And start working on IA or do you feel that we need to do some more things in ADAPT that IA will also benefit from and it is more sensible as a point to deviate?
-
-52:34 - Unidentified Speaker Jonas, what do you think?
-
-52:37 - Eksno That's definitely something I'd like to discuss further with you going over the codes and just diving into it after the meeting. One thing that I like, as you mentioned, the onboarding process will be quite useful within JPE's application along with the high-level graph being able to lift that over, even if it's not a necessary thing. It's a thing that we're going to be making for that, that we also know we're going to be making for IntelliAgent Onboarding, I think for the first version, is completely irrelevant for the IntelliAgent.
-
-53:12 - Cuan Mulligan It's not necessary, because we can just, like you've hardcoded in the bot at the moment, which assumes it's the evening, we'll assume we're working at an established company, for example. So onboarding is. Just the chat, we can delete it, and we can start again. Or we just spin up a new instance. Like you have a Kuhn Jonas window or instance, we would just have client one, client two, client three. There is no need to onboard it. I think we just want to start.
-
-53:41 - Eksno Do you want to do the same thing for Adapta, where every user just has a predefined variables for everything that's supposed to be in the onboarding?
-
-53:51 - Unidentified Speaker Sorry, I don't understand.
-
-53:54 - Eksno That also has an onboarding process with all the things that you sent in the Google Docs earlier, where a lot of them are marked onboarding. We were planning to implement that onboarding phase along with the high-level graph. But what we also can do is just for every profile we create, predefine all those variables and don't implement the onboarding phase yet. Then we can focus on the chatting interface.
-
-54:19 - Cuan Mulligan Yeah, I don't think we need to prioritize the, I mean, onboarding is just the population of those things, right?
-
-54:27 - Cuan Mulligan We don't, there's nothing that innovative there. Let's focus on the coaching and that engagement because that's the, onboarding is a nice to have. I don't think it's a priority to work on right now.
-
-54:42 - Eksno I think the most relevant part that we're currently working on, which will be relevant to IntelliAgent, will be the high-level graph. So the graph that delegates status of what's going on to a specific team.
-
-54:59 - Eksno So for example, if the user wants to start a check-in, the status will be set to check-in, and each message will be delegated to the check-in team. I imagine there's going to be a similar system that will be needed for IntelliAgent.
-
-55:21 - Unidentified Speaker Say that again.
-
-55:22 - Cuan Mulligan It didn't quite land.
-
-55:25 - Unidentified Speaker Is my mic bad?
-
-55:29 - Eksno It's been the energy.
-
-55:33 - Jorge Lewis Um, I don't, I don't agree. I don't think so. The intelligence, the, the high level modules is just the workshop where the onboarding is, we're going to get, we're not going to do yet. We're just going to do the workshop where there's just the agents having a conversation with the user, um, trying to come to a final conclusion with the brand purposes through different techniques, like AB testing with different, uh, ideas, um, the card game.
-
-56:02 - Eksno All that card game, the A-B testing, all of those I imagine could be different graphs. We might want those to be different graphs, and then it would be useful with the high-level or the, what was it? High-level graph implementation from that.
-
-56:16 - Jorge Lewis Yeah, but I mean, that's nothing too new, too big. It's just kind of normal line graph.
-
-56:26 - Jorge Lewis I can't remember, where did we go from I think we've gone off track here.
-
-56:36 - Cuan Mulligan We're trying to establish how much more coding we need to do and adapt before it makes sense to fork into IntelliAgent and start doing the specific elements for IntelliAgent. Onboarding is not needed to answer that question.
-
-56:58 - Jorge Lewis Yeah, like, like Jonah said, give us a day or two to go into the code, or the code and the kind of the plan for the future plan for ADAPT, what our, our plan looks like in development, and then we can get back on a better answer.
-
-57:15 - Cuan Mulligan Yeah, I mean, I'm, I, I want to be involved in that conversation around ADAPT because There's now that we have something like you guys are saying, yeah, we're going to do onboarding and stuff like that. I think we need to have those conversations and get aligned on what the next sensible thing is, because for example, we've been testing it. And then I was like going, shit, actually, I think we need to ask for sleep in the morning. Because like, there's two scenarios, right? Someone voluntarily gives the information, others were seeking the information. But when you wake up in the morning, you should say, hey, here's your video. Here's some content. Go smash the day. By the way, how was your sleep last night? That makes more sense, where if we haven't seen something towards the end of the day, it's more of a coaching session about, how have you felt? You're two weeks into the program. How's that going for you? And by the way, I noticed on Tuesdays that you don't really enter information. What can we do to help you on that? Or it's not just you haven't filled in sleep. You haven't just filled in your calories. That's a very small size of it. And I think I want to work on the coaching and start getting that, because that's going to be the most nuanced area that's going to require the most testing. We've now got a nice, what feels stable. It's not breaking, albeit it was breaking for JP.
-
-58:29 - Jorge Lewis It seems like there's some bug, one bug that keeps appearing.
-
-58:35 - Unidentified Speaker Yeah.
-
-58:35 - Cuan Mulligan So that's where I would work on. And for me, what's nice is, if possible, where, for example, like saying, you're asking the wrong questions for sleep. Go fix that.
-
-58:46 - Unidentified Speaker Perfect.
-
-58:47 - Cuan Mulligan The sort of chasing the problems right now might be a useful activity. Maybe it's me and Jonas or me and the other guys working on the web or the interface stuff. But as soon as you talk about the interface, I need to talk to you guys because we need to figure out what that looks like, I don't know whether we're going to have a hybrid interface or not. So I've got lots of questions, but I think you need to involve me in that whole process because, and JP as well, because we're quite opinionated about what this could be. I'm not opinionated because we're being dicks. I just think we've been thinking about this day in, day out for a long time. So I think it's potentially dangerous and harmful for you guys to go off in isolation and decide these things without speaking to us.
-
-59:34 - Jorge Lewis Yeah, that makes sense. I agree.
-
-59:41 - Jorge Lewis Um, so, so we can move forward to set up a time to, to call with, I want to get chimney on as well. The, uh, or other line chain AI developer. Uh, we can go through kind of the next few steps. Then also, if things have changed in terms of long-term for adapt, we can take a look at that as well. Um, and then directly after that would be able to say, okay, so now that we know how things are looking for that, we will be able to decide at what point is most efficient to begin Intelli agent.
-
-1:00:15 - Unidentified Speaker Okay.
-
-1:00:16 - Cuan Mulligan So when do you want to do that?
-
-1:00:19 - Jorge Lewis I'm traveling tomorrow. Um, so let's, well, tomorrow's the weekend.
-
-1:00:25 - Cuan Mulligan Um, I mean, I'm traveling on Tuesday.
-
-1:00:29 - Jorge Lewis Um, let's, um, can I, can I get back to you on that? My schedule's looking really busy the next week. I don't have to be there as well. I'm travelling all day Monday.
-
-1:00:50 - Cuan Mulligan Myself and Aaron are going up to a meeting.
-
-1:00:53 - Unidentified Speaker Tuesday is pretty busy.
-
-1:00:56 - Cuan Mulligan But I don't want to wait till Wednesday because I don't know what you guys are doing. So for me, I think even half an hour now, I think it's just a very quick meeting.
-
-1:01:03 - Jorge Lewis Let's try to get it in as soon as possible. At least at least something as quick as possible, and then we can try to schedule a longer, more thorough one.
-
-1:01:12 - Eksno Jorge, do you think you'll be waiting at the airport at all? Maybe we can do a meeting then?
-
-1:01:17 - Jorge Lewis I'll definitely have some downtime somewhere, but I can't say, oh, I'll have downtime here because Can we do 20 minutes now?
-
-1:01:25 - Cuan Mulligan I don't think he's on.

@@ -1,188 +1,0 @@
-Meet Meeting 
-Thu, Jun 27, 2024
-
-1:06 - Unidentified Speaker Uh, well.
-
-1:28 - Eksno Oh, we were going over the code base and stuff. What do you want to go over that takes just 15 minutes?
-
-1:35 - Jorge Lewis Yeah, the code stuff.
-
-1:37 - Unidentified Speaker That takes 15 minutes.
-
-1:40 - Eksno At least I'll get to introduce myself.
-
-3:01 - Unidentified Speaker New York.
-
-3:02 - Jorge Lewis to speak or continue typing?
-
-3:08 - Eksno I mean, OK, I sent what I had just because, yeah, expecting this call or him to junction.
-
-3:19 - Jorge Lewis I have been doing the relations, but the project management, that's kind of over. So I need to, we need to transition things like that. And then also just the
-
-3:28 - Eksno I mean, I've been doing the project management, so I don't know what you mean.
-
-3:35 - Jorge Lewis Well, maybe then it's just I feel like I'm doing too much in terms of the management of the project. What do you mean? Yeah, I'm coding a majority of the project, but this feels like I'm managing way too much.
-
-3:49 - Eksno Can you be specific at all or just in return?
-
-3:52 - Jorge Lewis Yeah, let's let's like, is there? All right, we can chat about it after.
-
-4:05 - Biwas bhandari Hello. Hello. How's it going?
-
-4:08 - Unidentified Speaker Hello, Jonas.
-
-4:09 - Eksno Hello, Exxon. Hello.
-
-4:11 - Eksno I'm Jonas. Yeah.
-
-4:13 - Unidentified Speaker Jonas. Yeah.
-
-4:14 - Eksno I'm still on my personal Google account, which makes my name Exxon.
-
-4:20 - Unidentified Speaker Yeah.
-
-4:20 - Eksno Whenever I click a link, Google is kind of annoying with it. It like forces you to have a default account.
-
-4:26 - Jorge Lewis Yeah. Um, cool.
-
-4:29 - Unidentified Speaker Yeah.
-
-4:29 - Jorge Lewis So, so do you want to meet Jonas? Jonas is my co-founder. Uh, nice to meet you.
-
-4:34 - Biwas bhandari Yeah, nice to meet you too.
-
-4:36 - Jorge Lewis Yeah, you want to introduce yourself Jonas? Say a little more?
-
-4:39 - Eksno Yeah, sure. I was a software engineer, took like, what's it called? Locational or trade school in software engineering and then went into working for a software consultant. C for one and a half years. Afterwards I founded this company with Jorge during my employment.
-
-5:04 - Eksno I've been doing software engineering since like ninth grade, got into programming very young and I've continued with it ever since.
-
-5:16 - Biwas bhandari My name is Vivas Vandari and I've been in coding for around 2.5 years now. I started with web development. First I went and did some Python coding, and I switched to web development. And I've been doing it for around two years now. And I've been working with TypeScript for around nine months. And currently, I switched to Python for AI and machine learning. But now I'm into Android. Yep. Did you say nine or five?
-
-5:53 - Jorge Lewis Nine. What's your experience with LangChain in TypeScript?
-
-6:01 - Biwas bhandari So, I worked for a start-up at first, it was called NCI, and I have already told Jorge about that through blockchain. They just query their transaction, for example, just ask what is the transaction of my Bitcoin address, this is this, and they query through natural language, and the response comes.
-
-6:34 - Jorge Lewis Yes, so to go over the project a little bit. So this project is one of our clients projects and it's a life coaching bot. So it's supposed to help the users build habits. So mainly things like making sure they do a daily walk, making sure they're not eating too much and making sure they're watching a daily video. The app is super the chatbot that's going to help the user keep their habits, and then there's a LMS, so a learning management system, that's going to deliver a course on a daily basis to the user.
-
-7:10 - Jorge Lewis So yeah, so for the chat part, so initially we made it with Python in the back end and then connected it through an API. But the problem with that is we noticed we had too much unnecessary separation between our web and our API. So we decided to move it all into one, which made really easily using SvelteKit. So now our backend is in TypeScript and our frontend is also in TypeScript using SvelteKit. So it's all really nice and handy, but the problem is the TypeScript, I'm not familiar with the TypeScript SDK for LangChain myself. So I had a bit of an issue, bit of a few roadblocks trying to get it set up, but I figured this was a great way to kind of get you kind of doing like a, It's pretty much like an experiment to see how well we work together and how we like to work. We'll see around that.
-
-8:00 - Biwas bhandari Okay, so I'm just going through the code right now. And you're using Superbase as a database, Langchain, Langgraph.
-
-8:10 - Unidentified Speaker Okay.
-
-8:15 - Biwas bhandari Yep.
-
-8:18 - Unidentified Speaker Yep.
-
-8:20 - Jorge Lewis Um, access to a database, the super base, like what should I just add him as a user?
-
-8:27 - Unidentified Speaker Yeah, I think so.
-
-8:28 - Eksno Yeah. On the super base, uh, Adam to the team.
-
-8:41 - Unidentified Speaker Yeah.
-
-8:42 - Jorge Lewis So, uh, let me add you to the super base real quick and then we can go into the kind of the more technical aspects.
-
-8:51 - Jorge Lewis Or let's go into the technical aspects first, actually. So the code is supposed to be using TypeScript. There's a couple, I believe I invited you to the server, right? Yeah. I'm going to, I think what I'm going to do is send you a couple of the calls we had with the client. So you can, first of all, see what he looks like, see how he talks, and also understand the project.
-
-9:19 - Jorge Lewis And then I can explain it briefly right now, kind of the Lang chain aspect of it. So the main thing is there's a main router that will route to either a check-in team or just a normal chatting bot. The check-in team is responsible for doing a check-in, a daily check-in. A check-in is pretty much where the bot will ask for information and the user should be like, how many minutes did you walk today? How many calories did you eat? Things like this. And that's a daily process that the user has to go through every day. And the bot's job is to make sure the user fills it in, and then also to provide coaching on it. So the way the loop looks like is the user says, all right, let's start a check-in. And the bot says, OK, cool. How many minutes did you walk today? And the user says, I walked 30 minutes. The bot will say, great. That's 10 minutes more than you walked yesterday, or something regarding that. So some feedback for coaching. Let me pull up a graph explaining or depicting the architecture.
-
-10:28 - Jorge Lewis I don't think I can send a graph in the chat. I'm going to send it in Discord. So you see there? Let me know when you guys have it open.
-
-10:45 - Jorge Lewis So it starts from the bottom. At the very bottom, there's the main router, and this guy pretty much checks if the user is asking to start a check-in. That's really the main job. If the user is doing a check-in, then the check-in team will be in charge of the process. The check-in team consists of three guys. Don't worry about the names here, but listen to my voice. So three guys. So the check-in supervisor, the coach, and the data analyst. The supervisor is in charge of gathering the data and then requesting new data and calling tools to update the database and things like that. The coach is in charge of providing coaching to the user. So following the prompt we give the coach bot to give coaching. So things like, oh, great job, but last time you could have done a little bit better, blah, blah, blah. The data analyst is what the coach will use to gather further insights. So things like trends, or patterns that the data analyst can see throughout a longer period of time. So how it will look is the check-in assistant or the check-in supervisor will ask for new data, the user will give new data, and then the coach will respond saying, oh, great job. And he'll ask the data analyst, hey, is there any further insights we can use? And the data analyst will give the coach some further ones or not. But on the surface, all of them act as the same bots. They're all going to look like the same person. So the idea is that the bot is a life coach that can help the user.
-
-12:20 - Jorge Lewis Yeah, that's a pretty good explanation of how things are working so far. Any questions? Anything I missed?
-
-12:29 - Biwas bhandari For technical, your coding part, Okay, I think that's it. I will start working here.
-
-12:54 - Jorge Lewis So for the current state of the project, I can go into that a little bit. The project is under the migration I've done. I would say About 70% of the migration, all of the main files are in there, are in the web project, but they're just not working yet. They're not connected. The Python files are attached somewhere in the project. I can also send the zip file if they're not.
-
-13:24 - Jorge Lewis But yeah, the things that I had trouble with where I left off was I was trying to figure out how tool calling could work to select the next speaker. So for example, In the Python one, it was really easy. The user would send a message giving some data, like, I walked 30 minutes today. The check-in LLM would say, OK, he would call the tool to update the database. And then he would call the tool to select the next speaker, which would directly bring it to the coach. And the coach would respond. So it would look like the user's message, then the coach's message. And then the coach provides this message, and then, yeah. So I had trouble having a tool called modify the states. That's where it didn't work out so well Yeah So I'll send some I'll send the videos regarding the project to make sure you're fully up-to-date And then I'll also try to find and send all the resources regarding the project
-
-14:20 - Biwas bhandari to make sure you kind of understand it more Yeah, any any questions Just so you know, I don't have access to GPT-4 API key.
-
-14:35 - Jorge Lewis Yeah, let me send you the environment variables. I'll send all that and all your resources in our chat together.
-
-14:44 - Biwas bhandari Okay, so I'm not finished checking all the codes. Whenever I will find some dilemma, I will text you.
-
-14:57 - Unidentified Speaker Yeah, sounds good, for sure.
-
-14:58 - Jorge Lewis If any problem at all, let me know, because I'd rather help you move faster than you wondering about some of the code. So anything, don't feel like you're bothering me, please do.
-
-15:08 - Biwas bhandari So OK, today I will take the codes and set up my code workspace and try to run it. And I will start working it from tomorrow. Or if it's urgent, I can start working it today.
-
-15:24 - Jorge Lewis Yeah, sounds good. Yeah, so just once again, if you have any questions, please let me know. And also, in terms of updates, if you can give me quite a few updates throughout the day, how things are going, that'll be great. Those small things are really helpful. Yeah.
-
-15:40 - Jorge Lewis Thanks so much, man.
-
-15:40 - Jorge Lewis Let's see how this turns out. And best of luck.
-
-15:45 - Biwas bhandari So when is the deadline of this project?
-
-15:50 - Jorge Lewis So the deadline, so I told the clients that the project would be migrated from Python to TypeScript by next Wednesday. So we have six days. Me and two other developers that were currently in the hiring process as well are also going to be working on this. So you three are, we're all doing the same thing really. So in a couple of days, we'll see who's made the best, we'll come together and we'll figure out the best way to move forward.
-
-16:21 - Jorge Lewis So, yeah.
-
-16:22 - Unidentified Speaker Okay.
-
-16:26 - Biwas bhandari I think that's it. You can send the videos of the client and environment variables and give access to the database.
-
-16:38 - Unidentified Speaker Yep, sounds good. Perfect.
-
-16:40 - Jorge Lewis Yes.
-
-16:42 - Unidentified Speaker You're Nepal, right?
-
-16:44 - Jorge Lewis Yes.
-
-16:46 - Jorge Lewis What time is it?
-
-16:47 - Jorge Lewis Is it 3 p.m. Or 2 p.m.? It's 5 p.m., yes.
-
-16:53 - Unidentified Speaker Huh?
-
-16:54 - Biwas bhandari 4.39 p.m.
-
-16:57 - Jorge Lewis Huh. So yeah, we're at 6 p.m. Right now.
-
-17:03 - Eksno Well, finally working with someone on a roughly equal time.
-
-17:11 - Eksno That's going to be interesting.
-
-17:14 - Jorge Lewis Do you have anything to add, Jonas? I don't know.
-
-17:18 - Eksno Just good luck. There's a lot of TypeScript.
-
-17:21 - Unidentified Speaker Yep.
-
-17:23 - Jorge Lewis If you have any questions regarding how it connects to the SvelteKit, let me know.
-
-17:30 - Jorge Lewis Also, do be aware the TypeScript code isn't the best. The TypeScript code is okay. It's okay. Jonas has fixed it up. But the Python one, that one is painful to see.
-
-17:44 - Jorge Lewis And also in case it wasn't obvious just don't share any of the code. This is confidential. It's just us.
-
-17:55 - Biwas bhandari Yeah, the basic stuff.
-
-17:56 - Jorge Lewis Cool. Cool. Okay. Thanks man.
-
-17:59 - Biwas bhandari Yeah. Okay. Yes, that's it. I'll just start working right now.
-
-18:07 - Unidentified Speaker I'm currently free.
-
-18:08 - Biwas bhandari You can send the videos and yeah, we'll do.
-
-18:12 - Biwas bhandari I'll send all the resources in our chat.
-
-18:14 - Biwas bhandari When I'll have any problem, I'll just text you.
-
-18:18 - Biwas bhandari Perfect, man. All right. I'll see you around.
-
-18:21 - Unidentified Speaker See you around.
-
-18:22 - Biwas bhandari Have a good day. Bye bye.
-
-18:23 - Eksno Good luck.
-
-18:23 - Eksno See you soon.

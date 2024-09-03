@@ -1,358 +1,0 @@
-Meet Meeting 
-Thu, Jul 11, 2024
-
-0:18 - Unidentified Speaker We're up.
-
-2:52 - Unidentified Speaker Yeah, how are you?
-
-2:54 - Will Vincent Parrone Good morning, I'm doing good, how are you?
-
-2:58 - Will Vincent Parrone Hey, can you hear me?
-
-3:01 - Will Vincent Parrone Yep, loud and clear, how about me?
-
-3:03 - Eksno Yeah, I can hear you, loud and clear too. You're in Makati, right?
-
-3:11 - Will Vincent Parrone Yep, I'm in Makati right now. Yeah, nice.
-
-3:14 - Eksno I know a little bit of Tagalog, just a bit, I'm counting.
-
-3:22 - Will Vincent Parrone That'S nice.
-
-3:28 - Eksno Do you have access to the repository? Do you have access to the repository? Not yet. Not yet? Let me get you out. Could you send me your username?
-
-3:49 - Will Vincent Parrone Your GitHub username?
-
-3:54 - Will Vincent Parrone This is my GitHub username and the message threads in the call.
-
-4:06 - Will Vincent Parrone If you want, here's my email address.
-
-4:08 - Unidentified Speaker Perfect.
-
-4:10 - Will Vincent Parrone Thank you.
-
-4:20 - Eksno Okay, I have invited you. It's a pending response.
-
-4:26 - Will Vincent Parrone Okay, I'll accept it right now. $15, right? Yeah, $15. Just to... Okay.
-
-4:42 - Will Vincent Parrone How long have you been working in Solana?
-
-4:47 - Will Vincent Parrone I guess around one and a half year already. About one to one and a half years.
-
-4:53 - Eksno That's like basically around when it's released, right? Oh, yeah.
-
-5:01 - Will Vincent Parrone I was I was playing with it when it launched, yeah. At least a few months after it launched. Because I remember I was a Vue fan back then before I fully converted myself to Svelte.
-
-5:20 - Will Vincent Parrone Which style?
-
-5:21 - Unidentified Speaker Vue.
-
-5:26 - Will Vincent Parrone Vue and Nuxt.
-
-5:27 - Will Vincent Parrone Nice. Yeah.
-
-5:28 - Unidentified Speaker Uh, yeah.
-
-5:33 - Eksno Yeah, I can probably introduce myself. I'm Jonas Lindberg, I have been working with George Lewis as co-founder and acting CTO of the company currently. So yeah, I've been coding since I was in 9th grade, got like a trade school for software engineering and I went on to work with a bunch of European oil and gas industry applications after that, including some banking applications and such. Then afterwards, I've been collaborating together with George Lewis since like 2016, I think.
-
-6:17 - Eksno And we've just been having weird projects after projects. We started with a weird hobby, ant collecting or ant keeping, where we wanted to try to produce nests on those. That didn't work out too well. Then we tried game design. Eventually, we found out, OK, let's make some money and started a consultancy. And yeah, now we've got some clients on our working way.
-
-6:51 - Will Vincent Parrone That's nice. I guess for me, I don't have that much of a portfolio compared to yours. I just started when, I guess in 2019. I did some HTML back in high school, but those were like the MySpace days. Remember those? Forgot. 2019,
-
-7:17 - Will Vincent Parrone No, no, no, I mean, I started early during the MySpace years, forgot about it, and then...
-
-7:23 - Will Vincent Parrone Oh, okay, yeah, yeah.
-
-7:28 - Will Vincent Parrone So yeah, I don't really code that much, but I've been a web developer for about three years now. Now my current stack is, well, I used to do Vue and Django.
-
-7:43 - Will Vincent Parrone Yeah, cool.
-
-7:44 - Eksno I heard you were leading a local software community, right?
-
-7:52 - Will Vincent Parrone Not necessarily leading, I don't want to sound too... I don't want to sound like I'm really a professional, but I'm helping a community grow.
-
-8:02 - Eksno Okay. Yeah, nice. How did you find...
-
-8:10 - Eksno SvelteKit developers in Lakati, how do you find people in the local community?
-
-8:20 - Will Vincent Parrone Actually there's a Facebook group already, Svelte Developers. So there's people interested in Svelte. The tech itself gathers people so it's not that hard. The difficult thing though is setting up a meeting point because Did you say Norway?
-
-8:53 - Will Vincent Parrone Yeah, Norway. Norway, Europe.
-
-8:59 - Will Vincent Parrone Yeah, I'm from Norway.
-
-9:05 - Eksno Nice!
-
-9:08 - Eksno Interesting that Norwegian in there.
-
-9:12 - Eksno Do you know where in Norway?
-
-9:16 - Will Vincent Parrone I actually don't know. He is a little bit private in life, but he's the most active member. He always greets everyone on Happy Birthday and all that stuff.
-
-9:28 - Eksno Oh, okay.
-
-9:30 - Unidentified Speaker Wow.
-
-9:33 - Eksno Yeah, to let you in, we are no SvelteKit experts, so you are most definitely better at SvelteKits than us.
-
-9:43 - Eksno Currently, we don't have any web-specific tasks. So what I was thinking for today is I basically can introduce you to the project and let you go through the pages, see how it is, and probably improve it in a lot of ways where you can take self-initiative to do the tasks that you find for yourself, if that makes sense. Until we have more like specific things that you can work on and at that point when you have specific things that we need you to or that we have specific things we need you to work on, then you'll be familiar with the project.
-
-10:25 - Will Vincent Parrone Okay, okay. So if I get it right, if I'm going to pick my tasks in a Trello board, right? Like, if there's a task out there, I'm going to try to pick it and do it myself. And take the initiative.
-
-10:43 - Eksno Yes, but we don't really have many web tasks for the moment. So I was thinking for today, I'll onboard you onto the project.
-
-10:53 - Eksno Make sure you can get the repository cloned and installed and running. And then afterwards, you can...
-
-11:00 - Unidentified Speaker Sorry?
-
-11:05 - Will Vincent Parrone No, I mean, OK, please continue.
-
-11:07 - Eksno Yeah. And then afterwards, you can use your own initiative to see where you can see that there can be improvements and basically improve our front end on your own initiative until we have more specific front end tasks we need you to do. And then when we have those more specific tasks that we need you to do on the Trello board, then you're already familiar with the project OK, got it.
-
-11:34 - Eksno So where do we start?
-
-11:37 - Eksno Probably cloning the repo, if you haven't already.
-
-11:41 - Will Vincent Parrone Great. Let me try sharing my screen so you can see what I'm seeing.
-
-11:47 - Will Vincent Parrone Yeah, perfect.
-
-11:48 - Will Vincent Parrone Screen at Please work. Sometimes in Google Meet, this doesn't work. Does it work? Can you see my screen?
-
-11:58 - Will Vincent Parrone Not yet.
-
-12:02 - Eksno Doesn't look like it. What operating system are you using?
-
-12:06 - Will Vincent Parrone I'm using Linux. This is... Yeah, same as me. It's a Wayland issue.
-
-12:11 - Eksno Wayland? Okay. Do you have the XDB portal things installed?
-
-12:20 - Will Vincent Parrone I have it. I'm using pipeware to do screen sharing.
-
-12:28 - Will Vincent Parrone For me, to get the screen sharing to work, I have...
-
-12:31 - Eksno Let's see, I'll try screen sharing in Discord, just a moment.
-
-13:10 - Will Vincent Parrone Ah no, it doesn't work there too. Anyways, I think I can do this without screen sharing. It's not gonna be too technical, right?
-
-13:30 - Will Vincent Parrone Sorry, you're on mute.
-
-13:33 - Unidentified Speaker Sorry.
-
-13:34 - Will Vincent Parrone What distro are you using?
-
-13:36 - Will Vincent Parrone It's okay.
-
-13:39 - Eksno What, sorry?
-
-13:41 - Eksno What distro are you using? What Linux distro?
-
-13:44 - Will Vincent Parrone I'm using... I use Arch, by the way.
-
-13:48 - Eksno Nice. I use NixOS, so, uh, can't, uh, hard to transfer.
-
-13:57 - Will Vincent Parrone No, you're using the good OS. I'm planning to transfer soon, but I'm scared. OK. I can't wait. I got API shell and web.
-
-14:07 - Eksno I'll be back soon.
-
-14:11 - Eksno So the API directory is like an old directory from our Python days. We've now migrated most of that code to TypeScript. And it's inside the library server AI directory.
-
-14:27 - Eksno As for the shell project, that's a SvelteKit Tori application, which has an iframe of the website in it, just so we can install the application natively on device. So you can basically ignore that application too.
-
-14:44 - Eksno The only directory you'll need to care about is the web directory. So yeah, you can cd into web.
-
-14:53 - Will Vincent Parrone And then pnpmi.
-
-14:56 - Will Vincent Parrone Are you using pnpm here?
-
-14:58 - Unidentified Speaker Yeah. Okay.
-
-15:01 - Will Vincent Parrone Wait, pnpm. I'll just install pnpm real quick.
-
-15:06 - Eksno Yeah, no problem. I'll just get environment variables sorted real quick.
-
-15:30 - Eksno What are you using instead of PNPM?
-
-15:45 - Will Vincent Parrone I use YARN.
-
-15:47 - Will Vincent Parrone YARN?
-
-15:49 - Will Vincent Parrone Yeah. I heard it's not as good as it is. Before that, I don't really test. I haven't tested PMPM yet. I'm done.
-
-16:02 - Eksno I haven't tested it yet, but I think it's cool.
-
-16:05 - Eksno Is basically just PMPM, but a bit better.
-
-16:09 - Eksno It does stashing and caching stuff properly.
-
-16:17 - Eksno Let me just get to creating your API key. OK.
-
-16:29 - Will Vincent Parrone Which one do you prefer?
-
-16:32 - Eksno Will or Vincent?
-
-16:35 - Will Vincent Parrone I think Will. I'm going to create an environment file here.
-
-16:42 - Unidentified Speaker Yep, Will.
-
-16:53 - Eksno I'll be just creating an environment file in one moment.
-
-16:58 - Will Vincent Parrone There.
-
-17:19 - Eksno If you want to, you'll have to make your own Langsmith API key, but I don't think you'll be using it, so you should be able to just copy and paste that in, and it should be good. Okay.
-
-17:44 - Eksno just do pnpm dev, but because pnpm alias is all the commands for you, so you don't need to do the run, but yeah. After the pnpm is finished, you should be able to do pnpm dev as long as the environment variables are in the .env file.
-
-18:08 - Will Vincent Parrone Okay, checking localhost. Let's see. 5174. So I'm seeing select chat.
-
-18:29 - Eksno Yeah. There you should be able to click on one of the profiles. You can just select mine for now.
-
-18:45 - Eksno Oh, it looks like someone's actually testing you somewhere. You should be able to see free messages.
-
-18:52 - Will Vincent Parrone Okay.
-
-18:57 - Will Vincent Parrone Something, something, test message.
-
-19:09 - Will Vincent Parrone Okay, what's this chatbot doing right now? What's the expected function?
-
-19:19 - Eksno Quite complicated, but very simply explained, it's supposed to be a life coach, which imitates the coaching style of our client, Kuon.
-
-19:35 - Eksno how it's implemented is pretty complicated using a lot of systems.
-
-19:47 - Will Vincent Parrone Yeah.
-
-19:49 - Will Vincent Parrone Okay. Yeah.
-
-19:53 - Will Vincent Parrone I'd like to ask more of the details. Is it okay?
-
-19:57 - Will Vincent Parrone Yeah, of course.
-
-20:01 - Will Vincent Parrone How do you get the data? Do you just create it from, for example, for you Jonas, in order for the AI to create the persona, how do we create the data to feed the model?
-
-20:20 - Eksno It's a large language model. It's using GPT-4 at the moment.
-
-20:28 - Eksno I'm guessing you don't have access to the Superbase since you don't have access to the GitHub repository, so I can add you there. Have you worked with Superbase before?
-
-20:36 - Will Vincent Parrone Yeah, please add me there too. I've worked with Superbase before too.
-
-20:42 - Eksno Yeah, perfect.
-
-20:53 - Eksno You sent your email there, yeah.
-
-21:14 - Eksno There, I sent you an invite.
-
-21:31 - Will Vincent Parrone It's taking a bit of time to load. Yeah, there we go.
-
-21:43 - Will Vincent Parrone Something went wrong. Let me try again.
-
-21:49 - Will Vincent Parrone I think I should... Okay. Never mind. We're good.
-
-22:15 - Will Vincent Parrone Can you see my screen?
-
-22:20 - Will Vincent Parrone It's taking a bit of time to load. It's color black.
-
-22:26 - Eksno It's color black? Okay. Wayland moment. One moment.
-
-22:29 - Will Vincent Parrone Yes. Wayland moment. Yeah.
-
-22:36 - Unidentified Speaker Literally.
-
-22:40 - Eksno Umm...
-
-22:44 - Will Vincent Parrone Wait, I think it's still black.
-
-22:46 - Eksno Yes.
-
-22:48 - Eksno Okay.
-
-22:49 - Eksno Entire screen. Screen, screen. Entire screen, share. Yes, entire screen.
-
-23:00 - Will Vincent Parrone Please pipeline.
-
-23:04 - Will Vincent Parrone No, no, pipeline now. Okay.
-
-23:09 - Will Vincent Parrone Okay, amazing.
-
-23:13 - Will Vincent Parrone Is it just me, or what?
-
-23:15 - Will Vincent Parrone I love bleeding edge technology.
-
-23:25 - Eksno Yeah, let me try select region instead of entire screen.
-
-23:30 - Will Vincent Parrone OK.
-
-23:32 - Eksno Region, select region. But I'll select the entire screen. There. Is the screen sharing now?
-
-23:41 - Will Vincent Parrone oh yeah yeah wow nice it's working it's working yeah okay uh what like uh desktop environment slash compositor do you use I use hyperland as my compositor same Nice. What about IDE? I'm betting you rise up your... Oh, I lose. I'm sounding like a douche, but I use NeoVim.
-
-24:17 - Eksno Do you know what this is?
-
-24:24 - Will Vincent Parrone Yeah, yeah, yeah. NVMP. I have that. Wait, you're using NeoVim, right?
-
-24:30 - Eksno I'm using NeoVim. But with LazyGit.
-
-24:35 - Will Vincent Parrone Or LazyVim.
-
-24:37 - Will Vincent Parrone I'm a lazy Vin!
-
-24:39 - Will Vincent Parrone Yeah! It's just a plugin manager though, lazy Vin.
-
-24:42 - Will Vincent Parrone Okay, okay. Yeah, I've heard of it before. I wanted to try it, but...
-
-24:52 - Will Vincent Parrone It's very nice.
-
-24:52 - Will Vincent Parrone You know, the influencers told me to...
-
-24:56 - Eksno The other one, but they hurt too much. I don't know.
-
-25:04 - Will Vincent Parrone I was actually... Influenced by the time I tried to just use Kickstarter and since I don't know how to actually configure it, I'm stuck in there.
-
-25:16 - Eksno Yeah, so do we have the same origin story or what?
-
-25:30 - Will Vincent Parrone Yeah, I guess, I guess. I just don't touch my Uh-huh.
-
-25:36 - Eksno Yeah, there's a lot of delay on here.
-
-25:43 - Eksno Yeah, I think there's some lag, but please go on.
-
-25:46 - Eksno Yeah, I also started in NeoVim because of the Primogen copied his dot files.
-
-25:56 - Eksno And then after copying his dot files, I came across LazyBim because of another YouTuber, I don't remember who, and then tried LazyVim, and it was so much easier to do the plugin management.
-
-26:14 - Will Vincent Parrone So yeah.
-
-26:19 - Will Vincent Parrone I'm halfway there in the LazyVim. Once I gather enough courage to actually remove my NeoVim config, I'll probably move to LazyVim someday.
-
-26:29 - Unidentified Speaker Okay.
-
-26:31 - Eksno I can show you, I have my entire .files public. Inside here I have .files neobem, and it's pretty simple how it works. There's just a plugin folder, and inside those you just load the plugins that you want. And then I have the config, which is just a copy of of the prime agenda, the prime time.
-
-27:06 - Eksno Basically.
-
-27:09 - Will Vincent Parrone Can you hear me?
-
-27:12 - Will Vincent Parrone Yeah, yeah, I can hear you. I'm just laughing.
-
-27:19 - Will Vincent Parrone I'm at the point in my life where I'm also putting my configs in GitHub. Yeah. It's like a small flex. Yeah, yeah.
-
-27:30 - Eksno Gotta have it as your pinned repository.
-
-27:36 - Will Vincent Parrone Yeah, I will probably pin it someday.
-
-27:46 - Eksno Yeah, so I can run you through the application a bit, like just give you an overview, and then we can get more into where information has gotten from and such. Sound good?
-
-28:02 - Eksno Sounds good.
-
-28:03 - Eksno Yeah, so the project is, the SvelteKit project has at its core like these two folders, the chat and the admin panel. The admin panel is definitely where most of the Svelte action is on. Sorry?
-
-28:26 - Eksno No, it's lagging, but please just keep on going.
-
-28:29 - Eksno Yeah, maybe we can try Discord instead.
-
-28:34 - Eksno Maybe it lags less there. Other servers.
-
-28:37 - Will Vincent Parrone Yeah.
-
-28:37 - Will Vincent Parrone Okay, see you there.
-
-28:50 - Will Vincent Parrone Bye!

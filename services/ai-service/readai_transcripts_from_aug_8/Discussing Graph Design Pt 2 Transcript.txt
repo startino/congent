@@ -1,300 +1,0 @@
-Discussing Graph Design Pt 2 
-Fri, Jun 28, 2024
-
-0:02 - Jorge Lewis Disabling echo.
-
-0:08 - Jorge Lewis No, I mean like within Google Meets, maybe, I don't know.
-
-0:12 - Jorge Lewis We had an issue one time with like the... Welcome back.
-
-0:35 - Jorge Lewis Vivas is also going to join this meeting?
-
-0:38 - Jorge Lewis Yeah, yeah.
-
-0:41 - Jorge Lewis It'll be funny if he doesn't join.
-
-0:46 - Jorge Lewis Try speaking, Vivas.
-
-0:48 - Jorge Lewis I'm speaking now. Yeah, there's an echo. There's an echo?
-
-0:53 - Jorge Lewis Oh, I can speak from your mic.
-
-0:56 - Jorge Lewis Oh, okay. That works.
-
-0:58 - Jorge Lewis Yeah, there's no issues.
-
-1:03 - Unidentified Speaker Cool. Cool.
-
-1:04 - Jorge Lewis Um, okay. Uh, our viewers is joining. I think, I don't know. Why is your discord status idle by the way? Mine?
-
-1:18 - Jorge Lewis Yeah.
-
-1:24 - Chinmay Pandya I do not know. Sometimes I do things which are very, you know, which I have to be embarrassed about later.
-
-1:37 - Biwas bhandari Hello. Hello, everyone. Nice to meet you.
-
-1:39 - Biwas bhandari Hello, Chinmay. Hello, Jorge.
-
-1:41 - Biwas bhandari Hello, Jonas. Hello, Bhai. Do you remember India?
-
-1:44 - Chinmay Pandya Yes, I remember.
-
-2:00 - Jorge Lewis Yes, so the plan is to pair you guys up I Don't know if I think I mentioned this maybe in our first call, but we like to try out pairing we I heard very good things from it from one of my Mentors, pretty much. So we're going to try it out. One of the top companies, engineering companies in the world, does this. So they always put one middle level and then one senior together. And they found that that works the best. So we're going to try that out. One key thing, though, is that we've got to make sure the communication is clear amongst different pairs. So if we have two pairs working on the same project, we have to make sure the two pairs are connected still.
-
-2:40 - Jorge Lewis Anyways, yeah. So you guys want to introduce yourselves to each other?
-
-2:43 - Biwas bhandari Yeah, we already have kind of
-
-2:45 - Jorge Lewis Oh, come on. Oh, bye. It doesn't introduce this whole conversation with side with those eyes.
-
-2:54 - Chinmay Pandya I texted him.
-
-2:57 - Biwas bhandari So we talk.
-
-2:59 - Jorge Lewis Okay, nice. Cool. Cool. Um, Yeah, so we were just going through what Chinmay went through. So we're going through that right now. I guess I could share my screen. We're on an Excalibur. Let me send the link.
-
-3:24 - Jorge Lewis Oh, yeah. That was just to kind of... Restated. So a couple of things that we want to make sure are clear, like for the next few days or just, um, number one, we need more updates, more, more check-ins throughout the day. Um, just to know where things are going, how things are going. Um, and then for schedule, let's try to get that sorted out. So what's your schedule looking like, Am I sharing my screen now?
-
-3:53 - Unidentified Speaker Okay.
-
-3:54 - Biwas bhandari I'll be pretty much free every day.
-
-3:59 - Jorge Lewis So, okay, I did not totally understand your school situation. So you started again already?
-
-4:05 - Biwas bhandari The college started from this week's on days and I wasn't just casually not going and they called me. So I had to go from yesterday. Like I'll be going college from 6 a.m. To 9 a.m. In three hours.
-
-4:21 - Jorge Lewis Okay, every day on weekdays.
-
-4:26 - Jorge Lewis Okay, and then Okay so what time around the day do you think you'll be working, you'll be on the projects?
-
-4:33 - Biwas bhandari During the day I'll be around from 4 11 to 2-3-4 around and at night I'll work 2-3 hours.
-
-4:44 - Jorge Lewis Okay cool cool. Alright let's try to, I'll make a channel where we can just kind of Or after this, let's put the schedule in Google Sheets. I'll set it up, and we can all put the time that we're going to be planning to work so that we can kind of understand each other's schedules a little bit better.
-
-5:05 - Unidentified Speaker Yeah.
-
-5:07 - Jorge Lewis Cool. So yeah, that's cool. Yeah, let's do it.
-
-5:15 - Jorge Lewis So let me share my screen. We can go through this a little bit.
-
-5:21 - Jorge Lewis What did you guys talk about when you guys had a conversation?
-
-5:27 - Chinmay Pandya Actually, I asked him because I asked you about an error for build tools. So I asked if he faced the same error. That was the only conversation.
-
-5:43 - Chinmay Pandya I asked him whether he faced the same error as me and know what he did, but his error was different. He also faced the error, but his error was different. My error was different.
-
-5:53 - Jorge Lewis Yeah, although we have uh So there's a there's a client. Uh, this this group chat here that I'm on On my screen is uh for the clients So I'll invite you guys in a couple like after the four days are done and we can see how things are going I'll most likely invite you guys to this channel, but for now we can discuss all the stuff. Um in the dev channel here which you guys have access to yeah and that way like if you guys have an error maybe if jonas and I have had it as well we can also help so that's the nice thing about working with a lot of people okay so so we were just...
-
-6:36 - Chinmay Pandya you have chat gpt plus three people?
-
-6:38 - Jorge Lewis sorry? For your errors you have chat gpt plus three people All right, so, okay, so where was I going? Okay, so for my graph, it looks like this a little bit.
-
-7:00 - Unidentified Speaker Why is this thing so big?
-
-7:03 - Jorge Lewis So we have the supervisor. A supervisor would decide, or it goes to the router to decide.
-
-7:17 - Jorge Lewis It decides who goes next, whether the code, this would be. Actually, the supervisor calls a tool that updates the database, so there's no collector. The supervisor was going to manage all of it.
-
-7:35 - Jorge Lewis So within this tool, there is fetch check-in.
-
-7:45 - Jorge Lewis There's fetch check-in.
-
-7:49 - Jorge Lewis Update check-in. What else was there? Oh yeah, just terminate.
-
-7:56 - Jorge Lewis This was from before. This is from like the Python, I believe. And so all messages get passed through the supervisor. So if the supervisor, if the user provides data, the supervisor will call update check-in.
-
-8:11 - Jorge Lewis And the supervisor in his prompt was told, if after you've updated the check-in, see if the coach would speak and we'd just give it a couple of reasons like when the coach would speak. And then the coach was connected to a... A...
-
-8:30 - Jorge Lewis Data analyst, is it? Yeah.
-
-8:41 - Jorge Lewis Damn. That's a mad baby.
-
-8:46 - Jorge Lewis Someone has died. So the coach would be able to call on the analyst. I think it would be kind of default, so always, yeah, let's fix this a little bit. So this would always be the case. The coach will always ask the data analyst, hey, are there special insights that I should know about? Whoever has that mic in POC, I'm reading.
-
-9:25 - Jorge Lewis So the supervisor would determine usually to call a tool or to call to pass it on to the coach and the problem with this though is that the coach would usually only give one message and then it depends on what's happening next. So this part, this system was missing kind of really this line. So I think, yeah, so probably the supervisor would need to be told, hey, if, or some condition to make it so that the coach can have a conversation with the user, a back and forth.
-
-10:02 - Jorge Lewis Where's the data collector here?
-
-10:07 - Jorge Lewis I remember, the data collector is the supervisor.
-
-10:19 - Jorge Lewis The problem is just the user can't have a conversation with the coach. You'll have a conversation with the supervisor, which depending on how we determine the roles could work, but...
-
-10:30 - Jorge Lewis Could you name the supervisor collector?
-
-10:39 - Jorge Lewis Who will the analyst respond to?
-
-10:42 - Chinmay Pandya The coach.
-
-10:44 - Chinmay Pandya So can't we put the analyst before and then pass the data from analyst to the coach?
-
-10:53 - Jorge Lewis I see what you mean. Yeah, okay. But then the reason I made it like this is because we need to solve the problem that the coach should have a conversation with the user. If there's a data analyst in the middle, that shouldn't work.
-
-11:05 - Chinmay Pandya Data analyst will only use- We can have two edges, like we can have an edge with the coach also and an edge with the analyst also.
-
-11:13 - Jorge Lewis Can you show me?
-
-11:16 - Chinmay Pandya Yeah, just move the analyst a little bit up.
-
-11:21 - Jorge Lewis I think you can show me as well, like this.
-
-11:24 - Chinmay Pandya Oh, I haven't.
-
-11:25 - Unidentified Speaker OK.
-
-11:27 - Jorge Lewis Wait.
-
-11:29 - Jorge Lewis Oh, yeah.
-
-11:31 - Jorge Lewis Like here?
-
-11:53 - Jorge Lewis yeah so this can be this and this can be this so if the collector got data from the user Yeah. How about we pass it to the analyst and then he passes on the analysis to the coach?
-
-12:35 - Jorge Lewis Maybe instead… Okay, let me… Oh, is there another graph I'm missing? No, okay.
-
-12:47 - Jorge Lewis All right, I'm creating one below to demonstrate another. And also, someone killed the analyst and didn't bring him back.
-
-12:59 - Jorge Lewis All right, so what I'm thinking is.
-
-13:17 - Jorge Lewis Wait, I'll also create a graph Somebody killed the user you Maybe my mic is better, but then you'll have the echo, which I'm trying to deal with.
-
-14:13 - Jorge Lewis So hard to speak.
-
-14:35 - Unidentified Speaker Error.
-
-14:43 - Jorge Lewis I got an error.
-
-14:46 - Jorge Lewis So for my graph, can we all take a look at mine for a second?
-
-14:56 - Jorge Lewis Oh yeah, just refresh.
-
-15:01 - Jorge Lewis Oh, you guys are busy making yours.
-
-15:02 - Jorge Lewis I think just let everyone finish first, and then we'll go for all of them.
-
-15:32 - Jorge Lewis You may want to mute.
-
-15:45 - Jorge Lewis you.
-
-17:20 - Jorge Lewis Since it's not a node, it's just the edges, I can label the edges rather. Would that work?
-
-17:26 - Jorge Lewis Yeah.
-
-17:27 - Jorge Lewis Okay, cool.
-
-20:10 - Chinmay Pandya I'll be back in a sec.
-
-21:46 - Jorge Lewis Alright, I should be done with mine, so let me know when you guys are done.
-
-22:12 - Jorge Lewis Bro, text width 80 bro.
-
-22:24 - Jorge Lewis So yours isn't the graph. It's just a different diagram.
-
-22:28 - Jorge Lewis Yeah, it's a depiction. It's a flowchart. So out of that flowchart, hopefully one of the graphs that you guys make complies and can fulfill it.
-
-22:39 - Unidentified Speaker You know how hard it is to talk while listening to yourself?
-
-22:46 - Jorge Lewis Yeah.
-
-23:01 - Jorge Lewis Yeah, your one is good. I think my one... Let's wait for Chinmay to get back. All right, Genesis, do you want to take a look at mine for now?
-
-23:34 - Jorge Lewis Hmm.
-
-24:04 - Jorge Lewis Oh no.
-
-24:10 - Jorge Lewis What's a good song about that guy's gonna be?
-
-24:59 - Jorge Lewis Chinmay abandoned us, man.
-
-25:02 - Jorge Lewis Oh.
-
-25:06 - Jorge Lewis Nevermind.
-
-25:10 - Jorge Lewis What happened?
-
-25:12 - Jorge Lewis Welcome back. I'm done with my graph. Jonas is done with his diagram. I don't know about you.
-
-25:21 - Jorge Lewis Yeah, I'll just make some changes and then let you know.
-
-25:25 - Biwas bhandari Cool, cool.
-
-25:28 - Biwas bhandari But I'll send you a photo, I've done it in my copy. It's a little faster.
-
-30:01 - Jonas Lindberg B1, or how do you pronounce it? Biwas?
-
-30:10 - Biwas bhandari You're muted.
-
-30:12 - Jonas Lindberg What did you say?
-
-30:15 - Biwas bhandari How do you pronounce your name?
-
-30:17 - Unidentified Speaker Biwas.
-
-30:17 - Jonas Lindberg B-I-W-A-S. Biwas?
-
-30:19 - Unidentified Speaker OK.
-
-30:20 - Biwas bhandari Are you in the Excalibur?
-
-30:23 - Jonas Lindberg Where?
-
-30:25 - Jonas Lindberg In the Excalibur.
-
-30:28 - Chinmay Pandya No, not right now.
-
-30:32 - Jonas Lindberg Could you send it to him, Jorge? Yeah, send it to him. Yeah, new lang chain devs. Where? Wait, no. Where is it? Oh, it's in the Google Meet chat. OK.
-
-30:54 - Jonas Lindberg Yeah, if you could join it, and just zoom out and go a bit down right, and you should find a bunch of graphs for modeling.
-
-31:09 - Biwas bhandari Can you show me where it is? I cannot find it.
-
-31:18 - Chinmay Pandya OK.
-
-31:46 - Jorge Lewis I've seen the link in the Google Meets. Like, I'll try. Can you not see it?
-
-32:01 - Biwas bhandari Well, I followed the link and I'm only seeing two graphs here.
-
-32:06 - Jorge Lewis Oh, scroll down.
-
-32:07 - Jorge Lewis First, two neural networks will be created.
-
-32:13 - Jorge Lewis Jinro was trying to flex, so he sent us that one.
-
-32:24 - Jorge Lewis You actually pronounced my name right.
-
-33:02 - Jorge Lewis So usually I don't have any trouble, but I don't know if it's I think it's the microphone maybe Yeah, my name is a bit unique so Typical indian names you might know like raj Yeah, alexa, vanid all that ass Malhar, Fancy.
-
-33:35 - Jorge Lewis But, Bablu, you're from Nepal, right? So how do you guys speak the same, both Hindi?
-
-33:42 - Biwas bhandari Well, I watch a lot more Hindi movies, so...
-
-33:45 - Jorge Lewis Ah, okay, okay.
-
-33:48 - Jorge Lewis Both Nepal and India are Hindi speaking countries.
-
-34:03 - Jorge Lewis Thanks to my fans, I learned also nice words.
-
-34:09 - Chinmay Pandya Yeah, I know which words you know.
-
-34:16 - Jorge Lewis The only word that I know that isn't like a bad word Yeah, it's like an exclamation like bro Yeah All right, let me know when you guys are done I oh I'm useful very nice making oh Okay, I don't want to stretch out this meeting too long because just because when people are in meetings too long, they start to get tired really easily. And when you get tired, you communicate terribly. So we can either take a break now and come back in like 10 minutes.
-
-34:53 - Jorge Lewis And then continue for like 30 minutes. I don't want to I don't want to stay on call too long, just throughout the whole day. So how about that? You guys can finish your graphs, work on them if they need working. We can come back in 10 minutes, take a look at all the graphs, and kind of merge them into one idea. And then from there, we can discuss the plan moving forward. Sound good?
-
-35:11 - Chinmay Pandya Yeah. All right.
-
-35:13 - Jorge Lewis Perfecto, guys. I'll see you guys soon.
-
-35:23 - Jorge Lewis They have a concert outside, I don't know. We're at the office. I don't mind. It's just annoying by calls. Alright, I'll see you guys soon.
-
-35:35 - Chinmay Pandya See you guys soon.
-
-35:36 - Jorge Lewis You're closing the meeting or it's still on?
-
-35:40 - Jorge Lewis It says it's ending in 25 minutes. I mean, I could keep it open. We'll see.
-
-35:45 - Jorge Lewis If we're taking a 10-minute break, can you just close it and then send a message or send a new meeting?
-
-35:50 - Biwas bhandari Yeah, we'll see.
-
-35:58 - Biwas bhandari Pleasant.
-
-45:18 - Chinmay Pandya you you

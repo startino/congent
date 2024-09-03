@@ -1,302 +1,0 @@
-Meet Meeting 
-Wed, Jun 19, 2024
-
-0:01 - Cuan Mulligan Hello?
-
-0:04 - Cuan Mulligan Can you hear me?
-
-0:11 - Cuan Mulligan Can't hear you.
-
-0:32 - Cuan Mulligan There he is.
-
-0:35 - Cuan Mulligan Can you hear me, JP?
-
-0:36 - Cuan Mulligan Yeah, I can hear you.
-
-0:37 - Cuan Mulligan How about now? I just can't help. Jorge, can we hear you?
-
-0:43 - Cuan Mulligan Can you hear me now?
-
-0:45 - Cuan Mulligan Yeah, but your audio is massively delayed to your video.
-
-0:48 - Jorge Lewis Let me refresh my page.
-
-0:56 - Jonathan Phillips I'm watching a bad lip-sync film.
-
-1:00 - Jonathan Phillips How about now?
-
-1:01 - Unidentified Speaker Perfect. Cool.
-
-1:07 - Cuan Mulligan So, yeah, I just felt it was useful if the three of us can get aligned on where we are with things. There's obviously, you know, there's stuff going on our side that you're not aware of There's stuff going on your side that we're not aware of And I just want to make sure that we're aligned and having more conversations.
-
-1:27 - Cuan Mulligan Obviously, you know, we're, by nature, impatient. We're super excited about what's coming, and we want to start getting using it and selling it, and also managing our own expectations about what this actually can really do versus what we think it can do. There was a question I had from Arif this morning, which was, you know, is there a way that we could prioritize IntelliAgent to rather than adapt in order to move IntelliAgent along further, quicker, because that probably is something that could start to sell sooner. But from my understanding, and this is more of a question is, they're sort of one of the same thing. And then if they are sort of one of the same thing, and the only thing that's different is the training, Should we just merge them into a single project rather than you having two different stakeholders? And actually what's variable is the training, not the, I mean, yeah, when we get into the LMS stuff, I don't know, actually, maybe your solution, JP, will need an LMS type thing as well.
-
-2:33 - Jonathan Phillips Yeah, I think we've got a blank canvas at the moment, and I think we can work out a way of working together would be cool. I mean, I don't know, technically, is it the same structure we're looking at?
-
-2:51 - Jorge Lewis So in terms of merging the projects, are we talking as in code-wise? So in terms of the code, it's probably better to keep them separate just because there is overlap. Can you guys hear me?
-
-3:05 - Jorge Lewis Yeah.
-
-3:05 - Unidentified Speaker Yeah.
-
-3:07 - Jorge Lewis Oh, Jonas is here.
-
-3:12 - Jorge Lewis Hey, Jonas. Hey, Jonas.
-
-3:14 - Cuan Mulligan Hey.
-
-3:17 - Cuan Mulligan Yeah, I mean, the way I sort of see this, I think there's a unified code base, but then there's an instance. So for example, if I do the GCSE instance, it's just a new instance of the code base that I would train to be a GCSE bot as opposed to a health coaching bot or JP.
-
-3:36 - Jorge Lewis Not really, there's a lot more moving parts than that. We could commoditize it, we could make it in a way so...
-
-3:47 - Cuan Mulligan It's amazing how much these programs stop at really, really brilliant words and sentences.
-
-3:58 - Cuan Mulligan Yeah, he's there.
-
-4:04 - Cuan Mulligan We've lost you.
-
-4:12 - Cuan Mulligan Are you both in the same country still, or are you different countries now?
-
-4:19 - Cuan Mulligan You've got no mutes, you've lost power.
-
-4:24 - Cuan Mulligan Hello?
-
-4:27 - Cuan Mulligan Yeah, you're back.
-
-4:31 - Jorge Lewis Someone's ringing. No clue who that was.
-
-4:35 - Jorge Lewis Also, yeah, so we had the ideas of, so line graph is made in a way to be graphical. So therefore, we could try, we had the idea of converting the code. Instead of coding a graph, you use a UI to make the graph. And that way you'd give non-technical people the ability to make their own graphs. You'd have to give them the ability to make new tools, connect the different edges, what scenarios should, or what conditions should the edges conform to, things like this. That's an idea we had. But it goes way beyond what we're trying to do with just either of these two projects.
-
-5:12 - Jorge Lewis Yeah, so just going back to the moving parts. So there's more moving parts than just saying, this is the system that we're doing. It's more than just an instance of the system, because the graphs are different.
-
-5:25 - Jorge Lewis The biggest difference is probably just how the graphs are made. JP's graph is going to be, I think, I think the design pattern is called collaborative. Did someone leave? Arif is here. Arif.
-
-5:44 - Jonas Lindberg Yeah.
-
-5:46 - Jonas Lindberg Can you guys hear me now? Yeah. Yes. Yeah. Okay. Nice.
-
-5:53 - Jorge Lewis Yeah. So JP's graph is a lot more collaborative. The agents are working together to solve a task. A dApps one, they're a lot more behind the scenes, just accomplishing their task and then moving on.
-
-6:11 - Jorge Lewis In terms of perception, we can prompt them to act like one or multiple people, but behind the scenes, they are also very different in terms of the code.
-
-6:19 - Cuan Mulligan Is there a way that we could make them the same so that we're building one solution to benefit us both as opposed to you guys building two parallel paths?
-
-6:28 - Jorge Lewis We'd like to think that we're not totally redoing everything, because a lot of the things we're able to reuse. So for example, of course, all the knowledge we learned, the experience, of course that. But then things like how we organize and format the entire project. So for example, we learned the best way to create a class of an agent is with these properties, these functions, and those things. So we're able to reuse a lot of those things. But in terms of the actual graphs themselves, so that's something that we don't want to try to merge. Trying to merge them would introduce a lot more problems, then it would probably solve, especially at this early in the stage.
-
-7:03 - Cuan Mulligan So can you just give us sort of like a 10,000 view of the roadmap of where we are in ADAPT? When do you fork that and start making progress? Because in my head, you've got a certain number of hours in your team. If you're working on both IntelliAgent and ADAPT, or just on one of them, You can't, we can't be making as much speed on both is if you're only working on what does my head can't compute that. So, like, are we at a point now where we've done enough of adapt that there's a fork to Intelli agent. What if we put everybody on a teleagent? Would that get us there quicker? How long should we sort of pause, adapt? So I just want to talk at this high level to see what's going, because I think one of the beliefs is that we want to unlock JP so he can get on and do his stuff. Yes, that means pausing, adapt, but that's something that we'll take into consideration.
-
-7:56 - Jorge Lewis Yep, so ADAPT, the first thing that I was working on ADAPT was the AI graph part, which is the same part that Story will have. So right now we're at a point in ADAPT where most of the things we're going to start working on are not going to be purely the AI aspect, but more of integrating ADAPT specific things. So things like allowing for the onboarding, very specific things to ADAPT.
-
-8:22 - Jorge Lewis Kevin, have you explained to JP or Arif how we're planning to move our entire code base, or our API?
-
-8:30 - Cuan Mulligan No, thank you.
-
-8:34 - Jorge Lewis So pretty much we wrote all the AI stuff in Python, and we're interacting with it through an API. The problem is that it's not the most efficient way to do it. What we're going to do now is switch it to, we're going to move all the code to our web project. That way, all the code is done through the web project. We don't have to interact with an API. It's all done with the web project and the database. There's only two moving parts. So we get rid of the entire thing of the API, which was causing a lot of issues. So now we're a lot more lean.
-
-9:06 - Jorge Lewis So with that said, after that's done, that'll be a good point to fork, adapt, and story. We've already started designing the the way we want to move forward with the first graph for story.
-
-9:20 - Jorge Lewis It's, I think, let me check.
-
-9:23 - Jorge Lewis Nope, that graph is not going to help. But it's the way story is going to look is each, so there's going to be one main leader of the team. And it's going to really mimic a workshop where if people, if someone has something to say, they can say it. That's the idea. Everyone's going to have an option to speak.
-
-9:44 - Jorge Lewis Anyways, I'm sorry, I'm diving in too deep. Let's stay here. At the 10,000 feet level. Yes, I think probably by next week we'll be looking to diverge from ADAPT's AI bits into Stories and Startups.
-
-10:01 - Cuan Mulligan So let's just pause here for a second. I think we're going into, I don't think we need to care right now about the technical implementation. Let's talk about this as a high-level feature set. So as ADAPT, there are main components around a coaching bot, onboarding, the LMS, stuff like that.
-
-10:24 - Cuan Mulligan The IntelliAgent, which is the new name for Story, is a workshop capability solution. So you have multiple workshops. I don't know, JP, whether you've done any sort of high-level UX flow or high-level feature set because that's where I'm concerned is given the...
-
-10:47 - Cuan Mulligan And listen, there's always going to be gaps and bumps in any software delivery project. This is not a criticism. It's just an observation. We've spent a huge amount of time getting aligned on Adapt, and there's still been gaps, right? You know, they're unavoidable. I'm not, I don't know whether the same level of details gone into IntelliAgent and therefore you've got JP as your customer who's massively excited and dreaming about everything that's possible and what he's going to get. You guys are busy on Adapt and saying, yeah, yeah, you can have that. I don't know if we're all speaking on the same language or the same level of granularity and being very specific. You are getting this, you will not get that. So JP, I don't know whether you've even got an entire UX or a page flow or anything like that to say, OK, so this is the complexity. We're talking just about really low-level role capability, as in, I want to be able to run a workshop. Actually, running a workshop inside lots of other stuff suddenly could introduce a whole level of complexity. Is this an iPhone app? Is this not an app? Is this just websites? Is there a mobile companion? That whole side of it.
-
-11:55 - Jonathan Phillips I think we've moved on really from where we started. So originally there was a proof of concept which we were looking at the viability of several bots talking to each other and working to a solution. I think that was the original sort of proof of concept. I think even since we came up with that idea We've seen how the industry's moved on. So we know that other people are doing this already, technically, and they're not necessarily commercialized it just yet, but they're talking about how they're going to commercialize it and ready to go with it. So I think the proof of concept is, is not necessarily anymore. Will it work? I think it's, how will it work for us? Because I think the industry saying it will work without a doubt, and you can commercialize it. So the way that I see my platform working is just very much training multiple bots all with different areas of expertise to take the user through a journey, a framework that we devise from the beginning to the end. So they have all intelligence trained into them to ask the user the right questions at the beginning and then to take them on the journey little by little and keeping them on the path so that they end up with a complete and holistic idea of what they want to do with their business. So I think that the training of the bots is key. I don't think we need to code the framework itself because that's inherent within the bots and their behavior.
-
-13:32 - Cuan Mulligan What's the actual interface of that? So you've got the capability, but actually, yeah, and this could just be my ignorance. So if you feel you've got it, I'm happy to sort of leave it and be satisfied later. But I'm just not clear of what that actually looks like because Does that make sense? There's a raw capability of bots talking to bots and doing something. But what does the actual customer interact with? The screens, the flow, the buttons? Because some of those things can suddenly start having a material impact on effort. Even though it's just like two words out of our mouth, that could be two weeks worth of work.
-
-14:09 - Jonathan Phillips I mean, ultimately, at its raw level, you just need an interface, a text interface, like you have now with ChatGPT, where you start talking and asking questions. The facilitator bot will start with a conversation and then bring in the other bots when necessary.
-
-14:26 - Cuan Mulligan So this is just chat, there is no web interface at all?
-
-14:31 - Jonathan Phillips Well, with the web interface, you can make it as pretty, as functional as you want, but at a raw level, functionality wise, you just need to be able to interact with the bots. So that's where we need to start with as far as this is a MVP, but obviously we we can build up so many other interactions with it, for example, APIs into other tools, and then you start to complicate it. But in its raw sense, where we want to get to first of all, it's just basically integration with bots, having conversations and getting to a conclusion.
-
-15:09 - Cuan Mulligan So, I mean, in order to do that, you're going to have to need quite an extensive admin configuration console to Well, two levels of admin. One is the training experience so that it's doing what you want it to do. But then there's the instance that someone might use version as well. And I think just having a chat thing, like how does a story framework come to life? Or is that just something in the background? There's all sorts of the productization of this to a usable interface, like maybe chat. Let's say we did this as an example, and we just spent some just doing some mock-ups. In my head, and again, I might be completely unfounded, I think this gets confusing if it's just a chat. It feels like, certainly the things I've done with you in the past, it feels like there's visual elements, there's assets that get produced, and just having a stream of text may not be the best interface. I don't know.
-
-16:17 - Jonathan Phillips No, as time goes on, we can produce areas where reports are created on the fly, individual marketing reports, et cetera. But I think fundamentally, we are working towards a system that is not too dissimilar to what we have now interface wise because we don't want to start to be too adventurous because we won't get the first product to market and I do think we need to get something and then start to build on phase two as soon as we have phase one.
-
-16:49 - Jonathan Phillips I think purely on, I mean, if we had unlimited resources, we could make it so whiz bang, it will be amazing. But I think we need to have something that works, that's functional, that's commercial. And then we build on that with phase two.
-
-17:00 - Arif Harbott Yeah, I agree. I think we need, we've got such a great proposition. We've got great sales materials, we've done a product. So I think the sooner, even if it's not where we want it to be, it's probably gonna be orders of magnitude better than what people have today. And that the expense and difficulty of running a marketing team at such a low price, this is gonna be game-changing. And then we make it even better over time. So I think it's great to hold those two divisions in our head, right? What do we want it to be in X period of time, but what are we good enough to launch with? But we have to document this, right? I mean, this isn't, we're doing this live in front of Jorge and Jonas. We need this kind of document. This is what our go-live plan is. This is what's good enough. Otherwise we'll be here in six months, right?
-
-17:44 - Jorge Lewis Yeah. So OK, so I read through the document last night, JP, the one where you went over post POC items and then things like the competition. Competition looks quite good, by the way. I haven't tested any of the things, but like their landing pages are quite nice.
-
-18:02 - Jorge Lewis But just now you mentioned that you think you probably want to start. You already know it's proven and you want to go ahead and building something that people will buy rather than something to show off to investors. Is that correct?
-
-18:17 - Jonathan Phillips Well, I mean, ultimately we need something to show anybody we want to talk to, whether it's partners, investors, uh, potential customers. So, so we, we do need that. So any sort of iterative version of the basics, you know, that's great. It's better than nothing. Um, but we have to move to something obviously as soon as possible. And that's, and that's what every client wants. They want something as soon as possible. So that's a given and it's, um, I think we've discussed many times internally, externally, that everyone's on a race at the moment with the whole of trying to launch and categorize AI and become leaders in various niches. It's a gold rush. So what we need to do is just make sure we're part of that and we're not sort of lagging behind a little bit Which is not on you guys because you're just new to the party So it's not like we're saying is anything wrong, but we just need to make sure that we are in a hurry so to speak rather than a rush for me the POC should be something we can demo to partners investors interested parties and
-
-19:23 - Arif Harbott knowing full well that it's not good enough just to hand over to them to use, but it's good enough for them to go, wow, okay, great. I've read your sales material. You've actually got something. And then for me, the phase one is something we could actually sell. And that's for me how I'm thinking about it. But I mean, I haven't discussed that with JP or Kuhn, but that was what was in my head.
-
-19:42 - Jonathan Phillips The POC is a demo pretty much. It's just to show people the concept. And it won't be a case of, It won't be of a caliber to be interrogated. It will just be of a caliber to show, and I don't like using the term smoke and mirrors, but hopefully it will give them the vision of what it can be in not too long a future.
-
-20:09 - Cuan Mulligan I think this is maybe something we need to take away and come back. I don't want to take everyone's time off. Like, are we talking about on phase one that this is like a chat GPT interface, so you have a simple prompt, but you also then have all of your chat history down the side? Like, or is that the framework, the story, the sequence? Like, I think it is just a chat, but they, like, they're, unless you know what's happening, I think people just left with a blank box with just nothing else in it. They won't know what to do.
-
-20:42 - Jonathan Phillips No, I don't think interface wise it would necessarily just be the chat window, but that will dominate and then obviously it will generate reports on the fly Just as chat GPT would if you asked it to generate a report,
-
-20:54 - Cuan Mulligan but this will be higher caliber built on a specific framework Okay, maybe we can take that offline and I can just scratch that itch with you separately sure yeah And so going back to sort of the question in terms of if you're working on two projects, you're definitely not going as fast for each project if you were working on one of them. You're not a massively big team.
-
-21:20 - Cuan Mulligan What is the, like, based on what you know today of doing, of JPs, where, working as you are today, making progress on both fronts, where do you think JP would have something to demo realistically? And if we stopped ADAPT and you did everything on that, where do you think it would be?
-
-21:43 - Jorge Lewis For the demo, as in what we discussed previously, which is the workshop for understanding your why, right?
-
-21:52 - Jorge Lewis Yeah. Yeah, we were thinking end of next week, maybe early week after that, working on both projects. If we were to stop working on Adapt, it would free up Jonas's hands a lot. We'd probably be able to get it done, I'd say, The thing is with small POCs like this, having too many people on the same project, the biggest benefit then is just two minds on two minds. In terms of code and outputs, not much, but the benefit we get is having two minds on it, we get to go through problems faster, things like this. So I would say with something as small as this, I'd say maybe a week compared to two weeks.
-
-22:38 - Cuan Mulligan I mean, could you get, I mean, if you can get adapt to the point where, which seems like you're very close to the point where the admin and the chat can interplay with each other, we could easily have weeks of testing. So you guys at that point could pivot completely on to IntelliAgent to get that version done and we're busy testing. Would that be an option?
-
-23:05 - Jorge Lewis From what I think, yeah. But I don't know exactly how much you can test with the current version of Adapt. I would like to think that you can test enough to the point over maybe a week. And then from there, we can reassess where the direction we should go into. But yeah, that's what I think.
-
-23:24 - Cuan Mulligan Yeah, I think if we've got a chat and then the admin is list and I can go in and change the admin screens, which influences the chat experience, then I think that's, there's a huge amount of us just learning like the CoStar framework and how to write proper prompts and stuff like that before we start training the bot. That's going to take time, right? So that's downtime for you that you got, but you could be fully on IntelliAgent. So where do you, when do you think you could get adapt to that level? Feels like we're quite close to it, but there's just a little bit of disconnect between the chat and admin at the moment. Like, is that an end-of-day-to-day thing, and then you pivot on to IntelliAgent, or...?
-
-24:02 - Jorge Lewis So I texted the plan earlier today to QM, but let me just repeat it. So we're pivoting from Python to TypeScript. TypeScript is where our entire web project is held. That transition might take... Two to four days. During that transition, we'll be just moving the code from Python to TypeScript. The side effects of that are we'll no longer have the API, which means we'll be able to move so much quicker. I'm very familiar with both TypeScript and Python, meaning I'll be able to work very closely with the web project and the AI aspect, meaning me and Jonas won't have to be like, hey, bro, is this done? What's wrong with this? It'll just be me being, oh, that's not working. Let me go fix it. So things will be able to move a lot faster. So starting today was, oh, disconnected again.
-
-24:55 - Cuan Mulligan And just so that we're clear, we had that conversation, I can't remember where we ended up. We started with this being iOS applications and then you were requesting or suggesting that we move that to progressive web apps. But we've gone away from, we're now going back to iOS apps and Android apps.
-
-25:16 - Jonas Lindberg Yeah, I can comment on that. As far as I know, the solution that you suggested of just placing it in an iframe, I tested just taking that to the absolute extreme and making it as a PWA, then placing that iframe of the PWA inside an application which can be turned into a native application. As far as I know, that just works. Of course, that can't be used offline, but none of these apps could be used offline either way.
-
-25:47 - Jonas Lindberg OK, cool.
-
-25:50 - Unidentified Speaker Yeah.
-
-25:51 - Jonas Lindberg The one issue with that is Apple, historically, has had a lot of issues with apps that are literally a copy of a website. They tend to reject those apps from the App Store as installable apps.
-
-26:07 - Jonas Lindberg That's something you could also look into if they would accept a native application that's just an iframe of a website as something that you can place on the app store. I think they'd be more willing to do it if you didn't have the website as a public website or something. But yeah, that's the biggest area where I'm concerned.
-
-26:27 - Cuan Mulligan I mean there's no way for us to find that out until you actually push it into Apple because they have a very pure process. Now the reason why we wanted to keep it as an iOS app is because we want to have access to the native applications like health and other metrics. So there's no reason why that app... I thought the chat element is the only bit of the iframe, rather than the entire LMS. So the LMS could be an iOS app, and just the chat element is an iframe. So that is actually different from the website. And I mean, similar functionality, but it would be app with iframe, as opposed to just the entire thing in an iframe.
-
-27:09 - Jonas Lindberg Yeah, I think a better like method to achieve that same goal would be to have the native integrations in the shell application instead call the API of the PWA because built into Svelte applications is always an API that's generated. We can call endpoints on that API with data from health apps and such.
-
-27:32 - Cuan Mulligan I mean, it's obviously a huge concern, because we have no product of this on an iOS app, because it impacts notifications and integrations and stuff like that. So this feels like something we need to validate sooner than later. And I don't know whether we can validate it without actually having an app.
-
-27:50 - Cuan Mulligan Because this feels like a huge amount of rework if you go down the PWA route, and then you have to roll back.
-
-28:00 - Cuan Mulligan Which is obviously super concerning.
-
-28:05 - Cuan Mulligan Yeah. We can take that offline.
-
-28:10 - Arif Harbott Because IntelliAgent is just web-based, am I correct?
-
-28:17 - Jonathan Phillips Yeah. I mean, to start with, obviously that's, you don't want to sort of cook so many pies. You just need to do one thing at the moment and get that done.
-
-28:27 - Jorge Lewis Yeah. Okay. So I was, where was I?
-
-28:32 - Jorge Lewis Oh yeah, so we were migrating the code. The idea was that by tomorrow, we could have something to hand off to Cuan, so he could start playing around with it. And then from the day after that, so I think Thursday, so from Friday, Saturday, Sunday, Monday, we work on migrating the code. And then from Tuesday, we could start again either on AdapterStory or Intelligent.
-
-29:01 - Cuan Mulligan Okay.
-
-29:02 - Cuan Mulligan Is that okay for you, JP, Arif?
-
-29:05 - Unidentified Speaker Yeah.
-
-29:06 - Jorge Lewis But yeah, it does sound like we need to make sure we're having a lot more calls because it sounds like things are changing a lot. So whenever you guys are able to get around anything new, just hit me up and we can have another chat.
-
-29:19 - Arif Harbott Should we create a live document, Kieran, that everyone has access to, that kind of has a better view of our requirements? Is that something we're going to do?
-
-29:28 - Cuan Mulligan Are you talking, well, for ADAPT, I have that. I have a Google Doc that I update and basically embellish whenever there's a sort of a question or clarification needed. And that's sort of what I was going to suggest that myself and JP worked on for IntelliAgent today. So that becomes basically like a feature roadmap. And then at least we're aligned at the major elements of the deliverable, the aspiration, put a little bit more meat on it. So at least then, you know, if you wanted to use agile terminology, you at least have all of the epics and the high level features identified and what the relationship is. So you know, okay, We're working on this epic and this feature today, because if we get aligned on that handshake, I think that becomes hugely useful in terms of keeping everybody aligned, rather than you having to give us laborious half-hour, 45-minute updates and we're up to speed. So I'm just trying to figure out how do we have a handshake that we're truly aligned on.
-
-30:29 - Cuan Mulligan Let me run a session with JP after I grab some food in the next hour or so, and we can flesh this out and see where we go.
-
-30:38 - Jorge Lewis Maybe I could even join along. I think that might be useful. What do you guys think?
-
-30:44 - Cuan Mulligan Happy to. Don't want to take you away.
-
-30:48 - Jonathan Phillips In the first instance, I want to at least get a one-page A4 of what I think we're going to do, rather than do it live, and then we can work from that, maybe as an agenda.
-
-30:59 - Unidentified Speaker Okay.
-
-31:00 - Jorge Lewis Yeah, that sounds good.
-
-31:03 - Jorge Lewis Yeah, my biggest concern just as of right now, I know you guys are going to sort it out. It's just that we're going from POC to MVP, really. MVP is just something that people will pay for. POC is something you just show off. So that's just my biggest concern. So keep me updated.
-
-31:20 - Cuan Mulligan Also, that changes the budget that you guys agreed on, because the scope boundary has now changed.
-
-31:26 - Jorge Lewis It changes everything. Not only the obvious things like the budget and the scope, but also just the way we code things are a bit different.
-
-31:34 - Jorge Lewis Yeah, okay.
-
-31:36 - Jonas Lindberg Can I mention one thing on that? From how I see it, we could make the POC first as the agreed upon specs from before, and that'll give us the framework to continue to build on to achieve the MVP, which will afterwards in an extended scope and new contracts. Instead of trying to extend the current contract, I think that'll allow us to move a bit faster and get a product to you guys or something to you guys that you can demo with without it having to have the capabilities of being purchased with like tons of users and all that.
-
-32:14 - Cuan Mulligan Yeah. I mean, JB, do you, for me, if we ran a demo where someone could experience a workshop and the bots were just fricking awesome, rather than the shop windows we see at the moment that are terribly disappointing, I'm happy
-
-32:29 - Jonathan Phillips with us continuing the way we're going. Proof of concept. I can go to people and demo to them and talk to them about it. That's what I need at the moment. And then from then we'll say, yep, that worked well. Let's get an MVP, specced out and done properly.
-
-32:43 - Unidentified Speaker That's the thing. We should stick to where we are at the moment.
-
-32:47 - Jorge Lewis Something I might want to suggest is a lot of times for very simple POCs and demos is they're done artificially. They're made like they're just videos. Is that something that's plausible? Because if the concept is proven in terms of technology, if it's proven already, then what you need is something to show off what it can do, not like it can do it.
-
-33:13 - Jorge Lewis the fifth In terms of your guys' planning, could you provide us with a couple example workshops? Cuan has given me some resources to watch through for his project, but what about for stories? Or intelligence, sorry. Is there any workshops we can take a look at? Some live ones?
-
-33:56 - Jonathan Phillips Yeah, I mean, obviously we haven't got to this stage yet, but I'll spec out to you what my thought process is as far as What's the technology is going to deliver? So I think that's the point at the moment that we need to align on Yep, perfect.
-
-34:10 - Cuan Mulligan Just like just so Jamie just so you know what that looked like, So as part of adapt there's a Framework called immunity to change which is a coaching framework to help people understand why they have unconscious behaviors for doing certain shit We had a girlfriend of Sonia's she did the course of this for an hour. She took us through it and I It was an interactive session rather than a theoretical concept of what we would like it to be. And then that was just recorded and we gave that to the guys. So it allows them to experience what an actual workshop is and also provides content potentially to train the bot at some point. Like there's an option is that whatever workshop we sort of go for is that you could actually run that with Sonya or myself as an example, we just record it and then that becomes the, because it's like those things like actually doing a workshop is a very organic, it goes off in all sorts of weird and wonderful ways. And I think that's very difficult to try and prescribe in a thematic without it being a real thing.
-
-35:14 - Jorge Lewis I think a bubble that I need to burst is that the agents aren't flexible. We should be able to know where we want to guide them. We can give them, of course, we can tell them this is the workshop, try to follow these guidelines. We can, of course, tell them that. But if we ourselves don't know what exactly it looks like with a couple of examples, it's really hard for us to tell what the agents to follow.
-
-35:39 - Jorge Lewis So maybe if you could just have a couple, um, or just, yeah, maybe one or two examples of a full workshop that you can imagine the software doing the, to understand your why that one, it can either be a live one with you and other people, or another format could just be you imagining the, uh, the software doing the workshop and you imitate all of the agents you imagine in it.
-
-36:06 - Jonas Lindberg If I could put it in one light, imagine if you guys were painters and you wanted us to paint something and you just described what a painting is without ever giving an example of a painting, it would be really hard to make a new painting. So we need a concrete example of what a full workshop looks like so we can have those aha moments and connect it to what you guys have described.
-
-36:32 - Arif Harbott Yeah, sounds like we've got some words too.
-
-36:33 - Arif Harbott Alright, leave that with us.
-
-36:37 - Cuan Mulligan JP, does that make sense? I just want to make sure that...
-
-36:39 - Jonathan Phillips Yeah, yeah, I think we need to have a chat about a few things, but yeah, I think we're in the right direction at the moment. I think we keep on what we're doing, but we need some more regular updates and a meeting like this is perfect.
-
-36:50 - Jorge Lewis Last thing, for both Adept and Intelligent, how's the investments looking, like the rounds and all that? What's been...
-
-37:02 - Jorge Lewis what's been set in stone already or what's happened? Do you guys have investors that are looking to invest, that are waiting for something to show or how is this?
-
-37:14 - Jonathan Phillips No, nothing's in stone at the moment.
-
-37:18 - Unidentified Speaker Yeah.
-
-37:19 - Arif Harbott A lot of it depends on how good the POC is, right? I mean, it depends on how good the output is, because I think there are a lot of promises at the moment in the industry. We've got to show that we can actually build something and deliver something.
-
-37:35 - Cuan Mulligan If you look at the health space, we've spoken to a couple of investors and a lot of them are like, they don't understand it, which is possibly our pitch on it, but they're like going, well, Apple does loads of stuff on health, you know, the limbo levels, they already have AI health coaches. So at a superficial word level, we're no different to anybody like, you know, but what we need to be able to do is like, okay, we'll go have a session. The experience of it, that's why I don't think a video works for IntelliAgent. We want the pitch to be, go do that, and have the bot guide them through that, and people go, oh, fucking hell, that was different. Didn't expect that. That's the impact that we want to have. If you have that, then that's the game changer, because I spam the shit out of JP on a daily basis going, oh, look at this website, look at this website, look at this website. The one you sent last week, Jorge, around the sort of the Slack destroyer automatic project management tool.
-
-38:35 - Jonathan Phillips Oh, he's done enough.
-
-38:45 - Cuan Mulligan Jorge, you sent one last week around the Slack killer, the team.
-
-38:51 - Cuan Mulligan The what killer? Slack killer.
-
-38:53 - Cuan Mulligan It was like an auto AI for teams and it was amazing. And can you remember the name of that JP? You sort of tore it apart.
-
-39:02 - Jonathan Phillips I don't know, I can't remember. Most of them are smoke and mirrors. They clutter to deceive at the moment. And the majority of them are GPT with wrappers. They don't really offer anything special, but there's some really good marketeers out there making them look really, really nice. But we're going to get to a point where there's going to be an explosion. There's going to be so many of them, so much noise. You've got to do something a little different.
-
-39:28 - Cuan Mulligan And sorry, yeah, so that company spent 90 grand, because the company who did it, they spent 90 grand on the homepage and the marketing website. And it looks like going, fuck me, it looks amazing. If it does that, Slack is dead. And then JP registered for the website. And the marketing site is this really futuristic, black, loads of colors, amazing. And then the website is this standard side nav, horrible gray, the same text with no features. Like it was completely false advertising. And I'm like, what a waste of 90 grand. I actually think the days of the amazing shop window with no substance behind it is just going to piss. You're going to make some business undoubtedly, but it's just horseshit. We're trying to go, we don't really fucking care about the shop window because we want the substance to be real. So people are going to say, we have that. So I think we've got to have that experience where people go, okay, this is different. Yeah. Yeah.
-
-40:31 - Jonas Lindberg Once the substance is there, get a beautiful mirror or a window. Sorry.
-
-40:36 - Cuan Mulligan Yeah, exactly. There's loads of complex, we know from a health point of view, the number one issue that people have is tracking calories. They fucking hate it. And it's just something they just don't want to do. There is, you can, I can go to chat GPT now and say, I just had some chicken and broccoli. What's my calories? And they'll give me an answer. It was like, what fucking size chicken did I have? Like if I had chicken breasts or one, it's a material difference. They're now using, take a photograph of your food and it will give you one. But I'm like, there's also those apps now where you can take a photograph of yourself or signing in your boxer shorts and it'll say how much body fat you have. I'm like, no, you're not. I mean, you're giving me an answer, but it's not accurate. It's just not accurate at all, but I don't, I mean, that's just sort of trivial sort of stuff. I think we're holding ourselves to a higher standard in terms of the service that we're going to give. And if it's not something that's good as close to what we would do, then we're not finished working on it.
-
-41:35 - Jorge Lewis Yeah, it's a topic that I'm really ambitious on. It's getting language models to actually do the quality of stuff that you want it to, like what everyone claims it to do. Because I think it's possible, I really do. But it's just I don't know if they have bad and I like I don't think they have bad engineers Maybe they're just putting the money in the wrong places.
-
-41:53 - Cuan Mulligan I don't know but I was speaking I was at a AI for cybersecurity event last night and Interestingly one of the things I learned is that you only need nine seconds of audio from someone's voice now in order to completely smooth them and the amount of like they were saying like the amount of times that banks have been called up and they've shifted they had some payment details but because we've used to use biometrics or voice for biometrics as a security barrier so it's completely pointless now it's dead because you can just duplicate people and one of the issues that they have with with AI Generative AI, by its nature, has no auditable trail as to how it made a decision. So if you're making a financial recommendation through AI, like if a auditor or a hedge fund planner says, I think we're going to, you should buy this or do that. There's a reason behind their assessment. When you ask generative AI, an answer for something, it doesn't have any evidence as to how it got there. And it won't get there at the same time you ask it the same question again. And that's amazing, right? Because that allows it to play hide and seek and come up with weird and wonderful strategies because it's constantly adapting. So that's brilliant. But it has no, I think what they call explainability. It can't explain how it gets to its answer. And so I think we've got to be careful about trying to cage the tiger and make it explainable. Without destroying its very essence.
-
-43:24 - Cuan Mulligan How long ago was this talk?
-
-43:26 - Jorge Lewis Last night.
-
-43:28 - Jorge Lewis Oh, was the person holding it? Well, I mean, it's just because there are a lot of ways for AI models to explain themselves. There's different techniques we can use. Inherently, they suck at it, but we can actually go backwards oftentimes, or sometimes we can go forward through a step-by-step process. Okay.
-
-43:49 - Cuan Mulligan Yeah, well, this was a censure, so they know anything.
-
-43:54 - Jonas Lindberg I think usually, if you just ask an LLM for an answer, it'll just use its predictive text modeling to come up with something plausible. But what you can do is model it with a prompt or with techniques that makes it complete the task for a step-by-step process. So if you just ask it, give me a recommendation for a stock, it'll just come up with something. But if you give it proper instructions of, doing it in a step-by-step process, then it will do it in that step-by-step process, at which point it will have already explained itself once it picks the stock, for example. But if you just ask it for an answer, it's just like a predictive text model. It just predicts what's the next likeliest word. And that will just be the answer to how it came to the question is that was the likeliest word to come next.
-
-44:45 - Cuan Mulligan Makes sense.
-
-44:48 - Jorge Lewis I need to grab some food.
-
-44:50 - Arif Harbott I've got to go.
-
-44:52 - Arif Harbott I've got a meeting in like 20 minutes. I need to grab some food.
-
-44:55 - Arif Harbott Cheers, folks. Cheers.
