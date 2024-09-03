@@ -4,17 +4,22 @@ version = "0.1.0"
 description = "agentic content generation from long-form transcripts"
 authors = ["Jorge Lewis <31695089+antopiahk@users.noreply.github.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 langchain = "^0.2.14"
 fastapi = "^0.112.2"
 langchain-openai = "^0.1.23"
 langchain-core = "^0.2.36"
-langchain-community = "^0.2.14"
-hypercorn = "^0.17.3"
+langchain-community = "^0.2.15"
 python-dotenv = "^1.0.1"
-
+uvicorn = "^0.30.6"
+langgraph = "^0.2.16"
+supabase = "^2.7.4"
+pandas = "^2.2.2"
+graphrag = "^0.3.2"
+tenacity = "^8.1.0"
 
 [build-system]
 requires = ["poetry-core"]

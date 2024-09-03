@@ -48,9 +48,12 @@ async def global_asearch(query: str)-> GlobalSearchResult:
 
     token_encoder = tiktoken.get_encoding("cl100k_base")
     
-    
+    with open(destination, 'wb+') as f:
+        entity_file = supabase.storage.from_('bucket_name').download(source)
+        f.write(res)
 
-    entity_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['entity_table']}.parquet")
+
+    entity_df = pd.read_parquet(entity_file)
     report_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['community_report_table']}.parquet")
     entity_embedding_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['entity_embedding_table']}.parquet")
 
