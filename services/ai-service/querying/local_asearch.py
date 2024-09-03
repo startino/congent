@@ -33,6 +33,7 @@ from graphrag.vector_stores.lancedb import LanceDBVectorStore
 
 from models.graphrag_search import LocalSearchResult
 from .knowledge_graph_loader import KnowledgeGraphLoader
+from .llm_helpers import east_us_llm
 
 dotenv.load_dotenv()
 
@@ -87,15 +88,6 @@ async def local_asearch(query: str, project_name: str) -> LocalSearchResult:
 
     llm_params = local_search_config["llm_params"]
 
-    llm = ChatOpenAI(
-        api_key=SWEDEN_AZURE_API_KEY,
-        model="gpt-4o",
-        api_base="https://startino.openai.azure.com/",
-        api_version="2023-03-15-preview",
-        api_type=OpenaiApiType.AzureOpenAI,  # OpenaiApiType.OpenAI or OpenaiApiType.AzureOpenAI
-        max_retries=20,
-    )
-
     token_encoder = tiktoken.get_encoding("cl100k_base")
 
     text_embedder = OpenAIEmbedding(
@@ -119,7 +111,7 @@ async def local_asearch(query: str, project_name: str) -> LocalSearchResult:
     )
 
     search_engine = LocalSearch(
-        llm=llm,
+        llm=east_us_llm,
         context_builder=context_builder,
         token_encoder=token_encoder,
         llm_params=llm_params,

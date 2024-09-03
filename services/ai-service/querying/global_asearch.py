@@ -17,13 +17,9 @@ import yaml
 
 from models.graphrag_search import GlobalSearchResult
 from .knowledge_graph_loader import KnowledgeGraphLoader
+from .llm_helpers import east_us_llm
 
 from supabase import create_client, Client
-
-dotenv.load_dotenv()
-
-SWEDEN_AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
-EASTUS_AZURE_API_KEY = os.getenv("EASTUS_AZURE_API_KEY")
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY")
@@ -51,15 +47,6 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
     
     root_config = config["root"]
     global_search_config = config["global_search"]
-        
-    llm = ChatOpenAI(
-        api_key=EASTUS_AZURE_API_KEY,
-        model="gpt-4o",
-        api_base="https://startino-eastus.openai.azure.com/",
-        api_version="2023-03-15-preview",
-        api_type=OpenaiApiType.AzureOpenAI,  # OpenaiApiType.OpenAI or OpenaiApiType.AzureOpenAI
-        max_retries=20,
-    )
 
     token_encoder = tiktoken.get_encoding("cl100k_base")
     
@@ -84,7 +71,7 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
     reduce_llm_params = global_search_config["reduce_llm_params"]
 
     search_engine = GlobalSearch(
-        llm=llm,
+        llm=east_us_llm,
         context_builder=context_builder,
         token_encoder=token_encoder,
         max_data_tokens=12_000,  # change this based on the token limit you have on your model (if you are using a model with 8k limit, a good setting could be 5000)
