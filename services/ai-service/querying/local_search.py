@@ -5,6 +5,8 @@ import dotenv
 import pandas as pd
 import tiktoken
 
+from supabase import create_client, Client
+
 from graphrag.query.context_builder.entity_extraction import EntityVectorStoreKey
 from graphrag.query.indexer_adapters import (
     read_indexer_covariates,
@@ -30,14 +32,24 @@ from models.graphrag_search import LocalSearchResult
 
 dotenv.load_dotenv()
 
-AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
+SWEDEN_AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-async def local_asearch(query: str) -> LocalSearchResult:
+url = os.getenv("SUPABASE_URL")
+key = os.getenv("SUPABASE_ANON_KEY")
+
+supabase: Client = create_client(url, key)
+
+async def local_asearch(query: str, project_name: str) -> LocalSearchResult:
     """
     Search a knowlege graph for a given query using the local search technique.
     The configuration for the local search is loaded from a local config file
     and can be modified there.
+    
+    Args:
+        query (str): The query to search the graph. Should provide as much
+        context as possible.
+        project_name (str): The name of the project's storage bucket on Supabase.
     """
     current_dir = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(current_dir, "config.yml")
@@ -48,9 +60,11 @@ async def local_asearch(query: str) -> LocalSearchResult:
     root_config = config["root"]
     local_search_config = config["local_search"]
 
-    # Read nodes table to get community and degree data
-    entity_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['entity_table']}.parquet")
-    entity_embedding_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['entity_embedding_table']}.parquet")
+    entity_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_nodes.parquet") # might be wrong path?
+    entity_df = pd.read_parquet(entity_file)
+    
+    entity_embedding_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_entities.parquet")
+    entity_embedding_df = pd.read_parquet(entity_embedding_file)
 
     entities = read_indexer_entities(entity_df, entity_embedding_df, root_config['community_level'])
 
@@ -64,19 +78,23 @@ async def local_asearch(query: str) -> LocalSearchResult:
         entities=entities, vectorstore=description_embedding_store
     )
 
-    relationship_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['relationship_table']}.parquet")
+    
+    relationship_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_relationships.parquet")
+    relationship_df = pd.read_parquet(relationship_file)
     relationships = read_indexer_relationships(relationship_df)
 
-    report_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['community_report_table']}.parquet")
+    reports_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_community_reports.parquet")
+    report_df = pd.read_parquet(reports_file)
     reports = read_indexer_reports(report_df, entity_df, root_config['community_level'])
 
-    text_unit_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['text_unit_table']}.parquet")
+    text_units_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_text_units.parquet")
+    text_unit_df = pd.read_parquet(text_units_file)
     text_units = read_indexer_text_units(text_unit_df)
 
     llm_params = local_search_config["llm_params"]
 
     llm = ChatOpenAI(
-        api_key=AZURE_API_KEY,
+        api_key=SWEDEN_AZURE_API_KEY,
         model="gpt-4o",
         api_base="https://startino.openai.azure.com/",
         api_version="2023-03-15-preview",

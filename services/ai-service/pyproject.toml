@@ -8,7 +8,6 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
-langchain = "^0.2.14"
 fastapi = "^0.112.2"
 langchain = "0.2.15"
 langgraph-checkpoint = "1.0.8"

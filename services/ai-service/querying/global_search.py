@@ -17,15 +17,27 @@ import yaml
 
 from models.graphrag_search import GlobalSearchResult
 
+from supabase import create_client, Client
+
 dotenv.load_dotenv()
 
-api_key = os.getenv("SWEDEN_AZURE_API_KEY")
+SWEDEN_AZURE_API_KEY = os.getenv("SWEDEN_AZURE_API_KEY")
+url = os.getenv("SUPABASE_URL")
+key = os.getenv("SUPABASE_ANON_KEY")
 
-async def global_asearch(query: str)-> GlobalSearchResult:
+supabase: Client = create_client(url, key)
+
+
+async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
     """
     Search a knowlege graph for a given query using the global search technique.
     The configuration for the local search is loaded from a local config file
     and can be modified there.
+    
+    Args:
+        query (str): The query to search the graph. Should provide as much
+        context as possible.
+        project_name (str): The name of the project's storage bucket on Supabase.
     """
     
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -38,7 +50,7 @@ async def global_asearch(query: str)-> GlobalSearchResult:
     global_search_config = config["global_search"]
         
     llm = ChatOpenAI(
-        api_key=api_key,
+        api_key=SWEDEN_AZURE_API_KEY,
         model="gpt-4o",
         api_base="https://startino.openai.azure.com/",
         api_version="2023-03-15-preview",
@@ -48,14 +60,13 @@ async def global_asearch(query: str)-> GlobalSearchResult:
 
     token_encoder = tiktoken.get_encoding("cl100k_base")
     
-    with open(destination, 'wb+') as f:
-        entity_file = supabase.storage.from_('bucket_name').download(source)
-        f.write(res)
-
-
+    entity_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_nodes.parquet") # might be wrong path?
+    report_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_community_reports.parquet") 
+    entity_embedding_df = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_entities.parquet")
+    
     entity_df = pd.read_parquet(entity_file)
-    report_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['community_report_table']}.parquet")
-    entity_embedding_df = pd.read_parquet(f"{root_config['input_dir']}/{root_config['entity_embedding_table']}.parquet")
+    report_df = pd.read_parquet(report_file)
+    entity_embedding_df = pd.read_parquet(entity_embedding_df)
 
     reports = read_indexer_reports(report_df, entity_df, root_config['community_level'])
     entities = read_indexer_entities(entity_df, entity_embedding_df, root_config['community_level'])
