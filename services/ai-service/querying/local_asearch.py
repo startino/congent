@@ -32,7 +32,7 @@ from graphrag.query.structured_search.local_search.search import LocalSearch
 from graphrag.vector_stores.lancedb import LanceDBVectorStore
 
 from models.graphrag_search import LocalSearchResult
-from knowledge_graph_loader import KnowledgeGraphLoader
+from .knowledge_graph_loader import KnowledgeGraphLoader
 
 dotenv.load_dotenv()
 

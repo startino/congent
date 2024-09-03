@@ -16,6 +16,7 @@ from graphrag.query.structured_search.global_search.search import GlobalSearch
 import yaml
 
 from models.graphrag_search import GlobalSearchResult
+from .knowledge_graph_loader import KnowledgeGraphLoader
 
 from supabase import create_client, Client
 
@@ -62,18 +63,13 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
 
     token_encoder = tiktoken.get_encoding("cl100k_base")
     
-    entity_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_nodes.parquet") # might be wrong path?
-    report_file = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_community_reports.parquet") 
-    entity_embedding_df = supabase.storage.from_('knowledge_graphs').download(f"/{project_name}/create_final_entities.parquet")
+    loader = KnowledgeGraphLoader(project_name, supabase)
     
-    entity_df = pd.read_parquet(entity_file)
-    report_df = pd.read_parquet(report_file)
-    entity_embedding_df = pd.read_parquet(entity_embedding_df)
-
-    reports = read_indexer_reports(report_df, entity_df, root_config['community_level'])
-    entities = read_indexer_entities(entity_df, entity_embedding_df, root_config['community_level'])
-
-    report_df.head()
+    # Load the knowledge graph data
+    entities = read_indexer_entities(loader.entity_df, loader.entity_embedding_df, root_config['community_level'])
+    reports = read_indexer_reports(loader.report_df, loader.entity_df, root_config['community_level'])
+    
+    loader.report_df.head()
 
     context_builder = GlobalCommunityContext(
         community_reports=reports,
