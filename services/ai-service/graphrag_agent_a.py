@@ -11,7 +11,6 @@ from langgraph.prebuilt import ToolNode
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
-from pydantic import BaseModel
 from supabase import create_client, Client
 
 from querying import run_both_asearches
@@ -20,7 +19,6 @@ from openai_helper_classes import new_openai_llm
 from memory import SupabaseChatMessageHistory
 from querying.global_asearch import global_asearch
 from querying.local_asearch import local_asearch
-from tools import search_graph
 
 dotenv.load_dotenv()
 
@@ -32,9 +30,38 @@ DB_URI = os.getenv("DB_URI")
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_ANON_KEY")
 
-
-async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
+@tool
+def search_graph(query: str) -> str:
+    """
+    Search a knowlege graph for a given query.
+    It uses an LLM agent to search the graph and return the results,
+    which is why as much context as possible should be provided in the query.
+    We do not value reducing the query length.
     
+    Args:
+        query (str): The query to search the graph. Should provide as much
+        context as possible.
+        
+    """
+    
+    # Try adding `--worker-class asyncio` to the railway.json startCommand for
+    # parallel execution of the search functions and use `run_both_asearches` instead.
+    global_result = asyncio.run(global_asearch(query, "readai_aug_8"))
+    local_result = asyncio.run(local_asearch(query, "readai_aug_8"))
+    
+    final_result = f"""
+    The RAG Agent has returned the following results:
+    
+    -Global Search Result-
+    {global_result.response}
+    
+    -Local Search Result-
+    {local_result.response}
+    """
+    return final_result
+
+
+def invoke(session_id: UUID, user_message: str):
     tools = [search_graph]
 
     openai_llm = ChatOpenAI(
@@ -42,6 +69,7 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
         model="gpt-4o",
         temperature=0,
         streaming=True,
+        callbacks=[StreamingStdOutCallbackHandler()]
     )
     
     prompt = ChatPromptTemplate.from_messages(
@@ -75,10 +103,10 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
     llm = prompt | openai_llm.bind_tools(tools)
 
     # Define the function that calls the model
-    async def invoke_agent(state: MessagesState):
-        response = await llm.ainvoke(state)
+    def invoke_agent(state: MessagesState):
+        response = llm.invoke(state)
         # We return a list, because this will get added to the existing list
-        return {"messages": response}
+        return {"messages": [response]}
 
     # Define the function that determines whether to continue or not
     def should_continue(state: MessagesState):
@@ -128,31 +156,17 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
     
     message_history.add_messages([HumanMessage(name="user",content=user_message)])
     
-    async for event in graph.astream_events({"messages": message_history.messages}, version="v1"):
-        kind = event["event"]
-        if kind == "on_chat_model_stream":
-            content = event["data"]["chunk"].content
-            if content:
-                print(content, end="|")
-                yield content
-        elif kind == "on_tool_start":
-            print("--")
-            print(
-                f"Starting tool: {event['name']} with inputs: {event['data'].get('input')}"
-            )
-        elif kind == "on_tool_end":
-            print(f"Done tool: {event['name']}")
-            print(f"Tool output was: {event['data'].get('output')}")
-            print("--")
+    for event in graph.stream({"messages": message_history.messages}):
+        for value in event.values():
+            print("Value: ", value)
+            new_message: AnyMessage = value['messages'][-1]
+            
+            if last_message_in_db is not None and new_message.id == last_message_in_db.id:
+                # This is caused because no new message was generated run running a node (like the supervisor node).
+                print('Duplicate message skipped successfully!');
+                continue;
+            
+            if isinstance(value["messages"][-1], BaseMessage):
+                message_history.add_messages([new_message])
 
-        # for value in event.values():
-        #     print("Value: ", value)
-        #     new_message: AnyMessage = value['messages'][-1]
-            
-        #     if last_message_in_db is not None and new_message.id == last_message_in_db.id:
-        #         # This is caused because no new message was generated run running a node (like the supervisor node).
-        #         print('Duplicate message skipped successfully!');
-        #         continue;
-            
-        #     if isinstance(value["messages"][-1], BaseMessage):
-        #         message_history.add_messages([new_message])
+    return {"success": True}
