@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "hypercorn main:app --bind \"[::]:$PORT\""
+    "startCommand": "hypercorn main:app --timeout-keep-alive 8 --bind \"[::]:$PORT\""
   }
 }
