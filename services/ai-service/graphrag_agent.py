@@ -42,8 +42,10 @@ def search_graph(query: str) -> str:
         
     """
     
-    global_result = asyncio.run(global_asearch("readai_aug_8", query))
-    local_result = asyncio.run(local_asearch("readai_aug_8", query))
+    # Try adding `--worker-class asyncio` to the railway.json startCommand for
+    # parallel execution of the search functions and use `run_both_asearches` instead.
+    global_result = asyncio.run(global_asearch(query, "readai_aug_8"))
+    local_result = asyncio.run(local_asearch(query, "readai_aug_8"))
     
     final_result = f"""
     The RAG Agent has returned the following results:
