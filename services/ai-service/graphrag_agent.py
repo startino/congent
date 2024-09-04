@@ -15,6 +15,8 @@ from querying import run_both_asearches
 from models.graphrag_search import GlobalSearchResult, LocalSearchResult
 from openai_helper_classes import new_openai_llm
 from memory import SupabaseChatMessageHistory
+from querying.global_asearch import global_asearch
+from querying.local_asearch import local_asearch
 
 dotenv.load_dotenv()
 
@@ -40,7 +42,8 @@ def search_graph(query: str) -> str:
         
     """
     
-    global_result, local_result = asyncio.run(run_both_asearches("readai_aug_8", query,))
+    global_result = asyncio.run(global_asearch("readai_aug_8", query))
+    local_result = asyncio.run(local_asearch("readai_aug_8", query))
     
     final_result = f"""
     The RAG Agent has returned the following results:
