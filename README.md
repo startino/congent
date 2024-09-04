@@ -224,3 +224,5 @@ CREATE (cr)-[:REPORTS_ON]->(c);
 This project welcomes contributions and suggestions.
 
 If you're passionate about what we're doing and would like to get paid while developing, feel free to reach out. We're constantly looking for innovators and passionate developers.
+
+Thanks for reading!
