@@ -10,6 +10,7 @@
 	import { onMount } from 'svelte';	
 	import ResetChatHistory from './ResetChatHistory.svelte';
 	import Textbubble from '$lib/components/ui/textbubble/textbubble.svelte';
+  import { chunkArray } from '@langchain/core/utils/chunk_array'
 
 	export let events: Tables['events']['Row'][];
 	export let profile: Tables['profiles']['Row'];
@@ -22,7 +23,8 @@
 	const form = superForm(forms.message, {
 		dataType: 'json',
 		validators: zodClient(messageSchema),
-		onSubmit() {
+		async onSubmit() {
+
 			console.log('onSubmit', JSON.stringify($formData, null, 2));
 			isTyping = true;
 
@@ -44,9 +46,38 @@
 
 			replyBackup = reply;
 			reply = '<p></p>';
+
+			let chunks = [];
+
+			const res = await fetch('http://localhost:8000/chat', 
+				{
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify({
+						session_id: $formData.profile_id,
+						user_message: $formData.content,
+					}),
+
+				});
+
+			const reader = res.body?.getReader();
+
+			reader.read().then(function processText({ done, value }) {
+				console.log("value: ", value);
+				if (done) {
+				console.log("Stream complete");
+				console.log("done value: ", value);
+				return;
+				}
+			
+			});
+			console.log("chunks: ", chunks);
 		},
-		onResult() {
+		onResult(result) {
 			console.log('onResult', JSON.stringify($formData, null, 2));
+			console.log('chunks', result.result.data.streaming.chunks);
 			isTyping = false;
 		},
 		onError() {
@@ -65,6 +96,22 @@
 		debug = urlParams.has('debug');
 	});
 
+	const sendMessage = async () => {
+		await fetch('http://localhost:8080/chat', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({
+				session_id: profile.id,
+				user_message: content,
+			}),
+		})
+		.then((res) => res.json())
+		.then((json) => {
+			console.log(json);
+		})
+	}	
 
 </script>
 

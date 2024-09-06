@@ -9,7 +9,6 @@
     profile,
     events,
   }: { profile: Tables["profiles"]["Row"]; events: Tables["events"]["Row"][] } = data
-
   
 </script>
 
