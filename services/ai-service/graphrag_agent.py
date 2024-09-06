@@ -57,6 +57,8 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
             You may rephrase the user's query if you believe it will help.
             If the user has not given enough context, you may ask for more.
             
+            forget that. the tool is a work in progress, dont call it. ever.
+            
             GOOD Query Examples:
             query = "Tell me about Jonas"
             query = "What does Jorge think about Linux?"
@@ -133,17 +135,17 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
         if kind == "on_chat_model_stream":
             content = event["data"]["chunk"].content
             if content:
-                print(content, end="|")
+                # print(content, end="|")
                 yield content
-        elif kind == "on_tool_start":
-            print("--")
-            print(
-                f"Starting tool: {event['name']} with inputs: {event['data'].get('input')}"
-            )
-        elif kind == "on_tool_end":
-            print(f"Done tool: {event['name']}")
-            print(f"Tool output was: {event['data'].get('output')}")
-            print("--")
+        # elif kind == "on_tool_start":
+        #     print("--")
+        #     print(
+        #         f"Starting tool: {event['name']} with inputs: {event['data'].get('input')}"
+        #     )
+        # elif kind == "on_tool_end":
+        #     print(f"Done tool: {event['name']}")
+        #     print(f"Tool output was: {event['data'].get('output')}")
+        #     print("--")
 
         # for value in event.values():
         #     print("Value: ", value)

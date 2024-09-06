@@ -18,7 +18,7 @@ class SupabaseChatMessageHistory(BaseChatMessageHistory):
         response = self.supabase.table('events').select('*').eq('session_id', self.session_id).execute()
         
         if not response.data:
-            print('Error getting chat messages')
+            print('No data found. Either means an error or the table is empty')
             return []
         
         events: list[Event] = [Event(**event) for event in response.data]

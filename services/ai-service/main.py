@@ -33,6 +33,7 @@ class ChatRequest(BaseModel):
 @app.post("/chat")
 async def send_message(chat_request: ChatRequest):
     value = graphrag_agent.ainvoke_graphrag_agent(chat_request.session_id, chat_request.user_message)
-    
+    async for chunk in value:
+        print(chunk)
     return StreamingResponse(value, media_type='text/event-stream')
     
