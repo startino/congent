@@ -1,3 +1,5 @@
+import asyncio
+from time import sleep
 from uuid import UUID
 from pydantic import BaseModel
 
@@ -30,10 +32,16 @@ class ChatRequest(BaseModel):
     user_message: str
 
 
+async def fake_video_streamer():
+    for i in range(10):
+        sleep(1)
+        yield b"some fake video bytes"
+
+
 @app.post("/chat")
 async def send_message(chat_request: ChatRequest):
     value = graphrag_agent.ainvoke_graphrag_agent(chat_request.session_id, chat_request.user_message)
-    async for chunk in value:
-        print(chunk)
-    return StreamingResponse(value, media_type='text/event-stream')
+
+    return StreamingResponse(fake_video_streamer())
+    
     

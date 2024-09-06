@@ -54,6 +54,7 @@
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json',
+						'Connection': 'keep-alive',
 					},
 					body: JSON.stringify({
 						session_id: $formData.profile_id,
@@ -62,14 +63,14 @@
 
 				});
 
-			const reader = res.body?.getReader();
+			const reader = res.body?.pipeThrough(new TextDecoderStream()).getReader();
 
-			reader.read().then(function processText({ done, value }) {
+			reader.read().then(({ done, value }) => {
 				console.log("value: ", value);
 				if (done) {
 				console.log("Stream complete");
 				console.log("done value: ", value);
-				return;
+				
 				}
 			
 			});
