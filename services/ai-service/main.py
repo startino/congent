@@ -1,9 +1,13 @@
+import asyncio
+import json
+from time import sleep
 from uuid import UUID
 from pydantic import BaseModel
 
 from fastapi import FastAPI
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
+from sse_starlette import EventSourceResponse
 
 import graphrag_agent
 
@@ -29,10 +33,10 @@ class ChatRequest(BaseModel):
     session_id: UUID
     user_message: str
 
-
 @app.post("/chat")
-def send_message(chat_request: ChatRequest):
-    success = graphrag_agent.invoke(chat_request.session_id, chat_request.user_message)
+async def send_message(chat_request: ChatRequest):
+    value = graphrag_agent.ainvoke_graphrag_agent(chat_request.session_id, chat_request.user_message)
+
+    return EventSourceResponse(value, media_type="text/event-stream")
     
-    return {"success": success}
     

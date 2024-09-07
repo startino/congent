@@ -9,13 +9,12 @@
     profile,
     events,
   }: { profile: Tables["profiles"]["Row"]; events: Tables["events"]["Row"][] } = data
-
   
 </script>
 
 <main class="flex h-full w-full flex-col items-center justify-center">
   <div
-    class="items-between flex h-screen w-full max-w-2xl flex-col justify-between"
+    class="items-between flex h-screen w-full max-w-3xl flex-col justify-between"
   >
 
     {#await events}

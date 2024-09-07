@@ -50,21 +50,6 @@ export const actions = {
 		}
 
 		const content = NodeHtmlMarkdown.translate(form.data.content);
-		const res = await fetch('http://localhost:8080/chat', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({
-				session_id: form.data.profile_id,
-				user_message: content,
-			}),
-		})
-		.then((res) => res.json())
-		.then((json) => {
-			console.log(json);
-		})
 
-		return { form };
-	},
-};
+		return {form, content};
+}};
