@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "uvicorn myapp:app --reload --port $PORT --loop asyncio"
+    "startCommand": "uvicorn main:app --reload --port $PORT --loop asyncio"
   }
 }
