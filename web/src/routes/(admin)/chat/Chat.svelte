@@ -90,7 +90,7 @@
 				{#if msg.event_type === "ai"}
 				<Avatar.Root class="mt-auto mr-2 aspect-square">
 					<Avatar.Image src="favicon.png" alt="@shadcn" />
-					<Avatar.Fallback>CN</Avatar.Fallback>
+					<Avatar.Fallback>Congent</Avatar.Fallback>
 				  </Avatar.Root>
 				{/if}
 				<p
