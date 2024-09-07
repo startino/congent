@@ -1,6 +1,13 @@
-<script lang="ts">
-	import ChatBox from './ChatBox.svelte';
-	import type { Tables } from '$lib/supabase';
+<script>
+	import { onMount } from 'svelte';
+  
+  // Make sure to use onMount and render deep-chat on load
+	onMount(async () => {
+		await import("deep-chat");
+        isLoaded = true;
+	});
+
+    import type { Checkpoint, Tables } from '$lib/supabase';
 	import SvelteMarkdown from 'svelte-markdown';
 	import { onMount } from 'svelte';
 	import { BaseMessage, AIMessage, ToolMessage } from '@langchain/core/messages';
@@ -35,6 +42,17 @@
 			}
 		}
 
+		result.push({
+			id: uuidv4(),
+			session_id: profile.id,
+			created_at: new Date().toISOString(),
+			content: streamingContent,
+			message_object: {},
+			event_type: 'ai',
+			sources: {},
+			name: 'ai'
+		});
+
 		return result;
 	}
 
@@ -62,7 +80,7 @@
 		.subscribe();
 
 	// filter events by session_id
-	$: shownEvents = [...splitEvents(
+	$: shownEvents = splitEvents(
 		events
 			.filter((msg) => msg.session_id === profile.id)
 			.filter(
@@ -73,47 +91,45 @@
 			)
 			.filter((msg) => msg.content !== '')
 			.sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime())
-	), (streamingContent != "" ? {
-					id: uuidv4(),
-					session_id: profile.id,
-					created_at: new Date().toISOString(),
-					content: streamingContent,
-					message_object: {},
-					event_type: 'ai',
-					sources: {},
-					name: 'ai'
-				} as Tables['events']['Row'] : null)
-];
+	);
 
+  let isLoaded = false;
+	const history = [
+		{ role: "user", text: "Hey, how are you today?" },
+		{ role: "ai", text: "I am doing very well!" }
+	];
 </script>
 
-<div class="items-between flex flex-col justify-start gap-2 overflow-y-scroll pt-2">
-	{#each shownEvents as msg, i (i)}
-		{#if msg != null}
-			<div class={`flex ${msg.name === 'user' ? 'ml-16 justify-end' : 'mr-16 justify-start'}`}>
-				<p
-					class="prose prose-main text-white rounded-lg border border-primary/30 bg-primary-container/10 px-2 py-1 text-primary-container-on marker:text-primary"
-				>
-					<SvelteMarkdown bind:source={msg.content} />
-				</p>
-				<div class="relative flex flex-col">
-					
-				</div>
-			</div>
-		{/if}
-	{/each}
+<main>
+	<h1>Deep Chat</h1>
+  {#if isLoaded}
+    <!-- demo/textInput are examples of passing an object directly into a property -->
+    <!-- history is an example of passing an object from script into a property -->
+    <deep-chat
+      demo={true}
+      connect='{
+        "url":"http://localhost:8000/chat",
+        "method": "POST",
+        "headers": {
+				'Content-Type': 'application/json',
+				'Connection': 'keep-alive',
+			},
+        "body": JSON.stringify({
+            session_id: profile.id,
+            user_message: reply,
+        }),
+  }'
+      textInput={{"placeholder":{"text": "Welcome to the demo!"}}}
+      history={history}
+    />
+  {/if}
+</main>
 
-	{#if isTyping}
-		<div class="mr-16 flex animate-pulse justify-start">
-			<p
-				class="rounded-lg border border-primary/30 bg-primary-container/10 px-2 py-1 text-primary-container-on"
-			>
-				I'm cooking bro, hol'up...
-			</p>
-		</div>
-	{/if}
-</div>
-<div class="items-between flex flex-col justify-end gap-2">
-	<hr class="mt-2 border-primary/10" />
-	<ChatBox bind:isTyping bind:events bind:streamingContent {profile} />
-</div>
+<style>
+  main {
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+  }
+</style>

@@ -59,6 +59,7 @@
     "@tiptap/starter-kit": "^2.6.6",
     "bits-ui": "^0.21.13",
     "clsx": "^2.1.1",
+    "deep-chat": "^2.0.1",
     "eventsource-parser": "^2.0.1",
     "formsnap": "^1.0.1",
     "glob": "^9.3.5",
@@ -71,6 +72,7 @@
     "sveltekit-superforms": "^2.17.0",
     "tailwind-merge": "^2.5.2",
     "tailwind-variants": "^0.2.1",
+    "uuid": "^10.0.0",
     "zod": "^3.23.8"
   }
 }

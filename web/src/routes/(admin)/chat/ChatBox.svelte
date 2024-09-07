@@ -21,6 +21,8 @@
 
 	let reply = '';
 	let replyBackup = reply;
+	
+	export let streamingContent: string = "";
 
 	const forms = getContext('forms');
 	const form = superForm(forms.message, {
@@ -30,6 +32,8 @@
 
 			console.log('onSubmit', JSON.stringify($formData, null, 2));
 			isTyping = true;
+
+			sendMessage();
 
 			$formData.profile_id = profile.id;
 			$formData.content = reply;
@@ -43,6 +47,17 @@
 				event_type: 'human',
 				sources: {},
 				name: 'user'
+			};
+
+			const messageBeingStreamed: Tables['events']['Row'] = {
+				id: crypto.randomUUID(),
+				session_id: $formData.profile_id,
+				created_at: Date.now.toString(),
+				content: streamingContent,
+				message_object: {},
+				event_type: 'ai',
+				sources: {},
+				name: null
 			};
 
 			events = [...events, newEventPlaceholder];
@@ -67,14 +82,13 @@
 
 	let debug = false;
 
-	let content: string = "";
 
 	function onParse(event: ParsedEvent | ReconnectInterval) {
 	if (event.type === 'event') {
 		// console.log('Received event!')
 		// console.log('id: %s', event.id || '<none>')
 		// console.log('data: %s', event.data)
-		content += event.data
+		streamingContent += event.data
 	} else if (event.type === 'reconnect-interval') {
 		console.log('We should set reconnect interval to %d milliseconds', event.value)
 	}
@@ -83,8 +97,6 @@
 	const parser = createParser(onParse)
 
 	const sendMessage = async () => {
-	
-		content = "";
 
 		const res = await fetch('http://localhost:8000/chat', {
 			method: 'POST',
@@ -107,7 +119,8 @@
                     done
                 }) => {
                     if (done) {
-                        console.log('Stream finished');
+                        console.log('Stream finished');		
+						streamingContent = "";
                         return;
                     }
 					// maybe this code can be improved:
@@ -155,8 +168,6 @@
 		{#if isTyping}
 			<small class="text-md animate-pulse self-start p-2">Agent is Typing...</small>
 		{/if}
-		{content}
-		<Button on:click={sendMessage}>Fetch Data</Button>
 		<div class="flex w-full items-end justify-center gap-2">
 			<ResetChatHistory profileId={profile.id} />
 			<Form.Field {form} name="content" class="flex-1 space-y-0">

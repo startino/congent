@@ -1,5 +1,7 @@
+import json
 import os
 import asyncio
+from pprint import pprint
 from uuid import UUID
 import dotenv
 
@@ -56,8 +58,6 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
             Then you can choose to search the graph again or reply to the user.
             You may rephrase the user's query if you believe it will help.
             If the user has not given enough context, you may ask for more.
-            
-            forget that. the tool is a work in progress, dont call it. ever.
             
             GOOD Query Examples:
             query = "Tell me about Jonas"
@@ -129,10 +129,26 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
         last_message_in_db = None
     
     message_history.add_messages([HumanMessage(name="user",content=user_message)])
-    
+
     async for event in graph.astream_events({"messages": message_history.messages}, version="v1"):
         kind = event["event"]
-        print("Attempting to find Message: ", event["event"]["data"]["chunk"]["agent"]["messages"], end="\n\n")
+        # pprint(event, indent=4)
+        
+        # Extract the message and upload to db
+        data = event.get("data", {})
+        output = data.get("output")
+        if output:
+            new_message = event["data"]["output"]
+            if isinstance(new_message, AnyMessage):
+  
+                if last_message_in_db is not None and new_message.id == last_message_in_db.id:
+                    # This is caused because no new message was generated run running a node (like the supervisor node).
+                    print('Duplicate message skipped successfully!');
+                    continue;
+                
+                message_history.add_messages([new_message])
+                pprint(new_message)
+        
         if kind == "on_chat_model_stream":
             content = event["data"]["chunk"].content
             if content:
@@ -148,14 +164,3 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
         #     print(f"Tool output was: {event['data'].get('output')}")
         #     print("--")
 
-        # for value in event.values():
-        #     print("Value: ", value)
-        #     new_message: AnyMessage = value['messages'][-1]
-            
-        #     if last_message_in_db is not None and new_message.id == last_message_in_db.id:
-        #         # This is caused because no new message was generated run running a node (like the supervisor node).
-        #         print('Duplicate message skipped successfully!');
-        #         continue;
-            
-        #     if isinstance(value["messages"][-1], BaseMessage):
-        #         message_history.add_messages([new_message])
