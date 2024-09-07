@@ -13,6 +13,7 @@ cache/
 lancedb/
 .lance
 local_kg_projects/*
+articles/
 
 #########
 # Linux #
@@ -90,3 +91,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+services/ai-service/html_file.html
+services/ai-service/scrape_dhh.py
+services/ai-service/scraping.log

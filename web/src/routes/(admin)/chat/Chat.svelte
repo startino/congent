@@ -86,15 +86,15 @@
 <div class="items-between flex flex-col justify-start gap-2 overflow-y-scroll px-2 pt-2">
 	{#each shownEvents as msg, i (i)}
 		{#if msg != null}
-			<div class={`flex my-2 ${msg.event_type === 'user' ? 'ml-16 justify-end' : 'mr-16 justify-start'}`}>
-				{#if msg.event_type === "ai"}
+			<div class={`flex my-2 ${msg.name == 'user' ? 'ml-16 justify-end' : 'mr-16 justify-start'}`}>
+				{#if msg.name != "user"}
 				<Avatar.Root class="mt-auto mr-2 aspect-square">
 					<Avatar.Image src="favicon.png" alt="@shadcn" />
 					<Avatar.Fallback>Congent</Avatar.Fallback>
 				  </Avatar.Root>
 				{/if}
 				<p
-					class="prose prose-main text-white rounded-lg border border-primary/30 bg-primary-container/10 px-2 py-1 text-primary-container-on marker:text-primary"
+					class="prose prose-main text-white rounded-lg border border-primary/30 {msg.name == 'user' ? 'bg-primary-container' : ' bg-primary-foreground'} px-2 py-1 text-primary-container-on marker:text-primary"
 				>
 				
 					<SvelteMarkdown bind:source={msg.content} />
