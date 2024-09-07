@@ -40,7 +40,7 @@
 		.channel('events-channel')
 		.on(
 			'postgres_changes',
-			{ event: 'INSERT', schema: 'public', table: 'events' },
+			{ event: '*', schema: 'public', table: 'events' },
 			(payload) => {
 				if (payload.new.session_id !== profile.id) return;
 				console.log(`got ${payload.new.event_type} event`);

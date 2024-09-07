@@ -10,7 +10,10 @@
 	import { onMount } from 'svelte';	
 	import ResetChatHistory from './ResetChatHistory.svelte';
 	import Textbubble from '$lib/components/ui/textbubble/textbubble.svelte';
-  import { chunkArray } from '@langchain/core/utils/chunk_array'
+	import { chunkArray } from '@langchain/core/utils/chunk_array'
+	import { Button } from '$lib/components/ui/button'
+	import {createParser, type ParsedEvent, type ReconnectInterval} from 'eventsource-parser'
+
 
 	export let events: Tables['events']['Row'][];
 	export let profile: Tables['profiles']['Row'];
@@ -47,38 +50,10 @@
 			replyBackup = reply;
 			reply = '<p></p>';
 
-			let chunks = [];
-
-			const res = await fetch('http://localhost:8000/chat', 
-				{
-					method: 'POST',
-					headers: {
-						'Content-Type': 'application/json',
-						'Connection': 'keep-alive',
-					},
-					body: JSON.stringify({
-						session_id: $formData.profile_id,
-						user_message: $formData.content,
-					}),
-
-				});
-
-			const reader = res.body?.pipeThrough(new TextDecoderStream()).getReader();
-
-			reader.read().then(({ done, value }) => {
-				console.log("value: ", value);
-				if (done) {
-				console.log("Stream complete");
-				console.log("done value: ", value);
-				
-				}
 			
-			});
-			console.log("chunks: ", chunks);
 		},
 		onResult(result) {
 			console.log('onResult', JSON.stringify($formData, null, 2));
-			console.log('chunks', result.result.data.streaming.chunks);
 			isTyping = false;
 		},
 		onError() {
@@ -91,28 +66,78 @@
 	const { form: formData, enhance } = form;
 
 	let debug = false;
-	
-	onMount(() => {
-		const urlParams = new URLSearchParams(window.location.search);
-		debug = urlParams.has('debug');
-	});
+
+	let content: string = "";
+
+	function onParse(event: ParsedEvent | ReconnectInterval) {
+	if (event.type === 'event') {
+		// console.log('Received event!')
+		// console.log('id: %s', event.id || '<none>')
+		// console.log('data: %s', event.data)
+		content += event.data
+	} else if (event.type === 'reconnect-interval') {
+		console.log('We should set reconnect interval to %d milliseconds', event.value)
+	}
+	}
+
+	const parser = createParser(onParse)
 
 	const sendMessage = async () => {
-		await fetch('http://localhost:8080/chat', {
+	
+		content = "";
+
+		const res = await fetch('http://localhost:8000/chat', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
+				'Connection': 'keep-alive',
 			},
 			body: JSON.stringify({
 				session_id: profile.id,
-				user_message: content,
+				user_message: reply,
 			}),
 		})
-		.then((res) => res.json())
-		.then((json) => {
-			console.log(json);
-		})
-	}	
+		.then(response => {
+        const stream = response.body;
+        const reader = stream?.getReader();
+        const readChunk = () => {
+            reader?.read()
+                .then(({
+                    value,
+                    done
+                }) => {
+                    if (done) {
+                        console.log('Stream finished');
+                        return;
+                    }
+					// maybe this code can be improved:
+					// const eventStream = response.body
+					// .pipeThrough(new TextDecoderStream())
+					// .pipeThrough(new EventSourceParserStream())
+
+                    const chunkData = new TextDecoder().decode(value);
+
+					parser.feed(chunkData)
+
+                    readChunk();
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        };
+        readChunk();
+    })
+    .catch(error => {
+        // Log the error
+        console.error(error);
+    });
+	};
+
+	onMount(() => {
+		const urlParams = new URLSearchParams(window.location.search);
+		debug = urlParams.has('debug');	
+	});
+
 
 </script>
 
@@ -130,6 +155,8 @@
 		{#if isTyping}
 			<small class="text-md animate-pulse self-start p-2">Agent is Typing...</small>
 		{/if}
+		{content}
+		<Button on:click={sendMessage}>Fetch Data</Button>
 		<div class="flex w-full items-end justify-center gap-2">
 			<ResetChatHistory profileId={profile.id} />
 			<Form.Field {form} name="content" class="flex-1 space-y-0">

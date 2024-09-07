@@ -51,38 +51,5 @@ export const actions = {
 
 		const content = NodeHtmlMarkdown.translate(form.data.content);
 
-		let chunks = [];
-		// const res = await fetch('http://localhost:8000/chat', 
-		// {
-		// 	method: 'POST',
-		// 	headers: {
-		// 		'Content-Type': 'application/json',
-		// 	},
-		// 	body: JSON.stringify({
-		// 		session_id: form.data.profile_id,
-		// 		user_message: content,
-		// 	}),
-		// })// Retrieve its body as ReadableStream
-		// .then((response) => {
-		//   const reader = response.body?.getReader();
-		//   return new ReadableStream({
-		// 	start(controller) {
-		// 	  return pump();
-		// 	  function pump() {
-		// 		return reader?.read().then(({ done, value }) => {
-		// 		console.log("value:", value);
-		// 		  // When no more data needs to be consumed, close the stream
-		// 		  if (done) {
-		// 			controller.close();
-		// 			return;
-		// 		  }
-		// 		  // Enqueue the next data chunk into our target stream
-		// 		  controller.enqueue(value);
-		// 		  return pump();
-		// 		});
-		// 	  }
-		// 	},
-		//   });
-		// });
-		return {form, streaming: {chunks}};
+		return {form, content};
 }};

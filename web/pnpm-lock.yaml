@@ -47,6 +47,9 @@ dependencies:
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
+  eventsource-parser:
+    specifier: ^2.0.1
+    version: 2.0.1
   formsnap:
     specifier: ^1.0.1
     version: 1.0.1(svelte@4.2.19)(sveltekit-superforms@2.17.0)
@@ -3033,6 +3036,11 @@ packages:
 
   /eventemitter3@4.0.7:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
+    dev: false
+
+  /eventsource-parser@2.0.1:
+    resolution: {integrity: sha512-gMaRLm5zejEH9mNXC54AnIteFI9YwL/q5JKMdBnoG+lEI1JWVGFVk0Taaj9Xb5SKgzIBDZoQX5IzMe44ILWODg==}
+    engines: {node: '>=18.0.0'}
     dev: false
 
   /execa@8.0.1:

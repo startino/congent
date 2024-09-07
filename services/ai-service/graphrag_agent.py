@@ -132,6 +132,7 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
     
     async for event in graph.astream_events({"messages": message_history.messages}, version="v1"):
         kind = event["event"]
+        print("Attempting to find Message: ", event["event"]["data"]["chunk"]["agent"]["messages"], end="\n\n")
         if kind == "on_chat_model_stream":
             content = event["data"]["chunk"].content
             if content:
