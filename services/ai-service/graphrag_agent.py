@@ -137,6 +137,7 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
         # Extract the message and upload to db
         data = event.get("data", {})
         output = data.get("output")
+        pprint(data)
         if output:
             new_message = event["data"]["output"]
             if isinstance(new_message, AnyMessage):
@@ -147,7 +148,7 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
                     continue;
                 
                 message_history.add_messages([new_message])
-                pprint(new_message)
+                # pprint(new_message)
         
         if kind == "on_chat_model_stream":
             content = event["data"]["chunk"].content

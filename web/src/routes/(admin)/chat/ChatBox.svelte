@@ -44,7 +44,7 @@
 				created_at: Date.now.toString(),
 				content: $formData.content,
 				message_object: {},
-				event_type: 'human',
+				event_type: 'user',
 				sources: {},
 				name: 'user'
 			};
@@ -121,6 +121,8 @@
                     if (done) {
                         console.log('Stream finished');		
 						streamingContent = "";
+						// get and add the new event to the events list to
+						// remove the slight glitch onthe frontend
                         return;
                     }
 					// maybe this code can be improved:

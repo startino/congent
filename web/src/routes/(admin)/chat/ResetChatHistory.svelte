@@ -18,6 +18,9 @@
 			console.error('Error deleting history:', JSON.stringify(error, null, 2));
 			return;
 		}
+		else {
+			toast.success('Chat history deleted');
+		}
 		loading = false;
 	};
 </script>

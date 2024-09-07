@@ -33,25 +33,6 @@ class ChatRequest(BaseModel):
     session_id: UUID
     user_message: str
 
-
-def fake_video_streamer():
-    try:
-        for i in range(10):
-            yield {
-                    "data": json.dumps(f"data point: {i}"),
-                    "event": "data",
-                }
-        yield {"event": "end"}
-    except:
-        yield {
-            "event": "error",
-            "data": json.dumps(
-                {"status_code": 500, "message": "Internal Server Error"}
-            ),
-        }
-        raise
-
-
 @app.post("/chat")
 async def send_message(chat_request: ChatRequest):
     value = graphrag_agent.ainvoke_graphrag_agent(chat_request.session_id, chat_request.user_message)
