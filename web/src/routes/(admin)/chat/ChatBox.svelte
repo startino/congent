@@ -18,11 +18,11 @@
 	export let events: Tables['events']['Row'][];
 	export let profile: Tables['profiles']['Row'];
 	export let isTyping: boolean;
+	export let streamingContent: string = "";
 
+	let debug = false;
 	let reply = '';
 	let replyBackup = reply;
-	
-	export let streamingContent: string = "";
 
 	const forms = getContext('forms');
 	const form = superForm(forms.message, {
@@ -64,15 +64,11 @@
 
 			replyBackup = reply;
 			reply = '<p></p>';
-
-			
 		},
 		onResult(result) {
 			console.log('onResult', JSON.stringify($formData, null, 2));
-			isTyping = false;
 		},
 		onError() {
-			isTyping = false;
 			reply = replyBackup;
 			toast.error('Error sending message.');
 		}
@@ -80,18 +76,15 @@
 
 	const { form: formData, enhance } = form;
 
-	let debug = false;
-
-
 	function onParse(event: ParsedEvent | ReconnectInterval) {
-	if (event.type === 'event') {
-		// console.log('Received event!')
-		// console.log('id: %s', event.id || '<none>')
-		// console.log('data: %s', event.data)
-		streamingContent += event.data
-	} else if (event.type === 'reconnect-interval') {
-		console.log('We should set reconnect interval to %d milliseconds', event.value)
-	}
+		if (event.type === 'event') {
+			// console.log('Received event!')
+			// console.log('id: %s', event.id || '<none>')
+			// console.log('data: %s', event.data)
+			streamingContent += event.data
+		} else if (event.type === 'reconnect-interval') {
+			console.log('We should set reconnect interval to %d milliseconds', event.value)
+		}
 	}
 
 	const parser = createParser(onParse)
@@ -122,8 +115,10 @@
                     if (done) {
                         console.log('Stream finished');		
 						streamingContent = "";
+						isTyping = false;
 						// get and add the new event to the events list to
 						// remove the slight glitch onthe frontend
+
                         return;
                     }
 					// maybe this code can be improved:
@@ -142,11 +137,14 @@
                 });
         };
         readChunk();
-    })
+    }).then(() => {
+	})
     .catch(error => {
         // Log the error
         console.error(error);
     });
+
+
 	};
 
 	onMount(() => {

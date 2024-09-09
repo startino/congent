@@ -48,7 +48,7 @@
 			{ event: 'DELETE', schema: 'public', table: 'events' },
 			(payload) => {
 
-				events = [...events, payload.new as Tables['events']['Row']];
+				events = [payload.new as Tables['events']['Row']];
 			}
 		)
 		.subscribe();
