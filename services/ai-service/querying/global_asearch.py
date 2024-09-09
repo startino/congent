@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import logging
 
 import dotenv
 import pandas as pd
@@ -21,15 +22,19 @@ from .llm_helpers import east_us_llm
 
 from supabase import create_client, Client
 
+# Initialize logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)
 
 
-async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
+async def global_asearch(query: str, project_name: str) -> GlobalSearchResult:
     """
-    Search a knowlege graph for a given query using the global search technique.
+    Search a knowledge graph for a given query using the global search technique.
     The configuration for the local search is loaded from a local config file
     and can be modified there.
     
@@ -38,6 +43,8 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
         context as possible.
         project_name (str): The name of the project's storage bucket on Supabase.
     """
+    
+    logger.info("Starting search for query: %s", query)
     
     current_dir = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(current_dir, "config.yml")
@@ -52,11 +59,11 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
     
     loader = KnowledgeGraphLoader(project_name, supabase)
     
-    # Load the knowledge graph data
+    logger.info("Loading knowledge graph data")
     entities = read_indexer_entities(loader.entity_df, loader.entity_embedding_df, root_config['community_level'])
     reports = read_indexer_reports(loader.report_df, loader.entity_df, root_config['community_level'])
     
-    loader.report_df.head()
+    logger.info("Knowledge graph data loaded successfully")
 
     context_builder = GlobalCommunityContext(
         community_reports=reports,
@@ -65,9 +72,7 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
     )
 
     context_builder_params = global_search_config["context_builder_params"]
-
     map_llm_params = global_search_config["map_llm_params"]
-
     reduce_llm_params = global_search_config["reduce_llm_params"]
 
     search_engine = GlobalSearch(
@@ -84,19 +89,19 @@ async def global_asearch(query: str, project_name: str )-> GlobalSearchResult:
         response_type="multiple paragraphs",  # free form text describing the response type and format, can be anything, e.g. prioritized list, single paragraph, multiple paragraphs, multiple-page report
     )
 
-
+    logger.info("Starting search engine")
     result = await search_engine.asearch(query)
-    
+    logger.info("Search completed successfully")
+
     return GlobalSearchResult(
         query=query,
         response=result.response,
         reports=str(result.context_data["reports"]),
         llm_calls=result.llm_calls,
         prompt_tokens=result.prompt_tokens,
-        
     )
 
 if __name__ == "__main__":
-    # You'll get an error if you run this code because the of relative imports
+    # You'll get an error if you run this code because of relative imports
     query = "What is Jorge?"
-    asyncio.run(global_search(query))
+    asyncio.run(global_asearch(query, "readai_aug_8"))

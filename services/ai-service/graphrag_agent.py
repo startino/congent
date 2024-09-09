@@ -164,4 +164,3 @@ async def ainvoke_graphrag_agent(session_id: UUID, user_message: str):
         #     print(f"Done tool: {event['name']}")
         #     print(f"Tool output was: {event['data'].get('output')}")
         #     print("--")
-

@@ -11,10 +11,10 @@ llm:
   model_supports_json: true # recommended if this is available for your model.
   # max_tokens: 4000
   # request_timeout: 180.0
-  api_base: ${GRAPHRAG_API_BASE}
-  api_version: ${GRAPHRAG_API_VERSION}
+  api_base: https://startino-eastus.openai.azure.com/
+  api_version: "2024-02-01"
   # organization: <organization_id>
-  deployment_name: ${GRAPHRAG_LLM_DEPLOYMENT_NAME}
+  deployment_name: gpt-4o
   # tokens_per_minute: 150_000 # set a leaky bucket throttle
   # requests_per_minute: 10_000 # set a leaky bucket throttle
   # max_retries: 10
