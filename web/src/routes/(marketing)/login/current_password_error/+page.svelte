@@ -14,5 +14,7 @@
   > and try again.
 </p>
 <p class="mt-6">
-  If you forget your password <a href="/login/forgot_password" class="underline">reset it</a>.
+  If you forget your password <a href="/login/forgot_password" class="underline"
+    >reset it</a
+  >.
 </p>

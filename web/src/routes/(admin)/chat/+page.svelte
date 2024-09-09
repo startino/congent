@@ -8,15 +8,14 @@
   let {
     profile,
     events,
-  }: { profile: Tables["profiles"]["Row"]; events: Tables["events"]["Row"][] } = data
-  
+  }: { profile: Tables["profiles"]["Row"]; events: Tables["events"]["Row"][] } =
+    data
 </script>
 
 <main class="flex h-full w-full flex-col items-center justify-center">
   <div
     class="items-between flex h-screen w-full max-w-3xl flex-col justify-between"
   >
-
     {#await events}
       <div class="flex w-full flex-col items-center justify-start gap-4 p-8">
         {#each Array.from({ length: 4 }) as _}

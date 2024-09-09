@@ -3,14 +3,13 @@
   import { navigating } from "$app/stores"
   import { expoOut } from "svelte/easing"
   import { slide } from "svelte/transition"
-  import { setContext } from '$lib/context';
+  import { setContext } from "$lib/context"
 
-  export let data;
+  export let data
 
-  let { forms } = data;
+  let { forms } = data
 
-  setContext('forms', forms);
-  
+  setContext("forms", forms)
 </script>
 
 {#if $navigating}
