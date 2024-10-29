@@ -45,7 +45,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@langchain/community": "^0.2.31",
+    "@langchain/community": "^0.3.3",
     "@langchain/core": "^0.2.30",
     "@langchain/langgraph": "^0.1.9",
     "@supabase/auth-helpers-sveltekit": "^0.11.0",
